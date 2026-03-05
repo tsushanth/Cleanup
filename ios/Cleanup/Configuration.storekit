@@ -1,0 +1,217 @@
+{
+  "identifier" : "D9E8F7A6-5B4C-3D2E-1A0B-9C8D7E6F5A4B",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1234567890",
+    "_developerTeamID" : "XXXXXXXXXX",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 756860000,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21403580",
+      "localizations" : [
+
+      ],
+      "name" : "Cleanup Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "6.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6478901235",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited cleanup features",
+              "displayName" : "Cleanup Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "cleanup_pro_monthly_999",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Cleanup Pro Monthly",
+          "subscriptionGroupID" : "21403580",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "19.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6478901236",
+          "introductoryOffer" : {
+            "internalID" : "A1B2C3D4-E5F6-7890-ABCD-EF1234567890",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Unlimited cleanup features - Best Value",
+              "displayName" : "Cleanup Pro Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "cleanup_pro_yearly_2999",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Cleanup Pro Yearly",
+          "subscriptionGroupID" : "21403580",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "21403581",
+      "localizations" : [
+
+      ],
+      "name" : "Cloud Archive Storage",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 3,
+          "internalID" : "6478901240",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "5 GB cloud archive storage",
+              "displayName" : "Archive 5 GB",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "cleanup_archive_5gb__199",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Archive 5GB Monthly",
+          "subscriptionGroupID" : "21403581",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6478901241",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "25 GB cloud archive storage",
+              "displayName" : "Archive 25 GB",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "cleanup_archive_25gb_499",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Archive 25GB Monthly",
+          "subscriptionGroupID" : "21403581",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "14.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6478901242",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "100 GB cloud archive storage - Best Value",
+              "displayName" : "Archive 100 GB",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "cleanup_archive_100gb_1499",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Archive 100GB Monthly",
+          "subscriptionGroupID" : "21403581",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

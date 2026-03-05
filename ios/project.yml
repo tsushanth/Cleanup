@@ -1,0 +1,92 @@
+name: Cleanup
+options:
+  bundleIdPrefix: com.kreativekoala
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+
+packages:
+  TikTokBusinessSDK:
+    url: https://github.com/tiktok/tiktok-business-ios-sdk
+    majorVersion: 1.0.0
+  RevenueCat:
+    url: https://github.com/RevenueCat/purchases-ios-spm
+    majorVersion: 5.0.0
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk
+    majorVersion: 11.0.0
+
+settings:
+  base:
+    MARKETING_VERSION: "4.1"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: "7RS696YC75"
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.9"
+
+targets:
+  Cleanup:
+    type: application
+    platform: iOS
+    sources:
+      - path: Cleanup
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kreativekoala.cleanup
+        INFOPLIST_FILE: Cleanup/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES
+        LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/Frameworks
+        TARGETED_DEVICE_FAMILY: "1,2"
+    dependencies:
+      - package: TikTokBusinessSDK
+      - package: RevenueCat
+        product: RevenueCat
+      - package: Firebase
+        product: FirebaseAnalytics
+    entitlements:
+      path: Cleanup/Cleanup.entitlements
+      properties:
+        com.apple.developer.in-app-payments: []
+        com.apple.security.application-groups:
+          - group.com.kreativekoala.cleanup
+        com.apple.developer.applesignin:
+          - Default
+
+  CleanupWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: CleanupWidget
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kreativekoala.cleanup.widget
+        INFOPLIST_FILE: CleanupWidget/Info.plist
+        ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME: WidgetBackground
+        TARGETED_DEVICE_FAMILY: "1,2"
+    dependencies:
+      - target: Cleanup
+        embed: true
+
+schemes:
+  Cleanup:
+    build:
+      targets:
+        Cleanup: all
+        CleanupWidget: all
+    run:
+      config: Debug
+      storeKitConfiguration: Cleanup/Configuration.storekit
+    test:
+      config: Debug
+      storeKitConfiguration: Cleanup/Configuration.storekit
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
