@@ -1,0 +1,13 @@
+{
+  "name": "cleanup-archive-backend",
+  "version": "1.0.0",
+  "description": "AWS Lambda backend for Cleanup app cloud archival feature",
+  "scripts": {
+    "deploy": "aws cloudformation deploy --template-file template.yml --stack-name cleanup-archive --capabilities CAPABILITY_IAM"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.500.0",
+    "@aws-sdk/client-s3": "^3.500.0",
+    "@aws-sdk/s3-request-presigner": "^3.500.0"
+  }
+}
