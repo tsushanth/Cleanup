@@ -145,11 +145,11 @@ struct DuplicateContactGroupCard: View {
             ArchiveSignInView(onSignIn: { archiveViewModel.onSignInComplete() })
         }
         .sheet(isPresented: $paywallCoordinator.showArchivePaywall) {
-            ArchivePaywallView()
+            RemoteArchivePaywallView()
                 .presentationDetents([.large])
         }
         .sheet(isPresented: $archiveViewModel.showArchiveUpgradePaywall) {
-            ArchivePaywallView()
+            RemoteArchivePaywallView()
                 .presentationDetents([.large])
         }
         .alert("Archive Error", isPresented: .init(

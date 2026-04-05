@@ -16,19 +16,16 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.android.billingclient.api.ProductDetails
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.billing.BillingManager
 import com.kreativekoala.cleanup.data.model.ArchiveSubscriptionTier
 
-/**
- * Port of iOS ArchivePaywallView.
- *
- * Shows archive storage tier options for subscription.
- */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ArchivePaywallScreen(
@@ -41,7 +38,7 @@ fun ArchivePaywallScreen(
     val activity = LocalContext.current as? Activity
     val archiveProducts = billingManager.archiveProducts
 
-    var selectedTierIndex by remember { mutableIntStateOf(1) } // Default to 25GB
+    var selectedTierIndex by remember { mutableIntStateOf(1) }
 
     val sortedProducts = archiveProducts.sortedBy {
         when {
@@ -58,7 +55,7 @@ fun ArchivePaywallScreen(
                 title = {},
                 navigationIcon = {
                     IconButton(onClick = onDismiss) {
-                        Icon(Icons.Default.Close, contentDescription = "Close")
+                        Icon(Icons.Default.Close, contentDescription = stringResource(R.string.paywall_close_cd))
                     }
                 }
             )
@@ -84,7 +81,7 @@ fun ArchivePaywallScreen(
             Spacer(modifier = Modifier.height(16.dp))
 
             Text(
-                "Delete with Confidence",
+                stringResource(R.string.archive_paywall_title),
                 style = MaterialTheme.typography.headlineSmall,
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center
@@ -93,7 +90,7 @@ fun ArchivePaywallScreen(
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                "Archive files to the cloud before deleting. Retrieve them anytime.",
+                stringResource(R.string.archive_paywall_subtitle),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 textAlign = TextAlign.Center
@@ -101,18 +98,16 @@ fun ArchivePaywallScreen(
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            // Features
-            ArchiveFeatureRow(Icons.Default.Shield, "Safety Net", "Never lose important files again")
+            ArchiveFeatureRow(Icons.Default.Shield, stringResource(R.string.archive_paywall_safety_title), stringResource(R.string.archive_paywall_safety_subtitle))
             Spacer(modifier = Modifier.height(12.dp))
-            ArchiveFeatureRow(Icons.Default.Restore, "Retrieve Anytime", "Download archived files whenever you need")
+            ArchiveFeatureRow(Icons.Default.Restore, stringResource(R.string.archive_paywall_retrieve_title), stringResource(R.string.archive_paywall_retrieve_subtitle))
             Spacer(modifier = Modifier.height(12.dp))
-            ArchiveFeatureRow(Icons.Default.Lock, "Encrypted Storage", "Your data is always encrypted and private")
+            ArchiveFeatureRow(Icons.Default.Lock, stringResource(R.string.archive_paywall_encrypted_title), stringResource(R.string.archive_paywall_encrypted_subtitle))
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            // Storage plans
             Text(
-                "Choose Your Plan",
+                stringResource(R.string.archive_paywall_choose_plan),
                 style = MaterialTheme.typography.titleMedium,
                 fontWeight = FontWeight.Bold
             )
@@ -140,7 +135,6 @@ fun ArchivePaywallScreen(
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Purchase button
             Button(
                 onClick = {
                     if (activity != null && sortedProducts.isNotEmpty()) {
@@ -162,14 +156,14 @@ fun ArchivePaywallScreen(
                         color = MaterialTheme.colorScheme.onPrimary
                     )
                 } else {
-                    Text("Subscribe", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                    Text(stringResource(R.string.archive_paywall_subscribe), fontSize = 18.sp, fontWeight = FontWeight.Bold)
                 }
             }
 
             Spacer(modifier = Modifier.height(12.dp))
 
             Text(
-                "Subscriptions auto-renew. Cancel anytime in Google Play settings.",
+                stringResource(R.string.paywall_terms),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 textAlign = TextAlign.Center
@@ -248,7 +242,7 @@ private fun StoragePlanCard(
                             color = MaterialTheme.colorScheme.primary
                         ) {
                             Text(
-                                "CURRENT",
+                                stringResource(R.string.archive_paywall_current),
                                 modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp),
                                 color = MaterialTheme.colorScheme.onPrimary,
                                 fontSize = 10.sp,
@@ -263,7 +257,7 @@ private fun StoragePlanCard(
                             color = Color(0xFF4CAF50)
                         ) {
                             Text(
-                                "BEST VALUE",
+                                stringResource(R.string.paywall_best_value),
                                 modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp),
                                 color = Color.White,
                                 fontSize = 10.sp,

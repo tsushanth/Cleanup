@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <!-- ==================== HOME SCREEN ==================== -->
+    <string name="home_title">Ein-Tipp-Bereinigung</string>
+    <string name="home_vault_cd">Tresor</string>
+    <string name="home_scanning">Wird gescannt\u2026</string>
+    <string name="home_one_tap_scan">Ein-Tipp-Scan</string>
+    <string name="home_grant_access_scan">Zugriff gew\u00e4hren &amp; scannen</string>
+    <string name="home_scanning_device">Ger\u00e4t wird gescannt\u2026</string>
+    <string name="home_quick_actions">Schnellaktionen</string>
+    <string name="home_chip_duplicates">Duplikate</string>
+    <string name="home_chip_screenshots">Screenshots</string>
+    <string name="home_chip_large_videos">Gro\u00dfe Videos</string>
+    <string name="home_chip_compress">Komprimieren</string>
+    <string name="home_chip_archive">Archivieren</string>
+    <string name="home_chip_downloads">Downloads</string>
+    <string name="home_chip_apk_files">APK-Dateien</string>
+    <string name="home_smart_scan_results">Smart-Scan-Ergebnisse</string>
+    <string name="home_category_duplicate_photos">Doppelte Fotos</string>
+    <string name="home_category_similar_photos">\u00c4hnliche Fotos</string>
+    <string name="home_category_screenshots">Screenshots</string>
+    <string name="home_category_large_videos">Gro\u00dfe Videos</string>
+    <string name="home_category_duplicate_contacts">Doppelte Kontakte</string>
+    <string name="home_file_management">Dateiverwaltung</string>
+    <string name="home_category_downloads">Downloads</string>
+    <string name="home_category_apk_files">APK-Dateien</string>
+    <string name="home_category_notification_manager">Benachrichtigungsmanager</string>
+    <string name="home_storage_used">%s belegt</string>
+    <string name="home_storage_total">%s gesamt</string>
+    <string name="home_storage_full">Ihr Speicher ist zu %d%% voll</string>
+    <string name="home_items_count">%d Elemente</string>
+    <string name="home_items_count_savings">%1$d Elemente \u00B7 %2$s</string>
+    <string name="home_tap_to_scan">Tippen zum Scannen</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_welcome_title">Ihr Telefon ist voller Unordnung</string>
+    <string name="onboarding_welcome_subtitle">Doppelte Fotos, alte Screenshots, gro\u00dfe Videos \u2014 sie fressen Ihren Speicher. Beheben wir das.</string>
+    <string name="onboarding_welcome_button">Aufr\u00e4umen</string>
+    <string name="onboarding_media_granted_title">Medienzugriff gew\u00e4hrt!</string>
+    <string name="onboarding_media_request_title">Auf Fotos &amp; Videos zugreifen</string>
+    <string name="onboarding_media_granted_subtitle">Wir scannen alle Ihre Fotos und Videos nach Duplikaten, \u00e4hnlichen Aufnahmen und Speicherfressern.</string>
+    <string name="onboarding_media_request_subtitle">Um Duplikate zu finden und Speicher freizugeben, ben\u00f6tigen wir Zugriff auf Ihre Fotos und Videos.</string>
+    <string name="onboarding_feature_private_title">100%% Privat</string>
+    <string name="onboarding_feature_private_subtitle">Alle Scans erfolgen auf dem Ger\u00e4t</string>
+    <string name="onboarding_feature_fast_title">Schneller Scan</string>
+    <string name="onboarding_feature_fast_subtitle">Dauert weniger als 30 Sekunden</string>
+    <string name="onboarding_feature_you_choose_title">Sie entscheiden</string>
+    <string name="onboarding_feature_you_choose_subtitle">Nichts wird ohne Ihre Zustimmung gel\u00f6scht</string>
+    <string name="onboarding_continue">Weiter</string>
+    <string name="onboarding_allow_photo_video">Foto- &amp; Videozugriff erlauben</string>
+    <string name="onboarding_skip">Vorerst \u00fcberspringen</string>
+    <string name="onboarding_contact_granted_title">Kontaktzugriff gew\u00e4hrt!</string>
+    <string name="onboarding_contact_request_title">Kontakte bereinigen</string>
+    <string name="onboarding_contact_granted_subtitle">Wir finden doppelte und unvollst\u00e4ndige Kontakte, damit Sie sie zusammenf\u00fchren oder entfernen k\u00f6nnen.</string>
+    <string name="onboarding_contact_request_subtitle">Finden und f\u00fchren Sie doppelte Kontakte zusammen, um Ihr Adressbuch ordentlich zu halten.</string>
+    <string name="onboarding_feature_find_dupes_title">Duplikate finden</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Erkennt Kontakte mit gleichem Namen oder Nummer</string>
+    <string name="onboarding_feature_smart_merge_title">Intelligentes Zusammenf\u00fchren</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Duplikate zu einem Kontakt vereinen</string>
+    <string name="onboarding_feature_safe_title">Sicher</string>
+    <string name="onboarding_feature_safe_subtitle">\u00dcberpr\u00fcfung vor \u00c4nderungen</string>
+    <string name="onboarding_allow_contact">Kontaktzugriff erlauben</string>
+    <string name="onboarding_ready_title">Alles bereit!</string>
+    <string name="onboarding_ready_subtitle">Tippen Sie auf die Schaltfl\u00e4che unten, um alles zu scannen und mit der Bereinigung zu beginnen.</string>
+    <string name="onboarding_photos_videos">Fotos &amp; Videos</string>
+    <string name="onboarding_contact_access">Kontaktzugriff</string>
+    <string name="onboarding_free_duplicates">5 kostenlose Duplikatentfernungen</string>
+    <string name="onboarding_free_similar">5 kostenlose \u00e4hnliche Foto-Bereinigungen</string>
+    <string name="onboarding_free_screenshots">5 kostenlose Screenshot-L\u00f6schungen</string>
+    <string name="onboarding_free_videos">5 kostenlose Video-Bereinigungen</string>
+    <string name="onboarding_free_contacts">5 kostenlose Kontaktzusammenf\u00fchrungen</string>
+    <string name="onboarding_free_label">GRATIS</string>
+    <string name="onboarding_get_started">Scannen &amp; Loslegen</string>
+
+    <!-- ==================== PAYWALL SCREEN ==================== -->
+    <string name="paywall_close_cd">Schlie\u00dfen</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">pro Jahr</string>
+    <string name="paywall_per_month">pro Monat</string>
+    <string name="paywall_feature_unlimited_title">Unbegrenzte Bereinigungen</string>
+    <string name="paywall_feature_unlimited_subtitle">Bereinigen Sie Ihr Ger\u00e4t so oft Sie m\u00f6chten</string>
+    <string name="paywall_feature_duplicates_title">Duplikate &amp; \u00c4hnliche l\u00f6schen</string>
+    <string name="paywall_feature_duplicates_subtitle">Doppelte Fotos sofort finden und entfernen</string>
+    <string name="paywall_feature_videos_title">Gro\u00dfe Video-Verwaltung</string>
+    <string name="paywall_feature_videos_subtitle">Speicherfressende Videos komprimieren oder l\u00f6schen</string>
+    <string name="paywall_feature_private_title">Privat &amp; Sicher</string>
+    <string name="paywall_feature_private_subtitle">Alle Scans erfolgen auf Ihrem Ger\u00e4t</string>
+    <string name="paywall_best_value">BESTES ANGEBOT</string>
+    <string name="paywall_save_75">75%% sparen vs. monatlich</string>
+    <string name="paywall_continue">Weiter</string>
+    <string name="paywall_restore">K\u00e4ufe wiederherstellen</string>
+    <string name="paywall_terms">Abonnements verl\u00e4ngern sich automatisch. Jederzeit in den Google Play-Einstellungen k\u00fcndbar.</string>
+
+    <!-- ==================== PHOTOS CLEANUP SCREEN ==================== -->
+    <string name="photos_title">Foto-Bereinigung</string>
+    <string name="photos_back_cd">Zur\u00fcck</string>
+    <string name="photos_change_folder_cd">Ordner \u00e4ndern</string>
+    <string name="photos_delete_count">%d l\u00f6schen</string>
+    <string name="photos_select_title">Fotos zur Analyse ausw\u00e4hlen</string>
+    <string name="photos_select_subtitle">W\u00e4hlen Sie, wie Sie Fotos f\u00fcr die Duplikat- und Screenshot-Erkennung bereitstellen m\u00f6chten.</string>
+    <string name="photos_select_all_folder">Alle ausw\u00e4hlen (Ordnerzugriff)</string>
+    <string name="photos_select_all_hint">Gew\u00e4hren Sie Zugriff auf Ihren DCIM- oder Bilder-Ordner, um alle Fotos zu scannen</string>
+    <string name="photos_choose">Fotos ausw\u00e4hlen</string>
+    <string name="photos_choose_hint">Bestimmte Fotos zur Analyse ausw\u00e4hlen</string>
+    <string name="photos_selected_count">%d ausgew\u00e4hlt</string>
+    <string name="photos_save_amount">%s sparen</string>
+    <string name="photos_tab_duplicates">Duplikate</string>
+    <string name="photos_tab_similar">\u00c4hnliche</string>
+    <string name="photos_tab_screenshots">Screenshots</string>
+    <string name="photos_no_duplicates_title">Keine Duplikate gefunden</string>
+    <string name="photos_no_duplicates_subtitle">Ihre Fotobibliothek ist sauber!</string>
+    <string name="photos_duplicates_summary">%1$d Duplikate in %2$d Gruppen</string>
+    <string name="photos_select_all">Alle ausw\u00e4hlen</string>
+    <string name="photos_deselect_all">Alle abw\u00e4hlen</string>
+    <string name="photos_n_duplicates">%d Duplikate</string>
+    <string name="photos_keep_best">Bestes behalten</string>
+    <string name="photos_no_similar_title">Keine \u00e4hnlichen Fotos</string>
+    <string name="photos_no_similar_subtitle">Keine Gruppen \u00e4hnlicher Fotos gefunden</string>
+    <string name="photos_similar_summary">%1$d \u00e4hnliche in %2$d Gruppen</string>
+    <string name="photos_n_similar">%d \u00e4hnliche Fotos</string>
+    <string name="photos_percent_similar">%d%% \u00e4hnlich</string>
+    <string name="photos_keep_best_select_others">Bestes behalten, andere ausw\u00e4hlen</string>
+    <string name="photos_no_screenshots_title">Keine Screenshots</string>
+    <string name="photos_no_screenshots_subtitle">Keine Screenshots in Ihrer Bibliothek gefunden</string>
+    <string name="photos_n_screenshots">%d Screenshots</string>
+    <string name="photos_selected_cd">Ausgew\u00e4hlt</string>
+    <string name="photos_best_badge">BESTES</string>
+    <string name="photos_scanning">Fotos werden gescannt\u2026</string>
+    <string name="photos_delete_title">%d Fotos l\u00f6schen?</string>
+    <string name="photos_delete_message">Dies l\u00f6scht die ausgew\u00e4hlten Fotos dauerhaft von Ihrem Ger\u00e4t. Diese Aktion kann nicht r\u00fcckg\u00e4ngig gemacht werden.</string>
+    <string name="photos_delete_permanently">Dauerhaft l\u00f6schen</string>
+    <string name="cancel">Abbrechen</string>
+
+    <!-- ==================== UPGRADE / PAYWALL DIALOG ==================== -->
+    <string name="upgrade_title">Auf Pro upgraden</string>
+    <string name="upgrade_message">Sie haben alle kostenlosen Bereinigungen f\u00fcr diese Kategorie verbraucht. Upgraden Sie auf Pro f\u00fcr unbegrenzten Zugang.</string>
+    <string name="upgrade_button">Upgraden</string>
+    <string name="upgrade_not_now">Nicht jetzt</string>
+
+    <!-- ==================== VAULT SCREEN ==================== -->
+    <string name="vault_title">Tresor</string>
+    <string name="vault_lock_cd">Sperren</string>
+    <string name="vault_add_cd">Elemente hinzuf\u00fcgen</string>
+    <string name="vault_secret_space">Geheimer Bereich</string>
+    <string name="vault_enter_pin">PIN eingeben f\u00fcr Zugriff</string>
+    <string name="vault_use_biometrics">Biometrie verwenden</string>
+    <string name="vault_biometric_title">Geheimen Bereich \u00f6ffnen</string>
+    <string name="vault_biometric_subtitle">Verwenden Sie Ihren Fingerabdruck oder Ihr Gesicht zum Entsperren</string>
+    <string name="vault_biometric_negative">PIN verwenden</string>
+    <string name="vault_backspace_cd">L\u00f6schen</string>
+    <string name="vault_create_pin">PIN erstellen</string>
+    <string name="vault_confirm_pin">PIN best\u00e4tigen</string>
+    <string name="vault_create_pin_subtitle">W\u00e4hlen Sie eine 4-stellige PIN zum Schutz Ihres Tresors</string>
+    <string name="vault_confirm_pin_subtitle">Geben Sie dieselbe PIN erneut ein</string>
+    <string name="vault_pin_mismatch">PINs stimmen nicht \u00fcberein. Bitte versuchen Sie es erneut.</string>
+    <string name="vault_empty_title">Ihr Tresor ist leer</string>
+    <string name="vault_empty_subtitle">F\u00fcgen Sie Fotos und Videos hinzu, um sie privat zu halten</string>
+    <string name="vault_add_items">Elemente hinzuf\u00fcgen</string>
+    <string name="vault_adding">Wird zum Tresor hinzugef\u00fcgt\u2026</string>
+    <string name="vault_add_to_vault">Zum Tresor hinzuf\u00fcgen</string>
+    <string name="vault_select_items_subtitle">W\u00e4hlen Sie Elemente zum Hinzuf\u00fcgen zum Tresor</string>
+    <string name="vault_select_from_photos">Aus Fotos ausw\u00e4hlen</string>
+    <string name="vault_select_from_files">Aus Dateien ausw\u00e4hlen</string>
+    <string name="vault_delete_title">Element l\u00f6schen</string>
+    <string name="vault_delete_message">Dies l\u00f6scht das Element dauerhaft aus Ihrem Tresor.</string>
+    <string name="vault_delete_button">L\u00f6schen</string>
+    <string name="vault_restore_title">Element wiederherstellen</string>
+    <string name="vault_restore_message">Dies stellt das Element in Ihrer Fotobibliothek wieder her.</string>
+    <string name="vault_restore_button">Wiederherstellen</string>
+    <string name="vault_added_date">Hinzugef\u00fcgt: %s</string>
+    <string name="vault_item_size">Gr\u00f6\u00dfe: %s</string>
+
+    <!-- ==================== CONTACTS CLEANUP SCREEN ==================== -->
+    <string name="contacts_title">Kontakt-Bereinigung</string>
+    <string name="contacts_tab_duplicates">Duplikate</string>
+    <string name="contacts_tab_incomplete">Unvollst\u00e4ndig</string>
+    <string name="contacts_access_required">Kontaktzugriff erforderlich</string>
+    <string name="contacts_access_message">Cleanup ben\u00f6tigt Zugriff auf Ihre Kontakte, um Duplikate und unvollst\u00e4ndige Eintr\u00e4ge zu finden.</string>
+    <string name="contacts_grant_access">Zugriff gew\u00e4hren</string>
+    <string name="contacts_no_duplicates_title">Keine Duplikate</string>
+    <string name="contacts_no_duplicates_subtitle">Ihre Kontakte sind sauber!</string>
+    <string name="contacts_n_duplicates">%d Duplikate</string>
+    <string name="contacts_merge_all">Alle zusammenf\u00fchren</string>
+    <string name="contacts_delete_dupes">Duplikate l\u00f6schen</string>
+    <string name="contacts_no_name">Kein Name</string>
+    <string name="contacts_no_incomplete_title">Keine unvollst\u00e4ndigen Kontakte</string>
+    <string name="contacts_no_incomplete_subtitle">Alle Kontakte haben vollst\u00e4ndige Informationen</string>
+    <string name="contacts_n_incomplete">%d unvollst\u00e4ndig</string>
+    <string name="contacts_delete_selected">Ausgew\u00e4hlte l\u00f6schen (%d)</string>
+    <string name="contacts_merge_title">Kontakte zusammenf\u00fchren</string>
+    <string name="contacts_merge_subtitle">W\u00e4hlen Sie den Hauptkontakt aus. Informationen anderer Kontakte werden darin zusammengef\u00fchrt.</string>
+    <string name="contacts_merge_button">Kontakte zusammenf\u00fchren</string>
+    <string name="contacts_scanning">Kontakte werden gescannt\u2026</string>
+
+    <!-- ==================== VIDEOS CLEANUP SCREEN ==================== -->
+    <string name="videos_title">Video-Bereinigung</string>
+    <string name="videos_delete_count">%d l\u00f6schen</string>
+    <string name="videos_select_title">Videos zur Analyse ausw\u00e4hlen</string>
+    <string name="videos_select_subtitle">W\u00e4hlen Sie, wie Sie Videos f\u00fcr die Erkennung gro\u00dfer Dateien und Komprimierung bereitstellen m\u00f6chten.</string>
+    <string name="videos_select_all_folder">Alle ausw\u00e4hlen (Ordnerzugriff)</string>
+    <string name="videos_select_all_hint">Gew\u00e4hren Sie Zugriff auf Ihren DCIM- oder Medienordner, um alle Videos zu scannen</string>
+    <string name="videos_choose">Videos ausw\u00e4hlen</string>
+    <string name="videos_choose_hint">Bestimmte Videos zur Analyse ausw\u00e4hlen</string>
+    <string name="videos_tab_large">Gro\u00dfe Videos</string>
+    <string name="videos_tab_compress">Komprimieren</string>
+    <string name="videos_no_large_title">Keine gro\u00dfen Videos</string>
+    <string name="videos_no_large_subtitle">Keine Videos \u00fcber 50 MB gefunden</string>
+    <string name="videos_n_large">%d gro\u00dfe Videos</string>
+    <string name="videos_delete_title">%d Videos l\u00f6schen?</string>
+    <string name="videos_delete_message">Dies l\u00f6scht die ausgew\u00e4hlten Videos dauerhaft. Diese Aktion kann nicht r\u00fcckg\u00e4ngig gemacht werden.</string>
+    <string name="videos_no_compress_title">Keine Videos</string>
+    <string name="videos_no_compress_subtitle">Keine komprimierbaren Videos gefunden</string>
+    <string name="videos_compression_quality">Komprimierungsqualit\u00e4t</string>
+    <string name="videos_select_videos">Videos ausw\u00e4hlen</string>
+    <string name="videos_n_selected">%d ausgew\u00e4hlt</string>
+    <string name="videos_compress_n">%d Videos komprimieren</string>
+    <string name="videos_scanning">Videos werden gescannt\u2026</string>
+    <string name="videos_compressing_title">Video wird komprimiert</string>
+
+    <!-- ==================== DOWNLOADS SCREEN ==================== -->
+    <string name="downloads_title">Downloads</string>
+    <string name="downloads_deselect">Abw\u00e4hlen</string>
+    <string name="downloads_delete_n_files">%d Dateien l\u00f6schen</string>
+    <string name="downloads_scanning">Download-Ordner wird gescannt\u2026</string>
+    <string name="downloads_clean">Download-Ordner ist sauber!</string>
+    <string name="downloads_summary">%1$d Dateien (%2$s)</string>
+
+    <!-- ==================== APK SCREEN ==================== -->
+    <string name="apk_title">APK-Dateien</string>
+    <string name="apk_deselect">Abw\u00e4hlen</string>
+    <string name="apk_delete_n">%d APKs l\u00f6schen</string>
+    <string name="apk_scanning">Suche nach APK-Dateien\u2026</string>
+    <string name="apk_none_found">Keine APK-Dateien gefunden!</string>
+    <string name="apk_all_filter">Alle (%d)</string>
+
+    <!-- ==================== NOTIFICATIONS SCREEN ==================== -->
+    <string name="notifications_title">Benachrichtigungen</string>
+    <string name="notifications_analyzing">Benachrichtigungen werden analysiert\u2026</string>
+    <string name="notifications_no_apps">Keine Apps gefunden</string>
+    <string name="notifications_apps_count">%d Apps mit Benachrichtigungen</string>
+    <string name="notifications_manage_hint">Tippen Sie, um die Benachrichtigungseinstellungen f\u00fcr jede App zu verwalten</string>
+    <string name="notifications_enabled">Benachrichtigungen aktiviert</string>
+    <string name="notifications_disabled">Benachrichtigungen deaktiviert</string>
+    <string name="notifications_manage_button">Verwalten</string>
+
+    <!-- ==================== ARCHIVE SCREEN ==================== -->
+    <string name="archive_title">Cloud-Archiv</string>
+    <string name="archive_sync_cd">Synchronisieren</string>
+    <string name="archive_storage_used">Genutzter Speicher</string>
+    <string name="archive_empty_title">Keine archivierten Elemente</string>
+    <string name="archive_empty_subtitle">Archivieren Sie Fotos und Videos aus den Bereinigungs-Bildschirmen, um Ger\u00e4tespeicher freizugeben</string>
+    <string name="archive_items_count">%d Elemente archiviert</string>
+    <string name="archive_detail_archived">Archiviert: %s</string>
+    <string name="archive_detail_size">Gr\u00f6\u00dfe: %s</string>
+    <string name="archive_detail_tier">Stufe: %s</string>
+    <string name="archive_retrieve_button">Abrufen</string>
+    <string name="archive_delete_title">Archiviertes Element l\u00f6schen</string>
+    <string name="archive_delete_message">Dies entfernt dieses Element dauerhaft aus Ihrem Archiv. Dies kann nicht r\u00fcckg\u00e4ngig gemacht werden.</string>
+    <string name="archive_success_title">Erfolgreich archiviert</string>
+    <string name="archive_success_message">%d Element(e) wurden in der Cloud archiviert.</string>
+    <string name="archive_restore_success_title">Erfolgreich wiederhergestellt</string>
+    <string name="archive_restore_success_message">Das Element wurde auf Ihrem Ger\u00e4t wiederhergestellt.</string>
+    <string name="archive_error_title">Fehler</string>
+    <string name="ok">OK</string>
+
+    <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
+    <string name="archive_signin_title">F\u00fcr Cloud-Archiv anmelden</string>
+    <string name="archive_signin_subtitle">Archivieren Sie Ihre Fotos und Videos in der Cloud, bevor Sie sie von Ihrem Ger\u00e4t l\u00f6schen</string>
+    <string name="archive_signin_encrypted_title">Ende-zu-Ende-verschl\u00fcsselt</string>
+    <string name="archive_signin_encrypted_subtitle">Ihre Daten werden verschl\u00fcsselt, bevor sie Ihr Ger\u00e4t verlassen</string>
+    <string name="archive_signin_retrieve_title">Jederzeit abrufen</string>
+    <string name="archive_signin_retrieve_subtitle">Laden Sie Ihre archivierten Dateien herunter, wann immer Sie sie brauchen</string>
+    <string name="archive_signin_private_title">Privat &amp; Sicher</string>
+    <string name="archive_signin_private_subtitle">Keine Passw\u00f6rter zu merken \u2014 mit Google anmelden</string>
+    <string name="archive_signin_google">Mit Google anmelden</string>
+    <string name="archive_signin_privacy">Ihre Daten werden nur f\u00fcr Cloud-Archiv-Speicher verwendet. Wir teilen oder verkaufen Ihre Informationen niemals.</string>
+
+    <!-- ==================== ARCHIVE PAYWALL SCREEN ==================== -->
+    <string name="archive_paywall_title">Mit Sicherheit l\u00f6schen</string>
+    <string name="archive_paywall_subtitle">Archivieren Sie Dateien in der Cloud, bevor Sie sie l\u00f6schen. Jederzeit abrufbar.</string>
+    <string name="archive_paywall_safety_title">Sicherheitsnetz</string>
+    <string name="archive_paywall_safety_subtitle">Verlieren Sie nie wieder wichtige Dateien</string>
+    <string name="archive_paywall_retrieve_title">Jederzeit abrufen</string>
+    <string name="archive_paywall_retrieve_subtitle">Archivierte Dateien herunterladen, wann immer Sie sie brauchen</string>
+    <string name="archive_paywall_encrypted_title">Verschl\u00fcsselter Speicher</string>
+    <string name="archive_paywall_encrypted_subtitle">Ihre Daten sind immer verschl\u00fcsselt und privat</string>
+    <string name="archive_paywall_choose_plan">W\u00e4hlen Sie Ihren Plan</string>
+    <string name="archive_paywall_current">AKTUELL</string>
+    <string name="archive_paywall_subscribe">Abonnieren</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_account">Konto</string>
+    <string name="settings_sign_in">Anmelden</string>
+    <string name="settings_subscription">Abonnement</string>
+    <string name="settings_upgrade_pro">Auf Pro upgraden</string>
+    <string name="settings_features">Funktionen</string>
+    <string name="settings_secret_space">Geheimer Bereich</string>
+    <string name="settings_email_cleanup">E-Mail-Bereinigung</string>
+    <string name="settings_widgets">Widgets</string>
+    <string name="settings_about">\u00dcber</string>
+    <string name="settings_privacy_policy">Datenschutzrichtlinie</string>
+    <string name="settings_terms">Nutzungsbedingungen</string>
+    <string name="settings_rate_us">Bewerten Sie uns</string>
+    <string name="settings_version">Version 1.1 (2)</string>
+
+    <!-- ==================== NAV / LOGIN / PLACEHOLDER ==================== -->
+    <string name="nav_home">Startseite</string>
+    <string name="nav_photos">Fotos</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_contacts">Kontakte</string>
+    <string name="nav_settings">Einstellungen</string>
+    <string name="login_title">Anmelden</string>
+    <string name="login_coming_soon">Demnächst</string>
+    <string name="login_coming_soon_subtitle">Die Kontoanmeldung wird in einem zuk\u00fcnftigen Update verf\u00fcgbar sein.</string>
+    <string name="login_email">E-Mail</string>
+    <string name="login_password">Passwort</string>
+    <string name="login_button">Anmelden</string>
+    <string name="placeholder_coming_soon">%s - Demn\u00e4chst</string>
+    <string name="email_cleanup_title">E-Mail-Bereinigung</string>
+    <string name="widgets_title">Widgets</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="back_cd">Zur\u00fcck</string>
+    <string name="delete_button">L\u00f6schen</string>
+</resources>

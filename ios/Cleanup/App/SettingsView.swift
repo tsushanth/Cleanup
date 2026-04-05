@@ -8,29 +8,39 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack {
             List {
-                // Subscription Section
+                // Subscriptions Section
                 Section {
+                    // Pro row
                     if entitlementManager.isPro {
                         HStack {
                             Image(systemName: "crown.fill")
                                 .foregroundColor(.yellow)
                             VStack(alignment: .leading) {
-                                Text("Premium Active")
+                                Text("SmartSpace Pro")
                                     .font(.headline)
                                 Text(entitlementManager.subscriptionTypeDescription)
                                     .font(.caption)
                                     .foregroundColor(.secondary)
                             }
+                            Spacer()
+                            Text("ACTIVE")
+                                .font(.caption2)
+                                .fontWeight(.bold)
+                                .foregroundColor(.white)
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 3)
+                                .background(Color.green)
+                                .cornerRadius(4)
                         }
                     } else {
                         Button(action: { paywallCoordinator.showPaywall(context: .generic) }) {
                             HStack {
-                                Image(systemName: "star.fill")
-                                    .foregroundColor(.orange)
+                                Image(systemName: "trash.fill")
+                                    .foregroundColor(.blue)
                                 VStack(alignment: .leading) {
-                                    Text("Upgrade to Premium")
+                                    Text("SmartSpace Pro")
                                         .font(.headline)
-                                    Text("Unlock all features")
+                                    Text("Unlimited cleanup, duplicates & more")
                                         .font(.caption)
                                         .foregroundColor(.secondary)
                                 }
@@ -42,14 +52,14 @@ struct SettingsView: View {
                         .foregroundColor(.primary)
                     }
 
-                    // Archive Storage Subscriptions
+                    // Archive row — always visible, independent of Pro
                     if entitlementManager.hasArchiveSubscription {
-                        NavigationLink(destination: ArchivePaywallView()) {
+                        NavigationLink(destination: RemoteArchivePaywallView()) {
                             HStack {
                                 Image(systemName: "icloud.fill")
                                     .foregroundColor(.cyan)
                                 VStack(alignment: .leading) {
-                                    Text("Cloud Archive Active")
+                                    Text("Cloud Archive")
                                         .font(.headline)
                                     if let tier = entitlementManager.currentArchiveTier {
                                         Text(tier.displayName + " — Tap to manage")
@@ -57,27 +67,42 @@ struct SettingsView: View {
                                             .foregroundColor(.secondary)
                                     }
                                 }
+                                Spacer()
+                                Text("ACTIVE")
+                                    .font(.caption2)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.white)
+                                    .padding(.horizontal, 8)
+                                    .padding(.vertical, 3)
+                                    .background(Color.green)
+                                    .cornerRadius(4)
                             }
                         }
                         .foregroundColor(.primary)
-                    } else if entitlementManager.isPro {
-                        NavigationLink(destination: ArchivePaywallView()) {
+                    } else {
+                        NavigationLink(destination: RemoteArchivePaywallView()) {
                             HStack {
                                 Image(systemName: "icloud.fill")
                                     .foregroundColor(.cyan)
                                 VStack(alignment: .leading) {
-                                    Text("Add Cloud Archive")
+                                    Text("Cloud Archive")
                                         .font(.headline)
-                                    Text("Archive files instead of deleting")
+                                    Text("Save files to cloud before deleting")
                                         .font(.caption)
                                         .foregroundColor(.secondary)
                                 }
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundColor(.secondary)
                             }
                         }
                         .foregroundColor(.primary)
                     }
                 } header: {
-                    Text("Subscription")
+                    Text("Subscriptions")
+                } footer: {
+                    Text("Pro and Cloud Archive are separate — purchase one or both.")
+                        .font(.caption)
                 }
 
                 // Features Section
@@ -123,29 +148,6 @@ struct SettingsView: View {
                     }
                 } header: {
                     Text("Features")
-                }
-
-                // Cloud Archive Section
-                if entitlementManager.hasArchiveSubscription {
-                    Section {
-                        NavigationLink(destination: ArchiveView()) {
-                            HStack {
-                                SettingsRow(
-                                    icon: "icloud.fill",
-                                    iconColor: .cyan,
-                                    title: "Cloud Archive"
-                                )
-                                Spacer()
-                                if let tier = entitlementManager.currentArchiveTier {
-                                    Text(tier.displayName)
-                                        .font(.caption)
-                                        .foregroundColor(.secondary)
-                                }
-                            }
-                        }
-                    } header: {
-                        Text("Cloud Archive")
-                    }
                 }
 
                 // Privacy Section

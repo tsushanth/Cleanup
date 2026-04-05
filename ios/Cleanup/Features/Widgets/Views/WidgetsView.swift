@@ -211,7 +211,7 @@ struct QuickCleanupWidgetPreview: View {
                 .font(.system(size: 24))
                 .foregroundColor(.blue)
 
-            Text("Cleanup: One Tap")
+            Text("SmartSpace")
                 .font(.caption2)
                 .fontWeight(.medium)
                 .multilineTextAlignment(.center)

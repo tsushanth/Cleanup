@@ -174,7 +174,7 @@ struct CleanupConfirmationView: View {
                     .padding()
                 }
             }
-            .navigationTitle("Cleanup: One Tap")
+            .navigationTitle("SmartSpace")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
@@ -189,11 +189,11 @@ struct CleanupConfirmationView: View {
                 ArchiveSignInView(onSignIn: { archiveViewModel.onSignInComplete() })
             }
             .sheet(isPresented: $paywallCoordinator.showArchivePaywall) {
-                ArchivePaywallView()
+                RemoteArchivePaywallView()
                     .presentationDetents([.large])
             }
             .sheet(isPresented: $archiveViewModel.showArchiveUpgradePaywall) {
-                ArchivePaywallView()
+                RemoteArchivePaywallView()
                     .presentationDetents([.large])
             }
             .alert("Archive Error", isPresented: .init(
@@ -371,11 +371,7 @@ struct SuccessView: View {
             // Post-delete archive suggestion
             if !entitlementManager.hasArchiveSubscription && result.itemsRemoved > 0 {
                 Button {
-                    if entitlementManager.isPro {
-                        paywallCoordinator.showArchivePaywall = true
-                    } else {
-                        paywallCoordinator.showPaywall(context: .generic)
-                    }
+                    paywallCoordinator.showArchivePaywall = true
                 } label: {
                     HStack(spacing: 10) {
                         Image(systemName: "shield.checkered")
@@ -418,7 +414,7 @@ struct SuccessView: View {
             .padding()
         }
         .sheet(isPresented: $paywallCoordinator.showArchivePaywall) {
-            ArchivePaywallView()
+            RemoteArchivePaywallView()
                 .presentationDetents([.large])
         }
     }

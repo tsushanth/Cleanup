@@ -1,112 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Scheme
-   LastUpgradeVersion = "1500"
-   version = "1.7">
-   <BuildAction
-      parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES"
-      runPostActionsOnFailure = "NO">
+<?xml version='1.0' encoding='UTF-8'?>
+<Scheme LastUpgradeVersion='1500' version='1.7'>
+   <BuildAction parallelizeBuildables='YES' buildImplicitDependencies='YES' runPostActionsOnFailure='NO'>
       <BuildActionEntries>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21F9A41B3ACE2DC1EF3AF348"
-               BuildableName = "Cleanup.app"
-               BlueprintName = "Cleanup"
-               ReferencedContainer = "container:Cleanup.xcodeproj">
-            </BuildableReference>
+         <BuildActionEntry buildForTesting='YES' buildForRunning='YES' buildForProfiling='YES' buildForArchiving='YES' buildForAnalyzing='YES'>
+            <BuildableReference BuildableIdentifier='primary' BlueprintIdentifier='21F9A41B3ACE2DC1EF3AF348' BuildableName='Cleanup.app' BlueprintName='Cleanup' ReferencedContainer='container:Cleanup.xcodeproj'> </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33CC14FFF4F23970C7334CF4"
-               BuildableName = "CleanupWidget.appex"
-               BlueprintName = "CleanupWidget"
-               ReferencedContainer = "container:Cleanup.xcodeproj">
-            </BuildableReference>
+         <BuildActionEntry buildForTesting='YES' buildForRunning='YES' buildForProfiling='YES' buildForArchiving='YES' buildForAnalyzing='YES'>
+            <BuildableReference BuildableIdentifier='primary' BlueprintIdentifier='33CC14FFF4F23970C7334CF4' BuildableName='CleanupWidget.appex' BlueprintName='CleanupWidget' ReferencedContainer='container:Cleanup.xcodeproj'> </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
-   <TestAction
-      buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      onlyGenerateCoverageForSpecifiedTargets = "NO">
+   <TestAction buildConfiguration='Debug' selectedDebuggerIdentifier='Xcode.DebuggerFoundation.Debugger.LLDB' selectedLauncherIdentifier='Xcode.DebuggerFoundation.Launcher.LLDB' shouldUseLaunchSchemeArgsEnv='YES' onlyGenerateCoverageForSpecifiedTargets='NO'>
       <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21F9A41B3ACE2DC1EF3AF348"
-            BuildableName = "Cleanup.app"
-            BlueprintName = "Cleanup"
-            ReferencedContainer = "container:Cleanup.xcodeproj">
-         </BuildableReference>
+         <BuildableReference BuildableIdentifier='primary' BlueprintIdentifier='21F9A41B3ACE2DC1EF3AF348' BuildableName='Cleanup.app' BlueprintName='Cleanup' ReferencedContainer='container:Cleanup.xcodeproj'> </BuildableReference>
       </MacroExpansion>
       <Testables>
+         <TestableReference skipped='NO' parallelizable='YES'>
+            <BuildableReference BuildableIdentifier='primary' BlueprintIdentifier='14EDD48610FC0FD10F88868A' BuildableName='CleanupUITests.xctest' BlueprintName='CleanupUITests' ReferencedContainer='container:Cleanup.xcodeproj'/>
+         </TestableReference>
       </Testables>
-      <CommandLineArguments>
-      </CommandLineArguments>
+      <CommandLineArguments> </CommandLineArguments>
    </TestAction>
-   <LaunchAction
-      buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      launchStyle = "0"
-      useCustomWorkingDirectory = "NO"
-      ignoresPersistentStateOnLaunch = "NO"
-      debugDocumentVersioning = "YES"
-      debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21F9A41B3ACE2DC1EF3AF348"
-            BuildableName = "Cleanup.app"
-            BlueprintName = "Cleanup"
-            ReferencedContainer = "container:Cleanup.xcodeproj">
-         </BuildableReference>
+   <LaunchAction buildConfiguration='Debug' selectedDebuggerIdentifier='Xcode.DebuggerFoundation.Debugger.LLDB' selectedLauncherIdentifier='Xcode.DebuggerFoundation.Launcher.LLDB' launchStyle='0' useCustomWorkingDirectory='NO' ignoresPersistentStateOnLaunch='NO' debugDocumentVersioning='YES' debugServiceExtension='internal' allowLocationSimulation='YES'>
+      <BuildableProductRunnable runnableDebuggingMode='0'>
+         <BuildableReference BuildableIdentifier='primary' BlueprintIdentifier='21F9A41B3ACE2DC1EF3AF348' BuildableName='Cleanup.app' BlueprintName='Cleanup' ReferencedContainer='container:Cleanup.xcodeproj'> </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-      </CommandLineArguments>
-      <StoreKitConfigurationFileReference
-         identifier = "../../Cleanup/Configuration.storekit">
-      </StoreKitConfigurationFileReference>
+      <CommandLineArguments> </CommandLineArguments>
+      <StoreKitConfigurationFileReference identifier='../../Cleanup/Configuration.storekit'> </StoreKitConfigurationFileReference>
    </LaunchAction>
-   <ProfileAction
-      buildConfiguration = "Release"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      savedToolIdentifier = ""
-      useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21F9A41B3ACE2DC1EF3AF348"
-            BuildableName = "Cleanup.app"
-            BlueprintName = "Cleanup"
-            ReferencedContainer = "container:Cleanup.xcodeproj">
-         </BuildableReference>
+   <ProfileAction buildConfiguration='Release' shouldUseLaunchSchemeArgsEnv='YES' savedToolIdentifier='' useCustomWorkingDirectory='NO' debugDocumentVersioning='YES'>
+      <BuildableProductRunnable runnableDebuggingMode='0'>
+         <BuildableReference BuildableIdentifier='primary' BlueprintIdentifier='21F9A41B3ACE2DC1EF3AF348' BuildableName='Cleanup.app' BlueprintName='Cleanup' ReferencedContainer='container:Cleanup.xcodeproj'> </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-      </CommandLineArguments>
+      <CommandLineArguments> </CommandLineArguments>
    </ProfileAction>
-   <AnalyzeAction
-      buildConfiguration = "Debug">
-   </AnalyzeAction>
-   <ArchiveAction
-      buildConfiguration = "Release"
-      revealArchiveInOrganizer = "YES">
-   </ArchiveAction>
+   <AnalyzeAction buildConfiguration='Debug'> </AnalyzeAction>
+   <ArchiveAction buildConfiguration='Release' revealArchiveInOrganizer='YES'> </ArchiveAction>
 </Scheme>

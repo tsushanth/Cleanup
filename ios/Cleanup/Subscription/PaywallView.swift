@@ -210,7 +210,7 @@ struct PaywallHeaderView: View {
 struct PaywallFeaturesView: View {
     var body: some View {
         VStack(spacing: 16) {
-            ForEach(PaywallFeature.allFeatures) { feature in
+            ForEach(LocalPaywallFeature.allFeatures) { feature in
                 HStack(spacing: 14) {
                     Image(systemName: feature.icon)
                         .font(.title3)

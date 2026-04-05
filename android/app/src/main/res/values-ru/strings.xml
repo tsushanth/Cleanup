@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <!-- ==================== HOME SCREEN ==================== -->
+    <string name="home_title">Очистка одним касанием</string>
+    <string name="home_vault_cd">Хранилище</string>
+    <string name="home_scanning">Сканирование…</string>
+    <string name="home_one_tap_scan">Сканирование одним касанием</string>
+    <string name="home_grant_access_scan">Предоставить доступ и сканировать</string>
+    <string name="home_scanning_device">Сканирование устройства…</string>
+    <string name="home_quick_actions">Быстрые действия</string>
+    <string name="home_chip_duplicates">Дубликаты</string>
+    <string name="home_chip_screenshots">Скриншоты</string>
+    <string name="home_chip_large_videos">Большие видео</string>
+    <string name="home_chip_compress">Сжатие</string>
+    <string name="home_chip_archive">Архив</string>
+    <string name="home_chip_downloads">Загрузки</string>
+    <string name="home_chip_apk_files">Файлы APK</string>
+    <string name="home_smart_scan_results">Результаты умного сканирования</string>
+    <string name="home_category_duplicate_photos">Дубликаты фото</string>
+    <string name="home_category_similar_photos">Похожие фото</string>
+    <string name="home_category_screenshots">Скриншоты</string>
+    <string name="home_category_large_videos">Большие видео</string>
+    <string name="home_category_duplicate_contacts">Дубликаты контактов</string>
+    <string name="home_file_management">Управление файлами</string>
+    <string name="home_category_downloads">Загрузки</string>
+    <string name="home_category_apk_files">Файлы APK</string>
+    <string name="home_category_notification_manager">Управление уведомлениями</string>
+    <string name="home_storage_used">%s использовано</string>
+    <string name="home_storage_total">%s всего</string>
+    <string name="home_storage_full">Хранилище заполнено на %d%%</string>
+    <string name="home_items_count">%d элементов</string>
+    <string name="home_items_count_savings">%1$d элементов \u00B7 %2$s</string>
+    <string name="home_tap_to_scan">Нажмите для сканирования</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_welcome_title">Ваш телефон полон мусора</string>
+    <string name="onboarding_welcome_subtitle">Дубликаты фото, старые скриншоты, большие видео \u2014 они занимают ваше хранилище. Давайте это исправим.</string>
+    <string name="onboarding_welcome_button">Давайте очистим</string>
+    <string name="onboarding_media_granted_title">Доступ к медиа предоставлен!</string>
+    <string name="onboarding_media_request_title">Доступ к фото и видео</string>
+    <string name="onboarding_media_granted_subtitle">Мы просканируем все ваши фото и видео на наличие дубликатов, похожих снимков и больших файлов.</string>
+    <string name="onboarding_media_request_subtitle">Для поиска дубликатов и освобождения места нам нужен доступ к вашим фото и видео.</string>
+    <string name="onboarding_feature_private_title">100% конфиденциально</string>
+    <string name="onboarding_feature_private_subtitle">Сканирование происходит на устройстве</string>
+    <string name="onboarding_feature_fast_title">Быстрое сканирование</string>
+    <string name="onboarding_feature_fast_subtitle">Занимает менее 30 секунд</string>
+    <string name="onboarding_feature_you_choose_title">Вы решаете</string>
+    <string name="onboarding_feature_you_choose_subtitle">Ничего не удаляется без вашего одобрения</string>
+    <string name="onboarding_continue">Продолжить</string>
+    <string name="onboarding_allow_photo_video">Разрешить доступ к фото и видео</string>
+    <string name="onboarding_skip">Пропустить</string>
+    <string name="onboarding_contact_granted_title">Доступ к контактам предоставлен!</string>
+    <string name="onboarding_contact_request_title">Очистка контактов</string>
+    <string name="onboarding_contact_granted_subtitle">Мы найдём дубликаты и неполные контакты, чтобы вы могли объединить или удалить их.</string>
+    <string name="onboarding_contact_request_subtitle">Найдите и объедините дубликаты контактов, чтобы навести порядок в адресной книге.</string>
+    <string name="onboarding_feature_find_dupes_title">Поиск дубликатов</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Обнаружение контактов с одинаковым именем или номером</string>
+    <string name="onboarding_feature_smart_merge_title">Умное объединение</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Объединение дубликатов в один контакт</string>
+    <string name="onboarding_feature_safe_title">Безопасно</string>
+    <string name="onboarding_feature_safe_subtitle">Проверка перед любыми изменениями</string>
+    <string name="onboarding_allow_contact">Разрешить доступ к контактам</string>
+    <string name="onboarding_ready_title">Всё готово!</string>
+    <string name="onboarding_ready_subtitle">Нажмите кнопку ниже, чтобы просканировать всё и начать очистку.</string>
+    <string name="onboarding_photos_videos">Фото и видео</string>
+    <string name="onboarding_contact_access">Доступ к контактам</string>
+    <string name="onboarding_free_duplicates">5 бесплатных удалений дубликатов</string>
+    <string name="onboarding_free_similar">5 бесплатных очисток похожих фото</string>
+    <string name="onboarding_free_screenshots">5 бесплатных удалений скриншотов</string>
+    <string name="onboarding_free_videos">5 бесплатных очисток видео</string>
+    <string name="onboarding_free_contacts">5 бесплатных объединений контактов</string>
+    <string name="onboarding_free_label">БЕСПЛАТНО</string>
+    <string name="onboarding_get_started">Сканировать и начать</string>
+
+    <!-- ==================== PAYWALL SCREEN ==================== -->
+    <string name="paywall_close_cd">Закрыть</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">в год</string>
+    <string name="paywall_per_month">в месяц</string>
+    <string name="paywall_feature_unlimited_title">Безлимитная очистка</string>
+    <string name="paywall_feature_unlimited_subtitle">Очищайте устройство сколько угодно</string>
+    <string name="paywall_feature_duplicates_title">Удаление дубликатов и похожих</string>
+    <string name="paywall_feature_duplicates_subtitle">Находите и удаляйте дубликаты фото мгновенно</string>
+    <string name="paywall_feature_videos_title">Управление большими видео</string>
+    <string name="paywall_feature_videos_subtitle">Сжимайте или удаляйте видео, занимающие место</string>
+    <string name="paywall_feature_private_title">Конфиденциально и безопасно</string>
+    <string name="paywall_feature_private_subtitle">Сканирование происходит на вашем устройстве</string>
+    <string name="paywall_best_value">ЛУЧШЕЕ ПРЕДЛОЖЕНИЕ</string>
+    <string name="paywall_save_75">Экономия 75%% по сравнению с ежемесячной</string>
+    <string name="paywall_continue">Продолжить</string>
+    <string name="paywall_restore">Восстановить покупки</string>
+    <string name="paywall_terms">Подписки продлеваются автоматически. Отмена в любое время в настройках Google Play.</string>
+
+    <!-- ==================== PHOTOS CLEANUP SCREEN ==================== -->
+    <string name="photos_title">Очистка фото</string>
+    <string name="photos_back_cd">Назад</string>
+    <string name="photos_change_folder_cd">Сменить папку</string>
+    <string name="photos_delete_count">Удалить %d</string>
+    <string name="photos_select_title">Выберите фото для анализа</string>
+    <string name="photos_select_subtitle">Выберите способ предоставления фото для обнаружения дубликатов и скриншотов.</string>
+    <string name="photos_select_all_folder">Выбрать все (доступ к папке)</string>
+    <string name="photos_select_all_hint">Предоставьте доступ к папке DCIM или Изображения для сканирования всех фото</string>
+    <string name="photos_choose">Выбрать фото</string>
+    <string name="photos_choose_hint">Выберите конкретные фото для анализа</string>
+    <string name="photos_selected_count">%d выбрано</string>
+    <string name="photos_save_amount">Сэкономить %s</string>
+    <string name="photos_tab_duplicates">Дубликаты</string>
+    <string name="photos_tab_similar">Похожие</string>
+    <string name="photos_tab_screenshots">Скриншоты</string>
+    <string name="photos_no_duplicates_title">Дубликатов не найдено</string>
+    <string name="photos_no_duplicates_subtitle">Ваша фотобиблиотека чиста!</string>
+    <string name="photos_duplicates_summary">%1$d дубликатов в %2$d группах</string>
+    <string name="photos_select_all">Выбрать все</string>
+    <string name="photos_deselect_all">Снять выбор</string>
+    <string name="photos_n_duplicates">%d дубликатов</string>
+    <string name="photos_keep_best">Оставить лучшее</string>
+    <string name="photos_no_similar_title">Нет похожих фото</string>
+    <string name="photos_no_similar_subtitle">Группы похожих фото не найдены</string>
+    <string name="photos_similar_summary">%1$d похожих в %2$d группах</string>
+    <string name="photos_n_similar">%d похожих фото</string>
+    <string name="photos_percent_similar">%d%% похожих</string>
+    <string name="photos_keep_best_select_others">Оставить лучшее, выбрать остальные</string>
+    <string name="photos_no_screenshots_title">Нет скриншотов</string>
+    <string name="photos_no_screenshots_subtitle">В вашей библиотеке не найдено скриншотов</string>
+    <string name="photos_n_screenshots">%d скриншотов</string>
+    <string name="photos_selected_cd">Выбрано</string>
+    <string name="photos_best_badge">ЛУЧШЕЕ</string>
+    <string name="photos_scanning">Сканирование фото…</string>
+    <string name="photos_delete_title">Удалить %d фото?</string>
+    <string name="photos_delete_message">Выбранные фото будут безвозвратно удалены с устройства. Это действие нельзя отменить.</string>
+    <string name="photos_delete_permanently">Удалить навсегда</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- ==================== UPGRADE / PAYWALL DIALOG ==================== -->
+    <string name="upgrade_title">Обновить до Pro</string>
+    <string name="upgrade_message">Вы использовали все бесплатные очистки для этой категории. Обновитесь до Pro для безлимитного доступа.</string>
+    <string name="upgrade_button">Обновить</string>
+    <string name="upgrade_not_now">Не сейчас</string>
+
+    <!-- ==================== VAULT SCREEN ==================== -->
+    <string name="vault_title">Хранилище</string>
+    <string name="vault_lock_cd">Заблокировать</string>
+    <string name="vault_add_cd">Добавить элементы</string>
+    <string name="vault_secret_space">Секретное пространство</string>
+    <string name="vault_enter_pin">Введите PIN-код для доступа</string>
+    <string name="vault_use_biometrics">Использовать биометрию</string>
+    <string name="vault_biometric_title">Доступ к секретному пространству</string>
+    <string name="vault_biometric_subtitle">Используйте отпечаток пальца или лицо для разблокировки</string>
+    <string name="vault_biometric_negative">Использовать PIN</string>
+    <string name="vault_backspace_cd">Удалить</string>
+    <string name="vault_create_pin">Создайте PIN-код</string>
+    <string name="vault_confirm_pin">Подтвердите PIN-код</string>
+    <string name="vault_create_pin_subtitle">Выберите 4-значный PIN-код для защиты хранилища</string>
+    <string name="vault_confirm_pin_subtitle">Введите тот же PIN-код ещё раз</string>
+    <string name="vault_pin_mismatch">PIN-коды не совпадают. Попробуйте ещё раз.</string>
+    <string name="vault_empty_title">Хранилище пусто</string>
+    <string name="vault_empty_subtitle">Добавьте фото и видео, чтобы сохранить их в тайне</string>
+    <string name="vault_add_items">Добавить элементы</string>
+    <string name="vault_adding">Добавление в хранилище…</string>
+    <string name="vault_add_to_vault">Добавить в хранилище</string>
+    <string name="vault_select_items_subtitle">Выберите элементы для добавления в хранилище</string>
+    <string name="vault_select_from_photos">Выбрать из фото</string>
+    <string name="vault_select_from_files">Выбрать из файлов</string>
+    <string name="vault_delete_title">Удалить элемент</string>
+    <string name="vault_delete_message">Элемент будет безвозвратно удалён из хранилища.</string>
+    <string name="vault_delete_button">Удалить</string>
+    <string name="vault_restore_title">Восстановить элемент</string>
+    <string name="vault_restore_message">Элемент будет восстановлен в библиотеку фотографий.</string>
+    <string name="vault_restore_button">Восстановить</string>
+    <string name="vault_added_date">Добавлено: %s</string>
+    <string name="vault_item_size">Размер: %s</string>
+
+    <!-- ==================== CONTACTS CLEANUP SCREEN ==================== -->
+    <string name="contacts_title">Очистка контактов</string>
+    <string name="contacts_tab_duplicates">Дубликаты</string>
+    <string name="contacts_tab_incomplete">Неполные</string>
+    <string name="contacts_access_required">Требуется доступ к контактам</string>
+    <string name="contacts_access_message">Приложению нужен доступ к вашим контактам для поиска дубликатов и неполных записей.</string>
+    <string name="contacts_grant_access">Предоставить доступ</string>
+    <string name="contacts_no_duplicates_title">Нет дубликатов</string>
+    <string name="contacts_no_duplicates_subtitle">Ваши контакты в порядке!</string>
+    <string name="contacts_n_duplicates">%d дубликатов</string>
+    <string name="contacts_merge_all">Объединить все</string>
+    <string name="contacts_delete_dupes">Удалить дубликаты</string>
+    <string name="contacts_no_name">Без имени</string>
+    <string name="contacts_no_incomplete_title">Нет неполных контактов</string>
+    <string name="contacts_no_incomplete_subtitle">Все контакты содержат полную информацию</string>
+    <string name="contacts_n_incomplete">%d неполных</string>
+    <string name="contacts_delete_selected">Удалить выбранные (%d)</string>
+    <string name="contacts_merge_title">Объединить контакты</string>
+    <string name="contacts_merge_subtitle">Выберите основной контакт для сохранения. Информация из других контактов будет объединена с ним.</string>
+    <string name="contacts_merge_button">Объединить контакты</string>
+    <string name="contacts_scanning">Сканирование контактов…</string>
+
+    <!-- ==================== VIDEOS CLEANUP SCREEN ==================== -->
+    <string name="videos_title">Очистка видео</string>
+    <string name="videos_delete_count">Удалить %d</string>
+    <string name="videos_select_title">Выберите видео для анализа</string>
+    <string name="videos_select_subtitle">Выберите способ предоставления видео для обнаружения больших файлов и сжатия.</string>
+    <string name="videos_select_all_folder">Выбрать все (доступ к папке)</string>
+    <string name="videos_select_all_hint">Предоставьте доступ к папке DCIM или медиа для сканирования всех видео</string>
+    <string name="videos_choose">Выбрать видео</string>
+    <string name="videos_choose_hint">Выберите конкретные видео для анализа</string>
+    <string name="videos_tab_large">Большие видео</string>
+    <string name="videos_tab_compress">Сжатие</string>
+    <string name="videos_no_large_title">Нет больших видео</string>
+    <string name="videos_no_large_subtitle">Видео больше 50 МБ не найдены</string>
+    <string name="videos_n_large">%d больших видео</string>
+    <string name="videos_delete_title">Удалить %d видео?</string>
+    <string name="videos_delete_message">Выбранные видео будут безвозвратно удалены. Это действие нельзя отменить.</string>
+    <string name="videos_no_compress_title">Нет видео</string>
+    <string name="videos_no_compress_subtitle">Видео для сжатия не найдены</string>
+    <string name="videos_compression_quality">Качество сжатия</string>
+    <string name="videos_select_videos">Выбрать видео</string>
+    <string name="videos_n_selected">%d выбрано</string>
+    <string name="videos_compress_n">Сжать %d видео</string>
+    <string name="videos_scanning">Сканирование видео…</string>
+    <string name="videos_compressing_title">Сжатие видео</string>
+
+    <!-- ==================== DOWNLOADS SCREEN ==================== -->
+    <string name="downloads_title">Загрузки</string>
+    <string name="downloads_deselect">Снять выбор</string>
+    <string name="downloads_delete_n_files">Удалить %d файлов</string>
+    <string name="downloads_scanning">Сканирование папки загрузок…</string>
+    <string name="downloads_clean">Папка загрузок чиста!</string>
+    <string name="downloads_summary">%1$d файлов (%2$s)</string>
+
+    <!-- ==================== APK SCREEN ==================== -->
+    <string name="apk_title">Файлы APK</string>
+    <string name="apk_deselect">Снять выбор</string>
+    <string name="apk_delete_n">Удалить %d APK</string>
+    <string name="apk_scanning">Поиск файлов APK…</string>
+    <string name="apk_none_found">Файлы APK не найдены!</string>
+    <string name="apk_all_filter">Все (%d)</string>
+
+    <!-- ==================== NOTIFICATIONS SCREEN ==================== -->
+    <string name="notifications_title">Уведомления</string>
+    <string name="notifications_analyzing">Анализ уведомлений…</string>
+    <string name="notifications_no_apps">Приложения не найдены</string>
+    <string name="notifications_apps_count">%d приложений с уведомлениями</string>
+    <string name="notifications_manage_hint">Нажмите для управления настройками уведомлений для каждого приложения</string>
+    <string name="notifications_enabled">Уведомления включены</string>
+    <string name="notifications_disabled">Уведомления отключены</string>
+    <string name="notifications_manage_button">Управление</string>
+
+    <!-- ==================== ARCHIVE SCREEN ==================== -->
+    <string name="archive_title">Облачный архив</string>
+    <string name="archive_sync_cd">Синхронизация</string>
+    <string name="archive_storage_used">Использовано хранилища</string>
+    <string name="archive_empty_title">Нет архивированных элементов</string>
+    <string name="archive_empty_subtitle">Архивируйте фото и видео со страниц очистки, чтобы освободить место на устройстве</string>
+    <string name="archive_items_count">%d элементов в архиве</string>
+    <string name="archive_detail_archived">Архивировано: %s</string>
+    <string name="archive_detail_size">Размер: %s</string>
+    <string name="archive_detail_tier">Уровень: %s</string>
+    <string name="archive_retrieve_button">Извлечь</string>
+    <string name="archive_delete_title">Удалить архивированный элемент</string>
+    <string name="archive_delete_message">Этот элемент будет безвозвратно удалён из архива. Это действие нельзя отменить.</string>
+    <string name="archive_success_title">Успешно архивировано</string>
+    <string name="archive_success_message">%d элемент(ов) архивировано в облако.</string>
+    <string name="archive_restore_success_title">Успешно восстановлено</string>
+    <string name="archive_restore_success_message">Элемент восстановлен на вашем устройстве.</string>
+    <string name="archive_error_title">Ошибка</string>
+    <string name="ok">ОК</string>
+
+    <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
+    <string name="archive_signin_title">Вход для облачного архива</string>
+    <string name="archive_signin_subtitle">Архивируйте фото и видео в облако перед удалением с устройства</string>
+    <string name="archive_signin_encrypted_title">Сквозное шифрование</string>
+    <string name="archive_signin_encrypted_subtitle">Данные шифруются до отправки с устройства</string>
+    <string name="archive_signin_retrieve_title">Извлечение в любое время</string>
+    <string name="archive_signin_retrieve_subtitle">Скачивайте архивированные файлы когда угодно</string>
+    <string name="archive_signin_private_title">Конфиденциально и безопасно</string>
+    <string name="archive_signin_private_subtitle">Не нужно запоминать пароли \u2014 войдите через Google</string>
+    <string name="archive_signin_google">Войти через Google</string>
+    <string name="archive_signin_privacy">Ваши данные используются только для облачного хранения архива. Мы никогда не делимся и не продаём вашу информацию.</string>
+
+    <!-- ==================== ARCHIVE PAYWALL SCREEN ==================== -->
+    <string name="archive_paywall_title">Удаляйте с уверенностью</string>
+    <string name="archive_paywall_subtitle">Архивируйте файлы в облако перед удалением. Извлекайте в любое время.</string>
+    <string name="archive_paywall_safety_title">Страховка</string>
+    <string name="archive_paywall_safety_subtitle">Больше никогда не теряйте важные файлы</string>
+    <string name="archive_paywall_retrieve_title">Извлечение в любое время</string>
+    <string name="archive_paywall_retrieve_subtitle">Скачивайте архивированные файлы когда угодно</string>
+    <string name="archive_paywall_encrypted_title">Зашифрованное хранилище</string>
+    <string name="archive_paywall_encrypted_subtitle">Ваши данные всегда зашифрованы и конфиденциальны</string>
+    <string name="archive_paywall_choose_plan">Выберите план</string>
+    <string name="archive_paywall_current">ТЕКУЩИЙ</string>
+    <string name="archive_paywall_subscribe">Подписаться</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_account">Аккаунт</string>
+    <string name="settings_sign_in">Вход</string>
+    <string name="settings_subscription">Подписка</string>
+    <string name="settings_upgrade_pro">Обновить до Pro</string>
+    <string name="settings_features">Функции</string>
+    <string name="settings_secret_space">Секретное пространство</string>
+    <string name="settings_email_cleanup">Очистка почты</string>
+    <string name="settings_widgets">Виджеты</string>
+    <string name="settings_about">О приложении</string>
+    <string name="settings_privacy_policy">Политика конфиденциальности</string>
+    <string name="settings_terms">Условия использования</string>
+    <string name="settings_rate_us">Оцените нас</string>
+    <string name="settings_version">Версия 1.1 (2)</string>
+
+    <!-- ==================== NAV / LOGIN / PLACEHOLDER ==================== -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_photos">Фото</string>
+    <string name="nav_videos">Видео</string>
+    <string name="nav_contacts">Контакты</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="login_title">Вход</string>
+    <string name="login_coming_soon">Скоро</string>
+    <string name="login_coming_soon_subtitle">Вход в аккаунт будет доступен в будущем обновлении.</string>
+    <string name="login_email">Эл. почта</string>
+    <string name="login_password">Пароль</string>
+    <string name="login_button">Войти</string>
+    <string name="placeholder_coming_soon">%s - Скоро</string>
+    <string name="email_cleanup_title">Очистка почты</string>
+    <string name="widgets_title">Виджеты</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="back_cd">Назад</string>
+    <string name="delete_button">Удалить</string>
+</resources>

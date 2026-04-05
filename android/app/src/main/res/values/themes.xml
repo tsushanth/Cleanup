@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.SmartSpace" parent="android:Theme.Material.Light.NoActionBar" />
-    <style name="Theme.SmartSpace.Splash" parent="Theme.SplashScreen">
+    <style name="Theme.CleanupOneTap" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="Theme.CleanupOneTap.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@android:color/white</item>
-        <item name="postSplashScreenTheme">@style/Theme.SmartSpace</item>
+        <item name="postSplashScreenTheme">@style/Theme.CleanupOneTap</item>
     </style>
 </resources>

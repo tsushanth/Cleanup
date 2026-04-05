@@ -25,6 +25,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -32,6 +33,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.data.model.CompressionQuality
 import com.kreativekoala.cleanup.data.model.PhotoAsset
 import com.kreativekoala.cleanup.data.model.VideoAsset
@@ -47,23 +49,23 @@ fun VideosCleanupScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     var selectedTab by remember { mutableIntStateOf(initialTab) }
-    val tabs = listOf("Large Videos", "Compress")
+    val tabs = listOf(
+        stringResource(R.string.videos_tab_large),
+        stringResource(R.string.videos_tab_compress)
+    )
 
-    // SAF folder picker launcher ("Select All")
     val folderPickerLauncher = rememberLauncherForActivityResult(
         ActivityResultContracts.OpenDocumentTree()
     ) { uri: Uri? ->
         uri?.let { viewModel.onFolderSelected(it) }
     }
 
-    // Video Picker launcher ("Choose Videos")
     val videoPickerLauncher = rememberLauncherForActivityResult(
         ActivityResultContracts.PickMultipleVisualMedia(50)
     ) { uris: List<Uri> ->
         if (uris.isNotEmpty()) viewModel.onVideosSelected(uris)
     }
 
-    // Delete consent dialog handler
     val deleteLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.StartIntentSenderForResult()
     ) { result ->
@@ -82,10 +84,10 @@ fun VideosCleanupScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Video Cleanup") },
+                title = { Text(stringResource(R.string.videos_title)) },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.back_cd))
                     }
                 },
                 actions = {
@@ -93,7 +95,7 @@ fun VideosCleanupScreen(
                         IconButton(onClick = {
                             folderPickerLauncher.launch(null)
                         }) {
-                            Icon(Icons.Default.FolderOpen, contentDescription = "Change folder")
+                            Icon(Icons.Default.FolderOpen, contentDescription = stringResource(R.string.photos_change_folder_cd))
                         }
                     }
                     AnimatedVisibility(visible = viewModel.selectedCount > 0 && selectedTab == 0) {
@@ -105,7 +107,7 @@ fun VideosCleanupScreen(
                         ) {
                             Icon(Icons.Default.Delete, null, modifier = Modifier.size(18.dp))
                             Spacer(modifier = Modifier.width(4.dp))
-                            Text("Delete ${viewModel.selectedCount}")
+                            Text(stringResource(R.string.videos_delete_count, viewModel.selectedCount))
                         }
                     }
                 }
@@ -113,7 +115,6 @@ fun VideosCleanupScreen(
         }
     ) { padding ->
         if (!uiState.hasMediaAccess) {
-            // Media selection screen (replaces permission request)
             Box(
                 modifier = Modifier.fillMaxSize().padding(padding),
                 contentAlignment = Alignment.Center
@@ -130,12 +131,12 @@ fun VideosCleanupScreen(
                         MaterialTheme.colorScheme.primary
                     )
                     Text(
-                        "Select Videos to Analyze",
+                        stringResource(R.string.videos_select_title),
                         style = MaterialTheme.typography.titleLarge,
                         fontWeight = FontWeight.SemiBold
                     )
                     Text(
-                        "Choose how you'd like to provide videos for large file detection and compression.",
+                        stringResource(R.string.videos_select_subtitle),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         textAlign = TextAlign.Center
@@ -143,7 +144,6 @@ fun VideosCleanupScreen(
 
                     Spacer(modifier = Modifier.height(8.dp))
 
-                    // Select All (folder access)
                     Button(
                         onClick = { folderPickerLauncher.launch(null) },
                         shape = RoundedCornerShape(12.dp),
@@ -151,11 +151,11 @@ fun VideosCleanupScreen(
                     ) {
                         Icon(Icons.Default.Folder, contentDescription = null)
                         Spacer(modifier = Modifier.width(8.dp))
-                        Text("Select All (Folder Access)")
+                        Text(stringResource(R.string.videos_select_all_folder))
                     }
 
                     Text(
-                        "Grant access to your DCIM or media folder to scan all videos",
+                        stringResource(R.string.videos_select_all_hint),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         textAlign = TextAlign.Center
@@ -163,7 +163,6 @@ fun VideosCleanupScreen(
 
                     HorizontalDivider(modifier = Modifier.padding(vertical = 4.dp))
 
-                    // Choose specific videos
                     OutlinedButton(
                         onClick = {
                             videoPickerLauncher.launch(
@@ -177,11 +176,11 @@ fun VideosCleanupScreen(
                     ) {
                         Icon(Icons.Default.VideoFile, contentDescription = null)
                         Spacer(modifier = Modifier.width(8.dp))
-                        Text("Choose Videos")
+                        Text(stringResource(R.string.videos_choose))
                     }
 
                     Text(
-                        "Pick specific videos to analyze",
+                        stringResource(R.string.videos_choose_hint),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         textAlign = TextAlign.Center
@@ -192,7 +191,6 @@ fun VideosCleanupScreen(
         }
 
         Column(modifier = Modifier.fillMaxSize().padding(padding)) {
-            // Savings bar
             if (viewModel.selectedCount > 0 && selectedTab == 0) {
                 Surface(
                     color = MaterialTheme.colorScheme.primaryContainer,
@@ -203,13 +201,13 @@ fun VideosCleanupScreen(
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Text(
-                            "${viewModel.selectedCount} selected",
+                            stringResource(R.string.photos_selected_count, viewModel.selectedCount),
                             style = MaterialTheme.typography.bodyMedium,
                             fontWeight = FontWeight.Medium
                         )
                         Spacer(modifier = Modifier.weight(1f))
                         Text(
-                            "Save ${viewModel.totalSavingsFormatted}",
+                            stringResource(R.string.photos_save_amount, viewModel.totalSavingsFormatted),
                             style = MaterialTheme.typography.bodyMedium,
                             color = MaterialTheme.colorScheme.primary,
                             fontWeight = FontWeight.Bold
@@ -246,7 +244,7 @@ fun VideosCleanupScreen(
                 }
 
                 if (uiState.isScanning) {
-                    ScanningOverlay(message = "Scanning videos...")
+                    ScanningOverlay(message = stringResource(R.string.videos_scanning))
                 }
                 if (uiState.isCompressing) {
                     CompressionOverlay(
@@ -262,16 +260,16 @@ fun VideosCleanupScreen(
     if (uiState.showDeleteConfirmation) {
         AlertDialog(
             onDismissRequest = { viewModel.dismissDeleteConfirmation() },
-            title = { Text("Delete ${viewModel.selectedCount} Videos?") },
-            text = { Text("This will permanently delete the selected videos. This action cannot be undone.") },
+            title = { Text(stringResource(R.string.videos_delete_title, viewModel.selectedCount)) },
+            text = { Text(stringResource(R.string.videos_delete_message)) },
             confirmButton = {
                 TextButton(
                     onClick = { viewModel.deleteSelected() },
                     colors = ButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.error)
-                ) { Text("Delete Permanently") }
+                ) { Text(stringResource(R.string.photos_delete_permanently)) }
             },
             dismissButton = {
-                TextButton(onClick = { viewModel.dismissDeleteConfirmation() }) { Text("Cancel") }
+                TextButton(onClick = { viewModel.dismissDeleteConfirmation() }) { Text(stringResource(R.string.cancel)) }
             }
         )
     }
@@ -281,10 +279,10 @@ fun VideosCleanupScreen(
         AlertDialog(
             onDismissRequest = { viewModel.dismissPaywall() },
             icon = { Icon(Icons.Default.Star, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(40.dp)) },
-            title = { Text("Upgrade to Pro", textAlign = TextAlign.Center) },
+            title = { Text(stringResource(R.string.upgrade_title), textAlign = TextAlign.Center) },
             text = {
                 Text(
-                    "You've used all your free cleanups for this category. Upgrade to Pro for unlimited access.",
+                    stringResource(R.string.upgrade_message),
                     textAlign = TextAlign.Center
                 )
             },
@@ -293,12 +291,12 @@ fun VideosCleanupScreen(
                     viewModel.dismissPaywall()
                     onNavigateToPaywall()
                 }) {
-                    Text("Upgrade")
+                    Text(stringResource(R.string.upgrade_button))
                 }
             },
             dismissButton = {
                 TextButton(onClick = { viewModel.dismissPaywall() }) {
-                    Text("Not Now")
+                    Text(stringResource(R.string.upgrade_not_now))
                 }
             }
         )
@@ -316,7 +314,7 @@ private fun LargeVideosTab(
     viewModel: VideosCleanupViewModel
 ) {
     if (videos.isEmpty() && !isScanning) {
-        EmptyState(title = "No Large Videos", subtitle = "No videos over 50MB found")
+        EmptyState(title = stringResource(R.string.videos_no_large_title), subtitle = stringResource(R.string.videos_no_large_subtitle))
     } else {
         var selectAll by remember { mutableStateOf(false) }
 
@@ -324,14 +322,13 @@ private fun LargeVideosTab(
             contentPadding = PaddingValues(16.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            // Summary header with Select All
             item {
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        "${videos.size} large videos",
+                        stringResource(R.string.videos_n_large, videos.size),
                         style = MaterialTheme.typography.titleSmall,
                         fontWeight = FontWeight.Bold
                     )
@@ -341,7 +338,7 @@ private fun LargeVideosTab(
                         if (selectAll) viewModel.selectAllVideos()
                         else viewModel.deselectAllVideos()
                     }) {
-                        Text(if (selectAll) "Deselect All" else "Select All")
+                        Text(if (selectAll) stringResource(R.string.photos_deselect_all) else stringResource(R.string.photos_select_all))
                     }
                 }
             }
@@ -373,7 +370,6 @@ private fun VideoRow(
             modifier = Modifier.padding(12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            // Thumbnail
             Box(
                 modifier = Modifier
                     .size(80.dp, 60.dp)
@@ -390,7 +386,6 @@ private fun VideoRow(
                     modifier = Modifier.fillMaxSize()
                 )
 
-                // Video icon overlay
                 Box(
                     modifier = Modifier
                         .align(Alignment.Center)
@@ -409,7 +404,6 @@ private fun VideoRow(
 
             Spacer(modifier = Modifier.width(12.dp))
 
-            // Info
             Column(modifier = Modifier.weight(1f)) {
                 Text(
                     video.displayName,
@@ -426,7 +420,6 @@ private fun VideoRow(
                 )
             }
 
-            // Selection indicator
             Icon(
                 if (isSelected) Icons.Default.CheckCircle else Icons.Default.RadioButtonUnchecked,
                 contentDescription = null,
@@ -450,7 +443,7 @@ private fun CompressTab(
     val selectedCount = selectedIds.size
 
     if (videos.isEmpty() && !isScanning) {
-        EmptyState(title = "No Videos", subtitle = "No compressible videos found")
+        EmptyState(title = stringResource(R.string.videos_no_compress_title), subtitle = stringResource(R.string.videos_no_compress_subtitle))
     } else {
         Box(modifier = Modifier.fillMaxSize()) {
             LazyColumn(
@@ -460,12 +453,11 @@ private fun CompressTab(
                 ),
                 verticalArrangement = Arrangement.spacedBy(16.dp)
             ) {
-                // Quality selector
                 item {
                     Card(shape = RoundedCornerShape(12.dp)) {
                         Column(modifier = Modifier.padding(16.dp)) {
                             Text(
-                                "Compression Quality",
+                                stringResource(R.string.videos_compression_quality),
                                 style = MaterialTheme.typography.titleSmall,
                                 fontWeight = FontWeight.Bold
                             )
@@ -486,17 +478,16 @@ private fun CompressTab(
                     }
                 }
 
-                // Videos list
                 item {
                     Row(modifier = Modifier.fillMaxWidth()) {
                         Text(
-                            "Select Videos",
+                            stringResource(R.string.videos_select_videos),
                             style = MaterialTheme.typography.titleSmall,
                             fontWeight = FontWeight.Bold
                         )
                         Spacer(modifier = Modifier.weight(1f))
                         Text(
-                            "$selectedCount selected",
+                            stringResource(R.string.videos_n_selected, selectedCount),
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
@@ -514,7 +505,6 @@ private fun CompressTab(
                 }
             }
 
-            // Floating compress button at bottom
             AnimatedVisibility(
                 visible = selectedCount > 0,
                 modifier = Modifier.align(Alignment.BottomCenter)
@@ -528,7 +518,7 @@ private fun CompressTab(
                 ) {
                     Icon(Icons.Default.Compress, contentDescription = null)
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text("Compress $selectedCount Videos")
+                    Text(stringResource(R.string.videos_compress_n, selectedCount))
                 }
             }
         }
@@ -661,7 +651,7 @@ private fun CompressionOverlay(progress: Float, currentVideo: String) {
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                Text("Compressing Video", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                Text(stringResource(R.string.videos_compressing_title), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
                 Text(currentVideo, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 LinearProgressIndicator(
                     progress = { progress },

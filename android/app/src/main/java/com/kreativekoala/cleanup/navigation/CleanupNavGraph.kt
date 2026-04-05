@@ -30,6 +30,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
@@ -50,6 +51,7 @@ import com.kreativekoala.cleanup.ui.apk.ApkCleanupScreen
 import com.kreativekoala.cleanup.ui.downloads.DownloadCleanupScreen
 import com.kreativekoala.cleanup.ui.notifications.NotificationManagerScreen
 import com.kreativekoala.cleanup.ui.paywall.PaywallScreen
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.ui.paywall.PaywallViewModel
 
 @Composable
@@ -157,13 +159,11 @@ fun CleanupNavGraph(
         }
 
         // Placeholder screens for remaining features
-        listOf(
-            Screen.EmailCleanup to "Email Cleanup",
-            Screen.Widgets to "Widgets"
-        ).forEach { (screen, title) ->
-            composable(screen.route) {
-                PlaceholderScreen(title) { navController.popBackStack() }
-            }
+        composable(Screen.EmailCleanup.route) {
+            PlaceholderScreen(stringResource(R.string.email_cleanup_title)) { navController.popBackStack() }
+        }
+        composable(Screen.Widgets.route) {
+            PlaceholderScreen(stringResource(R.string.widgets_title)) { navController.popBackStack() }
         }
     }
 }
@@ -177,10 +177,10 @@ private fun LoginPlaceholderScreen(onNavigateBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Sign In") },
+                title = { Text(stringResource(R.string.login_title)) },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.back_cd))
                     }
                 }
             )
@@ -201,10 +201,10 @@ private fun LoginPlaceholderScreen(onNavigateBack: () -> Unit) {
                 tint = MaterialTheme.colorScheme.primary
             )
             Spacer(modifier = Modifier.height(16.dp))
-            Text("Coming Soon", style = MaterialTheme.typography.headlineSmall)
+            Text(stringResource(R.string.login_coming_soon), style = MaterialTheme.typography.headlineSmall)
             Spacer(modifier = Modifier.height(8.dp))
             Text(
-                "Account sign-in will be available in a future update.",
+                stringResource(R.string.login_coming_soon_subtitle),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
@@ -212,7 +212,7 @@ private fun LoginPlaceholderScreen(onNavigateBack: () -> Unit) {
             OutlinedTextField(
                 value = email,
                 onValueChange = { email = it },
-                label = { Text("Email") },
+                label = { Text(stringResource(R.string.login_email)) },
                 modifier = Modifier.fillMaxWidth(),
                 enabled = false,
                 shape = RoundedCornerShape(12.dp)
@@ -221,7 +221,7 @@ private fun LoginPlaceholderScreen(onNavigateBack: () -> Unit) {
             OutlinedTextField(
                 value = password,
                 onValueChange = { password = it },
-                label = { Text("Password") },
+                label = { Text(stringResource(R.string.login_password)) },
                 modifier = Modifier.fillMaxWidth(),
                 enabled = false,
                 visualTransformation = PasswordVisualTransformation(),
@@ -234,7 +234,7 @@ private fun LoginPlaceholderScreen(onNavigateBack: () -> Unit) {
                 enabled = false,
                 shape = RoundedCornerShape(12.dp)
             ) {
-                Text("Sign In")
+                Text(stringResource(R.string.login_button))
             }
         }
     }
@@ -249,7 +249,7 @@ private fun PlaceholderScreen(title: String, onNavigateBack: () -> Unit) {
                 title = { Text(title) },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.back_cd))
                     }
                 }
             )
@@ -259,7 +259,7 @@ private fun PlaceholderScreen(title: String, onNavigateBack: () -> Unit) {
             modifier = Modifier.fillMaxSize().padding(padding),
             contentAlignment = Alignment.Center
         ) {
-            Text("$title - Coming Soon")
+            Text(stringResource(R.string.placeholder_coming_soon, title))
         }
     }
 }

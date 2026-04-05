@@ -18,8 +18,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.kreativekoala.cleanup.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -46,10 +48,10 @@ fun HomeScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("SmartSpace") },
+                title = { Text(stringResource(R.string.home_title)) },
                 actions = {
                     IconButton(onClick = onNavigateToVault) {
-                        Icon(Icons.Default.Lock, contentDescription = "Vault")
+                        Icon(Icons.Default.Lock, contentDescription = stringResource(R.string.home_vault_cd))
                     }
                 }
             )
@@ -58,7 +60,7 @@ fun HomeScreen(
             ExtendedFloatingActionButton(
                 onClick = {
                     if (uiState.isScanning) return@ExtendedFloatingActionButton
-                    if (uiState.hasFolderAccess) {
+                    if (uiState.hasMediaAccess) {
                         viewModel.performOneTapCleanup()
                     } else {
                         folderPickerLauncher.launch(null)
@@ -74,11 +76,11 @@ fun HomeScreen(
                         strokeWidth = 2.dp
                     )
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text("Scanning...")
+                    Text(stringResource(R.string.home_scanning))
                 } else {
                     Icon(Icons.Default.CleaningServices, contentDescription = null)
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text(if (uiState.hasFolderAccess) "Smart Scan" else "Grant Access & Scan")
+                    Text(if (uiState.hasMediaAccess) stringResource(R.string.home_one_tap_scan) else stringResource(R.string.home_grant_access_scan))
                 }
             }
         }
@@ -117,7 +119,7 @@ fun HomeScreen(
                                 )
                                 Spacer(modifier = Modifier.width(12.dp))
                                 Text(
-                                    "Scanning your device...",
+                                    stringResource(R.string.home_scanning_device),
                                     style = MaterialTheme.typography.bodyMedium
                                 )
                             }
@@ -136,30 +138,30 @@ fun HomeScreen(
 
             // Quick Actions
             item {
-                Text("Quick Actions", style = MaterialTheme.typography.titleMedium)
+                Text(stringResource(R.string.home_quick_actions), style = MaterialTheme.typography.titleMedium)
                 Spacer(modifier = Modifier.height(8.dp))
                 Row(
                     modifier = Modifier.horizontalScroll(rememberScrollState()),
                     horizontalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
-                    QuickActionChip("Duplicates", Icons.Default.FileCopy) { onNavigateToPhotos(0) }
-                    QuickActionChip("Screenshots", Icons.Default.Screenshot) { onNavigateToPhotos(2) }
-                    QuickActionChip("Large Videos", Icons.Default.VideoLibrary) { onNavigateToVideos(0) }
-                    QuickActionChip("Compress", Icons.Default.Compress) { onNavigateToVideos(1) }
-                    QuickActionChip("Archive", Icons.Default.Cloud, onNavigateToArchive)
-                    QuickActionChip("Downloads", Icons.Default.Download, onNavigateToDownloads)
-                    QuickActionChip("APK Files", Icons.Default.Android, onNavigateToApkCleanup)
+                    QuickActionChip(stringResource(R.string.home_chip_duplicates), Icons.Default.FileCopy) { onNavigateToPhotos(0) }
+                    QuickActionChip(stringResource(R.string.home_chip_screenshots), Icons.Default.Screenshot) { onNavigateToPhotos(2) }
+                    QuickActionChip(stringResource(R.string.home_chip_large_videos), Icons.Default.VideoLibrary) { onNavigateToVideos(0) }
+                    QuickActionChip(stringResource(R.string.home_chip_compress), Icons.Default.Compress) { onNavigateToVideos(1) }
+                    QuickActionChip(stringResource(R.string.home_chip_archive), Icons.Default.Cloud, onNavigateToArchive)
+                    QuickActionChip(stringResource(R.string.home_chip_downloads), Icons.Default.Download, onNavigateToDownloads)
+                    QuickActionChip(stringResource(R.string.home_chip_apk_files), Icons.Default.Android, onNavigateToApkCleanup)
                 }
             }
 
             // Cleanup Categories
             item {
-                Text("Smart Scan Results", style = MaterialTheme.typography.titleMedium)
+                Text(stringResource(R.string.home_smart_scan_results), style = MaterialTheme.typography.titleMedium)
             }
 
             item {
                 CleanupCategoryCard(
-                    title = "Duplicate Photos",
+                    title = stringResource(R.string.home_category_duplicate_photos),
                     count = uiState.duplicatePhotosCount,
                     savings = uiState.duplicatePhotosSavings,
                     icon = Icons.Default.FileCopy,
@@ -169,7 +171,7 @@ fun HomeScreen(
 
             item {
                 CleanupCategoryCard(
-                    title = "Similar Photos",
+                    title = stringResource(R.string.home_category_similar_photos),
                     count = uiState.similarPhotosCount,
                     savings = uiState.similarPhotosSavings,
                     icon = Icons.Default.PhotoLibrary,
@@ -179,7 +181,7 @@ fun HomeScreen(
 
             item {
                 CleanupCategoryCard(
-                    title = "Screenshots",
+                    title = stringResource(R.string.home_category_screenshots),
                     count = uiState.screenshotsCount,
                     savings = uiState.screenshotsSavings,
                     icon = Icons.Default.Screenshot,
@@ -189,7 +191,7 @@ fun HomeScreen(
 
             item {
                 CleanupCategoryCard(
-                    title = "Large Videos",
+                    title = stringResource(R.string.home_category_large_videos),
                     count = uiState.largeVideosCount,
                     savings = uiState.largeVideosSavings,
                     icon = Icons.Default.VideoLibrary,
@@ -199,7 +201,7 @@ fun HomeScreen(
 
             item {
                 CleanupCategoryCard(
-                    title = "Duplicate Contacts",
+                    title = stringResource(R.string.home_category_duplicate_contacts),
                     count = uiState.duplicateContactsCount,
                     savings = "",
                     icon = Icons.Default.Contacts,
@@ -209,12 +211,12 @@ fun HomeScreen(
 
             // File Management
             item {
-                Text("File Management", style = MaterialTheme.typography.titleMedium)
+                Text(stringResource(R.string.home_file_management), style = MaterialTheme.typography.titleMedium)
             }
 
             item {
                 CleanupCategoryCard(
-                    title = "Downloads",
+                    title = stringResource(R.string.home_category_downloads),
                     count = 0,
                     savings = "",
                     icon = Icons.Default.Download,
@@ -224,7 +226,7 @@ fun HomeScreen(
 
             item {
                 CleanupCategoryCard(
-                    title = "APK Files",
+                    title = stringResource(R.string.home_category_apk_files),
                     count = 0,
                     savings = "",
                     icon = Icons.Default.Android,
@@ -234,7 +236,7 @@ fun HomeScreen(
 
             item {
                 CleanupCategoryCard(
-                    title = "Notification Manager",
+                    title = stringResource(R.string.home_category_notification_manager),
                     count = 0,
                     savings = "",
                     icon = Icons.Default.Notifications,
@@ -260,8 +262,8 @@ private fun StorageOverviewCard(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
-                Text("$usedFormatted used", style = MaterialTheme.typography.titleSmall)
-                Text("$totalFormatted total", style = MaterialTheme.typography.bodySmall,
+                Text(stringResource(R.string.home_storage_used, usedFormatted), style = MaterialTheme.typography.titleSmall)
+                Text(stringResource(R.string.home_storage_total, totalFormatted), style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             Spacer(modifier = Modifier.height(8.dp))
@@ -284,7 +286,7 @@ private fun StorageOverviewCard(
             if (usedPercentage > 0.7) {
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    "Your storage is ${(usedPercentage * 100).toInt()}% full",
+                    stringResource(R.string.home_storage_full, (usedPercentage * 100).toInt()),
                     style = MaterialTheme.typography.labelSmall,
                     color = Color.Red
                 )
@@ -331,12 +333,13 @@ private fun CleanupCategoryCard(
                 Text(title, style = MaterialTheme.typography.titleSmall)
                 if (count > 0) {
                     Text(
-                        "$count items${if (savings.isNotEmpty()) " · $savings" else ""}",
+                        if (savings.isNotEmpty()) stringResource(R.string.home_items_count_savings, count, savings)
+                        else stringResource(R.string.home_items_count, count),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 } else {
-                    Text("Tap to scan", style = MaterialTheme.typography.bodySmall,
+                    Text(stringResource(R.string.home_tap_to_scan), style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }

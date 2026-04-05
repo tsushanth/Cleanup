@@ -12,29 +12,34 @@ struct ArchivePaywallView: View {
 
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack(spacing: 24) {
-                    // Header
-                    archiveHeader
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(spacing: 24) {
+                        // Header
+                        archiveHeader
 
-                    // Features
-                    archiveFeatures
+                        // Features
+                        archiveFeatures
 
-                    // Storage tier picker
-                    if entitlementManager.archiveProducts.isEmpty {
-                        ProgressView("Loading plans...")
-                            .padding()
-                    } else {
-                        storageTierPicker
+                        // Storage tier picker
+                        if entitlementManager.archiveProducts.isEmpty {
+                            ProgressView("Loading plans...")
+                                .padding()
+                        } else {
+                            storageTierPicker
+                        }
                     }
+                    .padding()
+                }
 
-                    // CTA Button
+                // Pinned bottom CTA
+                VStack(spacing: 8) {
                     purchaseButton
-
-                    // Terms
                     archiveTerms
                 }
-                .padding()
+                .padding(.horizontal)
+                .padding(.vertical, 12)
+                .background(Color(.systemBackground).shadow(.inner(radius: 0)).shadow(.drop(color: .black.opacity(0.06), radius: 8, y: -2)))
             }
             .navigationTitle("Cloud Archive")
             .navigationBarTitleDisplayMode(.inline)
@@ -190,10 +195,6 @@ struct ArchivePaywallView: View {
 
     private var archiveTerms: some View {
         VStack(spacing: 8) {
-            Text("Requires an active Cleanup Pro subscription.")
-                .font(.caption)
-                .foregroundColor(.secondary)
-
             Text("Storage subscriptions renew monthly. Cancel anytime in Settings. Archived files are retained for 30 days after cancellation.")
                 .font(.caption2)
                 .foregroundColor(.secondary)

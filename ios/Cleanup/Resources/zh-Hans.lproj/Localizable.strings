@@ -1,0 +1,398 @@
+/* Localizable.strings (Simplified Chinese)
+   SmartSpace iOS App */
+
+// MARK: - Tab Bar
+"Home" = "首页";
+"Photos" = "照片";
+"Videos" = "视频";
+"Contacts" = "联系人";
+"Settings" = "设置";
+
+// MARK: - Home View
+"Storage" = "存储";
+"Quick Actions" = "快捷操作";
+"Duplicates" = "重复项";
+"Screenshots" = "截图";
+"Large Videos" = "大视频";
+"Compress" = "压缩";
+"Archive" = "归档";
+"Cleanup Categories" = "清理分类";
+"Scanning..." = "扫描中...";
+"Duplicate Photos" = "重复照片";
+"Similar Photos" = "相似照片";
+"Duplicate Contacts" = "重复联系人";
+"One Tap Cleanup" = "一键清理";
+"Cleanup: One Tap" = "清理：一键";
+
+// MARK: - Home View - Dynamic Strings
+"%d items found" = "发现 %d 个项目";
+"%d groups found" = "发现 %d 个分组";
+"%d screenshots" = "%d 张截图";
+"%d videos" = "%d 个视频";
+"%d duplicates" = "%d 个重复项";
+
+// MARK: - Winback Nudge Banner
+"%d items waiting to be cleaned" = "%d 个项目等待清理";
+"Unlock unlimited cleanups" = "解锁无限清理";
+"Try Pro free for 3 days" = "免费试用 Pro 3 天";
+"Try Free" = "免费试用";
+
+// MARK: - Archive Promo Card
+"Archive instead of deleting" = "归档而非删除";
+"Delete with confidence" = "放心删除";
+"Select items in Photos or Videos, then tap the archive button to save them to the cloud." = "在照片或视频中选择项目，然后点击归档按钮将其保存到云端。";
+"Archived items can be retrieved anytime from Settings → Cloud Archive." = "归档项目可随时从设置 → 云归档中检索。";
+"Unlike big tech, we help minimize your storage — not maximize it." = "与大型科技公司不同，我们帮助您减少存储占用，而非增加。";
+"Go to Photos" = "前往照片";
+"From $1.99/mo" = "每月 $1.99 起";
+
+// MARK: - Storage Overview
+"Other" = "其他";
+
+// MARK: - Onboarding View
+"Your phone is full of clutter" = "您的手机充满了杂乱文件";
+"Duplicate photos, old screenshots, large videos — they're eating your storage. Let's fix that." = "重复照片、旧截图、大视频——它们在吞噬您的存储空间。让我们来解决这个问题。";
+"%@ used" = "已使用 %@";
+"%@ total" = "共 %@";
+"Your storage is %d%% full" = "存储空间已使用 %d%%";
+"Let's Clean Up" = "开始清理";
+"Quick scan your library" = "快速扫描您的媒体库";
+"We'll scan your photos and videos to find duplicates, similar shots, and space hogs. Everything stays on your device." = "我们将扫描您的照片和视频，找出重复项、相似照片和占用大量空间的文件。所有数据都保留在您的设备上。";
+"100% Private" = "100% 隐私";
+"All scanning happens on-device" = "所有扫描均在设备上完成";
+"Fast Scan" = "快速扫描";
+"Takes less than 30 seconds" = "不到30秒";
+"You Choose" = "由您决定";
+"Nothing deleted without your approval" = "未经您同意不会删除任何内容";
+"Scan My Library" = "扫描我的媒体库";
+"Skip for now" = "暂时跳过";
+"Ready to clean!" = "准备好清理了！";
+"Start with 5 free cleanups per category. Upgrade anytime for unlimited access." = "每个分类可免费清理5次。随时升级获取无限使用权。";
+"5 free duplicate removals" = "5次免费重复项删除";
+"5 free similar photo cleanups" = "5次免费相似照片清理";
+"5 free screenshot deletions" = "5次免费截图删除";
+"5 free video cleanups" = "5次免费视频清理";
+"5 free contact merges" = "5次免费联系人合并";
+"FREE" = "免费";
+"Get Started" = "开始使用";
+
+// MARK: - Settings View
+"Premium Active" = "高级版已激活";
+"Upgrade to Premium" = "升级到高级版";
+"Unlock all features" = "解锁所有功能";
+"Cloud Archive Active" = "云归档已激活";
+"Add Cloud Archive" = "添加云归档";
+"Archive files instead of deleting" = "归档文件而非删除";
+"Subscription" = "订阅";
+"Features" = "功能";
+"Charging Animations" = "充电动画";
+"Secret Space" = "私密空间";
+"Widgets" = "小组件";
+"Email Cleanup" = "邮件清理";
+"Cloud Archive" = "云归档";
+"Privacy" = "隐私";
+"Works Offline" = "离线可用";
+"No Data Collection" = "不收集数据";
+"Encrypted Cloud Archive" = "加密云归档";
+"Files Stay on Device" = "文件保留在设备上";
+"Analysis happens on your device. Archived items are encrypted and stored in your private cloud storage. Only you can access them." = "分析在您的设备上进行。归档项目经过加密并存储在您的私有云存储中。只有您可以访问。";
+"Your data never leaves your device. We cannot access your photos, contacts, or any personal information." = "您的数据绝不会离开您的设备。我们无法访问您的照片、联系人或任何个人信息。";
+"Support" = "支持";
+"Rate App" = "评价应用";
+"Share App" = "分享应用";
+"Contact Support" = "联系支持";
+"Legal" = "法律信息";
+"Privacy Policy" = "隐私政策";
+"Terms of Service" = "服务条款";
+"Restore Purchases" = "恢复购买";
+"Version" = "版本";
+
+// MARK: - Photos Cleanup View
+"Photos Cleanup" = "照片清理";
+"Similar" = "相似";
+"Category" = "分类";
+"Delete" = "删除";
+"Scanning photos..." = "正在扫描照片...";
+"What would you like to do with %d photos?" = "您想如何处理 %d 张照片？";
+"Delete Permanently" = "永久删除";
+"Archive to Cloud" = "归档到云端";
+"Cancel" = "取消";
+"Archived items are safely stored in the cloud and can be retrieved later." = "归档项目安全存储在云端，可随时检索。";
+"This action cannot be undone. Consider archiving to cloud storage instead." = "此操作无法撤销。请考虑将其归档到云存储。";
+"Archive Error" = "归档错误";
+"OK" = "好";
+"Archived Successfully" = "归档成功";
+"%d items have been archived to the cloud. They are uploading in the background." = "%d 个项目已归档到云端。正在后台上传。";
+"Free Limit" = "免费额度";
+"Delete %d" = "删除 %d";
+"Upgrade to Pro" = "升级到 Pro";
+"You can delete %d more items for free. Upgrade to Pro for unlimited deletions." = "您还可以免费删除 %d 个项目。升级到 Pro 可无限删除。";
+
+// MARK: - Duplicate Photos
+"No Duplicates Found" = "未发现重复项";
+"Your photo library is clean!" = "您的照片库很干净！";
+"%d duplicates" = "%d 个重复项";
+"Keep Best" = "保留最佳";
+"Select All" = "全选";
+"Deselect All" = "取消全选";
+"BEST" = "最佳";
+
+// MARK: - Similar Photos
+"No Similar Photos" = "无相似照片";
+"No groups of similar photos found" = "未发现相似照片分组";
+"%d similar photos" = "%d 张相似照片";
+"Keep Best, Select Others" = "保留最佳，选择其他";
+
+// MARK: - Screenshots
+"No Screenshots" = "无截图";
+"No screenshots found in your library" = "媒体库中未发现截图";
+
+// MARK: - Videos Cleanup View
+"Videos Cleanup" = "视频清理";
+"No Large Videos" = "无大视频";
+"No videos over 50MB found" = "未发现超过50MB的视频";
+"%d large videos" = "%d 个大视频";
+"Scanning videos..." = "正在扫描视频...";
+"What would you like to do with %d videos?" = "您想如何处理 %d 个视频？";
+"Unknown date" = "未知日期";
+
+// MARK: - Video Compression
+"Compression Quality" = "压缩质量";
+"Select Videos" = "选择视频";
+"%d selected" = "已选择 %d";
+"Compress Selected" = "压缩所选";
+"Compressing Video" = "正在压缩视频";
+"Compress Video" = "压缩视频";
+"Compressing... %d%%" = "压缩中... %d%%";
+"Select Compression Quality" = "选择压缩质量";
+"Saved %@" = "已节省 %@";
+"%d%% smaller" = "缩小了 %d%%";
+"Compression Failed" = "压缩失败";
+"Done" = "完成";
+
+// MARK: - Contacts Cleanup View
+"Contacts Cleanup" = "联系人清理";
+"Incomplete" = "不完整";
+"Scanning contacts..." = "正在扫描联系人...";
+
+// MARK: - Duplicate Contacts
+"No Duplicates" = "无重复项";
+"Your contacts are clean!" = "您的联系人很整洁！";
+"Merge All" = "全部合并";
+"Delete Duplicates" = "删除重复项";
+
+// MARK: - Incomplete Contacts
+"No Incomplete Contacts" = "无不完整联系人";
+"All contacts have complete information" = "所有联系人信息完整";
+"%d incomplete" = "%d 个不完整";
+"Delete Selected (%d)" = "删除所选 (%d)";
+
+// MARK: - Merge Contacts Sheet
+"Merge Contacts" = "合并联系人";
+"Select the primary contact to keep. Information from other contacts will be merged into it." = "选择要保留的主要联系人。其他联系人的信息将合并到其中。";
+
+// MARK: - Category Detail Views
+"Scanning for duplicates..." = "正在扫描重复项...";
+"Found %d duplicate photos" = "发现 %d 张重复照片";
+"Select items to delete" = "选择要删除的项目";
+"Delete %d Items" = "删除 %d 个项目";
+"Delete Photos?" = "删除照片？";
+"This will permanently delete %d photos." = "这将永久删除 %d 张照片。";
+"Finding similar photos..." = "正在查找相似照片...";
+"No Similar Photos Found" = "未找到相似照片";
+"No groups of similar photos detected." = "未检测到相似照片分组。";
+"Group - %d photos" = "分组 - %d 张照片";
+"Loading screenshots..." = "正在加载截图...";
+"You don't have any screenshots." = "您没有任何截图。";
+"%d screenshots using %@" = "%d 张截图占用 %@";
+"Select screenshots to delete" = "选择要删除的截图";
+"Delete Screenshots?" = "删除截图？";
+"This will permanently delete %d screenshots." = "这将永久删除 %d 张截图。";
+"Finding large videos..." = "正在查找大视频...";
+"No videos larger than 50MB found." = "未发现超过50MB的视频。";
+"%d large videos using %@" = "%d 个大视频占用 %@";
+"Delete Videos?" = "删除视频？";
+"This will permanently delete %d videos." = "这将永久删除 %d 个视频。";
+"Finding duplicate contacts..." = "正在查找重复联系人...";
+"No Duplicate Contacts" = "无重复联系人";
+"Your contacts are already organized!" = "您的联系人已经整理好了！";
+"Merge These Contacts" = "合并这些联系人";
+"Merge Contacts?" = "合并联系人？";
+"Merge" = "合并";
+"This will merge all contacts in this group into one." = "这将把此分组中的所有联系人合并为一个。";
+
+// MARK: - Cleanup Confirmation View
+"Review Before Cleanup" = "清理前检查";
+"Select items you want to remove" = "选择您要移除的项目";
+"%d items" = "%d 个项目";
+"Items will be moved to Recently Deleted" = "项目将移至\"最近删除\"";
+"Cleaning..." = "清理中...";
+"Cleanup Complete!" = "清理完成！";
+"Your device is now cleaner and has more free space" = "您的设备现在更干净，有更多可用空间";
+"Items Removed" = "已移除项目";
+"Space Freed" = "已释放空间";
+"Next time, archive first" = "下次请先归档";
+"Keep a safety net before deleting. From $1.99/mo." = "删除前保留一张安全网。每月 $1.99 起。";
+
+// MARK: - Vault View
+"Vault" = "保险箱";
+"Enter your PIN to access" = "输入PIN码以访问";
+"Use Face ID" = "使用面容 ID";
+"Use Touch ID" = "使用触控 ID";
+"Error" = "错误";
+"Incorrect PIN. Please try again." = "PIN码错误，请重试。";
+"Create Your PIN" = "创建您的PIN码";
+"Confirm Your PIN" = "确认您的PIN码";
+"Setup PIN" = "设置PIN码";
+"PINs Don't Match" = "PIN码不匹配";
+"Try Again" = "重试";
+"The PINs you entered don't match. Please try again." = "您输入的PIN码不匹配，请重试。";
+"Your vault is empty" = "保险箱为空";
+"Add photos and videos to keep them private" = "添加照片和视频以保护隐私";
+"Add Items" = "添加项目";
+"Select items to add to your vault" = "选择要添加到保险箱的项目";
+"Select from Photos" = "从照片中选择";
+"Add to Vault" = "添加到保险箱";
+"Item Details" = "项目详情";
+"Restore" = "恢复";
+"Delete Item" = "删除项目";
+"This will permanently delete the item from your vault." = "这将从保险箱中永久删除该项目。";
+"Restore Item" = "恢复项目";
+"This will restore the item to your Photos library." = "这将把该项目恢复到您的照片库。";
+
+// MARK: - Paywall View
+"Unlock Cleanup Pro" = "解锁 Cleanup Pro";
+"Unlimited cleanups & duplicate removal" = "无限清理和重复项删除";
+"Choose Your Plan" = "选择您的方案";
+"PRO ACTIVE" = "PRO 已激活";
+"ACTIVE" = "已激活";
+"Unable to load plans" = "无法加载方案";
+"Please check your connection and try again" = "请检查网络连接并重试";
+"Retry" = "重试";
+"Yearly" = "年度";
+"Monthly" = "月度";
+"Weekly" = "每周";
+"CURRENT PLAN" = "当前方案";
+"BEST VALUE" = "超值优选";
+"3-DAY FREE TRIAL" = "3天免费试用";
+"Subscribed" = "已订阅";
+"Start Free Trial" = "开始免费试用";
+"Start Cleaning" = "开始清理";
+"Redeem Code" = "兑换代码";
+"An error occurred" = "发生错误";
+"Cancel anytime in Settings > Apple ID > Subscriptions. Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period." = "可随时在设置 > Apple ID > 订阅中取消。订阅将自动续期，除非在当前周期结束前至少24小时取消。";
+
+// MARK: - Paywall Features
+"Unlimited Cleanups" = "无限清理";
+"Clean your device as often as you want" = "随时清理您的设备";
+"Delete Duplicates & Similar" = "删除重复和相似项";
+"Find and remove duplicate photos instantly" = "即时查找并删除重复照片";
+"Large Video Management" = "大视频管理";
+"Compress or delete space-hogging videos" = "压缩或删除占用大量空间的视频";
+"Private & Secure" = "私密安全";
+"All scanning happens on your device" = "所有扫描均在您的设备上完成";
+
+// MARK: - Paywall Context Titles
+"Unlimited photo cleanups included" = "包含无限照片清理";
+"Bulk delete screenshots anytime" = "随时批量删除截图";
+"Compress & delete large videos" = "压缩和删除大视频";
+"Keep your contacts organized" = "保持联系人井然有序";
+"Keep files safe in the cloud instead of deleting" = "将文件安全保存在云端而非删除";
+"Upgrade your archive plan for more space" = "升级归档方案获取更多空间";
+
+// MARK: - Free Usage Banner
+"%d free deletions remaining" = "剩余 %d 次免费删除";
+"Free deletions used up" = "免费删除次数已用完";
+"Upgrade" = "升级";
+
+// MARK: - Winback Offer View
+"SPECIAL OFFER" = "特别优惠";
+"We miss you!" = "我们想念您！";
+"Try Cleanup Pro free for 3 days. Cancel anytime — no commitment." = "免费试用 Cleanup Pro 3天。随时取消，无需承诺。";
+"Unlimited duplicate & similar photo cleanup" = "无限重复和相似照片清理";
+"Compress videos & save gigabytes" = "压缩视频，节省数GB空间";
+"Merge all duplicate contacts" = "合并所有重复联系人";
+"Private vault for sensitive photos" = "敏感照片私密保险箱";
+"Start 3-Day Free Trial" = "开始3天免费试用";
+"No thanks" = "不了，谢谢";
+
+// MARK: - Archive Paywall View
+"Delete with Confidence" = "放心删除";
+"Your safety net — archive photos, videos, and contacts before deleting. Retrieve them anytime you need them back." = "您的安全网——删除前归档照片、视频和联系人。随时可以找回。";
+"Safety Net for Deletions" = "删除安全网";
+"Never lose a file you might need later" = "再也不会丢失可能需要的文件";
+"Retrieve Anytime" = "随时检索";
+"Download archived files back to your device" = "将归档文件下载回您的设备";
+"Minimize Your Footprint" = "最小化您的存储占用";
+"We help you store less, not more — unlike big tech" = "我们帮您减少存储，而非增加——不同于大型科技公司";
+"Encrypted & Private" = "加密且私密";
+"Only you can access your archived files" = "只有您可以访问归档文件";
+"Upgrade Storage" = "升级存储";
+"Start Archiving" = "开始归档";
+"Loading plans..." = "正在加载方案...";
+"per month" = "每月";
+"Requires an active Cleanup Pro subscription." = "需要有效的 Cleanup Pro 订阅。";
+"Storage subscriptions renew monthly. Cancel anytime in Settings. Archived files are retained for 30 days after cancellation." = "存储订阅按月续费。可随时在设置中取消。取消后归档文件保留30天。";
+"Close" = "关闭";
+
+// MARK: - Archive Sign In View
+"Sign In for Cloud Archive" = "登录云归档";
+"Sign in with your Apple ID to securely archive files in the cloud. Your data is encrypted and only you can access it." = "使用 Apple ID 登录，安全地将文件归档到云端。您的数据经过加密，只有您可以访问。";
+"End-to-end encrypted storage" = "端到端加密存储";
+"Retrieve files anytime" = "随时检索文件";
+"No passwords to remember" = "无需记住密码";
+"Signing in..." = "正在登录...";
+"We only use your Apple ID for authentication. No personal data is collected." = "我们仅使用您的 Apple ID 进行身份验证，不收集任何个人数据。";
+
+// MARK: - Archive View
+"Loading archive..." = "正在加载归档...";
+"No Archived Items" = "无归档项目";
+"When you archive files instead of deleting them, they'll appear here. You can retrieve them anytime." = "当您归档文件而非删除时，它们将显示在此处。您可以随时检索。";
+"Cloud Storage" = "云存储";
+"%d items archived" = "%d 个项目已归档";
+"%@ remaining" = "剩余 %@";
+"Archived Item" = "归档项目";
+"Retrieve & Restore" = "检索和恢复";
+"Delete from Archive" = "从归档中删除";
+"Delete Archived Item" = "删除归档项目";
+"Delete Permanently" = "永久删除";
+"This will permanently delete this item from cloud storage. This cannot be undone." = "这将从云存储中永久删除此项目。此操作无法撤销。";
+"Restored Successfully" = "恢复成功";
+"The item has been restored to your photo library and removed from the archive." = "该项目已恢复到您的照片库并从归档中移除。";
+
+// MARK: - Charging Animations View
+"Enable Charging Animation" = "启用充电动画";
+"Current Animation" = "当前动画";
+"None" = "无";
+"Active" = "已启用";
+"No animation selected" = "未选择动画";
+"This animation requires a premium subscription" = "此动画需要高级订阅";
+
+// MARK: - Widgets View
+"How to Add Widgets" = "如何添加小组件";
+"Long press on your Home Screen" = "长按主屏幕";
+"Tap the + button in the top corner" = "点击角落的 + 按钮";
+"Search for \"Cleanup\"" = "搜索\"Cleanup\"";
+"Choose a widget and tap \"Add Widget\"" = "选择小组件并点击\"添加小组件\"";
+"Available Widgets" = "可用小组件";
+"Storage Widget" = "存储小组件";
+"See your storage status at a glance" = "一目了然地查看存储状态";
+"Small & Medium" = "小号和中号";
+"Small" = "小号";
+"Battery Widget" = "电池小组件";
+"Monitor your battery level" = "监控电池电量";
+"Quick Cleanup" = "快速清理";
+"One tap to start cleanup" = "一键开始清理";
+"65% Used" = "已使用 65%";
+"Charging" = "充电中";
+"Tap to start" = "点击开始";
+
+// MARK: - Email Cleanup View
+"Clean up promotional, spam, and unread emails directly in the Mail app" = "直接在邮件应用中清理促销、垃圾和未读邮件";
+"Tap to view tips for cleaning" = "点击查看清理技巧";
+"Open Mail App" = "打开邮件应用";
+"Tips for Email Cleanup" = "邮件清理技巧";
+"Use Mail app's \"Edit\" and \"Select All\" to bulk delete emails" = "使用邮件应用的\"编辑\"和\"全选\"批量删除邮件";
+"Unsubscribe from newsletters you no longer read" = "退订不再阅读的新闻通讯";
+"Set up email filters to auto-delete promotional emails" = "设置邮件过滤器自动删除促销邮件";
+"Empty your Trash folder regularly to free up storage" = "定期清空废纸篓以释放存储空间";

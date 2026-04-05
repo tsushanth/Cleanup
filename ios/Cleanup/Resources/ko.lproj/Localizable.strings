@@ -1,0 +1,398 @@
+/* Localizable.strings (Korean)
+   SmartSpace iOS App */
+
+// MARK: - Tab Bar
+"Home" = "홈";
+"Photos" = "사진";
+"Videos" = "동영상";
+"Contacts" = "연락처";
+"Settings" = "설정";
+
+// MARK: - Home View
+"Storage" = "저장 공간";
+"Quick Actions" = "빠른 작업";
+"Duplicates" = "중복";
+"Screenshots" = "스크린샷";
+"Large Videos" = "대용량 동영상";
+"Compress" = "압축";
+"Archive" = "보관";
+"Cleanup Categories" = "정리 카테고리";
+"Scanning..." = "스캔 중...";
+"Duplicate Photos" = "중복 사진";
+"Similar Photos" = "유사 사진";
+"Duplicate Contacts" = "중복 연락처";
+"One Tap Cleanup" = "원탭 정리";
+"Cleanup: One Tap" = "정리: 원탭";
+
+// MARK: - Home View - Dynamic Strings
+"%d items found" = "%d개 항목 발견";
+"%d groups found" = "%d개 그룹 발견";
+"%d screenshots" = "스크린샷 %d개";
+"%d videos" = "동영상 %d개";
+"%d duplicates" = "중복 %d개";
+
+// MARK: - Winback Nudge Banner
+"%d items waiting to be cleaned" = "%d개 항목 정리 대기 중";
+"Unlock unlimited cleanups" = "무제한 정리 잠금 해제";
+"Try Pro free for 3 days" = "Pro 3일 무료 체험";
+"Try Free" = "무료 체험";
+
+// MARK: - Archive Promo Card
+"Archive instead of deleting" = "삭제 대신 보관";
+"Delete with confidence" = "안심하고 삭제";
+"Select items in Photos or Videos, then tap the archive button to save them to the cloud." = "사진 또는 동영상에서 항목을 선택한 다음 보관 버튼을 탭하여 클라우드에 저장하세요.";
+"Archived items can be retrieved anytime from Settings → Cloud Archive." = "보관된 항목은 설정 → 클라우드 보관함에서 언제든지 복원할 수 있습니다.";
+"Unlike big tech, we help minimize your storage — not maximize it." = "대형 IT 기업과 달리 저장 공간을 줄이는 데 도움을 드립니다.";
+"Go to Photos" = "사진으로 이동";
+"From $1.99/mo" = "월 $1.99부터";
+
+// MARK: - Storage Overview
+"Other" = "기타";
+
+// MARK: - Onboarding View
+"Your phone is full of clutter" = "휴대폰이 불필요한 파일로 가득합니다";
+"Duplicate photos, old screenshots, large videos — they're eating your storage. Let's fix that." = "중복 사진, 오래된 스크린샷, 대용량 동영상이 저장 공간을 차지하고 있습니다. 해결해 드리겠습니다.";
+"%@ used" = "%@ 사용 중";
+"%@ total" = "전체 %@";
+"Your storage is %d%% full" = "저장 공간 %d%% 사용 중";
+"Let's Clean Up" = "정리 시작";
+"Quick scan your library" = "라이브러리 빠른 스캔";
+"We'll scan your photos and videos to find duplicates, similar shots, and space hogs. Everything stays on your device." = "사진과 동영상을 스캔하여 중복, 유사 사진 및 대용량 파일을 찾습니다. 모든 데이터는 기기에 보관됩니다.";
+"100% Private" = "100% 프라이버시";
+"All scanning happens on-device" = "모든 스캔은 기기에서 수행";
+"Fast Scan" = "빠른 스캔";
+"Takes less than 30 seconds" = "30초 미만 소요";
+"You Choose" = "사용자가 결정";
+"Nothing deleted without your approval" = "승인 없이는 아무것도 삭제되지 않음";
+"Scan My Library" = "내 라이브러리 스캔";
+"Skip for now" = "지금은 건너뛰기";
+"Ready to clean!" = "정리 준비 완료!";
+"Start with 5 free cleanups per category. Upgrade anytime for unlimited access." = "카테고리별 5회 무료 정리로 시작하세요. 언제든 업그레이드하여 무제한으로 이용하세요.";
+"5 free duplicate removals" = "중복 삭제 5회 무료";
+"5 free similar photo cleanups" = "유사 사진 정리 5회 무료";
+"5 free screenshot deletions" = "스크린샷 삭제 5회 무료";
+"5 free video cleanups" = "동영상 정리 5회 무료";
+"5 free contact merges" = "연락처 병합 5회 무료";
+"FREE" = "무료";
+"Get Started" = "시작하기";
+
+// MARK: - Settings View
+"Premium Active" = "프리미엄 활성";
+"Upgrade to Premium" = "프리미엄으로 업그레이드";
+"Unlock all features" = "모든 기능 잠금 해제";
+"Cloud Archive Active" = "클라우드 보관함 활성";
+"Add Cloud Archive" = "클라우드 보관함 추가";
+"Archive files instead of deleting" = "삭제 대신 파일 보관";
+"Subscription" = "구독";
+"Features" = "기능";
+"Charging Animations" = "충전 애니메이션";
+"Secret Space" = "비밀 공간";
+"Widgets" = "위젯";
+"Email Cleanup" = "이메일 정리";
+"Cloud Archive" = "클라우드 보관함";
+"Privacy" = "개인정보";
+"Works Offline" = "오프라인 작동";
+"No Data Collection" = "데이터 수집 없음";
+"Encrypted Cloud Archive" = "암호화된 클라우드 보관함";
+"Files Stay on Device" = "파일은 기기에 보관";
+"Analysis happens on your device. Archived items are encrypted and stored in your private cloud storage. Only you can access them." = "분석은 기기에서 수행됩니다. 보관된 항목은 암호화되어 개인 클라우드 저장소에 저장됩니다. 본인만 접근할 수 있습니다.";
+"Your data never leaves your device. We cannot access your photos, contacts, or any personal information." = "데이터는 기기를 떠나지 않습니다. 사진, 연락처 또는 개인 정보에 접근할 수 없습니다.";
+"Support" = "지원";
+"Rate App" = "앱 평가";
+"Share App" = "앱 공유";
+"Contact Support" = "지원 문의";
+"Legal" = "법적 고지";
+"Privacy Policy" = "개인정보 처리방침";
+"Terms of Service" = "이용약관";
+"Restore Purchases" = "구매 복원";
+"Version" = "버전";
+
+// MARK: - Photos Cleanup View
+"Photos Cleanup" = "사진 정리";
+"Similar" = "유사";
+"Category" = "카테고리";
+"Delete" = "삭제";
+"Scanning photos..." = "사진 스캔 중...";
+"What would you like to do with %d photos?" = "%d장의 사진을 어떻게 하시겠습니까?";
+"Delete Permanently" = "영구 삭제";
+"Archive to Cloud" = "클라우드에 보관";
+"Cancel" = "취소";
+"Archived items are safely stored in the cloud and can be retrieved later." = "보관된 항목은 클라우드에 안전하게 저장되며 나중에 복원할 수 있습니다.";
+"This action cannot be undone. Consider archiving to cloud storage instead." = "이 작업은 취소할 수 없습니다. 클라우드 저장소에 보관하는 것을 고려하세요.";
+"Archive Error" = "보관 오류";
+"OK" = "확인";
+"Archived Successfully" = "보관 완료";
+"%d items have been archived to the cloud. They are uploading in the background." = "%d개 항목이 클라우드에 보관되었습니다. 백그라운드에서 업로드 중입니다.";
+"Free Limit" = "무료 한도";
+"Delete %d" = "%d개 삭제";
+"Upgrade to Pro" = "Pro로 업그레이드";
+"You can delete %d more items for free. Upgrade to Pro for unlimited deletions." = "%d개 항목을 더 무료로 삭제할 수 있습니다. Pro로 업그레이드하면 무제한 삭제할 수 있습니다.";
+
+// MARK: - Duplicate Photos
+"No Duplicates Found" = "중복 없음";
+"Your photo library is clean!" = "사진 라이브러리가 깨끗합니다!";
+"%d duplicates" = "중복 %d개";
+"Keep Best" = "최고 품질 유지";
+"Select All" = "모두 선택";
+"Deselect All" = "모두 해제";
+"BEST" = "최고";
+
+// MARK: - Similar Photos
+"No Similar Photos" = "유사 사진 없음";
+"No groups of similar photos found" = "유사 사진 그룹이 발견되지 않았습니다";
+"%d similar photos" = "유사 사진 %d장";
+"Keep Best, Select Others" = "최고 품질 유지, 나머지 선택";
+
+// MARK: - Screenshots
+"No Screenshots" = "스크린샷 없음";
+"No screenshots found in your library" = "라이브러리에서 스크린샷을 찾을 수 없습니다";
+
+// MARK: - Videos Cleanup View
+"Videos Cleanup" = "동영상 정리";
+"No Large Videos" = "대용량 동영상 없음";
+"No videos over 50MB found" = "50MB 이상의 동영상이 없습니다";
+"%d large videos" = "대용량 동영상 %d개";
+"Scanning videos..." = "동영상 스캔 중...";
+"What would you like to do with %d videos?" = "%d개의 동영상을 어떻게 하시겠습니까?";
+"Unknown date" = "알 수 없는 날짜";
+
+// MARK: - Video Compression
+"Compression Quality" = "압축 품질";
+"Select Videos" = "동영상 선택";
+"%d selected" = "%d개 선택됨";
+"Compress Selected" = "선택 항목 압축";
+"Compressing Video" = "동영상 압축 중";
+"Compress Video" = "동영상 압축";
+"Compressing... %d%%" = "압축 중... %d%%";
+"Select Compression Quality" = "압축 품질 선택";
+"Saved %@" = "%@ 절약";
+"%d%% smaller" = "%d%% 감소";
+"Compression Failed" = "압축 실패";
+"Done" = "완료";
+
+// MARK: - Contacts Cleanup View
+"Contacts Cleanup" = "연락처 정리";
+"Incomplete" = "불완전";
+"Scanning contacts..." = "연락처 스캔 중...";
+
+// MARK: - Duplicate Contacts
+"No Duplicates" = "중복 없음";
+"Your contacts are clean!" = "연락처가 깔끔합니다!";
+"Merge All" = "모두 병합";
+"Delete Duplicates" = "중복 삭제";
+
+// MARK: - Incomplete Contacts
+"No Incomplete Contacts" = "불완전한 연락처 없음";
+"All contacts have complete information" = "모든 연락처 정보가 완전합니다";
+"%d incomplete" = "%d개 불완전";
+"Delete Selected (%d)" = "선택 항목 삭제 (%d)";
+
+// MARK: - Merge Contacts Sheet
+"Merge Contacts" = "연락처 병합";
+"Select the primary contact to keep. Information from other contacts will be merged into it." = "유지할 기본 연락처를 선택하세요. 다른 연락처의 정보가 병합됩니다.";
+
+// MARK: - Category Detail Views
+"Scanning for duplicates..." = "중복 스캔 중...";
+"Found %d duplicate photos" = "중복 사진 %d장 발견";
+"Select items to delete" = "삭제할 항목 선택";
+"Delete %d Items" = "%d개 항목 삭제";
+"Delete Photos?" = "사진을 삭제하시겠습니까?";
+"This will permanently delete %d photos." = "%d장의 사진이 영구 삭제됩니다.";
+"Finding similar photos..." = "유사 사진 검색 중...";
+"No Similar Photos Found" = "유사 사진을 찾을 수 없음";
+"No groups of similar photos detected." = "유사 사진 그룹이 감지되지 않았습니다.";
+"Group - %d photos" = "그룹 - %d장";
+"Loading screenshots..." = "스크린샷 로딩 중...";
+"You don't have any screenshots." = "스크린샷이 없습니다.";
+"%d screenshots using %@" = "스크린샷 %d개 (%@ 사용)";
+"Select screenshots to delete" = "삭제할 스크린샷 선택";
+"Delete Screenshots?" = "스크린샷을 삭제하시겠습니까?";
+"This will permanently delete %d screenshots." = "%d개의 스크린샷이 영구 삭제됩니다.";
+"Finding large videos..." = "대용량 동영상 검색 중...";
+"No videos larger than 50MB found." = "50MB 이상의 동영상이 없습니다.";
+"%d large videos using %@" = "대용량 동영상 %d개 (%@ 사용)";
+"Delete Videos?" = "동영상을 삭제하시겠습니까?";
+"This will permanently delete %d videos." = "%d개의 동영상이 영구 삭제됩니다.";
+"Finding duplicate contacts..." = "중복 연락처 검색 중...";
+"No Duplicate Contacts" = "중복 연락처 없음";
+"Your contacts are already organized!" = "연락처가 이미 정리되어 있습니다!";
+"Merge These Contacts" = "이 연락처 병합";
+"Merge Contacts?" = "연락처를 병합하시겠습니까?";
+"Merge" = "병합";
+"This will merge all contacts in this group into one." = "이 그룹의 모든 연락처가 하나로 병합됩니다.";
+
+// MARK: - Cleanup Confirmation View
+"Review Before Cleanup" = "정리 전 검토";
+"Select items you want to remove" = "제거할 항목을 선택하세요";
+"%d items" = "%d개 항목";
+"Items will be moved to Recently Deleted" = "항목이 최근 삭제 항목으로 이동됩니다";
+"Cleaning..." = "정리 중...";
+"Cleanup Complete!" = "정리 완료!";
+"Your device is now cleaner and has more free space" = "기기가 더 깨끗해지고 여유 공간이 늘어났습니다";
+"Items Removed" = "항목 제거됨";
+"Space Freed" = "공간 확보됨";
+"Next time, archive first" = "다음에는 먼저 보관하세요";
+"Keep a safety net before deleting. From $1.99/mo." = "삭제 전 안전망을 유지하세요. 월 $1.99부터.";
+
+// MARK: - Vault View
+"Vault" = "금고";
+"Enter your PIN to access" = "PIN을 입력하여 접근";
+"Use Face ID" = "Face ID 사용";
+"Use Touch ID" = "Touch ID 사용";
+"Error" = "오류";
+"Incorrect PIN. Please try again." = "PIN이 올바르지 않습니다. 다시 시도하세요.";
+"Create Your PIN" = "PIN 만들기";
+"Confirm Your PIN" = "PIN 확인";
+"Setup PIN" = "PIN 설정";
+"PINs Don't Match" = "PIN이 일치하지 않음";
+"Try Again" = "다시 시도";
+"The PINs you entered don't match. Please try again." = "입력한 PIN이 일치하지 않습니다. 다시 시도하세요.";
+"Your vault is empty" = "금고가 비어 있습니다";
+"Add photos and videos to keep them private" = "사진과 동영상을 추가하여 비공개로 유지";
+"Add Items" = "항목 추가";
+"Select items to add to your vault" = "금고에 추가할 항목 선택";
+"Select from Photos" = "사진에서 선택";
+"Add to Vault" = "금고에 추가";
+"Item Details" = "항목 상세";
+"Restore" = "복원";
+"Delete Item" = "항목 삭제";
+"This will permanently delete the item from your vault." = "금고에서 항목이 영구 삭제됩니다.";
+"Restore Item" = "항목 복원";
+"This will restore the item to your Photos library." = "사진 라이브러리로 항목이 복원됩니다.";
+
+// MARK: - Paywall View
+"Unlock Cleanup Pro" = "Cleanup Pro 잠금 해제";
+"Unlimited cleanups & duplicate removal" = "무제한 정리 및 중복 제거";
+"Choose Your Plan" = "플랜 선택";
+"PRO ACTIVE" = "PRO 활성";
+"ACTIVE" = "활성";
+"Unable to load plans" = "플랜을 불러올 수 없음";
+"Please check your connection and try again" = "연결 상태를 확인하고 다시 시도하세요";
+"Retry" = "재시도";
+"Yearly" = "연간";
+"Monthly" = "월간";
+"Weekly" = "주간";
+"CURRENT PLAN" = "현재 플랜";
+"BEST VALUE" = "최고 가치";
+"3-DAY FREE TRIAL" = "3일 무료 체험";
+"Subscribed" = "구독 중";
+"Start Free Trial" = "무료 체험 시작";
+"Start Cleaning" = "정리 시작";
+"Redeem Code" = "코드 사용";
+"An error occurred" = "오류가 발생했습니다";
+"Cancel anytime in Settings > Apple ID > Subscriptions. Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period." = "설정 > Apple ID > 구독에서 언제든지 취소할 수 있습니다. 구독은 현재 기간 종료 최소 24시간 전에 취소하지 않으면 자동 갱신됩니다.";
+
+// MARK: - Paywall Features
+"Unlimited Cleanups" = "무제한 정리";
+"Clean your device as often as you want" = "원하는 만큼 기기를 정리하세요";
+"Delete Duplicates & Similar" = "중복 및 유사 항목 삭제";
+"Find and remove duplicate photos instantly" = "중복 사진을 즉시 찾아 제거";
+"Large Video Management" = "대용량 동영상 관리";
+"Compress or delete space-hogging videos" = "공간을 차지하는 동영상 압축 또는 삭제";
+"Private & Secure" = "비공개 및 보안";
+"All scanning happens on your device" = "모든 스캔은 기기에서 수행됩니다";
+
+// MARK: - Paywall Context Titles
+"Unlimited photo cleanups included" = "무제한 사진 정리 포함";
+"Bulk delete screenshots anytime" = "언제든 스크린샷 일괄 삭제";
+"Compress & delete large videos" = "대용량 동영상 압축 및 삭제";
+"Keep your contacts organized" = "연락처를 정리된 상태로 유지";
+"Keep files safe in the cloud instead of deleting" = "삭제 대신 클라우드에 파일을 안전하게 보관";
+"Upgrade your archive plan for more space" = "보관함 플랜 업그레이드로 더 많은 공간 확보";
+
+// MARK: - Free Usage Banner
+"%d free deletions remaining" = "무료 삭제 %d회 남음";
+"Free deletions used up" = "무료 삭제 횟수 소진";
+"Upgrade" = "업그레이드";
+
+// MARK: - Winback Offer View
+"SPECIAL OFFER" = "특별 할인";
+"We miss you!" = "다시 만나고 싶어요!";
+"Try Cleanup Pro free for 3 days. Cancel anytime — no commitment." = "Cleanup Pro를 3일간 무료로 체험하세요. 언제든 취소 가능하며 약정 없습니다.";
+"Unlimited duplicate & similar photo cleanup" = "무제한 중복 및 유사 사진 정리";
+"Compress videos & save gigabytes" = "동영상 압축으로 GB 단위 절약";
+"Merge all duplicate contacts" = "모든 중복 연락처 병합";
+"Private vault for sensitive photos" = "민감한 사진을 위한 비밀 금고";
+"Start 3-Day Free Trial" = "3일 무료 체험 시작";
+"No thanks" = "괜찮습니다";
+
+// MARK: - Archive Paywall View
+"Delete with Confidence" = "안심하고 삭제";
+"Your safety net — archive photos, videos, and contacts before deleting. Retrieve them anytime you need them back." = "안전망 — 삭제 전 사진, 동영상, 연락처를 보관하세요. 필요할 때 언제든 복원할 수 있습니다.";
+"Safety Net for Deletions" = "삭제 안전망";
+"Never lose a file you might need later" = "나중에 필요할 수 있는 파일을 잃지 마세요";
+"Retrieve Anytime" = "언제든 복원";
+"Download archived files back to your device" = "보관된 파일을 기기로 다시 다운로드";
+"Minimize Your Footprint" = "저장 공간 최소화";
+"We help you store less, not more — unlike big tech" = "대형 IT 기업과 달리 저장 공간을 줄이는 데 도움을 드립니다";
+"Encrypted & Private" = "암호화 및 비공개";
+"Only you can access your archived files" = "보관된 파일에는 본인만 접근 가능";
+"Upgrade Storage" = "저장 공간 업그레이드";
+"Start Archiving" = "보관 시작";
+"Loading plans..." = "플랜 로딩 중...";
+"per month" = "월";
+"Requires an active Cleanup Pro subscription." = "활성 Cleanup Pro 구독이 필요합니다.";
+"Storage subscriptions renew monthly. Cancel anytime in Settings. Archived files are retained for 30 days after cancellation." = "저장 공간 구독은 매월 갱신됩니다. 설정에서 언제든 취소할 수 있습니다. 보관된 파일은 취소 후 30일간 유지됩니다.";
+"Close" = "닫기";
+
+// MARK: - Archive Sign In View
+"Sign In for Cloud Archive" = "클라우드 보관함 로그인";
+"Sign in with your Apple ID to securely archive files in the cloud. Your data is encrypted and only you can access it." = "Apple ID로 로그인하여 클라우드에 안전하게 파일을 보관하세요. 데이터는 암호화되며 본인만 접근할 수 있습니다.";
+"End-to-end encrypted storage" = "종단간 암호화 저장소";
+"Retrieve files anytime" = "언제든 파일 복원";
+"No passwords to remember" = "비밀번호 기억 불필요";
+"Signing in..." = "로그인 중...";
+"We only use your Apple ID for authentication. No personal data is collected." = "Apple ID는 인증에만 사용됩니다. 개인 데이터는 수집되지 않습니다.";
+
+// MARK: - Archive View
+"Loading archive..." = "보관함 로딩 중...";
+"No Archived Items" = "보관된 항목 없음";
+"When you archive files instead of deleting them, they'll appear here. You can retrieve them anytime." = "파일을 삭제 대신 보관하면 여기에 표시됩니다. 언제든 복원할 수 있습니다.";
+"Cloud Storage" = "클라우드 저장소";
+"%d items archived" = "%d개 항목 보관됨";
+"%@ remaining" = "%@ 남음";
+"Archived Item" = "보관된 항목";
+"Retrieve & Restore" = "복원하기";
+"Delete from Archive" = "보관함에서 삭제";
+"Delete Archived Item" = "보관 항목 삭제";
+"Delete Permanently" = "영구 삭제";
+"This will permanently delete this item from cloud storage. This cannot be undone." = "이 항목이 클라우드 저장소에서 영구 삭제됩니다. 이 작업은 취소할 수 없습니다.";
+"Restored Successfully" = "복원 완료";
+"The item has been restored to your photo library and removed from the archive." = "항목이 사진 라이브러리로 복원되었으며 보관함에서 제거되었습니다.";
+
+// MARK: - Charging Animations View
+"Enable Charging Animation" = "충전 애니메이션 활성화";
+"Current Animation" = "현재 애니메이션";
+"None" = "없음";
+"Active" = "활성";
+"No animation selected" = "선택된 애니메이션 없음";
+"This animation requires a premium subscription" = "이 애니메이션은 프리미엄 구독이 필요합니다";
+
+// MARK: - Widgets View
+"How to Add Widgets" = "위젯 추가 방법";
+"Long press on your Home Screen" = "홈 화면을 길게 누르세요";
+"Tap the + button in the top corner" = "상단 모서리의 + 버튼을 탭하세요";
+"Search for \"Cleanup\"" = "\"Cleanup\"을 검색하세요";
+"Choose a widget and tap \"Add Widget\"" = "위젯을 선택하고 \"위젯 추가\"를 탭하세요";
+"Available Widgets" = "사용 가능한 위젯";
+"Storage Widget" = "저장 공간 위젯";
+"See your storage status at a glance" = "저장 공간 상태를 한눈에 확인";
+"Small & Medium" = "소형 및 중형";
+"Small" = "소형";
+"Battery Widget" = "배터리 위젯";
+"Monitor your battery level" = "배터리 잔량 모니터링";
+"Quick Cleanup" = "빠른 정리";
+"One tap to start cleanup" = "탭 한 번으로 정리 시작";
+"65% Used" = "65% 사용 중";
+"Charging" = "충전 중";
+"Tap to start" = "탭하여 시작";
+
+// MARK: - Email Cleanup View
+"Clean up promotional, spam, and unread emails directly in the Mail app" = "메일 앱에서 직접 프로모션, 스팸, 읽지 않은 이메일 정리";
+"Tap to view tips for cleaning" = "정리 팁 보기";
+"Open Mail App" = "메일 앱 열기";
+"Tips for Email Cleanup" = "이메일 정리 팁";
+"Use Mail app's \"Edit\" and \"Select All\" to bulk delete emails" = "메일 앱의 \"편집\"과 \"전체 선택\"으로 이메일 일괄 삭제";
+"Unsubscribe from newsletters you no longer read" = "더 이상 읽지 않는 뉴스레터 구독 해지";
+"Set up email filters to auto-delete promotional emails" = "이메일 필터를 설정하여 프로모션 이메일 자동 삭제";
+"Empty your Trash folder regularly to free up storage" = "정기적으로 휴지통을 비워 저장 공간 확보";

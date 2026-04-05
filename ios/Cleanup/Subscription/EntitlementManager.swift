@@ -1,5 +1,6 @@
 import SwiftUI
 import RevenueCat
+import PaywallKit
 
 @MainActor
 class EntitlementManager: NSObject, ObservableObject {
@@ -74,6 +75,36 @@ class EntitlementManager: NSObject, ObservableObject {
 
     var subscriptionStatusText: String {
         isPro ? "Pro Member" : "Free"
+    }
+
+    /// Convert RevenueCat products to PaywallKit format for template rendering
+    var paywallProducts: [PaywallProduct] {
+        sortedProductsForDisplay.map { product in
+            let period: PaywallProduct.Period
+            switch product.productIdentifier {
+            case "cleanup_pro_weekly_799": period = .weekly
+            case "cleanup_pro_monthly_999": period = .monthly
+            case "cleanup_pro_yearly_2999": period = .yearly
+            default: period = .monthly
+            }
+
+            let trialDays: Int? = {
+                guard let intro = product.introductoryDiscount,
+                      intro.paymentMode == .freeTrial else { return nil }
+                return intro.subscriptionPeriod.value *
+                    (intro.subscriptionPeriod.unit == .day ? 1 :
+                     intro.subscriptionPeriod.unit == .week ? 7 : 30)
+            }()
+
+            return PaywallProduct(
+                id: product.productIdentifier,
+                localizedPrice: product.localizedPriceString,
+                price: product.price as Decimal,
+                currencyCode: product.currencyCode ?? "USD",
+                trialDays: trialDays,
+                period: period
+            )
+        }
     }
 
     /// Archive products sorted by storage size for display

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <!-- ==================== HOME SCREEN ==================== -->
+    <string name="home_title">Bersihkan Sekali Ketuk</string>
+    <string name="home_vault_cd">Brankas</string>
+    <string name="home_scanning">Memindai…</string>
+    <string name="home_one_tap_scan">Pindai Sekali Ketuk</string>
+    <string name="home_grant_access_scan">Beri Akses &amp; Pindai</string>
+    <string name="home_scanning_device">Memindai perangkat Anda…</string>
+    <string name="home_quick_actions">Tindakan Cepat</string>
+    <string name="home_chip_duplicates">Duplikat</string>
+    <string name="home_chip_screenshots">Tangkapan Layar</string>
+    <string name="home_chip_large_videos">Video Besar</string>
+    <string name="home_chip_compress">Kompres</string>
+    <string name="home_chip_archive">Arsip</string>
+    <string name="home_chip_downloads">Unduhan</string>
+    <string name="home_chip_apk_files">File APK</string>
+    <string name="home_smart_scan_results">Hasil Pemindaian Cerdas</string>
+    <string name="home_category_duplicate_photos">Foto Duplikat</string>
+    <string name="home_category_similar_photos">Foto Mirip</string>
+    <string name="home_category_screenshots">Tangkapan Layar</string>
+    <string name="home_category_large_videos">Video Besar</string>
+    <string name="home_category_duplicate_contacts">Kontak Duplikat</string>
+    <string name="home_file_management">Manajemen File</string>
+    <string name="home_category_downloads">Unduhan</string>
+    <string name="home_category_apk_files">File APK</string>
+    <string name="home_category_notification_manager">Manajer Notifikasi</string>
+    <string name="home_storage_used">%s digunakan</string>
+    <string name="home_storage_total">%s total</string>
+    <string name="home_storage_full">Penyimpanan Anda %d%% penuh</string>
+    <string name="home_items_count">%d item</string>
+    <string name="home_items_count_savings">%1$d item \u00B7 %2$s</string>
+    <string name="home_tap_to_scan">Ketuk untuk memindai</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_welcome_title">Ponsel Anda penuh dengan file tidak terpakai</string>
+    <string name="onboarding_welcome_subtitle">Foto duplikat, tangkapan layar lama, video besar \u2014 semuanya memakan penyimpanan Anda. Mari perbaiki itu.</string>
+    <string name="onboarding_welcome_button">Ayo Bersihkan</string>
+    <string name="onboarding_media_granted_title">Akses media diberikan!</string>
+    <string name="onboarding_media_request_title">Akses foto &amp; video Anda</string>
+    <string name="onboarding_media_granted_subtitle">Kami akan memindai semua foto dan video Anda untuk menemukan duplikat, foto mirip, dan file besar.</string>
+    <string name="onboarding_media_request_subtitle">Untuk menemukan duplikat dan membebaskan ruang, kami perlu akses ke foto dan video Anda.</string>
+    <string name="onboarding_feature_private_title">100% Privat</string>
+    <string name="onboarding_feature_private_subtitle">Semua pemindaian dilakukan di perangkat</string>
+    <string name="onboarding_feature_fast_title">Pindai Cepat</string>
+    <string name="onboarding_feature_fast_subtitle">Kurang dari 30 detik</string>
+    <string name="onboarding_feature_you_choose_title">Anda yang Memilih</string>
+    <string name="onboarding_feature_you_choose_subtitle">Tidak ada yang dihapus tanpa persetujuan Anda</string>
+    <string name="onboarding_continue">Lanjutkan</string>
+    <string name="onboarding_allow_photo_video">Izinkan Akses Foto &amp; Video</string>
+    <string name="onboarding_skip">Lewati untuk sekarang</string>
+    <string name="onboarding_contact_granted_title">Akses kontak diberikan!</string>
+    <string name="onboarding_contact_request_title">Bersihkan kontak Anda</string>
+    <string name="onboarding_contact_granted_subtitle">Kami akan menemukan kontak duplikat dan tidak lengkap sehingga Anda dapat menggabungkan atau menghapusnya.</string>
+    <string name="onboarding_contact_request_subtitle">Temukan dan gabungkan kontak duplikat untuk menjaga buku alamat Anda tetap rapi.</string>
+    <string name="onboarding_feature_find_dupes_title">Temukan Duplikat</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Deteksi kontak dengan nama atau nomor yang sama</string>
+    <string name="onboarding_feature_smart_merge_title">Penggabungan Cerdas</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Gabungkan duplikat menjadi satu kontak</string>
+    <string name="onboarding_feature_safe_title">Aman</string>
+    <string name="onboarding_feature_safe_subtitle">Tinjau sebelum perubahan apa pun dilakukan</string>
+    <string name="onboarding_allow_contact">Izinkan Akses Kontak</string>
+    <string name="onboarding_ready_title">Semua siap!</string>
+    <string name="onboarding_ready_subtitle">Ketuk tombol di bawah untuk memindai semuanya dan mulai membersihkan.</string>
+    <string name="onboarding_photos_videos">Foto &amp; video</string>
+    <string name="onboarding_contact_access">Akses kontak</string>
+    <string name="onboarding_free_duplicates">5 penghapusan duplikat gratis</string>
+    <string name="onboarding_free_similar">5 pembersihan foto mirip gratis</string>
+    <string name="onboarding_free_screenshots">5 penghapusan tangkapan layar gratis</string>
+    <string name="onboarding_free_videos">5 pembersihan video gratis</string>
+    <string name="onboarding_free_contacts">5 penggabungan kontak gratis</string>
+    <string name="onboarding_free_label">GRATIS</string>
+    <string name="onboarding_get_started">Pindai &amp; Mulai</string>
+
+    <!-- ==================== PAYWALL SCREEN ==================== -->
+    <string name="paywall_close_cd">Tutup</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">per tahun</string>
+    <string name="paywall_per_month">per bulan</string>
+    <string name="paywall_feature_unlimited_title">Pembersihan Tanpa Batas</string>
+    <string name="paywall_feature_unlimited_subtitle">Bersihkan perangkat Anda sesering yang Anda mau</string>
+    <string name="paywall_feature_duplicates_title">Hapus Duplikat &amp; Mirip</string>
+    <string name="paywall_feature_duplicates_subtitle">Temukan dan hapus foto duplikat secara instan</string>
+    <string name="paywall_feature_videos_title">Manajemen Video Besar</string>
+    <string name="paywall_feature_videos_subtitle">Kompres atau hapus video yang memakan ruang</string>
+    <string name="paywall_feature_private_title">Privat &amp; Aman</string>
+    <string name="paywall_feature_private_subtitle">Semua pemindaian dilakukan di perangkat Anda</string>
+    <string name="paywall_best_value">NILAI TERBAIK</string>
+    <string name="paywall_save_75">Hemat 75%% dibanding bulanan</string>
+    <string name="paywall_continue">Lanjutkan</string>
+    <string name="paywall_restore">Pulihkan Pembelian</string>
+    <string name="paywall_terms">Langganan diperpanjang otomatis. Batalkan kapan saja di pengaturan Google Play.</string>
+
+    <!-- ==================== PHOTOS CLEANUP SCREEN ==================== -->
+    <string name="photos_title">Pembersihan Foto</string>
+    <string name="photos_back_cd">Kembali</string>
+    <string name="photos_change_folder_cd">Ubah folder</string>
+    <string name="photos_delete_count">Hapus %d</string>
+    <string name="photos_select_title">Pilih Foto untuk Dianalisis</string>
+    <string name="photos_select_subtitle">Pilih cara Anda ingin menyediakan foto untuk deteksi duplikat dan tangkapan layar.</string>
+    <string name="photos_select_all_folder">Pilih Semua (Akses Folder)</string>
+    <string name="photos_select_all_hint">Beri akses ke folder DCIM atau Gambar untuk memindai semua foto</string>
+    <string name="photos_choose">Pilih Foto</string>
+    <string name="photos_choose_hint">Pilih foto tertentu untuk dianalisis</string>
+    <string name="photos_selected_count">%d dipilih</string>
+    <string name="photos_save_amount">Hemat %s</string>
+    <string name="photos_tab_duplicates">Duplikat</string>
+    <string name="photos_tab_similar">Mirip</string>
+    <string name="photos_tab_screenshots">Tangkapan Layar</string>
+    <string name="photos_no_duplicates_title">Tidak Ada Duplikat</string>
+    <string name="photos_no_duplicates_subtitle">Pustaka foto Anda bersih!</string>
+    <string name="photos_duplicates_summary">%1$d duplikat dalam %2$d grup</string>
+    <string name="photos_select_all">Pilih Semua</string>
+    <string name="photos_deselect_all">Batal Pilih Semua</string>
+    <string name="photos_n_duplicates">%d duplikat</string>
+    <string name="photos_keep_best">Simpan Terbaik</string>
+    <string name="photos_no_similar_title">Tidak Ada Foto Mirip</string>
+    <string name="photos_no_similar_subtitle">Tidak ditemukan grup foto mirip</string>
+    <string name="photos_similar_summary">%1$d mirip dalam %2$d grup</string>
+    <string name="photos_n_similar">%d foto mirip</string>
+    <string name="photos_percent_similar">%d%% mirip</string>
+    <string name="photos_keep_best_select_others">Simpan Terbaik, Pilih Lainnya</string>
+    <string name="photos_no_screenshots_title">Tidak Ada Tangkapan Layar</string>
+    <string name="photos_no_screenshots_subtitle">Tidak ditemukan tangkapan layar di pustaka Anda</string>
+    <string name="photos_n_screenshots">%d tangkapan layar</string>
+    <string name="photos_selected_cd">Dipilih</string>
+    <string name="photos_best_badge">TERBAIK</string>
+    <string name="photos_scanning">Memindai foto…</string>
+    <string name="photos_delete_title">Hapus %d Foto?</string>
+    <string name="photos_delete_message">Ini akan menghapus foto yang dipilih secara permanen dari perangkat Anda. Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="photos_delete_permanently">Hapus Permanen</string>
+    <string name="cancel">Batal</string>
+
+    <!-- ==================== UPGRADE / PAYWALL DIALOG ==================== -->
+    <string name="upgrade_title">Tingkatkan ke Pro</string>
+    <string name="upgrade_message">Anda telah menggunakan semua pembersihan gratis untuk kategori ini. Tingkatkan ke Pro untuk akses tanpa batas.</string>
+    <string name="upgrade_button">Tingkatkan</string>
+    <string name="upgrade_not_now">Nanti Saja</string>
+
+    <!-- ==================== VAULT SCREEN ==================== -->
+    <string name="vault_title">Brankas</string>
+    <string name="vault_lock_cd">Kunci</string>
+    <string name="vault_add_cd">Tambah item</string>
+    <string name="vault_secret_space">Ruang Rahasia</string>
+    <string name="vault_enter_pin">Masukkan PIN Anda untuk mengakses</string>
+    <string name="vault_use_biometrics">Gunakan Biometrik</string>
+    <string name="vault_biometric_title">Akses Ruang Rahasia</string>
+    <string name="vault_biometric_subtitle">Gunakan sidik jari atau wajah Anda untuk membuka</string>
+    <string name="vault_biometric_negative">Gunakan PIN</string>
+    <string name="vault_backspace_cd">Hapus</string>
+    <string name="vault_create_pin">Buat PIN Anda</string>
+    <string name="vault_confirm_pin">Konfirmasi PIN Anda</string>
+    <string name="vault_create_pin_subtitle">Pilih PIN 4 digit untuk melindungi brankas Anda</string>
+    <string name="vault_confirm_pin_subtitle">Masukkan PIN yang sama lagi</string>
+    <string name="vault_pin_mismatch">PIN tidak cocok. Silakan coba lagi.</string>
+    <string name="vault_empty_title">Brankas Anda kosong</string>
+    <string name="vault_empty_subtitle">Tambahkan foto dan video untuk menjaganya tetap privat</string>
+    <string name="vault_add_items">Tambah Item</string>
+    <string name="vault_adding">Menambahkan ke brankas…</string>
+    <string name="vault_add_to_vault">Tambahkan ke Brankas</string>
+    <string name="vault_select_items_subtitle">Pilih item untuk ditambahkan ke brankas Anda</string>
+    <string name="vault_select_from_photos">Pilih dari Foto</string>
+    <string name="vault_select_from_files">Pilih dari File</string>
+    <string name="vault_delete_title">Hapus Item</string>
+    <string name="vault_delete_message">Ini akan menghapus item secara permanen dari brankas Anda.</string>
+    <string name="vault_delete_button">Hapus</string>
+    <string name="vault_restore_title">Pulihkan Item</string>
+    <string name="vault_restore_message">Ini akan memulihkan item ke pustaka Foto Anda.</string>
+    <string name="vault_restore_button">Pulihkan</string>
+    <string name="vault_added_date">Ditambahkan: %s</string>
+    <string name="vault_item_size">Ukuran: %s</string>
+
+    <!-- ==================== CONTACTS CLEANUP SCREEN ==================== -->
+    <string name="contacts_title">Pembersihan Kontak</string>
+    <string name="contacts_tab_duplicates">Duplikat</string>
+    <string name="contacts_tab_incomplete">Tidak Lengkap</string>
+    <string name="contacts_access_required">Akses Kontak Diperlukan</string>
+    <string name="contacts_access_message">Pembersihan memerlukan akses ke kontak Anda untuk menemukan duplikat dan entri tidak lengkap.</string>
+    <string name="contacts_grant_access">Beri Akses</string>
+    <string name="contacts_no_duplicates_title">Tidak Ada Duplikat</string>
+    <string name="contacts_no_duplicates_subtitle">Kontak Anda bersih!</string>
+    <string name="contacts_n_duplicates">%d duplikat</string>
+    <string name="contacts_merge_all">Gabungkan Semua</string>
+    <string name="contacts_delete_dupes">Hapus Duplikat</string>
+    <string name="contacts_no_name">Tanpa Nama</string>
+    <string name="contacts_no_incomplete_title">Tidak Ada Kontak Tidak Lengkap</string>
+    <string name="contacts_no_incomplete_subtitle">Semua kontak memiliki informasi lengkap</string>
+    <string name="contacts_n_incomplete">%d tidak lengkap</string>
+    <string name="contacts_delete_selected">Hapus Terpilih (%d)</string>
+    <string name="contacts_merge_title">Gabungkan Kontak</string>
+    <string name="contacts_merge_subtitle">Pilih kontak utama untuk disimpan. Informasi dari kontak lain akan digabungkan ke dalamnya.</string>
+    <string name="contacts_merge_button">Gabungkan Kontak</string>
+    <string name="contacts_scanning">Memindai kontak…</string>
+
+    <!-- ==================== VIDEOS CLEANUP SCREEN ==================== -->
+    <string name="videos_title">Pembersihan Video</string>
+    <string name="videos_delete_count">Hapus %d</string>
+    <string name="videos_select_title">Pilih Video untuk Dianalisis</string>
+    <string name="videos_select_subtitle">Pilih cara Anda ingin menyediakan video untuk deteksi file besar dan kompresi.</string>
+    <string name="videos_select_all_folder">Pilih Semua (Akses Folder)</string>
+    <string name="videos_select_all_hint">Beri akses ke folder DCIM atau media untuk memindai semua video</string>
+    <string name="videos_choose">Pilih Video</string>
+    <string name="videos_choose_hint">Pilih video tertentu untuk dianalisis</string>
+    <string name="videos_tab_large">Video Besar</string>
+    <string name="videos_tab_compress">Kompres</string>
+    <string name="videos_no_large_title">Tidak Ada Video Besar</string>
+    <string name="videos_no_large_subtitle">Tidak ditemukan video lebih dari 50MB</string>
+    <string name="videos_n_large">%d video besar</string>
+    <string name="videos_delete_title">Hapus %d Video?</string>
+    <string name="videos_delete_message">Ini akan menghapus video yang dipilih secara permanen. Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="videos_no_compress_title">Tidak Ada Video</string>
+    <string name="videos_no_compress_subtitle">Tidak ditemukan video yang dapat dikompres</string>
+    <string name="videos_compression_quality">Kualitas Kompresi</string>
+    <string name="videos_select_videos">Pilih Video</string>
+    <string name="videos_n_selected">%d dipilih</string>
+    <string name="videos_compress_n">Kompres %d Video</string>
+    <string name="videos_scanning">Memindai video…</string>
+    <string name="videos_compressing_title">Mengompres Video</string>
+
+    <!-- ==================== DOWNLOADS SCREEN ==================== -->
+    <string name="downloads_title">Unduhan</string>
+    <string name="downloads_deselect">Batal Pilih</string>
+    <string name="downloads_delete_n_files">Hapus %d file</string>
+    <string name="downloads_scanning">Memindai folder unduhan…</string>
+    <string name="downloads_clean">Folder unduhan bersih!</string>
+    <string name="downloads_summary">%1$d file (%2$s)</string>
+
+    <!-- ==================== APK SCREEN ==================== -->
+    <string name="apk_title">File APK</string>
+    <string name="apk_deselect">Batal Pilih</string>
+    <string name="apk_delete_n">Hapus %d APK</string>
+    <string name="apk_scanning">Mencari file APK…</string>
+    <string name="apk_none_found">Tidak ditemukan file APK!</string>
+    <string name="apk_all_filter">Semua (%d)</string>
+
+    <!-- ==================== NOTIFICATIONS SCREEN ==================== -->
+    <string name="notifications_title">Notifikasi</string>
+    <string name="notifications_analyzing">Menganalisis notifikasi…</string>
+    <string name="notifications_no_apps">Tidak ditemukan aplikasi</string>
+    <string name="notifications_apps_count">%d aplikasi dengan notifikasi</string>
+    <string name="notifications_manage_hint">Ketuk untuk mengelola pengaturan notifikasi untuk setiap aplikasi</string>
+    <string name="notifications_enabled">Notifikasi diaktifkan</string>
+    <string name="notifications_disabled">Notifikasi dinonaktifkan</string>
+    <string name="notifications_manage_button">Kelola</string>
+
+    <!-- ==================== ARCHIVE SCREEN ==================== -->
+    <string name="archive_title">Arsip Cloud</string>
+    <string name="archive_sync_cd">Sinkronkan</string>
+    <string name="archive_storage_used">Penyimpanan Terpakai</string>
+    <string name="archive_empty_title">Tidak ada item yang diarsipkan</string>
+    <string name="archive_empty_subtitle">Arsipkan foto dan video dari layar pembersihan untuk membebaskan ruang perangkat</string>
+    <string name="archive_items_count">%d item diarsipkan</string>
+    <string name="archive_detail_archived">Diarsipkan: %s</string>
+    <string name="archive_detail_size">Ukuran: %s</string>
+    <string name="archive_detail_tier">Tingkat: %s</string>
+    <string name="archive_retrieve_button">Ambil Kembali</string>
+    <string name="archive_delete_title">Hapus Item Arsip</string>
+    <string name="archive_delete_message">Ini akan menghapus item ini secara permanen dari arsip Anda. Ini tidak dapat dibatalkan.</string>
+    <string name="archive_success_title">Berhasil Diarsipkan</string>
+    <string name="archive_success_message">%d item telah diarsipkan ke cloud.</string>
+    <string name="archive_restore_success_title">Berhasil Dipulihkan</string>
+    <string name="archive_restore_success_message">Item telah dipulihkan ke perangkat Anda.</string>
+    <string name="archive_error_title">Kesalahan</string>
+    <string name="ok">OK</string>
+
+    <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
+    <string name="archive_signin_title">Masuk untuk Arsip Cloud</string>
+    <string name="archive_signin_subtitle">Arsipkan foto dan video Anda ke cloud sebelum menghapusnya dari perangkat</string>
+    <string name="archive_signin_encrypted_title">Enkripsi End-to-End</string>
+    <string name="archive_signin_encrypted_subtitle">Data Anda dienkripsi sebelum meninggalkan perangkat</string>
+    <string name="archive_signin_retrieve_title">Ambil Kapan Saja</string>
+    <string name="archive_signin_retrieve_subtitle">Unduh file arsip Anda kapan pun Anda membutuhkannya</string>
+    <string name="archive_signin_private_title">Privat &amp; Aman</string>
+    <string name="archive_signin_private_subtitle">Tidak perlu mengingat kata sandi \u2014 masuk dengan Google</string>
+    <string name="archive_signin_google">Masuk dengan Google</string>
+    <string name="archive_signin_privacy">Data Anda hanya digunakan untuk penyimpanan arsip cloud. Kami tidak pernah membagikan atau menjual informasi Anda.</string>
+
+    <!-- ==================== ARCHIVE PAYWALL SCREEN ==================== -->
+    <string name="archive_paywall_title">Hapus dengan Percaya Diri</string>
+    <string name="archive_paywall_subtitle">Arsipkan file ke cloud sebelum menghapus. Ambil kembali kapan saja.</string>
+    <string name="archive_paywall_safety_title">Jaring Pengaman</string>
+    <string name="archive_paywall_safety_subtitle">Jangan pernah kehilangan file penting lagi</string>
+    <string name="archive_paywall_retrieve_title">Ambil Kapan Saja</string>
+    <string name="archive_paywall_retrieve_subtitle">Unduh file arsip kapan pun Anda membutuhkan</string>
+    <string name="archive_paywall_encrypted_title">Penyimpanan Terenkripsi</string>
+    <string name="archive_paywall_encrypted_subtitle">Data Anda selalu terenkripsi dan privat</string>
+    <string name="archive_paywall_choose_plan">Pilih Paket Anda</string>
+    <string name="archive_paywall_current">SAAT INI</string>
+    <string name="archive_paywall_subscribe">Berlangganan</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_account">Akun</string>
+    <string name="settings_sign_in">Masuk</string>
+    <string name="settings_subscription">Langganan</string>
+    <string name="settings_upgrade_pro">Tingkatkan ke Pro</string>
+    <string name="settings_features">Fitur</string>
+    <string name="settings_secret_space">Ruang Rahasia</string>
+    <string name="settings_email_cleanup">Pembersihan Email</string>
+    <string name="settings_widgets">Widget</string>
+    <string name="settings_about">Tentang</string>
+    <string name="settings_privacy_policy">Kebijakan Privasi</string>
+    <string name="settings_terms">Ketentuan Layanan</string>
+    <string name="settings_rate_us">Beri Nilai</string>
+    <string name="settings_version">Versi 1.1 (2)</string>
+
+    <!-- ==================== NAV / LOGIN / PLACEHOLDER ==================== -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_photos">Foto</string>
+    <string name="nav_videos">Video</string>
+    <string name="nav_contacts">Kontak</string>
+    <string name="nav_settings">Pengaturan</string>
+    <string name="login_title">Masuk</string>
+    <string name="login_coming_soon">Segera Hadir</string>
+    <string name="login_coming_soon_subtitle">Masuk akun akan tersedia di pembaruan mendatang.</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Kata Sandi</string>
+    <string name="login_button">Masuk</string>
+    <string name="placeholder_coming_soon">%s - Segera Hadir</string>
+    <string name="email_cleanup_title">Pembersihan Email</string>
+    <string name="widgets_title">Widget</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="back_cd">Kembali</string>
+    <string name="delete_button">Hapus</string>
+</resources>

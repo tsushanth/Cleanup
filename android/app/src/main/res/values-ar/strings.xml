@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <!-- ==================== HOME SCREEN ==================== -->
+    <string name="home_title">تنظيف بلمسة واحدة</string>
+    <string name="home_vault_cd">الخزنة</string>
+    <string name="home_scanning">جارٍ الفحص…</string>
+    <string name="home_one_tap_scan">فحص بلمسة واحدة</string>
+    <string name="home_grant_access_scan">منح الإذن والفحص</string>
+    <string name="home_scanning_device">جارٍ فحص جهازك…</string>
+    <string name="home_quick_actions">إجراءات سريعة</string>
+    <string name="home_chip_duplicates">المكررات</string>
+    <string name="home_chip_screenshots">لقطات الشاشة</string>
+    <string name="home_chip_large_videos">فيديوهات كبيرة</string>
+    <string name="home_chip_compress">ضغط</string>
+    <string name="home_chip_archive">أرشيف</string>
+    <string name="home_chip_downloads">التنزيلات</string>
+    <string name="home_chip_apk_files">ملفات APK</string>
+    <string name="home_smart_scan_results">نتائج الفحص الذكي</string>
+    <string name="home_category_duplicate_photos">صور مكررة</string>
+    <string name="home_category_similar_photos">صور متشابهة</string>
+    <string name="home_category_screenshots">لقطات الشاشة</string>
+    <string name="home_category_large_videos">فيديوهات كبيرة</string>
+    <string name="home_category_duplicate_contacts">جهات اتصال مكررة</string>
+    <string name="home_file_management">إدارة الملفات</string>
+    <string name="home_category_downloads">التنزيلات</string>
+    <string name="home_category_apk_files">ملفات APK</string>
+    <string name="home_category_notification_manager">مدير الإشعارات</string>
+    <string name="home_storage_used">%s مستخدم</string>
+    <string name="home_storage_total">%s إجمالي</string>
+    <string name="home_storage_full">التخزين ممتلئ بنسبة %d%%</string>
+    <string name="home_items_count">%d عنصر</string>
+    <string name="home_items_count_savings">%1$d عنصر \u00B7 %2$s</string>
+    <string name="home_tap_to_scan">انقر للفحص</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_welcome_title">هاتفك مليء بالفوضى</string>
+    <string name="onboarding_welcome_subtitle">صور مكررة، لقطات شاشة قديمة، فيديوهات كبيرة \u2014 إنها تستهلك مساحتك. دعنا نصلح ذلك.</string>
+    <string name="onboarding_welcome_button">هيا ننظف</string>
+    <string name="onboarding_media_granted_title">تم منح إذن الوسائط!</string>
+    <string name="onboarding_media_request_title">الوصول إلى صورك وفيديوهاتك</string>
+    <string name="onboarding_media_granted_subtitle">سنفحص جميع صورك وفيديوهاتك بحثًا عن المكررات والصور المتشابهة والملفات الكبيرة.</string>
+    <string name="onboarding_media_request_subtitle">للعثور على المكررات وتحرير المساحة، نحتاج إلى الوصول إلى صورك وفيديوهاتك.</string>
+    <string name="onboarding_feature_private_title">خصوصية 100%</string>
+    <string name="onboarding_feature_private_subtitle">يتم الفحص بالكامل على الجهاز</string>
+    <string name="onboarding_feature_fast_title">فحص سريع</string>
+    <string name="onboarding_feature_fast_subtitle">يستغرق أقل من 30 ثانية</string>
+    <string name="onboarding_feature_you_choose_title">أنت تختار</string>
+    <string name="onboarding_feature_you_choose_subtitle">لا يتم حذف شيء دون موافقتك</string>
+    <string name="onboarding_continue">متابعة</string>
+    <string name="onboarding_allow_photo_video">السماح بالوصول إلى الصور والفيديو</string>
+    <string name="onboarding_skip">تخطي الآن</string>
+    <string name="onboarding_contact_granted_title">تم منح إذن جهات الاتصال!</string>
+    <string name="onboarding_contact_request_title">تنظيف جهات الاتصال</string>
+    <string name="onboarding_contact_granted_subtitle">سنجد جهات الاتصال المكررة وغير المكتملة حتى تتمكن من دمجها أو حذفها.</string>
+    <string name="onboarding_contact_request_subtitle">ابحث عن جهات الاتصال المكررة وادمجها للحفاظ على دفتر عناوينك منظمًا.</string>
+    <string name="onboarding_feature_find_dupes_title">البحث عن المكررات</string>
+    <string name="onboarding_feature_find_dupes_subtitle">اكتشاف جهات الاتصال بنفس الاسم أو الرقم</string>
+    <string name="onboarding_feature_smart_merge_title">دمج ذكي</string>
+    <string name="onboarding_feature_smart_merge_subtitle">دمج المكررات في جهة اتصال واحدة</string>
+    <string name="onboarding_feature_safe_title">آمن</string>
+    <string name="onboarding_feature_safe_subtitle">مراجعة قبل إجراء أي تغييرات</string>
+    <string name="onboarding_allow_contact">السماح بالوصول إلى جهات الاتصال</string>
+    <string name="onboarding_ready_title">كل شيء جاهز!</string>
+    <string name="onboarding_ready_subtitle">انقر على الزر أدناه لفحص كل شيء وبدء التنظيف.</string>
+    <string name="onboarding_photos_videos">الصور والفيديوهات</string>
+    <string name="onboarding_contact_access">الوصول إلى جهات الاتصال</string>
+    <string name="onboarding_free_duplicates">5 عمليات حذف مكررات مجانية</string>
+    <string name="onboarding_free_similar">5 عمليات تنظيف صور متشابهة مجانية</string>
+    <string name="onboarding_free_screenshots">5 عمليات حذف لقطات شاشة مجانية</string>
+    <string name="onboarding_free_videos">5 عمليات تنظيف فيديو مجانية</string>
+    <string name="onboarding_free_contacts">5 عمليات دمج جهات اتصال مجانية</string>
+    <string name="onboarding_free_label">مجاني</string>
+    <string name="onboarding_get_started">فحص وبدء الاستخدام</string>
+
+    <!-- ==================== PAYWALL SCREEN ==================== -->
+    <string name="paywall_close_cd">إغلاق</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">سنويًا</string>
+    <string name="paywall_per_month">شهريًا</string>
+    <string name="paywall_feature_unlimited_title">تنظيف غير محدود</string>
+    <string name="paywall_feature_unlimited_subtitle">نظّف جهازك بقدر ما تريد</string>
+    <string name="paywall_feature_duplicates_title">حذف المكررات والمتشابهات</string>
+    <string name="paywall_feature_duplicates_subtitle">ابحث عن الصور المكررة واحذفها فورًا</string>
+    <string name="paywall_feature_videos_title">إدارة الفيديوهات الكبيرة</string>
+    <string name="paywall_feature_videos_subtitle">اضغط أو احذف الفيديوهات التي تستهلك المساحة</string>
+    <string name="paywall_feature_private_title">خاص وآمن</string>
+    <string name="paywall_feature_private_subtitle">يتم الفحص بالكامل على جهازك</string>
+    <string name="paywall_best_value">أفضل قيمة</string>
+    <string name="paywall_save_75">وفّر 75%% مقارنة بالشهري</string>
+    <string name="paywall_continue">متابعة</string>
+    <string name="paywall_restore">استعادة المشتريات</string>
+    <string name="paywall_terms">يتم تجديد الاشتراكات تلقائيًا. يمكنك الإلغاء في أي وقت من إعدادات Google Play.</string>
+
+    <!-- ==================== PHOTOS CLEANUP SCREEN ==================== -->
+    <string name="photos_title">تنظيف الصور</string>
+    <string name="photos_back_cd">رجوع</string>
+    <string name="photos_change_folder_cd">تغيير المجلد</string>
+    <string name="photos_delete_count">حذف %d</string>
+    <string name="photos_select_title">اختر الصور للتحليل</string>
+    <string name="photos_select_subtitle">اختر كيف تريد تقديم الصور لاكتشاف المكررات ولقطات الشاشة.</string>
+    <string name="photos_select_all_folder">تحديد الكل (الوصول إلى المجلد)</string>
+    <string name="photos_select_all_hint">امنح الوصول إلى مجلد DCIM أو الصور لفحص جميع الصور</string>
+    <string name="photos_choose">اختيار الصور</string>
+    <string name="photos_choose_hint">اختر صورًا محددة للتحليل</string>
+    <string name="photos_selected_count">%d محدد</string>
+    <string name="photos_save_amount">وفّر %s</string>
+    <string name="photos_tab_duplicates">المكررات</string>
+    <string name="photos_tab_similar">المتشابهات</string>
+    <string name="photos_tab_screenshots">لقطات الشاشة</string>
+    <string name="photos_no_duplicates_title">لا توجد مكررات</string>
+    <string name="photos_no_duplicates_subtitle">مكتبة صورك نظيفة!</string>
+    <string name="photos_duplicates_summary">%1$d مكرر في %2$d مجموعة</string>
+    <string name="photos_select_all">تحديد الكل</string>
+    <string name="photos_deselect_all">إلغاء تحديد الكل</string>
+    <string name="photos_n_duplicates">%d مكرر</string>
+    <string name="photos_keep_best">الاحتفاظ بالأفضل</string>
+    <string name="photos_no_similar_title">لا توجد صور متشابهة</string>
+    <string name="photos_no_similar_subtitle">لم يتم العثور على مجموعات صور متشابهة</string>
+    <string name="photos_similar_summary">%1$d متشابه في %2$d مجموعة</string>
+    <string name="photos_n_similar">%d صورة متشابهة</string>
+    <string name="photos_percent_similar">%d%% متشابه</string>
+    <string name="photos_keep_best_select_others">الاحتفاظ بالأفضل وتحديد البقية</string>
+    <string name="photos_no_screenshots_title">لا توجد لقطات شاشة</string>
+    <string name="photos_no_screenshots_subtitle">لم يتم العثور على لقطات شاشة في مكتبتك</string>
+    <string name="photos_n_screenshots">%d لقطة شاشة</string>
+    <string name="photos_selected_cd">محدد</string>
+    <string name="photos_best_badge">الأفضل</string>
+    <string name="photos_scanning">جارٍ فحص الصور…</string>
+    <string name="photos_delete_title">حذف %d صورة؟</string>
+    <string name="photos_delete_message">سيتم حذف الصور المحددة نهائيًا من جهازك. لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="photos_delete_permanently">حذف نهائيًا</string>
+    <string name="cancel">إلغاء</string>
+
+    <!-- ==================== UPGRADE / PAYWALL DIALOG ==================== -->
+    <string name="upgrade_title">الترقية إلى Pro</string>
+    <string name="upgrade_message">لقد استخدمت جميع عمليات التنظيف المجانية لهذه الفئة. قم بالترقية إلى Pro للوصول غير المحدود.</string>
+    <string name="upgrade_button">ترقية</string>
+    <string name="upgrade_not_now">ليس الآن</string>
+
+    <!-- ==================== VAULT SCREEN ==================== -->
+    <string name="vault_title">الخزنة</string>
+    <string name="vault_lock_cd">قفل</string>
+    <string name="vault_add_cd">إضافة عناصر</string>
+    <string name="vault_secret_space">المساحة السرية</string>
+    <string name="vault_enter_pin">أدخل رمز PIN للوصول</string>
+    <string name="vault_use_biometrics">استخدام المقاييس الحيوية</string>
+    <string name="vault_biometric_title">الوصول إلى المساحة السرية</string>
+    <string name="vault_biometric_subtitle">استخدم بصمة إصبعك أو وجهك لفتح القفل</string>
+    <string name="vault_biometric_negative">استخدام رمز PIN</string>
+    <string name="vault_backspace_cd">حذف</string>
+    <string name="vault_create_pin">أنشئ رمز PIN الخاص بك</string>
+    <string name="vault_confirm_pin">تأكيد رمز PIN</string>
+    <string name="vault_create_pin_subtitle">اختر رمز PIN مكون من 4 أرقام لحماية خزنتك</string>
+    <string name="vault_confirm_pin_subtitle">أدخل نفس رمز PIN مرة أخرى</string>
+    <string name="vault_pin_mismatch">رموز PIN غير متطابقة. يرجى المحاولة مرة أخرى.</string>
+    <string name="vault_empty_title">خزنتك فارغة</string>
+    <string name="vault_empty_subtitle">أضف صورًا وفيديوهات للحفاظ على خصوصيتها</string>
+    <string name="vault_add_items">إضافة عناصر</string>
+    <string name="vault_adding">جارٍ الإضافة إلى الخزنة…</string>
+    <string name="vault_add_to_vault">إضافة إلى الخزنة</string>
+    <string name="vault_select_items_subtitle">اختر العناصر لإضافتها إلى خزنتك</string>
+    <string name="vault_select_from_photos">اختيار من الصور</string>
+    <string name="vault_select_from_files">اختيار من الملفات</string>
+    <string name="vault_delete_title">حذف العنصر</string>
+    <string name="vault_delete_message">سيتم حذف العنصر نهائيًا من خزنتك.</string>
+    <string name="vault_delete_button">حذف</string>
+    <string name="vault_restore_title">استعادة العنصر</string>
+    <string name="vault_restore_message">سيتم استعادة العنصر إلى مكتبة الصور.</string>
+    <string name="vault_restore_button">استعادة</string>
+    <string name="vault_added_date">تمت الإضافة: %s</string>
+    <string name="vault_item_size">الحجم: %s</string>
+
+    <!-- ==================== CONTACTS CLEANUP SCREEN ==================== -->
+    <string name="contacts_title">تنظيف جهات الاتصال</string>
+    <string name="contacts_tab_duplicates">المكررات</string>
+    <string name="contacts_tab_incomplete">غير مكتملة</string>
+    <string name="contacts_access_required">مطلوب الوصول إلى جهات الاتصال</string>
+    <string name="contacts_access_message">يحتاج التطبيق إلى الوصول إلى جهات اتصالك للعثور على المكررات والإدخالات غير المكتملة.</string>
+    <string name="contacts_grant_access">منح الإذن</string>
+    <string name="contacts_no_duplicates_title">لا توجد مكررات</string>
+    <string name="contacts_no_duplicates_subtitle">جهات اتصالك نظيفة!</string>
+    <string name="contacts_n_duplicates">%d مكرر</string>
+    <string name="contacts_merge_all">دمج الكل</string>
+    <string name="contacts_delete_dupes">حذف المكررات</string>
+    <string name="contacts_no_name">بدون اسم</string>
+    <string name="contacts_no_incomplete_title">لا توجد جهات اتصال غير مكتملة</string>
+    <string name="contacts_no_incomplete_subtitle">جميع جهات الاتصال تحتوي على معلومات كاملة</string>
+    <string name="contacts_n_incomplete">%d غير مكتمل</string>
+    <string name="contacts_delete_selected">حذف المحدد (%d)</string>
+    <string name="contacts_merge_title">دمج جهات الاتصال</string>
+    <string name="contacts_merge_subtitle">اختر جهة الاتصال الرئيسية للاحتفاظ بها. سيتم دمج المعلومات من جهات الاتصال الأخرى فيها.</string>
+    <string name="contacts_merge_button">دمج جهات الاتصال</string>
+    <string name="contacts_scanning">جارٍ فحص جهات الاتصال…</string>
+
+    <!-- ==================== VIDEOS CLEANUP SCREEN ==================== -->
+    <string name="videos_title">تنظيف الفيديوهات</string>
+    <string name="videos_delete_count">حذف %d</string>
+    <string name="videos_select_title">اختر الفيديوهات للتحليل</string>
+    <string name="videos_select_subtitle">اختر كيف تريد تقديم الفيديوهات لاكتشاف الملفات الكبيرة والضغط.</string>
+    <string name="videos_select_all_folder">تحديد الكل (الوصول إلى المجلد)</string>
+    <string name="videos_select_all_hint">امنح الوصول إلى مجلد DCIM أو الوسائط لفحص جميع الفيديوهات</string>
+    <string name="videos_choose">اختيار الفيديوهات</string>
+    <string name="videos_choose_hint">اختر فيديوهات محددة للتحليل</string>
+    <string name="videos_tab_large">فيديوهات كبيرة</string>
+    <string name="videos_tab_compress">ضغط</string>
+    <string name="videos_no_large_title">لا توجد فيديوهات كبيرة</string>
+    <string name="videos_no_large_subtitle">لم يتم العثور على فيديوهات أكبر من 50 ميجابايت</string>
+    <string name="videos_n_large">%d فيديو كبير</string>
+    <string name="videos_delete_title">حذف %d فيديو؟</string>
+    <string name="videos_delete_message">سيتم حذف الفيديوهات المحددة نهائيًا. لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="videos_no_compress_title">لا توجد فيديوهات</string>
+    <string name="videos_no_compress_subtitle">لم يتم العثور على فيديوهات قابلة للضغط</string>
+    <string name="videos_compression_quality">جودة الضغط</string>
+    <string name="videos_select_videos">اختيار الفيديوهات</string>
+    <string name="videos_n_selected">%d محدد</string>
+    <string name="videos_compress_n">ضغط %d فيديو</string>
+    <string name="videos_scanning">جارٍ فحص الفيديوهات…</string>
+    <string name="videos_compressing_title">جارٍ ضغط الفيديو</string>
+
+    <!-- ==================== DOWNLOADS SCREEN ==================== -->
+    <string name="downloads_title">التنزيلات</string>
+    <string name="downloads_deselect">إلغاء التحديد</string>
+    <string name="downloads_delete_n_files">حذف %d ملف</string>
+    <string name="downloads_scanning">جارٍ فحص مجلد التنزيلات…</string>
+    <string name="downloads_clean">مجلد التنزيلات نظيف!</string>
+    <string name="downloads_summary">%1$d ملف (%2$s)</string>
+
+    <!-- ==================== APK SCREEN ==================== -->
+    <string name="apk_title">ملفات APK</string>
+    <string name="apk_deselect">إلغاء التحديد</string>
+    <string name="apk_delete_n">حذف %d ملف APK</string>
+    <string name="apk_scanning">جارٍ البحث عن ملفات APK…</string>
+    <string name="apk_none_found">لم يتم العثور على ملفات APK!</string>
+    <string name="apk_all_filter">الكل (%d)</string>
+
+    <!-- ==================== NOTIFICATIONS SCREEN ==================== -->
+    <string name="notifications_title">الإشعارات</string>
+    <string name="notifications_analyzing">جارٍ تحليل الإشعارات…</string>
+    <string name="notifications_no_apps">لم يتم العثور على تطبيقات</string>
+    <string name="notifications_apps_count">%d تطبيق لديه إشعارات</string>
+    <string name="notifications_manage_hint">انقر لإدارة إعدادات الإشعارات لكل تطبيق</string>
+    <string name="notifications_enabled">الإشعارات مفعلة</string>
+    <string name="notifications_disabled">الإشعارات معطلة</string>
+    <string name="notifications_manage_button">إدارة</string>
+
+    <!-- ==================== ARCHIVE SCREEN ==================== -->
+    <string name="archive_title">الأرشيف السحابي</string>
+    <string name="archive_sync_cd">مزامنة</string>
+    <string name="archive_storage_used">المساحة المستخدمة</string>
+    <string name="archive_empty_title">لا توجد عناصر مؤرشفة</string>
+    <string name="archive_empty_subtitle">أرشف الصور والفيديوهات من شاشات التنظيف لتحرير مساحة الجهاز</string>
+    <string name="archive_items_count">%d عنصر مؤرشف</string>
+    <string name="archive_detail_archived">تمت الأرشفة: %s</string>
+    <string name="archive_detail_size">الحجم: %s</string>
+    <string name="archive_detail_tier">المستوى: %s</string>
+    <string name="archive_retrieve_button">استرجاع</string>
+    <string name="archive_delete_title">حذف العنصر المؤرشف</string>
+    <string name="archive_delete_message">سيتم حذف هذا العنصر نهائيًا من الأرشيف. لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="archive_success_title">تمت الأرشفة بنجاح</string>
+    <string name="archive_success_message">تمت أرشفة %d عنصر إلى السحابة.</string>
+    <string name="archive_restore_success_title">تمت الاستعادة بنجاح</string>
+    <string name="archive_restore_success_message">تمت استعادة العنصر إلى جهازك.</string>
+    <string name="archive_error_title">خطأ</string>
+    <string name="ok">حسنًا</string>
+
+    <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
+    <string name="archive_signin_title">تسجيل الدخول للأرشيف السحابي</string>
+    <string name="archive_signin_subtitle">أرشف صورك وفيديوهاتك إلى السحابة قبل حذفها من جهازك</string>
+    <string name="archive_signin_encrypted_title">تشفير من طرف إلى طرف</string>
+    <string name="archive_signin_encrypted_subtitle">يتم تشفير بياناتك قبل مغادرة جهازك</string>
+    <string name="archive_signin_retrieve_title">استرجاع في أي وقت</string>
+    <string name="archive_signin_retrieve_subtitle">قم بتنزيل ملفاتك المؤرشفة متى احتجت إليها</string>
+    <string name="archive_signin_private_title">خاص وآمن</string>
+    <string name="archive_signin_private_subtitle">لا حاجة لتذكر كلمات المرور \u2014 سجّل الدخول بحساب Google</string>
+    <string name="archive_signin_google">تسجيل الدخول بحساب Google</string>
+    <string name="archive_signin_privacy">تُستخدم بياناتك فقط لتخزين الأرشيف السحابي. لا نشارك أو نبيع معلوماتك أبدًا.</string>
+
+    <!-- ==================== ARCHIVE PAYWALL SCREEN ==================== -->
+    <string name="archive_paywall_title">احذف بثقة</string>
+    <string name="archive_paywall_subtitle">أرشف الملفات إلى السحابة قبل الحذف. استرجعها في أي وقت.</string>
+    <string name="archive_paywall_safety_title">شبكة أمان</string>
+    <string name="archive_paywall_safety_subtitle">لا تفقد ملفاتك المهمة مرة أخرى</string>
+    <string name="archive_paywall_retrieve_title">استرجاع في أي وقت</string>
+    <string name="archive_paywall_retrieve_subtitle">قم بتنزيل الملفات المؤرشفة متى احتجت</string>
+    <string name="archive_paywall_encrypted_title">تخزين مشفر</string>
+    <string name="archive_paywall_encrypted_subtitle">بياناتك مشفرة وخاصة دائمًا</string>
+    <string name="archive_paywall_choose_plan">اختر خطتك</string>
+    <string name="archive_paywall_current">الحالي</string>
+    <string name="archive_paywall_subscribe">اشتراك</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_account">الحساب</string>
+    <string name="settings_sign_in">تسجيل الدخول</string>
+    <string name="settings_subscription">الاشتراك</string>
+    <string name="settings_upgrade_pro">الترقية إلى Pro</string>
+    <string name="settings_features">الميزات</string>
+    <string name="settings_secret_space">المساحة السرية</string>
+    <string name="settings_email_cleanup">تنظيف البريد الإلكتروني</string>
+    <string name="settings_widgets">الأدوات</string>
+    <string name="settings_about">حول</string>
+    <string name="settings_privacy_policy">سياسة الخصوصية</string>
+    <string name="settings_terms">شروط الخدمة</string>
+    <string name="settings_rate_us">قيّمنا</string>
+    <string name="settings_version">الإصدار 1.1 (2)</string>
+
+    <!-- ==================== NAV / LOGIN / PLACEHOLDER ==================== -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_photos">الصور</string>
+    <string name="nav_videos">الفيديوهات</string>
+    <string name="nav_contacts">جهات الاتصال</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="login_coming_soon">قريبًا</string>
+    <string name="login_coming_soon_subtitle">سيتوفر تسجيل الدخول بالحساب في تحديث مستقبلي.</string>
+    <string name="login_email">البريد الإلكتروني</string>
+    <string name="login_password">كلمة المرور</string>
+    <string name="login_button">تسجيل الدخول</string>
+    <string name="placeholder_coming_soon">%s - قريبًا</string>
+    <string name="email_cleanup_title">تنظيف البريد الإلكتروني</string>
+    <string name="widgets_title">الأدوات</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="back_cd">رجوع</string>
+    <string name="delete_button">حذف</string>
+</resources>

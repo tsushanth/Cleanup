@@ -1,7 +1,6 @@
 package com.kreativekoala.cleanup.ui.paywall
 
 import android.app.Activity
-import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -14,16 +13,16 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.android.billingclient.api.ProductDetails
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.billing.BillingManager
 import com.kreativekoala.cleanup.billing.PaywallContext
 
@@ -59,7 +58,7 @@ fun PaywallScreen(
                 title = {},
                 navigationIcon = {
                     IconButton(onClick = onDismiss) {
-                        Icon(Icons.Default.Close, contentDescription = "Close")
+                        Icon(Icons.Default.Close, contentDescription = stringResource(R.string.paywall_close_cd))
                     }
                 }
             )
@@ -81,7 +80,7 @@ fun PaywallScreen(
                 color = MaterialTheme.colorScheme.primary
             ) {
                 Text(
-                    "PRO",
+                    stringResource(R.string.paywall_pro_badge),
                     modifier = Modifier.padding(horizontal = 20.dp, vertical = 6.dp),
                     color = MaterialTheme.colorScheme.onPrimary,
                     fontWeight = FontWeight.Bold,
@@ -112,10 +111,10 @@ fun PaywallScreen(
 
             // Features list
             val features = listOf(
-                PaywallFeature(Icons.Default.AutoAwesome, "Unlimited Cleanups", "Clean your device as often as you want"),
-                PaywallFeature(Icons.Default.FileCopy, "Delete Duplicates & Similar", "Find and remove duplicate photos instantly"),
-                PaywallFeature(Icons.Default.VideoLibrary, "Large Video Management", "Compress or delete space-hogging videos"),
-                PaywallFeature(Icons.Default.Lock, "Private & Secure", "All scanning happens on your device")
+                PaywallFeature(Icons.Default.AutoAwesome, stringResource(R.string.paywall_feature_unlimited_title), stringResource(R.string.paywall_feature_unlimited_subtitle)),
+                PaywallFeature(Icons.Default.FileCopy, stringResource(R.string.paywall_feature_duplicates_title), stringResource(R.string.paywall_feature_duplicates_subtitle)),
+                PaywallFeature(Icons.Default.VideoLibrary, stringResource(R.string.paywall_feature_videos_title), stringResource(R.string.paywall_feature_videos_subtitle)),
+                PaywallFeature(Icons.Default.Lock, stringResource(R.string.paywall_feature_private_title), stringResource(R.string.paywall_feature_private_subtitle))
             )
 
             features.forEach { feature ->
@@ -132,7 +131,7 @@ fun PaywallScreen(
                 val price = product.subscriptionOfferDetails
                     ?.firstOrNull()?.pricingPhases?.pricingPhaseList?.firstOrNull()
                     ?.formattedPrice ?: ""
-                val period = if (isYearly) "per year" else "per month"
+                val period = if (isYearly) stringResource(R.string.paywall_per_year) else stringResource(R.string.paywall_per_month)
 
                 ProductOption(
                     price = price,
@@ -169,7 +168,7 @@ fun PaywallScreen(
                     )
                 } else {
                     Text(
-                        "Continue",
+                        stringResource(R.string.paywall_continue),
                         fontSize = 18.sp,
                         fontWeight = FontWeight.Bold
                     )
@@ -183,7 +182,7 @@ fun PaywallScreen(
                 // Restore handled by querying existing purchases
                 billingManager.queryExistingPurchases()
             }) {
-                Text("Restore Purchases", style = MaterialTheme.typography.bodySmall)
+                Text(stringResource(R.string.paywall_restore), style = MaterialTheme.typography.bodySmall)
             }
 
             // Error message
@@ -201,7 +200,7 @@ fun PaywallScreen(
 
             // Terms
             Text(
-                "Subscriptions auto-renew. Cancel anytime in Google Play settings.",
+                stringResource(R.string.paywall_terms),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 textAlign = TextAlign.Center
@@ -285,7 +284,7 @@ private fun ProductOption(
                             color = Color(0xFF4CAF50)
                         ) {
                             Text(
-                                "BEST VALUE",
+                                stringResource(R.string.paywall_best_value),
                                 modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp),
                                 color = Color.White,
                                 fontSize = 10.sp,
@@ -296,7 +295,7 @@ private fun ProductOption(
                 }
                 if (isBestValue) {
                     Text(
-                        "Save 75% vs monthly",
+                        stringResource(R.string.paywall_save_75),
                         style = MaterialTheme.typography.bodySmall,
                         color = Color(0xFF4CAF50)
                     )

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <!-- ==================== HOME SCREEN ==================== -->
+    <string name="home_title">Isang Tap na Linis</string>
+    <string name="home_vault_cd">Vault</string>
+    <string name="home_scanning">Nag-i-scan…</string>
+    <string name="home_one_tap_scan">Isang Tap na Scan</string>
+    <string name="home_grant_access_scan">Bigyan ng Access &amp; I-scan</string>
+    <string name="home_scanning_device">Ini-scan ang iyong device…</string>
+    <string name="home_quick_actions">Mga Mabilis na Aksyon</string>
+    <string name="home_chip_duplicates">Mga Duplicate</string>
+    <string name="home_chip_screenshots">Mga Screenshot</string>
+    <string name="home_chip_large_videos">Malalaking Video</string>
+    <string name="home_chip_compress">I-compress</string>
+    <string name="home_chip_archive">Archive</string>
+    <string name="home_chip_downloads">Mga Download</string>
+    <string name="home_chip_apk_files">Mga APK File</string>
+    <string name="home_smart_scan_results">Mga Resulta ng Smart Scan</string>
+    <string name="home_category_duplicate_photos">Mga Duplicate na Larawan</string>
+    <string name="home_category_similar_photos">Mga Magkakahawig na Larawan</string>
+    <string name="home_category_screenshots">Mga Screenshot</string>
+    <string name="home_category_large_videos">Malalaking Video</string>
+    <string name="home_category_duplicate_contacts">Mga Duplicate na Contact</string>
+    <string name="home_file_management">Pamamahala ng File</string>
+    <string name="home_category_downloads">Mga Download</string>
+    <string name="home_category_apk_files">Mga APK File</string>
+    <string name="home_category_notification_manager">Tagapamahala ng Notification</string>
+    <string name="home_storage_used">%s nagamit</string>
+    <string name="home_storage_total">%s kabuuan</string>
+    <string name="home_storage_full">%d%% na puno ang iyong storage</string>
+    <string name="home_items_count">%d mga item</string>
+    <string name="home_items_count_savings">%1$d mga item \u00B7 %2$s</string>
+    <string name="home_tap_to_scan">I-tap para mag-scan</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_welcome_title">Puno ng kalat ang iyong telepono</string>
+    <string name="onboarding_welcome_subtitle">Mga duplicate na larawan, lumang screenshot, malalaking video \u2014 kinakain nila ang iyong storage. Ayusin natin ito.</string>
+    <string name="onboarding_welcome_button">Maglinis Tayo</string>
+    <string name="onboarding_media_granted_title">Nabigyan na ng access sa media!</string>
+    <string name="onboarding_media_request_title">I-access ang iyong mga larawan at video</string>
+    <string name="onboarding_media_granted_subtitle">I-scan namin ang lahat ng iyong larawan at video para sa mga duplicate, magkakahawig na shot, at malalaking file.</string>
+    <string name="onboarding_media_request_subtitle">Para makahanap ng mga duplicate at makapagpalaya ng espasyo, kailangan namin ng access sa iyong mga larawan at video.</string>
+    <string name="onboarding_feature_private_title">100% Pribado</string>
+    <string name="onboarding_feature_private_subtitle">Lahat ng pag-scan ay nangyayari sa device</string>
+    <string name="onboarding_feature_fast_title">Mabilis na Scan</string>
+    <string name="onboarding_feature_fast_subtitle">Wala pang 30 segundo</string>
+    <string name="onboarding_feature_you_choose_title">Ikaw ang Pipili</string>
+    <string name="onboarding_feature_you_choose_subtitle">Walang mabubura nang walang pahintulot mo</string>
+    <string name="onboarding_continue">Magpatuloy</string>
+    <string name="onboarding_allow_photo_video">Payagan ang Access sa Larawan at Video</string>
+    <string name="onboarding_skip">Laktawan muna</string>
+    <string name="onboarding_contact_granted_title">Nabigyan na ng access sa mga contact!</string>
+    <string name="onboarding_contact_request_title">Linisin ang iyong mga contact</string>
+    <string name="onboarding_contact_granted_subtitle">Hahanapin namin ang mga duplicate at hindi kumpletong contact para ma-merge o ma-delete mo sila.</string>
+    <string name="onboarding_contact_request_subtitle">Hanapin at pagsamahin ang mga duplicate na contact para maayos ang iyong address book.</string>
+    <string name="onboarding_feature_find_dupes_title">Hanapin ang mga Duplicate</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Tuklasin ang mga contact na may parehong pangalan o numero</string>
+    <string name="onboarding_feature_smart_merge_title">Smart Merge</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Pagsamahin ang mga duplicate sa isang contact</string>
+    <string name="onboarding_feature_safe_title">Ligtas</string>
+    <string name="onboarding_feature_safe_subtitle">Suriin muna bago gumawa ng anumang pagbabago</string>
+    <string name="onboarding_allow_contact">Payagan ang Access sa mga Contact</string>
+    <string name="onboarding_ready_title">Handa na lahat!</string>
+    <string name="onboarding_ready_subtitle">I-tap ang button sa ibaba para i-scan ang lahat at simulan ang paglilinis.</string>
+    <string name="onboarding_photos_videos">Mga larawan at video</string>
+    <string name="onboarding_contact_access">Access sa mga contact</string>
+    <string name="onboarding_free_duplicates">5 libreng pag-delete ng duplicate</string>
+    <string name="onboarding_free_similar">5 libreng paglilinis ng magkakahawig na larawan</string>
+    <string name="onboarding_free_screenshots">5 libreng pag-delete ng screenshot</string>
+    <string name="onboarding_free_videos">5 libreng paglilinis ng video</string>
+    <string name="onboarding_free_contacts">5 libreng pag-merge ng contact</string>
+    <string name="onboarding_free_label">LIBRE</string>
+    <string name="onboarding_get_started">I-scan &amp; Magsimula</string>
+
+    <!-- ==================== PAYWALL SCREEN ==================== -->
+    <string name="paywall_close_cd">Isara</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">bawat taon</string>
+    <string name="paywall_per_month">bawat buwan</string>
+    <string name="paywall_feature_unlimited_title">Walang Limitasyong Paglilinis</string>
+    <string name="paywall_feature_unlimited_subtitle">Linisin ang iyong device nang madalas hangga\'t gusto mo</string>
+    <string name="paywall_feature_duplicates_title">I-delete ang mga Duplicate at Magkakahawig</string>
+    <string name="paywall_feature_duplicates_subtitle">Hanapin at alisin ang mga duplicate na larawan agad</string>
+    <string name="paywall_feature_videos_title">Pamamahala ng Malalaking Video</string>
+    <string name="paywall_feature_videos_subtitle">I-compress o i-delete ang mga video na kumakain ng espasyo</string>
+    <string name="paywall_feature_private_title">Pribado at Ligtas</string>
+    <string name="paywall_feature_private_subtitle">Lahat ng pag-scan ay nangyayari sa iyong device</string>
+    <string name="paywall_best_value">PINAKAMAHUSAY NA HALAGA</string>
+    <string name="paywall_save_75">Makatipid ng 75%% kumpara sa buwanan</string>
+    <string name="paywall_continue">Magpatuloy</string>
+    <string name="paywall_restore">Ibalik ang mga Binili</string>
+    <string name="paywall_terms">Awtomatikong nagre-renew ang mga subscription. Kanselahin anumang oras sa mga setting ng Google Play.</string>
+
+    <!-- ==================== PHOTOS CLEANUP SCREEN ==================== -->
+    <string name="photos_title">Paglilinis ng Larawan</string>
+    <string name="photos_back_cd">Bumalik</string>
+    <string name="photos_change_folder_cd">Palitan ang folder</string>
+    <string name="photos_delete_count">I-delete %d</string>
+    <string name="photos_select_title">Pumili ng mga Larawan para Suriin</string>
+    <string name="photos_select_subtitle">Piliin kung paano mo gustong magbigay ng mga larawan para sa pagtuklas ng duplicate at screenshot.</string>
+    <string name="photos_select_all_folder">Piliin Lahat (Access sa Folder)</string>
+    <string name="photos_select_all_hint">Bigyan ng access ang iyong DCIM o Pictures folder para i-scan ang lahat ng larawan</string>
+    <string name="photos_choose">Pumili ng mga Larawan</string>
+    <string name="photos_choose_hint">Pumili ng mga partikular na larawan para suriin</string>
+    <string name="photos_selected_count">%d napili</string>
+    <string name="photos_save_amount">Makatipid ng %s</string>
+    <string name="photos_tab_duplicates">Mga Duplicate</string>
+    <string name="photos_tab_similar">Magkakahawig</string>
+    <string name="photos_tab_screenshots">Mga Screenshot</string>
+    <string name="photos_no_duplicates_title">Walang Nahanap na Duplicate</string>
+    <string name="photos_no_duplicates_subtitle">Malinis ang iyong photo library!</string>
+    <string name="photos_duplicates_summary">%1$d duplicate sa %2$d grupo</string>
+    <string name="photos_select_all">Piliin Lahat</string>
+    <string name="photos_deselect_all">I-deselect Lahat</string>
+    <string name="photos_n_duplicates">%d mga duplicate</string>
+    <string name="photos_keep_best">Itabi ang Pinakamahusay</string>
+    <string name="photos_no_similar_title">Walang Magkakahawig na Larawan</string>
+    <string name="photos_no_similar_subtitle">Walang nahanap na grupo ng magkakahawig na larawan</string>
+    <string name="photos_similar_summary">%1$d magkakahawig sa %2$d grupo</string>
+    <string name="photos_n_similar">%d magkakahawig na larawan</string>
+    <string name="photos_percent_similar">%d%% magkahawig</string>
+    <string name="photos_keep_best_select_others">Itabi ang Pinakamahusay, Piliin ang Iba</string>
+    <string name="photos_no_screenshots_title">Walang mga Screenshot</string>
+    <string name="photos_no_screenshots_subtitle">Walang nahanap na screenshot sa iyong library</string>
+    <string name="photos_n_screenshots">%d mga screenshot</string>
+    <string name="photos_selected_cd">Napili</string>
+    <string name="photos_best_badge">PINAKAMAHUSAY</string>
+    <string name="photos_scanning">Nag-i-scan ng mga larawan…</string>
+    <string name="photos_delete_title">I-delete ang %d Larawan?</string>
+    <string name="photos_delete_message">Permanenteng mabubura ang mga napiling larawan mula sa iyong device. Hindi na ito maibabalik.</string>
+    <string name="photos_delete_permanently">Permanenteng I-delete</string>
+    <string name="cancel">Kanselahin</string>
+
+    <!-- ==================== UPGRADE / PAYWALL DIALOG ==================== -->
+    <string name="upgrade_title">Mag-upgrade sa Pro</string>
+    <string name="upgrade_message">Naubos mo na ang iyong libreng paglilinis para sa kategoryang ito. Mag-upgrade sa Pro para sa walang limitasyong access.</string>
+    <string name="upgrade_button">Mag-upgrade</string>
+    <string name="upgrade_not_now">Hindi Ngayon</string>
+
+    <!-- ==================== VAULT SCREEN ==================== -->
+    <string name="vault_title">Vault</string>
+    <string name="vault_lock_cd">I-lock</string>
+    <string name="vault_add_cd">Magdagdag ng mga item</string>
+    <string name="vault_secret_space">Lihim na Espasyo</string>
+    <string name="vault_enter_pin">Ilagay ang iyong PIN para ma-access</string>
+    <string name="vault_use_biometrics">Gumamit ng Biometrics</string>
+    <string name="vault_biometric_title">I-access ang Lihim na Espasyo</string>
+    <string name="vault_biometric_subtitle">Gamitin ang iyong fingerprint o mukha para mag-unlock</string>
+    <string name="vault_biometric_negative">Gumamit ng PIN</string>
+    <string name="vault_backspace_cd">Burahin</string>
+    <string name="vault_create_pin">Gumawa ng Iyong PIN</string>
+    <string name="vault_confirm_pin">Kumpirmahin ang Iyong PIN</string>
+    <string name="vault_create_pin_subtitle">Pumili ng 4-digit na PIN para protektahan ang iyong vault</string>
+    <string name="vault_confirm_pin_subtitle">Ilagay ulit ang parehong PIN</string>
+    <string name="vault_pin_mismatch">Hindi magkatugma ang mga PIN. Pakisubukan ulit.</string>
+    <string name="vault_empty_title">Walang laman ang iyong vault</string>
+    <string name="vault_empty_subtitle">Magdagdag ng mga larawan at video para panatilihing pribado</string>
+    <string name="vault_add_items">Magdagdag ng mga Item</string>
+    <string name="vault_adding">Idinadagdag sa vault…</string>
+    <string name="vault_add_to_vault">Idagdag sa Vault</string>
+    <string name="vault_select_items_subtitle">Pumili ng mga item na idadagdag sa iyong vault</string>
+    <string name="vault_select_from_photos">Pumili mula sa mga Larawan</string>
+    <string name="vault_select_from_files">Pumili mula sa mga File</string>
+    <string name="vault_delete_title">I-delete ang Item</string>
+    <string name="vault_delete_message">Permanenteng mabubura ang item mula sa iyong vault.</string>
+    <string name="vault_delete_button">I-delete</string>
+    <string name="vault_restore_title">I-restore ang Item</string>
+    <string name="vault_restore_message">Maibabalik ang item sa iyong Photos library.</string>
+    <string name="vault_restore_button">I-restore</string>
+    <string name="vault_added_date">Idinagdag: %s</string>
+    <string name="vault_item_size">Laki: %s</string>
+
+    <!-- ==================== CONTACTS CLEANUP SCREEN ==================== -->
+    <string name="contacts_title">Paglilinis ng Contact</string>
+    <string name="contacts_tab_duplicates">Mga Duplicate</string>
+    <string name="contacts_tab_incomplete">Hindi Kumpleto</string>
+    <string name="contacts_access_required">Kailangan ng Access sa Contact</string>
+    <string name="contacts_access_message">Kailangan ng access sa iyong mga contact para makahanap ng mga duplicate at hindi kumpletong entry.</string>
+    <string name="contacts_grant_access">Bigyan ng Access</string>
+    <string name="contacts_no_duplicates_title">Walang mga Duplicate</string>
+    <string name="contacts_no_duplicates_subtitle">Malinis ang iyong mga contact!</string>
+    <string name="contacts_n_duplicates">%d mga duplicate</string>
+    <string name="contacts_merge_all">I-merge Lahat</string>
+    <string name="contacts_delete_dupes">I-delete ang mga Duplicate</string>
+    <string name="contacts_no_name">Walang Pangalan</string>
+    <string name="contacts_no_incomplete_title">Walang Hindi Kumpletong Contact</string>
+    <string name="contacts_no_incomplete_subtitle">Lahat ng contact ay may kumpletong impormasyon</string>
+    <string name="contacts_n_incomplete">%d hindi kumpleto</string>
+    <string name="contacts_delete_selected">I-delete ang Napili (%d)</string>
+    <string name="contacts_merge_title">I-merge ang mga Contact</string>
+    <string name="contacts_merge_subtitle">Piliin ang pangunahing contact na itatabi. Ang impormasyon mula sa ibang mga contact ay isasama dito.</string>
+    <string name="contacts_merge_button">I-merge ang mga Contact</string>
+    <string name="contacts_scanning">Nag-i-scan ng mga contact…</string>
+
+    <!-- ==================== VIDEOS CLEANUP SCREEN ==================== -->
+    <string name="videos_title">Paglilinis ng Video</string>
+    <string name="videos_delete_count">I-delete %d</string>
+    <string name="videos_select_title">Pumili ng mga Video para Suriin</string>
+    <string name="videos_select_subtitle">Piliin kung paano mo gustong magbigay ng mga video para sa pagtuklas ng malalaking file at compression.</string>
+    <string name="videos_select_all_folder">Piliin Lahat (Access sa Folder)</string>
+    <string name="videos_select_all_hint">Bigyan ng access ang iyong DCIM o media folder para i-scan ang lahat ng video</string>
+    <string name="videos_choose">Pumili ng mga Video</string>
+    <string name="videos_choose_hint">Pumili ng mga partikular na video para suriin</string>
+    <string name="videos_tab_large">Malalaking Video</string>
+    <string name="videos_tab_compress">I-compress</string>
+    <string name="videos_no_large_title">Walang Malalaking Video</string>
+    <string name="videos_no_large_subtitle">Walang nahanap na video na higit sa 50MB</string>
+    <string name="videos_n_large">%d malalaking video</string>
+    <string name="videos_delete_title">I-delete ang %d Video?</string>
+    <string name="videos_delete_message">Permanenteng mabubura ang mga napiling video. Hindi na ito maibabalik.</string>
+    <string name="videos_no_compress_title">Walang mga Video</string>
+    <string name="videos_no_compress_subtitle">Walang nahanap na nako-compress na video</string>
+    <string name="videos_compression_quality">Kalidad ng Compression</string>
+    <string name="videos_select_videos">Pumili ng mga Video</string>
+    <string name="videos_n_selected">%d napili</string>
+    <string name="videos_compress_n">I-compress ang %d Video</string>
+    <string name="videos_scanning">Nag-i-scan ng mga video…</string>
+    <string name="videos_compressing_title">Nag-co-compress ng Video</string>
+
+    <!-- ==================== DOWNLOADS SCREEN ==================== -->
+    <string name="downloads_title">Mga Download</string>
+    <string name="downloads_deselect">I-deselect</string>
+    <string name="downloads_delete_n_files">I-delete ang %d file</string>
+    <string name="downloads_scanning">Nag-i-scan ng downloads folder…</string>
+    <string name="downloads_clean">Malinis ang downloads folder!</string>
+    <string name="downloads_summary">%1$d file (%2$s)</string>
+
+    <!-- ==================== APK SCREEN ==================== -->
+    <string name="apk_title">Mga APK File</string>
+    <string name="apk_deselect">I-deselect</string>
+    <string name="apk_delete_n">I-delete ang %d APK</string>
+    <string name="apk_scanning">Naghahanap ng mga APK file…</string>
+    <string name="apk_none_found">Walang nahanap na APK file!</string>
+    <string name="apk_all_filter">Lahat (%d)</string>
+
+    <!-- ==================== NOTIFICATIONS SCREEN ==================== -->
+    <string name="notifications_title">Mga Notification</string>
+    <string name="notifications_analyzing">Sinusuri ang mga notification…</string>
+    <string name="notifications_no_apps">Walang nahanap na app</string>
+    <string name="notifications_apps_count">%d app na may notification</string>
+    <string name="notifications_manage_hint">I-tap para pamahalaan ang mga setting ng notification para sa bawat app</string>
+    <string name="notifications_enabled">Naka-enable ang mga notification</string>
+    <string name="notifications_disabled">Naka-disable ang mga notification</string>
+    <string name="notifications_manage_button">Pamahalaan</string>
+
+    <!-- ==================== ARCHIVE SCREEN ==================== -->
+    <string name="archive_title">Cloud Archive</string>
+    <string name="archive_sync_cd">I-sync</string>
+    <string name="archive_storage_used">Nagamit na Storage</string>
+    <string name="archive_empty_title">Walang na-archive na item</string>
+    <string name="archive_empty_subtitle">Mag-archive ng mga larawan at video mula sa mga screen ng paglilinis para magpalaya ng espasyo sa device</string>
+    <string name="archive_items_count">%d item ang na-archive</string>
+    <string name="archive_detail_archived">Na-archive: %s</string>
+    <string name="archive_detail_size">Laki: %s</string>
+    <string name="archive_detail_tier">Antas: %s</string>
+    <string name="archive_retrieve_button">Kunin</string>
+    <string name="archive_delete_title">I-delete ang Na-archive na Item</string>
+    <string name="archive_delete_message">Permanenteng maaalis ang item na ito mula sa iyong archive. Hindi na ito maibabalik.</string>
+    <string name="archive_success_title">Matagumpay na Na-archive</string>
+    <string name="archive_success_message">%d item ang na-archive sa cloud.</string>
+    <string name="archive_restore_success_title">Matagumpay na Na-restore</string>
+    <string name="archive_restore_success_message">Naibalik na ang item sa iyong device.</string>
+    <string name="archive_error_title">Error</string>
+    <string name="ok">OK</string>
+
+    <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
+    <string name="archive_signin_title">Mag-sign In para sa Cloud Archive</string>
+    <string name="archive_signin_subtitle">I-archive ang iyong mga larawan at video sa cloud bago i-delete mula sa iyong device</string>
+    <string name="archive_signin_encrypted_title">End-to-End na Encrypted</string>
+    <string name="archive_signin_encrypted_subtitle">Naka-encrypt ang iyong data bago umalis sa iyong device</string>
+    <string name="archive_signin_retrieve_title">Kunin Anumang Oras</string>
+    <string name="archive_signin_retrieve_subtitle">I-download ang iyong mga na-archive na file kahit kailan mo kailangan</string>
+    <string name="archive_signin_private_title">Pribado &amp; Ligtas</string>
+    <string name="archive_signin_private_subtitle">Hindi na kailangang tandaan ang mga password \u2014 mag-sign in gamit ang Google</string>
+    <string name="archive_signin_google">Mag-sign in gamit ang Google</string>
+    <string name="archive_signin_privacy">Ang iyong data ay ginagamit lang para sa cloud archive storage. Hindi namin ibinabahagi o ibinebenta ang iyong impormasyon.</string>
+
+    <!-- ==================== ARCHIVE PAYWALL SCREEN ==================== -->
+    <string name="archive_paywall_title">Mag-delete nang May Kumpiyansa</string>
+    <string name="archive_paywall_subtitle">I-archive ang mga file sa cloud bago i-delete. Kunin anumang oras.</string>
+    <string name="archive_paywall_safety_title">Safety Net</string>
+    <string name="archive_paywall_safety_subtitle">Huwag nang mawala pa ang mga importanteng file</string>
+    <string name="archive_paywall_retrieve_title">Kunin Anumang Oras</string>
+    <string name="archive_paywall_retrieve_subtitle">I-download ang mga na-archive na file kahit kailan mo kailangan</string>
+    <string name="archive_paywall_encrypted_title">Encrypted na Storage</string>
+    <string name="archive_paywall_encrypted_subtitle">Laging naka-encrypt at pribado ang iyong data</string>
+    <string name="archive_paywall_choose_plan">Pumili ng Iyong Plano</string>
+    <string name="archive_paywall_current">KASALUKUYAN</string>
+    <string name="archive_paywall_subscribe">Mag-subscribe</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">Mga Setting</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_sign_in">Mag-sign In</string>
+    <string name="settings_subscription">Subscription</string>
+    <string name="settings_upgrade_pro">Mag-upgrade sa Pro</string>
+    <string name="settings_features">Mga Feature</string>
+    <string name="settings_secret_space">Lihim na Espasyo</string>
+    <string name="settings_email_cleanup">Paglilinis ng Email</string>
+    <string name="settings_widgets">Mga Widget</string>
+    <string name="settings_about">Tungkol</string>
+    <string name="settings_privacy_policy">Patakaran sa Privacy</string>
+    <string name="settings_terms">Mga Tuntunin ng Serbisyo</string>
+    <string name="settings_rate_us">I-rate Kami</string>
+    <string name="settings_version">Bersyon 1.1 (2)</string>
+
+    <!-- ==================== NAV / LOGIN / PLACEHOLDER ==================== -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Mga Larawan</string>
+    <string name="nav_videos">Mga Video</string>
+    <string name="nav_contacts">Mga Contact</string>
+    <string name="nav_settings">Mga Setting</string>
+    <string name="login_title">Mag-sign In</string>
+    <string name="login_coming_soon">Malapit Na</string>
+    <string name="login_coming_soon_subtitle">Ang pag-sign in sa account ay magiging available sa susunod na update.</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Mag-sign In</string>
+    <string name="placeholder_coming_soon">%s - Malapit Na</string>
+    <string name="email_cleanup_title">Paglilinis ng Email</string>
+    <string name="widgets_title">Mga Widget</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="back_cd">Bumalik</string>
+    <string name="delete_button">I-delete</string>
+</resources>

@@ -1,0 +1,36 @@
+SmartSpace vous aide a recuperer de l'espace de stockage sur votre appareil Android en identifiant et supprimant intelligemment les photos en double, les grandes videos, les contacts inutilises, les anciens fichiers APK et bien plus encore.
+
+FONCTIONNALITES PRINCIPALES
+
+Nettoyage de Photos
+Analysez votre bibliotheque de photos pour trouver les doublons, les photos floues et les captures d'ecran dont vous n'avez plus besoin. Examinez les suggestions cote a cote et liberez des gigaoctets d'espace en un seul appui.
+
+Nettoyage de Videos
+Trouvez les fichiers video volumineux et en double qui encombrent votre stockage. Previsualisez chaque video avant de decider de la garder ou de la supprimer.
+
+Nettoyage de Contacts
+Detectez les contacts en double, incomplets ou obsoletes. Fusionnez les doublons et supprimez les contacts avec des informations manquantes pour garder votre carnet d'adresses en ordre.
+
+Nettoyage d'APK et Telechargements
+Supprimez les fichiers APK d'installation restants et les anciens telechargements qui gaspillent de l'espace precieux sur votre appareil.
+
+Gestionnaire de Notifications
+Prenez le controle des notifications de vos applications. Voyez quelles applications sont les plus bruyantes et mettez en sourdine celles dont vous n'avez pas besoin.
+
+Archive Cloud
+Sauvegardez les fichiers importants dans le cloud avant de les supprimer localement. Recuperez les elements archives a tout moment.
+
+Coffre-fort Securise
+Protegez vos photos et videos prives avec l'authentification biometrique. Gardez vos fichiers sensibles caches et securises.
+
+Tableau de Bord de Stockage Intelligent
+Obtenez une vue claire de ce qui utilise votre stockage. L'ecran d'accueil affiche la repartition de votre stockage et vous donne des recommandations de nettoyage personnalisees.
+
+POURQUOI SMARTSPACE ?
+
+- Rapide et Leger : Les analyses se terminent rapidement sans vider votre batterie.
+- Confidentialite d'Abord : Toute l'analyse se fait sur votre appareil. Vos fichiers ne sont jamais telecharges sans votre permission.
+- Facile a Utiliser : Interface propre et moderne concue pour tous.
+- Apercu Detaille : Voyez toujours ce que vous etes sur le point de supprimer avant de confirmer.
+
+Telechargez SmartSpace aujourd'hui et profitez d'un telephone plus rapide et plus propre.

@@ -3,7 +3,9 @@ package com.kreativekoala.cleanup.ui.home
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.kreativekoala.cleanup.domain.service.ContactService
 import com.kreativekoala.cleanup.domain.service.MediaAccessHelper
+import com.kreativekoala.cleanup.domain.service.PermissionHelper
 import com.kreativekoala.cleanup.domain.service.PhotoAnalysisService
 import com.kreativekoala.cleanup.domain.service.ScanResultsCache
 import com.kreativekoala.cleanup.domain.service.StorageService
@@ -21,6 +23,8 @@ class HomeViewModel @Inject constructor(
     private val storageService: StorageService,
     private val photoAnalysisService: PhotoAnalysisService,
     private val mediaAccessHelper: MediaAccessHelper,
+    private val contactService: ContactService,
+    private val permissionHelper: PermissionHelper,
     private val scanResultsCache: ScanResultsCache
 ) : ViewModel() {
 
@@ -39,7 +43,7 @@ class HomeViewModel @Inject constructor(
         val duplicateContactsCount: Int = 0,
         val isScanning: Boolean = false,
         val scanProgress: Float = 0f,
-        val hasFolderAccess: Boolean = false
+        val hasMediaAccess: Boolean = false
     )
 
     private val _uiState = MutableStateFlow(UiState())
@@ -47,12 +51,16 @@ class HomeViewModel @Inject constructor(
 
     init {
         loadStorageInfo()
-        _uiState.update { it.copy(hasFolderAccess = mediaAccessHelper.hasFolderAccess()) }
+        val hasMedia = permissionHelper.hasMediaPermission()
+        val hasSaf = mediaAccessHelper.hasFolderAccess()
+        _uiState.update { it.copy(hasMediaAccess = hasMedia || hasSaf) }
 
-        // Auto-scan if we have persistent folder access
-        if (mediaAccessHelper.hasFolderAccess()) {
+        // Auto-scan if we have any media access
+        if (hasMedia) {
+            scanAllMediaStore()
+        } else if (hasSaf) {
             val uri = mediaAccessHelper.getSavedFolderUri()
-            if (uri != null) scanAll(uri)
+            if (uri != null) scanAllSaf(uri)
         }
     }
 
@@ -71,76 +79,111 @@ class HomeViewModel @Inject constructor(
 
     fun onFolderSelected(treeUri: Uri) {
         mediaAccessHelper.saveFolderUri(treeUri)
-        _uiState.update { it.copy(hasFolderAccess = true) }
-        scanAll(treeUri)
+        _uiState.update { it.copy(hasMediaAccess = true) }
+        scanAllSaf(treeUri)
     }
 
-    private fun scanAll(treeUri: Uri) {
+    fun performOneTapCleanup() {
+        if (_uiState.value.isScanning) return
+        if (permissionHelper.hasMediaPermission()) {
+            scanAllMediaStore()
+        } else {
+            val uri = mediaAccessHelper.getSavedFolderUri()
+            if (uri != null && mediaAccessHelper.hasFolderAccess()) {
+                scanAllSaf(uri)
+            }
+        }
+    }
+
+    private fun scanAllMediaStore() {
         viewModelScope.launch {
             _uiState.update { it.copy(isScanning = true, scanProgress = 0f) }
 
-            // Load photos from folder
+            // Load all photos from MediaStore
+            _uiState.update { it.copy(scanProgress = 0.1f) }
+            val allPhotos = mediaAccessHelper.loadAllPhotosFromMediaStore()
+            val allVideos = mediaAccessHelper.loadAllVideosFromMediaStore()
+            val allVideoAssets = mediaAccessHelper.loadAllVideoAssetsFromMediaStore()
+
+            scanWithLoadedMedia(allPhotos, allVideos, allVideoAssets)
+        }
+    }
+
+    private fun scanAllSaf(treeUri: Uri) {
+        viewModelScope.launch {
+            _uiState.update { it.copy(isScanning = true, scanProgress = 0f) }
+
+            // Load from SAF folder
             _uiState.update { it.copy(scanProgress = 0.1f) }
             val allPhotos = mediaAccessHelper.loadPhotosFromFolder(treeUri)
             val allVideos = mediaAccessHelper.loadVideosFromFolder(treeUri)
             val allVideoAssets = mediaAccessHelper.loadVideoAssetsFromFolder(treeUri)
 
-            // Scan duplicates
-            _uiState.update { it.copy(scanProgress = 0.3f) }
-            val duplicateResult = photoAnalysisService.findDuplicates(allPhotos)
-            _uiState.update {
-                it.copy(
-                    duplicatePhotosCount = duplicateResult.totalDuplicates,
-                    duplicatePhotosSavings = ByteFormatter.format(duplicateResult.potentialSavings),
-                    scanProgress = 0.5f
-                )
-            }
-
-            // Scan similar photos
-            _uiState.update { it.copy(scanProgress = 0.5f) }
-            val similarResult = photoAnalysisService.findSimilarPhotos(allPhotos)
-            _uiState.update {
-                it.copy(
-                    similarPhotosCount = similarResult.totalSimilar,
-                    similarPhotosSavings = ByteFormatter.format(similarResult.potentialSavings),
-                    scanProgress = 0.6f
-                )
-            }
-
-            // Scan screenshots
-            _uiState.update { it.copy(scanProgress = 0.7f) }
-            val screenshotResult = photoAnalysisService.findScreenshots(allPhotos)
-            _uiState.update {
-                it.copy(
-                    screenshotsCount = screenshotResult.totalCount,
-                    screenshotsSavings = ByteFormatter.format(screenshotResult.potentialSavings),
-                    scanProgress = 0.8f
-                )
-            }
-
-            // Scan large videos
-            _uiState.update { it.copy(scanProgress = 0.9f) }
-            val largeVideoResult = photoAnalysisService.findLargeVideos(allVideos)
-            _uiState.update {
-                it.copy(
-                    largeVideosCount = largeVideoResult.totalCount,
-                    largeVideosSavings = ByteFormatter.format(largeVideoResult.potentialSavings),
-                    scanProgress = 1.0f,
-                    isScanning = false
-                )
-            }
-
-            // Cache results so detail screens don't re-scan
-            scanResultsCache.storePhotoResults(allPhotos, duplicateResult, similarResult, screenshotResult)
-            scanResultsCache.storeVideoResults(allVideos, allVideoAssets, largeVideoResult)
+            scanWithLoadedMedia(allPhotos, allVideos, allVideoAssets)
         }
     }
 
-    fun performOneTapCleanup() {
-        if (_uiState.value.isScanning) return
-        val uri = mediaAccessHelper.getSavedFolderUri()
-        if (uri != null && mediaAccessHelper.hasFolderAccess()) {
-            scanAll(uri)
+    private suspend fun scanWithLoadedMedia(
+        allPhotos: List<com.kreativekoala.cleanup.data.model.PhotoAsset>,
+        allVideos: List<com.kreativekoala.cleanup.data.model.PhotoAsset>,
+        allVideoAssets: List<com.kreativekoala.cleanup.data.model.VideoAsset>
+    ) {
+        // Scan duplicates
+        _uiState.update { it.copy(scanProgress = 0.3f) }
+        val duplicateResult = photoAnalysisService.findDuplicates(allPhotos)
+        _uiState.update {
+            it.copy(
+                duplicatePhotosCount = duplicateResult.totalDuplicates,
+                duplicatePhotosSavings = ByteFormatter.format(duplicateResult.potentialSavings),
+                scanProgress = 0.5f
+            )
         }
+
+        // Scan similar photos
+        val similarResult = photoAnalysisService.findSimilarPhotos(allPhotos)
+        _uiState.update {
+            it.copy(
+                similarPhotosCount = similarResult.totalSimilar,
+                similarPhotosSavings = ByteFormatter.format(similarResult.potentialSavings),
+                scanProgress = 0.6f
+            )
+        }
+
+        // Scan screenshots
+        _uiState.update { it.copy(scanProgress = 0.7f) }
+        val screenshotResult = photoAnalysisService.findScreenshots(allPhotos)
+        _uiState.update {
+            it.copy(
+                screenshotsCount = screenshotResult.totalCount,
+                screenshotsSavings = ByteFormatter.format(screenshotResult.potentialSavings),
+                scanProgress = 0.8f
+            )
+        }
+
+        // Scan large videos
+        _uiState.update { it.copy(scanProgress = 0.85f) }
+        val largeVideoResult = photoAnalysisService.findLargeVideos(allVideos)
+        _uiState.update {
+            it.copy(
+                largeVideosCount = largeVideoResult.totalCount,
+                largeVideosSavings = ByteFormatter.format(largeVideoResult.potentialSavings),
+                scanProgress = 0.9f
+            )
+        }
+
+        // Scan duplicate contacts (if permission granted)
+        if (permissionHelper.hasContactPermission()) {
+            _uiState.update { it.copy(scanProgress = 0.95f) }
+            try {
+                val contactResult = contactService.findDuplicates()
+                _uiState.update { it.copy(duplicateContactsCount = contactResult.count) }
+            } catch (_: Exception) { }
+        }
+
+        _uiState.update { it.copy(scanProgress = 1.0f, isScanning = false) }
+
+        // Cache results so detail screens don't re-scan
+        scanResultsCache.storePhotoResults(allPhotos, duplicateResult, similarResult, screenshotResult)
+        scanResultsCache.storeVideoResults(allVideos, allVideoAssets, largeVideoResult)
     }
 }
