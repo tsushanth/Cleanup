@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <!-- ==================== HOME SCREEN ==================== -->
+    <string name="home_title">Dọn Dẹp Một Chạm</string>
+    <string name="home_vault_cd">Két sắt</string>
+    <string name="home_scanning">Đang quét…</string>
+    <string name="home_one_tap_scan">Quét Một Chạm</string>
+    <string name="home_grant_access_scan">Cấp Quyền &amp; Quét</string>
+    <string name="home_scanning_device">Đang quét thiết bị của bạn…</string>
+    <string name="home_quick_actions">Thao Tác Nhanh</string>
+    <string name="home_chip_duplicates">Trùng lặp</string>
+    <string name="home_chip_screenshots">Ảnh chụp màn hình</string>
+    <string name="home_chip_large_videos">Video lớn</string>
+    <string name="home_chip_compress">Nén</string>
+    <string name="home_chip_archive">Lưu trữ</string>
+    <string name="home_chip_downloads">Tải xuống</string>
+    <string name="home_chip_apk_files">Tệp APK</string>
+    <string name="home_smart_scan_results">Kết Quả Quét Thông Minh</string>
+    <string name="home_category_duplicate_photos">Ảnh trùng lặp</string>
+    <string name="home_category_similar_photos">Ảnh tương tự</string>
+    <string name="home_category_screenshots">Ảnh chụp màn hình</string>
+    <string name="home_category_large_videos">Video lớn</string>
+    <string name="home_category_duplicate_contacts">Danh bạ trùng lặp</string>
+    <string name="home_file_management">Quản Lý Tệp</string>
+    <string name="home_category_downloads">Tải xuống</string>
+    <string name="home_category_apk_files">Tệp APK</string>
+    <string name="home_category_notification_manager">Quản lý thông báo</string>
+    <string name="home_storage_used">Đã dùng %s</string>
+    <string name="home_storage_total">Tổng %s</string>
+    <string name="home_storage_full">Bộ nhớ đã đầy %d%%</string>
+    <string name="home_items_count">%d mục</string>
+    <string name="home_items_count_savings">%1$d mục \u00B7 %2$s</string>
+    <string name="home_tap_to_scan">Chạm để quét</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_welcome_title">Điện thoại của bạn đầy rác</string>
+    <string name="onboarding_welcome_subtitle">Ảnh trùng lặp, ảnh chụp màn hình cũ, video lớn \u2014 chúng đang chiếm bộ nhớ của bạn. Hãy sửa điều đó.</string>
+    <string name="onboarding_welcome_button">Hãy Dọn Dẹp</string>
+    <string name="onboarding_media_granted_title">Đã cấp quyền truy cập phương tiện!</string>
+    <string name="onboarding_media_request_title">Truy cập ảnh &amp; video của bạn</string>
+    <string name="onboarding_media_granted_subtitle">Chúng tôi sẽ quét tất cả ảnh và video của bạn để tìm trùng lặp, ảnh tương tự và tệp lớn.</string>
+    <string name="onboarding_media_request_subtitle">Để tìm trùng lặp và giải phóng dung lượng, chúng tôi cần truy cập ảnh và video của bạn.</string>
+    <string name="onboarding_feature_private_title">Riêng tư 100%</string>
+    <string name="onboarding_feature_private_subtitle">Tất cả quét diễn ra trên thiết bị</string>
+    <string name="onboarding_feature_fast_title">Quét Nhanh</string>
+    <string name="onboarding_feature_fast_subtitle">Mất chưa đến 30 giây</string>
+    <string name="onboarding_feature_you_choose_title">Bạn Chọn</string>
+    <string name="onboarding_feature_you_choose_subtitle">Không xóa gì mà không có sự chấp thuận của bạn</string>
+    <string name="onboarding_continue">Tiếp tục</string>
+    <string name="onboarding_allow_photo_video">Cho Phép Truy Cập Ảnh &amp; Video</string>
+    <string name="onboarding_skip">Bỏ qua</string>
+    <string name="onboarding_contact_granted_title">Đã cấp quyền truy cập danh bạ!</string>
+    <string name="onboarding_contact_request_title">Dọn dẹp danh bạ của bạn</string>
+    <string name="onboarding_contact_granted_subtitle">Chúng tôi sẽ tìm danh bạ trùng lặp và không đầy đủ để bạn có thể gộp hoặc xóa chúng.</string>
+    <string name="onboarding_contact_request_subtitle">Tìm và gộp danh bạ trùng lặp để giữ sổ địa chỉ gọn gàng.</string>
+    <string name="onboarding_feature_find_dupes_title">Tìm Trùng Lặp</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Phát hiện danh bạ có cùng tên hoặc số</string>
+    <string name="onboarding_feature_smart_merge_title">Gộp Thông Minh</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Kết hợp trùng lặp thành một danh bạ</string>
+    <string name="onboarding_feature_safe_title">An Toàn</string>
+    <string name="onboarding_feature_safe_subtitle">Xem xét trước khi thực hiện bất kỳ thay đổi nào</string>
+    <string name="onboarding_allow_contact">Cho Phép Truy Cập Danh Bạ</string>
+    <string name="onboarding_ready_title">Tất cả đã sẵn sàng!</string>
+    <string name="onboarding_ready_subtitle">Chạm vào nút bên dưới để quét mọi thứ và bắt đầu dọn dẹp.</string>
+    <string name="onboarding_photos_videos">Ảnh &amp; video</string>
+    <string name="onboarding_contact_access">Truy cập danh bạ</string>
+    <string name="onboarding_free_duplicates">5 lần xóa trùng lặp miễn phí</string>
+    <string name="onboarding_free_similar">5 lần dọn ảnh tương tự miễn phí</string>
+    <string name="onboarding_free_screenshots">5 lần xóa ảnh chụp màn hình miễn phí</string>
+    <string name="onboarding_free_videos">5 lần dọn video miễn phí</string>
+    <string name="onboarding_free_contacts">5 lần gộp danh bạ miễn phí</string>
+    <string name="onboarding_free_label">MIỄN PHÍ</string>
+    <string name="onboarding_get_started">Quét &amp; Bắt Đầu</string>
+
+    <!-- ==================== PAYWALL SCREEN ==================== -->
+    <string name="paywall_close_cd">Đóng</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">mỗi năm</string>
+    <string name="paywall_per_month">mỗi tháng</string>
+    <string name="paywall_feature_unlimited_title">Dọn Dẹp Không Giới Hạn</string>
+    <string name="paywall_feature_unlimited_subtitle">Dọn dẹp thiết bị bao nhiêu lần tùy thích</string>
+    <string name="paywall_feature_duplicates_title">Xóa Trùng Lặp &amp; Tương Tự</string>
+    <string name="paywall_feature_duplicates_subtitle">Tìm và xóa ảnh trùng lặp ngay lập tức</string>
+    <string name="paywall_feature_videos_title">Quản Lý Video Lớn</string>
+    <string name="paywall_feature_videos_subtitle">Nén hoặc xóa video chiếm nhiều dung lượng</string>
+    <string name="paywall_feature_private_title">Riêng Tư &amp; An Toàn</string>
+    <string name="paywall_feature_private_subtitle">Tất cả quét diễn ra trên thiết bị của bạn</string>
+    <string name="paywall_best_value">GIÁ TRỊ TỐT NHẤT</string>
+    <string name="paywall_save_75">Tiết kiệm 75%% so với hàng tháng</string>
+    <string name="paywall_continue">Tiếp tục</string>
+    <string name="paywall_restore">Khôi Phục Mua Hàng</string>
+    <string name="paywall_terms">Đăng ký tự động gia hạn. Hủy bất cứ lúc nào trong cài đặt Google Play.</string>
+
+    <!-- ==================== PHOTOS CLEANUP SCREEN ==================== -->
+    <string name="photos_title">Dọn Dẹp Ảnh</string>
+    <string name="photos_back_cd">Quay lại</string>
+    <string name="photos_change_folder_cd">Đổi thư mục</string>
+    <string name="photos_delete_count">Xóa %d</string>
+    <string name="photos_select_title">Chọn Ảnh Để Phân Tích</string>
+    <string name="photos_select_subtitle">Chọn cách bạn muốn cung cấp ảnh để phát hiện trùng lặp và ảnh chụp màn hình.</string>
+    <string name="photos_select_all_folder">Chọn Tất Cả (Truy Cập Thư Mục)</string>
+    <string name="photos_select_all_hint">Cấp quyền truy cập thư mục DCIM hoặc Ảnh để quét tất cả ảnh</string>
+    <string name="photos_choose">Chọn Ảnh</string>
+    <string name="photos_choose_hint">Chọn ảnh cụ thể để phân tích</string>
+    <string name="photos_selected_count">Đã chọn %d</string>
+    <string name="photos_save_amount">Tiết kiệm %s</string>
+    <string name="photos_tab_duplicates">Trùng lặp</string>
+    <string name="photos_tab_similar">Tương tự</string>
+    <string name="photos_tab_screenshots">Ảnh chụp màn hình</string>
+    <string name="photos_no_duplicates_title">Không Tìm Thấy Trùng Lặp</string>
+    <string name="photos_no_duplicates_subtitle">Thư viện ảnh của bạn sạch sẽ!</string>
+    <string name="photos_duplicates_summary">%1$d trùng lặp trong %2$d nhóm</string>
+    <string name="photos_select_all">Chọn Tất Cả</string>
+    <string name="photos_deselect_all">Bỏ Chọn Tất Cả</string>
+    <string name="photos_n_duplicates">%d trùng lặp</string>
+    <string name="photos_keep_best">Giữ Tốt Nhất</string>
+    <string name="photos_no_similar_title">Không Có Ảnh Tương Tự</string>
+    <string name="photos_no_similar_subtitle">Không tìm thấy nhóm ảnh tương tự</string>
+    <string name="photos_similar_summary">%1$d tương tự trong %2$d nhóm</string>
+    <string name="photos_n_similar">%d ảnh tương tự</string>
+    <string name="photos_percent_similar">%d%% tương tự</string>
+    <string name="photos_keep_best_select_others">Giữ Tốt Nhất, Chọn Còn Lại</string>
+    <string name="photos_no_screenshots_title">Không Có Ảnh Chụp Màn Hình</string>
+    <string name="photos_no_screenshots_subtitle">Không tìm thấy ảnh chụp màn hình trong thư viện của bạn</string>
+    <string name="photos_n_screenshots">%d ảnh chụp màn hình</string>
+    <string name="photos_selected_cd">Đã chọn</string>
+    <string name="photos_best_badge">TỐT NHẤT</string>
+    <string name="photos_scanning">Đang quét ảnh…</string>
+    <string name="photos_delete_title">Xóa %d Ảnh?</string>
+    <string name="photos_delete_message">Thao tác này sẽ xóa vĩnh viễn các ảnh đã chọn khỏi thiết bị của bạn. Không thể hoàn tác.</string>
+    <string name="photos_delete_permanently">Xóa Vĩnh Viễn</string>
+    <string name="cancel">Hủy</string>
+
+    <!-- ==================== UPGRADE / PAYWALL DIALOG ==================== -->
+    <string name="upgrade_title">Nâng Cấp Lên Pro</string>
+    <string name="upgrade_message">Bạn đã sử dụng hết lượt dọn dẹp miễn phí cho danh mục này. Nâng cấp lên Pro để truy cập không giới hạn.</string>
+    <string name="upgrade_button">Nâng Cấp</string>
+    <string name="upgrade_not_now">Không Phải Bây Giờ</string>
+
+    <!-- ==================== VAULT SCREEN ==================== -->
+    <string name="vault_title">Két Sắt</string>
+    <string name="vault_lock_cd">Khóa</string>
+    <string name="vault_add_cd">Thêm mục</string>
+    <string name="vault_secret_space">Không Gian Bí Mật</string>
+    <string name="vault_enter_pin">Nhập mã PIN để truy cập</string>
+    <string name="vault_use_biometrics">Sử Dụng Sinh Trắc Học</string>
+    <string name="vault_biometric_title">Truy Cập Không Gian Bí Mật</string>
+    <string name="vault_biometric_subtitle">Sử dụng vân tay hoặc khuôn mặt để mở khóa</string>
+    <string name="vault_biometric_negative">Dùng PIN</string>
+    <string name="vault_backspace_cd">Xóa</string>
+    <string name="vault_create_pin">Tạo Mã PIN Của Bạn</string>
+    <string name="vault_confirm_pin">Xác Nhận Mã PIN</string>
+    <string name="vault_create_pin_subtitle">Chọn mã PIN 4 chữ số để bảo vệ két sắt</string>
+    <string name="vault_confirm_pin_subtitle">Nhập lại mã PIN</string>
+    <string name="vault_pin_mismatch">Mã PIN không khớp. Vui lòng thử lại.</string>
+    <string name="vault_empty_title">Két sắt của bạn trống</string>
+    <string name="vault_empty_subtitle">Thêm ảnh và video để giữ riêng tư</string>
+    <string name="vault_add_items">Thêm Mục</string>
+    <string name="vault_adding">Đang thêm vào két sắt…</string>
+    <string name="vault_add_to_vault">Thêm Vào Két Sắt</string>
+    <string name="vault_select_items_subtitle">Chọn mục để thêm vào két sắt của bạn</string>
+    <string name="vault_select_from_photos">Chọn Từ Ảnh</string>
+    <string name="vault_select_from_files">Chọn Từ Tệp</string>
+    <string name="vault_delete_title">Xóa Mục</string>
+    <string name="vault_delete_message">Thao tác này sẽ xóa vĩnh viễn mục khỏi két sắt của bạn.</string>
+    <string name="vault_delete_button">Xóa</string>
+    <string name="vault_restore_title">Khôi Phục Mục</string>
+    <string name="vault_restore_message">Thao tác này sẽ khôi phục mục vào thư viện Ảnh của bạn.</string>
+    <string name="vault_restore_button">Khôi Phục</string>
+    <string name="vault_added_date">Đã thêm: %s</string>
+    <string name="vault_item_size">Kích thước: %s</string>
+
+    <!-- ==================== CONTACTS CLEANUP SCREEN ==================== -->
+    <string name="contacts_title">Dọn Dẹp Danh Bạ</string>
+    <string name="contacts_tab_duplicates">Trùng lặp</string>
+    <string name="contacts_tab_incomplete">Không đầy đủ</string>
+    <string name="contacts_access_required">Cần Quyền Truy Cập Danh Bạ</string>
+    <string name="contacts_access_message">Ứng dụng cần truy cập danh bạ để tìm trùng lặp và mục không đầy đủ.</string>
+    <string name="contacts_grant_access">Cấp Quyền</string>
+    <string name="contacts_no_duplicates_title">Không Có Trùng Lặp</string>
+    <string name="contacts_no_duplicates_subtitle">Danh bạ của bạn sạch sẽ!</string>
+    <string name="contacts_n_duplicates">%d trùng lặp</string>
+    <string name="contacts_merge_all">Gộp Tất Cả</string>
+    <string name="contacts_delete_dupes">Xóa Trùng Lặp</string>
+    <string name="contacts_no_name">Không có tên</string>
+    <string name="contacts_no_incomplete_title">Không Có Danh Bạ Không Đầy Đủ</string>
+    <string name="contacts_no_incomplete_subtitle">Tất cả danh bạ có đầy đủ thông tin</string>
+    <string name="contacts_n_incomplete">%d không đầy đủ</string>
+    <string name="contacts_delete_selected">Xóa Đã Chọn (%d)</string>
+    <string name="contacts_merge_title">Gộp Danh Bạ</string>
+    <string name="contacts_merge_subtitle">Chọn danh bạ chính để giữ lại. Thông tin từ các danh bạ khác sẽ được gộp vào.</string>
+    <string name="contacts_merge_button">Gộp Danh Bạ</string>
+    <string name="contacts_scanning">Đang quét danh bạ…</string>
+
+    <!-- ==================== VIDEOS CLEANUP SCREEN ==================== -->
+    <string name="videos_title">Dọn Dẹp Video</string>
+    <string name="videos_delete_count">Xóa %d</string>
+    <string name="videos_select_title">Chọn Video Để Phân Tích</string>
+    <string name="videos_select_subtitle">Chọn cách bạn muốn cung cấp video để phát hiện tệp lớn và nén.</string>
+    <string name="videos_select_all_folder">Chọn Tất Cả (Truy Cập Thư Mục)</string>
+    <string name="videos_select_all_hint">Cấp quyền truy cập thư mục DCIM hoặc phương tiện để quét tất cả video</string>
+    <string name="videos_choose">Chọn Video</string>
+    <string name="videos_choose_hint">Chọn video cụ thể để phân tích</string>
+    <string name="videos_tab_large">Video Lớn</string>
+    <string name="videos_tab_compress">Nén</string>
+    <string name="videos_no_large_title">Không Có Video Lớn</string>
+    <string name="videos_no_large_subtitle">Không tìm thấy video trên 50MB</string>
+    <string name="videos_n_large">%d video lớn</string>
+    <string name="videos_delete_title">Xóa %d Video?</string>
+    <string name="videos_delete_message">Thao tác này sẽ xóa vĩnh viễn các video đã chọn. Không thể hoàn tác.</string>
+    <string name="videos_no_compress_title">Không Có Video</string>
+    <string name="videos_no_compress_subtitle">Không tìm thấy video có thể nén</string>
+    <string name="videos_compression_quality">Chất Lượng Nén</string>
+    <string name="videos_select_videos">Chọn Video</string>
+    <string name="videos_n_selected">Đã chọn %d</string>
+    <string name="videos_compress_n">Nén %d Video</string>
+    <string name="videos_scanning">Đang quét video…</string>
+    <string name="videos_compressing_title">Đang Nén Video</string>
+
+    <!-- ==================== DOWNLOADS SCREEN ==================== -->
+    <string name="downloads_title">Tải Xuống</string>
+    <string name="downloads_deselect">Bỏ Chọn</string>
+    <string name="downloads_delete_n_files">Xóa %d tệp</string>
+    <string name="downloads_scanning">Đang quét thư mục tải xuống…</string>
+    <string name="downloads_clean">Thư mục tải xuống sạch sẽ!</string>
+    <string name="downloads_summary">%1$d tệp (%2$s)</string>
+
+    <!-- ==================== APK SCREEN ==================== -->
+    <string name="apk_title">Tệp APK</string>
+    <string name="apk_deselect">Bỏ Chọn</string>
+    <string name="apk_delete_n">Xóa %d APK</string>
+    <string name="apk_scanning">Đang tìm tệp APK…</string>
+    <string name="apk_none_found">Không tìm thấy tệp APK!</string>
+    <string name="apk_all_filter">Tất cả (%d)</string>
+
+    <!-- ==================== NOTIFICATIONS SCREEN ==================== -->
+    <string name="notifications_title">Thông Báo</string>
+    <string name="notifications_analyzing">Đang phân tích thông báo…</string>
+    <string name="notifications_no_apps">Không tìm thấy ứng dụng</string>
+    <string name="notifications_apps_count">%d ứng dụng có thông báo</string>
+    <string name="notifications_manage_hint">Chạm để quản lý cài đặt thông báo cho từng ứng dụng</string>
+    <string name="notifications_enabled">Đã bật thông báo</string>
+    <string name="notifications_disabled">Đã tắt thông báo</string>
+    <string name="notifications_manage_button">Quản Lý</string>
+
+    <!-- ==================== ARCHIVE SCREEN ==================== -->
+    <string name="archive_title">Lưu Trữ Đám Mây</string>
+    <string name="archive_sync_cd">Đồng bộ</string>
+    <string name="archive_storage_used">Dung Lượng Đã Dùng</string>
+    <string name="archive_empty_title">Không có mục lưu trữ</string>
+    <string name="archive_empty_subtitle">Lưu trữ ảnh và video từ màn hình dọn dẹp để giải phóng dung lượng thiết bị</string>
+    <string name="archive_items_count">%d mục đã lưu trữ</string>
+    <string name="archive_detail_archived">Đã lưu trữ: %s</string>
+    <string name="archive_detail_size">Kích thước: %s</string>
+    <string name="archive_detail_tier">Cấp: %s</string>
+    <string name="archive_retrieve_button">Truy Xuất</string>
+    <string name="archive_delete_title">Xóa Mục Lưu Trữ</string>
+    <string name="archive_delete_message">Thao tác này sẽ xóa vĩnh viễn mục này khỏi kho lưu trữ. Không thể hoàn tác.</string>
+    <string name="archive_success_title">Lưu Trữ Thành Công</string>
+    <string name="archive_success_message">%d mục đã được lưu trữ lên đám mây.</string>
+    <string name="archive_restore_success_title">Khôi Phục Thành Công</string>
+    <string name="archive_restore_success_message">Mục đã được khôi phục về thiết bị của bạn.</string>
+    <string name="archive_error_title">Lỗi</string>
+    <string name="ok">OK</string>
+
+    <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
+    <string name="archive_signin_title">Đăng Nhập Để Lưu Trữ Đám Mây</string>
+    <string name="archive_signin_subtitle">Lưu trữ ảnh và video lên đám mây trước khi xóa khỏi thiết bị</string>
+    <string name="archive_signin_encrypted_title">Mã Hóa Đầu Cuối</string>
+    <string name="archive_signin_encrypted_subtitle">Dữ liệu được mã hóa trước khi rời thiết bị</string>
+    <string name="archive_signin_retrieve_title">Truy Xuất Bất Cứ Lúc Nào</string>
+    <string name="archive_signin_retrieve_subtitle">Tải xuống tệp lưu trữ bất cứ khi nào bạn cần</string>
+    <string name="archive_signin_private_title">Riêng Tư &amp; An Toàn</string>
+    <string name="archive_signin_private_subtitle">Không cần nhớ mật khẩu \u2014 đăng nhập bằng Google</string>
+    <string name="archive_signin_google">Đăng nhập bằng Google</string>
+    <string name="archive_signin_privacy">Dữ liệu của bạn chỉ được sử dụng cho lưu trữ đám mây. Chúng tôi không bao giờ chia sẻ hoặc bán thông tin của bạn.</string>
+
+    <!-- ==================== ARCHIVE PAYWALL SCREEN ==================== -->
+    <string name="archive_paywall_title">Xóa Với Sự Tự Tin</string>
+    <string name="archive_paywall_subtitle">Lưu trữ tệp lên đám mây trước khi xóa. Truy xuất bất cứ lúc nào.</string>
+    <string name="archive_paywall_safety_title">Mạng Lưới An Toàn</string>
+    <string name="archive_paywall_safety_subtitle">Không bao giờ mất tệp quan trọng nữa</string>
+    <string name="archive_paywall_retrieve_title">Truy Xuất Bất Cứ Lúc Nào</string>
+    <string name="archive_paywall_retrieve_subtitle">Tải xuống tệp lưu trữ khi bạn cần</string>
+    <string name="archive_paywall_encrypted_title">Lưu Trữ Mã Hóa</string>
+    <string name="archive_paywall_encrypted_subtitle">Dữ liệu luôn được mã hóa và riêng tư</string>
+    <string name="archive_paywall_choose_plan">Chọn Gói Của Bạn</string>
+    <string name="archive_paywall_current">HIỆN TẠI</string>
+    <string name="archive_paywall_subscribe">Đăng Ký</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">Cài Đặt</string>
+    <string name="settings_account">Tài khoản</string>
+    <string name="settings_sign_in">Đăng Nhập</string>
+    <string name="settings_subscription">Đăng Ký</string>
+    <string name="settings_upgrade_pro">Nâng Cấp Lên Pro</string>
+    <string name="settings_features">Tính Năng</string>
+    <string name="settings_secret_space">Không Gian Bí Mật</string>
+    <string name="settings_email_cleanup">Dọn Dẹp Email</string>
+    <string name="settings_widgets">Widget</string>
+    <string name="settings_about">Giới Thiệu</string>
+    <string name="settings_privacy_policy">Chính Sách Bảo Mật</string>
+    <string name="settings_terms">Điều Khoản Dịch Vụ</string>
+    <string name="settings_rate_us">Đánh Giá Chúng Tôi</string>
+    <string name="settings_version">Phiên bản 1.1 (2)</string>
+
+    <!-- ==================== NAV / LOGIN / PLACEHOLDER ==================== -->
+    <string name="nav_home">Trang Chủ</string>
+    <string name="nav_photos">Ảnh</string>
+    <string name="nav_videos">Video</string>
+    <string name="nav_contacts">Danh Bạ</string>
+    <string name="nav_settings">Cài Đặt</string>
+    <string name="login_title">Đăng Nhập</string>
+    <string name="login_coming_soon">Sắp Ra Mắt</string>
+    <string name="login_coming_soon_subtitle">Đăng nhập tài khoản sẽ có trong bản cập nhật tương lai.</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Mật khẩu</string>
+    <string name="login_button">Đăng Nhập</string>
+    <string name="placeholder_coming_soon">%s - Sắp Ra Mắt</string>
+    <string name="email_cleanup_title">Dọn Dẹp Email</string>
+    <string name="widgets_title">Widget</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="back_cd">Quay lại</string>
+    <string name="delete_button">Xóa</string>
+</resources>

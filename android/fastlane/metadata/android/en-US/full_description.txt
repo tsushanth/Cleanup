@@ -1,0 +1,36 @@
+SmartSpace helps you reclaim storage on your Android device by intelligently identifying and removing duplicate photos, large videos, unused contacts, old APK files, and more.
+
+KEY FEATURES
+
+Photos Cleanup
+Scan your photo library for duplicates, blurry shots, and screenshots you no longer need. Review suggestions side-by-side and free up gigabytes of space with a single tap.
+
+Videos Cleanup
+Find large and duplicate video files eating up your storage. Preview each video before deciding to keep or remove it.
+
+Contacts Cleanup
+Detect duplicate, incomplete, or outdated contacts. Merge duplicates and remove contacts with missing information to keep your address book tidy.
+
+APK & Downloads Cleanup
+Remove leftover APK installer files and old downloads that are wasting valuable space on your device.
+
+Notification Manager
+Take control of app notifications. See which apps are the noisiest and silence the ones you do not need.
+
+Cloud Archive
+Back up important files to the cloud before deleting them locally. Retrieve archived items anytime you need them.
+
+Secure Vault
+Protect your private photos and videos with biometric authentication. Keep sensitive files hidden and secure.
+
+Smart Storage Dashboard
+Get a clear overview of what is using your storage. The home screen shows your storage breakdown and gives personalized cleanup recommendations.
+
+WHY SMARTSPACE?
+
+- Fast & Lightweight: Scans complete quickly without draining your battery.
+- Privacy First: All scanning happens on your device. Your files are never uploaded without your permission.
+- Easy to Use: Clean, modern interface designed for everyone.
+- Detailed Previews: Always see what you are about to delete before confirming.
+
+Download SmartSpace today and enjoy a faster, cleaner phone.

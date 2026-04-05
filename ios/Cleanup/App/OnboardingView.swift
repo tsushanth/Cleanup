@@ -1,5 +1,6 @@
 import SwiftUI
 import Photos
+import AppTrackingTransparency
 
 struct OnboardingView: View {
     @EnvironmentObject var appState: AppState
@@ -11,6 +12,7 @@ struct OnboardingView: View {
     @State private var isRequestingPermission = false
     @State private var scanComplete = false
     @State private var estimatedSavings: String = "..."
+    @State private var showOnboardingPaywall = false
 
     var body: some View {
         ZStack {
@@ -221,47 +223,106 @@ struct OnboardingView: View {
 
     // MARK: - Page 3: Results + Start
     private var resultsPage: some View {
-        VStack(spacing: 32) {
+        VStack(spacing: 24) {
             Spacer()
 
-            ZStack {
-                Circle()
-                    .fill(Color.green.opacity(0.15))
-                    .frame(width: 120, height: 120)
-
-                Image(systemName: "checkmark.circle.fill")
-                    .font(.system(size: 56))
-                    .foregroundColor(.green)
-            }
-
-            VStack(spacing: 12) {
-                Text("Ready to clean!")
-                    .font(.title)
+            VStack(spacing: 8) {
+                Text("Two ways to reclaim space")
+                    .font(.title2)
                     .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
 
-                Text("Start with 5 free cleanups per category. Upgrade anytime for unlimited access.")
-                    .font(.body)
+                Text("Use one or both — they work independently.")
+                    .font(.subheadline)
                     .foregroundColor(.secondary)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 32)
             }
 
-            // What's included
-            VStack(spacing: 14) {
-                FreeFeatureRow(title: "5 free duplicate removals", icon: "doc.on.doc.fill")
-                FreeFeatureRow(title: "5 free similar photo cleanups", icon: "square.stack.3d.up.fill")
-                FreeFeatureRow(title: "5 free screenshot deletions", icon: "camera.viewfinder")
-                FreeFeatureRow(title: "5 free video cleanups", icon: "video.fill")
-                FreeFeatureRow(title: "5 free contact merges", icon: "person.2.fill")
+            // Pro card
+            VStack(alignment: .leading, spacing: 10) {
+                HStack(spacing: 10) {
+                    Image(systemName: "trash.fill")
+                        .font(.title3)
+                        .foregroundColor(.white)
+                        .frame(width: 36, height: 36)
+                        .background(LinearGradient(colors: [.blue, .purple], startPoint: .leading, endPoint: .trailing))
+                        .cornerRadius(10)
+
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("SmartSpace Pro")
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                        Text("Delete duplicates, videos & contacts")
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    }
+                    Spacer()
+                    Text("FREE TRIAL")
+                        .font(.system(size: 9, weight: .bold))
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 7)
+                        .padding(.vertical, 4)
+                        .background(Color.blue)
+                        .cornerRadius(5)
+                }
+
+                VStack(alignment: .leading, spacing: 6) {
+                    OnboardingFeatureRow(icon: "doc.on.doc.fill", text: "Remove duplicate & similar photos")
+                    OnboardingFeatureRow(icon: "video.fill", text: "Clean up large videos")
+                    OnboardingFeatureRow(icon: "person.2.fill", text: "Merge duplicate contacts")
+                }
             }
-            .padding(.horizontal, 32)
+            .padding(14)
+            .background(Color(.secondarySystemBackground))
+            .cornerRadius(14)
+            .padding(.horizontal, 24)
+
+            // Archive card
+            VStack(alignment: .leading, spacing: 10) {
+                HStack(spacing: 10) {
+                    Image(systemName: "shield.checkered")
+                        .font(.title3)
+                        .foregroundColor(.white)
+                        .frame(width: 36, height: 36)
+                        .background(LinearGradient(colors: [.cyan, .blue], startPoint: .leading, endPoint: .trailing))
+                        .cornerRadius(10)
+
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("Cloud Archive")
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                        Text("Save to cloud before you delete")
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    }
+                    Spacer()
+                    Text("SEPARATE")
+                        .font(.system(size: 9, weight: .bold))
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 7)
+                        .padding(.vertical, 4)
+                        .background(Color.cyan)
+                        .cornerRadius(5)
+                }
+
+                VStack(alignment: .leading, spacing: 6) {
+                    OnboardingFeatureRow(icon: "icloud.and.arrow.up", text: "Archive photos, videos & contacts")
+                    OnboardingFeatureRow(icon: "arrow.down.to.line", text: "Retrieve anything, anytime")
+                    OnboardingFeatureRow(icon: "lock.shield", text: "Encrypted & private — only you can access")
+                }
+            }
+            .padding(14)
+            .background(Color(.secondarySystemBackground))
+            .cornerRadius(14)
+            .padding(.horizontal, 24)
 
             Spacer()
 
             Button {
-                hasCompletedOnboarding = true
+                showOnboardingPaywall = true
             } label: {
-                Text("Get Started")
+                Text("Get Started — It's Free")
                     .fontWeight(.semibold)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
@@ -276,9 +337,23 @@ struct OnboardingView: View {
                     .cornerRadius(14)
             }
             .padding(.horizontal, 24)
+            .sheet(isPresented: $showOnboardingPaywall, onDismiss: completeOnboarding) {
+                RemotePaywallView()
+            }
 
             pageIndicator(current: 2, total: 3)
                 .padding(.bottom, 24)
+        }
+    }
+
+    private func completeOnboarding() {
+        ATTrackingManager.requestTrackingAuthorization { status in
+            if status == .authorized {
+                AppDelegate.initializeTikTok()
+            }
+            DispatchQueue.main.async {
+                hasCompletedOnboarding = true
+            }
         }
     }
 
@@ -321,30 +396,20 @@ struct PermissionFeatureRow: View {
     }
 }
 
-struct FreeFeatureRow: View {
-    let title: String
+struct OnboardingFeatureRow: View {
     let icon: String
+    let text: String
 
     var body: some View {
-        HStack(spacing: 12) {
+        HStack(spacing: 8) {
             Image(systemName: icon)
-                .font(.subheadline)
-                .foregroundColor(.blue)
-                .frame(width: 24)
-
-            Text(title)
-                .font(.subheadline)
-
+                .font(.caption)
+                .foregroundColor(.secondary)
+                .frame(width: 16)
+            Text(text)
+                .font(.caption)
+                .foregroundColor(.secondary)
             Spacer()
-
-            Text("FREE")
-                .font(.caption2)
-                .fontWeight(.bold)
-                .foregroundColor(.green)
-                .padding(.horizontal, 8)
-                .padding(.vertical, 3)
-                .background(Color.green.opacity(0.15))
-                .cornerRadius(4)
         }
     }
 }

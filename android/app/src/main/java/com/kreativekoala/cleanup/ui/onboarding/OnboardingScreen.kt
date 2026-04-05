@@ -1,5 +1,10 @@
 package com.kreativekoala.cleanup.ui.onboarding
 
+import android.Manifest
+import android.content.pm.PackageManager
+import android.os.Build
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -17,16 +22,60 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.core.content.ContextCompat
+import androidx.hilt.navigation.compose.hiltViewModel
+import com.kreativekoala.cleanup.R
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun OnboardingScreen(onComplete: () -> Unit) {
-    val pagerState = rememberPagerState(pageCount = { 3 })
+fun OnboardingScreen(
+    viewModel: OnboardingViewModel = hiltViewModel(),
+    onComplete: () -> Unit
+) {
+    val pagerState = rememberPagerState(pageCount = { 4 })
     val coroutineScope = rememberCoroutineScope()
+    val context = LocalContext.current
+
+    val mediaPermissions = remember {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            arrayOf(Manifest.permission.READ_MEDIA_IMAGES, Manifest.permission.READ_MEDIA_VIDEO)
+        } else {
+            arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE)
+        }
+    }
+
+    // Track permission states
+    var hasMediaPermission by remember {
+        mutableStateOf(mediaPermissions.all {
+            ContextCompat.checkSelfPermission(context, it) == PackageManager.PERMISSION_GRANTED
+        })
+    }
+    var hasContactPermission by remember {
+        mutableStateOf(
+            ContextCompat.checkSelfPermission(context, Manifest.permission.READ_CONTACTS) ==
+                PackageManager.PERMISSION_GRANTED
+        )
+    }
+
+    // Media permission launcher
+    val mediaPermissionLauncher = rememberLauncherForActivityResult(
+        ActivityResultContracts.RequestMultiplePermissions()
+    ) { permissions ->
+        hasMediaPermission = permissions.values.all { it }
+    }
+
+    // Contact permission launcher
+    val contactPermissionLauncher = rememberLauncherForActivityResult(
+        ActivityResultContracts.RequestMultiplePermissions()
+    ) { permissions ->
+        hasContactPermission = permissions.values.all { it }
+    }
 
     Column(
         modifier = Modifier
@@ -41,11 +90,30 @@ fun OnboardingScreen(onComplete: () -> Unit) {
                 0 -> WelcomePage(
                     onNext = { coroutineScope.launch { pagerState.animateScrollToPage(1) } }
                 )
-                1 -> ScanPage(
+                1 -> MediaAccessPage(
+                    hasPermission = hasMediaPermission,
+                    onRequestPermission = { mediaPermissionLauncher.launch(mediaPermissions) },
                     onNext = { coroutineScope.launch { pagerState.animateScrollToPage(2) } },
                     onSkip = { coroutineScope.launch { pagerState.animateScrollToPage(2) } }
                 )
-                2 -> ResultsPage(onGetStarted = onComplete)
+                2 -> ContactAccessPage(
+                    hasPermission = hasContactPermission,
+                    onRequestPermission = {
+                        contactPermissionLauncher.launch(
+                            arrayOf(
+                                Manifest.permission.READ_CONTACTS,
+                                Manifest.permission.WRITE_CONTACTS
+                            )
+                        )
+                    },
+                    onNext = { coroutineScope.launch { pagerState.animateScrollToPage(3) } },
+                    onSkip = { coroutineScope.launch { pagerState.animateScrollToPage(3) } }
+                )
+                3 -> ReadyPage(
+                    hasMediaPermission = hasMediaPermission,
+                    hasContactPermission = hasContactPermission,
+                    onGetStarted = onComplete
+                )
             }
         }
 
@@ -56,7 +124,7 @@ fun OnboardingScreen(onComplete: () -> Unit) {
                 .padding(bottom = 24.dp),
             horizontalArrangement = Arrangement.Center
         ) {
-            repeat(3) { index ->
+            repeat(4) { index ->
                 Box(
                     modifier = Modifier
                         .padding(horizontal = 4.dp)
@@ -108,7 +176,7 @@ private fun WelcomePage(onNext: () -> Unit) {
         Spacer(modifier = Modifier.height(32.dp))
 
         Text(
-            "Your phone is full of clutter",
+            stringResource(R.string.onboarding_welcome_title),
             style = MaterialTheme.typography.headlineMedium,
             fontWeight = FontWeight.Bold,
             textAlign = TextAlign.Center
@@ -117,7 +185,7 @@ private fun WelcomePage(onNext: () -> Unit) {
         Spacer(modifier = Modifier.height(12.dp))
 
         Text(
-            "Duplicate photos, old screenshots, large videos — they're eating your storage. Let's fix that.",
+            stringResource(R.string.onboarding_welcome_subtitle),
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center,
@@ -126,14 +194,19 @@ private fun WelcomePage(onNext: () -> Unit) {
 
         Spacer(modifier = Modifier.weight(1f))
 
-        GradientButton(text = "Let's Clean Up", onClick = onNext)
+        GradientButton(text = stringResource(R.string.onboarding_welcome_button), onClick = onNext)
 
         Spacer(modifier = Modifier.height(32.dp))
     }
 }
 
 @Composable
-private fun ScanPage(onNext: () -> Unit, onSkip: () -> Unit) {
+private fun MediaAccessPage(
+    hasPermission: Boolean,
+    onRequestPermission: () -> Unit,
+    onNext: () -> Unit,
+    onSkip: () -> Unit
+) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -147,21 +220,24 @@ private fun ScanPage(onNext: () -> Unit, onSkip: () -> Unit) {
             modifier = Modifier
                 .size(120.dp)
                 .clip(CircleShape)
-                .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)),
+                .background(
+                    if (hasPermission) Color(0xFF4CAF50).copy(alpha = 0.15f)
+                    else MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
+                ),
             contentAlignment = Alignment.Center
         ) {
             Icon(
-                Icons.Default.PhotoLibrary,
+                if (hasPermission) Icons.Default.CheckCircle else Icons.Default.PhotoLibrary,
                 contentDescription = null,
-                modifier = Modifier.size(50.dp),
-                tint = MaterialTheme.colorScheme.primary
+                modifier = Modifier.size(56.dp),
+                tint = if (hasPermission) Color(0xFF4CAF50) else MaterialTheme.colorScheme.primary
             )
         }
 
         Spacer(modifier = Modifier.height(32.dp))
 
         Text(
-            "Quick scan your library",
+            if (hasPermission) stringResource(R.string.onboarding_media_granted_title) else stringResource(R.string.onboarding_media_request_title),
             style = MaterialTheme.typography.headlineSmall,
             fontWeight = FontWeight.Bold,
             textAlign = TextAlign.Center
@@ -170,7 +246,10 @@ private fun ScanPage(onNext: () -> Unit, onSkip: () -> Unit) {
         Spacer(modifier = Modifier.height(12.dp))
 
         Text(
-            "We'll scan your photos and videos to find duplicates, similar shots, and space hogs. Everything stays on your device.",
+            if (hasPermission)
+                stringResource(R.string.onboarding_media_granted_subtitle)
+            else
+                stringResource(R.string.onboarding_media_request_subtitle),
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center,
@@ -179,20 +258,24 @@ private fun ScanPage(onNext: () -> Unit, onSkip: () -> Unit) {
 
         Spacer(modifier = Modifier.height(32.dp))
 
-        FeatureRow(Icons.Default.Shield, "100% Private", "All scanning happens on-device")
+        FeatureRow(Icons.Default.Shield, stringResource(R.string.onboarding_feature_private_title), stringResource(R.string.onboarding_feature_private_subtitle))
         Spacer(modifier = Modifier.height(16.dp))
-        FeatureRow(Icons.Default.Bolt, "Fast Scan", "Takes less than 30 seconds")
+        FeatureRow(Icons.Default.Bolt, stringResource(R.string.onboarding_feature_fast_title), stringResource(R.string.onboarding_feature_fast_subtitle))
         Spacer(modifier = Modifier.height(16.dp))
-        FeatureRow(Icons.Default.Delete, "You Choose", "Nothing deleted without your approval")
+        FeatureRow(Icons.Default.Delete, stringResource(R.string.onboarding_feature_you_choose_title), stringResource(R.string.onboarding_feature_you_choose_subtitle))
 
         Spacer(modifier = Modifier.weight(1f))
 
-        GradientButton(text = "Scan My Library", onClick = onNext)
+        if (hasPermission) {
+            GradientButton(text = stringResource(R.string.onboarding_continue), onClick = onNext)
+        } else {
+            GradientButton(text = stringResource(R.string.onboarding_allow_photo_video), onClick = onRequestPermission)
 
-        Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(8.dp))
 
-        TextButton(onClick = onSkip) {
-            Text("Skip for now")
+            TextButton(onClick = onSkip) {
+                Text(stringResource(R.string.onboarding_skip))
+            }
         }
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -200,7 +283,93 @@ private fun ScanPage(onNext: () -> Unit, onSkip: () -> Unit) {
 }
 
 @Composable
-private fun ResultsPage(onGetStarted: () -> Unit) {
+private fun ContactAccessPage(
+    hasPermission: Boolean,
+    onRequestPermission: () -> Unit,
+    onNext: () -> Unit,
+    onSkip: () -> Unit
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(horizontal = 24.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        Spacer(modifier = Modifier.weight(1f))
+
+        Box(
+            modifier = Modifier
+                .size(120.dp)
+                .clip(CircleShape)
+                .background(
+                    if (hasPermission) Color(0xFF4CAF50).copy(alpha = 0.15f)
+                    else MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
+                ),
+            contentAlignment = Alignment.Center
+        ) {
+            Icon(
+                if (hasPermission) Icons.Default.CheckCircle else Icons.Default.Contacts,
+                contentDescription = null,
+                modifier = Modifier.size(56.dp),
+                tint = if (hasPermission) Color(0xFF4CAF50) else MaterialTheme.colorScheme.primary
+            )
+        }
+
+        Spacer(modifier = Modifier.height(32.dp))
+
+        Text(
+            if (hasPermission) stringResource(R.string.onboarding_contact_granted_title) else stringResource(R.string.onboarding_contact_request_title),
+            style = MaterialTheme.typography.headlineSmall,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
+
+        Spacer(modifier = Modifier.height(12.dp))
+
+        Text(
+            if (hasPermission)
+                stringResource(R.string.onboarding_contact_granted_subtitle)
+            else
+                stringResource(R.string.onboarding_contact_request_subtitle),
+            style = MaterialTheme.typography.bodyLarge,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            textAlign = TextAlign.Center,
+            modifier = Modifier.padding(horizontal = 16.dp)
+        )
+
+        Spacer(modifier = Modifier.height(32.dp))
+
+        FeatureRow(Icons.Default.People, stringResource(R.string.onboarding_feature_find_dupes_title), stringResource(R.string.onboarding_feature_find_dupes_subtitle))
+        Spacer(modifier = Modifier.height(16.dp))
+        FeatureRow(Icons.Default.Difference, stringResource(R.string.onboarding_feature_smart_merge_title), stringResource(R.string.onboarding_feature_smart_merge_subtitle))
+        Spacer(modifier = Modifier.height(16.dp))
+        FeatureRow(Icons.Default.Shield, stringResource(R.string.onboarding_feature_safe_title), stringResource(R.string.onboarding_feature_safe_subtitle))
+
+        Spacer(modifier = Modifier.weight(1f))
+
+        if (hasPermission) {
+            GradientButton(text = stringResource(R.string.onboarding_continue), onClick = onNext)
+        } else {
+            GradientButton(text = stringResource(R.string.onboarding_allow_contact), onClick = onRequestPermission)
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            TextButton(onClick = onSkip) {
+                Text(stringResource(R.string.onboarding_skip))
+            }
+        }
+
+        Spacer(modifier = Modifier.height(16.dp))
+    }
+}
+
+@Composable
+private fun ReadyPage(
+    hasMediaPermission: Boolean,
+    hasContactPermission: Boolean,
+    onGetStarted: () -> Unit
+) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -218,7 +387,7 @@ private fun ResultsPage(onGetStarted: () -> Unit) {
             contentAlignment = Alignment.Center
         ) {
             Icon(
-                Icons.Default.CheckCircle,
+                Icons.Default.RocketLaunch,
                 contentDescription = null,
                 modifier = Modifier.size(56.dp),
                 tint = Color(0xFF4CAF50)
@@ -228,7 +397,7 @@ private fun ResultsPage(onGetStarted: () -> Unit) {
         Spacer(modifier = Modifier.height(32.dp))
 
         Text(
-            "Ready to clean!",
+            stringResource(R.string.onboarding_ready_title),
             style = MaterialTheme.typography.headlineMedium,
             fontWeight = FontWeight.Bold,
             textAlign = TextAlign.Center
@@ -237,7 +406,7 @@ private fun ResultsPage(onGetStarted: () -> Unit) {
         Spacer(modifier = Modifier.height(12.dp))
 
         Text(
-            "Start with 5 free cleanups per category. Upgrade anytime for unlimited access.",
+            stringResource(R.string.onboarding_ready_subtitle),
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center,
@@ -246,21 +415,64 @@ private fun ResultsPage(onGetStarted: () -> Unit) {
 
         Spacer(modifier = Modifier.height(32.dp))
 
-        FreeFeatureRow("5 free duplicate removals", Icons.Default.FileCopy)
+        // Show permission status
+        PermissionStatusRow(
+            icon = Icons.Default.PhotoLibrary,
+            label = stringResource(R.string.onboarding_photos_videos),
+            granted = hasMediaPermission
+        )
         Spacer(modifier = Modifier.height(14.dp))
-        FreeFeatureRow("5 free similar photo cleanups", Icons.Default.PhotoLibrary)
+        PermissionStatusRow(
+            icon = Icons.Default.Contacts,
+            label = stringResource(R.string.onboarding_contact_access),
+            granted = hasContactPermission
+        )
+
+        Spacer(modifier = Modifier.height(32.dp))
+
+        // Free tier info
+        FreeFeatureRow(stringResource(R.string.onboarding_free_duplicates), Icons.Default.FileCopy)
         Spacer(modifier = Modifier.height(14.dp))
-        FreeFeatureRow("5 free screenshot deletions", Icons.Default.Screenshot)
+        FreeFeatureRow(stringResource(R.string.onboarding_free_similar), Icons.Default.PhotoLibrary)
         Spacer(modifier = Modifier.height(14.dp))
-        FreeFeatureRow("5 free video cleanups", Icons.Default.VideoLibrary)
+        FreeFeatureRow(stringResource(R.string.onboarding_free_screenshots), Icons.Default.Screenshot)
         Spacer(modifier = Modifier.height(14.dp))
-        FreeFeatureRow("5 free contact merges", Icons.Default.People)
+        FreeFeatureRow(stringResource(R.string.onboarding_free_videos), Icons.Default.VideoLibrary)
+        Spacer(modifier = Modifier.height(14.dp))
+        FreeFeatureRow(stringResource(R.string.onboarding_free_contacts), Icons.Default.People)
 
         Spacer(modifier = Modifier.weight(1f))
 
-        GradientButton(text = "Get Started", onClick = onGetStarted)
+        GradientButton(text = stringResource(R.string.onboarding_get_started), onClick = onGetStarted)
 
         Spacer(modifier = Modifier.height(32.dp))
+    }
+}
+
+@Composable
+private fun PermissionStatusRow(icon: ImageVector, label: String, granted: Boolean) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier.fillMaxWidth()
+    ) {
+        Icon(
+            icon,
+            contentDescription = null,
+            tint = if (granted) Color(0xFF4CAF50) else MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.size(24.dp)
+        )
+        Spacer(modifier = Modifier.width(12.dp))
+        Text(
+            label,
+            style = MaterialTheme.typography.bodyMedium,
+            modifier = Modifier.weight(1f)
+        )
+        Icon(
+            if (granted) Icons.Default.CheckCircle else Icons.Default.Cancel,
+            contentDescription = null,
+            tint = if (granted) Color(0xFF4CAF50) else MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f),
+            modifier = Modifier.size(20.dp)
+        )
     }
 }
 
@@ -318,7 +530,7 @@ private fun FreeFeatureRow(title: String, icon: ImageVector) {
             shape = RoundedCornerShape(4.dp)
         ) {
             Text(
-                "FREE",
+                stringResource(R.string.onboarding_free_label),
                 style = MaterialTheme.typography.labelSmall,
                 color = Color(0xFF4CAF50),
                 fontWeight = FontWeight.Bold,

@@ -19,11 +19,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.data.model.ArchiveQuota
 import com.kreativekoala.cleanup.data.model.ArchivedItem
 import com.kreativekoala.cleanup.util.ByteFormatter
@@ -58,15 +60,15 @@ fun ArchiveScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Cloud Archive") },
+                title = { Text(stringResource(R.string.archive_title)) },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.back_cd))
                     }
                 },
                 actions = {
                     IconButton(onClick = { viewModel.syncWithServer() }) {
-                        Icon(Icons.Default.Sync, contentDescription = "Sync")
+                        Icon(Icons.Default.Sync, contentDescription = stringResource(R.string.archive_sync_cd))
                     }
                 }
             )
@@ -127,7 +129,7 @@ fun ArchiveScreen(
                         Spacer(modifier = Modifier.height(16.dp))
 
                         Text(
-                            "No archived items",
+                            stringResource(R.string.archive_empty_title),
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.SemiBold
                         )
@@ -135,7 +137,7 @@ fun ArchiveScreen(
                         Spacer(modifier = Modifier.height(8.dp))
 
                         Text(
-                            "Archive photos and videos from the cleanup screens to free up device space",
+                            stringResource(R.string.archive_empty_subtitle),
                             style = MaterialTheme.typography.bodyMedium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                             textAlign = TextAlign.Center
@@ -187,16 +189,16 @@ fun ArchiveScreen(
     if (uiState.showDeleteConfirmation) {
         AlertDialog(
             onDismissRequest = { viewModel.dismissDeleteConfirmation() },
-            title = { Text("Delete Archived Item") },
-            text = { Text("This will permanently remove this item from your archive. This cannot be undone.") },
+            title = { Text(stringResource(R.string.archive_delete_title)) },
+            text = { Text(stringResource(R.string.archive_delete_message)) },
             confirmButton = {
                 TextButton(onClick = { viewModel.deleteSelectedItem() }) {
-                    Text("Delete", color = MaterialTheme.colorScheme.error)
+                    Text(stringResource(R.string.delete_button), color = MaterialTheme.colorScheme.error)
                 }
             },
             dismissButton = {
                 TextButton(onClick = { viewModel.dismissDeleteConfirmation() }) {
-                    Text("Cancel")
+                    Text(stringResource(R.string.cancel))
                 }
             }
         )
@@ -206,10 +208,10 @@ fun ArchiveScreen(
     if (uiState.showArchiveSuccess) {
         AlertDialog(
             onDismissRequest = { viewModel.dismissSuccess() },
-            title = { Text("Archived Successfully") },
-            text = { Text("${uiState.archiveSuccessCount} item(s) have been archived to the cloud.") },
+            title = { Text(stringResource(R.string.archive_success_title)) },
+            text = { Text(stringResource(R.string.archive_success_message, uiState.archiveSuccessCount)) },
             confirmButton = {
-                TextButton(onClick = { viewModel.dismissSuccess() }) { Text("OK") }
+                TextButton(onClick = { viewModel.dismissSuccess() }) { Text(stringResource(R.string.ok)) }
             }
         )
     }
@@ -217,10 +219,10 @@ fun ArchiveScreen(
     if (uiState.showRestoreSuccess) {
         AlertDialog(
             onDismissRequest = { viewModel.dismissSuccess() },
-            title = { Text("Restored Successfully") },
-            text = { Text("Item has been restored to your device.") },
+            title = { Text(stringResource(R.string.archive_restore_success_title)) },
+            text = { Text(stringResource(R.string.archive_restore_success_message)) },
             confirmButton = {
-                TextButton(onClick = { viewModel.dismissSuccess() }) { Text("OK") }
+                TextButton(onClick = { viewModel.dismissSuccess() }) { Text(stringResource(R.string.ok)) }
             }
         )
     }
@@ -228,10 +230,10 @@ fun ArchiveScreen(
     uiState.errorMessage?.let { error ->
         AlertDialog(
             onDismissRequest = { viewModel.clearError() },
-            title = { Text("Error") },
+            title = { Text(stringResource(R.string.archive_error_title)) },
             text = { Text(error) },
             confirmButton = {
-                TextButton(onClick = { viewModel.clearError() }) { Text("OK") }
+                TextButton(onClick = { viewModel.clearError() }) { Text(stringResource(R.string.ok)) }
             }
         )
     }
@@ -252,7 +254,7 @@ private fun ArchiveQuotaBar(quota: ArchiveQuota, modifier: Modifier = Modifier) 
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    "Storage Used",
+                    stringResource(R.string.archive_storage_used),
                     style = MaterialTheme.typography.bodyMedium,
                     fontWeight = FontWeight.SemiBold
                 )
@@ -281,7 +283,7 @@ private fun ArchiveQuotaBar(quota: ArchiveQuota, modifier: Modifier = Modifier) 
             Spacer(modifier = Modifier.height(4.dp))
 
             Text(
-                "${quota.itemCount} items archived",
+                stringResource(R.string.archive_items_count, quota.itemCount),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
@@ -436,19 +438,19 @@ private fun ArchiveItemDetailSheet(
             Spacer(modifier = Modifier.height(4.dp))
 
             Text(
-                "Archived: ${dateFormat.format(Date(item.archivedDate))}",
+                stringResource(R.string.archive_detail_archived, dateFormat.format(Date(item.archivedDate))),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
 
             Text(
-                "Size: ${ByteFormatter.format(item.fileSize)}",
+                stringResource(R.string.archive_detail_size, ByteFormatter.format(item.fileSize)),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
 
             Text(
-                "Tier: ${item.storageTier}",
+                stringResource(R.string.archive_detail_tier, item.storageTier),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
@@ -465,7 +467,7 @@ private fun ArchiveItemDetailSheet(
                 ) {
                     Icon(Icons.Default.CloudDownload, contentDescription = null)
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text("Retrieve")
+                    Text(stringResource(R.string.archive_retrieve_button))
                 }
 
                 Spacer(modifier = Modifier.width(12.dp))
@@ -479,7 +481,7 @@ private fun ArchiveItemDetailSheet(
                 ) {
                     Icon(Icons.Default.Delete, contentDescription = null)
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text("Delete")
+                    Text(stringResource(R.string.delete_button))
                 }
             }
 

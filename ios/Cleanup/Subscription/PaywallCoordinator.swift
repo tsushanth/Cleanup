@@ -179,7 +179,6 @@ class PaywallCoordinator: ObservableObject {
 
     enum ArchiveAccessResult {
         case allowed
-        case needsPro
         case needsArchiveSubscription
         case quotaExceeded
     }
@@ -189,11 +188,6 @@ class PaywallCoordinator: ObservableObject {
         context: PaywallContext,
         pendingAction: PendingCleanupAction? = nil
     ) -> ArchiveAccessResult {
-        guard EntitlementManager.shared.isPro else {
-            showPaywall(context: .generic, pendingAction: pendingAction)
-            return .needsPro
-        }
-
         guard EntitlementManager.shared.hasArchiveSubscription else {
             showArchivePaywall = true
             archivePaywallContext = context
@@ -254,29 +248,29 @@ class PaywallCoordinator: ObservableObject {
 }
 
 // MARK: - Paywall Features
-struct PaywallFeature: Identifiable {
+struct LocalPaywallFeature: Identifiable {
     let id = UUID()
     let icon: String
     let title: String
     let description: String
 
-    static let allFeatures: [PaywallFeature] = [
-        PaywallFeature(
+    static let allFeatures: [LocalPaywallFeature] = [
+        LocalPaywallFeature(
             icon: "sparkles",
             title: "Unlimited Cleanups",
             description: "Clean your device as often as you want"
         ),
-        PaywallFeature(
+        LocalPaywallFeature(
             icon: "photo.on.rectangle.angled",
             title: "Delete Duplicates & Similar",
             description: "Find and remove duplicate photos instantly"
         ),
-        PaywallFeature(
+        LocalPaywallFeature(
             icon: "video.fill",
             title: "Large Video Management",
             description: "Compress or delete space-hogging videos"
         ),
-        PaywallFeature(
+        LocalPaywallFeature(
             icon: "lock.shield",
             title: "Private & Secure",
             description: "All scanning happens on your device"

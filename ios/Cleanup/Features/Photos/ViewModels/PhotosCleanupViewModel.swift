@@ -27,21 +27,22 @@ class PhotosCleanupViewModel: ObservableObject {
     }
 
     var totalSavings: Int64 {
+        var seen = Set<String>()
         var total: Int64 = 0
 
         for group in duplicateGroups {
-            for asset in group.assets where selectedAssets.contains(asset.id) {
+            for asset in group.assets where selectedAssets.contains(asset.id) && seen.insert(asset.id).inserted {
                 total += asset.fileSize
             }
         }
 
         for group in similarGroups {
-            for asset in group.assets where selectedAssets.contains(asset.id) {
+            for asset in group.assets where selectedAssets.contains(asset.id) && seen.insert(asset.id).inserted {
                 total += asset.fileSize
             }
         }
 
-        for asset in screenshots where selectedAssets.contains(asset.id) {
+        for asset in screenshots where selectedAssets.contains(asset.id) && seen.insert(asset.id).inserted {
             total += asset.fileSize
         }
 
@@ -139,18 +140,19 @@ class PhotosCleanupViewModel: ObservableObject {
 
     // MARK: - Get Selected Assets (for archiving)
     func getSelectedPhotoAssets() -> [PhotoAsset] {
+        var seen = Set<String>()
         var result: [PhotoAsset] = []
         for group in duplicateGroups {
-            for asset in group.assets where selectedAssets.contains(asset.id) {
+            for asset in group.assets where selectedAssets.contains(asset.id) && seen.insert(asset.id).inserted {
                 result.append(asset)
             }
         }
         for group in similarGroups {
-            for asset in group.assets where selectedAssets.contains(asset.id) {
+            for asset in group.assets where selectedAssets.contains(asset.id) && seen.insert(asset.id).inserted {
                 result.append(asset)
             }
         }
-        for asset in screenshots where selectedAssets.contains(asset.id) {
+        for asset in screenshots where selectedAssets.contains(asset.id) && seen.insert(asset.id).inserted {
             result.append(asset)
         }
         return result

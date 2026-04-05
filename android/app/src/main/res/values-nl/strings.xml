@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <!-- ==================== HOME SCREEN ==================== -->
+    <string name="home_title">Opruimen met één tik</string>
+    <string name="home_vault_cd">Kluis</string>
+    <string name="home_scanning">Scannen…</string>
+    <string name="home_one_tap_scan">Scan met één tik</string>
+    <string name="home_grant_access_scan">Toegang verlenen &amp; scannen</string>
+    <string name="home_scanning_device">Je apparaat wordt gescand…</string>
+    <string name="home_quick_actions">Snelle acties</string>
+    <string name="home_chip_duplicates">Duplicaten</string>
+    <string name="home_chip_screenshots">Schermafbeeldingen</string>
+    <string name="home_chip_large_videos">Grote video\'s</string>
+    <string name="home_chip_compress">Comprimeren</string>
+    <string name="home_chip_archive">Archief</string>
+    <string name="home_chip_downloads">Downloads</string>
+    <string name="home_chip_apk_files">APK-bestanden</string>
+    <string name="home_smart_scan_results">Slimme scanresultaten</string>
+    <string name="home_category_duplicate_photos">Dubbele foto\'s</string>
+    <string name="home_category_similar_photos">Vergelijkbare foto\'s</string>
+    <string name="home_category_screenshots">Schermafbeeldingen</string>
+    <string name="home_category_large_videos">Grote video\'s</string>
+    <string name="home_category_duplicate_contacts">Dubbele contacten</string>
+    <string name="home_file_management">Bestandsbeheer</string>
+    <string name="home_category_downloads">Downloads</string>
+    <string name="home_category_apk_files">APK-bestanden</string>
+    <string name="home_category_notification_manager">Meldingenbeheer</string>
+    <string name="home_storage_used">%s gebruikt</string>
+    <string name="home_storage_total">%s totaal</string>
+    <string name="home_storage_full">Je opslag is %d%% vol</string>
+    <string name="home_items_count">%d items</string>
+    <string name="home_items_count_savings">%1$d items \u00B7 %2$s</string>
+    <string name="home_tap_to_scan">Tik om te scannen</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_welcome_title">Je telefoon zit vol rommel</string>
+    <string name="onboarding_welcome_subtitle">Dubbele foto\'s, oude schermafbeeldingen, grote video\'s \u2014 ze vreten je opslagruimte op. Laten we dat oplossen.</string>
+    <string name="onboarding_welcome_button">Laten we opruimen</string>
+    <string name="onboarding_media_granted_title">Mediatoegang verleend!</string>
+    <string name="onboarding_media_request_title">Toegang tot je foto\'s &amp; video\'s</string>
+    <string name="onboarding_media_granted_subtitle">We scannen al je foto\'s en video\'s op duplicaten, vergelijkbare opnames en grote bestanden.</string>
+    <string name="onboarding_media_request_subtitle">Om duplicaten te vinden en ruimte vrij te maken, hebben we toegang tot je foto\'s en video\'s nodig.</string>
+    <string name="onboarding_feature_private_title">100% Privé</string>
+    <string name="onboarding_feature_private_subtitle">Alle scans gebeuren op het apparaat</string>
+    <string name="onboarding_feature_fast_title">Snelle scan</string>
+    <string name="onboarding_feature_fast_subtitle">Duurt minder dan 30 seconden</string>
+    <string name="onboarding_feature_you_choose_title">Jij kiest</string>
+    <string name="onboarding_feature_you_choose_subtitle">Niets wordt verwijderd zonder jouw goedkeuring</string>
+    <string name="onboarding_continue">Doorgaan</string>
+    <string name="onboarding_allow_photo_video">Foto- &amp; videotoegang toestaan</string>
+    <string name="onboarding_skip">Voorlopig overslaan</string>
+    <string name="onboarding_contact_granted_title">Contacttoegang verleend!</string>
+    <string name="onboarding_contact_request_title">Contacten opruimen</string>
+    <string name="onboarding_contact_granted_subtitle">We vinden dubbele en onvolledige contacten zodat je ze kunt samenvoegen of verwijderen.</string>
+    <string name="onboarding_contact_request_subtitle">Vind en voeg dubbele contacten samen om je adresboek netjes te houden.</string>
+    <string name="onboarding_feature_find_dupes_title">Duplicaten vinden</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Detecteer contacten met dezelfde naam of hetzelfde nummer</string>
+    <string name="onboarding_feature_smart_merge_title">Slim samenvoegen</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Combineer duplicaten tot één contact</string>
+    <string name="onboarding_feature_safe_title">Veilig</string>
+    <string name="onboarding_feature_safe_subtitle">Bekijk alles voordat er wijzigingen worden aangebracht</string>
+    <string name="onboarding_allow_contact">Contacttoegang toestaan</string>
+    <string name="onboarding_ready_title">Alles klaar!</string>
+    <string name="onboarding_ready_subtitle">Tik op de knop hieronder om alles te scannen en te beginnen met opruimen.</string>
+    <string name="onboarding_photos_videos">Foto\'s &amp; video\'s</string>
+    <string name="onboarding_contact_access">Contacttoegang</string>
+    <string name="onboarding_free_duplicates">5 gratis duplicaatverwijderingen</string>
+    <string name="onboarding_free_similar">5 gratis opruimingen van vergelijkbare foto\'s</string>
+    <string name="onboarding_free_screenshots">5 gratis schermafbeeldingverwijderingen</string>
+    <string name="onboarding_free_videos">5 gratis video-opruimingen</string>
+    <string name="onboarding_free_contacts">5 gratis contactsamenvoegingen</string>
+    <string name="onboarding_free_label">GRATIS</string>
+    <string name="onboarding_get_started">Scannen &amp; beginnen</string>
+
+    <!-- ==================== PAYWALL SCREEN ==================== -->
+    <string name="paywall_close_cd">Sluiten</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">per jaar</string>
+    <string name="paywall_per_month">per maand</string>
+    <string name="paywall_feature_unlimited_title">Onbeperkt opruimen</string>
+    <string name="paywall_feature_unlimited_subtitle">Ruim je apparaat zo vaak op als je wilt</string>
+    <string name="paywall_feature_duplicates_title">Duplicaten &amp; vergelijkbare verwijderen</string>
+    <string name="paywall_feature_duplicates_subtitle">Vind en verwijder dubbele foto\'s direct</string>
+    <string name="paywall_feature_videos_title">Beheer van grote video\'s</string>
+    <string name="paywall_feature_videos_subtitle">Comprimeer of verwijder video\'s die veel ruimte innemen</string>
+    <string name="paywall_feature_private_title">Privé &amp; veilig</string>
+    <string name="paywall_feature_private_subtitle">Alle scans gebeuren op je apparaat</string>
+    <string name="paywall_best_value">BESTE WAARDE</string>
+    <string name="paywall_save_75">Bespaar 75%% t.o.v. maandelijks</string>
+    <string name="paywall_continue">Doorgaan</string>
+    <string name="paywall_restore">Aankopen herstellen</string>
+    <string name="paywall_terms">Abonnementen worden automatisch verlengd. Annuleer op elk moment in de Google Play-instellingen.</string>
+
+    <!-- ==================== PHOTOS CLEANUP SCREEN ==================== -->
+    <string name="photos_title">Foto\'s opruimen</string>
+    <string name="photos_back_cd">Terug</string>
+    <string name="photos_change_folder_cd">Map wijzigen</string>
+    <string name="photos_delete_count">%d verwijderen</string>
+    <string name="photos_select_title">Selecteer foto\'s om te analyseren</string>
+    <string name="photos_select_subtitle">Kies hoe je foto\'s wilt aanleveren voor duplicaat- en schermafbeeldingsdetectie.</string>
+    <string name="photos_select_all_folder">Alles selecteren (maptoegang)</string>
+    <string name="photos_select_all_hint">Geef toegang tot je DCIM- of Afbeeldingenmap om alle foto\'s te scannen</string>
+    <string name="photos_choose">Foto\'s kiezen</string>
+    <string name="photos_choose_hint">Kies specifieke foto\'s om te analyseren</string>
+    <string name="photos_selected_count">%d geselecteerd</string>
+    <string name="photos_save_amount">Bespaar %s</string>
+    <string name="photos_tab_duplicates">Duplicaten</string>
+    <string name="photos_tab_similar">Vergelijkbaar</string>
+    <string name="photos_tab_screenshots">Schermafbeeldingen</string>
+    <string name="photos_no_duplicates_title">Geen duplicaten gevonden</string>
+    <string name="photos_no_duplicates_subtitle">Je fotobibliotheek is schoon!</string>
+    <string name="photos_duplicates_summary">%1$d duplicaten in %2$d groepen</string>
+    <string name="photos_select_all">Alles selecteren</string>
+    <string name="photos_deselect_all">Alles deselecteren</string>
+    <string name="photos_n_duplicates">%d duplicaten</string>
+    <string name="photos_keep_best">Beste behouden</string>
+    <string name="photos_no_similar_title">Geen vergelijkbare foto\'s</string>
+    <string name="photos_no_similar_subtitle">Geen groepen vergelijkbare foto\'s gevonden</string>
+    <string name="photos_similar_summary">%1$d vergelijkbaar in %2$d groepen</string>
+    <string name="photos_n_similar">%d vergelijkbare foto\'s</string>
+    <string name="photos_percent_similar">%d%% vergelijkbaar</string>
+    <string name="photos_keep_best_select_others">Beste behouden, andere selecteren</string>
+    <string name="photos_no_screenshots_title">Geen schermafbeeldingen</string>
+    <string name="photos_no_screenshots_subtitle">Geen schermafbeeldingen gevonden in je bibliotheek</string>
+    <string name="photos_n_screenshots">%d schermafbeeldingen</string>
+    <string name="photos_selected_cd">Geselecteerd</string>
+    <string name="photos_best_badge">BESTE</string>
+    <string name="photos_scanning">Foto\'s scannen…</string>
+    <string name="photos_delete_title">%d foto\'s verwijderen?</string>
+    <string name="photos_delete_message">Dit verwijdert de geselecteerde foto\'s permanent van je apparaat. Deze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="photos_delete_permanently">Permanent verwijderen</string>
+    <string name="cancel">Annuleren</string>
+
+    <!-- ==================== UPGRADE / PAYWALL DIALOG ==================== -->
+    <string name="upgrade_title">Upgraden naar Pro</string>
+    <string name="upgrade_message">Je hebt al je gratis opruimingen voor deze categorie gebruikt. Upgrade naar Pro voor onbeperkte toegang.</string>
+    <string name="upgrade_button">Upgraden</string>
+    <string name="upgrade_not_now">Niet nu</string>
+
+    <!-- ==================== VAULT SCREEN ==================== -->
+    <string name="vault_title">Kluis</string>
+    <string name="vault_lock_cd">Vergrendelen</string>
+    <string name="vault_add_cd">Items toevoegen</string>
+    <string name="vault_secret_space">Geheime ruimte</string>
+    <string name="vault_enter_pin">Voer je PIN in om toegang te krijgen</string>
+    <string name="vault_use_biometrics">Biometrie gebruiken</string>
+    <string name="vault_biometric_title">Toegang tot geheime ruimte</string>
+    <string name="vault_biometric_subtitle">Gebruik je vingerafdruk of gezicht om te ontgrendelen</string>
+    <string name="vault_biometric_negative">PIN gebruiken</string>
+    <string name="vault_backspace_cd">Verwijderen</string>
+    <string name="vault_create_pin">Maak je PIN aan</string>
+    <string name="vault_confirm_pin">Bevestig je PIN</string>
+    <string name="vault_create_pin_subtitle">Kies een 4-cijferige PIN om je kluis te beschermen</string>
+    <string name="vault_confirm_pin_subtitle">Voer dezelfde PIN opnieuw in</string>
+    <string name="vault_pin_mismatch">PIN\'s komen niet overeen. Probeer het opnieuw.</string>
+    <string name="vault_empty_title">Je kluis is leeg</string>
+    <string name="vault_empty_subtitle">Voeg foto\'s en video\'s toe om ze privé te houden</string>
+    <string name="vault_add_items">Items toevoegen</string>
+    <string name="vault_adding">Toevoegen aan kluis…</string>
+    <string name="vault_add_to_vault">Toevoegen aan kluis</string>
+    <string name="vault_select_items_subtitle">Selecteer items om aan je kluis toe te voegen</string>
+    <string name="vault_select_from_photos">Selecteren uit foto\'s</string>
+    <string name="vault_select_from_files">Selecteren uit bestanden</string>
+    <string name="vault_delete_title">Item verwijderen</string>
+    <string name="vault_delete_message">Dit verwijdert het item permanent uit je kluis.</string>
+    <string name="vault_delete_button">Verwijderen</string>
+    <string name="vault_restore_title">Item herstellen</string>
+    <string name="vault_restore_message">Dit herstelt het item naar je fotobibliotheek.</string>
+    <string name="vault_restore_button">Herstellen</string>
+    <string name="vault_added_date">Toegevoegd: %s</string>
+    <string name="vault_item_size">Grootte: %s</string>
+
+    <!-- ==================== CONTACTS CLEANUP SCREEN ==================== -->
+    <string name="contacts_title">Contacten opruimen</string>
+    <string name="contacts_tab_duplicates">Duplicaten</string>
+    <string name="contacts_tab_incomplete">Onvolledig</string>
+    <string name="contacts_access_required">Contacttoegang vereist</string>
+    <string name="contacts_access_message">De app heeft toegang tot je contacten nodig om duplicaten en onvolledige vermeldingen te vinden.</string>
+    <string name="contacts_grant_access">Toegang verlenen</string>
+    <string name="contacts_no_duplicates_title">Geen duplicaten</string>
+    <string name="contacts_no_duplicates_subtitle">Je contacten zijn schoon!</string>
+    <string name="contacts_n_duplicates">%d duplicaten</string>
+    <string name="contacts_merge_all">Alles samenvoegen</string>
+    <string name="contacts_delete_dupes">Duplicaten verwijderen</string>
+    <string name="contacts_no_name">Geen naam</string>
+    <string name="contacts_no_incomplete_title">Geen onvolledige contacten</string>
+    <string name="contacts_no_incomplete_subtitle">Alle contacten hebben volledige informatie</string>
+    <string name="contacts_n_incomplete">%d onvolledig</string>
+    <string name="contacts_delete_selected">Geselecteerde verwijderen (%d)</string>
+    <string name="contacts_merge_title">Contacten samenvoegen</string>
+    <string name="contacts_merge_subtitle">Selecteer het primaire contact om te behouden. Informatie van andere contacten wordt erin samengevoegd.</string>
+    <string name="contacts_merge_button">Contacten samenvoegen</string>
+    <string name="contacts_scanning">Contacten scannen…</string>
+
+    <!-- ==================== VIDEOS CLEANUP SCREEN ==================== -->
+    <string name="videos_title">Video\'s opruimen</string>
+    <string name="videos_delete_count">%d verwijderen</string>
+    <string name="videos_select_title">Selecteer video\'s om te analyseren</string>
+    <string name="videos_select_subtitle">Kies hoe je video\'s wilt aanleveren voor detectie van grote bestanden en compressie.</string>
+    <string name="videos_select_all_folder">Alles selecteren (maptoegang)</string>
+    <string name="videos_select_all_hint">Geef toegang tot je DCIM- of mediamap om alle video\'s te scannen</string>
+    <string name="videos_choose">Video\'s kiezen</string>
+    <string name="videos_choose_hint">Kies specifieke video\'s om te analyseren</string>
+    <string name="videos_tab_large">Grote video\'s</string>
+    <string name="videos_tab_compress">Comprimeren</string>
+    <string name="videos_no_large_title">Geen grote video\'s</string>
+    <string name="videos_no_large_subtitle">Geen video\'s groter dan 50MB gevonden</string>
+    <string name="videos_n_large">%d grote video\'s</string>
+    <string name="videos_delete_title">%d video\'s verwijderen?</string>
+    <string name="videos_delete_message">Dit verwijdert de geselecteerde video\'s permanent. Deze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="videos_no_compress_title">Geen video\'s</string>
+    <string name="videos_no_compress_subtitle">Geen comprimeerbare video\'s gevonden</string>
+    <string name="videos_compression_quality">Compressiekwaliteit</string>
+    <string name="videos_select_videos">Video\'s selecteren</string>
+    <string name="videos_n_selected">%d geselecteerd</string>
+    <string name="videos_compress_n">%d video\'s comprimeren</string>
+    <string name="videos_scanning">Video\'s scannen…</string>
+    <string name="videos_compressing_title">Video comprimeren</string>
+
+    <!-- ==================== DOWNLOADS SCREEN ==================== -->
+    <string name="downloads_title">Downloads</string>
+    <string name="downloads_deselect">Deselecteren</string>
+    <string name="downloads_delete_n_files">%d bestanden verwijderen</string>
+    <string name="downloads_scanning">Downloadmap scannen…</string>
+    <string name="downloads_clean">Downloadmap is schoon!</string>
+    <string name="downloads_summary">%1$d bestanden (%2$s)</string>
+
+    <!-- ==================== APK SCREEN ==================== -->
+    <string name="apk_title">APK-bestanden</string>
+    <string name="apk_deselect">Deselecteren</string>
+    <string name="apk_delete_n">%d APK\'s verwijderen</string>
+    <string name="apk_scanning">Zoeken naar APK-bestanden…</string>
+    <string name="apk_none_found">Geen APK-bestanden gevonden!</string>
+    <string name="apk_all_filter">Alle (%d)</string>
+
+    <!-- ==================== NOTIFICATIONS SCREEN ==================== -->
+    <string name="notifications_title">Meldingen</string>
+    <string name="notifications_analyzing">Meldingen analyseren…</string>
+    <string name="notifications_no_apps">Geen apps gevonden</string>
+    <string name="notifications_apps_count">%d apps met meldingen</string>
+    <string name="notifications_manage_hint">Tik om meldingsinstellingen voor elke app te beheren</string>
+    <string name="notifications_enabled">Meldingen ingeschakeld</string>
+    <string name="notifications_disabled">Meldingen uitgeschakeld</string>
+    <string name="notifications_manage_button">Beheren</string>
+
+    <!-- ==================== ARCHIVE SCREEN ==================== -->
+    <string name="archive_title">Cloudarchief</string>
+    <string name="archive_sync_cd">Synchroniseren</string>
+    <string name="archive_storage_used">Gebruikte opslag</string>
+    <string name="archive_empty_title">Geen gearchiveerde items</string>
+    <string name="archive_empty_subtitle">Archiveer foto\'s en video\'s vanuit de opruimschermen om apparaatruimte vrij te maken</string>
+    <string name="archive_items_count">%d items gearchiveerd</string>
+    <string name="archive_detail_archived">Gearchiveerd: %s</string>
+    <string name="archive_detail_size">Grootte: %s</string>
+    <string name="archive_detail_tier">Niveau: %s</string>
+    <string name="archive_retrieve_button">Ophalen</string>
+    <string name="archive_delete_title">Gearchiveerd item verwijderen</string>
+    <string name="archive_delete_message">Dit verwijdert dit item permanent uit je archief. Dit kan niet ongedaan worden gemaakt.</string>
+    <string name="archive_success_title">Succesvol gearchiveerd</string>
+    <string name="archive_success_message">%d item(s) zijn gearchiveerd naar de cloud.</string>
+    <string name="archive_restore_success_title">Succesvol hersteld</string>
+    <string name="archive_restore_success_message">Item is hersteld naar je apparaat.</string>
+    <string name="archive_error_title">Fout</string>
+    <string name="ok">OK</string>
+
+    <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
+    <string name="archive_signin_title">Inloggen voor cloudarchief</string>
+    <string name="archive_signin_subtitle">Archiveer je foto\'s en video\'s naar de cloud voordat je ze van je apparaat verwijdert</string>
+    <string name="archive_signin_encrypted_title">End-to-end versleuteld</string>
+    <string name="archive_signin_encrypted_subtitle">Je gegevens worden versleuteld voordat ze je apparaat verlaten</string>
+    <string name="archive_signin_retrieve_title">Op elk moment ophalen</string>
+    <string name="archive_signin_retrieve_subtitle">Download je gearchiveerde bestanden wanneer je ze nodig hebt</string>
+    <string name="archive_signin_private_title">Privé &amp; veilig</string>
+    <string name="archive_signin_private_subtitle">Geen wachtwoorden onthouden \u2014 log in met Google</string>
+    <string name="archive_signin_google">Inloggen met Google</string>
+    <string name="archive_signin_privacy">Je gegevens worden alleen gebruikt voor cloudarchiefopslag. We delen of verkopen je informatie nooit.</string>
+
+    <!-- ==================== ARCHIVE PAYWALL SCREEN ==================== -->
+    <string name="archive_paywall_title">Verwijder met vertrouwen</string>
+    <string name="archive_paywall_subtitle">Archiveer bestanden naar de cloud voordat je ze verwijdert. Haal ze op elk moment op.</string>
+    <string name="archive_paywall_safety_title">Vangnet</string>
+    <string name="archive_paywall_safety_subtitle">Verlies nooit meer belangrijke bestanden</string>
+    <string name="archive_paywall_retrieve_title">Op elk moment ophalen</string>
+    <string name="archive_paywall_retrieve_subtitle">Download gearchiveerde bestanden wanneer je ze nodig hebt</string>
+    <string name="archive_paywall_encrypted_title">Versleutelde opslag</string>
+    <string name="archive_paywall_encrypted_subtitle">Je gegevens zijn altijd versleuteld en privé</string>
+    <string name="archive_paywall_choose_plan">Kies je abonnement</string>
+    <string name="archive_paywall_current">HUIDIG</string>
+    <string name="archive_paywall_subscribe">Abonneren</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">Instellingen</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_sign_in">Inloggen</string>
+    <string name="settings_subscription">Abonnement</string>
+    <string name="settings_upgrade_pro">Upgraden naar Pro</string>
+    <string name="settings_features">Functies</string>
+    <string name="settings_secret_space">Geheime ruimte</string>
+    <string name="settings_email_cleanup">E-mail opruimen</string>
+    <string name="settings_widgets">Widgets</string>
+    <string name="settings_about">Over</string>
+    <string name="settings_privacy_policy">Privacybeleid</string>
+    <string name="settings_terms">Servicevoorwaarden</string>
+    <string name="settings_rate_us">Beoordeel ons</string>
+    <string name="settings_version">Versie 1.1 (2)</string>
+
+    <!-- ==================== NAV / LOGIN / PLACEHOLDER ==================== -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Foto\'s</string>
+    <string name="nav_videos">Video\'s</string>
+    <string name="nav_contacts">Contacten</string>
+    <string name="nav_settings">Instellingen</string>
+    <string name="login_title">Inloggen</string>
+    <string name="login_coming_soon">Binnenkort</string>
+    <string name="login_coming_soon_subtitle">Accountaanmelding wordt beschikbaar in een toekomstige update.</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_password">Wachtwoord</string>
+    <string name="login_button">Inloggen</string>
+    <string name="placeholder_coming_soon">%s - Binnenkort</string>
+    <string name="email_cleanup_title">E-mail opruimen</string>
+    <string name="widgets_title">Widgets</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="back_cd">Terug</string>
+    <string name="delete_button">Verwijderen</string>
+</resources>

@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Cleanup: One Tap</string>
+	<string>SmartSpace</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -19,19 +19,19 @@
 	<key>CFBundleShortVersionString</key>
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<string>7</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Cleanup: One Tap needs camera access to capture photos for the vault.</string>
+	<string>SmartSpace needs camera access to capture photos for the vault.</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Cleanup: One Tap needs access to your contacts to find and merge duplicates. All contact processing happens locally on your device - your data is never uploaded to any server.</string>
+	<string>SmartSpace needs access to your contacts to find and merge duplicates. All contact processing happens locally on your device - your data is never uploaded to any server.</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>Use Face ID to securely access your private vault.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Cleanup: One Tap needs permission to save compressed videos to your photo library.</string>
+	<string>SmartSpace needs permission to save compressed videos to your photo library.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Cleanup: One Tap needs access to your photos to find duplicates, similar photos, and screenshots.</string>
+	<string>SmartSpace needs access to your photos to find duplicates, similar photos, and screenshots.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -64,7 +64,7 @@
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>NSUserTrackingUsageDescription</key>
-	<string>Cleanup: One Tap uses this identifier to deliver personalized ads and measure ad performance. You can opt out at any time.</string>
+	<string>SmartSpace uses this identifier to deliver personalized ads and measure ad performance. You can opt out at any time.</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<!-- TikTok / Bytedance -->

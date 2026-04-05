@@ -14,8 +14,8 @@ android {
         applicationId = "com.kreativekoala.smartspace"
         minSdk = 26
         targetSdk = 35
-        versionCode = 4
-        versionName = "1.0.3"
+        versionCode = 7
+        versionName = "1.0.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -67,6 +67,9 @@ dependencies {
     implementation(libs.compose.foundation)
     implementation(libs.compose.animation)
     debugImplementation(libs.compose.ui.tooling)
+
+    // AppCompat (for per-app language support)
+    implementation(libs.appcompat)
 
     // Activity & Lifecycle
     implementation(libs.activity.compose)

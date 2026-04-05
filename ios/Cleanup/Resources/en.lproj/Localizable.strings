@@ -1,0 +1,420 @@
+/* Localizable.strings (English - Base)
+   SmartSpace iOS App */
+
+// MARK: - Tab Bar (AppState.swift / ContentView.swift)
+"Home" = "Home";
+"Photos" = "Photos";
+"Videos" = "Videos";
+"Contacts" = "Contacts";
+"Settings" = "Settings";
+
+// MARK: - Home View
+"Storage" = "Storage";
+"Quick Actions" = "Quick Actions";
+"Duplicates" = "Duplicates";
+"Screenshots" = "Screenshots";
+"Large Videos" = "Large Videos";
+"Compress" = "Compress";
+"Archive" = "Archive";
+"Cleanup Categories" = "Cleanup Categories";
+"Scanning..." = "Scanning...";
+"Duplicate Photos" = "Duplicate Photos";
+"Similar Photos" = "Similar Photos";
+"Duplicate Contacts" = "Duplicate Contacts";
+"One Tap Cleanup" = "One Tap Cleanup";
+"Cleanup: One Tap" = "Cleanup: One Tap";
+
+// MARK: - Home View - Dynamic Strings
+"%d items found" = "%d items found";
+"%d groups found" = "%d groups found";
+"%d screenshots" = "%d screenshots";
+"%d videos" = "%d videos";
+"%d duplicates" = "%d duplicates";
+
+// MARK: - Winback Nudge Banner
+"%d items waiting to be cleaned" = "%d items waiting to be cleaned";
+"Unlock unlimited cleanups" = "Unlock unlimited cleanups";
+"Try Pro free for 3 days" = "Try Pro free for 3 days";
+"Try Free" = "Try Free";
+
+// MARK: - Archive Promo Card
+"Archive instead of deleting" = "Archive instead of deleting";
+"Delete with confidence" = "Delete with confidence";
+"Select items in Photos or Videos, then tap the archive button to save them to the cloud." = "Select items in Photos or Videos, then tap the archive button to save them to the cloud.";
+"Archived items can be retrieved anytime from Settings → Cloud Archive." = "Archived items can be retrieved anytime from Settings → Cloud Archive.";
+"Unlike big tech, we help minimize your storage — not maximize it." = "Unlike big tech, we help minimize your storage — not maximize it.";
+"Go to Photos" = "Go to Photos";
+"From $1.99/mo" = "From $1.99/mo";
+
+// MARK: - Storage Overview
+"Photos" = "Photos";
+"Videos" = "Videos";
+"Other" = "Other";
+
+// MARK: - Onboarding View
+"Your phone is full of clutter" = "Your phone is full of clutter";
+"Duplicate photos, old screenshots, large videos — they're eating your storage. Let's fix that." = "Duplicate photos, old screenshots, large videos — they're eating your storage. Let's fix that.";
+"%@ used" = "%@ used";
+"%@ total" = "%@ total";
+"Your storage is %d%% full" = "Your storage is %d%% full";
+"Let's Clean Up" = "Let's Clean Up";
+"Quick scan your library" = "Quick scan your library";
+"We'll scan your photos and videos to find duplicates, similar shots, and space hogs. Everything stays on your device." = "We'll scan your photos and videos to find duplicates, similar shots, and space hogs. Everything stays on your device.";
+"100% Private" = "100% Private";
+"All scanning happens on-device" = "All scanning happens on-device";
+"Fast Scan" = "Fast Scan";
+"Takes less than 30 seconds" = "Takes less than 30 seconds";
+"You Choose" = "You Choose";
+"Nothing deleted without your approval" = "Nothing deleted without your approval";
+"Scan My Library" = "Scan My Library";
+"Skip for now" = "Skip for now";
+"Ready to clean!" = "Ready to clean!";
+"Start with 5 free cleanups per category. Upgrade anytime for unlimited access." = "Start with 5 free cleanups per category. Upgrade anytime for unlimited access.";
+"5 free duplicate removals" = "5 free duplicate removals";
+"5 free similar photo cleanups" = "5 free similar photo cleanups";
+"5 free screenshot deletions" = "5 free screenshot deletions";
+"5 free video cleanups" = "5 free video cleanups";
+"5 free contact merges" = "5 free contact merges";
+"FREE" = "FREE";
+"Get Started" = "Get Started";
+
+// MARK: - Settings View
+"Premium Active" = "Premium Active";
+"Upgrade to Premium" = "Upgrade to Premium";
+"Unlock all features" = "Unlock all features";
+"Cloud Archive Active" = "Cloud Archive Active";
+"Add Cloud Archive" = "Add Cloud Archive";
+"Archive files instead of deleting" = "Archive files instead of deleting";
+"Subscription" = "Subscription";
+"Features" = "Features";
+"Charging Animations" = "Charging Animations";
+"Secret Space" = "Secret Space";
+"Widgets" = "Widgets";
+"Email Cleanup" = "Email Cleanup";
+"Cloud Archive" = "Cloud Archive";
+"Privacy" = "Privacy";
+"Works Offline" = "Works Offline";
+"No Data Collection" = "No Data Collection";
+"Encrypted Cloud Archive" = "Encrypted Cloud Archive";
+"Files Stay on Device" = "Files Stay on Device";
+"Analysis happens on your device. Archived items are encrypted and stored in your private cloud storage. Only you can access them." = "Analysis happens on your device. Archived items are encrypted and stored in your private cloud storage. Only you can access them.";
+"Your data never leaves your device. We cannot access your photos, contacts, or any personal information." = "Your data never leaves your device. We cannot access your photos, contacts, or any personal information.";
+"Support" = "Support";
+"Rate App" = "Rate App";
+"Share App" = "Share App";
+"Contact Support" = "Contact Support";
+"Legal" = "Legal";
+"Privacy Policy" = "Privacy Policy";
+"Terms of Service" = "Terms of Service";
+"Restore Purchases" = "Restore Purchases";
+"Version" = "Version";
+
+// MARK: - Photos Cleanup View
+"Photos Cleanup" = "Photos Cleanup";
+"Duplicates" = "Duplicates";
+"Similar" = "Similar";
+"Screenshots" = "Screenshots";
+"Category" = "Category";
+"Delete" = "Delete";
+"Scanning photos..." = "Scanning photos...";
+"What would you like to do with %d photos?" = "What would you like to do with %d photos?";
+"Delete Permanently" = "Delete Permanently";
+"Archive to Cloud" = "Archive to Cloud";
+"Cancel" = "Cancel";
+"Archived items are safely stored in the cloud and can be retrieved later." = "Archived items are safely stored in the cloud and can be retrieved later.";
+"This action cannot be undone. Consider archiving to cloud storage instead." = "This action cannot be undone. Consider archiving to cloud storage instead.";
+"Archive Error" = "Archive Error";
+"OK" = "OK";
+"Archived Successfully" = "Archived Successfully";
+"%d items have been archived to the cloud. They are uploading in the background." = "%d items have been archived to the cloud. They are uploading in the background.";
+"Free Limit" = "Free Limit";
+"Delete %d" = "Delete %d";
+"Upgrade to Pro" = "Upgrade to Pro";
+"You can delete %d more items for free. Upgrade to Pro for unlimited deletions." = "You can delete %d more items for free. Upgrade to Pro for unlimited deletions.";
+
+// MARK: - Duplicate Photos
+"No Duplicates Found" = "No Duplicates Found";
+"Your photo library is clean!" = "Your photo library is clean!";
+"%d duplicates" = "%d duplicates";
+"Keep Best" = "Keep Best";
+"Select All" = "Select All";
+"Deselect All" = "Deselect All";
+"BEST" = "BEST";
+
+// MARK: - Similar Photos
+"No Similar Photos" = "No Similar Photos";
+"No groups of similar photos found" = "No groups of similar photos found";
+"%d similar photos" = "%d similar photos";
+"Keep Best, Select Others" = "Keep Best, Select Others";
+
+// MARK: - Screenshots
+"No Screenshots" = "No Screenshots";
+"No screenshots found in your library" = "No screenshots found in your library";
+"%d screenshots" = "%d screenshots";
+
+// MARK: - Videos Cleanup View
+"Videos Cleanup" = "Videos Cleanup";
+"Large Videos" = "Large Videos";
+"Compress" = "Compress";
+"No Large Videos" = "No Large Videos";
+"No videos over 50MB found" = "No videos over 50MB found";
+"%d large videos" = "%d large videos";
+"Scanning videos..." = "Scanning videos...";
+"What would you like to do with %d videos?" = "What would you like to do with %d videos?";
+"Unknown date" = "Unknown date";
+
+// MARK: - Video Compression
+"Compression Quality" = "Compression Quality";
+"Select Videos" = "Select Videos";
+"%d selected" = "%d selected";
+"Compress Selected" = "Compress Selected";
+"Compressing Video" = "Compressing Video";
+"Compress Video" = "Compress Video";
+"Compressing... %d%%" = "Compressing... %d%%";
+"Select Compression Quality" = "Select Compression Quality";
+"Saved %@" = "Saved %@";
+"%d%% smaller" = "%d%% smaller";
+"Compression Failed" = "Compression Failed";
+"Done" = "Done";
+
+// MARK: - Contacts Cleanup View
+"Contacts Cleanup" = "Contacts Cleanup";
+"Duplicates" = "Duplicates";
+"Incomplete" = "Incomplete";
+"Scanning contacts..." = "Scanning contacts...";
+
+// MARK: - Duplicate Contacts
+"No Duplicates" = "No Duplicates";
+"Your contacts are clean!" = "Your contacts are clean!";
+"Merge All" = "Merge All";
+"Delete Duplicates" = "Delete Duplicates";
+
+// MARK: - Incomplete Contacts
+"No Incomplete Contacts" = "No Incomplete Contacts";
+"All contacts have complete information" = "All contacts have complete information";
+"%d incomplete" = "%d incomplete";
+"Delete Selected (%d)" = "Delete Selected (%d)";
+
+// MARK: - Merge Contacts Sheet
+"Merge Contacts" = "Merge Contacts";
+"Select the primary contact to keep. Information from other contacts will be merged into it." = "Select the primary contact to keep. Information from other contacts will be merged into it.";
+
+// MARK: - Category Detail Views
+"Scanning for duplicates..." = "Scanning for duplicates...";
+"Found %d duplicate photos" = "Found %d duplicate photos";
+"Select items to delete" = "Select items to delete";
+"Delete %d Items" = "Delete %d Items";
+"Delete Photos?" = "Delete Photos?";
+"This will permanently delete %d photos." = "This will permanently delete %d photos.";
+"Finding similar photos..." = "Finding similar photos...";
+"No Similar Photos Found" = "No Similar Photos Found";
+"No groups of similar photos detected." = "No groups of similar photos detected.";
+"Group - %d photos" = "Group - %d photos";
+"Loading screenshots..." = "Loading screenshots...";
+"You don't have any screenshots." = "You don't have any screenshots.";
+"%d screenshots using %@" = "%d screenshots using %@";
+"Select screenshots to delete" = "Select screenshots to delete";
+"Delete Screenshots?" = "Delete Screenshots?";
+"This will permanently delete %d screenshots." = "This will permanently delete %d screenshots.";
+"Finding large videos..." = "Finding large videos...";
+"No videos larger than 50MB found." = "No videos larger than 50MB found.";
+"%d large videos using %@" = "%d large videos using %@";
+"Delete Videos?" = "Delete Videos?";
+"This will permanently delete %d videos." = "This will permanently delete %d videos.";
+"Finding duplicate contacts..." = "Finding duplicate contacts...";
+"No Duplicate Contacts" = "No Duplicate Contacts";
+"Your contacts are already organized!" = "Your contacts are already organized!";
+"Merge These Contacts" = "Merge These Contacts";
+"Merge Contacts?" = "Merge Contacts?";
+"Merge" = "Merge";
+"This will merge all contacts in this group into one." = "This will merge all contacts in this group into one.";
+
+// MARK: - Cleanup Confirmation View
+"Review Before Cleanup" = "Review Before Cleanup";
+"Select items you want to remove" = "Select items you want to remove";
+"%d items" = "%d items";
+"Items will be moved to Recently Deleted" = "Items will be moved to Recently Deleted";
+"Archive to Cloud" = "Archive to Cloud";
+"Cleaning..." = "Cleaning...";
+"Cleanup Complete!" = "Cleanup Complete!";
+"Your device is now cleaner and has more free space" = "Your device is now cleaner and has more free space";
+"Items Removed" = "Items Removed";
+"Space Freed" = "Space Freed";
+"Next time, archive first" = "Next time, archive first";
+"Keep a safety net before deleting. From $1.99/mo." = "Keep a safety net before deleting. From $1.99/mo.";
+
+// MARK: - Vault View
+"Vault" = "Vault";
+"Enter your PIN to access" = "Enter your PIN to access";
+"Use Face ID" = "Use Face ID";
+"Use Touch ID" = "Use Touch ID";
+"Error" = "Error";
+"Incorrect PIN. Please try again." = "Incorrect PIN. Please try again.";
+"Create Your PIN" = "Create Your PIN";
+"Confirm Your PIN" = "Confirm Your PIN";
+"Setup PIN" = "Setup PIN";
+"PINs Don't Match" = "PINs Don't Match";
+"Try Again" = "Try Again";
+"The PINs you entered don't match. Please try again." = "The PINs you entered don't match. Please try again.";
+"Your vault is empty" = "Your vault is empty";
+"Add photos and videos to keep them private" = "Add photos and videos to keep them private";
+"Add Items" = "Add Items";
+"Select items to add to your vault" = "Select items to add to your vault";
+"Select from Photos" = "Select from Photos";
+"Add to Vault" = "Add to Vault";
+"Item Details" = "Item Details";
+"Restore" = "Restore";
+"Delete Item" = "Delete Item";
+"This will permanently delete the item from your vault." = "This will permanently delete the item from your vault.";
+"Restore Item" = "Restore Item";
+"This will restore the item to your Photos library." = "This will restore the item to your Photos library.";
+
+// MARK: - Paywall View
+"Unlock Cleanup Pro" = "Unlock Cleanup Pro";
+"Unlimited cleanups & duplicate removal" = "Unlimited cleanups & duplicate removal";
+"Choose Your Plan" = "Choose Your Plan";
+"PRO ACTIVE" = "PRO ACTIVE";
+"ACTIVE" = "ACTIVE";
+"Unable to load plans" = "Unable to load plans";
+"Please check your connection and try again" = "Please check your connection and try again";
+"Retry" = "Retry";
+"Yearly" = "Yearly";
+"Monthly" = "Monthly";
+"Weekly" = "Weekly";
+"CURRENT PLAN" = "CURRENT PLAN";
+"BEST VALUE" = "BEST VALUE";
+"3-DAY FREE TRIAL" = "3-DAY FREE TRIAL";
+"Subscribed" = "Subscribed";
+"Start Free Trial" = "Start Free Trial";
+"Start Cleaning" = "Start Cleaning";
+"Restore Purchases" = "Restore Purchases";
+"Redeem Code" = "Redeem Code";
+"An error occurred" = "An error occurred";
+"Cancel anytime in Settings > Apple ID > Subscriptions. Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period." = "Cancel anytime in Settings > Apple ID > Subscriptions. Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period.";
+
+// MARK: - Paywall Features
+"Unlimited Cleanups" = "Unlimited Cleanups";
+"Clean your device as often as you want" = "Clean your device as often as you want";
+"Delete Duplicates & Similar" = "Delete Duplicates & Similar";
+"Find and remove duplicate photos instantly" = "Find and remove duplicate photos instantly";
+"Large Video Management" = "Large Video Management";
+"Compress or delete space-hogging videos" = "Compress or delete space-hogging videos";
+"Private & Secure" = "Private & Secure";
+"All scanning happens on your device" = "All scanning happens on your device";
+
+// MARK: - Paywall Context Titles
+"Unlock Cleanup Pro" = "Unlock Cleanup Pro";
+"Unlimited photo cleanups included" = "Unlimited photo cleanups included";
+"Bulk delete screenshots anytime" = "Bulk delete screenshots anytime";
+"Compress & delete large videos" = "Compress & delete large videos";
+"Keep your contacts organized" = "Keep your contacts organized";
+"Keep files safe in the cloud instead of deleting" = "Keep files safe in the cloud instead of deleting";
+"Upgrade your archive plan for more space" = "Upgrade your archive plan for more space";
+
+// MARK: - Free Usage Banner
+"%d free deletions remaining" = "%d free deletions remaining";
+"Free deletions used up" = "Free deletions used up";
+"Upgrade" = "Upgrade";
+
+// MARK: - Winback Offer View
+"SPECIAL OFFER" = "SPECIAL OFFER";
+"We miss you!" = "We miss you!";
+"Try Cleanup Pro free for 3 days. Cancel anytime — no commitment." = "Try Cleanup Pro free for 3 days. Cancel anytime — no commitment.";
+"Unlimited duplicate & similar photo cleanup" = "Unlimited duplicate & similar photo cleanup";
+"Compress videos & save gigabytes" = "Compress videos & save gigabytes";
+"Merge all duplicate contacts" = "Merge all duplicate contacts";
+"Private vault for sensitive photos" = "Private vault for sensitive photos";
+"Start 3-Day Free Trial" = "Start 3-Day Free Trial";
+"No thanks" = "No thanks";
+
+// MARK: - Archive Paywall View
+"Delete with Confidence" = "Delete with Confidence";
+"Your safety net — archive photos, videos, and contacts before deleting. Retrieve them anytime you need them back." = "Your safety net — archive photos, videos, and contacts before deleting. Retrieve them anytime you need them back.";
+"Safety Net for Deletions" = "Safety Net for Deletions";
+"Never lose a file you might need later" = "Never lose a file you might need later";
+"Retrieve Anytime" = "Retrieve Anytime";
+"Download archived files back to your device" = "Download archived files back to your device";
+"Minimize Your Footprint" = "Minimize Your Footprint";
+"We help you store less, not more — unlike big tech" = "We help you store less, not more — unlike big tech";
+"Encrypted & Private" = "Encrypted & Private";
+"Only you can access your archived files" = "Only you can access your archived files";
+"Upgrade Storage" = "Upgrade Storage";
+"Start Archiving" = "Start Archiving";
+"Loading plans..." = "Loading plans...";
+"per month" = "per month";
+"Requires an active Cleanup Pro subscription." = "Requires an active Cleanup Pro subscription.";
+"Storage subscriptions renew monthly. Cancel anytime in Settings. Archived files are retained for 30 days after cancellation." = "Storage subscriptions renew monthly. Cancel anytime in Settings. Archived files are retained for 30 days after cancellation.";
+"Close" = "Close";
+
+// MARK: - Archive Sign In View
+"Sign In for Cloud Archive" = "Sign In for Cloud Archive";
+"Sign in with your Apple ID to securely archive files in the cloud. Your data is encrypted and only you can access it." = "Sign in with your Apple ID to securely archive files in the cloud. Your data is encrypted and only you can access it.";
+"End-to-end encrypted storage" = "End-to-end encrypted storage";
+"Retrieve files anytime" = "Retrieve files anytime";
+"No passwords to remember" = "No passwords to remember";
+"Signing in..." = "Signing in...";
+"We only use your Apple ID for authentication. No personal data is collected." = "We only use your Apple ID for authentication. No personal data is collected.";
+
+// MARK: - Archive View
+"Loading archive..." = "Loading archive...";
+"No Archived Items" = "No Archived Items";
+"When you archive files instead of deleting them, they'll appear here. You can retrieve them anytime." = "When you archive files instead of deleting them, they'll appear here. You can retrieve them anytime.";
+"Cloud Storage" = "Cloud Storage";
+"%d items archived" = "%d items archived";
+"%@ remaining" = "%@ remaining";
+"Archived Item" = "Archived Item";
+"Retrieve & Restore" = "Retrieve & Restore";
+"Delete from Archive" = "Delete from Archive";
+"Delete Archived Item" = "Delete Archived Item";
+"Delete Permanently" = "Delete Permanently";
+"This will permanently delete this item from cloud storage. This cannot be undone." = "This will permanently delete this item from cloud storage. This cannot be undone.";
+"Restored Successfully" = "Restored Successfully";
+"The item has been restored to your photo library and removed from the archive." = "The item has been restored to your photo library and removed from the archive.";
+
+// MARK: - Charging Animations View
+"Charging Animations" = "Charging Animations";
+"Enable Charging Animation" = "Enable Charging Animation";
+"Current Animation" = "Current Animation";
+"None" = "None";
+"Active" = "Active";
+"No animation selected" = "No animation selected";
+"This animation requires a premium subscription" = "This animation requires a premium subscription";
+"Upgrade to Premium" = "Upgrade to Premium";
+
+// MARK: - Widgets View
+"Widgets" = "Widgets";
+"How to Add Widgets" = "How to Add Widgets";
+"Long press on your Home Screen" = "Long press on your Home Screen";
+"Tap the + button in the top corner" = "Tap the + button in the top corner";
+"Search for \"Cleanup\"" = "Search for \"Cleanup\"";
+"Choose a widget and tap \"Add Widget\"" = "Choose a widget and tap \"Add Widget\"";
+"Available Widgets" = "Available Widgets";
+"Storage Widget" = "Storage Widget";
+"See your storage status at a glance" = "See your storage status at a glance";
+"Small & Medium" = "Small & Medium";
+"Small" = "Small";
+"Battery Widget" = "Battery Widget";
+"Monitor your battery level" = "Monitor your battery level";
+"Quick Cleanup" = "Quick Cleanup";
+"One tap to start cleanup" = "One tap to start cleanup";
+"65% Used" = "65% Used";
+"Charging" = "Charging";
+"Tap to start" = "Tap to start";
+
+// MARK: - Email Cleanup View
+"Email Cleanup" = "Email Cleanup";
+"Clean up promotional, spam, and unread emails directly in the Mail app" = "Clean up promotional, spam, and unread emails directly in the Mail app";
+"Tap to view tips for cleaning" = "Tap to view tips for cleaning";
+"Open Mail App" = "Open Mail App";
+"Tips for Email Cleanup" = "Tips for Email Cleanup";
+"Use Mail app's \"Edit\" and \"Select All\" to bulk delete emails" = "Use Mail app's \"Edit\" and \"Select All\" to bulk delete emails";
+"Unsubscribe from newsletters you no longer read" = "Unsubscribe from newsletters you no longer read";
+"Set up email filters to auto-delete promotional emails" = "Set up email filters to auto-delete promotional emails";
+"Empty your Trash folder regularly to free up storage" = "Empty your Trash folder regularly to free up storage";
+
+// MARK: - Cleanup Type Titles (HomeViewModel.swift)
+"Duplicate Photos" = "Duplicate Photos";
+"Similar Photos" = "Similar Photos";
+"Screenshots" = "Screenshots";
+"Large Videos" = "Large Videos";
+"Duplicate Contacts" = "Duplicate Contacts";

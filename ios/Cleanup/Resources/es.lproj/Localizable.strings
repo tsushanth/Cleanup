@@ -1,0 +1,396 @@
+/* Localizable.strings (Spanish)
+   SmartSpace iOS App */
+
+// MARK: - Tab Bar
+"Home" = "Inicio";
+"Photos" = "Fotos";
+"Videos" = "Videos";
+"Contacts" = "Contactos";
+"Settings" = "Ajustes";
+
+// MARK: - Home View
+"Storage" = "Almacenamiento";
+"Quick Actions" = "Acciones rápidas";
+"Duplicates" = "Duplicados";
+"Screenshots" = "Capturas";
+"Large Videos" = "Videos grandes";
+"Compress" = "Comprimir";
+"Archive" = "Archivar";
+"Cleanup Categories" = "Categorías de limpieza";
+"Scanning..." = "Escaneando...";
+"Duplicate Photos" = "Fotos duplicadas";
+"Similar Photos" = "Fotos similares";
+"Duplicate Contacts" = "Contactos duplicados";
+"One Tap Cleanup" = "Limpieza con un toque";
+"Cleanup: One Tap" = "Limpieza: Un toque";
+
+// MARK: - Home View - Dynamic Strings
+"%d items found" = "%d elementos encontrados";
+"%d groups found" = "%d grupos encontrados";
+"%d screenshots" = "%d capturas";
+"%d videos" = "%d videos";
+"%d duplicates" = "%d duplicados";
+
+// MARK: - Winback Nudge Banner
+"%d items waiting to be cleaned" = "%d elementos esperando ser limpiados";
+"Unlock unlimited cleanups" = "Desbloquea limpiezas ilimitadas";
+"Try Pro free for 3 days" = "Prueba Pro gratis por 3 días";
+"Try Free" = "Probar gratis";
+
+// MARK: - Archive Promo Card
+"Archive instead of deleting" = "Archiva en vez de eliminar";
+"Delete with confidence" = "Elimina con confianza";
+"Select items in Photos or Videos, then tap the archive button to save them to the cloud." = "Selecciona elementos en Fotos o Videos, luego toca el botón archivar para guardarlos en la nube.";
+"Archived items can be retrieved anytime from Settings → Cloud Archive." = "Los elementos archivados se pueden recuperar en cualquier momento desde Ajustes → Archivo en la nube.";
+"Unlike big tech, we help minimize your storage — not maximize it." = "A diferencia de las grandes tecnológicas, te ayudamos a minimizar tu almacenamiento, no a maximizarlo.";
+"Go to Photos" = "Ir a Fotos";
+"From $1.99/mo" = "Desde $1.99/mes";
+
+// MARK: - Storage Overview
+"Other" = "Otro";
+
+// MARK: - Onboarding View
+"Your phone is full of clutter" = "Tu teléfono está lleno de desorden";
+"Duplicate photos, old screenshots, large videos — they're eating your storage. Let's fix that." = "Fotos duplicadas, capturas antiguas, videos grandes: están consumiendo tu almacenamiento. Vamos a solucionarlo.";
+"%@ used" = "%@ usado";
+"%@ total" = "%@ total";
+"Your storage is %d%% full" = "Tu almacenamiento está al %d%%";
+"Let's Clean Up" = "Vamos a limpiar";
+"Quick scan your library" = "Escaneo rápido de tu biblioteca";
+"We'll scan your photos and videos to find duplicates, similar shots, and space hogs. Everything stays on your device." = "Escanearemos tus fotos y videos para encontrar duplicados, tomas similares y archivos pesados. Todo permanece en tu dispositivo.";
+"100% Private" = "100% Privado";
+"All scanning happens on-device" = "Todo el escaneo ocurre en el dispositivo";
+"Fast Scan" = "Escaneo rápido";
+"Takes less than 30 seconds" = "Tarda menos de 30 segundos";
+"You Choose" = "Tú eliges";
+"Nothing deleted without your approval" = "Nada se elimina sin tu aprobación";
+"Scan My Library" = "Escanear mi biblioteca";
+"Skip for now" = "Omitir por ahora";
+"Ready to clean!" = "¡Listo para limpiar!";
+"Start with 5 free cleanups per category. Upgrade anytime for unlimited access." = "Comienza con 5 limpiezas gratis por categoría. Mejora en cualquier momento para acceso ilimitado.";
+"5 free duplicate removals" = "5 eliminaciones de duplicados gratis";
+"5 free similar photo cleanups" = "5 limpiezas de fotos similares gratis";
+"5 free screenshot deletions" = "5 eliminaciones de capturas gratis";
+"5 free video cleanups" = "5 limpiezas de video gratis";
+"5 free contact merges" = "5 fusiones de contactos gratis";
+"FREE" = "GRATIS";
+"Get Started" = "Comenzar";
+
+// MARK: - Settings View
+"Premium Active" = "Premium activo";
+"Upgrade to Premium" = "Mejorar a Premium";
+"Unlock all features" = "Desbloquear todas las funciones";
+"Cloud Archive Active" = "Archivo en la nube activo";
+"Add Cloud Archive" = "Agregar archivo en la nube";
+"Archive files instead of deleting" = "Archivar archivos en vez de eliminar";
+"Subscription" = "Suscripción";
+"Features" = "Funciones";
+"Charging Animations" = "Animaciones de carga";
+"Secret Space" = "Espacio secreto";
+"Widgets" = "Widgets";
+"Email Cleanup" = "Limpieza de correo";
+"Cloud Archive" = "Archivo en la nube";
+"Privacy" = "Privacidad";
+"Works Offline" = "Funciona sin conexión";
+"No Data Collection" = "Sin recopilación de datos";
+"Encrypted Cloud Archive" = "Archivo en la nube cifrado";
+"Files Stay on Device" = "Los archivos permanecen en el dispositivo";
+"Analysis happens on your device. Archived items are encrypted and stored in your private cloud storage. Only you can access them." = "El análisis ocurre en tu dispositivo. Los elementos archivados están cifrados y almacenados en tu nube privada. Solo tú puedes acceder a ellos.";
+"Your data never leaves your device. We cannot access your photos, contacts, or any personal information." = "Tus datos nunca salen de tu dispositivo. No podemos acceder a tus fotos, contactos ni ninguna información personal.";
+"Support" = "Soporte";
+"Rate App" = "Calificar app";
+"Share App" = "Compartir app";
+"Contact Support" = "Contactar soporte";
+"Legal" = "Legal";
+"Privacy Policy" = "Política de privacidad";
+"Terms of Service" = "Términos de servicio";
+"Restore Purchases" = "Restaurar compras";
+"Version" = "Versión";
+
+// MARK: - Photos Cleanup View
+"Photos Cleanup" = "Limpieza de fotos";
+"Similar" = "Similares";
+"Category" = "Categoría";
+"Delete" = "Eliminar";
+"Scanning photos..." = "Escaneando fotos...";
+"What would you like to do with %d photos?" = "¿Qué deseas hacer con %d fotos?";
+"Delete Permanently" = "Eliminar permanentemente";
+"Archive to Cloud" = "Archivar en la nube";
+"Cancel" = "Cancelar";
+"Archived items are safely stored in the cloud and can be retrieved later." = "Los elementos archivados están almacenados de forma segura en la nube y se pueden recuperar después.";
+"This action cannot be undone. Consider archiving to cloud storage instead." = "Esta acción no se puede deshacer. Considera archivar en la nube en su lugar.";
+"Archive Error" = "Error de archivo";
+"OK" = "OK";
+"Archived Successfully" = "Archivado exitosamente";
+"%d items have been archived to the cloud. They are uploading in the background." = "%d elementos han sido archivados en la nube. Se están subiendo en segundo plano.";
+"Free Limit" = "Límite gratuito";
+"Delete %d" = "Eliminar %d";
+"Upgrade to Pro" = "Mejorar a Pro";
+"You can delete %d more items for free. Upgrade to Pro for unlimited deletions." = "Puedes eliminar %d elementos más gratis. Mejora a Pro para eliminaciones ilimitadas.";
+
+// MARK: - Duplicate Photos
+"No Duplicates Found" = "No se encontraron duplicados";
+"Your photo library is clean!" = "¡Tu biblioteca de fotos está limpia!";
+"Keep Best" = "Conservar mejor";
+"Select All" = "Seleccionar todo";
+"Deselect All" = "Deseleccionar todo";
+"BEST" = "MEJOR";
+
+// MARK: - Similar Photos
+"No Similar Photos" = "Sin fotos similares";
+"No groups of similar photos found" = "No se encontraron grupos de fotos similares";
+"%d similar photos" = "%d fotos similares";
+"Keep Best, Select Others" = "Conservar mejor, seleccionar otras";
+
+// MARK: - Screenshots
+"No Screenshots" = "Sin capturas";
+"No screenshots found in your library" = "No se encontraron capturas en tu biblioteca";
+
+// MARK: - Videos Cleanup View
+"Videos Cleanup" = "Limpieza de videos";
+"No Large Videos" = "Sin videos grandes";
+"No videos over 50MB found" = "No se encontraron videos de más de 50 MB";
+"%d large videos" = "%d videos grandes";
+"Scanning videos..." = "Escaneando videos...";
+"What would you like to do with %d videos?" = "¿Qué deseas hacer con %d videos?";
+"Unknown date" = "Fecha desconocida";
+
+// MARK: - Video Compression
+"Compression Quality" = "Calidad de compresión";
+"Select Videos" = "Seleccionar videos";
+"%d selected" = "%d seleccionados";
+"Compress Selected" = "Comprimir seleccionados";
+"Compressing Video" = "Comprimiendo video";
+"Compress Video" = "Comprimir video";
+"Compressing... %d%%" = "Comprimiendo... %d%%";
+"Select Compression Quality" = "Seleccionar calidad de compresión";
+"Saved %@" = "Ahorrado %@";
+"%d%% smaller" = "%d%% más pequeño";
+"Compression Failed" = "Error de compresión";
+"Done" = "Hecho";
+
+// MARK: - Contacts Cleanup View
+"Contacts Cleanup" = "Limpieza de contactos";
+"Incomplete" = "Incompletos";
+"Scanning contacts..." = "Escaneando contactos...";
+
+// MARK: - Duplicate Contacts
+"No Duplicates" = "Sin duplicados";
+"Your contacts are clean!" = "¡Tus contactos están limpios!";
+"Merge All" = "Fusionar todo";
+"Delete Duplicates" = "Eliminar duplicados";
+
+// MARK: - Incomplete Contacts
+"No Incomplete Contacts" = "Sin contactos incompletos";
+"All contacts have complete information" = "Todos los contactos tienen información completa";
+"%d incomplete" = "%d incompletos";
+"Delete Selected (%d)" = "Eliminar seleccionados (%d)";
+
+// MARK: - Merge Contacts Sheet
+"Merge Contacts" = "Fusionar contactos";
+"Select the primary contact to keep. Information from other contacts will be merged into it." = "Selecciona el contacto principal a conservar. La información de otros contactos se fusionará en él.";
+
+// MARK: - Category Detail Views
+"Scanning for duplicates..." = "Buscando duplicados...";
+"Found %d duplicate photos" = "Se encontraron %d fotos duplicadas";
+"Select items to delete" = "Seleccionar elementos a eliminar";
+"Delete %d Items" = "Eliminar %d elementos";
+"Delete Photos?" = "¿Eliminar fotos?";
+"This will permanently delete %d photos." = "Esto eliminará permanentemente %d fotos.";
+"Finding similar photos..." = "Buscando fotos similares...";
+"No Similar Photos Found" = "No se encontraron fotos similares";
+"No groups of similar photos detected." = "No se detectaron grupos de fotos similares.";
+"Group - %d photos" = "Grupo - %d fotos";
+"Loading screenshots..." = "Cargando capturas...";
+"You don't have any screenshots." = "No tienes capturas de pantalla.";
+"%d screenshots using %@" = "%d capturas usando %@";
+"Select screenshots to delete" = "Seleccionar capturas a eliminar";
+"Delete Screenshots?" = "¿Eliminar capturas?";
+"This will permanently delete %d screenshots." = "Esto eliminará permanentemente %d capturas.";
+"Finding large videos..." = "Buscando videos grandes...";
+"No videos larger than 50MB found." = "No se encontraron videos de más de 50 MB.";
+"%d large videos using %@" = "%d videos grandes usando %@";
+"Delete Videos?" = "¿Eliminar videos?";
+"This will permanently delete %d videos." = "Esto eliminará permanentemente %d videos.";
+"Finding duplicate contacts..." = "Buscando contactos duplicados...";
+"No Duplicate Contacts" = "Sin contactos duplicados";
+"Your contacts are already organized!" = "¡Tus contactos ya están organizados!";
+"Merge These Contacts" = "Fusionar estos contactos";
+"Merge Contacts?" = "¿Fusionar contactos?";
+"Merge" = "Fusionar";
+"This will merge all contacts in this group into one." = "Esto fusionará todos los contactos de este grupo en uno.";
+
+// MARK: - Cleanup Confirmation View
+"Review Before Cleanup" = "Revisar antes de limpiar";
+"Select items you want to remove" = "Selecciona los elementos que deseas eliminar";
+"%d items" = "%d elementos";
+"Items will be moved to Recently Deleted" = "Los elementos se moverán a Eliminados recientes";
+"Cleaning..." = "Limpiando...";
+"Cleanup Complete!" = "¡Limpieza completa!";
+"Your device is now cleaner and has more free space" = "Tu dispositivo ahora está más limpio y tiene más espacio libre";
+"Items Removed" = "Elementos eliminados";
+"Space Freed" = "Espacio liberado";
+"Next time, archive first" = "La próxima vez, archiva primero";
+"Keep a safety net before deleting. From $1.99/mo." = "Mantén una red de seguridad antes de eliminar. Desde $1.99/mes.";
+
+// MARK: - Vault View
+"Vault" = "Bóveda";
+"Enter your PIN to access" = "Ingresa tu PIN para acceder";
+"Use Face ID" = "Usar Face ID";
+"Use Touch ID" = "Usar Touch ID";
+"Error" = "Error";
+"Incorrect PIN. Please try again." = "PIN incorrecto. Inténtalo de nuevo.";
+"Create Your PIN" = "Crea tu PIN";
+"Confirm Your PIN" = "Confirma tu PIN";
+"Setup PIN" = "Configurar PIN";
+"PINs Don't Match" = "Los PIN no coinciden";
+"Try Again" = "Intentar de nuevo";
+"The PINs you entered don't match. Please try again." = "Los PIN ingresados no coinciden. Inténtalo de nuevo.";
+"Your vault is empty" = "Tu bóveda está vacía";
+"Add photos and videos to keep them private" = "Agrega fotos y videos para mantenerlos privados";
+"Add Items" = "Agregar elementos";
+"Select items to add to your vault" = "Selecciona elementos para agregar a tu bóveda";
+"Select from Photos" = "Seleccionar de Fotos";
+"Add to Vault" = "Agregar a la bóveda";
+"Item Details" = "Detalles del elemento";
+"Restore" = "Restaurar";
+"Delete Item" = "Eliminar elemento";
+"This will permanently delete the item from your vault." = "Esto eliminará permanentemente el elemento de tu bóveda.";
+"Restore Item" = "Restaurar elemento";
+"This will restore the item to your Photos library." = "Esto restaurará el elemento a tu biblioteca de Fotos.";
+
+// MARK: - Paywall View
+"Unlock Cleanup Pro" = "Desbloquear Cleanup Pro";
+"Unlimited cleanups & duplicate removal" = "Limpiezas ilimitadas y eliminación de duplicados";
+"Choose Your Plan" = "Elige tu plan";
+"PRO ACTIVE" = "PRO ACTIVO";
+"ACTIVE" = "ACTIVO";
+"Unable to load plans" = "No se pudieron cargar los planes";
+"Please check your connection and try again" = "Verifica tu conexión e inténtalo de nuevo";
+"Retry" = "Reintentar";
+"Yearly" = "Anual";
+"Monthly" = "Mensual";
+"Weekly" = "Semanal";
+"CURRENT PLAN" = "PLAN ACTUAL";
+"BEST VALUE" = "MEJOR VALOR";
+"3-DAY FREE TRIAL" = "PRUEBA GRATIS DE 3 DÍAS";
+"Subscribed" = "Suscrito";
+"Start Free Trial" = "Iniciar prueba gratis";
+"Start Cleaning" = "Comenzar a limpiar";
+"Redeem Code" = "Canjear código";
+"An error occurred" = "Ocurrió un error";
+"Cancel anytime in Settings > Apple ID > Subscriptions. Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period." = "Cancela en cualquier momento en Ajustes > Apple ID > Suscripciones. Las suscripciones se renuevan automáticamente a menos que se cancelen al menos 24 horas antes del final del período actual.";
+
+// MARK: - Paywall Features
+"Unlimited Cleanups" = "Limpiezas ilimitadas";
+"Clean your device as often as you want" = "Limpia tu dispositivo tan seguido como quieras";
+"Delete Duplicates & Similar" = "Eliminar duplicados y similares";
+"Find and remove duplicate photos instantly" = "Encuentra y elimina fotos duplicadas al instante";
+"Large Video Management" = "Gestión de videos grandes";
+"Compress or delete space-hogging videos" = "Comprime o elimina videos que ocupan mucho espacio";
+"Private & Secure" = "Privado y seguro";
+"All scanning happens on your device" = "Todo el escaneo ocurre en tu dispositivo";
+
+// MARK: - Paywall Context
+"Unlimited photo cleanups included" = "Limpiezas de fotos ilimitadas incluidas";
+"Bulk delete screenshots anytime" = "Elimina capturas en masa en cualquier momento";
+"Compress & delete large videos" = "Comprime y elimina videos grandes";
+"Keep your contacts organized" = "Mantén tus contactos organizados";
+"Keep files safe in the cloud instead of deleting" = "Mantén los archivos seguros en la nube en vez de eliminarlos";
+"Upgrade your archive plan for more space" = "Mejora tu plan de archivo para más espacio";
+
+// MARK: - Free Usage Banner
+"%d free deletions remaining" = "%d eliminaciones gratis restantes";
+"Free deletions used up" = "Eliminaciones gratis agotadas";
+"Upgrade" = "Mejorar";
+
+// MARK: - Winback Offer View
+"SPECIAL OFFER" = "OFERTA ESPECIAL";
+"We miss you!" = "¡Te extrañamos!";
+"Try Cleanup Pro free for 3 days. Cancel anytime — no commitment." = "Prueba Cleanup Pro gratis por 3 días. Cancela cuando quieras, sin compromiso.";
+"Unlimited duplicate & similar photo cleanup" = "Limpieza ilimitada de fotos duplicadas y similares";
+"Compress videos & save gigabytes" = "Comprime videos y ahorra gigabytes";
+"Merge all duplicate contacts" = "Fusiona todos los contactos duplicados";
+"Private vault for sensitive photos" = "Bóveda privada para fotos sensibles";
+"Start 3-Day Free Trial" = "Iniciar prueba gratis de 3 días";
+"No thanks" = "No, gracias";
+
+// MARK: - Archive Paywall View
+"Delete with Confidence" = "Elimina con confianza";
+"Your safety net — archive photos, videos, and contacts before deleting. Retrieve them anytime you need them back." = "Tu red de seguridad: archiva fotos, videos y contactos antes de eliminar. Recupéralos cuando los necesites.";
+"Safety Net for Deletions" = "Red de seguridad para eliminaciones";
+"Never lose a file you might need later" = "Nunca pierdas un archivo que puedas necesitar después";
+"Retrieve Anytime" = "Recupera en cualquier momento";
+"Download archived files back to your device" = "Descarga archivos archivados de vuelta a tu dispositivo";
+"Minimize Your Footprint" = "Minimiza tu huella";
+"We help you store less, not more — unlike big tech" = "Te ayudamos a almacenar menos, no más, a diferencia de las grandes tecnológicas";
+"Encrypted & Private" = "Cifrado y privado";
+"Only you can access your archived files" = "Solo tú puedes acceder a tus archivos archivados";
+"Upgrade Storage" = "Mejorar almacenamiento";
+"Start Archiving" = "Comenzar a archivar";
+"Loading plans..." = "Cargando planes...";
+"per month" = "al mes";
+"Requires an active Cleanup Pro subscription." = "Requiere una suscripción activa de Cleanup Pro.";
+"Storage subscriptions renew monthly. Cancel anytime in Settings. Archived files are retained for 30 days after cancellation." = "Las suscripciones de almacenamiento se renuevan mensualmente. Cancela cuando quieras en Ajustes. Los archivos archivados se conservan 30 días después de la cancelación.";
+"Close" = "Cerrar";
+
+// MARK: - Archive Sign In View
+"Sign In for Cloud Archive" = "Inicia sesión para el archivo en la nube";
+"Sign in with your Apple ID to securely archive files in the cloud. Your data is encrypted and only you can access it." = "Inicia sesión con tu Apple ID para archivar archivos de forma segura en la nube. Tus datos están cifrados y solo tú puedes acceder a ellos.";
+"End-to-end encrypted storage" = "Almacenamiento cifrado de extremo a extremo";
+"Retrieve files anytime" = "Recupera archivos en cualquier momento";
+"No passwords to remember" = "Sin contraseñas que recordar";
+"Signing in..." = "Iniciando sesión...";
+"We only use your Apple ID for authentication. No personal data is collected." = "Solo usamos tu Apple ID para autenticación. No se recopilan datos personales.";
+
+// MARK: - Archive View
+"Loading archive..." = "Cargando archivo...";
+"No Archived Items" = "Sin elementos archivados";
+"When you archive files instead of deleting them, they'll appear here. You can retrieve them anytime." = "Cuando archivas archivos en vez de eliminarlos, aparecerán aquí. Puedes recuperarlos en cualquier momento.";
+"Cloud Storage" = "Almacenamiento en la nube";
+"%d items archived" = "%d elementos archivados";
+"%@ remaining" = "%@ restante";
+"Archived Item" = "Elemento archivado";
+"Retrieve & Restore" = "Recuperar y restaurar";
+"Delete from Archive" = "Eliminar del archivo";
+"Delete Archived Item" = "Eliminar elemento archivado";
+"This will permanently delete this item from cloud storage. This cannot be undone." = "Esto eliminará permanentemente este elemento del almacenamiento en la nube. No se puede deshacer.";
+"Restored Successfully" = "Restaurado exitosamente";
+"The item has been restored to your photo library and removed from the archive." = "El elemento ha sido restaurado a tu biblioteca de fotos y eliminado del archivo.";
+
+// MARK: - Charging Animations View
+"Enable Charging Animation" = "Activar animación de carga";
+"Current Animation" = "Animación actual";
+"None" = "Ninguna";
+"Active" = "Activo";
+"No animation selected" = "Ninguna animación seleccionada";
+"This animation requires a premium subscription" = "Esta animación requiere una suscripción premium";
+
+// MARK: - Widgets View
+"How to Add Widgets" = "Cómo agregar widgets";
+"Long press on your Home Screen" = "Mantén presionada la pantalla de inicio";
+"Tap the + button in the top corner" = "Toca el botón + en la esquina superior";
+"Search for \"Cleanup\"" = "Busca \"Cleanup\"";
+"Choose a widget and tap \"Add Widget\"" = "Elige un widget y toca \"Agregar widget\"";
+"Available Widgets" = "Widgets disponibles";
+"Storage Widget" = "Widget de almacenamiento";
+"See your storage status at a glance" = "Ve el estado de tu almacenamiento de un vistazo";
+"Small & Medium" = "Pequeño y mediano";
+"Small" = "Pequeño";
+"Battery Widget" = "Widget de batería";
+"Monitor your battery level" = "Monitorea tu nivel de batería";
+"Quick Cleanup" = "Limpieza rápida";
+"One tap to start cleanup" = "Un toque para iniciar la limpieza";
+"65% Used" = "65% Usado";
+"Charging" = "Cargando";
+"Tap to start" = "Toca para iniciar";
+
+// MARK: - Email Cleanup View
+"Clean up promotional, spam, and unread emails directly in the Mail app" = "Limpia correos promocionales, spam y no leídos directamente en la app de Mail";
+"Tap to view tips for cleaning" = "Toca para ver consejos de limpieza";
+"Open Mail App" = "Abrir app de Mail";
+"Tips for Email Cleanup" = "Consejos para limpiar el correo";
+"Use Mail app's \"Edit\" and \"Select All\" to bulk delete emails" = "Usa \"Editar\" y \"Seleccionar todo\" en Mail para eliminar correos en masa";
+"Unsubscribe from newsletters you no longer read" = "Cancela la suscripción a boletines que ya no lees";
+"Set up email filters to auto-delete promotional emails" = "Configura filtros de correo para eliminar automáticamente correos promocionales";
+"Empty your Trash folder regularly to free up storage" = "Vacía tu carpeta de Papelera regularmente para liberar espacio";

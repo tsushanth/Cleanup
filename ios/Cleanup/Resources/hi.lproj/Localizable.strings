@@ -1,0 +1,398 @@
+/* Localizable.strings (Hindi)
+   SmartSpace iOS App */
+
+// MARK: - Tab Bar
+"Home" = "होम";
+"Photos" = "फ़ोटो";
+"Videos" = "वीडियो";
+"Contacts" = "संपर्क";
+"Settings" = "सेटिंग्स";
+
+// MARK: - Home View
+"Storage" = "स्टोरेज";
+"Quick Actions" = "त्वरित कार्य";
+"Duplicates" = "डुप्लीकेट";
+"Screenshots" = "स्क्रीनशॉट";
+"Large Videos" = "बड़े वीडियो";
+"Compress" = "कंप्रेस";
+"Archive" = "आर्काइव";
+"Cleanup Categories" = "सफ़ाई श्रेणियाँ";
+"Scanning..." = "स्कैन हो रहा है...";
+"Duplicate Photos" = "डुप्लीकेट फ़ोटो";
+"Similar Photos" = "समान फ़ोटो";
+"Duplicate Contacts" = "डुप्लीकेट संपर्क";
+"One Tap Cleanup" = "एक टैप सफ़ाई";
+"Cleanup: One Tap" = "सफ़ाई: एक टैप";
+
+// MARK: - Home View - Dynamic Strings
+"%d items found" = "%d आइटम मिले";
+"%d groups found" = "%d समूह मिले";
+"%d screenshots" = "%d स्क्रीनशॉट";
+"%d videos" = "%d वीडियो";
+"%d duplicates" = "%d डुप्लीकेट";
+
+// MARK: - Winback Nudge Banner
+"%d items waiting to be cleaned" = "%d आइटम सफ़ाई की प्रतीक्षा में";
+"Unlock unlimited cleanups" = "असीमित सफ़ाई अनलॉक करें";
+"Try Pro free for 3 days" = "Pro 3 दिनों के लिए मुफ़्त आज़माएँ";
+"Try Free" = "मुफ़्त आज़माएँ";
+
+// MARK: - Archive Promo Card
+"Archive instead of deleting" = "हटाने के बजाय आर्काइव करें";
+"Delete with confidence" = "विश्वास से हटाएँ";
+"Select items in Photos or Videos, then tap the archive button to save them to the cloud." = "फ़ोटो या वीडियो में आइटम चुनें, फिर उन्हें क्लाउड में सहेजने के लिए आर्काइव बटन पर टैप करें।";
+"Archived items can be retrieved anytime from Settings → Cloud Archive." = "आर्काइव किए गए आइटम कभी भी सेटिंग्स → क्लाउड आर्काइव से प्राप्त किए जा सकते हैं।";
+"Unlike big tech, we help minimize your storage — not maximize it." = "बड़ी टेक कंपनियों के विपरीत, हम आपकी स्टोरेज को कम करने में मदद करते हैं — बढ़ाने में नहीं।";
+"Go to Photos" = "फ़ोटो पर जाएँ";
+"From $1.99/mo" = "$1.99/माह से";
+
+// MARK: - Storage Overview
+"Other" = "अन्य";
+
+// MARK: - Onboarding View
+"Your phone is full of clutter" = "आपका फ़ोन अव्यवस्था से भरा है";
+"Duplicate photos, old screenshots, large videos — they're eating your storage. Let's fix that." = "डुप्लीकेट फ़ोटो, पुराने स्क्रीनशॉट, बड़े वीडियो — ये आपकी स्टोरेज खा रहे हैं। चलिए इसे ठीक करें।";
+"%@ used" = "%@ उपयोग हो रहा है";
+"%@ total" = "कुल %@";
+"Your storage is %d%% full" = "आपकी स्टोरेज %d%% भरी है";
+"Let's Clean Up" = "चलिए सफ़ाई करें";
+"Quick scan your library" = "अपनी लाइब्रेरी की त्वरित स्कैनिंग";
+"We'll scan your photos and videos to find duplicates, similar shots, and space hogs. Everything stays on your device." = "हम आपकी फ़ोटो और वीडियो को स्कैन करके डुप्लीकेट, समान शॉट्स और ज़्यादा जगह लेने वाली फ़ाइलें ढूँढेंगे। सब कुछ आपके डिवाइस पर ही रहता है।";
+"100% Private" = "100% प्राइवेट";
+"All scanning happens on-device" = "सभी स्कैनिंग डिवाइस पर होती है";
+"Fast Scan" = "तेज़ स्कैन";
+"Takes less than 30 seconds" = "30 सेकंड से भी कम";
+"You Choose" = "आप चुनें";
+"Nothing deleted without your approval" = "आपकी अनुमति के बिना कुछ नहीं हटाया जाता";
+"Scan My Library" = "मेरी लाइब्रेरी स्कैन करें";
+"Skip for now" = "अभी के लिए छोड़ें";
+"Ready to clean!" = "सफ़ाई के लिए तैयार!";
+"Start with 5 free cleanups per category. Upgrade anytime for unlimited access." = "प्रत्येक श्रेणी में 5 मुफ़्त सफ़ाई से शुरू करें। असीमित एक्सेस के लिए कभी भी अपग्रेड करें।";
+"5 free duplicate removals" = "5 मुफ़्त डुप्लीकेट हटाएँ";
+"5 free similar photo cleanups" = "5 मुफ़्त समान फ़ोटो सफ़ाई";
+"5 free screenshot deletions" = "5 मुफ़्त स्क्रीनशॉट हटाएँ";
+"5 free video cleanups" = "5 मुफ़्त वीडियो सफ़ाई";
+"5 free contact merges" = "5 मुफ़्त संपर्क मर्ज";
+"FREE" = "मुफ़्त";
+"Get Started" = "शुरू करें";
+
+// MARK: - Settings View
+"Premium Active" = "प्रीमियम सक्रिय";
+"Upgrade to Premium" = "प्रीमियम में अपग्रेड करें";
+"Unlock all features" = "सभी सुविधाएँ अनलॉक करें";
+"Cloud Archive Active" = "क्लाउड आर्काइव सक्रिय";
+"Add Cloud Archive" = "क्लाउड आर्काइव जोड़ें";
+"Archive files instead of deleting" = "हटाने के बजाय फ़ाइलें आर्काइव करें";
+"Subscription" = "सदस्यता";
+"Features" = "सुविधाएँ";
+"Charging Animations" = "चार्जिंग एनिमेशन";
+"Secret Space" = "गोपनीय स्थान";
+"Widgets" = "विजेट";
+"Email Cleanup" = "ईमेल सफ़ाई";
+"Cloud Archive" = "क्लाउड आर्काइव";
+"Privacy" = "गोपनीयता";
+"Works Offline" = "ऑफ़लाइन काम करता है";
+"No Data Collection" = "कोई डेटा संग्रह नहीं";
+"Encrypted Cloud Archive" = "एन्क्रिप्टेड क्लाउड आर्काइव";
+"Files Stay on Device" = "फ़ाइलें डिवाइस पर रहती हैं";
+"Analysis happens on your device. Archived items are encrypted and stored in your private cloud storage. Only you can access them." = "विश्लेषण आपके डिवाइस पर होता है। आर्काइव किए गए आइटम एन्क्रिप्ट किए जाते हैं और आपके निजी क्लाउड स्टोरेज में संग्रहीत होते हैं। केवल आप ही उन तक पहुँच सकते हैं।";
+"Your data never leaves your device. We cannot access your photos, contacts, or any personal information." = "आपका डेटा कभी आपके डिवाइस से बाहर नहीं जाता। हम आपकी फ़ोटो, संपर्कों या किसी भी व्यक्तिगत जानकारी तक नहीं पहुँच सकते।";
+"Support" = "सहायता";
+"Rate App" = "ऐप रेट करें";
+"Share App" = "ऐप शेयर करें";
+"Contact Support" = "सहायता से संपर्क करें";
+"Legal" = "कानूनी";
+"Privacy Policy" = "गोपनीयता नीति";
+"Terms of Service" = "सेवा की शर्तें";
+"Restore Purchases" = "खरीदारी पुनर्स्थापित करें";
+"Version" = "संस्करण";
+
+// MARK: - Photos Cleanup View
+"Photos Cleanup" = "फ़ोटो सफ़ाई";
+"Similar" = "समान";
+"Category" = "श्रेणी";
+"Delete" = "हटाएँ";
+"Scanning photos..." = "फ़ोटो स्कैन हो रहे हैं...";
+"What would you like to do with %d photos?" = "%d फ़ोटो के साथ आप क्या करना चाहेंगे?";
+"Delete Permanently" = "स्थायी रूप से हटाएँ";
+"Archive to Cloud" = "क्लाउड में आर्काइव करें";
+"Cancel" = "रद्द करें";
+"Archived items are safely stored in the cloud and can be retrieved later." = "आर्काइव किए गए आइटम क्लाउड में सुरक्षित रूप से संग्रहीत हैं और बाद में प्राप्त किए जा सकते हैं।";
+"This action cannot be undone. Consider archiving to cloud storage instead." = "यह कार्रवाई पूर्ववत नहीं की जा सकती। इसके बजाय क्लाउड स्टोरेज में आर्काइव करने पर विचार करें।";
+"Archive Error" = "आर्काइव त्रुटि";
+"OK" = "ठीक";
+"Archived Successfully" = "सफलतापूर्वक आर्काइव हुआ";
+"%d items have been archived to the cloud. They are uploading in the background." = "%d आइटम क्लाउड में आर्काइव हो गए हैं। बैकग्राउंड में अपलोड हो रहे हैं।";
+"Free Limit" = "मुफ़्त सीमा";
+"Delete %d" = "%d हटाएँ";
+"Upgrade to Pro" = "Pro में अपग्रेड करें";
+"You can delete %d more items for free. Upgrade to Pro for unlimited deletions." = "आप %d और आइटम मुफ़्त में हटा सकते हैं। असीमित हटाने के लिए Pro में अपग्रेड करें।";
+
+// MARK: - Duplicate Photos
+"No Duplicates Found" = "कोई डुप्लीकेट नहीं मिला";
+"Your photo library is clean!" = "आपकी फ़ोटो लाइब्रेरी साफ़ है!";
+"%d duplicates" = "%d डुप्लीकेट";
+"Keep Best" = "सर्वश्रेष्ठ रखें";
+"Select All" = "सभी चुनें";
+"Deselect All" = "सभी हटाएँ";
+"BEST" = "सर्वश्रेष्ठ";
+
+// MARK: - Similar Photos
+"No Similar Photos" = "कोई समान फ़ोटो नहीं";
+"No groups of similar photos found" = "समान फ़ोटो के कोई समूह नहीं मिले";
+"%d similar photos" = "%d समान फ़ोटो";
+"Keep Best, Select Others" = "सर्वश्रेष्ठ रखें, बाकी चुनें";
+
+// MARK: - Screenshots
+"No Screenshots" = "कोई स्क्रीनशॉट नहीं";
+"No screenshots found in your library" = "आपकी लाइब्रेरी में कोई स्क्रीनशॉट नहीं मिला";
+
+// MARK: - Videos Cleanup View
+"Videos Cleanup" = "वीडियो सफ़ाई";
+"No Large Videos" = "कोई बड़ा वीडियो नहीं";
+"No videos over 50MB found" = "50MB से अधिक कोई वीडियो नहीं मिला";
+"%d large videos" = "%d बड़े वीडियो";
+"Scanning videos..." = "वीडियो स्कैन हो रहे हैं...";
+"What would you like to do with %d videos?" = "%d वीडियो के साथ आप क्या करना चाहेंगे?";
+"Unknown date" = "अज्ञात तिथि";
+
+// MARK: - Video Compression
+"Compression Quality" = "कंप्रेशन गुणवत्ता";
+"Select Videos" = "वीडियो चुनें";
+"%d selected" = "%d चुने गए";
+"Compress Selected" = "चुने हुए कंप्रेस करें";
+"Compressing Video" = "वीडियो कंप्रेस हो रहा है";
+"Compress Video" = "वीडियो कंप्रेस करें";
+"Compressing... %d%%" = "कंप्रेस हो रहा है... %d%%";
+"Select Compression Quality" = "कंप्रेशन गुणवत्ता चुनें";
+"Saved %@" = "%@ बचाया";
+"%d%% smaller" = "%d%% छोटा";
+"Compression Failed" = "कंप्रेशन विफल";
+"Done" = "पूर्ण";
+
+// MARK: - Contacts Cleanup View
+"Contacts Cleanup" = "संपर्क सफ़ाई";
+"Incomplete" = "अपूर्ण";
+"Scanning contacts..." = "संपर्क स्कैन हो रहे हैं...";
+
+// MARK: - Duplicate Contacts
+"No Duplicates" = "कोई डुप्लीकेट नहीं";
+"Your contacts are clean!" = "आपके संपर्क साफ़ हैं!";
+"Merge All" = "सभी मर्ज करें";
+"Delete Duplicates" = "डुप्लीकेट हटाएँ";
+
+// MARK: - Incomplete Contacts
+"No Incomplete Contacts" = "कोई अपूर्ण संपर्क नहीं";
+"All contacts have complete information" = "सभी संपर्कों की जानकारी पूर्ण है";
+"%d incomplete" = "%d अपूर्ण";
+"Delete Selected (%d)" = "चुने हुए हटाएँ (%d)";
+
+// MARK: - Merge Contacts Sheet
+"Merge Contacts" = "संपर्क मर्ज करें";
+"Select the primary contact to keep. Information from other contacts will be merged into it." = "रखने के लिए प्राथमिक संपर्क चुनें। अन्य संपर्कों की जानकारी इसमें मर्ज की जाएगी।";
+
+// MARK: - Category Detail Views
+"Scanning for duplicates..." = "डुप्लीकेट खोज रहे हैं...";
+"Found %d duplicate photos" = "%d डुप्लीकेट फ़ोटो मिलीं";
+"Select items to delete" = "हटाने के लिए आइटम चुनें";
+"Delete %d Items" = "%d आइटम हटाएँ";
+"Delete Photos?" = "फ़ोटो हटाएँ?";
+"This will permanently delete %d photos." = "यह %d फ़ोटो को स्थायी रूप से हटा देगा।";
+"Finding similar photos..." = "समान फ़ोटो खोज रहे हैं...";
+"No Similar Photos Found" = "कोई समान फ़ोटो नहीं मिली";
+"No groups of similar photos detected." = "समान फ़ोटो के कोई समूह नहीं पाए गए।";
+"Group - %d photos" = "समूह - %d फ़ोटो";
+"Loading screenshots..." = "स्क्रीनशॉट लोड हो रहे हैं...";
+"You don't have any screenshots." = "आपके पास कोई स्क्रीनशॉट नहीं है।";
+"%d screenshots using %@" = "%d स्क्रीनशॉट %@ का उपयोग कर रहे हैं";
+"Select screenshots to delete" = "हटाने के लिए स्क्रीनशॉट चुनें";
+"Delete Screenshots?" = "स्क्रीनशॉट हटाएँ?";
+"This will permanently delete %d screenshots." = "यह %d स्क्रीनशॉट को स्थायी रूप से हटा देगा।";
+"Finding large videos..." = "बड़े वीडियो खोज रहे हैं...";
+"No videos larger than 50MB found." = "50MB से बड़ा कोई वीडियो नहीं मिला।";
+"%d large videos using %@" = "%d बड़े वीडियो %@ का उपयोग कर रहे हैं";
+"Delete Videos?" = "वीडियो हटाएँ?";
+"This will permanently delete %d videos." = "यह %d वीडियो को स्थायी रूप से हटा देगा।";
+"Finding duplicate contacts..." = "डुप्लीकेट संपर्क खोज रहे हैं...";
+"No Duplicate Contacts" = "कोई डुप्लीकेट संपर्क नहीं";
+"Your contacts are already organized!" = "आपके संपर्क पहले से व्यवस्थित हैं!";
+"Merge These Contacts" = "ये संपर्क मर्ज करें";
+"Merge Contacts?" = "संपर्क मर्ज करें?";
+"Merge" = "मर्ज";
+"This will merge all contacts in this group into one." = "यह इस समूह के सभी संपर्कों को एक में मर्ज कर देगा।";
+
+// MARK: - Cleanup Confirmation View
+"Review Before Cleanup" = "सफ़ाई से पहले समीक्षा करें";
+"Select items you want to remove" = "जो आइटम हटाना चाहते हैं उन्हें चुनें";
+"%d items" = "%d आइटम";
+"Items will be moved to Recently Deleted" = "आइटम हाल ही में हटाए गए में ले जाए जाएँगे";
+"Cleaning..." = "सफ़ाई हो रही है...";
+"Cleanup Complete!" = "सफ़ाई पूरी!";
+"Your device is now cleaner and has more free space" = "आपका डिवाइस अब अधिक साफ़ है और अधिक खाली जगह है";
+"Items Removed" = "आइटम हटाए गए";
+"Space Freed" = "जगह खाली हुई";
+"Next time, archive first" = "अगली बार, पहले आर्काइव करें";
+"Keep a safety net before deleting. From $1.99/mo." = "हटाने से पहले सुरक्षा जाल रखें। $1.99/माह से।";
+
+// MARK: - Vault View
+"Vault" = "वॉल्ट";
+"Enter your PIN to access" = "एक्सेस के लिए अपना PIN दर्ज करें";
+"Use Face ID" = "Face ID उपयोग करें";
+"Use Touch ID" = "Touch ID उपयोग करें";
+"Error" = "त्रुटि";
+"Incorrect PIN. Please try again." = "गलत PIN। कृपया पुनः प्रयास करें।";
+"Create Your PIN" = "अपना PIN बनाएँ";
+"Confirm Your PIN" = "अपना PIN पुष्टि करें";
+"Setup PIN" = "PIN सेटअप करें";
+"PINs Don't Match" = "PIN मेल नहीं खाते";
+"Try Again" = "पुनः प्रयास करें";
+"The PINs you entered don't match. Please try again." = "आपके दर्ज किए गए PIN मेल नहीं खाते। कृपया पुनः प्रयास करें।";
+"Your vault is empty" = "आपका वॉल्ट खाली है";
+"Add photos and videos to keep them private" = "फ़ोटो और वीडियो जोड़ें उन्हें प्राइवेट रखने के लिए";
+"Add Items" = "आइटम जोड़ें";
+"Select items to add to your vault" = "अपने वॉल्ट में जोड़ने के लिए आइटम चुनें";
+"Select from Photos" = "फ़ोटो से चुनें";
+"Add to Vault" = "वॉल्ट में जोड़ें";
+"Item Details" = "आइटम विवरण";
+"Restore" = "पुनर्स्थापित करें";
+"Delete Item" = "आइटम हटाएँ";
+"This will permanently delete the item from your vault." = "यह आइटम को आपके वॉल्ट से स्थायी रूप से हटा देगा।";
+"Restore Item" = "आइटम पुनर्स्थापित करें";
+"This will restore the item to your Photos library." = "यह आइटम को आपकी फ़ोटो लाइब्रेरी में पुनर्स्थापित कर देगा।";
+
+// MARK: - Paywall View
+"Unlock Cleanup Pro" = "Cleanup Pro अनलॉक करें";
+"Unlimited cleanups & duplicate removal" = "असीमित सफ़ाई और डुप्लीकेट हटाना";
+"Choose Your Plan" = "अपनी योजना चुनें";
+"PRO ACTIVE" = "PRO सक्रिय";
+"ACTIVE" = "सक्रिय";
+"Unable to load plans" = "योजनाएँ लोड नहीं हो सकीं";
+"Please check your connection and try again" = "कृपया अपना कनेक्शन जाँचें और पुनः प्रयास करें";
+"Retry" = "पुनः प्रयास";
+"Yearly" = "वार्षिक";
+"Monthly" = "मासिक";
+"Weekly" = "साप्ताहिक";
+"CURRENT PLAN" = "वर्तमान योजना";
+"BEST VALUE" = "सर्वोत्तम मूल्य";
+"3-DAY FREE TRIAL" = "3-दिन का मुफ़्त ट्रायल";
+"Subscribed" = "सदस्यता ली गई";
+"Start Free Trial" = "मुफ़्त ट्रायल शुरू करें";
+"Start Cleaning" = "सफ़ाई शुरू करें";
+"Redeem Code" = "कोड रिडीम करें";
+"An error occurred" = "एक त्रुटि हुई";
+"Cancel anytime in Settings > Apple ID > Subscriptions. Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period." = "सेटिंग्स > Apple ID > सदस्यताओं में कभी भी रद्द करें। सदस्यताएँ स्वचालित रूप से नवीनीकृत होती हैं जब तक कि वर्तमान अवधि समाप्त होने से कम से कम 24 घंटे पहले रद्द न की जाएँ।";
+
+// MARK: - Paywall Features
+"Unlimited Cleanups" = "असीमित सफ़ाई";
+"Clean your device as often as you want" = "जितनी बार चाहें अपना डिवाइस साफ़ करें";
+"Delete Duplicates & Similar" = "डुप्लीकेट और समान हटाएँ";
+"Find and remove duplicate photos instantly" = "डुप्लीकेट फ़ोटो तुरंत खोजें और हटाएँ";
+"Large Video Management" = "बड़े वीडियो प्रबंधन";
+"Compress or delete space-hogging videos" = "जगह घेरने वाले वीडियो कंप्रेस या हटाएँ";
+"Private & Secure" = "प्राइवेट और सुरक्षित";
+"All scanning happens on your device" = "सभी स्कैनिंग आपके डिवाइस पर होती है";
+
+// MARK: - Paywall Context Titles
+"Unlimited photo cleanups included" = "असीमित फ़ोटो सफ़ाई शामिल";
+"Bulk delete screenshots anytime" = "कभी भी स्क्रीनशॉट बल्क में हटाएँ";
+"Compress & delete large videos" = "बड़े वीडियो कंप्रेस और हटाएँ";
+"Keep your contacts organized" = "अपने संपर्कों को व्यवस्थित रखें";
+"Keep files safe in the cloud instead of deleting" = "हटाने के बजाय फ़ाइलों को क्लाउड में सुरक्षित रखें";
+"Upgrade your archive plan for more space" = "अधिक जगह के लिए अपनी आर्काइव योजना अपग्रेड करें";
+
+// MARK: - Free Usage Banner
+"%d free deletions remaining" = "%d मुफ़्त हटाने बाकी";
+"Free deletions used up" = "मुफ़्त हटाने की सीमा समाप्त";
+"Upgrade" = "अपग्रेड";
+
+// MARK: - Winback Offer View
+"SPECIAL OFFER" = "विशेष ऑफ़र";
+"We miss you!" = "हमें आपकी याद आती है!";
+"Try Cleanup Pro free for 3 days. Cancel anytime — no commitment." = "Cleanup Pro 3 दिनों के लिए मुफ़्त आज़माएँ। कभी भी रद्द करें — कोई प्रतिबद्धता नहीं।";
+"Unlimited duplicate & similar photo cleanup" = "असीमित डुप्लीकेट और समान फ़ोटो सफ़ाई";
+"Compress videos & save gigabytes" = "वीडियो कंप्रेस करें और गीगाबाइट बचाएँ";
+"Merge all duplicate contacts" = "सभी डुप्लीकेट संपर्क मर्ज करें";
+"Private vault for sensitive photos" = "संवेदनशील फ़ोटो के लिए प्राइवेट वॉल्ट";
+"Start 3-Day Free Trial" = "3-दिन का मुफ़्त ट्रायल शुरू करें";
+"No thanks" = "नहीं, धन्यवाद";
+
+// MARK: - Archive Paywall View
+"Delete with Confidence" = "विश्वास से हटाएँ";
+"Your safety net — archive photos, videos, and contacts before deleting. Retrieve them anytime you need them back." = "आपका सुरक्षा जाल — हटाने से पहले फ़ोटो, वीडियो और संपर्कों को आर्काइव करें। जब भी ज़रूरत हो उन्हें वापस प्राप्त करें।";
+"Safety Net for Deletions" = "हटाने के लिए सुरक्षा जाल";
+"Never lose a file you might need later" = "कभी भी ऐसी फ़ाइल न खोएँ जो बाद में चाहिए हो";
+"Retrieve Anytime" = "कभी भी प्राप्त करें";
+"Download archived files back to your device" = "आर्काइव की गई फ़ाइलें अपने डिवाइस पर वापस डाउनलोड करें";
+"Minimize Your Footprint" = "अपनी स्टोरेज फ़ुटप्रिंट कम करें";
+"We help you store less, not more — unlike big tech" = "हम आपको कम स्टोर करने में मदद करते हैं, ज़्यादा नहीं — बड़ी टेक कंपनियों के विपरीत";
+"Encrypted & Private" = "एन्क्रिप्टेड और प्राइवेट";
+"Only you can access your archived files" = "केवल आप अपनी आर्काइव की गई फ़ाइलों तक पहुँच सकते हैं";
+"Upgrade Storage" = "स्टोरेज अपग्रेड करें";
+"Start Archiving" = "आर्काइव करना शुरू करें";
+"Loading plans..." = "योजनाएँ लोड हो रही हैं...";
+"per month" = "प्रति माह";
+"Requires an active Cleanup Pro subscription." = "एक सक्रिय Cleanup Pro सदस्यता आवश्यक है।";
+"Storage subscriptions renew monthly. Cancel anytime in Settings. Archived files are retained for 30 days after cancellation." = "स्टोरेज सदस्यताएँ मासिक रूप से नवीनीकृत होती हैं। सेटिंग्स में कभी भी रद्द करें। रद्द करने के बाद आर्काइव फ़ाइलें 30 दिनों तक रखी जाती हैं।";
+"Close" = "बंद करें";
+
+// MARK: - Archive Sign In View
+"Sign In for Cloud Archive" = "क्लाउड आर्काइव के लिए साइन इन करें";
+"Sign in with your Apple ID to securely archive files in the cloud. Your data is encrypted and only you can access it." = "क्लाउड में सुरक्षित रूप से फ़ाइलें आर्काइव करने के लिए अपने Apple ID से साइन इन करें। आपका डेटा एन्क्रिप्टेड है और केवल आप ही इसे एक्सेस कर सकते हैं।";
+"End-to-end encrypted storage" = "एंड-टू-एंड एन्क्रिप्टेड स्टोरेज";
+"Retrieve files anytime" = "कभी भी फ़ाइलें प्राप्त करें";
+"No passwords to remember" = "कोई पासवर्ड याद रखने की ज़रूरत नहीं";
+"Signing in..." = "साइन इन हो रहा है...";
+"We only use your Apple ID for authentication. No personal data is collected." = "हम आपके Apple ID का उपयोग केवल प्रमाणीकरण के लिए करते हैं। कोई व्यक्तिगत डेटा एकत्र नहीं किया जाता।";
+
+// MARK: - Archive View
+"Loading archive..." = "आर्काइव लोड हो रहा है...";
+"No Archived Items" = "कोई आर्काइव किया गया आइटम नहीं";
+"When you archive files instead of deleting them, they'll appear here. You can retrieve them anytime." = "जब आप फ़ाइलों को हटाने के बजाय आर्काइव करते हैं, तो वे यहाँ दिखाई देंगी। आप उन्हें कभी भी प्राप्त कर सकते हैं।";
+"Cloud Storage" = "क्लाउड स्टोरेज";
+"%d items archived" = "%d आइटम आर्काइव किए गए";
+"%@ remaining" = "%@ शेष";
+"Archived Item" = "आर्काइव किया गया आइटम";
+"Retrieve & Restore" = "प्राप्त करें और पुनर्स्थापित करें";
+"Delete from Archive" = "आर्काइव से हटाएँ";
+"Delete Archived Item" = "आर्काइव किया गया आइटम हटाएँ";
+"Delete Permanently" = "स्थायी रूप से हटाएँ";
+"This will permanently delete this item from cloud storage. This cannot be undone." = "यह इस आइटम को क्लाउड स्टोरेज से स्थायी रूप से हटा देगा। इसे पूर्ववत नहीं किया जा सकता।";
+"Restored Successfully" = "सफलतापूर्वक पुनर्स्थापित";
+"The item has been restored to your photo library and removed from the archive." = "आइटम आपकी फ़ोटो लाइब्रेरी में पुनर्स्थापित हो गया है और आर्काइव से हटा दिया गया है।";
+
+// MARK: - Charging Animations View
+"Enable Charging Animation" = "चार्जिंग एनिमेशन सक्षम करें";
+"Current Animation" = "वर्तमान एनिमेशन";
+"None" = "कोई नहीं";
+"Active" = "सक्रिय";
+"No animation selected" = "कोई एनिमेशन नहीं चुना गया";
+"This animation requires a premium subscription" = "इस एनिमेशन के लिए प्रीमियम सदस्यता आवश्यक है";
+
+// MARK: - Widgets View
+"How to Add Widgets" = "विजेट कैसे जोड़ें";
+"Long press on your Home Screen" = "होम स्क्रीन पर लंबे समय तक दबाएँ";
+"Tap the + button in the top corner" = "शीर्ष कोने में + बटन पर टैप करें";
+"Search for \"Cleanup\"" = "\"Cleanup\" खोजें";
+"Choose a widget and tap \"Add Widget\"" = "एक विजेट चुनें और \"विजेट जोड़ें\" पर टैप करें";
+"Available Widgets" = "उपलब्ध विजेट";
+"Storage Widget" = "स्टोरेज विजेट";
+"See your storage status at a glance" = "एक नज़र में स्टोरेज स्थिति देखें";
+"Small & Medium" = "छोटा और मध्यम";
+"Small" = "छोटा";
+"Battery Widget" = "बैटरी विजेट";
+"Monitor your battery level" = "बैटरी स्तर की निगरानी करें";
+"Quick Cleanup" = "त्वरित सफ़ाई";
+"One tap to start cleanup" = "एक टैप में सफ़ाई शुरू";
+"65% Used" = "65% उपयोग हो रहा है";
+"Charging" = "चार्ज हो रहा है";
+"Tap to start" = "शुरू करने के लिए टैप करें";
+
+// MARK: - Email Cleanup View
+"Clean up promotional, spam, and unread emails directly in the Mail app" = "मेल ऐप में सीधे प्रचार, स्पैम और अपठित ईमेल साफ़ करें";
+"Tap to view tips for cleaning" = "सफ़ाई टिप्स देखने के लिए टैप करें";
+"Open Mail App" = "मेल ऐप खोलें";
+"Tips for Email Cleanup" = "ईमेल सफ़ाई के टिप्स";
+"Use Mail app's \"Edit\" and \"Select All\" to bulk delete emails" = "ईमेल बल्क में हटाने के लिए मेल ऐप के \"संपादित करें\" और \"सभी चुनें\" का उपयोग करें";
+"Unsubscribe from newsletters you no longer read" = "जो न्यूज़लेटर आप अब नहीं पढ़ते उनकी सदस्यता रद्द करें";
+"Set up email filters to auto-delete promotional emails" = "प्रचार ईमेल स्वचालित रूप से हटाने के लिए ईमेल फ़िल्टर सेट करें";
+"Empty your Trash folder regularly to free up storage" = "स्टोरेज खाली करने के लिए नियमित रूप से ट्रैश फ़ोल्डर खाली करें";

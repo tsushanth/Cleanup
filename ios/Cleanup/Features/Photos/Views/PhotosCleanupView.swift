@@ -63,6 +63,7 @@ struct PhotosCleanupView: View {
                             )
                             if result == .allowed {
                                 archiveViewModel.archiveSelectedPhotos(assets)
+                                viewModel.selectedAssets.removeAll()
                             }
                         } label: {
                             HStack(spacing: 4) {
@@ -121,6 +122,7 @@ struct PhotosCleanupView: View {
                     )
                     if result == .allowed {
                         archiveViewModel.archiveSelectedPhotos(assets)
+                                viewModel.selectedAssets.removeAll()
                     }
                 }
 
@@ -136,11 +138,11 @@ struct PhotosCleanupView: View {
                 ArchiveSignInView(onSignIn: { archiveViewModel.onSignInComplete() })
             }
             .sheet(isPresented: $paywallCoordinator.showArchivePaywall) {
-                ArchivePaywallView()
+                RemoteArchivePaywallView()
                     .presentationDetents([.large])
             }
             .sheet(isPresented: $archiveViewModel.showArchiveUpgradePaywall) {
-                ArchivePaywallView()
+                RemoteArchivePaywallView()
                     .presentationDetents([.large])
             }
             .alert("Archive Error", isPresented: .init(

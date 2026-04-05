@@ -1,9 +1,12 @@
 package com.kreativekoala.cleanup.domain.service
 
+import android.content.ContentUris
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
+import android.os.Build
 import android.provider.DocumentsContract
+import android.provider.MediaStore
 import android.provider.OpenableColumns
 import com.kreativekoala.cleanup.data.model.PhotoAsset
 import com.kreativekoala.cleanup.data.model.VideoAsset
@@ -168,6 +171,158 @@ class MediaAccessHelper @Inject constructor(
                 }
             }
         }
+    }
+
+    // MARK: - Load from MediaStore (runtime permission based)
+
+    suspend fun loadAllPhotosFromMediaStore(): List<PhotoAsset> = withContext(Dispatchers.IO) {
+        val photos = mutableListOf<PhotoAsset>()
+        val collection = MediaStore.Images.Media.EXTERNAL_CONTENT_URI
+
+        val projection = mutableListOf(
+            MediaStore.Images.Media._ID,
+            MediaStore.Images.Media.DISPLAY_NAME,
+            MediaStore.Images.Media.SIZE,
+            MediaStore.Images.Media.DATE_ADDED,
+            MediaStore.Images.Media.DATE_TAKEN,
+            MediaStore.Images.Media.WIDTH,
+            MediaStore.Images.Media.HEIGHT,
+            MediaStore.Images.Media.MIME_TYPE
+        )
+        val hasRelativePath = Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q
+        if (hasRelativePath) projection.add(MediaStore.Images.Media.RELATIVE_PATH)
+
+        context.contentResolver.query(
+            collection, projection.toTypedArray(), null, null,
+            "${MediaStore.Images.Media.DATE_ADDED} DESC"
+        )?.use { cursor ->
+            val idCol = cursor.getColumnIndexOrThrow(MediaStore.Images.Media._ID)
+            val nameCol = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DISPLAY_NAME)
+            val sizeCol = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.SIZE)
+            val dateAddedCol = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATE_ADDED)
+            val dateTakenCol = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATE_TAKEN)
+            val widthCol = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.WIDTH)
+            val heightCol = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.HEIGHT)
+            val mimeCol = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.MIME_TYPE)
+            val pathCol = if (hasRelativePath) cursor.getColumnIndexOrThrow(MediaStore.Images.Media.RELATIVE_PATH) else -1
+
+            while (cursor.moveToNext()) {
+                val id = cursor.getLong(idCol)
+                photos.add(
+                    PhotoAsset(
+                        id = id,
+                        uri = ContentUris.withAppendedId(collection, id),
+                        dateAdded = cursor.getLong(dateAddedCol),
+                        dateTaken = cursor.getLong(dateTakenCol),
+                        fileSize = cursor.getLong(sizeCol),
+                        width = cursor.getInt(widthCol),
+                        height = cursor.getInt(heightCol),
+                        displayName = cursor.getString(nameCol) ?: "",
+                        mimeType = cursor.getString(mimeCol) ?: "image/jpeg",
+                        relativePath = if (pathCol >= 0) cursor.getString(pathCol) ?: "" else ""
+                    )
+                )
+            }
+        }
+        photos
+    }
+
+    suspend fun loadAllVideosFromMediaStore(): List<PhotoAsset> = withContext(Dispatchers.IO) {
+        val videos = mutableListOf<PhotoAsset>()
+        val collection = MediaStore.Video.Media.EXTERNAL_CONTENT_URI
+
+        val projection = mutableListOf(
+            MediaStore.Video.Media._ID,
+            MediaStore.Video.Media.DISPLAY_NAME,
+            MediaStore.Video.Media.SIZE,
+            MediaStore.Video.Media.DATE_ADDED,
+            MediaStore.Video.Media.WIDTH,
+            MediaStore.Video.Media.HEIGHT,
+            MediaStore.Video.Media.MIME_TYPE
+        )
+        val hasRelativePath = Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q
+        if (hasRelativePath) projection.add(MediaStore.Video.Media.RELATIVE_PATH)
+
+        context.contentResolver.query(
+            collection, projection.toTypedArray(), null, null,
+            "${MediaStore.Video.Media.DATE_ADDED} DESC"
+        )?.use { cursor ->
+            val idCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media._ID)
+            val nameCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.DISPLAY_NAME)
+            val sizeCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.SIZE)
+            val dateAddedCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.DATE_ADDED)
+            val widthCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.WIDTH)
+            val heightCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.HEIGHT)
+            val mimeCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.MIME_TYPE)
+            val pathCol = if (hasRelativePath) cursor.getColumnIndexOrThrow(MediaStore.Video.Media.RELATIVE_PATH) else -1
+
+            while (cursor.moveToNext()) {
+                val id = cursor.getLong(idCol)
+                videos.add(
+                    PhotoAsset(
+                        id = id,
+                        uri = ContentUris.withAppendedId(collection, id),
+                        dateAdded = cursor.getLong(dateAddedCol),
+                        dateTaken = 0L,
+                        fileSize = cursor.getLong(sizeCol),
+                        width = cursor.getInt(widthCol),
+                        height = cursor.getInt(heightCol),
+                        displayName = cursor.getString(nameCol) ?: "",
+                        mimeType = cursor.getString(mimeCol) ?: "video/mp4",
+                        relativePath = if (pathCol >= 0) cursor.getString(pathCol) ?: "" else ""
+                    )
+                )
+            }
+        }
+        videos
+    }
+
+    suspend fun loadAllVideoAssetsFromMediaStore(): List<VideoAsset> = withContext(Dispatchers.IO) {
+        val videos = mutableListOf<VideoAsset>()
+        val collection = MediaStore.Video.Media.EXTERNAL_CONTENT_URI
+
+        val projection = arrayOf(
+            MediaStore.Video.Media._ID,
+            MediaStore.Video.Media.DISPLAY_NAME,
+            MediaStore.Video.Media.SIZE,
+            MediaStore.Video.Media.DATE_ADDED,
+            MediaStore.Video.Media.DURATION,
+            MediaStore.Video.Media.WIDTH,
+            MediaStore.Video.Media.HEIGHT,
+            MediaStore.Video.Media.MIME_TYPE
+        )
+
+        context.contentResolver.query(
+            collection, projection, null, null,
+            "${MediaStore.Video.Media.DATE_ADDED} DESC"
+        )?.use { cursor ->
+            val idCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media._ID)
+            val nameCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.DISPLAY_NAME)
+            val sizeCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.SIZE)
+            val dateAddedCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.DATE_ADDED)
+            val durationCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.DURATION)
+            val widthCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.WIDTH)
+            val heightCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.HEIGHT)
+            val mimeCol = cursor.getColumnIndexOrThrow(MediaStore.Video.Media.MIME_TYPE)
+
+            while (cursor.moveToNext()) {
+                val id = cursor.getLong(idCol)
+                videos.add(
+                    VideoAsset(
+                        id = id,
+                        uri = ContentUris.withAppendedId(collection, id),
+                        dateAdded = cursor.getLong(dateAddedCol),
+                        fileSize = cursor.getLong(sizeCol),
+                        duration = cursor.getLong(durationCol),
+                        width = cursor.getInt(widthCol),
+                        height = cursor.getInt(heightCol),
+                        displayName = cursor.getString(nameCol) ?: "",
+                        mimeType = cursor.getString(mimeCol) ?: "video/mp4"
+                    )
+                )
+            }
+        }
+        videos
     }
 
     // MARK: - Load Photos from Photo Picker URIs

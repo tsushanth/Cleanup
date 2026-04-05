@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <!-- ==================== HOME SCREEN ==================== -->
+    <string name="home_title">Pembersihan Satu Ketik</string>
+    <string name="home_vault_cd">Peti Besi</string>
+    <string name="home_scanning">Mengimbas…</string>
+    <string name="home_one_tap_scan">Imbas Satu Ketik</string>
+    <string name="home_grant_access_scan">Beri Akses &amp; Imbas</string>
+    <string name="home_scanning_device">Mengimbas peranti anda…</string>
+    <string name="home_quick_actions">Tindakan Pantas</string>
+    <string name="home_chip_duplicates">Pendua</string>
+    <string name="home_chip_screenshots">Tangkapan Skrin</string>
+    <string name="home_chip_large_videos">Video Besar</string>
+    <string name="home_chip_compress">Mampat</string>
+    <string name="home_chip_archive">Arkib</string>
+    <string name="home_chip_downloads">Muat Turun</string>
+    <string name="home_chip_apk_files">Fail APK</string>
+    <string name="home_smart_scan_results">Hasil Imbasan Pintar</string>
+    <string name="home_category_duplicate_photos">Foto Pendua</string>
+    <string name="home_category_similar_photos">Foto Serupa</string>
+    <string name="home_category_screenshots">Tangkapan Skrin</string>
+    <string name="home_category_large_videos">Video Besar</string>
+    <string name="home_category_duplicate_contacts">Kenalan Pendua</string>
+    <string name="home_file_management">Pengurusan Fail</string>
+    <string name="home_category_downloads">Muat Turun</string>
+    <string name="home_category_apk_files">Fail APK</string>
+    <string name="home_category_notification_manager">Pengurus Pemberitahuan</string>
+    <string name="home_storage_used">%s digunakan</string>
+    <string name="home_storage_total">%s jumlah</string>
+    <string name="home_storage_full">Storan anda %d%% penuh</string>
+    <string name="home_items_count">%d item</string>
+    <string name="home_items_count_savings">%1$d item \u00B7 %2$s</string>
+    <string name="home_tap_to_scan">Ketik untuk mengimbas</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_welcome_title">Telefon anda penuh dengan fail tidak perlu</string>
+    <string name="onboarding_welcome_subtitle">Foto pendua, tangkapan skrin lama, video besar \u2014 semuanya memakan storan anda. Mari kita betulkan.</string>
+    <string name="onboarding_welcome_button">Jom Bersihkan</string>
+    <string name="onboarding_media_granted_title">Akses media diberikan!</string>
+    <string name="onboarding_media_request_title">Akses foto &amp; video anda</string>
+    <string name="onboarding_media_granted_subtitle">Kami akan mengimbas semua foto dan video anda untuk mencari pendua, gambar serupa, dan fail besar.</string>
+    <string name="onboarding_media_request_subtitle">Untuk mencari pendua dan membebaskan ruang, kami perlu akses ke foto dan video anda.</string>
+    <string name="onboarding_feature_private_title">100% Peribadi</string>
+    <string name="onboarding_feature_private_subtitle">Semua imbasan berlaku pada peranti</string>
+    <string name="onboarding_feature_fast_title">Imbasan Pantas</string>
+    <string name="onboarding_feature_fast_subtitle">Mengambil masa kurang dari 30 saat</string>
+    <string name="onboarding_feature_you_choose_title">Anda Yang Pilih</string>
+    <string name="onboarding_feature_you_choose_subtitle">Tiada apa-apa dipadam tanpa kelulusan anda</string>
+    <string name="onboarding_continue">Teruskan</string>
+    <string name="onboarding_allow_photo_video">Benarkan Akses Foto &amp; Video</string>
+    <string name="onboarding_skip">Langkau buat masa ini</string>
+    <string name="onboarding_contact_granted_title">Akses kenalan diberikan!</string>
+    <string name="onboarding_contact_request_title">Bersihkan kenalan anda</string>
+    <string name="onboarding_contact_granted_subtitle">Kami akan mencari kenalan pendua dan tidak lengkap supaya anda boleh menggabungkan atau memadamnya.</string>
+    <string name="onboarding_contact_request_subtitle">Cari dan gabungkan kenalan pendua untuk memastikan buku alamat anda kemas.</string>
+    <string name="onboarding_feature_find_dupes_title">Cari Pendua</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Kesan kenalan dengan nama atau nombor yang sama</string>
+    <string name="onboarding_feature_smart_merge_title">Gabungan Pintar</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Gabungkan pendua menjadi satu kenalan</string>
+    <string name="onboarding_feature_safe_title">Selamat</string>
+    <string name="onboarding_feature_safe_subtitle">Semak sebelum sebarang perubahan dibuat</string>
+    <string name="onboarding_allow_contact">Benarkan Akses Kenalan</string>
+    <string name="onboarding_ready_title">Semua sedia!</string>
+    <string name="onboarding_ready_subtitle">Ketik butang di bawah untuk mengimbas semua dan mula membersihkan.</string>
+    <string name="onboarding_photos_videos">Foto &amp; video</string>
+    <string name="onboarding_contact_access">Akses kenalan</string>
+    <string name="onboarding_free_duplicates">5 pemadaman pendua percuma</string>
+    <string name="onboarding_free_similar">5 pembersihan foto serupa percuma</string>
+    <string name="onboarding_free_screenshots">5 pemadaman tangkapan skrin percuma</string>
+    <string name="onboarding_free_videos">5 pembersihan video percuma</string>
+    <string name="onboarding_free_contacts">5 penggabungan kenalan percuma</string>
+    <string name="onboarding_free_label">PERCUMA</string>
+    <string name="onboarding_get_started">Imbas &amp; Mula</string>
+
+    <!-- ==================== PAYWALL SCREEN ==================== -->
+    <string name="paywall_close_cd">Tutup</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">setahun</string>
+    <string name="paywall_per_month">sebulan</string>
+    <string name="paywall_feature_unlimited_title">Pembersihan Tanpa Had</string>
+    <string name="paywall_feature_unlimited_subtitle">Bersihkan peranti anda sekerap yang anda mahu</string>
+    <string name="paywall_feature_duplicates_title">Padam Pendua &amp; Serupa</string>
+    <string name="paywall_feature_duplicates_subtitle">Cari dan padam foto pendua dengan segera</string>
+    <string name="paywall_feature_videos_title">Pengurusan Video Besar</string>
+    <string name="paywall_feature_videos_subtitle">Mampat atau padam video yang memakan ruang</string>
+    <string name="paywall_feature_private_title">Peribadi &amp; Selamat</string>
+    <string name="paywall_feature_private_subtitle">Semua imbasan berlaku pada peranti anda</string>
+    <string name="paywall_best_value">NILAI TERBAIK</string>
+    <string name="paywall_save_75">Jimat 75%% berbanding bulanan</string>
+    <string name="paywall_continue">Teruskan</string>
+    <string name="paywall_restore">Pulihkan Pembelian</string>
+    <string name="paywall_terms">Langganan diperbaharui secara automatik. Batalkan bila-bila masa dalam tetapan Google Play.</string>
+
+    <!-- ==================== PHOTOS CLEANUP SCREEN ==================== -->
+    <string name="photos_title">Pembersihan Foto</string>
+    <string name="photos_back_cd">Kembali</string>
+    <string name="photos_change_folder_cd">Tukar folder</string>
+    <string name="photos_delete_count">Padam %d</string>
+    <string name="photos_select_title">Pilih Foto untuk Dianalisis</string>
+    <string name="photos_select_subtitle">Pilih cara anda ingin menyediakan foto untuk pengesanan pendua dan tangkapan skrin.</string>
+    <string name="photos_select_all_folder">Pilih Semua (Akses Folder)</string>
+    <string name="photos_select_all_hint">Beri akses ke folder DCIM atau Gambar untuk mengimbas semua foto</string>
+    <string name="photos_choose">Pilih Foto</string>
+    <string name="photos_choose_hint">Pilih foto tertentu untuk dianalisis</string>
+    <string name="photos_selected_count">%d dipilih</string>
+    <string name="photos_save_amount">Jimat %s</string>
+    <string name="photos_tab_duplicates">Pendua</string>
+    <string name="photos_tab_similar">Serupa</string>
+    <string name="photos_tab_screenshots">Tangkapan Skrin</string>
+    <string name="photos_no_duplicates_title">Tiada Pendua Ditemui</string>
+    <string name="photos_no_duplicates_subtitle">Pustaka foto anda bersih!</string>
+    <string name="photos_duplicates_summary">%1$d pendua dalam %2$d kumpulan</string>
+    <string name="photos_select_all">Pilih Semua</string>
+    <string name="photos_deselect_all">Nyahpilih Semua</string>
+    <string name="photos_n_duplicates">%d pendua</string>
+    <string name="photos_keep_best">Simpan Terbaik</string>
+    <string name="photos_no_similar_title">Tiada Foto Serupa</string>
+    <string name="photos_no_similar_subtitle">Tiada kumpulan foto serupa ditemui</string>
+    <string name="photos_similar_summary">%1$d serupa dalam %2$d kumpulan</string>
+    <string name="photos_n_similar">%d foto serupa</string>
+    <string name="photos_percent_similar">%d%% serupa</string>
+    <string name="photos_keep_best_select_others">Simpan Terbaik, Pilih Lain</string>
+    <string name="photos_no_screenshots_title">Tiada Tangkapan Skrin</string>
+    <string name="photos_no_screenshots_subtitle">Tiada tangkapan skrin ditemui dalam pustaka anda</string>
+    <string name="photos_n_screenshots">%d tangkapan skrin</string>
+    <string name="photos_selected_cd">Dipilih</string>
+    <string name="photos_best_badge">TERBAIK</string>
+    <string name="photos_scanning">Mengimbas foto…</string>
+    <string name="photos_delete_title">Padam %d Foto?</string>
+    <string name="photos_delete_message">Ini akan memadam foto yang dipilih secara kekal dari peranti anda. Tindakan ini tidak boleh dibuat asal.</string>
+    <string name="photos_delete_permanently">Padam Secara Kekal</string>
+    <string name="cancel">Batal</string>
+
+    <!-- ==================== UPGRADE / PAYWALL DIALOG ==================== -->
+    <string name="upgrade_title">Naik Taraf ke Pro</string>
+    <string name="upgrade_message">Anda telah menggunakan semua pembersihan percuma untuk kategori ini. Naik taraf ke Pro untuk akses tanpa had.</string>
+    <string name="upgrade_button">Naik Taraf</string>
+    <string name="upgrade_not_now">Bukan Sekarang</string>
+
+    <!-- ==================== VAULT SCREEN ==================== -->
+    <string name="vault_title">Peti Besi</string>
+    <string name="vault_lock_cd">Kunci</string>
+    <string name="vault_add_cd">Tambah item</string>
+    <string name="vault_secret_space">Ruang Rahsia</string>
+    <string name="vault_enter_pin">Masukkan PIN anda untuk mengakses</string>
+    <string name="vault_use_biometrics">Gunakan Biometrik</string>
+    <string name="vault_biometric_title">Akses Ruang Rahsia</string>
+    <string name="vault_biometric_subtitle">Gunakan cap jari atau wajah anda untuk membuka kunci</string>
+    <string name="vault_biometric_negative">Gunakan PIN</string>
+    <string name="vault_backspace_cd">Padam</string>
+    <string name="vault_create_pin">Cipta PIN Anda</string>
+    <string name="vault_confirm_pin">Sahkan PIN Anda</string>
+    <string name="vault_create_pin_subtitle">Pilih PIN 4 digit untuk melindungi peti besi anda</string>
+    <string name="vault_confirm_pin_subtitle">Masukkan PIN yang sama sekali lagi</string>
+    <string name="vault_pin_mismatch">PIN tidak sepadan. Sila cuba lagi.</string>
+    <string name="vault_empty_title">Peti besi anda kosong</string>
+    <string name="vault_empty_subtitle">Tambah foto dan video untuk memastikannya peribadi</string>
+    <string name="vault_add_items">Tambah Item</string>
+    <string name="vault_adding">Menambah ke peti besi…</string>
+    <string name="vault_add_to_vault">Tambah ke Peti Besi</string>
+    <string name="vault_select_items_subtitle">Pilih item untuk ditambah ke peti besi anda</string>
+    <string name="vault_select_from_photos">Pilih dari Foto</string>
+    <string name="vault_select_from_files">Pilih dari Fail</string>
+    <string name="vault_delete_title">Padam Item</string>
+    <string name="vault_delete_message">Ini akan memadam item secara kekal dari peti besi anda.</string>
+    <string name="vault_delete_button">Padam</string>
+    <string name="vault_restore_title">Pulihkan Item</string>
+    <string name="vault_restore_message">Ini akan memulihkan item ke pustaka Foto anda.</string>
+    <string name="vault_restore_button">Pulihkan</string>
+    <string name="vault_added_date">Ditambah: %s</string>
+    <string name="vault_item_size">Saiz: %s</string>
+
+    <!-- ==================== CONTACTS CLEANUP SCREEN ==================== -->
+    <string name="contacts_title">Pembersihan Kenalan</string>
+    <string name="contacts_tab_duplicates">Pendua</string>
+    <string name="contacts_tab_incomplete">Tidak Lengkap</string>
+    <string name="contacts_access_required">Akses Kenalan Diperlukan</string>
+    <string name="contacts_access_message">Pembersihan memerlukan akses ke kenalan anda untuk mencari pendua dan entri tidak lengkap.</string>
+    <string name="contacts_grant_access">Beri Akses</string>
+    <string name="contacts_no_duplicates_title">Tiada Pendua</string>
+    <string name="contacts_no_duplicates_subtitle">Kenalan anda bersih!</string>
+    <string name="contacts_n_duplicates">%d pendua</string>
+    <string name="contacts_merge_all">Gabungkan Semua</string>
+    <string name="contacts_delete_dupes">Padam Pendua</string>
+    <string name="contacts_no_name">Tiada Nama</string>
+    <string name="contacts_no_incomplete_title">Tiada Kenalan Tidak Lengkap</string>
+    <string name="contacts_no_incomplete_subtitle">Semua kenalan mempunyai maklumat lengkap</string>
+    <string name="contacts_n_incomplete">%d tidak lengkap</string>
+    <string name="contacts_delete_selected">Padam Dipilih (%d)</string>
+    <string name="contacts_merge_title">Gabungkan Kenalan</string>
+    <string name="contacts_merge_subtitle">Pilih kenalan utama untuk disimpan. Maklumat dari kenalan lain akan digabungkan ke dalamnya.</string>
+    <string name="contacts_merge_button">Gabungkan Kenalan</string>
+    <string name="contacts_scanning">Mengimbas kenalan…</string>
+
+    <!-- ==================== VIDEOS CLEANUP SCREEN ==================== -->
+    <string name="videos_title">Pembersihan Video</string>
+    <string name="videos_delete_count">Padam %d</string>
+    <string name="videos_select_title">Pilih Video untuk Dianalisis</string>
+    <string name="videos_select_subtitle">Pilih cara anda ingin menyediakan video untuk pengesanan fail besar dan pemampatan.</string>
+    <string name="videos_select_all_folder">Pilih Semua (Akses Folder)</string>
+    <string name="videos_select_all_hint">Beri akses ke folder DCIM atau media untuk mengimbas semua video</string>
+    <string name="videos_choose">Pilih Video</string>
+    <string name="videos_choose_hint">Pilih video tertentu untuk dianalisis</string>
+    <string name="videos_tab_large">Video Besar</string>
+    <string name="videos_tab_compress">Mampat</string>
+    <string name="videos_no_large_title">Tiada Video Besar</string>
+    <string name="videos_no_large_subtitle">Tiada video melebihi 50MB ditemui</string>
+    <string name="videos_n_large">%d video besar</string>
+    <string name="videos_delete_title">Padam %d Video?</string>
+    <string name="videos_delete_message">Ini akan memadam video yang dipilih secara kekal. Tindakan ini tidak boleh dibuat asal.</string>
+    <string name="videos_no_compress_title">Tiada Video</string>
+    <string name="videos_no_compress_subtitle">Tiada video yang boleh dimampat ditemui</string>
+    <string name="videos_compression_quality">Kualiti Pemampatan</string>
+    <string name="videos_select_videos">Pilih Video</string>
+    <string name="videos_n_selected">%d dipilih</string>
+    <string name="videos_compress_n">Mampat %d Video</string>
+    <string name="videos_scanning">Mengimbas video…</string>
+    <string name="videos_compressing_title">Memampat Video</string>
+
+    <!-- ==================== DOWNLOADS SCREEN ==================== -->
+    <string name="downloads_title">Muat Turun</string>
+    <string name="downloads_deselect">Nyahpilih</string>
+    <string name="downloads_delete_n_files">Padam %d fail</string>
+    <string name="downloads_scanning">Mengimbas folder muat turun…</string>
+    <string name="downloads_clean">Folder muat turun bersih!</string>
+    <string name="downloads_summary">%1$d fail (%2$s)</string>
+
+    <!-- ==================== APK SCREEN ==================== -->
+    <string name="apk_title">Fail APK</string>
+    <string name="apk_deselect">Nyahpilih</string>
+    <string name="apk_delete_n">Padam %d APK</string>
+    <string name="apk_scanning">Mencari fail APK…</string>
+    <string name="apk_none_found">Tiada fail APK ditemui!</string>
+    <string name="apk_all_filter">Semua (%d)</string>
+
+    <!-- ==================== NOTIFICATIONS SCREEN ==================== -->
+    <string name="notifications_title">Pemberitahuan</string>
+    <string name="notifications_analyzing">Menganalisis pemberitahuan…</string>
+    <string name="notifications_no_apps">Tiada aplikasi ditemui</string>
+    <string name="notifications_apps_count">%d aplikasi dengan pemberitahuan</string>
+    <string name="notifications_manage_hint">Ketik untuk menguruskan tetapan pemberitahuan bagi setiap aplikasi</string>
+    <string name="notifications_enabled">Pemberitahuan diaktifkan</string>
+    <string name="notifications_disabled">Pemberitahuan dinyahaktifkan</string>
+    <string name="notifications_manage_button">Urus</string>
+
+    <!-- ==================== ARCHIVE SCREEN ==================== -->
+    <string name="archive_title">Arkib Awan</string>
+    <string name="archive_sync_cd">Segerakkan</string>
+    <string name="archive_storage_used">Storan Digunakan</string>
+    <string name="archive_empty_title">Tiada item diarkibkan</string>
+    <string name="archive_empty_subtitle">Arkibkan foto dan video dari skrin pembersihan untuk membebaskan ruang peranti</string>
+    <string name="archive_items_count">%d item diarkibkan</string>
+    <string name="archive_detail_archived">Diarkibkan: %s</string>
+    <string name="archive_detail_size">Saiz: %s</string>
+    <string name="archive_detail_tier">Peringkat: %s</string>
+    <string name="archive_retrieve_button">Dapatkan Semula</string>
+    <string name="archive_delete_title">Padam Item Arkib</string>
+    <string name="archive_delete_message">Ini akan memadam item ini secara kekal dari arkib anda. Ini tidak boleh dibuat asal.</string>
+    <string name="archive_success_title">Berjaya Diarkibkan</string>
+    <string name="archive_success_message">%d item telah diarkibkan ke awan.</string>
+    <string name="archive_restore_success_title">Berjaya Dipulihkan</string>
+    <string name="archive_restore_success_message">Item telah dipulihkan ke peranti anda.</string>
+    <string name="archive_error_title">Ralat</string>
+    <string name="ok">OK</string>
+
+    <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
+    <string name="archive_signin_title">Log Masuk untuk Arkib Awan</string>
+    <string name="archive_signin_subtitle">Arkibkan foto dan video anda ke awan sebelum memadamnya dari peranti</string>
+    <string name="archive_signin_encrypted_title">Penyulitan Hujung-ke-Hujung</string>
+    <string name="archive_signin_encrypted_subtitle">Data anda disulitkan sebelum meninggalkan peranti</string>
+    <string name="archive_signin_retrieve_title">Dapatkan Semula Bila-bila Masa</string>
+    <string name="archive_signin_retrieve_subtitle">Muat turun fail arkib anda bila-bila masa anda memerlukannya</string>
+    <string name="archive_signin_private_title">Peribadi &amp; Selamat</string>
+    <string name="archive_signin_private_subtitle">Tidak perlu ingat kata laluan \u2014 log masuk dengan Google</string>
+    <string name="archive_signin_google">Log masuk dengan Google</string>
+    <string name="archive_signin_privacy">Data anda hanya digunakan untuk storan arkib awan. Kami tidak pernah berkongsi atau menjual maklumat anda.</string>
+
+    <!-- ==================== ARCHIVE PAYWALL SCREEN ==================== -->
+    <string name="archive_paywall_title">Padam dengan Yakin</string>
+    <string name="archive_paywall_subtitle">Arkibkan fail ke awan sebelum memadam. Dapatkan semula bila-bila masa.</string>
+    <string name="archive_paywall_safety_title">Jaring Keselamatan</string>
+    <string name="archive_paywall_safety_subtitle">Jangan hilang fail penting lagi</string>
+    <string name="archive_paywall_retrieve_title">Dapatkan Semula Bila-bila Masa</string>
+    <string name="archive_paywall_retrieve_subtitle">Muat turun fail arkib bila anda memerlukannya</string>
+    <string name="archive_paywall_encrypted_title">Storan Disulitkan</string>
+    <string name="archive_paywall_encrypted_subtitle">Data anda sentiasa disulitkan dan peribadi</string>
+    <string name="archive_paywall_choose_plan">Pilih Pelan Anda</string>
+    <string name="archive_paywall_current">SEMASA</string>
+    <string name="archive_paywall_subscribe">Langgan</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">Tetapan</string>
+    <string name="settings_account">Akaun</string>
+    <string name="settings_sign_in">Log Masuk</string>
+    <string name="settings_subscription">Langganan</string>
+    <string name="settings_upgrade_pro">Naik Taraf ke Pro</string>
+    <string name="settings_features">Ciri-ciri</string>
+    <string name="settings_secret_space">Ruang Rahsia</string>
+    <string name="settings_email_cleanup">Pembersihan E-mel</string>
+    <string name="settings_widgets">Widget</string>
+    <string name="settings_about">Tentang</string>
+    <string name="settings_privacy_policy">Dasar Privasi</string>
+    <string name="settings_terms">Terma Perkhidmatan</string>
+    <string name="settings_rate_us">Nilai Kami</string>
+    <string name="settings_version">Versi 1.1 (2)</string>
+
+    <!-- ==================== NAV / LOGIN / PLACEHOLDER ==================== -->
+    <string name="nav_home">Utama</string>
+    <string name="nav_photos">Foto</string>
+    <string name="nav_videos">Video</string>
+    <string name="nav_contacts">Kenalan</string>
+    <string name="nav_settings">Tetapan</string>
+    <string name="login_title">Log Masuk</string>
+    <string name="login_coming_soon">Akan Datang</string>
+    <string name="login_coming_soon_subtitle">Log masuk akaun akan tersedia dalam kemas kini akan datang.</string>
+    <string name="login_email">E-mel</string>
+    <string name="login_password">Kata Laluan</string>
+    <string name="login_button">Log Masuk</string>
+    <string name="placeholder_coming_soon">%s - Akan Datang</string>
+    <string name="email_cleanup_title">Pembersihan E-mel</string>
+    <string name="widgets_title">Widget</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="back_cd">Kembali</string>
+    <string name="delete_button">Padam</string>
+</resources>

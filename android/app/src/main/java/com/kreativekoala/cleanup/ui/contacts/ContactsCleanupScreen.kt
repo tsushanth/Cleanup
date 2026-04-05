@@ -21,11 +21,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.data.model.ContactItem
 import com.kreativekoala.cleanup.data.model.DuplicateContactGroup
 
@@ -38,7 +40,10 @@ fun ContactsCleanupScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     var selectedTab by remember { mutableIntStateOf(0) }
-    val tabs = listOf("Duplicates", "Incomplete")
+    val tabs = listOf(
+        stringResource(R.string.contacts_tab_duplicates),
+        stringResource(R.string.contacts_tab_incomplete)
+    )
 
     // Permission handling
     val context = LocalContext.current
@@ -64,10 +69,10 @@ fun ContactsCleanupScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Contact Cleanup") },
+                title = { Text(stringResource(R.string.contacts_title)) },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.back_cd))
                     }
                 }
             )
@@ -84,15 +89,15 @@ fun ContactsCleanupScreen(
                     modifier = Modifier.padding(horizontal = 32.dp)
                 ) {
                     Icon(Icons.Default.Contacts, null, Modifier.size(64.dp), MaterialTheme.colorScheme.primary)
-                    Text("Contact Access Required", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+                    Text(stringResource(R.string.contacts_access_required), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
                     Text(
-                        "Cleanup needs access to your contacts to find duplicates and incomplete entries.",
+                        stringResource(R.string.contacts_access_message),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         textAlign = TextAlign.Center
                     )
                     Button(onClick = { permissionLauncher.launch(contactPermissions) }, shape = RoundedCornerShape(12.dp)) {
-                        Text("Grant Access")
+                        Text(stringResource(R.string.contacts_grant_access))
                     }
                 }
             }
@@ -146,10 +151,10 @@ fun ContactsCleanupScreen(
         AlertDialog(
             onDismissRequest = { viewModel.dismissPaywall() },
             icon = { Icon(Icons.Default.Star, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(40.dp)) },
-            title = { Text("Upgrade to Pro", textAlign = TextAlign.Center) },
+            title = { Text(stringResource(R.string.upgrade_title), textAlign = TextAlign.Center) },
             text = {
                 Text(
-                    "You've used all your free cleanups for this category. Upgrade to Pro for unlimited access.",
+                    stringResource(R.string.upgrade_message),
                     textAlign = TextAlign.Center
                 )
             },
@@ -158,12 +163,12 @@ fun ContactsCleanupScreen(
                     viewModel.dismissPaywall()
                     onNavigateToPaywall()
                 }) {
-                    Text("Upgrade")
+                    Text(stringResource(R.string.upgrade_button))
                 }
             },
             dismissButton = {
                 TextButton(onClick = { viewModel.dismissPaywall() }) {
-                    Text("Not Now")
+                    Text(stringResource(R.string.upgrade_not_now))
                 }
             }
         )
@@ -179,7 +184,7 @@ private fun DuplicatesTab(
     viewModel: ContactsCleanupViewModel
 ) {
     if (groups.isEmpty() && !isScanning) {
-        EmptyState(title = "No Duplicates", subtitle = "Your contacts are clean!")
+        EmptyState(title = stringResource(R.string.contacts_no_duplicates_title), subtitle = stringResource(R.string.contacts_no_duplicates_subtitle))
     } else {
         LazyColumn(
             contentPadding = PaddingValues(16.dp),
@@ -209,7 +214,7 @@ private fun DuplicateGroupCard(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    "${group.contacts.size} duplicates",
+                    stringResource(R.string.contacts_n_duplicates, group.contacts.size),
                     style = MaterialTheme.typography.titleSmall,
                     fontWeight = FontWeight.Bold
                 )
@@ -247,7 +252,7 @@ private fun DuplicateGroupCard(
                     onClick = { viewModel.showMergeSheet(group) },
                     modifier = Modifier.weight(1f)
                 ) {
-                    Text("Merge All")
+                    Text(stringResource(R.string.contacts_merge_all))
                 }
                 OutlinedButton(
                     onClick = { viewModel.deleteDuplicatesInGroup(group) },
@@ -256,7 +261,7 @@ private fun DuplicateGroupCard(
                         contentColor = MaterialTheme.colorScheme.error
                     )
                 ) {
-                    Text("Delete Dupes")
+                    Text(stringResource(R.string.contacts_delete_dupes))
                 }
             }
         }
@@ -290,7 +295,7 @@ private fun ContactRow(contact: ContactItem) {
 
         Column(modifier = Modifier.weight(1f)) {
             Text(
-                contact.displayName.ifEmpty { "No Name" },
+                contact.displayName.ifEmpty { stringResource(R.string.contacts_no_name) },
                 style = MaterialTheme.typography.bodyMedium,
                 fontWeight = FontWeight.Medium
             )
@@ -321,7 +326,7 @@ private fun IncompleteTab(
     viewModel: ContactsCleanupViewModel
 ) {
     if (contacts.isEmpty() && !isScanning) {
-        EmptyState(title = "No Incomplete Contacts", subtitle = "All contacts have complete information")
+        EmptyState(title = stringResource(R.string.contacts_no_incomplete_title), subtitle = stringResource(R.string.contacts_no_incomplete_subtitle))
     } else {
         var selectAll by remember { mutableStateOf(false) }
 
@@ -335,7 +340,7 @@ private fun IncompleteTab(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    "${contacts.size} incomplete",
+                    stringResource(R.string.contacts_n_incomplete, contacts.size),
                     style = MaterialTheme.typography.titleSmall,
                     fontWeight = FontWeight.Bold
                 )
@@ -343,7 +348,7 @@ private fun IncompleteTab(
                     selectAll = !selectAll
                     viewModel.selectAllIncomplete(selectAll)
                 }) {
-                    Text(if (selectAll) "Deselect All" else "Select All")
+                    Text(if (selectAll) stringResource(R.string.photos_deselect_all) else stringResource(R.string.photos_select_all))
                 }
             }
 
@@ -373,7 +378,7 @@ private fun IncompleteTab(
                     ),
                     shape = RoundedCornerShape(12.dp)
                 ) {
-                    Text("Delete Selected (${viewModel.selectedIncompleteCount})")
+                    Text(stringResource(R.string.contacts_delete_selected, viewModel.selectedIncompleteCount))
                 }
             }
         }
@@ -422,13 +427,13 @@ private fun MergeContactsSheet(
     ModalBottomSheet(onDismissRequest = onDismiss) {
         Column(modifier = Modifier.padding(16.dp)) {
             Text(
-                "Merge Contacts",
+                stringResource(R.string.contacts_merge_title),
                 style = MaterialTheme.typography.titleLarge,
                 fontWeight = FontWeight.Bold
             )
             Spacer(modifier = Modifier.height(8.dp))
             Text(
-                "Select the primary contact to keep. Information from other contacts will be merged into it.",
+                stringResource(R.string.contacts_merge_subtitle),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
@@ -467,7 +472,7 @@ private fun MergeContactsSheet(
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(12.dp)
             ) {
-                Text("Merge Contacts")
+                Text(stringResource(R.string.contacts_merge_button))
             }
 
             Spacer(modifier = Modifier.height(32.dp))
@@ -492,7 +497,7 @@ private fun ScanningOverlay() {
                 verticalArrangement = Arrangement.spacedBy(16.dp)
             ) {
                 CircularProgressIndicator()
-                Text("Scanning contacts...", style = MaterialTheme.typography.titleMedium)
+                Text(stringResource(R.string.contacts_scanning), style = MaterialTheme.typography.titleMedium)
             }
         }
     }

@@ -24,6 +24,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
@@ -33,6 +34,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.FragmentActivity
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.data.model.VaultFileType
 import com.kreativekoala.cleanup.data.model.VaultItem
 import com.kreativekoala.cleanup.util.ByteFormatter
@@ -115,10 +117,10 @@ private fun VaultLockScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Vault") },
+                title = { Text(stringResource(R.string.vault_title)) },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.back_cd))
                     }
                 }
             )
@@ -143,7 +145,7 @@ private fun VaultLockScreen(
             Spacer(modifier = Modifier.height(16.dp))
 
             Text(
-                "Secret Space",
+                stringResource(R.string.vault_secret_space),
                 style = MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.Bold
             )
@@ -151,7 +153,7 @@ private fun VaultLockScreen(
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                "Enter your PIN to access",
+                stringResource(R.string.vault_enter_pin),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
@@ -212,7 +214,7 @@ private fun VaultLockScreen(
                         modifier = Modifier.size(24.dp)
                     )
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text("Use Biometrics")
+                    Text(stringResource(R.string.vault_use_biometrics))
                 }
             }
         }
@@ -229,9 +231,9 @@ private fun showBiometricPrompt(activity: FragmentActivity, onSuccess: () -> Uni
 
     val prompt = BiometricPrompt(activity, executor, callback)
     val promptInfo = BiometricPrompt.PromptInfo.Builder()
-        .setTitle("Access Secret Space")
-        .setSubtitle("Use your fingerprint or face to unlock")
-        .setNegativeButtonText("Use PIN")
+        .setTitle(activity.getString(R.string.vault_biometric_title))
+        .setSubtitle(activity.getString(R.string.vault_biometric_subtitle))
+        .setNegativeButtonText(activity.getString(R.string.vault_biometric_negative))
         .build()
 
     prompt.authenticate(promptInfo)
@@ -248,7 +250,7 @@ private fun NumberPad(
         listOf("1", "2", "3"),
         listOf("4", "5", "6"),
         listOf("7", "8", "9"),
-        listOf("", "0", "⌫")
+        listOf("", "0", "\u232B")
     )
 
     Column(
@@ -264,7 +266,7 @@ private fun NumberPad(
                         key = key,
                         onClick = {
                             when (key) {
-                                "⌫" -> onBackspace()
+                                "\u232B" -> onBackspace()
                                 "" -> {}
                                 else -> onDigit(key)
                             }
@@ -289,14 +291,14 @@ private fun NumberPadButton(key: String, onClick: () -> Unit) {
             .clip(CircleShape)
             .clickable(onClick = onClick),
         shape = CircleShape,
-        color = if (key == "⌫") Color.Transparent
+        color = if (key == "\u232B") Color.Transparent
         else MaterialTheme.colorScheme.surfaceVariant
     ) {
         Box(contentAlignment = Alignment.Center) {
-            if (key == "⌫") {
+            if (key == "\u232B") {
                 Icon(
                     Icons.Default.Backspace,
-                    contentDescription = "Delete",
+                    contentDescription = stringResource(R.string.vault_backspace_cd),
                     modifier = Modifier.size(24.dp)
                 )
             } else {
@@ -338,7 +340,7 @@ private fun SetupPinDialog(onPinSet: (String) -> Unit) {
             Spacer(modifier = Modifier.height(16.dp))
 
             Text(
-                if (isConfirming) "Confirm Your PIN" else "Create Your PIN",
+                if (isConfirming) stringResource(R.string.vault_confirm_pin) else stringResource(R.string.vault_create_pin),
                 style = MaterialTheme.typography.headlineSmall,
                 fontWeight = FontWeight.Bold
             )
@@ -346,8 +348,8 @@ private fun SetupPinDialog(onPinSet: (String) -> Unit) {
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                if (isConfirming) "Enter the same PIN again"
-                else "Choose a 4-digit PIN to protect your vault",
+                if (isConfirming) stringResource(R.string.vault_confirm_pin_subtitle)
+                else stringResource(R.string.vault_create_pin_subtitle),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 textAlign = TextAlign.Center
@@ -377,7 +379,7 @@ private fun SetupPinDialog(onPinSet: (String) -> Unit) {
             if (showError) {
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    "PINs don't match. Please try again.",
+                    stringResource(R.string.vault_pin_mismatch),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.error
                 )
@@ -447,15 +449,18 @@ private fun VaultContentScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Secret Space") },
+                title = { Text(stringResource(R.string.vault_secret_space)) },
                 navigationIcon = {
                     IconButton(onClick = onLock) {
-                        Icon(Icons.Default.Lock, contentDescription = "Lock")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
                     }
                 },
                 actions = {
+                    IconButton(onClick = onLock) {
+                        Icon(Icons.Default.Lock, contentDescription = stringResource(R.string.vault_lock_cd))
+                    }
                     IconButton(onClick = onAddItems) {
-                        Icon(Icons.Default.Add, contentDescription = "Add items")
+                        Icon(Icons.Default.Add, contentDescription = stringResource(R.string.vault_add_cd))
                     }
                 }
             )
@@ -483,7 +488,7 @@ private fun VaultContentScreen(
                     Spacer(modifier = Modifier.height(16.dp))
 
                     Text(
-                        "Your vault is empty",
+                        stringResource(R.string.vault_empty_title),
                         style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.SemiBold
                     )
@@ -491,7 +496,7 @@ private fun VaultContentScreen(
                     Spacer(modifier = Modifier.height(8.dp))
 
                     Text(
-                        "Add photos and videos to keep them private",
+                        stringResource(R.string.vault_empty_subtitle),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         textAlign = TextAlign.Center
@@ -502,7 +507,7 @@ private fun VaultContentScreen(
                     Button(onClick = onAddItems) {
                         Icon(Icons.Default.Add, contentDescription = null)
                         Spacer(modifier = Modifier.width(8.dp))
-                        Text("Add Items")
+                        Text(stringResource(R.string.vault_add_items))
                     }
                 }
             }
@@ -542,7 +547,7 @@ private fun VaultContentScreen(
                     ) {
                         CircularProgressIndicator()
                         Spacer(modifier = Modifier.height(16.dp))
-                        Text("Adding to vault...")
+                        Text(stringResource(R.string.vault_adding))
                     }
                 }
             }
@@ -573,15 +578,15 @@ private fun VaultContentScreen(
     if (uiState.showDeleteConfirmation) {
         AlertDialog(
             onDismissRequest = onDismissConfirmations,
-            title = { Text("Delete Item") },
-            text = { Text("This will permanently delete the item from your vault.") },
+            title = { Text(stringResource(R.string.vault_delete_title)) },
+            text = { Text(stringResource(R.string.vault_delete_message)) },
             confirmButton = {
                 TextButton(onClick = onDeleteItem) {
-                    Text("Delete", color = MaterialTheme.colorScheme.error)
+                    Text(stringResource(R.string.vault_delete_button), color = MaterialTheme.colorScheme.error)
                 }
             },
             dismissButton = {
-                TextButton(onClick = onDismissConfirmations) { Text("Cancel") }
+                TextButton(onClick = onDismissConfirmations) { Text(stringResource(R.string.cancel)) }
             }
         )
     }
@@ -590,13 +595,13 @@ private fun VaultContentScreen(
     if (uiState.showRestoreConfirmation) {
         AlertDialog(
             onDismissRequest = onDismissConfirmations,
-            title = { Text("Restore Item") },
-            text = { Text("This will restore the item to your Photos library.") },
+            title = { Text(stringResource(R.string.vault_restore_title)) },
+            text = { Text(stringResource(R.string.vault_restore_message)) },
             confirmButton = {
-                TextButton(onClick = onRestoreItem) { Text("Restore") }
+                TextButton(onClick = onRestoreItem) { Text(stringResource(R.string.vault_restore_button)) }
             },
             dismissButton = {
-                TextButton(onClick = onDismissConfirmations) { Text("Cancel") }
+                TextButton(onClick = onDismissConfirmations) { Text(stringResource(R.string.cancel)) }
             }
         )
     }
@@ -678,7 +683,6 @@ private fun AddToVaultSheet(
         contract = ActivityResultContracts.OpenMultipleDocuments()
     ) { uris ->
         for (uri in uris) {
-            // Get file info
             var fileName = "Unknown"
             var fileSize = 0L
             context.contentResolver.query(uri, null, null, null, null)?.use { cursor ->
@@ -697,7 +701,6 @@ private fun AddToVaultSheet(
                 else -> VaultFileType.DOCUMENT
             }
 
-            // Take persistent permission
             try {
                 context.contentResolver.takePersistableUriPermission(
                     uri, android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION
@@ -709,7 +712,6 @@ private fun AddToVaultSheet(
         if (uris.isEmpty()) onDismiss()
     }
 
-    // Photo/Video picker
     val mediaLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.PickMultipleVisualMedia()
     ) { uris ->
@@ -743,7 +745,7 @@ private fun AddToVaultSheet(
                 .padding(24.dp)
         ) {
             Text(
-                "Add to Vault",
+                stringResource(R.string.vault_add_to_vault),
                 style = MaterialTheme.typography.titleLarge,
                 fontWeight = FontWeight.Bold
             )
@@ -751,14 +753,13 @@ private fun AddToVaultSheet(
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                "Select items to add to your vault",
+                stringResource(R.string.vault_select_items_subtitle),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Photos & Videos option
             Button(
                 onClick = {
                     mediaLauncher.launch(
@@ -772,12 +773,11 @@ private fun AddToVaultSheet(
             ) {
                 Icon(Icons.Default.PhotoLibrary, contentDescription = null)
                 Spacer(modifier = Modifier.width(8.dp))
-                Text("Select from Photos")
+                Text(stringResource(R.string.vault_select_from_photos))
             }
 
             Spacer(modifier = Modifier.height(12.dp))
 
-            // Files option
             OutlinedButton(
                 onClick = {
                     launcher.launch(arrayOf("image/*", "video/*", "application/pdf"))
@@ -787,7 +787,7 @@ private fun AddToVaultSheet(
             ) {
                 Icon(Icons.Default.FolderOpen, contentDescription = null)
                 Spacer(modifier = Modifier.width(8.dp))
-                Text("Select from Files")
+                Text(stringResource(R.string.vault_select_from_files))
             }
 
             Spacer(modifier = Modifier.height(32.dp))
@@ -813,7 +813,6 @@ private fun ItemDetailSheet(
                 .fillMaxWidth()
                 .padding(24.dp)
         ) {
-            // Thumbnail
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -845,7 +844,6 @@ private fun ItemDetailSheet(
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // File info
             Text(
                 item.fileName,
                 style = MaterialTheme.typography.titleMedium,
@@ -857,20 +855,19 @@ private fun ItemDetailSheet(
             Spacer(modifier = Modifier.height(4.dp))
 
             Text(
-                "Added: ${dateFormat.format(Date(item.addedDate))}",
+                stringResource(R.string.vault_added_date, dateFormat.format(Date(item.addedDate))),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
 
             Text(
-                "Size: ${ByteFormatter.format(item.fileSize)}",
+                stringResource(R.string.vault_item_size, ByteFormatter.format(item.fileSize)),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Actions
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceEvenly
@@ -881,7 +878,7 @@ private fun ItemDetailSheet(
                 ) {
                     Icon(Icons.Default.Restore, contentDescription = null)
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text("Restore")
+                    Text(stringResource(R.string.vault_restore_button))
                 }
 
                 Spacer(modifier = Modifier.width(12.dp))
@@ -895,7 +892,7 @@ private fun ItemDetailSheet(
                 ) {
                     Icon(Icons.Default.Delete, contentDescription = null)
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text("Delete")
+                    Text(stringResource(R.string.delete_button))
                 }
             }
 

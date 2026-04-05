@@ -10,9 +10,11 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.domain.service.DownloadCleanupService
 import com.kreativekoala.cleanup.util.ByteFormatter
 import java.text.SimpleDateFormat
@@ -31,10 +33,10 @@ fun DownloadCleanupScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Downloads") },
+                title = { Text(stringResource(R.string.downloads_title)) },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.back_cd))
                     }
                 },
                 actions = {
@@ -43,7 +45,7 @@ fun DownloadCleanupScreen(
                             if (uiState.selectedFiles.isEmpty()) viewModel.selectAll()
                             else viewModel.deselectAll()
                         }) {
-                            Text(if (uiState.selectedFiles.isEmpty()) "Select All" else "Deselect")
+                            Text(if (uiState.selectedFiles.isEmpty()) stringResource(R.string.photos_select_all) else stringResource(R.string.downloads_deselect))
                         }
                     }
                 }
@@ -63,7 +65,7 @@ fun DownloadCleanupScreen(
                         } else {
                             Icon(Icons.Default.Delete, contentDescription = null)
                             Spacer(modifier = Modifier.width(8.dp))
-                            Text("Delete ${uiState.selectedFiles.size} files")
+                            Text(stringResource(R.string.downloads_delete_n_files, uiState.selectedFiles.size))
                         }
                     }
                 }
@@ -76,7 +78,7 @@ fun DownloadCleanupScreen(
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         CircularProgressIndicator()
                         Spacer(modifier = Modifier.height(16.dp))
-                        Text("Scanning downloads folder...")
+                        Text(stringResource(R.string.downloads_scanning))
                     }
                 }
             }
@@ -85,7 +87,7 @@ fun DownloadCleanupScreen(
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         Icon(Icons.Default.CheckCircle, null, Modifier.size(64.dp), tint = MaterialTheme.colorScheme.primary)
                         Spacer(modifier = Modifier.height(16.dp))
-                        Text("Downloads folder is clean!", style = MaterialTheme.typography.titleMedium)
+                        Text(stringResource(R.string.downloads_clean), style = MaterialTheme.typography.titleMedium)
                     }
                 }
             }
@@ -115,7 +117,7 @@ fun DownloadCleanupScreen(
                     val displayedFiles = viewModel.displayedFiles
                     val totalSize = displayedFiles.sumOf { it.size }
                     Text(
-                        "${displayedFiles.size} files (${ByteFormatter.format(totalSize)})",
+                        stringResource(R.string.downloads_summary, displayedFiles.size, ByteFormatter.format(totalSize)),
                         style = MaterialTheme.typography.titleSmall,
                         color = MaterialTheme.colorScheme.primary,
                         modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)

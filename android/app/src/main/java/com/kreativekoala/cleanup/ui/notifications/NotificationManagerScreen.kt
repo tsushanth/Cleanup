@@ -14,10 +14,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.core.graphics.drawable.toBitmap
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.domain.service.NotificationManagementService
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -34,10 +36,10 @@ fun NotificationManagerScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Notifications") },
+                title = { Text(stringResource(R.string.notifications_title)) },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.back_cd))
                     }
                 }
             )
@@ -49,7 +51,7 @@ fun NotificationManagerScreen(
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         CircularProgressIndicator()
                         Spacer(modifier = Modifier.height(16.dp))
-                        Text("Analyzing notifications...")
+                        Text(stringResource(R.string.notifications_analyzing))
                     }
                 }
             }
@@ -58,7 +60,7 @@ fun NotificationManagerScreen(
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         Icon(Icons.Default.NotificationsOff, null, Modifier.size(64.dp), tint = MaterialTheme.colorScheme.primary)
                         Spacer(modifier = Modifier.height(16.dp))
-                        Text("No apps found", style = MaterialTheme.typography.titleMedium)
+                        Text(stringResource(R.string.notifications_no_apps), style = MaterialTheme.typography.titleMedium)
                     }
                 }
             }
@@ -83,13 +85,13 @@ fun NotificationManagerScreen(
                                 Spacer(modifier = Modifier.width(12.dp))
                                 Column {
                                     Text(
-                                        "${uiState.apps.size} apps with notifications",
+                                        stringResource(R.string.notifications_apps_count, uiState.apps.size),
                                         style = MaterialTheme.typography.titleMedium,
                                         fontWeight = FontWeight.Bold,
                                         color = MaterialTheme.colorScheme.onSecondaryContainer
                                     )
                                     Text(
-                                        "Tap to manage notification settings for each app",
+                                        stringResource(R.string.notifications_manage_hint),
                                         style = MaterialTheme.typography.bodySmall,
                                         color = MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.7f)
                                     )
@@ -123,7 +125,7 @@ private fun NotificationAppItem(
         headlineContent = { Text(app.appName, maxLines = 1) },
         supportingContent = {
             Text(
-                if (app.isNotificationEnabled) "Notifications enabled" else "Notifications disabled",
+                if (app.isNotificationEnabled) stringResource(R.string.notifications_enabled) else stringResource(R.string.notifications_disabled),
                 style = MaterialTheme.typography.bodySmall,
                 color = if (app.isNotificationEnabled) MaterialTheme.colorScheme.onSurfaceVariant
                 else MaterialTheme.colorScheme.error
@@ -134,7 +136,7 @@ private fun NotificationAppItem(
         },
         trailingContent = {
             FilledTonalButton(onClick = onManage) {
-                Text("Manage")
+                Text(stringResource(R.string.notifications_manage_button))
             }
         }
     )

@@ -44,7 +44,7 @@ struct ContentView: View {
                 paywallCoordinator.trackDismiss()
             }
         }) {
-            PaywallView()
+            RemotePaywallView()
                 .presentationDetents([.large])
                 .presentationDragIndicator(.visible)
                 .interactiveDismissDisabled(entitlementManager.purchaseInProgress)

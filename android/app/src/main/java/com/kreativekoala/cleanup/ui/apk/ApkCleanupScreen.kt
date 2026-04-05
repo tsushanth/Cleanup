@@ -12,9 +12,11 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.domain.service.ApkCleanupService
 import com.kreativekoala.cleanup.util.ByteFormatter
 
@@ -31,10 +33,10 @@ fun ApkCleanupScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("APK Files") },
+                title = { Text(stringResource(R.string.apk_title)) },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.back_cd))
                     }
                 },
                 actions = {
@@ -43,7 +45,7 @@ fun ApkCleanupScreen(
                             if (uiState.selectedFiles.isEmpty()) viewModel.selectAll()
                             else viewModel.deselectAll()
                         }) {
-                            Text(if (uiState.selectedFiles.isEmpty()) "Select All" else "Deselect")
+                            Text(if (uiState.selectedFiles.isEmpty()) stringResource(R.string.photos_select_all) else stringResource(R.string.apk_deselect))
                         }
                     }
                 }
@@ -63,7 +65,7 @@ fun ApkCleanupScreen(
                         } else {
                             Icon(Icons.Default.Delete, contentDescription = null)
                             Spacer(modifier = Modifier.width(8.dp))
-                            Text("Delete ${uiState.selectedFiles.size} APKs")
+                            Text(stringResource(R.string.apk_delete_n, uiState.selectedFiles.size))
                         }
                     }
                 }
@@ -76,7 +78,7 @@ fun ApkCleanupScreen(
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         CircularProgressIndicator()
                         Spacer(modifier = Modifier.height(16.dp))
-                        Text("Scanning for APK files...")
+                        Text(stringResource(R.string.apk_scanning))
                     }
                 }
             }
@@ -85,7 +87,7 @@ fun ApkCleanupScreen(
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         Icon(Icons.Default.CheckCircle, null, Modifier.size(64.dp), tint = MaterialTheme.colorScheme.primary)
                         Spacer(modifier = Modifier.height(16.dp))
-                        Text("No APK files found!", style = MaterialTheme.typography.titleMedium)
+                        Text(stringResource(R.string.apk_none_found), style = MaterialTheme.typography.titleMedium)
                     }
                 }
             }
@@ -100,7 +102,7 @@ fun ApkCleanupScreen(
                             FilterChip(
                                 selected = uiState.filterStatus == null,
                                 onClick = { viewModel.setFilter(null) },
-                                label = { Text("All (${uiState.apkFiles.size})") }
+                                label = { Text(stringResource(R.string.apk_all_filter, uiState.apkFiles.size)) }
                             )
                         }
                         for (status in ApkCleanupService.ApkStatus.entries) {
@@ -120,7 +122,7 @@ fun ApkCleanupScreen(
                     // Total size
                     val totalSize = viewModel.filteredFiles.sumOf { it.size }
                     Text(
-                        "${viewModel.filteredFiles.size} files (${ByteFormatter.format(totalSize)})",
+                        stringResource(R.string.downloads_summary, viewModel.filteredFiles.size, ByteFormatter.format(totalSize)),
                         style = MaterialTheme.typography.titleSmall,
                         color = MaterialTheme.colorScheme.primary,
                         modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)

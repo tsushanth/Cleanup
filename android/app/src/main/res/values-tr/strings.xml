@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <!-- ==================== HOME SCREEN ==================== -->
+    <string name="home_title">Tek Dokunuşla Temizlik</string>
+    <string name="home_vault_cd">Kasa</string>
+    <string name="home_scanning">Taranıyor…</string>
+    <string name="home_one_tap_scan">Tek Dokunuşla Tara</string>
+    <string name="home_grant_access_scan">Erişim Ver ve Tara</string>
+    <string name="home_scanning_device">Cihazınız taranıyor…</string>
+    <string name="home_quick_actions">Hızlı İşlemler</string>
+    <string name="home_chip_duplicates">Yinelenenler</string>
+    <string name="home_chip_screenshots">Ekran Görüntüleri</string>
+    <string name="home_chip_large_videos">Büyük Videolar</string>
+    <string name="home_chip_compress">Sıkıştır</string>
+    <string name="home_chip_archive">Arşiv</string>
+    <string name="home_chip_downloads">İndirilenler</string>
+    <string name="home_chip_apk_files">APK Dosyaları</string>
+    <string name="home_smart_scan_results">Akıllı Tarama Sonuçları</string>
+    <string name="home_category_duplicate_photos">Yinelenen Fotoğraflar</string>
+    <string name="home_category_similar_photos">Benzer Fotoğraflar</string>
+    <string name="home_category_screenshots">Ekran Görüntüleri</string>
+    <string name="home_category_large_videos">Büyük Videolar</string>
+    <string name="home_category_duplicate_contacts">Yinelenen Kişiler</string>
+    <string name="home_file_management">Dosya Yönetimi</string>
+    <string name="home_category_downloads">İndirilenler</string>
+    <string name="home_category_apk_files">APK Dosyaları</string>
+    <string name="home_category_notification_manager">Bildirim Yöneticisi</string>
+    <string name="home_storage_used">%s kullanılıyor</string>
+    <string name="home_storage_total">%s toplam</string>
+    <string name="home_storage_full">Depolama alanınız %d%% dolu</string>
+    <string name="home_items_count">%d öğe</string>
+    <string name="home_items_count_savings">%1$d öğe \u00B7 %2$s</string>
+    <string name="home_tap_to_scan">Taramak için dokunun</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_welcome_title">Telefonunuz gereksiz dosyalarla dolu</string>
+    <string name="onboarding_welcome_subtitle">Yinelenen fotoğraflar, eski ekran görüntüleri, büyük videolar \u2014 depolama alanınızı tüketiyorlar. Bunu düzeltelim.</string>
+    <string name="onboarding_welcome_button">Haydi Temizleyelim</string>
+    <string name="onboarding_media_granted_title">Medya erişimi verildi!</string>
+    <string name="onboarding_media_request_title">Fotoğraf ve videolarınıza erişin</string>
+    <string name="onboarding_media_granted_subtitle">Tüm fotoğraf ve videolarınızı yinelenenler, benzer çekimler ve büyük dosyalar için tarayacağız.</string>
+    <string name="onboarding_media_request_subtitle">Yinelenenleri bulmak ve alan açmak için fotoğraf ve videolarınıza erişmemiz gerekiyor.</string>
+    <string name="onboarding_feature_private_title">%100 Gizli</string>
+    <string name="onboarding_feature_private_subtitle">Tüm tarama cihazda gerçekleşir</string>
+    <string name="onboarding_feature_fast_title">Hızlı Tarama</string>
+    <string name="onboarding_feature_fast_subtitle">30 saniyeden kısa sürer</string>
+    <string name="onboarding_feature_you_choose_title">Siz Seçin</string>
+    <string name="onboarding_feature_you_choose_subtitle">Onayınız olmadan hiçbir şey silinmez</string>
+    <string name="onboarding_continue">Devam</string>
+    <string name="onboarding_allow_photo_video">Fotoğraf ve Video Erişimine İzin Ver</string>
+    <string name="onboarding_skip">Şimdilik atla</string>
+    <string name="onboarding_contact_granted_title">Kişi erişimi verildi!</string>
+    <string name="onboarding_contact_request_title">Kişilerinizi temizleyin</string>
+    <string name="onboarding_contact_granted_subtitle">Yinelenen ve eksik kişileri bulacağız, böylece birleştirebilir veya kaldırabilirsiniz.</string>
+    <string name="onboarding_contact_request_subtitle">Adres defterinizi düzenli tutmak için yinelenen kişileri bulun ve birleştirin.</string>
+    <string name="onboarding_feature_find_dupes_title">Yinelenenleri Bul</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Aynı ad veya numaraya sahip kişileri tespit et</string>
+    <string name="onboarding_feature_smart_merge_title">Akıllı Birleştirme</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Yinelenenleri tek bir kişide birleştir</string>
+    <string name="onboarding_feature_safe_title">Güvenli</string>
+    <string name="onboarding_feature_safe_subtitle">Değişikliklerden önce inceleme yapın</string>
+    <string name="onboarding_allow_contact">Kişi Erişimine İzin Ver</string>
+    <string name="onboarding_ready_title">Hazır!</string>
+    <string name="onboarding_ready_subtitle">Her şeyi taramak ve temizlemeye başlamak için aşağıdaki düğmeye dokunun.</string>
+    <string name="onboarding_photos_videos">Fotoğraflar ve videolar</string>
+    <string name="onboarding_contact_access">Kişi erişimi</string>
+    <string name="onboarding_free_duplicates">5 ücretsiz yinelenen silme</string>
+    <string name="onboarding_free_similar">5 ücretsiz benzer fotoğraf temizliği</string>
+    <string name="onboarding_free_screenshots">5 ücretsiz ekran görüntüsü silme</string>
+    <string name="onboarding_free_videos">5 ücretsiz video temizliği</string>
+    <string name="onboarding_free_contacts">5 ücretsiz kişi birleştirme</string>
+    <string name="onboarding_free_label">ÜCRETSİZ</string>
+    <string name="onboarding_get_started">Tara ve Başla</string>
+
+    <!-- ==================== PAYWALL SCREEN ==================== -->
+    <string name="paywall_close_cd">Kapat</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">yıllık</string>
+    <string name="paywall_per_month">aylık</string>
+    <string name="paywall_feature_unlimited_title">Sınırsız Temizlik</string>
+    <string name="paywall_feature_unlimited_subtitle">Cihazınızı istediğiniz kadar temizleyin</string>
+    <string name="paywall_feature_duplicates_title">Yinelenenleri ve Benzerleri Sil</string>
+    <string name="paywall_feature_duplicates_subtitle">Yinelenen fotoğrafları anında bulun ve kaldırın</string>
+    <string name="paywall_feature_videos_title">Büyük Video Yönetimi</string>
+    <string name="paywall_feature_videos_subtitle">Yer kaplayan videoları sıkıştırın veya silin</string>
+    <string name="paywall_feature_private_title">Gizli ve Güvenli</string>
+    <string name="paywall_feature_private_subtitle">Tüm tarama cihazınızda gerçekleşir</string>
+    <string name="paywall_best_value">EN İYİ DEĞER</string>
+    <string name="paywall_save_75">Aylığa göre %%75 tasarruf edin</string>
+    <string name="paywall_continue">Devam</string>
+    <string name="paywall_restore">Satın Alımları Geri Yükle</string>
+    <string name="paywall_terms">Abonelikler otomatik olarak yenilenir. İstediğiniz zaman Google Play ayarlarından iptal edebilirsiniz.</string>
+
+    <!-- ==================== PHOTOS CLEANUP SCREEN ==================== -->
+    <string name="photos_title">Fotoğraf Temizliği</string>
+    <string name="photos_back_cd">Geri</string>
+    <string name="photos_change_folder_cd">Klasör değiştir</string>
+    <string name="photos_delete_count">%d Sil</string>
+    <string name="photos_select_title">Analiz Edilecek Fotoğrafları Seçin</string>
+    <string name="photos_select_subtitle">Yinelenen ve ekran görüntüsü tespiti için fotoğrafları nasıl sağlamak istediğinizi seçin.</string>
+    <string name="photos_select_all_folder">Tümünü Seç (Klasör Erişimi)</string>
+    <string name="photos_select_all_hint">Tüm fotoğrafları taramak için DCIM veya Resimler klasörüne erişim verin</string>
+    <string name="photos_choose">Fotoğraf Seç</string>
+    <string name="photos_choose_hint">Analiz edilecek belirli fotoğrafları seçin</string>
+    <string name="photos_selected_count">%d seçildi</string>
+    <string name="photos_save_amount">%s tasarruf edin</string>
+    <string name="photos_tab_duplicates">Yinelenenler</string>
+    <string name="photos_tab_similar">Benzerler</string>
+    <string name="photos_tab_screenshots">Ekran Görüntüleri</string>
+    <string name="photos_no_duplicates_title">Yinelenen Bulunamadı</string>
+    <string name="photos_no_duplicates_subtitle">Fotoğraf kitaplığınız temiz!</string>
+    <string name="photos_duplicates_summary">%2$d grupta %1$d yinelenen</string>
+    <string name="photos_select_all">Tümünü Seç</string>
+    <string name="photos_deselect_all">Seçimi Kaldır</string>
+    <string name="photos_n_duplicates">%d yinelenen</string>
+    <string name="photos_keep_best">En İyisini Koru</string>
+    <string name="photos_no_similar_title">Benzer Fotoğraf Yok</string>
+    <string name="photos_no_similar_subtitle">Benzer fotoğraf grubu bulunamadı</string>
+    <string name="photos_similar_summary">%2$d grupta %1$d benzer</string>
+    <string name="photos_n_similar">%d benzer fotoğraf</string>
+    <string name="photos_percent_similar">%d%% benzer</string>
+    <string name="photos_keep_best_select_others">En İyisini Koru, Diğerlerini Seç</string>
+    <string name="photos_no_screenshots_title">Ekran Görüntüsü Yok</string>
+    <string name="photos_no_screenshots_subtitle">Kitaplığınızda ekran görüntüsü bulunamadı</string>
+    <string name="photos_n_screenshots">%d ekran görüntüsü</string>
+    <string name="photos_selected_cd">Seçildi</string>
+    <string name="photos_best_badge">EN İYİ</string>
+    <string name="photos_scanning">Fotoğraflar taranıyor…</string>
+    <string name="photos_delete_title">%d Fotoğraf Silinsin mi?</string>
+    <string name="photos_delete_message">Seçilen fotoğraflar cihazınızdan kalıcı olarak silinecektir. Bu işlem geri alınamaz.</string>
+    <string name="photos_delete_permanently">Kalıcı Olarak Sil</string>
+    <string name="cancel">İptal</string>
+
+    <!-- ==================== UPGRADE / PAYWALL DIALOG ==================== -->
+    <string name="upgrade_title">Pro\'ya Yükselt</string>
+    <string name="upgrade_message">Bu kategori için tüm ücretsiz temizliklerinizi kullandınız. Sınırsız erişim için Pro\'ya yükseltin.</string>
+    <string name="upgrade_button">Yükselt</string>
+    <string name="upgrade_not_now">Şimdi Değil</string>
+
+    <!-- ==================== VAULT SCREEN ==================== -->
+    <string name="vault_title">Kasa</string>
+    <string name="vault_lock_cd">Kilitle</string>
+    <string name="vault_add_cd">Öğe ekle</string>
+    <string name="vault_secret_space">Gizli Alan</string>
+    <string name="vault_enter_pin">Erişmek için PIN\'inizi girin</string>
+    <string name="vault_use_biometrics">Biyometri Kullan</string>
+    <string name="vault_biometric_title">Gizli Alana Eriş</string>
+    <string name="vault_biometric_subtitle">Kilidini açmak için parmak izinizi veya yüzünüzü kullanın</string>
+    <string name="vault_biometric_negative">PIN Kullan</string>
+    <string name="vault_backspace_cd">Sil</string>
+    <string name="vault_create_pin">PIN\'inizi Oluşturun</string>
+    <string name="vault_confirm_pin">PIN\'inizi Onaylayın</string>
+    <string name="vault_create_pin_subtitle">Kasanızı korumak için 4 haneli bir PIN seçin</string>
+    <string name="vault_confirm_pin_subtitle">Aynı PIN\'i tekrar girin</string>
+    <string name="vault_pin_mismatch">PIN\'ler eşleşmiyor. Lütfen tekrar deneyin.</string>
+    <string name="vault_empty_title">Kasanız boş</string>
+    <string name="vault_empty_subtitle">Gizli tutmak için fotoğraf ve videolar ekleyin</string>
+    <string name="vault_add_items">Öğe Ekle</string>
+    <string name="vault_adding">Kasaya ekleniyor…</string>
+    <string name="vault_add_to_vault">Kasaya Ekle</string>
+    <string name="vault_select_items_subtitle">Kasanıza eklemek için öğeler seçin</string>
+    <string name="vault_select_from_photos">Fotoğraflardan Seç</string>
+    <string name="vault_select_from_files">Dosyalardan Seç</string>
+    <string name="vault_delete_title">Öğeyi Sil</string>
+    <string name="vault_delete_message">Bu öğe kasanızdan kalıcı olarak silinecektir.</string>
+    <string name="vault_delete_button">Sil</string>
+    <string name="vault_restore_title">Öğeyi Geri Yükle</string>
+    <string name="vault_restore_message">Bu öğe Fotoğraflar kitaplığınıza geri yüklenecektir.</string>
+    <string name="vault_restore_button">Geri Yükle</string>
+    <string name="vault_added_date">Eklenme: %s</string>
+    <string name="vault_item_size">Boyut: %s</string>
+
+    <!-- ==================== CONTACTS CLEANUP SCREEN ==================== -->
+    <string name="contacts_title">Kişi Temizliği</string>
+    <string name="contacts_tab_duplicates">Yinelenenler</string>
+    <string name="contacts_tab_incomplete">Eksik</string>
+    <string name="contacts_access_required">Kişi Erişimi Gerekli</string>
+    <string name="contacts_access_message">Temizlik, yinelenenleri ve eksik kayıtları bulmak için kişilerinize erişmeye ihtiyaç duyar.</string>
+    <string name="contacts_grant_access">Erişim Ver</string>
+    <string name="contacts_no_duplicates_title">Yinelenen Yok</string>
+    <string name="contacts_no_duplicates_subtitle">Kişileriniz temiz!</string>
+    <string name="contacts_n_duplicates">%d yinelenen</string>
+    <string name="contacts_merge_all">Tümünü Birleştir</string>
+    <string name="contacts_delete_dupes">Yinelenenleri Sil</string>
+    <string name="contacts_no_name">İsimsiz</string>
+    <string name="contacts_no_incomplete_title">Eksik Kişi Yok</string>
+    <string name="contacts_no_incomplete_subtitle">Tüm kişiler eksiksiz bilgiye sahip</string>
+    <string name="contacts_n_incomplete">%d eksik</string>
+    <string name="contacts_delete_selected">Seçilenleri Sil (%d)</string>
+    <string name="contacts_merge_title">Kişileri Birleştir</string>
+    <string name="contacts_merge_subtitle">Saklamak için birincil kişiyi seçin. Diğer kişilerdeki bilgiler buna birleştirilecektir.</string>
+    <string name="contacts_merge_button">Kişileri Birleştir</string>
+    <string name="contacts_scanning">Kişiler taranıyor…</string>
+
+    <!-- ==================== VIDEOS CLEANUP SCREEN ==================== -->
+    <string name="videos_title">Video Temizliği</string>
+    <string name="videos_delete_count">%d Sil</string>
+    <string name="videos_select_title">Analiz Edilecek Videoları Seçin</string>
+    <string name="videos_select_subtitle">Büyük dosya tespiti ve sıkıştırma için videoları nasıl sağlamak istediğinizi seçin.</string>
+    <string name="videos_select_all_folder">Tümünü Seç (Klasör Erişimi)</string>
+    <string name="videos_select_all_hint">Tüm videoları taramak için DCIM veya medya klasörüne erişim verin</string>
+    <string name="videos_choose">Video Seç</string>
+    <string name="videos_choose_hint">Analiz edilecek belirli videoları seçin</string>
+    <string name="videos_tab_large">Büyük Videolar</string>
+    <string name="videos_tab_compress">Sıkıştır</string>
+    <string name="videos_no_large_title">Büyük Video Yok</string>
+    <string name="videos_no_large_subtitle">50MB üzeri video bulunamadı</string>
+    <string name="videos_n_large">%d büyük video</string>
+    <string name="videos_delete_title">%d Video Silinsin mi?</string>
+    <string name="videos_delete_message">Seçilen videolar kalıcı olarak silinecektir. Bu işlem geri alınamaz.</string>
+    <string name="videos_no_compress_title">Video Yok</string>
+    <string name="videos_no_compress_subtitle">Sıkıştırılabilir video bulunamadı</string>
+    <string name="videos_compression_quality">Sıkıştırma Kalitesi</string>
+    <string name="videos_select_videos">Video Seç</string>
+    <string name="videos_n_selected">%d seçildi</string>
+    <string name="videos_compress_n">%d Video Sıkıştır</string>
+    <string name="videos_scanning">Videolar taranıyor…</string>
+    <string name="videos_compressing_title">Video Sıkıştırılıyor</string>
+
+    <!-- ==================== DOWNLOADS SCREEN ==================== -->
+    <string name="downloads_title">İndirilenler</string>
+    <string name="downloads_deselect">Seçimi Kaldır</string>
+    <string name="downloads_delete_n_files">%d dosyayı sil</string>
+    <string name="downloads_scanning">İndirilenler klasörü taranıyor…</string>
+    <string name="downloads_clean">İndirilenler klasörü temiz!</string>
+    <string name="downloads_summary">%1$d dosya (%2$s)</string>
+
+    <!-- ==================== APK SCREEN ==================== -->
+    <string name="apk_title">APK Dosyaları</string>
+    <string name="apk_deselect">Seçimi Kaldır</string>
+    <string name="apk_delete_n">%d APK Sil</string>
+    <string name="apk_scanning">APK dosyaları aranıyor…</string>
+    <string name="apk_none_found">APK dosyası bulunamadı!</string>
+    <string name="apk_all_filter">Tümü (%d)</string>
+
+    <!-- ==================== NOTIFICATIONS SCREEN ==================== -->
+    <string name="notifications_title">Bildirimler</string>
+    <string name="notifications_analyzing">Bildirimler analiz ediliyor…</string>
+    <string name="notifications_no_apps">Uygulama bulunamadı</string>
+    <string name="notifications_apps_count">%d bildirimli uygulama</string>
+    <string name="notifications_manage_hint">Her uygulama için bildirim ayarlarını yönetmek için dokunun</string>
+    <string name="notifications_enabled">Bildirimler açık</string>
+    <string name="notifications_disabled">Bildirimler kapalı</string>
+    <string name="notifications_manage_button">Yönet</string>
+
+    <!-- ==================== ARCHIVE SCREEN ==================== -->
+    <string name="archive_title">Bulut Arşivi</string>
+    <string name="archive_sync_cd">Senkronize et</string>
+    <string name="archive_storage_used">Kullanılan Depolama</string>
+    <string name="archive_empty_title">Arşivlenmiş öğe yok</string>
+    <string name="archive_empty_subtitle">Cihaz alanı açmak için temizlik ekranlarından fotoğraf ve videoları arşivleyin</string>
+    <string name="archive_items_count">%d öğe arşivlendi</string>
+    <string name="archive_detail_archived">Arşivlenme: %s</string>
+    <string name="archive_detail_size">Boyut: %s</string>
+    <string name="archive_detail_tier">Katman: %s</string>
+    <string name="archive_retrieve_button">Geri Al</string>
+    <string name="archive_delete_title">Arşivlenmiş Öğeyi Sil</string>
+    <string name="archive_delete_message">Bu öğe arşivinizden kalıcı olarak kaldırılacaktır. Bu işlem geri alınamaz.</string>
+    <string name="archive_success_title">Başarıyla Arşivlendi</string>
+    <string name="archive_success_message">%d öğe buluta arşivlendi.</string>
+    <string name="archive_restore_success_title">Başarıyla Geri Yüklendi</string>
+    <string name="archive_restore_success_message">Öğe cihazınıza geri yüklendi.</string>
+    <string name="archive_error_title">Hata</string>
+    <string name="ok">Tamam</string>
+
+    <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
+    <string name="archive_signin_title">Bulut Arşivi İçin Giriş Yapın</string>
+    <string name="archive_signin_subtitle">Cihazınızdan silmeden önce fotoğraf ve videolarınızı buluta arşivleyin</string>
+    <string name="archive_signin_encrypted_title">Uçtan Uca Şifreleme</string>
+    <string name="archive_signin_encrypted_subtitle">Verileriniz cihazınızdan çıkmadan önce şifrelenir</string>
+    <string name="archive_signin_retrieve_title">İstediğiniz Zaman Geri Alın</string>
+    <string name="archive_signin_retrieve_subtitle">Arşivlenmiş dosyalarınızı ihtiyacınız olduğunda indirin</string>
+    <string name="archive_signin_private_title">Gizli ve Güvenli</string>
+    <string name="archive_signin_private_subtitle">Şifre hatırlamaya gerek yok \u2014 Google ile giriş yapın</string>
+    <string name="archive_signin_google">Google ile giriş yap</string>
+    <string name="archive_signin_privacy">Verileriniz yalnızca bulut arşiv depolaması için kullanılır. Bilgilerinizi asla paylaşmaz veya satmayız.</string>
+
+    <!-- ==================== ARCHIVE PAYWALL SCREEN ==================== -->
+    <string name="archive_paywall_title">Güvenle Silin</string>
+    <string name="archive_paywall_subtitle">Silmeden önce dosyaları buluta arşivleyin. İstediğiniz zaman geri alın.</string>
+    <string name="archive_paywall_safety_title">Güvenlik Ağı</string>
+    <string name="archive_paywall_safety_subtitle">Önemli dosyalarınızı bir daha asla kaybetmeyin</string>
+    <string name="archive_paywall_retrieve_title">İstediğiniz Zaman Geri Alın</string>
+    <string name="archive_paywall_retrieve_subtitle">Arşivlenmiş dosyaları ihtiyacınız olduğunda indirin</string>
+    <string name="archive_paywall_encrypted_title">Şifreli Depolama</string>
+    <string name="archive_paywall_encrypted_subtitle">Verileriniz her zaman şifreli ve gizlidir</string>
+    <string name="archive_paywall_choose_plan">Planınızı Seçin</string>
+    <string name="archive_paywall_current">MEVCUT</string>
+    <string name="archive_paywall_subscribe">Abone Ol</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_account">Hesap</string>
+    <string name="settings_sign_in">Giriş Yap</string>
+    <string name="settings_subscription">Abonelik</string>
+    <string name="settings_upgrade_pro">Pro\'ya Yükselt</string>
+    <string name="settings_features">Özellikler</string>
+    <string name="settings_secret_space">Gizli Alan</string>
+    <string name="settings_email_cleanup">E-posta Temizliği</string>
+    <string name="settings_widgets">Widget\'lar</string>
+    <string name="settings_about">Hakkında</string>
+    <string name="settings_privacy_policy">Gizlilik Politikası</string>
+    <string name="settings_terms">Kullanım Koşulları</string>
+    <string name="settings_rate_us">Bizi Değerlendirin</string>
+    <string name="settings_version">Sürüm 1.1 (2)</string>
+
+    <!-- ==================== NAV / LOGIN / PLACEHOLDER ==================== -->
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_photos">Fotoğraflar</string>
+    <string name="nav_videos">Videolar</string>
+    <string name="nav_contacts">Kişiler</string>
+    <string name="nav_settings">Ayarlar</string>
+    <string name="login_title">Giriş Yap</string>
+    <string name="login_coming_soon">Yakında</string>
+    <string name="login_coming_soon_subtitle">Hesap girişi gelecek bir güncellemede kullanılabilir olacaktır.</string>
+    <string name="login_email">E-posta</string>
+    <string name="login_password">Şifre</string>
+    <string name="login_button">Giriş Yap</string>
+    <string name="placeholder_coming_soon">%s - Yakında</string>
+    <string name="email_cleanup_title">E-posta Temizliği</string>
+    <string name="widgets_title">Widget\'lar</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="back_cd">Geri</string>
+    <string name="delete_button">Sil</string>
+</resources>

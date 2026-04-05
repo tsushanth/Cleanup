@@ -34,6 +34,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
@@ -42,6 +43,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.data.model.DuplicateGroup
 import com.kreativekoala.cleanup.data.model.PhotoAsset
 import com.kreativekoala.cleanup.data.model.SimilarPhotoGroup
@@ -57,7 +59,11 @@ fun PhotosCleanupScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     var selectedTab by remember { mutableIntStateOf(initialTab) }
-    val tabs = listOf("Duplicates", "Similar", "Screenshots")
+    val tabs = listOf(
+        stringResource(R.string.photos_tab_duplicates),
+        stringResource(R.string.photos_tab_similar),
+        stringResource(R.string.photos_tab_screenshots)
+    )
 
     // SAF folder picker launcher ("Select All")
     val folderPickerLauncher = rememberLauncherForActivityResult(
@@ -94,10 +100,10 @@ fun PhotosCleanupScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Photo Cleanup") },
+                title = { Text(stringResource(R.string.photos_title)) },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.back_cd))
                     }
                 },
                 actions = {
@@ -106,7 +112,7 @@ fun PhotosCleanupScreen(
                         IconButton(onClick = {
                             folderPickerLauncher.launch(null)
                         }) {
-                            Icon(Icons.Default.FolderOpen, contentDescription = "Change folder")
+                            Icon(Icons.Default.FolderOpen, contentDescription = stringResource(R.string.photos_change_folder_cd))
                         }
                     }
                     AnimatedVisibility(visible = viewModel.selectedCount > 0) {
@@ -123,7 +129,7 @@ fun PhotosCleanupScreen(
                                     modifier = Modifier.size(18.dp)
                                 )
                                 Spacer(modifier = Modifier.width(4.dp))
-                                Text("Delete ${viewModel.selectedCount}")
+                                Text(stringResource(R.string.photos_delete_count, viewModel.selectedCount))
                             }
                         }
                     }
@@ -149,12 +155,12 @@ fun PhotosCleanupScreen(
                         MaterialTheme.colorScheme.primary
                     )
                     Text(
-                        "Select Photos to Analyze",
+                        stringResource(R.string.photos_select_title),
                         style = MaterialTheme.typography.titleLarge,
                         fontWeight = FontWeight.SemiBold
                     )
                     Text(
-                        "Choose how you'd like to provide photos for duplicate and screenshot detection.",
+                        stringResource(R.string.photos_select_subtitle),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         textAlign = TextAlign.Center
@@ -170,11 +176,11 @@ fun PhotosCleanupScreen(
                     ) {
                         Icon(Icons.Default.Folder, contentDescription = null)
                         Spacer(modifier = Modifier.width(8.dp))
-                        Text("Select All (Folder Access)")
+                        Text(stringResource(R.string.photos_select_all_folder))
                     }
 
                     Text(
-                        "Grant access to your DCIM or Pictures folder to scan all photos",
+                        stringResource(R.string.photos_select_all_hint),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         textAlign = TextAlign.Center
@@ -196,11 +202,11 @@ fun PhotosCleanupScreen(
                     ) {
                         Icon(Icons.Default.Photo, contentDescription = null)
                         Spacer(modifier = Modifier.width(8.dp))
-                        Text("Choose Photos")
+                        Text(stringResource(R.string.photos_choose))
                     }
 
                     Text(
-                        "Pick specific photos to analyze",
+                        stringResource(R.string.photos_choose_hint),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         textAlign = TextAlign.Center
@@ -222,13 +228,13 @@ fun PhotosCleanupScreen(
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Text(
-                            "${viewModel.selectedCount} selected",
+                            stringResource(R.string.photos_selected_count, viewModel.selectedCount),
                             style = MaterialTheme.typography.bodyMedium,
                             fontWeight = FontWeight.Medium
                         )
                         Spacer(modifier = Modifier.weight(1f))
                         Text(
-                            "Save ${viewModel.totalSavingsFormatted}",
+                            stringResource(R.string.photos_save_amount, viewModel.totalSavingsFormatted),
                             style = MaterialTheme.typography.bodyMedium,
                             color = MaterialTheme.colorScheme.primary,
                             fontWeight = FontWeight.Bold
@@ -283,9 +289,9 @@ fun PhotosCleanupScreen(
     if (uiState.showDeleteConfirmation) {
         AlertDialog(
             onDismissRequest = { viewModel.dismissDeleteConfirmation() },
-            title = { Text("Delete ${viewModel.selectedCount} Photos?") },
+            title = { Text(stringResource(R.string.photos_delete_title, viewModel.selectedCount)) },
             text = {
-                Text("This will permanently delete the selected photos from your device. This action cannot be undone.")
+                Text(stringResource(R.string.photos_delete_message))
             },
             confirmButton = {
                 TextButton(
@@ -294,12 +300,12 @@ fun PhotosCleanupScreen(
                         contentColor = MaterialTheme.colorScheme.error
                     )
                 ) {
-                    Text("Delete Permanently")
+                    Text(stringResource(R.string.photos_delete_permanently))
                 }
             },
             dismissButton = {
                 TextButton(onClick = { viewModel.dismissDeleteConfirmation() }) {
-                    Text("Cancel")
+                    Text(stringResource(R.string.cancel))
                 }
             }
         )
@@ -310,10 +316,10 @@ fun PhotosCleanupScreen(
         AlertDialog(
             onDismissRequest = { viewModel.dismissPaywall() },
             icon = { Icon(Icons.Default.Star, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(40.dp)) },
-            title = { Text("Upgrade to Pro", textAlign = TextAlign.Center) },
+            title = { Text(stringResource(R.string.upgrade_title), textAlign = TextAlign.Center) },
             text = {
                 Text(
-                    "You've used all your free cleanups for this category. Upgrade to Pro for unlimited access.",
+                    stringResource(R.string.upgrade_message),
                     textAlign = TextAlign.Center
                 )
             },
@@ -322,12 +328,12 @@ fun PhotosCleanupScreen(
                     viewModel.dismissPaywall()
                     onNavigateToPaywall()
                 }) {
-                    Text("Upgrade")
+                    Text(stringResource(R.string.upgrade_button))
                 }
             },
             dismissButton = {
                 TextButton(onClick = { viewModel.dismissPaywall() }) {
-                    Text("Not Now")
+                    Text(stringResource(R.string.upgrade_not_now))
                 }
             }
         )
@@ -346,8 +352,8 @@ private fun DuplicatesTab(
     if (groups.isEmpty() && !isScanning) {
         EmptyState(
             icon = Icons.Default.CheckCircle,
-            title = "No Duplicates Found",
-            subtitle = "Your photo library is clean!"
+            title = stringResource(R.string.photos_no_duplicates_title),
+            subtitle = stringResource(R.string.photos_no_duplicates_subtitle)
         )
     } else {
         var selectAll by remember { mutableStateOf(false) }
@@ -363,7 +369,7 @@ private fun DuplicatesTab(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        "${groups.sumOf { it.duplicateCount }} duplicates in ${groups.size} groups",
+                        stringResource(R.string.photos_duplicates_summary, groups.sumOf { it.duplicateCount }, groups.size),
                         style = MaterialTheme.typography.titleSmall,
                         fontWeight = FontWeight.Bold
                     )
@@ -372,7 +378,7 @@ private fun DuplicatesTab(
                         if (selectAll) viewModel.selectAllDuplicates()
                         else viewModel.deselectAllDuplicates()
                     }) {
-                        Text(if (selectAll) "Deselect All" else "Select All")
+                        Text(if (selectAll) stringResource(R.string.photos_deselect_all) else stringResource(R.string.photos_select_all))
                     }
                 }
             }
@@ -407,7 +413,7 @@ private fun DuplicateGroupCard(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    "${group.photos.size} duplicates",
+                    stringResource(R.string.photos_n_duplicates, group.photos.size),
                     style = MaterialTheme.typography.titleSmall,
                     fontWeight = FontWeight.Bold
                 )
@@ -443,10 +449,10 @@ private fun DuplicateGroupCard(
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 OutlinedButton(onClick = { viewModel.selectAllExceptBest(group) }) {
-                    Text("Keep Best")
+                    Text(stringResource(R.string.photos_keep_best))
                 }
                 OutlinedButton(onClick = { viewModel.selectAll(group) }) {
-                    Text("Select All")
+                    Text(stringResource(R.string.photos_select_all))
                 }
             }
         }
@@ -465,8 +471,8 @@ private fun SimilarPhotosTab(
     if (groups.isEmpty() && !isScanning) {
         EmptyState(
             icon = Icons.Default.PhotoLibrary,
-            title = "No Similar Photos",
-            subtitle = "No groups of similar photos found"
+            title = stringResource(R.string.photos_no_similar_title),
+            subtitle = stringResource(R.string.photos_no_similar_subtitle)
         )
     } else {
         var selectAll by remember { mutableStateOf(false) }
@@ -482,7 +488,7 @@ private fun SimilarPhotosTab(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        "${groups.sumOf { it.similarCount }} similar in ${groups.size} groups",
+                        stringResource(R.string.photos_similar_summary, groups.sumOf { it.similarCount }, groups.size),
                         style = MaterialTheme.typography.titleSmall,
                         fontWeight = FontWeight.Bold
                     )
@@ -491,7 +497,7 @@ private fun SimilarPhotosTab(
                         if (selectAll) viewModel.selectAllSimilar()
                         else viewModel.deselectAllSimilar()
                     }) {
-                        Text(if (selectAll) "Deselect All" else "Select All")
+                        Text(if (selectAll) stringResource(R.string.photos_deselect_all) else stringResource(R.string.photos_select_all))
                     }
                 }
             }
@@ -526,12 +532,12 @@ private fun SimilarGroupCard(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    "${group.photos.size} similar photos",
+                    stringResource(R.string.photos_n_similar, group.photos.size),
                     style = MaterialTheme.typography.titleSmall,
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    "${(group.similarityScore * 100).toInt()}% similar",
+                    stringResource(R.string.photos_percent_similar, (group.similarityScore * 100).toInt()),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
@@ -560,7 +566,7 @@ private fun SimilarGroupCard(
                 onClick = { viewModel.selectSuggestedToDelete(group) },
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Text("Keep Best, Select Others")
+                Text(stringResource(R.string.photos_keep_best_select_others))
             }
         }
     }
@@ -578,8 +584,8 @@ private fun ScreenshotsTab(
     if (screenshots.isEmpty() && !isScanning) {
         EmptyState(
             icon = Icons.Default.Screenshot,
-            title = "No Screenshots",
-            subtitle = "No screenshots found in your library"
+            title = stringResource(R.string.photos_no_screenshots_title),
+            subtitle = stringResource(R.string.photos_no_screenshots_subtitle)
         )
     } else {
         var selectAll by remember { mutableStateOf(false) }
@@ -594,7 +600,7 @@ private fun ScreenshotsTab(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    "${screenshots.size} screenshots",
+                    stringResource(R.string.photos_n_screenshots, screenshots.size),
                     style = MaterialTheme.typography.titleSmall,
                     fontWeight = FontWeight.Bold
                 )
@@ -603,7 +609,7 @@ private fun ScreenshotsTab(
                     if (selectAll) viewModel.selectAllScreenshots()
                     else viewModel.deselectAllScreenshots()
                 }) {
-                    Text(if (selectAll) "Deselect All" else "Select All")
+                    Text(if (selectAll) stringResource(R.string.photos_deselect_all) else stringResource(R.string.photos_select_all))
                 }
             }
 
@@ -679,7 +685,7 @@ private fun PhotoThumbnail(
             ) {
                 Icon(
                     Icons.Default.Check,
-                    contentDescription = "Selected",
+                    contentDescription = stringResource(R.string.photos_selected_cd),
                     tint = MaterialTheme.colorScheme.onPrimary,
                     modifier = Modifier.size(14.dp)
                 )
@@ -696,7 +702,7 @@ private fun PhotoThumbnail(
                     .padding(horizontal = 6.dp, vertical = 2.dp)
             ) {
                 Text(
-                    "BEST",
+                    stringResource(R.string.photos_best_badge),
                     color = Color.White,
                     fontSize = 9.sp,
                     fontWeight = FontWeight.Bold
@@ -766,7 +772,7 @@ private fun ScanningOverlay(progress: Float) {
                 CircularProgressIndicator()
 
                 Text(
-                    "Scanning photos...",
+                    stringResource(R.string.photos_scanning),
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Medium
                 )

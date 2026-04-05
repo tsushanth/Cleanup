@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <!-- ==================== HOME SCREEN ==================== -->
+    <string name="home_title">ล้างข้อมูลแตะเดียว</string>
+    <string name="home_vault_cd">ตู้นิรภัย</string>
+    <string name="home_scanning">กำลังสแกน…</string>
+    <string name="home_one_tap_scan">สแกนแตะเดียว</string>
+    <string name="home_grant_access_scan">ให้สิทธิ์ &amp; สแกน</string>
+    <string name="home_scanning_device">กำลังสแกนอุปกรณ์ของคุณ…</string>
+    <string name="home_quick_actions">การดำเนินการด่วน</string>
+    <string name="home_chip_duplicates">รายการซ้ำ</string>
+    <string name="home_chip_screenshots">ภาพหน้าจอ</string>
+    <string name="home_chip_large_videos">วิดีโอขนาดใหญ่</string>
+    <string name="home_chip_compress">บีบอัด</string>
+    <string name="home_chip_archive">คลังเก็บ</string>
+    <string name="home_chip_downloads">ดาวน์โหลด</string>
+    <string name="home_chip_apk_files">ไฟล์ APK</string>
+    <string name="home_smart_scan_results">ผลการสแกนอัจฉริยะ</string>
+    <string name="home_category_duplicate_photos">ภาพถ่ายซ้ำ</string>
+    <string name="home_category_similar_photos">ภาพถ่ายคล้ายกัน</string>
+    <string name="home_category_screenshots">ภาพหน้าจอ</string>
+    <string name="home_category_large_videos">วิดีโอขนาดใหญ่</string>
+    <string name="home_category_duplicate_contacts">ผู้ติดต่อซ้ำ</string>
+    <string name="home_file_management">จัดการไฟล์</string>
+    <string name="home_category_downloads">ดาวน์โหลด</string>
+    <string name="home_category_apk_files">ไฟล์ APK</string>
+    <string name="home_category_notification_manager">ตัวจัดการการแจ้งเตือน</string>
+    <string name="home_storage_used">ใช้ไป %s</string>
+    <string name="home_storage_total">ทั้งหมด %s</string>
+    <string name="home_storage_full">พื้นที่จัดเก็บเต็ม %d%%</string>
+    <string name="home_items_count">%d รายการ</string>
+    <string name="home_items_count_savings">%1$d รายการ \u00B7 %2$s</string>
+    <string name="home_tap_to_scan">แตะเพื่อสแกน</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_welcome_title">โทรศัพท์ของคุณเต็มไปด้วยไฟล์ไม่จำเป็น</string>
+    <string name="onboarding_welcome_subtitle">ภาพถ่ายซ้ำ ภาพหน้าจอเก่า วิดีโอขนาดใหญ่ \u2014 มันกินพื้นที่จัดเก็บของคุณ มาแก้ไขกันเถอะ</string>
+    <string name="onboarding_welcome_button">มาล้างข้อมูลกัน</string>
+    <string name="onboarding_media_granted_title">ให้สิทธิ์เข้าถึงสื่อแล้ว!</string>
+    <string name="onboarding_media_request_title">เข้าถึงภาพถ่ายและวิดีโอของคุณ</string>
+    <string name="onboarding_media_granted_subtitle">เราจะสแกนภาพถ่ายและวิดีโอทั้งหมดของคุณเพื่อหารายการซ้ำ ภาพคล้ายกัน และไฟล์ขนาดใหญ่</string>
+    <string name="onboarding_media_request_subtitle">เพื่อค้นหารายการซ้ำและเพิ่มพื้นที่ว่าง เราต้องการเข้าถึงภาพถ่ายและวิดีโอของคุณ</string>
+    <string name="onboarding_feature_private_title">เป็นส่วนตัว 100%</string>
+    <string name="onboarding_feature_private_subtitle">การสแกนทั้งหมดทำบนอุปกรณ์</string>
+    <string name="onboarding_feature_fast_title">สแกนเร็ว</string>
+    <string name="onboarding_feature_fast_subtitle">ใช้เวลาน้อยกว่า 30 วินาที</string>
+    <string name="onboarding_feature_you_choose_title">คุณเลือกเอง</string>
+    <string name="onboarding_feature_you_choose_subtitle">ไม่มีอะไรถูกลบโดยไม่ได้รับอนุมัติจากคุณ</string>
+    <string name="onboarding_continue">ดำเนินการต่อ</string>
+    <string name="onboarding_allow_photo_video">อนุญาตเข้าถึงภาพถ่ายและวิดีโอ</string>
+    <string name="onboarding_skip">ข้ามไปก่อน</string>
+    <string name="onboarding_contact_granted_title">ให้สิทธิ์เข้าถึงผู้ติดต่อแล้ว!</string>
+    <string name="onboarding_contact_request_title">ล้างข้อมูลผู้ติดต่อของคุณ</string>
+    <string name="onboarding_contact_granted_subtitle">เราจะค้นหาผู้ติดต่อซ้ำและไม่สมบูรณ์เพื่อให้คุณรวมหรือลบได้</string>
+    <string name="onboarding_contact_request_subtitle">ค้นหาและรวมผู้ติดต่อซ้ำเพื่อรักษาสมุดที่อยู่ให้เป็นระเบียบ</string>
+    <string name="onboarding_feature_find_dupes_title">ค้นหารายการซ้ำ</string>
+    <string name="onboarding_feature_find_dupes_subtitle">ตรวจจับผู้ติดต่อที่มีชื่อหรือหมายเลขเดียวกัน</string>
+    <string name="onboarding_feature_smart_merge_title">รวมอัจฉริยะ</string>
+    <string name="onboarding_feature_smart_merge_subtitle">รวมรายการซ้ำเป็นผู้ติดต่อเดียว</string>
+    <string name="onboarding_feature_safe_title">ปลอดภัย</string>
+    <string name="onboarding_feature_safe_subtitle">ตรวจสอบก่อนทำการเปลี่ยนแปลงใด ๆ</string>
+    <string name="onboarding_allow_contact">อนุญาตเข้าถึงผู้ติดต่อ</string>
+    <string name="onboarding_ready_title">พร้อมแล้ว!</string>
+    <string name="onboarding_ready_subtitle">แตะปุ่มด้านล่างเพื่อสแกนทุกอย่างและเริ่มล้างข้อมูล</string>
+    <string name="onboarding_photos_videos">ภาพถ่ายและวิดีโอ</string>
+    <string name="onboarding_contact_access">การเข้าถึงผู้ติดต่อ</string>
+    <string name="onboarding_free_duplicates">ลบรายการซ้ำฟรี 5 ครั้ง</string>
+    <string name="onboarding_free_similar">ล้างภาพถ่ายคล้ายกันฟรี 5 ครั้ง</string>
+    <string name="onboarding_free_screenshots">ลบภาพหน้าจอฟรี 5 ครั้ง</string>
+    <string name="onboarding_free_videos">ล้างวิดีโอฟรี 5 ครั้ง</string>
+    <string name="onboarding_free_contacts">รวมผู้ติดต่อฟรี 5 ครั้ง</string>
+    <string name="onboarding_free_label">ฟรี</string>
+    <string name="onboarding_get_started">สแกน &amp; เริ่มต้น</string>
+
+    <!-- ==================== PAYWALL SCREEN ==================== -->
+    <string name="paywall_close_cd">ปิด</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">ต่อปี</string>
+    <string name="paywall_per_month">ต่อเดือน</string>
+    <string name="paywall_feature_unlimited_title">ล้างข้อมูลไม่จำกัด</string>
+    <string name="paywall_feature_unlimited_subtitle">ล้างอุปกรณ์ของคุณบ่อยเท่าที่ต้องการ</string>
+    <string name="paywall_feature_duplicates_title">ลบรายการซ้ำ &amp; คล้ายกัน</string>
+    <string name="paywall_feature_duplicates_subtitle">ค้นหาและลบภาพถ่ายซ้ำทันที</string>
+    <string name="paywall_feature_videos_title">จัดการวิดีโอขนาดใหญ่</string>
+    <string name="paywall_feature_videos_subtitle">บีบอัดหรือลบวิดีโอที่กินพื้นที่</string>
+    <string name="paywall_feature_private_title">เป็นส่วนตัว &amp; ปลอดภัย</string>
+    <string name="paywall_feature_private_subtitle">การสแกนทั้งหมดทำบนอุปกรณ์ของคุณ</string>
+    <string name="paywall_best_value">คุ้มค่าที่สุด</string>
+    <string name="paywall_save_75">ประหยัด 75%% เทียบกับรายเดือน</string>
+    <string name="paywall_continue">ดำเนินการต่อ</string>
+    <string name="paywall_restore">กู้คืนการซื้อ</string>
+    <string name="paywall_terms">การสมัครสมาชิกต่ออายุอัตโนมัติ ยกเลิกได้ทุกเมื่อในการตั้งค่า Google Play</string>
+
+    <!-- ==================== PHOTOS CLEANUP SCREEN ==================== -->
+    <string name="photos_title">ล้างภาพถ่าย</string>
+    <string name="photos_back_cd">กลับ</string>
+    <string name="photos_change_folder_cd">เปลี่ยนโฟลเดอร์</string>
+    <string name="photos_delete_count">ลบ %d</string>
+    <string name="photos_select_title">เลือกภาพถ่ายเพื่อวิเคราะห์</string>
+    <string name="photos_select_subtitle">เลือกวิธีที่คุณต้องการให้ภาพถ่ายสำหรับการตรวจจับรายการซ้ำและภาพหน้าจอ</string>
+    <string name="photos_select_all_folder">เลือกทั้งหมด (เข้าถึงโฟลเดอร์)</string>
+    <string name="photos_select_all_hint">ให้สิทธิ์เข้าถึงโฟลเดอร์ DCIM หรือรูปภาพเพื่อสแกนภาพถ่ายทั้งหมด</string>
+    <string name="photos_choose">เลือกภาพถ่าย</string>
+    <string name="photos_choose_hint">เลือกภาพถ่ายเฉพาะเพื่อวิเคราะห์</string>
+    <string name="photos_selected_count">เลือก %d รายการ</string>
+    <string name="photos_save_amount">ประหยัด %s</string>
+    <string name="photos_tab_duplicates">ซ้ำ</string>
+    <string name="photos_tab_similar">คล้ายกัน</string>
+    <string name="photos_tab_screenshots">ภาพหน้าจอ</string>
+    <string name="photos_no_duplicates_title">ไม่พบรายการซ้ำ</string>
+    <string name="photos_no_duplicates_subtitle">คลังภาพถ่ายของคุณสะอาด!</string>
+    <string name="photos_duplicates_summary">%1$d รายการซ้ำใน %2$d กลุ่ม</string>
+    <string name="photos_select_all">เลือกทั้งหมด</string>
+    <string name="photos_deselect_all">ยกเลิกเลือกทั้งหมด</string>
+    <string name="photos_n_duplicates">%d รายการซ้ำ</string>
+    <string name="photos_keep_best">เก็บที่ดีที่สุด</string>
+    <string name="photos_no_similar_title">ไม่มีภาพถ่ายคล้ายกัน</string>
+    <string name="photos_no_similar_subtitle">ไม่พบกลุ่มภาพถ่ายคล้ายกัน</string>
+    <string name="photos_similar_summary">%1$d ภาพคล้ายกันใน %2$d กลุ่ม</string>
+    <string name="photos_n_similar">%d ภาพถ่ายคล้ายกัน</string>
+    <string name="photos_percent_similar">คล้ายกัน %d%%</string>
+    <string name="photos_keep_best_select_others">เก็บที่ดีที่สุด เลือกอื่น ๆ</string>
+    <string name="photos_no_screenshots_title">ไม่มีภาพหน้าจอ</string>
+    <string name="photos_no_screenshots_subtitle">ไม่พบภาพหน้าจอในคลังของคุณ</string>
+    <string name="photos_n_screenshots">%d ภาพหน้าจอ</string>
+    <string name="photos_selected_cd">เลือกแล้ว</string>
+    <string name="photos_best_badge">ดีที่สุด</string>
+    <string name="photos_scanning">กำลังสแกนภาพถ่าย…</string>
+    <string name="photos_delete_title">ลบ %d ภาพถ่าย?</string>
+    <string name="photos_delete_message">การดำเนินการนี้จะลบภาพถ่ายที่เลือกออกจากอุปกรณ์ของคุณอย่างถาวร ไม่สามารถยกเลิกได้</string>
+    <string name="photos_delete_permanently">ลบถาวร</string>
+    <string name="cancel">ยกเลิก</string>
+
+    <!-- ==================== UPGRADE / PAYWALL DIALOG ==================== -->
+    <string name="upgrade_title">อัปเกรดเป็น Pro</string>
+    <string name="upgrade_message">คุณใช้การล้างข้อมูลฟรีสำหรับหมวดหมู่นี้หมดแล้ว อัปเกรดเป็น Pro เพื่อเข้าถึงไม่จำกัด</string>
+    <string name="upgrade_button">อัปเกรด</string>
+    <string name="upgrade_not_now">ไม่ใช่ตอนนี้</string>
+
+    <!-- ==================== VAULT SCREEN ==================== -->
+    <string name="vault_title">ตู้นิรภัย</string>
+    <string name="vault_lock_cd">ล็อก</string>
+    <string name="vault_add_cd">เพิ่มรายการ</string>
+    <string name="vault_secret_space">พื้นที่ลับ</string>
+    <string name="vault_enter_pin">ป้อน PIN ของคุณเพื่อเข้าถึง</string>
+    <string name="vault_use_biometrics">ใช้ไบโอเมตริกซ์</string>
+    <string name="vault_biometric_title">เข้าถึงพื้นที่ลับ</string>
+    <string name="vault_biometric_subtitle">ใช้ลายนิ้วมือหรือใบหน้าเพื่อปลดล็อก</string>
+    <string name="vault_biometric_negative">ใช้ PIN</string>
+    <string name="vault_backspace_cd">ลบ</string>
+    <string name="vault_create_pin">สร้าง PIN ของคุณ</string>
+    <string name="vault_confirm_pin">ยืนยัน PIN ของคุณ</string>
+    <string name="vault_create_pin_subtitle">เลือก PIN 4 หลักเพื่อปกป้องตู้นิรภัยของคุณ</string>
+    <string name="vault_confirm_pin_subtitle">ป้อน PIN เดิมอีกครั้ง</string>
+    <string name="vault_pin_mismatch">PIN ไม่ตรงกัน กรุณาลองอีกครั้ง</string>
+    <string name="vault_empty_title">ตู้นิรภัยของคุณว่างเปล่า</string>
+    <string name="vault_empty_subtitle">เพิ่มภาพถ่ายและวิดีโอเพื่อรักษาความเป็นส่วนตัว</string>
+    <string name="vault_add_items">เพิ่มรายการ</string>
+    <string name="vault_adding">กำลังเพิ่มลงตู้นิรภัย…</string>
+    <string name="vault_add_to_vault">เพิ่มลงตู้นิรภัย</string>
+    <string name="vault_select_items_subtitle">เลือกรายการเพื่อเพิ่มลงตู้นิรภัยของคุณ</string>
+    <string name="vault_select_from_photos">เลือกจากภาพถ่าย</string>
+    <string name="vault_select_from_files">เลือกจากไฟล์</string>
+    <string name="vault_delete_title">ลบรายการ</string>
+    <string name="vault_delete_message">การดำเนินการนี้จะลบรายการจากตู้นิรภัยของคุณอย่างถาวร</string>
+    <string name="vault_delete_button">ลบ</string>
+    <string name="vault_restore_title">กู้คืนรายการ</string>
+    <string name="vault_restore_message">การดำเนินการนี้จะกู้คืนรายการไปยังคลังภาพถ่ายของคุณ</string>
+    <string name="vault_restore_button">กู้คืน</string>
+    <string name="vault_added_date">เพิ่มเมื่อ: %s</string>
+    <string name="vault_item_size">ขนาด: %s</string>
+
+    <!-- ==================== CONTACTS CLEANUP SCREEN ==================== -->
+    <string name="contacts_title">ล้างผู้ติดต่อ</string>
+    <string name="contacts_tab_duplicates">ซ้ำ</string>
+    <string name="contacts_tab_incomplete">ไม่สมบูรณ์</string>
+    <string name="contacts_access_required">ต้องการสิทธิ์เข้าถึงผู้ติดต่อ</string>
+    <string name="contacts_access_message">แอปต้องการเข้าถึงผู้ติดต่อของคุณเพื่อค้นหารายการซ้ำและรายการไม่สมบูรณ์</string>
+    <string name="contacts_grant_access">ให้สิทธิ์</string>
+    <string name="contacts_no_duplicates_title">ไม่มีรายการซ้ำ</string>
+    <string name="contacts_no_duplicates_subtitle">ผู้ติดต่อของคุณสะอาด!</string>
+    <string name="contacts_n_duplicates">%d รายการซ้ำ</string>
+    <string name="contacts_merge_all">รวมทั้งหมด</string>
+    <string name="contacts_delete_dupes">ลบรายการซ้ำ</string>
+    <string name="contacts_no_name">ไม่มีชื่อ</string>
+    <string name="contacts_no_incomplete_title">ไม่มีผู้ติดต่อไม่สมบูรณ์</string>
+    <string name="contacts_no_incomplete_subtitle">ผู้ติดต่อทั้งหมดมีข้อมูลครบถ้วน</string>
+    <string name="contacts_n_incomplete">%d ไม่สมบูรณ์</string>
+    <string name="contacts_delete_selected">ลบที่เลือก (%d)</string>
+    <string name="contacts_merge_title">รวมผู้ติดต่อ</string>
+    <string name="contacts_merge_subtitle">เลือกผู้ติดต่อหลักที่จะเก็บไว้ ข้อมูลจากผู้ติดต่ออื่น ๆ จะถูกรวมเข้าด้วยกัน</string>
+    <string name="contacts_merge_button">รวมผู้ติดต่อ</string>
+    <string name="contacts_scanning">กำลังสแกนผู้ติดต่อ…</string>
+
+    <!-- ==================== VIDEOS CLEANUP SCREEN ==================== -->
+    <string name="videos_title">ล้างวิดีโอ</string>
+    <string name="videos_delete_count">ลบ %d</string>
+    <string name="videos_select_title">เลือกวิดีโอเพื่อวิเคราะห์</string>
+    <string name="videos_select_subtitle">เลือกวิธีที่คุณต้องการให้วิดีโอสำหรับการตรวจจับไฟล์ขนาดใหญ่และการบีบอัด</string>
+    <string name="videos_select_all_folder">เลือกทั้งหมด (เข้าถึงโฟลเดอร์)</string>
+    <string name="videos_select_all_hint">ให้สิทธิ์เข้าถึงโฟลเดอร์ DCIM หรือสื่อเพื่อสแกนวิดีโอทั้งหมด</string>
+    <string name="videos_choose">เลือกวิดีโอ</string>
+    <string name="videos_choose_hint">เลือกวิดีโอเฉพาะเพื่อวิเคราะห์</string>
+    <string name="videos_tab_large">วิดีโอขนาดใหญ่</string>
+    <string name="videos_tab_compress">บีบอัด</string>
+    <string name="videos_no_large_title">ไม่มีวิดีโอขนาดใหญ่</string>
+    <string name="videos_no_large_subtitle">ไม่พบวิดีโอที่มีขนาดเกิน 50MB</string>
+    <string name="videos_n_large">%d วิดีโอขนาดใหญ่</string>
+    <string name="videos_delete_title">ลบ %d วิดีโอ?</string>
+    <string name="videos_delete_message">การดำเนินการนี้จะลบวิดีโอที่เลือกอย่างถาวร ไม่สามารถยกเลิกได้</string>
+    <string name="videos_no_compress_title">ไม่มีวิดีโอ</string>
+    <string name="videos_no_compress_subtitle">ไม่พบวิดีโอที่บีบอัดได้</string>
+    <string name="videos_compression_quality">คุณภาพการบีบอัด</string>
+    <string name="videos_select_videos">เลือกวิดีโอ</string>
+    <string name="videos_n_selected">เลือก %d รายการ</string>
+    <string name="videos_compress_n">บีบอัด %d วิดีโอ</string>
+    <string name="videos_scanning">กำลังสแกนวิดีโอ…</string>
+    <string name="videos_compressing_title">กำลังบีบอัดวิดีโอ</string>
+
+    <!-- ==================== DOWNLOADS SCREEN ==================== -->
+    <string name="downloads_title">ดาวน์โหลด</string>
+    <string name="downloads_deselect">ยกเลิกเลือก</string>
+    <string name="downloads_delete_n_files">ลบ %d ไฟล์</string>
+    <string name="downloads_scanning">กำลังสแกนโฟลเดอร์ดาวน์โหลด…</string>
+    <string name="downloads_clean">โฟลเดอร์ดาวน์โหลดสะอาด!</string>
+    <string name="downloads_summary">%1$d ไฟล์ (%2$s)</string>
+
+    <!-- ==================== APK SCREEN ==================== -->
+    <string name="apk_title">ไฟล์ APK</string>
+    <string name="apk_deselect">ยกเลิกเลือก</string>
+    <string name="apk_delete_n">ลบ %d APK</string>
+    <string name="apk_scanning">กำลังค้นหาไฟล์ APK…</string>
+    <string name="apk_none_found">ไม่พบไฟล์ APK!</string>
+    <string name="apk_all_filter">ทั้งหมด (%d)</string>
+
+    <!-- ==================== NOTIFICATIONS SCREEN ==================== -->
+    <string name="notifications_title">การแจ้งเตือน</string>
+    <string name="notifications_analyzing">กำลังวิเคราะห์การแจ้งเตือน…</string>
+    <string name="notifications_no_apps">ไม่พบแอป</string>
+    <string name="notifications_apps_count">%d แอปที่มีการแจ้งเตือน</string>
+    <string name="notifications_manage_hint">แตะเพื่อจัดการการตั้งค่าการแจ้งเตือนสำหรับแต่ละแอป</string>
+    <string name="notifications_enabled">เปิดการแจ้งเตือน</string>
+    <string name="notifications_disabled">ปิดการแจ้งเตือน</string>
+    <string name="notifications_manage_button">จัดการ</string>
+
+    <!-- ==================== ARCHIVE SCREEN ==================== -->
+    <string name="archive_title">คลังเก็บคลาวด์</string>
+    <string name="archive_sync_cd">ซิงค์</string>
+    <string name="archive_storage_used">พื้นที่จัดเก็บที่ใช้</string>
+    <string name="archive_empty_title">ไม่มีรายการที่เก็บในคลัง</string>
+    <string name="archive_empty_subtitle">เก็บภาพถ่ายและวิดีโอจากหน้าจอล้างข้อมูลเพื่อเพิ่มพื้นที่อุปกรณ์</string>
+    <string name="archive_items_count">เก็บในคลัง %d รายการ</string>
+    <string name="archive_detail_archived">เก็บเมื่อ: %s</string>
+    <string name="archive_detail_size">ขนาด: %s</string>
+    <string name="archive_detail_tier">ระดับ: %s</string>
+    <string name="archive_retrieve_button">เรียกคืน</string>
+    <string name="archive_delete_title">ลบรายการที่เก็บในคลัง</string>
+    <string name="archive_delete_message">การดำเนินการนี้จะลบรายการนี้จากคลังของคุณอย่างถาวร ไม่สามารถยกเลิกได้</string>
+    <string name="archive_success_title">เก็บในคลังสำเร็จ</string>
+    <string name="archive_success_message">เก็บ %d รายการไว้ในคลาวด์แล้ว</string>
+    <string name="archive_restore_success_title">กู้คืนสำเร็จ</string>
+    <string name="archive_restore_success_message">กู้คืนรายการไปยังอุปกรณ์ของคุณแล้ว</string>
+    <string name="archive_error_title">ข้อผิดพลาด</string>
+    <string name="ok">ตกลง</string>
+
+    <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
+    <string name="archive_signin_title">ลงชื่อเข้าใช้สำหรับคลังเก็บคลาวด์</string>
+    <string name="archive_signin_subtitle">เก็บภาพถ่ายและวิดีโอของคุณไว้ในคลาวด์ก่อนลบจากอุปกรณ์</string>
+    <string name="archive_signin_encrypted_title">เข้ารหัสแบบ End-to-End</string>
+    <string name="archive_signin_encrypted_subtitle">ข้อมูลของคุณถูกเข้ารหัสก่อนออกจากอุปกรณ์</string>
+    <string name="archive_signin_retrieve_title">เรียกคืนได้ทุกเมื่อ</string>
+    <string name="archive_signin_retrieve_subtitle">ดาวน์โหลดไฟล์ที่เก็บในคลังเมื่อใดก็ตามที่คุณต้องการ</string>
+    <string name="archive_signin_private_title">เป็นส่วนตัว &amp; ปลอดภัย</string>
+    <string name="archive_signin_private_subtitle">ไม่ต้องจำรหัสผ่าน \u2014 ลงชื่อเข้าใช้ด้วย Google</string>
+    <string name="archive_signin_google">ลงชื่อเข้าใช้ด้วย Google</string>
+    <string name="archive_signin_privacy">ข้อมูลของคุณใช้สำหรับพื้นที่จัดเก็บคลังเก็บคลาวด์เท่านั้น เราไม่เคยแบ่งปันหรือขายข้อมูลของคุณ</string>
+
+    <!-- ==================== ARCHIVE PAYWALL SCREEN ==================== -->
+    <string name="archive_paywall_title">ลบอย่างมั่นใจ</string>
+    <string name="archive_paywall_subtitle">เก็บไฟล์ไว้ในคลาวด์ก่อนลบ เรียกคืนได้ทุกเมื่อ</string>
+    <string name="archive_paywall_safety_title">ตาข่ายนิรภัย</string>
+    <string name="archive_paywall_safety_subtitle">ไม่สูญเสียไฟล์สำคัญอีกต่อไป</string>
+    <string name="archive_paywall_retrieve_title">เรียกคืนได้ทุกเมื่อ</string>
+    <string name="archive_paywall_retrieve_subtitle">ดาวน์โหลดไฟล์ที่เก็บในคลังเมื่อคุณต้องการ</string>
+    <string name="archive_paywall_encrypted_title">พื้นที่จัดเก็บเข้ารหัส</string>
+    <string name="archive_paywall_encrypted_subtitle">ข้อมูลของคุณถูกเข้ารหัสและเป็นส่วนตัวเสมอ</string>
+    <string name="archive_paywall_choose_plan">เลือกแผนของคุณ</string>
+    <string name="archive_paywall_current">ปัจจุบัน</string>
+    <string name="archive_paywall_subscribe">สมัครสมาชิก</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">การตั้งค่า</string>
+    <string name="settings_account">บัญชี</string>
+    <string name="settings_sign_in">ลงชื่อเข้าใช้</string>
+    <string name="settings_subscription">การสมัครสมาชิก</string>
+    <string name="settings_upgrade_pro">อัปเกรดเป็น Pro</string>
+    <string name="settings_features">คุณสมบัติ</string>
+    <string name="settings_secret_space">พื้นที่ลับ</string>
+    <string name="settings_email_cleanup">ล้างอีเมล</string>
+    <string name="settings_widgets">วิดเจ็ต</string>
+    <string name="settings_about">เกี่ยวกับ</string>
+    <string name="settings_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="settings_terms">ข้อกำหนดการบริการ</string>
+    <string name="settings_rate_us">ให้คะแนนเรา</string>
+    <string name="settings_version">เวอร์ชัน 1.1 (2)</string>
+
+    <!-- ==================== NAV / LOGIN / PLACEHOLDER ==================== -->
+    <string name="nav_home">หน้าแรก</string>
+    <string name="nav_photos">ภาพถ่าย</string>
+    <string name="nav_videos">วิดีโอ</string>
+    <string name="nav_contacts">ผู้ติดต่อ</string>
+    <string name="nav_settings">การตั้งค่า</string>
+    <string name="login_title">ลงชื่อเข้าใช้</string>
+    <string name="login_coming_soon">เร็ว ๆ นี้</string>
+    <string name="login_coming_soon_subtitle">การลงชื่อเข้าใช้บัญชีจะพร้อมใช้งานในการอัปเดตครั้งถัดไป</string>
+    <string name="login_email">อีเมล</string>
+    <string name="login_password">รหัสผ่าน</string>
+    <string name="login_button">ลงชื่อเข้าใช้</string>
+    <string name="placeholder_coming_soon">%s - เร็ว ๆ นี้</string>
+    <string name="email_cleanup_title">ล้างอีเมล</string>
+    <string name="widgets_title">วิดเจ็ต</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="back_cd">กลับ</string>
+    <string name="delete_button">ลบ</string>
+</resources>

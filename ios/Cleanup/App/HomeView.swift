@@ -41,7 +41,7 @@ struct HomeView: View {
                     .padding(.vertical, 8)
                     .background(Color(.systemGroupedBackground).opacity(0.95))
             }
-            .navigationTitle("Cleanup: One Tap")
+            .navigationTitle("SmartSpace")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(destination: VaultView()) {
@@ -554,10 +554,8 @@ struct ArchivePromoCard: View {
                 // Navigate to photos cleanup where archive toolbar button exists
                 appState.photosSelectedSegment = 0
                 appState.selectedTab = .photos
-            } else if entitlementManager.isPro {
-                paywallCoordinator.showArchivePaywall = true
             } else {
-                paywallCoordinator.showPaywall(context: .generic)
+                paywallCoordinator.showArchivePaywall = true
             }
         } label: {
             VStack(spacing: 14) {
@@ -579,10 +577,21 @@ struct ArchivePromoCard: View {
                     }
 
                     VStack(alignment: .leading, spacing: 3) {
-                        Text(hasArchive ? "Archive instead of deleting" : "Delete with confidence")
-                            .font(.subheadline)
-                            .fontWeight(.semibold)
-                            .foregroundColor(.primary)
+                        HStack(spacing: 6) {
+                            Text(hasArchive ? "Archive instead of deleting" : "Delete with confidence")
+                                .font(.subheadline)
+                                .fontWeight(.semibold)
+                                .foregroundColor(.primary)
+                            if !hasArchive {
+                                Text("SEPARATE FROM PRO")
+                                    .font(.system(size: 8, weight: .bold))
+                                    .foregroundColor(.cyan)
+                                    .padding(.horizontal, 5)
+                                    .padding(.vertical, 2)
+                                    .background(Color.cyan.opacity(0.12))
+                                    .cornerRadius(3)
+                            }
+                        }
 
                         Text(hasArchive
                              ? "Select items in Photos or Videos, then tap the archive button to save them to the cloud."
@@ -639,7 +648,7 @@ struct ArchivePromoCard: View {
         }
         .buttonStyle(PlainButtonStyle())
         .sheet(isPresented: $paywallCoordinator.showArchivePaywall) {
-            ArchivePaywallView()
+            RemoteArchivePaywallView()
                 .presentationDetents([.large])
         }
     }

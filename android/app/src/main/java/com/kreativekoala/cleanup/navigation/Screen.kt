@@ -1,5 +1,6 @@
 package com.kreativekoala.cleanup.navigation
 
+import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Contacts
 import androidx.compose.material.icons.filled.Home
@@ -7,6 +8,7 @@ import androidx.compose.material.icons.filled.Photo
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.VideoLibrary
 import androidx.compose.ui.graphics.vector.ImageVector
+import com.kreativekoala.cleanup.R
 
 sealed class Screen(val route: String) {
     // Bottom nav destinations
@@ -34,12 +36,12 @@ sealed class Screen(val route: String) {
 
 enum class BottomNavItem(
     val screen: Screen,
-    val label: String,
+    @StringRes val labelRes: Int,
     val icon: ImageVector
 ) {
-    HOME(Screen.Home, "Home", Icons.Default.Home),
-    PHOTOS(Screen.Photos, "Photos", Icons.Default.Photo),
-    VIDEOS(Screen.Videos, "Videos", Icons.Default.VideoLibrary),
-    CONTACTS(Screen.Contacts, "Contacts", Icons.Default.Contacts),
-    SETTINGS(Screen.Settings, "Settings", Icons.Default.Settings)
+    HOME(Screen.Home, R.string.nav_home, Icons.Default.Home),
+    PHOTOS(Screen.Photos, R.string.nav_photos, Icons.Default.Photo),
+    VIDEOS(Screen.Videos, R.string.nav_videos, Icons.Default.VideoLibrary),
+    CONTACTS(Screen.Contacts, R.string.nav_contacts, Icons.Default.Contacts),
+    SETTINGS(Screen.Settings, R.string.nav_settings, Icons.Default.Settings)
 }

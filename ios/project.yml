@@ -17,9 +17,12 @@ packages:
     url: https://github.com/firebase/firebase-ios-sdk
     majorVersion: 11.0.0
 
+localPackages:
+  - ../../PaywallKit
+
 settings:
   base:
-    MARKETING_VERSION: "4.1"
+    MARKETING_VERSION: "4.6"
     CURRENT_PROJECT_VERSION: "1"
     DEVELOPMENT_TEAM: "7RS696YC75"
     CODE_SIGN_STYLE: Automatic
@@ -46,8 +49,11 @@ targets:
       - package: TikTokBusinessSDK
       - package: RevenueCat
         product: RevenueCat
+      - package: RevenueCat
+        product: RevenueCatUI
       - package: Firebase
         product: FirebaseAnalytics
+      - package: PaywallKit
     entitlements:
       path: Cleanup/Cleanup.entitlements
       properties:
