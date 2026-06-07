@@ -14,6 +14,7 @@
 		13C47A4956811D060CAE6A4F /* VideoCompressionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C65BE29FA163CADCE91789 /* VideoCompressionService.swift */; };
 		13F8A132CED03416DC7BF2F5 /* ContactModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450492341460E0A63FE6BE6C /* ContactModels.swift */; };
 		1A08034ED71B569E1A1A58B7 /* ArchiveAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87125B2F759E1E2ACC762B28 /* ArchiveAPIClient.swift */; };
+		1CFC0CBC4ED445EA6F37960D /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2181D6AC286BC4B1DBAAF70 /* AdServices.framework */; };
 		1DA9F1DD5D90FC76BA1E16AA /* FreeUsageBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7AA1C1F51646722524D245 /* FreeUsageBanner.swift */; };
 		2D532FD443534C3DD1C35CCD /* ContactsCleanupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4581A1F558D1C3347E9D48E4 /* ContactsCleanupView.swift */; };
 		30553D79CA0A3B3C6221E468 /* VaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C8EC49C663952139AF9D1 /* VaultService.swift */; };
@@ -51,6 +52,7 @@
 		A5DA93BFF974FDD87C893114 /* RemotePaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314EC003D017869A4BB23095 /* RemotePaywallView.swift */; };
 		A72A166492DF10510BAFE492 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EB0B8C7651CA2B08DCFB7E45 /* FirebaseAnalytics */; };
 		A88D4EB293066D258A400579 /* VideosCleanupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A410A38F90AE7E5B3B966C62 /* VideosCleanupView.swift */; };
+		ABA8F4B18C4A002F39BC9C83 /* AttributionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3483FD6D5E26BDCF94A1F0 /* AttributionService.swift */; };
 		B2164A34FBFCB5287EA28444 /* ScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B8D7503336D8B9E41900C1 /* ScreenshotTests.swift */; };
 		B81CCE530C0E7AC0261B3155 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = C43CD994396D50D25588F664 /* RevenueCatUI */; };
 		BA63A774484FDC3B3817832C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276AE9BF32447E91EBBA12F /* OnboardingView.swift */; };
@@ -75,6 +77,7 @@
 		F357B31002655BBD2700F49E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF355137B41B130501B7AB /* HomeView.swift */; };
 		F882D03DA88C964B823AB516 /* RemoteArchivePaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F855DCA9EB39C4835A663 /* RemoteArchivePaywallView.swift */; };
 		FFB917FF024D9A6FFD0A613C /* ArchiveAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC489454EEBE9FFD1F3CDDAB /* ArchiveAuthService.swift */; };
+		RK_BUILD_001 /* RatingKit in Frameworks */ = {isa = PBXBuildFile; productRef = RK_REF_001 /* RatingKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +119,7 @@
 		376D58916BE1ADD719771E63 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		38EF675158ADAAD1A2E94472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3C96CF423E666C300DF54A8F /* ArchiveSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveSignInView.swift; sourceTree = "<group>"; };
+		3E3483FD6D5E26BDCF94A1F0 /* AttributionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttributionService.swift; sourceTree = "<group>"; };
 		3E8522A6CAAB44C398062C4A /* EmailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailModels.swift; sourceTree = "<group>"; };
 		4068F39EA91D97F067A8B11F /* ContactsCleanupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCleanupViewModel.swift; sourceTree = "<group>"; };
 		450492341460E0A63FE6BE6C /* ContactModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModels.swift; sourceTree = "<group>"; };
@@ -170,6 +174,7 @@
 		E9C6200B8E3A7ACEC8126500 /* WidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsView.swift; sourceTree = "<group>"; };
 		EBA7068DE0C0F8D049701B81 /* ChargingAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingAnimationsView.swift; sourceTree = "<group>"; };
 		ECF214E525E0F3AB1588510D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2181D6AC286BC4B1DBAAF70 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
 		F3E1736BDF231689CBC32A99 /* ChargingAnimationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingAnimationsViewModel.swift; sourceTree = "<group>"; };
 		F6F0270F2358B7673E928DEA /* ArchiveModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveModels.swift; sourceTree = "<group>"; };
 		FC489454EEBE9FFD1F3CDDAB /* ArchiveAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveAuthService.swift; sourceTree = "<group>"; };
@@ -193,6 +198,8 @@
 				B81CCE530C0E7AC0261B3155 /* RevenueCatUI in Frameworks */,
 				A72A166492DF10510BAFE492 /* FirebaseAnalytics in Frameworks */,
 				E23A3FF55E05D9E4F97D7C44 /* PaywallKit in Frameworks */,
+				RK_BUILD_001 /* RatingKit in Frameworks */,
+				1CFC0CBC4ED445EA6F37960D /* AdServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +243,7 @@
 				A7E6707BA4DC816FD25A3E9C /* StorageService.swift */,
 				CD8C8EC49C663952139AF9D1 /* VaultService.swift */,
 				A3C65BE29FA163CADCE91789 /* VideoCompressionService.swift */,
+				3E3483FD6D5E26BDCF94A1F0 /* AttributionService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -251,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				5C3FACB8C8CBF5C2FF05DC47 /* iOS */,
+				F2181D6AC286BC4B1DBAAF70 /* AdServices.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -763,6 +772,7 @@
 				C43CD994396D50D25588F664 /* RevenueCatUI */,
 				EB0B8C7651CA2B08DCFB7E45 /* FirebaseAnalytics */,
 				27A8C0D52AC377F725C372BE /* PaywallKit */,
+				RK_REF_001 /* RatingKit */,
 			);
 			productName = Cleanup;
 			productReference = 985799007D5DCF34D4D79EE5 /* Cleanup.app */;
@@ -828,6 +838,7 @@
 				534F41C43704C9EA29924FDE /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
 				B3C404D1DF40C3CF296C55CD /* XCRemoteSwiftPackageReference "tiktok-business-ios-sdk" */,
 				73E54DCF5DA25C8D6436B961 /* XCLocalSwiftPackageReference "PaywallKit" */,
+				RK_PACKAGE /* XCRemoteSwiftPackageReference "RatingKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8DC42A853D4356206B1B1478 /* Products */;
@@ -929,6 +940,7 @@
 				6BEF8EEDE7C97498CFDDBA51 /* VideosCleanupViewModel.swift in Sources */,
 				ED3C2F43234229DA20EEC769 /* WidgetsView.swift in Sources */,
 				642135B37BB5F7EF5D491F6C /* WinbackOfferView.swift in Sources */,
+				ABA8F4B18C4A002F39BC9C83 /* AttributionService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1073,7 +1085,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 7RS696YC75;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1093,7 +1105,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 4.6;
+				MARKETING_VERSION = 4.9.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1140,7 +1152,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 7RS696YC75;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1154,7 +1166,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 4.6;
+				MARKETING_VERSION = 4.9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1285,6 +1297,14 @@
 				minimumVersion = 11.0.0;
 			};
 		};
+		RK_PACKAGE /* XCRemoteSwiftPackageReference "RatingKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tsushanth/RatingKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1311,6 +1331,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DBEAD8B8CA0F562B873BAA1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
+		};
+		RK_REF_001 /* RatingKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = RK_PACKAGE /* XCRemoteSwiftPackageReference "RatingKit" */;
+			productName = RatingKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

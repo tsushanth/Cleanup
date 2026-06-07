@@ -2,6 +2,7 @@ import SwiftUI
 import TikTokBusinessSDK
 import FirebaseCore
 import AppTrackingTransparency
+import RatingKit
 
 // MARK: - App Delegate (Firebase + RevenueCat only — TikTok initialized after ATT)
 
@@ -12,6 +13,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
         // RevenueCat
         EntitlementManager.shared.configure()
+
+        // Apple Search Ads attribution (AdServices.framework)
+        AttributionService.shared.trackAttribution()
 
         return true
     }
@@ -40,17 +44,25 @@ struct CleanupApp: App {
         if ProcessInfo.processInfo.arguments.contains("-FASTLANE_SNAPSHOT") {
             UserDefaults.standard.set(true, forKey: "has_completed_onboarding")
         }
+
+        // Server-driven rating prompts with variant testing + offer-code redemption
+        RatingKit.configure(
+            appId: "smartspace",
+            apiUrl: "https://paywallkit-api.fly.dev"
+        )
     }
 
     var body: some Scene {
         WindowGroup {
             if hasCompletedOnboarding {
                 ContentView()
+                    .ratingPrompt()
                     .environmentObject(appState)
                     .environmentObject(entitlementManager)
                     .environmentObject(paywallCoordinator)
                     .task {
                         await entitlementManager.refreshEntitlements()
+                        RatingKit.shared.trackAppOpen()
                     }
                     .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
                         Task {
