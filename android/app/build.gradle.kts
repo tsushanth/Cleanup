@@ -8,14 +8,14 @@ plugins {
 
 android {
     namespace = "com.kreativekoala.cleanup"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.kreativekoala.smartspace"
         minSdk = 26
-        targetSdk = 35
-        versionCode = 7
-        versionName = "1.0.5"
+        targetSdk = 36
+        versionCode = 8
+        versionName = "1.0.6"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
