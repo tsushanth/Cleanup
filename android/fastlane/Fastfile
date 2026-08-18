@@ -1,8 +1,23 @@
 default_platform(:android)
 
 platform :android do
-  desc "Upload AAB to Play Store internal track"
+  desc "Upload AAB to Play Store production track"
   lane :deploy do
+    upload_to_play_store(
+      track: "production",
+      aab: "app/build/outputs/bundle/release/app-release.aab",
+      json_key: "/Users/sushanthtiruvaipati/Documents/apple_dev/cloud_credentials/summaryai-483115-a27fc5121150.json",
+      package_name: "com.kreativekoala.smartspace",
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true,
+      skip_upload_changelogs: true,
+      release_status: "completed"
+    )
+  end
+
+  desc "Upload AAB to Play Store internal track"
+  lane :deploy_internal do
     upload_to_play_store(
       track: "internal",
       aab: "app/build/outputs/bundle/release/app-release.aab",
