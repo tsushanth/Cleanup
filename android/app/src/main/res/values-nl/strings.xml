@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">Inloggen voor cloudarchief</string>
     <string name="archive_signin_subtitle">Archiveer je foto\'s en video\'s naar de cloud voordat je ze van je apparaat verwijdert</string>
-    <string name="archive_signin_encrypted_title">End-to-end versleuteld</string>
-    <string name="archive_signin_encrypted_subtitle">Je gegevens worden versleuteld voordat ze je apparaat verlaten</string>
+    <string name="archive_signin_encrypted_title">Versleutelde opslag</string>
+    <string name="archive_signin_encrypted_subtitle">Je bestanden worden versleuteld tijdens verzending en bij opslag op AWS</string>
     <string name="archive_signin_retrieve_title">Op elk moment ophalen</string>
     <string name="archive_signin_retrieve_subtitle">Download je gearchiveerde bestanden wanneer je ze nodig hebt</string>
     <string name="archive_signin_private_title">Privé &amp; veilig</string>

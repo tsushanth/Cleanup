@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">\u767b\u5f55\u4e91\u5f52\u6863</string>
     <string name="archive_signin_subtitle">\u5728\u4ece\u8bbe\u5907\u5220\u9664\u4e4b\u524d\uff0c\u5c06\u7167\u7247\u548c\u89c6\u9891\u5f52\u6863\u5230\u4e91\u7aef</string>
-    <string name="archive_signin_encrypted_title">\u7aef\u5230\u7aef\u52a0\u5bc6</string>
-    <string name="archive_signin_encrypted_subtitle">\u60a8\u7684\u6570\u636e\u5728\u79bb\u5f00\u8bbe\u5907\u524d\u5df2\u52a0\u5bc6</string>
+    <string name="archive_signin_encrypted_title">加密存储</string>
+    <string name="archive_signin_encrypted_subtitle">文件在传输过程中和存储在 AWS 时均会加密</string>
     <string name="archive_signin_retrieve_title">\u968f\u65f6\u68c0\u7d22</string>
     <string name="archive_signin_retrieve_subtitle">\u5728\u9700\u8981\u65f6\u4e0b\u8f7d\u5f52\u6863\u6587\u4ef6</string>
     <string name="archive_signin_private_title">\u79c1\u5bc6\u4e14\u5b89\u5168</string>

@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">Вход для облачного архива</string>
     <string name="archive_signin_subtitle">Архивируйте фото и видео в облако перед удалением с устройства</string>
-    <string name="archive_signin_encrypted_title">Сквозное шифрование</string>
-    <string name="archive_signin_encrypted_subtitle">Данные шифруются до отправки с устройства</string>
+    <string name="archive_signin_encrypted_title">Зашифрованное хранилище</string>
+    <string name="archive_signin_encrypted_subtitle">Ваши файлы шифруются при передаче и при хранении в AWS</string>
     <string name="archive_signin_retrieve_title">Извлечение в любое время</string>
     <string name="archive_signin_retrieve_subtitle">Скачивайте архивированные файлы когда угодно</string>
     <string name="archive_signin_private_title">Конфиденциально и безопасно</string>

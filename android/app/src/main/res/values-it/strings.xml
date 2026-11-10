@@ -242,8 +242,8 @@
     <string name="ok">OK</string>
     <string name="archive_signin_title">Accedi per l\'archivio cloud</string>
     <string name="archive_signin_subtitle">Archivia le tue foto e video nel cloud prima di eliminarli dal dispositivo</string>
-    <string name="archive_signin_encrypted_title">Crittografia end-to-end</string>
-    <string name="archive_signin_encrypted_subtitle">I tuoi dati vengono crittografati prima di lasciare il dispositivo</string>
+    <string name="archive_signin_encrypted_title">Archiviazione crittografata</string>
+    <string name="archive_signin_encrypted_subtitle">I tuoi file sono crittografati durante il trasferimento e quando sono archiviati su AWS</string>
     <string name="archive_signin_retrieve_title">Recupera in qualsiasi momento</string>
     <string name="archive_signin_retrieve_subtitle">Scarica i file archiviati quando ne hai bisogno</string>
     <string name="archive_signin_private_title">Privato e sicuro</string>

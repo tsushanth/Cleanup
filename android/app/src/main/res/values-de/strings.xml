@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">F\u00fcr Cloud-Archiv anmelden</string>
     <string name="archive_signin_subtitle">Archivieren Sie Ihre Fotos und Videos in der Cloud, bevor Sie sie von Ihrem Ger\u00e4t l\u00f6schen</string>
-    <string name="archive_signin_encrypted_title">Ende-zu-Ende-verschl\u00fcsselt</string>
-    <string name="archive_signin_encrypted_subtitle">Ihre Daten werden verschl\u00fcsselt, bevor sie Ihr Ger\u00e4t verlassen</string>
+    <string name="archive_signin_encrypted_title">Verschlüsselter Speicher</string>
+    <string name="archive_signin_encrypted_subtitle">Ihre Dateien werden bei der Übertragung und bei der Speicherung auf AWS verschlüsselt</string>
     <string name="archive_signin_retrieve_title">Jederzeit abrufen</string>
     <string name="archive_signin_retrieve_subtitle">Laden Sie Ihre archivierten Dateien herunter, wann immer Sie sie brauchen</string>
     <string name="archive_signin_private_title">Privat &amp; Sicher</string>

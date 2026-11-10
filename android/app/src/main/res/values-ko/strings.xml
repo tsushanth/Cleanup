@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">\ud074\ub77c\uc6b0\ub4dc \ubcf4\uad00 \ub85c\uadf8\uc778</string>
     <string name="archive_signin_subtitle">\uae30\uae30\uc5d0\uc11c \uc0ad\uc81c\ud558\uae30 \uc804\uc5d0 \uc0ac\uc9c4\uacfc \ub3d9\uc601\uc0c1\uc744 \ud074\ub77c\uc6b0\ub4dc\uc5d0 \ubcf4\uad00\ud558\uc138\uc694</string>
-    <string name="archive_signin_encrypted_title">\uc885\ub2e8 \uac04 \uc554\ud638\ud654</string>
-    <string name="archive_signin_encrypted_subtitle">\ub370\uc774\ud130\uac00 \uae30\uae30\ub97c \ub5a0\ub098\uae30 \uc804\uc5d0 \uc554\ud638\ud654\ub429\ub2c8\ub2e4</string>
+    <string name="archive_signin_encrypted_title">암호화된 저장소</string>
+    <string name="archive_signin_encrypted_subtitle">파일은 전송 중과 AWS에 저장될 때 암호화됩니다</string>
     <string name="archive_signin_retrieve_title">\uc5b8\uc81c\ub4e0\uc9c0 \uac80\uc0c9</string>
     <string name="archive_signin_retrieve_subtitle">\ud544\uc694\ud560 \ub54c \ubcf4\uad00\ub41c \ud30c\uc77c\uc744 \ub2e4\uc6b4\ub85c\ub4dc\ud558\uc138\uc694</string>
     <string name="archive_signin_private_title">\ube44\uacf5\uac1c \ubc0f \uc548\uc804</string>

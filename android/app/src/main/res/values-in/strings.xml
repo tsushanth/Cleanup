@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">Masuk untuk Arsip Cloud</string>
     <string name="archive_signin_subtitle">Arsipkan foto dan video Anda ke cloud sebelum menghapusnya dari perangkat</string>
-    <string name="archive_signin_encrypted_title">Enkripsi End-to-End</string>
-    <string name="archive_signin_encrypted_subtitle">Data Anda dienkripsi sebelum meninggalkan perangkat</string>
+    <string name="archive_signin_encrypted_title">Penyimpanan Terenkripsi</string>
+    <string name="archive_signin_encrypted_subtitle">File Anda dienkripsi saat dikirim dan saat disimpan di AWS</string>
     <string name="archive_signin_retrieve_title">Ambil Kapan Saja</string>
     <string name="archive_signin_retrieve_subtitle">Unduh file arsip Anda kapan pun Anda membutuhkannya</string>
     <string name="archive_signin_private_title">Privat &amp; Aman</string>

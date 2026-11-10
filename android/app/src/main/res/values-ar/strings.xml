@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">تسجيل الدخول للأرشيف السحابي</string>
     <string name="archive_signin_subtitle">أرشف صورك وفيديوهاتك إلى السحابة قبل حذفها من جهازك</string>
-    <string name="archive_signin_encrypted_title">تشفير من طرف إلى طرف</string>
-    <string name="archive_signin_encrypted_subtitle">يتم تشفير بياناتك قبل مغادرة جهازك</string>
+    <string name="archive_signin_encrypted_title">تخزين مشفر</string>
+    <string name="archive_signin_encrypted_subtitle">تُشفَّر ملفاتك أثناء النقل وعند التخزين على AWS</string>
     <string name="archive_signin_retrieve_title">استرجاع في أي وقت</string>
     <string name="archive_signin_retrieve_subtitle">قم بتنزيل ملفاتك المؤرشفة متى احتجت إليها</string>
     <string name="archive_signin_private_title">خاص وآمن</string>
