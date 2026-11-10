@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">Sign In for Cloud Archive</string>
     <string name="archive_signin_subtitle">Archive your photos and videos to the cloud before deleting them from your device</string>
-    <string name="archive_signin_encrypted_title">End-to-End Encrypted</string>
-    <string name="archive_signin_encrypted_subtitle">Your data is encrypted before leaving your device</string>
+    <string name="archive_signin_encrypted_title">Encrypted Storage</string>
+    <string name="archive_signin_encrypted_subtitle">Your files are encrypted in transit and at rest on AWS</string>
     <string name="archive_signin_retrieve_title">Retrieve Anytime</string>
     <string name="archive_signin_retrieve_subtitle">Download your archived files whenever you need them</string>
     <string name="archive_signin_private_title">Private &amp; Secure</string>

@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">Đăng Nhập Để Lưu Trữ Đám Mây</string>
     <string name="archive_signin_subtitle">Lưu trữ ảnh và video lên đám mây trước khi xóa khỏi thiết bị</string>
-    <string name="archive_signin_encrypted_title">Mã Hóa Đầu Cuối</string>
-    <string name="archive_signin_encrypted_subtitle">Dữ liệu được mã hóa trước khi rời thiết bị</string>
+    <string name="archive_signin_encrypted_title">Lưu trữ được mã hóa</string>
+    <string name="archive_signin_encrypted_subtitle">Tệp của bạn được mã hóa khi truyền và khi lưu trữ trên AWS</string>
     <string name="archive_signin_retrieve_title">Truy Xuất Bất Cứ Lúc Nào</string>
     <string name="archive_signin_retrieve_subtitle">Tải xuống tệp lưu trữ bất cứ khi nào bạn cần</string>
     <string name="archive_signin_private_title">Riêng Tư &amp; An Toàn</string>

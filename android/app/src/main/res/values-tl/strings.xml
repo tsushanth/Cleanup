@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">Mag-sign In para sa Cloud Archive</string>
     <string name="archive_signin_subtitle">I-archive ang iyong mga larawan at video sa cloud bago i-delete mula sa iyong device</string>
-    <string name="archive_signin_encrypted_title">End-to-End na Encrypted</string>
-    <string name="archive_signin_encrypted_subtitle">Naka-encrypt ang iyong data bago umalis sa iyong device</string>
+    <string name="archive_signin_encrypted_title">Naka-encrypt na Storage</string>
+    <string name="archive_signin_encrypted_subtitle">Naka-encrypt ang iyong mga file habang ipinapadala at habang naka-store sa AWS</string>
     <string name="archive_signin_retrieve_title">Kunin Anumang Oras</string>
     <string name="archive_signin_retrieve_subtitle">I-download ang iyong mga na-archive na file kahit kailan mo kailangan</string>
     <string name="archive_signin_private_title">Pribado &amp; Ligtas</string>

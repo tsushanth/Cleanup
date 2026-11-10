@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">Zaloguj się do archiwum w chmurze</string>
     <string name="archive_signin_subtitle">Archiwizuj zdjęcia i filmy w chmurze przed usunięciem ich z urządzenia</string>
-    <string name="archive_signin_encrypted_title">Szyfrowanie end-to-end</string>
-    <string name="archive_signin_encrypted_subtitle">Dane są szyfrowane przed opuszczeniem urządzenia</string>
+    <string name="archive_signin_encrypted_title">Szyfrowane przechowywanie</string>
+    <string name="archive_signin_encrypted_subtitle">Twoje pliki są szyfrowane podczas przesyłania i przechowywania w AWS</string>
     <string name="archive_signin_retrieve_title">Pobieraj w dowolnym momencie</string>
     <string name="archive_signin_retrieve_subtitle">Pobieraj zarchiwizowane pliki, kiedy ich potrzebujesz</string>
     <string name="archive_signin_private_title">Prywatne i bezpieczne</string>

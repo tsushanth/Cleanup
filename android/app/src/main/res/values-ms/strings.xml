@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">Log Masuk untuk Arkib Awan</string>
     <string name="archive_signin_subtitle">Arkibkan foto dan video anda ke awan sebelum memadamnya dari peranti</string>
-    <string name="archive_signin_encrypted_title">Penyulitan Hujung-ke-Hujung</string>
-    <string name="archive_signin_encrypted_subtitle">Data anda disulitkan sebelum meninggalkan peranti</string>
+    <string name="archive_signin_encrypted_title">Storan Disulitkan</string>
+    <string name="archive_signin_encrypted_subtitle">Fail anda disulitkan semasa dihantar dan ketika disimpan di AWS</string>
     <string name="archive_signin_retrieve_title">Dapatkan Semula Bila-bila Masa</string>
     <string name="archive_signin_retrieve_subtitle">Muat turun fail arkib anda bila-bila masa anda memerlukannya</string>
     <string name="archive_signin_private_title">Peribadi &amp; Selamat</string>

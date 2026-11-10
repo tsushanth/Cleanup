@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">Connectez-vous pour l\'archive cloud</string>
     <string name="archive_signin_subtitle">Archivez vos photos et vid\u00e9os dans le cloud avant de les supprimer de votre appareil</string>
-    <string name="archive_signin_encrypted_title">Chiffrement de bout en bout</string>
-    <string name="archive_signin_encrypted_subtitle">Vos donn\u00e9es sont chiffr\u00e9es avant de quitter votre appareil</string>
+    <string name="archive_signin_encrypted_title">Stockage chiffré</string>
+    <string name="archive_signin_encrypted_subtitle">Vos fichiers sont chiffrés pendant le transfert et au repos sur AWS</string>
     <string name="archive_signin_retrieve_title">R\u00e9cup\u00e9rer \u00e0 tout moment</string>
     <string name="archive_signin_retrieve_subtitle">T\u00e9l\u00e9chargez vos fichiers archiv\u00e9s quand vous en avez besoin</string>
     <string name="archive_signin_private_title">Priv\u00e9 et s\u00e9curis\u00e9</string>

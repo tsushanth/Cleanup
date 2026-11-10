@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">ลงชื่อเข้าใช้สำหรับคลังเก็บคลาวด์</string>
     <string name="archive_signin_subtitle">เก็บภาพถ่ายและวิดีโอของคุณไว้ในคลาวด์ก่อนลบจากอุปกรณ์</string>
-    <string name="archive_signin_encrypted_title">เข้ารหัสแบบ End-to-End</string>
-    <string name="archive_signin_encrypted_subtitle">ข้อมูลของคุณถูกเข้ารหัสก่อนออกจากอุปกรณ์</string>
+    <string name="archive_signin_encrypted_title">พื้นที่จัดเก็บที่เข้ารหัส</string>
+    <string name="archive_signin_encrypted_subtitle">ไฟล์ของคุณถูกเข้ารหัสระหว่างการส่งและขณะจัดเก็บบน AWS</string>
     <string name="archive_signin_retrieve_title">เรียกคืนได้ทุกเมื่อ</string>
     <string name="archive_signin_retrieve_subtitle">ดาวน์โหลดไฟล์ที่เก็บในคลังเมื่อใดก็ตามที่คุณต้องการ</string>
     <string name="archive_signin_private_title">เป็นส่วนตัว &amp; ปลอดภัย</string>

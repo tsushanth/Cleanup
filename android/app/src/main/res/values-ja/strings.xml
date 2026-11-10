@@ -268,8 +268,8 @@
     <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
     <string name="archive_signin_title">\u30af\u30e9\u30a6\u30c9\u30a2\u30fc\u30ab\u30a4\u30d6\u306b\u30b5\u30a4\u30f3\u30a4\u30f3</string>
     <string name="archive_signin_subtitle">\u30c7\u30d0\u30a4\u30b9\u304b\u3089\u524a\u9664\u3059\u308b\u524d\u306b\u5199\u771f\u3084\u52d5\u753b\u3092\u30af\u30e9\u30a6\u30c9\u306b\u30a2\u30fc\u30ab\u30a4\u30d6</string>
-    <string name="archive_signin_encrypted_title">\u30a8\u30f3\u30c9\u30c4\u30fc\u30a8\u30f3\u30c9\u6697\u53f7\u5316</string>
-    <string name="archive_signin_encrypted_subtitle">\u30c7\u30fc\u30bf\u306f\u30c7\u30d0\u30a4\u30b9\u3092\u96e2\u308c\u308b\u524d\u306b\u6697\u53f7\u5316\u3055\u308c\u307e\u3059</string>
+    <string name="archive_signin_encrypted_title">暗号化ストレージ</string>
+    <string name="archive_signin_encrypted_subtitle">ファイルは転送中とAWSでの保存時に暗号化されます</string>
     <string name="archive_signin_retrieve_title">\u3044\u3064\u3067\u3082\u53d6\u5f97</string>
     <string name="archive_signin_retrieve_subtitle">\u5fc5\u8981\u306a\u3068\u304d\u306b\u30a2\u30fc\u30ab\u30a4\u30d6\u30d5\u30a1\u30a4\u30eb\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9</string>
     <string name="archive_signin_private_title">\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u3068\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3</string>
