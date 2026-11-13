@@ -1,6 +1,6 @@
-SmartSpace te ayuda a recuperar almacenamiento en tu dispositivo Android identificando y eliminando inteligentemente fotos duplicadas, videos grandes, contactos sin usar, archivos APK antiguos y mucho mas.
+SmartSpace te ayuda a recuperar almacenamiento en tu dispositivo Android identificando y eliminando inteligentemente fotos duplicadas, videos grandes, contactos sin usar, archivos APK antiguos y mucho más.
 
-CARACTERISTICAS PRINCIPALES
+CARACTERÍSTICAS PRINCIPALES
 
 Limpieza de Fotos
 Escanea tu biblioteca de fotos en busca de duplicados, fotos borrosas y capturas de pantalla que ya no necesitas. Revisa las sugerencias lado a lado y libera gigabytes de espacio con un solo toque.
@@ -9,28 +9,28 @@ Limpieza de Videos
 Encuentra archivos de video grandes y duplicados que consumen tu almacenamiento. Previsualiza cada video antes de decidir si conservarlo o eliminarlo.
 
 Limpieza de Contactos
-Detecta contactos duplicados, incompletos u obsoletos. Fusiona duplicados y elimina contactos con informacion faltante para mantener tu agenda ordenada.
+Detecta contactos duplicados, incompletos u obsoletos. Fusiona duplicados y elimina contactos con información faltante para mantener tu agenda ordenada.
 
 Limpieza de APK y Descargas
-Elimina archivos APK de instalacion sobrantes y descargas antiguas que desperdician espacio valioso en tu dispositivo.
+Elimina archivos APK de instalación sobrantes y descargas antiguas que desperdician espacio valioso en tu dispositivo.
 
 Gestor de Notificaciones
-Toma el control de las notificaciones de tus aplicaciones. Ve cuales son las mas ruidosas y silencia las que no necesitas.
+Toma el control de las notificaciones de tus aplicaciones. Ve cuáles son las más ruidosas y silencia las que no necesitas.
 
 Archivo en la Nube
 Respalda archivos importantes en la nube antes de eliminarlos localmente. Recupera los elementos archivados en cualquier momento.
 
-Boveda Segura
-Protege tus fotos y videos privados con autenticacion biometrica. Manten tus archivos sensibles ocultos y seguros.
+Bóveda Segura
+Protege tus fotos y videos privados con autenticación biométrica. Mantén tus archivos sensibles ocultos y seguros.
 
 Panel de Almacenamiento Inteligente
-Obten una vista clara de lo que esta usando tu almacenamiento. La pantalla de inicio muestra el desglose de tu almacenamiento y te da recomendaciones de limpieza personalizadas.
+Obtén una vista clara de lo que está usando tu almacenamiento. La pantalla de inicio muestra el desglose de tu almacenamiento y te da recomendaciones de limpieza personalizadas.
 
-POR QUE SMARTSPACE?
+¿POR QUÉ SMARTSPACE?
 
-- Rapido y Ligero: Los escaneos se completan rapidamente sin agotar tu bateria.
+- Rápido y Ligero: Los escaneos se completan rápidamente sin agotar tu batería.
 - Privacidad Primero: Todo el escaneo ocurre en tu dispositivo. Tus archivos nunca se suben sin tu permiso.
-- Facil de Usar: Interfaz limpia y moderna disenada para todos.
-- Previsualizaciones Detalladas: Siempre ve lo que estas a punto de eliminar antes de confirmar.
+- Fácil de Usar: Interfaz limpia y moderna diseñada para todos.
+- Previsualizaciones Detalladas: Siempre ve lo que estás a punto de eliminar antes de confirmar.
 
-Descarga SmartSpace hoy y disfruta de un telefono mas rapido y limpio.
+Descarga SmartSpace hoy y disfruta de un teléfono más rápido y limpio.
