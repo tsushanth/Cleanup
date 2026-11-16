@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <string name="home_title">Rensa med ett tryck</string>
+    <string name="home_vault_cd">Valv</string>
+    <string name="home_scanning">Skannar…</string>
+    <string name="home_one_tap_scan">Skanna med ett tryck</string>
+    <string name="home_grant_access_scan">Ge åtkomst och skanna</string>
+    <string name="home_scanning_device">Skannar din enhet…</string>
+    <string name="home_quick_actions">Snabbåtgärder</string>
+    <string name="home_chip_duplicates">Dubbletter</string>
+    <string name="home_chip_screenshots">Skärmdumpar</string>
+    <string name="home_chip_large_videos">Stora videor</string>
+    <string name="home_chip_compress">Komprimera</string>
+    <string name="home_chip_archive">Arkivera</string>
+    <string name="home_chip_downloads">Nedladdningar</string>
+    <string name="home_chip_apk_files">APK-filer</string>
+    <string name="home_smart_scan_results">Resultat av smart skanning</string>
+    <string name="home_category_duplicate_photos">Dubblettfoton</string>
+    <string name="home_category_similar_photos">Liknande foton</string>
+    <string name="home_category_screenshots">Skärmdumpar</string>
+    <string name="home_category_large_videos">Stora videor</string>
+    <string name="home_category_duplicate_contacts">Dubblettkontakter</string>
+    <string name="home_file_management">Filhantering</string>
+    <string name="home_category_downloads">Nedladdningar</string>
+    <string name="home_category_apk_files">APK-filer</string>
+    <string name="home_category_notification_manager">Aviseringshanterare</string>
+    <string name="home_storage_used">%s används</string>
+    <string name="home_storage_total">%s totalt</string>
+    <string name="home_storage_full">Ditt lagringsutrymme är %d%% fullt</string>
+    <string name="home_tap_to_scan">Tryck för att skanna</string>
+
+    <string name="onboarding_welcome_title">Din telefon är full av skräp</string>
+    <string name="onboarding_welcome_subtitle">Dubblettfoton, gamla skärmdumpar, stora videor – de äter upp ditt lagringsutrymme. Låt oss fixa det.</string>
+    <string name="onboarding_welcome_button">Nu rensar vi</string>
+    <string name="onboarding_media_granted_title">Åtkomst till media beviljad!</string>
+    <string name="onboarding_media_request_title">Få åtkomst till dina foton och videor</string>
+    <string name="onboarding_media_granted_subtitle">Vi skannar alla dina foton och videor efter dubbletter, liknande bilder och utrymmeskrävande filer.</string>
+    <string name="onboarding_media_request_subtitle">För att hitta dubbletter och frigöra utrymme behöver vi åtkomst till dina foton och videor.</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% privat</string>
+    <string name="onboarding_feature_private_subtitle">All skanning sker på enheten</string>
+    <string name="onboarding_feature_fast_title">Snabb skanning</string>
+    <string name="onboarding_feature_fast_subtitle">Tar under 30 sekunder</string>
+    <string name="onboarding_feature_you_choose_title">Du bestämmer</string>
+    <string name="onboarding_feature_you_choose_subtitle">Inget raderas utan ditt godkännande</string>
+    <string name="onboarding_continue">Fortsätt</string>
+    <string name="onboarding_allow_photo_video">Tillåt åtkomst till foton och videor</string>
+    <string name="onboarding_skip">Hoppa över just nu</string>
+    <string name="onboarding_contact_granted_title">Åtkomst till kontakter beviljad!</string>
+    <string name="onboarding_contact_request_title">Rensa upp bland dina kontakter</string>
+    <string name="onboarding_contact_granted_subtitle">Vi hittar dubbletter och ofullständiga kontakter så att du kan slå ihop eller ta bort dem.</string>
+    <string name="onboarding_contact_request_subtitle">Hitta och slå ihop dubblettkontakter för att hålla adressboken i trim.</string>
+    <string name="onboarding_feature_find_dupes_title">Hitta dubbletter</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Upptäck kontakter med samma namn eller nummer</string>
+    <string name="onboarding_feature_smart_merge_title">Smart sammanslagning</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Slå ihop dubbletter till en kontakt</string>
+    <string name="onboarding_feature_safe_title">Säkert</string>
+    <string name="onboarding_feature_safe_subtitle">Granska innan några ändringar görs</string>
+    <string name="onboarding_allow_contact">Tillåt åtkomst till kontakter</string>
+    <string name="onboarding_ready_title">Allt klart!</string>
+    <string name="onboarding_ready_subtitle">Tryck på knappen nedan för att skanna allt och börja rensa.</string>
+    <string name="onboarding_photos_videos">Foton och videor</string>
+    <string name="onboarding_contact_access">Åtkomst till kontakter</string>
+    <string name="onboarding_free_duplicates">5 gratis borttagningar av dubbletter</string>
+    <string name="onboarding_free_similar">5 gratis rensningar av liknande foton</string>
+    <string name="onboarding_free_screenshots">5 gratis borttagningar av skärmdumpar</string>
+    <string name="onboarding_free_videos">5 gratis rensningar av videor</string>
+    <string name="onboarding_free_contacts">5 gratis sammanslagningar av kontakter</string>
+    <string name="onboarding_free_label">GRATIS</string>
+    <string name="onboarding_get_started">Skanna och kom igång</string>
+
+    <string name="paywall_close_cd">Stäng</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">per år</string>
+    <string name="paywall_per_month">per månad</string>
+    <string name="paywall_feature_unlimited_title">Obegränsad rensning</string>
+    <string name="paywall_feature_unlimited_subtitle">Rensa din enhet så ofta du vill</string>
+    <string name="paywall_feature_duplicates_title">Ta bort dubbletter och liknande</string>
+    <string name="paywall_feature_duplicates_subtitle">Hitta och ta bort dubblettfoton direkt</string>
+    <string name="paywall_feature_videos_title">Hantering av stora videor</string>
+    <string name="paywall_feature_videos_subtitle">Komprimera eller ta bort utrymmeskrävande videor</string>
+    <string name="paywall_feature_private_title">Privat och säkert</string>
+    <string name="paywall_feature_private_subtitle">All skanning sker på din enhet</string>
+    <string name="paywall_best_value">BÄSTA VÄRDE</string>
+    <string name="paywall_save_75" formatted="false">Spara 75% jämfört med månadsvis</string>
+    <string name="paywall_continue">Fortsätt</string>
+    <string name="paywall_restore">Återställ köp</string>
+    <string name="paywall_terms">Prenumerationer förnyas automatiskt. Avsluta när som helst i inställningarna i Google Play.</string>
+
+    <string name="photos_title">Fotorensning</string>
+    <string name="photos_back_cd">Tillbaka</string>
+    <string name="photos_change_folder_cd">Byt mapp</string>
+    <string name="photos_delete_count">Ta bort %d</string>
+    <string name="photos_select_title">Välj foton att analysera</string>
+    <string name="photos_select_subtitle">Välj hur du vill tillhandahålla foton för att hitta dubbletter och skärmdumpar.</string>
+    <string name="photos_select_all_folder">Markera alla (mappåtkomst)</string>
+    <string name="photos_select_all_hint">Ge åtkomst till mappen DCIM eller Bilder för att skanna alla foton</string>
+    <string name="photos_choose">Välj foton</string>
+    <string name="photos_choose_hint">Välj specifika foton att analysera</string>
+    <string name="photos_selected_count">%d markerade</string>
+    <string name="photos_save_amount">Spara %s</string>
+    <string name="photos_tab_duplicates">Dubbletter</string>
+    <string name="photos_tab_similar">Liknande</string>
+    <string name="photos_tab_screenshots">Skärmdumpar</string>
+    <string name="photos_no_duplicates_title">Inga dubbletter hittades</string>
+    <string name="photos_no_duplicates_subtitle">Ditt fotobibliotek är rent!</string>
+    <string name="photos_select_all">Markera alla</string>
+    <string name="photos_deselect_all">Avmarkera alla</string>
+    <string name="photos_keep_best">Behåll bästa</string>
+    <string name="photos_no_similar_title">Inga liknande foton</string>
+    <string name="photos_no_similar_subtitle">Inga grupper med liknande foton hittades</string>
+    <string name="photos_percent_similar">%d%% likhet</string>
+    <string name="photos_keep_best_select_others">Behåll bästa, markera övriga</string>
+    <string name="photos_no_screenshots_title">Inga skärmdumpar</string>
+    <string name="photos_no_screenshots_subtitle">Inga skärmdumpar hittades i ditt bibliotek</string>
+    <string name="photos_selected_cd">Markerad</string>
+    <string name="photos_best_badge">BÄST</string>
+    <string name="photos_scanning">Skannar foton…</string>
+    <string name="photos_delete_message">De markerade fotona raderas permanent från din enhet. Det går inte att ångra.</string>
+    <string name="photos_delete_permanently">Radera permanent</string>
+    <string name="cancel">Avbryt</string>
+
+    <string name="upgrade_title">Uppgradera till Pro</string>
+    <string name="upgrade_message">Du har använt alla dina gratis rensningar för den här kategorin. Uppgradera till Pro för obegränsad åtkomst.</string>
+    <string name="upgrade_button">Uppgradera</string>
+    <string name="upgrade_not_now">Inte nu</string>
+
+    <string name="vault_title">Valv</string>
+    <string name="vault_lock_cd">Lås</string>
+    <string name="vault_add_cd">Lägg till objekt</string>
+    <string name="vault_secret_space">Hemligt utrymme</string>
+    <string name="vault_enter_pin">Ange din PIN-kod för åtkomst</string>
+    <string name="vault_use_biometrics">Använd biometri</string>
+    <string name="vault_biometric_title">Öppna hemligt utrymme</string>
+    <string name="vault_biometric_subtitle">Lås upp med fingeravtryck eller ansikte</string>
+    <string name="vault_biometric_negative">Använd PIN-kod</string>
+    <string name="vault_backspace_cd">Radera</string>
+    <string name="vault_create_pin">Skapa din PIN-kod</string>
+    <string name="vault_confirm_pin">Bekräfta din PIN-kod</string>
+    <string name="vault_create_pin_subtitle">Välj en 4-siffrig PIN-kod för att skydda ditt valv</string>
+    <string name="vault_confirm_pin_subtitle">Ange samma PIN-kod igen</string>
+    <string name="vault_pin_mismatch">PIN-koderna matchar inte. Försök igen.</string>
+    <string name="vault_empty_title">Ditt valv är tomt</string>
+    <string name="vault_empty_subtitle">Lägg till foton och videor för att hålla dem privata</string>
+    <string name="vault_add_items">Lägg till objekt</string>
+    <string name="vault_adding">Lägger till i valvet…</string>
+    <string name="vault_add_to_vault">Lägg till i valvet</string>
+    <string name="vault_select_items_subtitle">Välj objekt att lägga till i ditt valv</string>
+    <string name="vault_select_from_photos">Välj från foton</string>
+    <string name="vault_select_from_files">Välj från filer</string>
+    <string name="vault_delete_title">Ta bort objekt</string>
+    <string name="vault_delete_message">Objektet raderas permanent från ditt valv.</string>
+    <string name="vault_delete_button">Radera</string>
+    <string name="vault_restore_title">Återställ objekt</string>
+    <string name="vault_restore_message">Objektet återställs till ditt fotobibliotek.</string>
+    <string name="vault_restore_button">Återställ</string>
+    <string name="vault_added_date">Tillagd: %s</string>
+    <string name="vault_item_size">Storlek: %s</string>
+
+    <string name="contacts_title">Kontaktrensning</string>
+    <string name="contacts_tab_duplicates">Dubbletter</string>
+    <string name="contacts_tab_incomplete">Ofullständiga</string>
+    <string name="contacts_access_required">Åtkomst till kontakter krävs</string>
+    <string name="contacts_access_message">Rensningen behöver åtkomst till dina kontakter för att hitta dubbletter och ofullständiga poster.</string>
+    <string name="contacts_grant_access">Ge åtkomst</string>
+    <string name="contacts_no_duplicates_title">Inga dubbletter</string>
+    <string name="contacts_no_duplicates_subtitle">Dina kontakter är rena!</string>
+    <string name="contacts_merge_all">Slå ihop alla</string>
+    <string name="contacts_delete_dupes">Ta bort dubbletter</string>
+    <string name="contacts_no_name">Inget namn</string>
+    <string name="contacts_no_incomplete_title">Inga ofullständiga kontakter</string>
+    <string name="contacts_no_incomplete_subtitle">Alla kontakter har fullständig information</string>
+    <string name="contacts_delete_selected">Ta bort markerade (%d)</string>
+    <string name="contacts_merge_title">Slå ihop kontakter</string>
+    <string name="contacts_merge_subtitle">Välj den primära kontakt som ska behållas. Information från övriga kontakter slås ihop med den.</string>
+    <string name="contacts_merge_button">Slå ihop kontakter</string>
+    <string name="contacts_scanning">Skannar kontakter…</string>
+
+    <string name="videos_title">Videorensning</string>
+    <string name="videos_delete_count">Ta bort %d</string>
+    <string name="videos_select_title">Välj videor att analysera</string>
+    <string name="videos_select_subtitle">Välj hur du vill tillhandahålla videor för att hitta stora filer och komprimera dem.</string>
+    <string name="videos_select_all_folder">Markera alla (mappåtkomst)</string>
+    <string name="videos_select_all_hint">Ge åtkomst till mappen DCIM eller mediamappen för att skanna alla videor</string>
+    <string name="videos_choose">Välj videor</string>
+    <string name="videos_choose_hint">Välj specifika videor att analysera</string>
+    <string name="videos_tab_large">Stora videor</string>
+    <string name="videos_tab_compress">Komprimera</string>
+    <string name="videos_no_large_title">Inga stora videor</string>
+    <string name="videos_no_large_subtitle">Inga videor över 50 MB hittades</string>
+    <string name="videos_delete_message">De markerade videorna raderas permanent. Det går inte att ångra.</string>
+    <string name="videos_no_compress_title">Inga videor</string>
+    <string name="videos_no_compress_subtitle">Inga komprimerbara videor hittades</string>
+    <string name="videos_compression_quality">Komprimeringskvalitet</string>
+    <string name="videos_select_videos">Välj videor</string>
+    <string name="videos_n_selected">%d markerade</string>
+    <string name="videos_scanning">Skannar videor…</string>
+    <string name="videos_compressing_title">Komprimerar video</string>
+
+    <string name="downloads_title">Nedladdningar</string>
+    <string name="downloads_deselect">Avmarkera</string>
+    <string name="downloads_scanning">Skannar nedladdningsmappen…</string>
+    <string name="downloads_clean">Nedladdningsmappen är ren!</string>
+
+    <string name="apk_title">APK-filer</string>
+    <string name="apk_deselect">Avmarkera</string>
+    <string name="apk_scanning">Söker efter APK-filer…</string>
+    <string name="apk_none_found">Inga APK-filer hittades!</string>
+    <string name="apk_all_filter">Alla (%d)</string>
+
+    <string name="notifications_title">Aviseringar</string>
+    <string name="notifications_analyzing">Analyserar aviseringar…</string>
+    <string name="notifications_no_apps">Inga appar hittades</string>
+    <string name="notifications_manage_hint">Tryck för att hantera aviseringsinställningar för varje app</string>
+    <string name="notifications_enabled">Aviseringar på</string>
+    <string name="notifications_disabled">Aviseringar av</string>
+    <string name="notifications_manage_button">Hantera</string>
+
+    <string name="archive_title">Molnarkiv</string>
+    <string name="archive_sync_cd">Synkronisera</string>
+    <string name="archive_storage_used">Använt lagringsutrymme</string>
+    <string name="archive_empty_title">Inga arkiverade objekt</string>
+    <string name="archive_empty_subtitle">Arkivera foton och videor från rensningsskärmarna för att frigöra utrymme på enheten</string>
+    <string name="archive_detail_archived">Arkiverad: %s</string>
+    <string name="archive_detail_size">Storlek: %s</string>
+    <string name="archive_detail_tier">Nivå: %s</string>
+    <string name="archive_retrieve_button">Hämta</string>
+    <string name="archive_delete_title">Ta bort arkiverat objekt</string>
+    <string name="archive_delete_message">Objektet tas bort permanent från ditt arkiv. Det går inte att ångra.</string>
+    <string name="archive_success_title">Arkiverat</string>
+    <string name="archive_restore_success_title">Återställt</string>
+    <string name="archive_restore_success_message">Objektet har återställts till din enhet.</string>
+    <string name="archive_error_title">Fel</string>
+    <string name="ok">OK</string>
+
+    <string name="archive_signin_title">Logga in för molnarkiv</string>
+    <string name="archive_signin_subtitle">Arkivera dina foton och videor i molnet innan du tar bort dem från enheten</string>
+    <string name="archive_signin_encrypted_title">Krypterad lagring</string>
+    <string name="archive_signin_encrypted_subtitle">Dina filer är krypterade under överföring och vid lagring på AWS</string>
+    <string name="archive_signin_retrieve_title">Hämta när som helst</string>
+    <string name="archive_signin_retrieve_subtitle">Ladda ner dina arkiverade filer när du behöver dem</string>
+    <string name="archive_signin_private_title">Privat och säkert</string>
+    <string name="archive_signin_private_subtitle">Inga lösenord att komma ihåg – logga in med Google</string>
+    <string name="archive_signin_google">Logga in med Google</string>
+    <string name="archive_signin_privacy">Dina uppgifter används bara för lagring i molnarkivet. Vi delar eller säljer aldrig din information.</string>
+
+    <string name="archive_paywall_title">Radera med trygghet</string>
+    <string name="archive_paywall_subtitle">Arkivera filer i molnet innan du raderar. Hämta dem när som helst.</string>
+    <string name="archive_paywall_safety_title">Skyddsnät</string>
+    <string name="archive_paywall_safety_subtitle">Förlora aldrig viktiga filer igen</string>
+    <string name="archive_paywall_retrieve_title">Hämta när som helst</string>
+    <string name="archive_paywall_retrieve_subtitle">Ladda ner arkiverade filer när du behöver</string>
+    <string name="archive_paywall_encrypted_title">Krypterad lagring</string>
+    <string name="archive_paywall_encrypted_subtitle">Dina uppgifter är alltid krypterade och privata</string>
+    <string name="archive_paywall_choose_plan">Välj din plan</string>
+    <string name="archive_paywall_current">NUVARANDE</string>
+    <string name="archive_paywall_subscribe">Prenumerera</string>
+
+    <string name="settings_title">Inställningar</string>
+    <string name="settings_account">Konto</string>
+    <string name="settings_sign_in">Logga in</string>
+    <string name="settings_subscription">Prenumeration</string>
+    <string name="settings_upgrade_pro">Uppgradera till Pro</string>
+    <string name="settings_features">Funktioner</string>
+    <string name="settings_secret_space">Hemligt utrymme</string>
+    <string name="settings_email_cleanup">E-postrensning</string>
+    <string name="settings_widgets">Widgets</string>
+    <string name="settings_about">Om</string>
+    <string name="settings_privacy_policy">Integritetspolicy</string>
+    <string name="settings_terms">Användarvillkor</string>
+    <string name="settings_rate_us">Betygsätt oss</string>
+    <string name="settings_version">Version 1.1 (2)</string>
+
+    <string name="nav_home">Hem</string>
+    <string name="nav_photos">Foton</string>
+    <string name="nav_videos">Videor</string>
+    <string name="nav_contacts">Kontakter</string>
+    <string name="nav_settings">Inställningar</string>
+    <string name="login_title">Logga in</string>
+    <string name="login_coming_soon">Kommer snart</string>
+    <string name="login_coming_soon_subtitle">Kontoinloggning blir tillgänglig i en framtida uppdatering.</string>
+    <string name="login_email">E-post</string>
+    <string name="login_password">Lösenord</string>
+    <string name="login_button">Logga in</string>
+    <string name="placeholder_coming_soon">%s – kommer snart</string>
+    <string name="email_cleanup_title">E-postrensning</string>
+    <string name="widgets_title">Widgets</string>
+
+    <string name="back_cd">Tillbaka</string>
+    <string name="delete_button">Ta bort</string>
+
+    <plurals name="home_items_count">
+        <item quantity="one">%d objekt</item>
+        <item quantity="other">%d objekt</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d objekt · %2$s</item>
+        <item quantity="other">%1$d objekt · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">Ta bort %d foto?</item>
+        <item quantity="other">Ta bort %d foton?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d dubblett</item>
+        <item quantity="other">%d dubbletter</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d liknande foto</item>
+        <item quantity="other">%d liknande foton</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d skärmdump</item>
+        <item quantity="other">%d skärmdumpar</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d ofullständig</item>
+        <item quantity="other">%d ofullständiga</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d stor video</item>
+        <item quantity="other">%d stora videor</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">Ta bort %d video?</item>
+        <item quantity="other">Ta bort %d videor?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">Komprimera %d video</item>
+        <item quantity="other">Komprimera %d videor</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">Ta bort %d fil</item>
+        <item quantity="other">Ta bort %d filer</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">Ta bort %d APK</item>
+        <item quantity="other">Ta bort %d APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d app med aviseringar</item>
+        <item quantity="other">%d appar med aviseringar</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d objekt arkiverat</item>
+        <item quantity="other">%d objekt arkiverade</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d objekt har arkiverats i molnet.</item>
+        <item quantity="other">%d objekt har arkiverats i molnet.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d dubblett i %2$d grupper</item>
+        <item quantity="other">%1$d dubbletter i %2$d grupper</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d liknande i %2$d grupper</item>
+        <item quantity="other">%1$d liknande i %2$d grupper</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d fil (%2$s)</item>
+        <item quantity="other">%1$d filer (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d dubblett</item>
+        <item quantity="other">%d dubbletter</item>
+    </plurals>
+
+    <string name="apk_status_already_installed">Redan installerad</string>
+    <string name="apk_status_outdated">Föråldrad version</string>
+    <string name="apk_status_not_installed">Inte installerad</string>
+    <string name="apk_status_unknown">Okänd</string>
+    <string name="archive_filter_all">Alla</string>
+    <string name="downloads_tab_all">Alla</string>
+    <string name="downloads_tab_large">Stora</string>
+    <string name="downloads_tab_old">Gamla</string>
+    <string name="videos_quality_high">Hög kvalitet</string>
+    <string name="videos_quality_medium">Medelhög kvalitet</string>
+    <string name="videos_quality_low">Låg kvalitet</string>
+    <string name="videos_quality_detail">%1$dp - ~%2$d%% mindre</string>
+    <string name="contacts_match_name">Samma namn</string>
+    <string name="contacts_match_phone">Samma telefonnummer</string>
+    <string name="contacts_match_email">Samma e-postadress</string>
+    <string name="vault_pin_incorrect">Fel PIN-kod. Försök igen.</string>
+    <string name="billing_error_no_offer">Inget erbjudande tillgängligt för den här produkten</string>
+    <string name="billing_error_purchase_failed">Köpet misslyckades: %s</string>
+    <string name="billing_error_acknowledge">Det gick inte att bekräfta köpet</string>
+    <string name="archive_failed_message">Arkiveringen misslyckades: %s</string>
+    <string name="archive_signin_failed_message">Inloggningen misslyckades: %s</string>
+    <string name="paywall_ctx_generic_title">Lås upp Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Obegränsad rensning och borttagning av dubbletter</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Obegränsad fotorensning ingår</string>
+    <string name="paywall_ctx_screenshots_subtitle">Ta bort skärmdumpar i bulk när som helst</string>
+    <string name="paywall_ctx_videos_subtitle">Komprimera och ta bort stora videor</string>
+    <string name="paywall_ctx_compress_title">Spara %s GB med komprimering</string>
+    <string name="paywall_ctx_contacts_subtitle">Håll ordning på dina kontakter</string>
+    <string name="paywall_ctx_archive_subtitle">Förvara filer tryggt i molnet i stället för att radera dem</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Ta bort %d dubblett med ett tryck</item>
+        <item quantity="other">Ta bort %d dubbletter med ett tryck</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Rensa %d liknande foto</item>
+        <item quantity="other">Rensa %d liknande foton</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">Ta bort %d skärmdump direkt</item>
+        <item quantity="other">Ta bort %d skärmdumpar direkt</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Frigör %2$s GB från %1$d video</item>
+        <item quantity="other">Frigör %2$s GB från %1$d videor</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">Slå ihop %d dubblettkontakt</item>
+        <item quantity="other">Slå ihop %d dubblettkontakter</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">Arkivera %1$d objekt (%2$s GB)</item>
+        <item quantity="other">Arkivera %1$d objekt (%2$s GB)</item>
+    </plurals>
+</resources>

@@ -1,5 +1,7 @@
 package com.kreativekoala.cleanup.data.model
 
+import androidx.annotation.StringRes
+import com.kreativekoala.cleanup.R
 import android.net.Uri
 
 data class PhotoAsset(
@@ -63,8 +65,8 @@ data class SimilarScanResult(
     val potentialSavings: Long
 )
 
-enum class CompressionQuality(val label: String, val resolution: Int, val estimatedReduction: String) {
-    HIGH("High Quality", 1080, "~30% smaller"),
-    MEDIUM("Medium Quality", 720, "~50% smaller"),
-    LOW("Low Quality", 540, "~70% smaller")
+enum class CompressionQuality(@StringRes val labelRes: Int, val resolution: Int, val estimatedReductionPercent: Int) {
+    HIGH(R.string.videos_quality_high, 1080, 30),
+    MEDIUM(R.string.videos_quality_medium, 720, 50),
+    LOW(R.string.videos_quality_low, 540, 70)
 }

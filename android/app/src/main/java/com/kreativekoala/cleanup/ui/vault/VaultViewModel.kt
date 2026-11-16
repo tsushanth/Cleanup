@@ -1,5 +1,7 @@
 package com.kreativekoala.cleanup.ui.vault
 
+import androidx.annotation.StringRes
+import com.kreativekoala.cleanup.R
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -31,7 +33,7 @@ class VaultViewModel @Inject constructor(
         val showDeleteConfirmation: Boolean = false,
         val showRestoreConfirmation: Boolean = false,
         val enteredPin: String = "",
-        val pinError: String? = null,
+        @StringRes val pinErrorRes: Int? = null,
         val isLoading: Boolean = false,
         val settings: VaultSettings = VaultSettings()
     )
@@ -71,7 +73,7 @@ class VaultViewModel @Inject constructor(
         val current = _uiState.value.enteredPin
         if (current.length < 4) {
             val newPin = current + digit
-            _uiState.update { it.copy(enteredPin = newPin, pinError = null) }
+            _uiState.update { it.copy(enteredPin = newPin, pinErrorRes = null) }
             if (newPin.length == 4) {
                 verifyPin(newPin)
             }
@@ -81,7 +83,7 @@ class VaultViewModel @Inject constructor(
     fun onPinBackspace() {
         val current = _uiState.value.enteredPin
         if (current.isNotEmpty()) {
-            _uiState.update { it.copy(enteredPin = current.dropLast(1), pinError = null) }
+            _uiState.update { it.copy(enteredPin = current.dropLast(1), pinErrorRes = null) }
         }
     }
 
@@ -100,7 +102,7 @@ class VaultViewModel @Inject constructor(
             }
             else -> {
                 _uiState.update {
-                    it.copy(enteredPin = "", pinError = "Incorrect PIN. Please try again.")
+                    it.copy(enteredPin = "", pinErrorRes = R.string.vault_pin_incorrect)
                 }
             }
         }

@@ -1,5 +1,7 @@
 package com.kreativekoala.cleanup.ui.downloads
 
+import androidx.annotation.StringRes
+import com.kreativekoala.cleanup.R
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.kreativekoala.cleanup.domain.service.DownloadCleanupService
@@ -25,10 +27,10 @@ class DownloadCleanupViewModel @Inject constructor(
         val activeTab: Tab = Tab.ALL
     )
 
-    enum class Tab(val label: String) {
-        ALL("All"),
-        LARGE("Large"),
-        OLD("Old")
+    enum class Tab(@StringRes val labelRes: Int) {
+        ALL(R.string.downloads_tab_all),
+        LARGE(R.string.downloads_tab_large),
+        OLD(R.string.downloads_tab_old)
     }
 
     private val _uiState = MutableStateFlow(UiState())

@@ -30,8 +30,6 @@
     <string name="home_storage_used">%s \uc0ac\uc6a9 \uc911</string>
     <string name="home_storage_total">\ucd1d %s</string>
     <string name="home_storage_full">\uc800\uc7a5 \uacf5\uac04\uc774 %d%% \uc0ac\uc6a9 \uc911\uc785\ub2c8\ub2e4</string>
-    <string name="home_items_count">%d\uac1c \ud56d\ubaa9</string>
-    <string name="home_items_count_savings">%1$d\uac1c \ud56d\ubaa9 \u00B7 %2$s</string>
     <string name="home_tap_to_scan">\ud0ed\ud558\uc5ec \uc2a4\uccea</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -42,7 +40,7 @@
     <string name="onboarding_media_request_title">\uc0ac\uc9c4 \ubc0f \ub3d9\uc601\uc0c1 \uc561\uc138\uc2a4</string>
     <string name="onboarding_media_granted_subtitle">\ubaa8\ub4e0 \uc0ac\uc9c4\uacfc \ub3d9\uc601\uc0c1\uc744 \uc2a4\uccea\ud558\uc5ec \uc911\ubcf5, \uc720\uc0ac\ud55c \uc0f7, \uacf5\uac04\uc744 \ucc28\uc9c0\ud558\ub294 \ud30c\uc77c\uc744 \ucc3e\uc2b5\ub2c8\ub2e4.</string>
     <string name="onboarding_media_request_subtitle">\uc911\ubcf5\uc744 \ucc3e\uace0 \uacf5\uac04\uc744 \ud655\ubcf4\ud558\ub824\uba74 \uc0ac\uc9c4\uacfc \ub3d9\uc601\uc0c1\uc5d0 \ub300\ud55c \uc561\uc138\uc2a4\uac00 \ud544\uc694\ud569\ub2c8\ub2e4.</string>
-    <string name="onboarding_feature_private_title">100%% \ube44\uacf5\uac1c</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% \ube44\uacf5\uac1c</string>
     <string name="onboarding_feature_private_subtitle">\ubaa8\ub4e0 \uc2a4\uccea\uc740 \uae30\uae30\uc5d0\uc11c \uc218\ud589\ub429\ub2c8\ub2e4</string>
     <string name="onboarding_feature_fast_title">\ube60\ub978 \uc2a4\uccea</string>
     <string name="onboarding_feature_fast_subtitle">30\ucd08 \uc774\ub0b4 \uc644\ub8cc</string>
@@ -88,7 +86,7 @@
     <string name="paywall_feature_private_title">\ube44\uacf5\uac1c \ubc0f \uc548\uc804</string>
     <string name="paywall_feature_private_subtitle">\ubaa8\ub4e0 \uc2a4\uccea\uc740 \uae30\uae30\uc5d0\uc11c \uc218\ud589\ub429\ub2c8\ub2e4</string>
     <string name="paywall_best_value">\ucd5c\uace0 \uac00\uce58</string>
-    <string name="paywall_save_75">\uc6d4\uac04 \ub300\ube44 75%% \uc808\uc57d</string>
+    <string name="paywall_save_75" formatted="false">\uc6d4\uac04 \ub300\ube44 75% \uc808\uc57d</string>
     <string name="paywall_continue">\uacc4\uc18d</string>
     <string name="paywall_restore">\uad6c\ub9e4 \ubcf5\uc6d0</string>
     <string name="paywall_terms">\uad6c\ub3c5\uc740 \uc790\ub3d9 \uac31\uc2e0\ub429\ub2c8\ub2e4. Google Play \uc124\uc815\uc5d0\uc11c \uc5b8\uc81c\ub4e0\uc9c0 \ucde8\uc18c\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.</string>
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">\uc2a4\ud06c\ub9b0\uc0f7</string>
     <string name="photos_no_duplicates_title">\uc911\ubcf5 \uc5c6\uc74c</string>
     <string name="photos_no_duplicates_subtitle">\uc0ac\uc9c4 \ub77c\uc774\ube0c\ub7ec\ub9ac\uac00 \uae68\ub057\ud569\ub2c8\ub2e4!</string>
-    <string name="photos_duplicates_summary">%2$d\uac1c \uadf8\ub8f9\uc5d0 %1$d\uac1c \uc911\ubcf5</string>
     <string name="photos_select_all">\ubaa8\ub450 \uc120\ud0dd</string>
     <string name="photos_deselect_all">\ubaa8\ub450 \ud574\uc81c</string>
-    <string name="photos_n_duplicates">%d\uac1c \uc911\ubcf5</string>
     <string name="photos_keep_best">\ucd5c\uace0 \uc720\uc9c0</string>
     <string name="photos_no_similar_title">\uc720\uc0ac\ud55c \uc0ac\uc9c4 \uc5c6\uc74c</string>
     <string name="photos_no_similar_subtitle">\uc720\uc0ac\ud55c \uc0ac\uc9c4 \uadf8\ub8f9\uc744 \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4</string>
-    <string name="photos_similar_summary">%2$d\uac1c \uadf8\ub8f9\uc5d0 %1$d\uac1c \uc720\uc0ac</string>
-    <string name="photos_n_similar">%d\uac1c \uc720\uc0ac\ud55c \uc0ac\uc9c4</string>
     <string name="photos_percent_similar">%d%% \uc720\uc0ac</string>
     <string name="photos_keep_best_select_others">\ucd5c\uace0 \uc720\uc9c0, \ub098\uba38\uc9c0 \uc120\ud0dd</string>
     <string name="photos_no_screenshots_title">\uc2a4\ud06c\ub9b0\uc0f7 \uc5c6\uc74c</string>
     <string name="photos_no_screenshots_subtitle">\ub77c\uc774\ube0c\ub7ec\ub9ac\uc5d0\uc11c \uc2a4\ud06c\ub9b0\uc0f7\uc744 \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4</string>
-    <string name="photos_n_screenshots">%d\uac1c \uc2a4\ud06c\ub9b0\uc0f7</string>
     <string name="photos_selected_cd">\uc120\ud0dd\ub428</string>
     <string name="photos_best_badge">\ucd5c\uace0</string>
     <string name="photos_scanning">\uc0ac\uc9c4 \uc2a4\uccea \uc911\u2026</string>
-    <string name="photos_delete_title">%d\uac1c \uc0ac\uc9c4\uc744 \uc0ad\uc81c\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?</string>
     <string name="photos_delete_message">\uc120\ud0dd\ud55c \uc0ac\uc9c4\uc774 \uae30\uae30\uc5d0\uc11c \uc601\uad6c\uc801\uc73c\ub85c \uc0ad\uc81c\ub429\ub2c8\ub2e4. \uc774 \uc791\uc5c5\uc740 \ucde8\uc18c\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.</string>
     <string name="photos_delete_permanently">\uc601\uad6c \uc0ad\uc81c</string>
     <string name="cancel">\ucde8\uc18c</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">\uc561\uc138\uc2a4 \ud5c8\uc6a9</string>
     <string name="contacts_no_duplicates_title">\uc911\ubcf5 \uc5c6\uc74c</string>
     <string name="contacts_no_duplicates_subtitle">\uc5f0\ub77d\ucc98\uac00 \uae68\ub057\ud569\ub2c8\ub2e4!</string>
-    <string name="contacts_n_duplicates">%d\uac1c \uc911\ubcf5</string>
     <string name="contacts_merge_all">\ubaa8\ub450 \ubcd1\ud569</string>
     <string name="contacts_delete_dupes">\uc911\ubcf5 \uc0ad\uc81c</string>
     <string name="contacts_no_name">\uc774\ub984 \uc5c6\uc74c</string>
     <string name="contacts_no_incomplete_title">\ubd88\uc644\uc804\ud55c \uc5f0\ub77d\ucc98 \uc5c6\uc74c</string>
     <string name="contacts_no_incomplete_subtitle">\ubaa8\ub4e0 \uc5f0\ub77d\ucc98\uc758 \uc815\ubcf4\uac00 \uc644\uc804\ud569\ub2c8\ub2e4</string>
-    <string name="contacts_n_incomplete">%d\uac1c \ubd88\uc644\uc804</string>
     <string name="contacts_delete_selected">\uc120\ud0dd \uc0ad\uc81c (%d)</string>
     <string name="contacts_merge_title">\uc5f0\ub77d\ucc98 \ubcd1\ud569</string>
     <string name="contacts_merge_subtitle">\uc720\uc9c0\ud560 \uae30\ubcf8 \uc5f0\ub77d\ucc98\ub97c \uc120\ud0dd\ud558\uc138\uc694. \ub2e4\ub978 \uc5f0\ub77d\ucc98\uc758 \uc815\ubcf4\uac00 \ubcd1\ud569\ub429\ub2c8\ub2e4.</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">\uc555\ucd95</string>
     <string name="videos_no_large_title">\ub300\uc6a9\ub7c9 \ub3d9\uc601\uc0c1 \uc5c6\uc74c</string>
     <string name="videos_no_large_subtitle">50MB \uc774\uc0c1\uc758 \ub3d9\uc601\uc0c1\uc744 \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4</string>
-    <string name="videos_n_large">%d\uac1c \ub300\uc6a9\ub7c9 \ub3d9\uc601\uc0c1</string>
-    <string name="videos_delete_title">%d\uac1c \ub3d9\uc601\uc0c1\uc744 \uc0ad\uc81c\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?</string>
     <string name="videos_delete_message">\uc120\ud0dd\ud55c \ub3d9\uc601\uc0c1\uc774 \uc601\uad6c\uc801\uc73c\ub85c \uc0ad\uc81c\ub429\ub2c8\ub2e4. \uc774 \uc791\uc5c5\uc740 \ucde8\uc18c\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.</string>
     <string name="videos_no_compress_title">\ub3d9\uc601\uc0c1 \uc5c6\uc74c</string>
     <string name="videos_no_compress_subtitle">\uc555\ucd95 \uac00\ub2a5\ud55c \ub3d9\uc601\uc0c1\uc744 \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4</string>
     <string name="videos_compression_quality">\uc555\ucd95 \ud488\uc9c8</string>
     <string name="videos_select_videos">\ub3d9\uc601\uc0c1 \uc120\ud0dd</string>
     <string name="videos_n_selected">%d\uac1c \uc120\ud0dd\ub428</string>
-    <string name="videos_compress_n">%d\uac1c \ub3d9\uc601\uc0c1 \uc555\ucd95</string>
     <string name="videos_scanning">\ub3d9\uc601\uc0c1 \uc2a4\uccea \uc911\u2026</string>
     <string name="videos_compressing_title">\ub3d9\uc601\uc0c1 \uc555\ucd95 \uc911</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">\ub2e4\uc6b4\ub85c\ub4dc</string>
     <string name="downloads_deselect">\uc120\ud0dd \ud574\uc81c</string>
-    <string name="downloads_delete_n_files">\ud30c\uc77c %d\uac1c \uc0ad\uc81c</string>
     <string name="downloads_scanning">\ub2e4\uc6b4\ub85c\ub4dc \ud3f4\ub354 \uc2a4\uccea \uc911\u2026</string>
     <string name="downloads_clean">\ub2e4\uc6b4\ub85c\ub4dc \ud3f4\ub354\uac00 \uae68\ub057\ud569\ub2c8\ub2e4!</string>
-    <string name="downloads_summary">\ud30c\uc77c %1$d\uac1c (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">APK \ud30c\uc77c</string>
     <string name="apk_deselect">\uc120\ud0dd \ud574\uc81c</string>
-    <string name="apk_delete_n">APK %d\uac1c \uc0ad\uc81c</string>
     <string name="apk_scanning">APK \ud30c\uc77c \uac80\uc0c9 \uc911\u2026</string>
     <string name="apk_none_found">APK \ud30c\uc77c\uc744 \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4!</string>
     <string name="apk_all_filter">\uc804\uccb4 (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">\uc54c\ub9bc</string>
     <string name="notifications_analyzing">\uc54c\ub9bc \ubd84\uc11d \uc911\u2026</string>
     <string name="notifications_no_apps">\uc571\uc744 \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4</string>
-    <string name="notifications_apps_count">\uc54c\ub9bc\uc774 \uc788\ub294 \uc571 %d\uac1c</string>
     <string name="notifications_manage_hint">\ud0ed\ud558\uc5ec \uac01 \uc571\uc758 \uc54c\ub9bc \uc124\uc815\uc744 \uad00\ub9ac\ud558\uc138\uc694</string>
     <string name="notifications_enabled">\uc54c\ub9bc \ud65c\uc131\ud654\ub428</string>
     <string name="notifications_disabled">\uc54c\ub9bc \ube44\ud65c\uc131\ud654\ub428</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">\uc0ac\uc6a9 \uc911\uc778 \uc800\uc7a5\uc18c</string>
     <string name="archive_empty_title">\ubcf4\uad00\ub41c \ud56d\ubaa9 \uc5c6\uc74c</string>
     <string name="archive_empty_subtitle">\uc815\ub9ac \ud654\uba74\uc5d0\uc11c \uc0ac\uc9c4\uacfc \ub3d9\uc601\uc0c1\uc744 \ubcf4\uad00\ud558\uc5ec \uae30\uae30 \uacf5\uac04\uc744 \ud655\ubcf4\ud558\uc138\uc694</string>
-    <string name="archive_items_count">%d\uac1c \ud56d\ubaa9 \ubcf4\uad00\ub428</string>
     <string name="archive_detail_archived">\ubcf4\uad00\uc77c: %s</string>
     <string name="archive_detail_size">\ud06c\uae30: %s</string>
     <string name="archive_detail_tier">\ud2f0\uc5b4: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">\ubcf4\uad00\ub41c \ud56d\ubaa9 \uc0ad\uc81c</string>
     <string name="archive_delete_message">\ubcf4\uad00\uc18c\uc5d0\uc11c \uc774 \ud56d\ubaa9\uc774 \uc601\uad6c\uc801\uc73c\ub85c \uc0ad\uc81c\ub429\ub2c8\ub2e4. \ucde8\uc18c\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.</string>
     <string name="archive_success_title">\ubcf4\uad00 \uc131\uacf5</string>
-    <string name="archive_success_message">%d\uac1c \ud56d\ubaa9\uc774 \ud074\ub77c\uc6b0\ub4dc\uc5d0 \ubcf4\uad00\ub418\uc5c8\uc2b5\ub2c8\ub2e4.</string>
     <string name="archive_restore_success_title">\ubcf5\uc6d0 \uc131\uacf5</string>
     <string name="archive_restore_success_message">\ud56d\ubaa9\uc774 \uae30\uae30\uc5d0 \ubcf5\uc6d0\ub418\uc5c8\uc2b5\ub2c8\ub2e4.</string>
     <string name="archive_error_title">\uc624\ub958</string>
@@ -325,4 +306,112 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">\ub4a4\ub85c</string>
     <string name="delete_button">\uc0ad\uc81c</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="other">%d\uac1c \ud56d\ubaa9</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="other">%1$d\uac1c \ud56d\ubaa9 · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="other">%d\uac1c \uc0ac\uc9c4\uc744 \uc0ad\uc81c\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="other">%d\uac1c \uc911\ubcf5</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="other">%d\uac1c \uc720\uc0ac\ud55c \uc0ac\uc9c4</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="other">%d\uac1c \uc2a4\ud06c\ub9b0\uc0f7</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="other">%d\uac1c \ubd88\uc644\uc804</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="other">%d\uac1c \ub300\uc6a9\ub7c9 \ub3d9\uc601\uc0c1</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="other">%d\uac1c \ub3d9\uc601\uc0c1\uc744 \uc0ad\uc81c\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="other">%d\uac1c \ub3d9\uc601\uc0c1 \uc555\ucd95</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="other">\ud30c\uc77c %d\uac1c \uc0ad\uc81c</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="other">APK %d\uac1c \uc0ad\uc81c</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="other">\uc54c\ub9bc\uc774 \uc788\ub294 \uc571 %d\uac1c</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="other">%d\uac1c \ud56d\ubaa9 \ubcf4\uad00\ub428</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="other">%d\uac1c \ud56d\ubaa9\uc774 \ud074\ub77c\uc6b0\ub4dc\uc5d0 \ubcf4\uad00\ub418\uc5c8\uc2b5\ub2c8\ub2e4.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="other">%2$d\uac1c \uadf8\ub8f9\uc5d0 %1$d\uac1c \uc911\ubcf5</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="other">%2$d\uac1c \uadf8\ub8f9\uc5d0 %1$d\uac1c \uc720\uc0ac</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="other">\ud30c\uc77c %1$d\uac1c (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="other">%d\uac1c \uc911\ubcf5</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">이미 설치됨</string>
+    <string name="apk_status_outdated">오래된 버전</string>
+    <string name="apk_status_not_installed">설치되지 않음</string>
+    <string name="apk_status_unknown">알 수 없음</string>
+    <string name="archive_filter_all">전체</string>
+    <string name="downloads_tab_all">전체</string>
+    <string name="downloads_tab_large">대용량</string>
+    <string name="downloads_tab_old">오래된 파일</string>
+    <string name="videos_quality_high">고화질</string>
+    <string name="videos_quality_medium">중간 화질</string>
+    <string name="videos_quality_low">저화질</string>
+    <string name="videos_quality_detail">%1$dp - 약 %2$d%% 작음</string>
+    <string name="contacts_match_name">같은 이름</string>
+    <string name="contacts_match_phone">같은 전화번호</string>
+    <string name="contacts_match_email">같은 이메일</string>
+    <string name="vault_pin_incorrect">PIN이 올바르지 않습니다. 다시 시도해 주세요.</string>
+    <string name="billing_error_no_offer">이 제품에 사용할 수 있는 혜택이 없습니다</string>
+    <string name="billing_error_purchase_failed">구매 실패: %s</string>
+    <string name="billing_error_acknowledge">구매 확인에 실패했습니다</string>
+    <string name="archive_failed_message">보관 실패: %s</string>
+    <string name="archive_signin_failed_message">로그인 실패: %s</string>
+    <string name="paywall_ctx_generic_title">Cleanup Pro 잠금 해제</string>
+    <string name="paywall_ctx_generic_subtitle">무제한 정리 및 중복 제거</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">무제한 사진 정리 포함</string>
+    <string name="paywall_ctx_screenshots_subtitle">스크린샷을 언제든지 일괄 삭제</string>
+    <string name="paywall_ctx_videos_subtitle">대용량 동영상 압축 및 삭제</string>
+    <string name="paywall_ctx_compress_title">압축으로 %s GB 절약</string>
+    <string name="paywall_ctx_contacts_subtitle">연락처를 깔끔하게 정리하세요</string>
+    <string name="paywall_ctx_archive_subtitle">삭제하는 대신 클라우드에 안전하게 보관하세요</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="other">중복 %d개를 한 번에 삭제</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="other">유사한 사진 %d장 정리</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="other">스크린샷 %d개 즉시 삭제</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="other">동영상 %1$d개로 %2$s GB 확보</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="other">중복 연락처 %d개 병합</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="other">항목 %1$d개 보관 (%2$s GB)</item>
+    </plurals>
 </resources>

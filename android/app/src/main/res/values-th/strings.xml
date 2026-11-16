@@ -30,8 +30,6 @@
     <string name="home_storage_used">ใช้ไป %s</string>
     <string name="home_storage_total">ทั้งหมด %s</string>
     <string name="home_storage_full">พื้นที่จัดเก็บเต็ม %d%%</string>
-    <string name="home_items_count">%d รายการ</string>
-    <string name="home_items_count_savings">%1$d รายการ \u00B7 %2$s</string>
     <string name="home_tap_to_scan">แตะเพื่อสแกน</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -42,7 +40,7 @@
     <string name="onboarding_media_request_title">เข้าถึงภาพถ่ายและวิดีโอของคุณ</string>
     <string name="onboarding_media_granted_subtitle">เราจะสแกนภาพถ่ายและวิดีโอทั้งหมดของคุณเพื่อหารายการซ้ำ ภาพคล้ายกัน และไฟล์ขนาดใหญ่</string>
     <string name="onboarding_media_request_subtitle">เพื่อค้นหารายการซ้ำและเพิ่มพื้นที่ว่าง เราต้องการเข้าถึงภาพถ่ายและวิดีโอของคุณ</string>
-    <string name="onboarding_feature_private_title">เป็นส่วนตัว 100%</string>
+    <string name="onboarding_feature_private_title" formatted="false">เป็นส่วนตัว 100%</string>
     <string name="onboarding_feature_private_subtitle">การสแกนทั้งหมดทำบนอุปกรณ์</string>
     <string name="onboarding_feature_fast_title">สแกนเร็ว</string>
     <string name="onboarding_feature_fast_subtitle">ใช้เวลาน้อยกว่า 30 วินาที</string>
@@ -88,7 +86,7 @@
     <string name="paywall_feature_private_title">เป็นส่วนตัว &amp; ปลอดภัย</string>
     <string name="paywall_feature_private_subtitle">การสแกนทั้งหมดทำบนอุปกรณ์ของคุณ</string>
     <string name="paywall_best_value">คุ้มค่าที่สุด</string>
-    <string name="paywall_save_75">ประหยัด 75%% เทียบกับรายเดือน</string>
+    <string name="paywall_save_75" formatted="false">ประหยัด 75% เทียบกับรายเดือน</string>
     <string name="paywall_continue">ดำเนินการต่อ</string>
     <string name="paywall_restore">กู้คืนการซื้อ</string>
     <string name="paywall_terms">การสมัครสมาชิกต่ออายุอัตโนมัติ ยกเลิกได้ทุกเมื่อในการตั้งค่า Google Play</string>
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">ภาพหน้าจอ</string>
     <string name="photos_no_duplicates_title">ไม่พบรายการซ้ำ</string>
     <string name="photos_no_duplicates_subtitle">คลังภาพถ่ายของคุณสะอาด!</string>
-    <string name="photos_duplicates_summary">%1$d รายการซ้ำใน %2$d กลุ่ม</string>
     <string name="photos_select_all">เลือกทั้งหมด</string>
     <string name="photos_deselect_all">ยกเลิกเลือกทั้งหมด</string>
-    <string name="photos_n_duplicates">%d รายการซ้ำ</string>
     <string name="photos_keep_best">เก็บที่ดีที่สุด</string>
     <string name="photos_no_similar_title">ไม่มีภาพถ่ายคล้ายกัน</string>
     <string name="photos_no_similar_subtitle">ไม่พบกลุ่มภาพถ่ายคล้ายกัน</string>
-    <string name="photos_similar_summary">%1$d ภาพคล้ายกันใน %2$d กลุ่ม</string>
-    <string name="photos_n_similar">%d ภาพถ่ายคล้ายกัน</string>
     <string name="photos_percent_similar">คล้ายกัน %d%%</string>
     <string name="photos_keep_best_select_others">เก็บที่ดีที่สุด เลือกอื่น ๆ</string>
     <string name="photos_no_screenshots_title">ไม่มีภาพหน้าจอ</string>
     <string name="photos_no_screenshots_subtitle">ไม่พบภาพหน้าจอในคลังของคุณ</string>
-    <string name="photos_n_screenshots">%d ภาพหน้าจอ</string>
     <string name="photos_selected_cd">เลือกแล้ว</string>
     <string name="photos_best_badge">ดีที่สุด</string>
     <string name="photos_scanning">กำลังสแกนภาพถ่าย…</string>
-    <string name="photos_delete_title">ลบ %d ภาพถ่าย?</string>
     <string name="photos_delete_message">การดำเนินการนี้จะลบภาพถ่ายที่เลือกออกจากอุปกรณ์ของคุณอย่างถาวร ไม่สามารถยกเลิกได้</string>
     <string name="photos_delete_permanently">ลบถาวร</string>
     <string name="cancel">ยกเลิก</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">ให้สิทธิ์</string>
     <string name="contacts_no_duplicates_title">ไม่มีรายการซ้ำ</string>
     <string name="contacts_no_duplicates_subtitle">ผู้ติดต่อของคุณสะอาด!</string>
-    <string name="contacts_n_duplicates">%d รายการซ้ำ</string>
     <string name="contacts_merge_all">รวมทั้งหมด</string>
     <string name="contacts_delete_dupes">ลบรายการซ้ำ</string>
     <string name="contacts_no_name">ไม่มีชื่อ</string>
     <string name="contacts_no_incomplete_title">ไม่มีผู้ติดต่อไม่สมบูรณ์</string>
     <string name="contacts_no_incomplete_subtitle">ผู้ติดต่อทั้งหมดมีข้อมูลครบถ้วน</string>
-    <string name="contacts_n_incomplete">%d ไม่สมบูรณ์</string>
     <string name="contacts_delete_selected">ลบที่เลือก (%d)</string>
     <string name="contacts_merge_title">รวมผู้ติดต่อ</string>
     <string name="contacts_merge_subtitle">เลือกผู้ติดต่อหลักที่จะเก็บไว้ ข้อมูลจากผู้ติดต่ออื่น ๆ จะถูกรวมเข้าด้วยกัน</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">บีบอัด</string>
     <string name="videos_no_large_title">ไม่มีวิดีโอขนาดใหญ่</string>
     <string name="videos_no_large_subtitle">ไม่พบวิดีโอที่มีขนาดเกิน 50MB</string>
-    <string name="videos_n_large">%d วิดีโอขนาดใหญ่</string>
-    <string name="videos_delete_title">ลบ %d วิดีโอ?</string>
     <string name="videos_delete_message">การดำเนินการนี้จะลบวิดีโอที่เลือกอย่างถาวร ไม่สามารถยกเลิกได้</string>
     <string name="videos_no_compress_title">ไม่มีวิดีโอ</string>
     <string name="videos_no_compress_subtitle">ไม่พบวิดีโอที่บีบอัดได้</string>
     <string name="videos_compression_quality">คุณภาพการบีบอัด</string>
     <string name="videos_select_videos">เลือกวิดีโอ</string>
     <string name="videos_n_selected">เลือก %d รายการ</string>
-    <string name="videos_compress_n">บีบอัด %d วิดีโอ</string>
     <string name="videos_scanning">กำลังสแกนวิดีโอ…</string>
     <string name="videos_compressing_title">กำลังบีบอัดวิดีโอ</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">ดาวน์โหลด</string>
     <string name="downloads_deselect">ยกเลิกเลือก</string>
-    <string name="downloads_delete_n_files">ลบ %d ไฟล์</string>
     <string name="downloads_scanning">กำลังสแกนโฟลเดอร์ดาวน์โหลด…</string>
     <string name="downloads_clean">โฟลเดอร์ดาวน์โหลดสะอาด!</string>
-    <string name="downloads_summary">%1$d ไฟล์ (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">ไฟล์ APK</string>
     <string name="apk_deselect">ยกเลิกเลือก</string>
-    <string name="apk_delete_n">ลบ %d APK</string>
     <string name="apk_scanning">กำลังค้นหาไฟล์ APK…</string>
     <string name="apk_none_found">ไม่พบไฟล์ APK!</string>
     <string name="apk_all_filter">ทั้งหมด (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">การแจ้งเตือน</string>
     <string name="notifications_analyzing">กำลังวิเคราะห์การแจ้งเตือน…</string>
     <string name="notifications_no_apps">ไม่พบแอป</string>
-    <string name="notifications_apps_count">%d แอปที่มีการแจ้งเตือน</string>
     <string name="notifications_manage_hint">แตะเพื่อจัดการการตั้งค่าการแจ้งเตือนสำหรับแต่ละแอป</string>
     <string name="notifications_enabled">เปิดการแจ้งเตือน</string>
     <string name="notifications_disabled">ปิดการแจ้งเตือน</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">พื้นที่จัดเก็บที่ใช้</string>
     <string name="archive_empty_title">ไม่มีรายการที่เก็บในคลัง</string>
     <string name="archive_empty_subtitle">เก็บภาพถ่ายและวิดีโอจากหน้าจอล้างข้อมูลเพื่อเพิ่มพื้นที่อุปกรณ์</string>
-    <string name="archive_items_count">เก็บในคลัง %d รายการ</string>
     <string name="archive_detail_archived">เก็บเมื่อ: %s</string>
     <string name="archive_detail_size">ขนาด: %s</string>
     <string name="archive_detail_tier">ระดับ: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">ลบรายการที่เก็บในคลัง</string>
     <string name="archive_delete_message">การดำเนินการนี้จะลบรายการนี้จากคลังของคุณอย่างถาวร ไม่สามารถยกเลิกได้</string>
     <string name="archive_success_title">เก็บในคลังสำเร็จ</string>
-    <string name="archive_success_message">เก็บ %d รายการไว้ในคลาวด์แล้ว</string>
     <string name="archive_restore_success_title">กู้คืนสำเร็จ</string>
     <string name="archive_restore_success_message">กู้คืนรายการไปยังอุปกรณ์ของคุณแล้ว</string>
     <string name="archive_error_title">ข้อผิดพลาด</string>
@@ -325,4 +306,112 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">กลับ</string>
     <string name="delete_button">ลบ</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="other">%d รายการ</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="other">%1$d รายการ · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="other">ลบ %d ภาพถ่าย?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="other">%d รายการซ้ำ</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="other">%d ภาพถ่ายคล้ายกัน</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="other">%d ภาพหน้าจอ</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="other">%d ไม่สมบูรณ์</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="other">%d วิดีโอขนาดใหญ่</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="other">ลบ %d วิดีโอ?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="other">บีบอัด %d วิดีโอ</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="other">ลบ %d ไฟล์</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="other">ลบ %d APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="other">%d แอปที่มีการแจ้งเตือน</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="other">เก็บในคลัง %d รายการ</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="other">เก็บ %d รายการไว้ในคลาวด์แล้ว</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="other">%1$d รายการซ้ำใน %2$d กลุ่ม</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="other">%1$d ภาพคล้ายกันใน %2$d กลุ่ม</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="other">%1$d ไฟล์ (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="other">%d รายการซ้ำ</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">ติดตั้งแล้ว</string>
+    <string name="apk_status_outdated">เวอร์ชันเก่า</string>
+    <string name="apk_status_not_installed">ยังไม่ได้ติดตั้ง</string>
+    <string name="apk_status_unknown">ไม่ทราบ</string>
+    <string name="archive_filter_all">ทั้งหมด</string>
+    <string name="downloads_tab_all">ทั้งหมด</string>
+    <string name="downloads_tab_large">ขนาดใหญ่</string>
+    <string name="downloads_tab_old">เก่า</string>
+    <string name="videos_quality_high">คุณภาพสูง</string>
+    <string name="videos_quality_medium">คุณภาพปานกลาง</string>
+    <string name="videos_quality_low">คุณภาพต่ำ</string>
+    <string name="videos_quality_detail">%1$dp - เล็กลงประมาณ %2$d%%</string>
+    <string name="contacts_match_name">ชื่อเดียวกัน</string>
+    <string name="contacts_match_phone">เบอร์โทรเดียวกัน</string>
+    <string name="contacts_match_email">อีเมลเดียวกัน</string>
+    <string name="vault_pin_incorrect">PIN ไม่ถูกต้อง โปรดลองอีกครั้ง</string>
+    <string name="billing_error_no_offer">ไม่มีข้อเสนอสำหรับสินค้านี้</string>
+    <string name="billing_error_purchase_failed">การซื้อไม่สำเร็จ: %s</string>
+    <string name="billing_error_acknowledge">ยืนยันการซื้อไม่สำเร็จ</string>
+    <string name="archive_failed_message">เก็บถาวรไม่สำเร็จ: %s</string>
+    <string name="archive_signin_failed_message">เข้าสู่ระบบไม่สำเร็จ: %s</string>
+    <string name="paywall_ctx_generic_title">ปลดล็อก Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">ล้างข้อมูลไม่จำกัดและลบรายการซ้ำ</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">รวมการล้างรูปภาพแบบไม่จำกัด</string>
+    <string name="paywall_ctx_screenshots_subtitle">ลบภาพหน้าจอจำนวนมากได้ทุกเมื่อ</string>
+    <string name="paywall_ctx_videos_subtitle">บีบอัดและลบวิดีโอขนาดใหญ่</string>
+    <string name="paywall_ctx_compress_title">ประหยัด %s GB ด้วยการบีบอัด</string>
+    <string name="paywall_ctx_contacts_subtitle">จัดระเบียบรายชื่อติดต่อของคุณ</string>
+    <string name="paywall_ctx_archive_subtitle">เก็บไฟล์ไว้อย่างปลอดภัยในคลาวด์แทนการลบ</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="other">ลบรายการซ้ำ %d รายการในแตะเดียว</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="other">ล้างภาพถ่ายที่คล้ายกัน %d ภาพ</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="other">ลบภาพหน้าจอ %d ภาพทันที</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="other">เพิ่มพื้นที่ %2$s GB จากวิดีโอ %1$d รายการ</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="other">รวมรายชื่อติดต่อที่ซ้ำกัน %d รายการ</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="other">เก็บถาวร %1$d รายการ (%2$s GB)</item>
+    </plurals>
 </resources>

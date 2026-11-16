@@ -30,8 +30,6 @@
     <string name="home_storage_used">%s gebruikt</string>
     <string name="home_storage_total">%s totaal</string>
     <string name="home_storage_full">Je opslag is %d%% vol</string>
-    <string name="home_items_count">%d items</string>
-    <string name="home_items_count_savings">%1$d items \u00B7 %2$s</string>
     <string name="home_tap_to_scan">Tik om te scannen</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -42,7 +40,7 @@
     <string name="onboarding_media_request_title">Toegang tot je foto\'s &amp; video\'s</string>
     <string name="onboarding_media_granted_subtitle">We scannen al je foto\'s en video\'s op duplicaten, vergelijkbare opnames en grote bestanden.</string>
     <string name="onboarding_media_request_subtitle">Om duplicaten te vinden en ruimte vrij te maken, hebben we toegang tot je foto\'s en video\'s nodig.</string>
-    <string name="onboarding_feature_private_title">100% Privé</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% Privé</string>
     <string name="onboarding_feature_private_subtitle">Alle scans gebeuren op het apparaat</string>
     <string name="onboarding_feature_fast_title">Snelle scan</string>
     <string name="onboarding_feature_fast_subtitle">Duurt minder dan 30 seconden</string>
@@ -88,7 +86,7 @@
     <string name="paywall_feature_private_title">Privé &amp; veilig</string>
     <string name="paywall_feature_private_subtitle">Alle scans gebeuren op je apparaat</string>
     <string name="paywall_best_value">BESTE WAARDE</string>
-    <string name="paywall_save_75">Bespaar 75%% t.o.v. maandelijks</string>
+    <string name="paywall_save_75" formatted="false">Bespaar 75% t.o.v. maandelijks</string>
     <string name="paywall_continue">Doorgaan</string>
     <string name="paywall_restore">Aankopen herstellen</string>
     <string name="paywall_terms">Abonnementen worden automatisch verlengd. Annuleer op elk moment in de Google Play-instellingen.</string>
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">Schermafbeeldingen</string>
     <string name="photos_no_duplicates_title">Geen duplicaten gevonden</string>
     <string name="photos_no_duplicates_subtitle">Je fotobibliotheek is schoon!</string>
-    <string name="photos_duplicates_summary">%1$d duplicaten in %2$d groepen</string>
     <string name="photos_select_all">Alles selecteren</string>
     <string name="photos_deselect_all">Alles deselecteren</string>
-    <string name="photos_n_duplicates">%d duplicaten</string>
     <string name="photos_keep_best">Beste behouden</string>
     <string name="photos_no_similar_title">Geen vergelijkbare foto\'s</string>
     <string name="photos_no_similar_subtitle">Geen groepen vergelijkbare foto\'s gevonden</string>
-    <string name="photos_similar_summary">%1$d vergelijkbaar in %2$d groepen</string>
-    <string name="photos_n_similar">%d vergelijkbare foto\'s</string>
     <string name="photos_percent_similar">%d%% vergelijkbaar</string>
     <string name="photos_keep_best_select_others">Beste behouden, andere selecteren</string>
     <string name="photos_no_screenshots_title">Geen schermafbeeldingen</string>
     <string name="photos_no_screenshots_subtitle">Geen schermafbeeldingen gevonden in je bibliotheek</string>
-    <string name="photos_n_screenshots">%d schermafbeeldingen</string>
     <string name="photos_selected_cd">Geselecteerd</string>
     <string name="photos_best_badge">BESTE</string>
     <string name="photos_scanning">Foto\'s scannen…</string>
-    <string name="photos_delete_title">%d foto\'s verwijderen?</string>
     <string name="photos_delete_message">Dit verwijdert de geselecteerde foto\'s permanent van je apparaat. Deze actie kan niet ongedaan worden gemaakt.</string>
     <string name="photos_delete_permanently">Permanent verwijderen</string>
     <string name="cancel">Annuleren</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">Toegang verlenen</string>
     <string name="contacts_no_duplicates_title">Geen duplicaten</string>
     <string name="contacts_no_duplicates_subtitle">Je contacten zijn schoon!</string>
-    <string name="contacts_n_duplicates">%d duplicaten</string>
     <string name="contacts_merge_all">Alles samenvoegen</string>
     <string name="contacts_delete_dupes">Duplicaten verwijderen</string>
     <string name="contacts_no_name">Geen naam</string>
     <string name="contacts_no_incomplete_title">Geen onvolledige contacten</string>
     <string name="contacts_no_incomplete_subtitle">Alle contacten hebben volledige informatie</string>
-    <string name="contacts_n_incomplete">%d onvolledig</string>
     <string name="contacts_delete_selected">Geselecteerde verwijderen (%d)</string>
     <string name="contacts_merge_title">Contacten samenvoegen</string>
     <string name="contacts_merge_subtitle">Selecteer het primaire contact om te behouden. Informatie van andere contacten wordt erin samengevoegd.</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">Comprimeren</string>
     <string name="videos_no_large_title">Geen grote video\'s</string>
     <string name="videos_no_large_subtitle">Geen video\'s groter dan 50MB gevonden</string>
-    <string name="videos_n_large">%d grote video\'s</string>
-    <string name="videos_delete_title">%d video\'s verwijderen?</string>
     <string name="videos_delete_message">Dit verwijdert de geselecteerde video\'s permanent. Deze actie kan niet ongedaan worden gemaakt.</string>
     <string name="videos_no_compress_title">Geen video\'s</string>
     <string name="videos_no_compress_subtitle">Geen comprimeerbare video\'s gevonden</string>
     <string name="videos_compression_quality">Compressiekwaliteit</string>
     <string name="videos_select_videos">Video\'s selecteren</string>
     <string name="videos_n_selected">%d geselecteerd</string>
-    <string name="videos_compress_n">%d video\'s comprimeren</string>
     <string name="videos_scanning">Video\'s scannen…</string>
     <string name="videos_compressing_title">Video comprimeren</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">Downloads</string>
     <string name="downloads_deselect">Deselecteren</string>
-    <string name="downloads_delete_n_files">%d bestanden verwijderen</string>
     <string name="downloads_scanning">Downloadmap scannen…</string>
     <string name="downloads_clean">Downloadmap is schoon!</string>
-    <string name="downloads_summary">%1$d bestanden (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">APK-bestanden</string>
     <string name="apk_deselect">Deselecteren</string>
-    <string name="apk_delete_n">%d APK\'s verwijderen</string>
     <string name="apk_scanning">Zoeken naar APK-bestanden…</string>
     <string name="apk_none_found">Geen APK-bestanden gevonden!</string>
     <string name="apk_all_filter">Alle (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">Meldingen</string>
     <string name="notifications_analyzing">Meldingen analyseren…</string>
     <string name="notifications_no_apps">Geen apps gevonden</string>
-    <string name="notifications_apps_count">%d apps met meldingen</string>
     <string name="notifications_manage_hint">Tik om meldingsinstellingen voor elke app te beheren</string>
     <string name="notifications_enabled">Meldingen ingeschakeld</string>
     <string name="notifications_disabled">Meldingen uitgeschakeld</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">Gebruikte opslag</string>
     <string name="archive_empty_title">Geen gearchiveerde items</string>
     <string name="archive_empty_subtitle">Archiveer foto\'s en video\'s vanuit de opruimschermen om apparaatruimte vrij te maken</string>
-    <string name="archive_items_count">%d items gearchiveerd</string>
     <string name="archive_detail_archived">Gearchiveerd: %s</string>
     <string name="archive_detail_size">Grootte: %s</string>
     <string name="archive_detail_tier">Niveau: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">Gearchiveerd item verwijderen</string>
     <string name="archive_delete_message">Dit verwijdert dit item permanent uit je archief. Dit kan niet ongedaan worden gemaakt.</string>
     <string name="archive_success_title">Succesvol gearchiveerd</string>
-    <string name="archive_success_message">%d item(s) zijn gearchiveerd naar de cloud.</string>
     <string name="archive_restore_success_title">Succesvol hersteld</string>
     <string name="archive_restore_success_message">Item is hersteld naar je apparaat.</string>
     <string name="archive_error_title">Fout</string>
@@ -325,4 +306,137 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">Terug</string>
     <string name="delete_button">Verwijderen</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d item · %2$s</item>
+        <item quantity="other">%1$d items · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">%d foto verwijderen?</item>
+        <item quantity="other">%d foto\'s verwijderen?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d duplicaat</item>
+        <item quantity="other">%d duplicaten</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d vergelijkbare foto</item>
+        <item quantity="other">%d vergelijkbare foto\'s</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d schermafbeelding</item>
+        <item quantity="other">%d schermafbeeldingen</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d onvolledig</item>
+        <item quantity="other">%d onvolledig</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d grote video</item>
+        <item quantity="other">%d grote video\'s</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">%d video verwijderen?</item>
+        <item quantity="other">%d video\'s verwijderen?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">%d video comprimeren</item>
+        <item quantity="other">%d video\'s comprimeren</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">%d bestand verwijderen</item>
+        <item quantity="other">%d bestanden verwijderen</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">%d APK verwijderen</item>
+        <item quantity="other">%d APK\'s verwijderen</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d apps met meldingen</item>
+        <item quantity="other">%d apps met meldingen</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d item gearchiveerd</item>
+        <item quantity="other">%d items gearchiveerd</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d item is gearchiveerd naar de cloud.</item>
+        <item quantity="other">%d items zijn gearchiveerd naar de cloud.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d duplicaat in %2$d groepen</item>
+        <item quantity="other">%1$d duplicaten in %2$d groepen</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d vergelijkbaar in %2$d groepen</item>
+        <item quantity="other">%1$d vergelijkbaar in %2$d groepen</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d bestand (%2$s)</item>
+        <item quantity="other">%1$d bestanden (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d duplicaat</item>
+        <item quantity="other">%d duplicaten</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">Al geïnstalleerd</string>
+    <string name="apk_status_outdated">Verouderde versie</string>
+    <string name="apk_status_not_installed">Niet geïnstalleerd</string>
+    <string name="apk_status_unknown">Onbekend</string>
+    <string name="archive_filter_all">Alles</string>
+    <string name="downloads_tab_all">Alles</string>
+    <string name="downloads_tab_large">Groot</string>
+    <string name="downloads_tab_old">Oud</string>
+    <string name="videos_quality_high">Hoge kwaliteit</string>
+    <string name="videos_quality_medium">Gemiddelde kwaliteit</string>
+    <string name="videos_quality_low">Lage kwaliteit</string>
+    <string name="videos_quality_detail">%1$dp - ongeveer %2$d%% kleiner</string>
+    <string name="contacts_match_name">Zelfde naam</string>
+    <string name="contacts_match_phone">Zelfde telefoonnummer</string>
+    <string name="contacts_match_email">Zelfde e-mailadres</string>
+    <string name="vault_pin_incorrect">Onjuiste pincode. Probeer het opnieuw.</string>
+    <string name="billing_error_no_offer">Geen aanbieding beschikbaar voor dit product</string>
+    <string name="billing_error_purchase_failed">Aankoop mislukt: %s</string>
+    <string name="billing_error_acknowledge">Aankoop kon niet worden bevestigd</string>
+    <string name="archive_failed_message">Archiveren mislukt: %s</string>
+    <string name="archive_signin_failed_message">Inloggen mislukt: %s</string>
+    <string name="paywall_ctx_generic_title">Cleanup Pro ontgrendelen</string>
+    <string name="paywall_ctx_generic_subtitle">Onbeperkt opruimen en duplicaten verwijderen</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Onbeperkt foto\'s opruimen inbegrepen</string>
+    <string name="paywall_ctx_screenshots_subtitle">Verwijder screenshots op elk moment in bulk</string>
+    <string name="paywall_ctx_videos_subtitle">Comprimeer en verwijder grote video\'s</string>
+    <string name="paywall_ctx_compress_title">Bespaar %s GB met compressie</string>
+    <string name="paywall_ctx_contacts_subtitle">Houd je contacten georganiseerd</string>
+    <string name="paywall_ctx_archive_subtitle">Bewaar bestanden veilig in de cloud in plaats van ze te verwijderen</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Verwijder %d duplicaat met één tik</item>
+        <item quantity="other">Verwijder %d duplicaten met één tik</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Ruim %d vergelijkbare foto op</item>
+        <item quantity="other">Ruim %d vergelijkbare foto\'s op</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">Verwijder %d screenshot direct</item>
+        <item quantity="other">Verwijder %d screenshots direct</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Maak %2$s GB vrij met %1$d video</item>
+        <item quantity="other">Maak %2$s GB vrij met %1$d video\'s</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">Voeg %d dubbel contact samen</item>
+        <item quantity="other">Voeg %d dubbele contacten samen</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">Archiveer %1$d item (%2$s GB)</item>
+        <item quantity="other">Archiveer %1$d items (%2$s GB)</item>
+    </plurals>
 </resources>

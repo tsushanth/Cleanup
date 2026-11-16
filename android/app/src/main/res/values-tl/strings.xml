@@ -30,8 +30,6 @@
     <string name="home_storage_used">%s nagamit</string>
     <string name="home_storage_total">%s kabuuan</string>
     <string name="home_storage_full">%d%% na puno ang iyong storage</string>
-    <string name="home_items_count">%d mga item</string>
-    <string name="home_items_count_savings">%1$d mga item \u00B7 %2$s</string>
     <string name="home_tap_to_scan">I-tap para mag-scan</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -42,7 +40,7 @@
     <string name="onboarding_media_request_title">I-access ang iyong mga larawan at video</string>
     <string name="onboarding_media_granted_subtitle">I-scan namin ang lahat ng iyong larawan at video para sa mga duplicate, magkakahawig na shot, at malalaking file.</string>
     <string name="onboarding_media_request_subtitle">Para makahanap ng mga duplicate at makapagpalaya ng espasyo, kailangan namin ng access sa iyong mga larawan at video.</string>
-    <string name="onboarding_feature_private_title">100% Pribado</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% Pribado</string>
     <string name="onboarding_feature_private_subtitle">Lahat ng pag-scan ay nangyayari sa device</string>
     <string name="onboarding_feature_fast_title">Mabilis na Scan</string>
     <string name="onboarding_feature_fast_subtitle">Wala pang 30 segundo</string>
@@ -88,7 +86,7 @@
     <string name="paywall_feature_private_title">Pribado at Ligtas</string>
     <string name="paywall_feature_private_subtitle">Lahat ng pag-scan ay nangyayari sa iyong device</string>
     <string name="paywall_best_value">PINAKAMAHUSAY NA HALAGA</string>
-    <string name="paywall_save_75">Makatipid ng 75%% kumpara sa buwanan</string>
+    <string name="paywall_save_75" formatted="false">Makatipid ng 75% kumpara sa buwanan</string>
     <string name="paywall_continue">Magpatuloy</string>
     <string name="paywall_restore">Ibalik ang mga Binili</string>
     <string name="paywall_terms">Awtomatikong nagre-renew ang mga subscription. Kanselahin anumang oras sa mga setting ng Google Play.</string>
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">Mga Screenshot</string>
     <string name="photos_no_duplicates_title">Walang Nahanap na Duplicate</string>
     <string name="photos_no_duplicates_subtitle">Malinis ang iyong photo library!</string>
-    <string name="photos_duplicates_summary">%1$d duplicate sa %2$d grupo</string>
     <string name="photos_select_all">Piliin Lahat</string>
     <string name="photos_deselect_all">I-deselect Lahat</string>
-    <string name="photos_n_duplicates">%d mga duplicate</string>
     <string name="photos_keep_best">Itabi ang Pinakamahusay</string>
     <string name="photos_no_similar_title">Walang Magkakahawig na Larawan</string>
     <string name="photos_no_similar_subtitle">Walang nahanap na grupo ng magkakahawig na larawan</string>
-    <string name="photos_similar_summary">%1$d magkakahawig sa %2$d grupo</string>
-    <string name="photos_n_similar">%d magkakahawig na larawan</string>
     <string name="photos_percent_similar">%d%% magkahawig</string>
     <string name="photos_keep_best_select_others">Itabi ang Pinakamahusay, Piliin ang Iba</string>
     <string name="photos_no_screenshots_title">Walang mga Screenshot</string>
     <string name="photos_no_screenshots_subtitle">Walang nahanap na screenshot sa iyong library</string>
-    <string name="photos_n_screenshots">%d mga screenshot</string>
     <string name="photos_selected_cd">Napili</string>
     <string name="photos_best_badge">PINAKAMAHUSAY</string>
     <string name="photos_scanning">Nag-i-scan ng mga larawan…</string>
-    <string name="photos_delete_title">I-delete ang %d Larawan?</string>
     <string name="photos_delete_message">Permanenteng mabubura ang mga napiling larawan mula sa iyong device. Hindi na ito maibabalik.</string>
     <string name="photos_delete_permanently">Permanenteng I-delete</string>
     <string name="cancel">Kanselahin</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">Bigyan ng Access</string>
     <string name="contacts_no_duplicates_title">Walang mga Duplicate</string>
     <string name="contacts_no_duplicates_subtitle">Malinis ang iyong mga contact!</string>
-    <string name="contacts_n_duplicates">%d mga duplicate</string>
     <string name="contacts_merge_all">I-merge Lahat</string>
     <string name="contacts_delete_dupes">I-delete ang mga Duplicate</string>
     <string name="contacts_no_name">Walang Pangalan</string>
     <string name="contacts_no_incomplete_title">Walang Hindi Kumpletong Contact</string>
     <string name="contacts_no_incomplete_subtitle">Lahat ng contact ay may kumpletong impormasyon</string>
-    <string name="contacts_n_incomplete">%d hindi kumpleto</string>
     <string name="contacts_delete_selected">I-delete ang Napili (%d)</string>
     <string name="contacts_merge_title">I-merge ang mga Contact</string>
     <string name="contacts_merge_subtitle">Piliin ang pangunahing contact na itatabi. Ang impormasyon mula sa ibang mga contact ay isasama dito.</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">I-compress</string>
     <string name="videos_no_large_title">Walang Malalaking Video</string>
     <string name="videos_no_large_subtitle">Walang nahanap na video na higit sa 50MB</string>
-    <string name="videos_n_large">%d malalaking video</string>
-    <string name="videos_delete_title">I-delete ang %d Video?</string>
     <string name="videos_delete_message">Permanenteng mabubura ang mga napiling video. Hindi na ito maibabalik.</string>
     <string name="videos_no_compress_title">Walang mga Video</string>
     <string name="videos_no_compress_subtitle">Walang nahanap na nako-compress na video</string>
     <string name="videos_compression_quality">Kalidad ng Compression</string>
     <string name="videos_select_videos">Pumili ng mga Video</string>
     <string name="videos_n_selected">%d napili</string>
-    <string name="videos_compress_n">I-compress ang %d Video</string>
     <string name="videos_scanning">Nag-i-scan ng mga video…</string>
     <string name="videos_compressing_title">Nag-co-compress ng Video</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">Mga Download</string>
     <string name="downloads_deselect">I-deselect</string>
-    <string name="downloads_delete_n_files">I-delete ang %d file</string>
     <string name="downloads_scanning">Nag-i-scan ng downloads folder…</string>
     <string name="downloads_clean">Malinis ang downloads folder!</string>
-    <string name="downloads_summary">%1$d file (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">Mga APK File</string>
     <string name="apk_deselect">I-deselect</string>
-    <string name="apk_delete_n">I-delete ang %d APK</string>
     <string name="apk_scanning">Naghahanap ng mga APK file…</string>
     <string name="apk_none_found">Walang nahanap na APK file!</string>
     <string name="apk_all_filter">Lahat (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">Mga Notification</string>
     <string name="notifications_analyzing">Sinusuri ang mga notification…</string>
     <string name="notifications_no_apps">Walang nahanap na app</string>
-    <string name="notifications_apps_count">%d app na may notification</string>
     <string name="notifications_manage_hint">I-tap para pamahalaan ang mga setting ng notification para sa bawat app</string>
     <string name="notifications_enabled">Naka-enable ang mga notification</string>
     <string name="notifications_disabled">Naka-disable ang mga notification</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">Nagamit na Storage</string>
     <string name="archive_empty_title">Walang na-archive na item</string>
     <string name="archive_empty_subtitle">Mag-archive ng mga larawan at video mula sa mga screen ng paglilinis para magpalaya ng espasyo sa device</string>
-    <string name="archive_items_count">%d item ang na-archive</string>
     <string name="archive_detail_archived">Na-archive: %s</string>
     <string name="archive_detail_size">Laki: %s</string>
     <string name="archive_detail_tier">Antas: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">I-delete ang Na-archive na Item</string>
     <string name="archive_delete_message">Permanenteng maaalis ang item na ito mula sa iyong archive. Hindi na ito maibabalik.</string>
     <string name="archive_success_title">Matagumpay na Na-archive</string>
-    <string name="archive_success_message">%d item ang na-archive sa cloud.</string>
     <string name="archive_restore_success_title">Matagumpay na Na-restore</string>
     <string name="archive_restore_success_message">Naibalik na ang item sa iyong device.</string>
     <string name="archive_error_title">Error</string>
@@ -325,4 +306,137 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">Bumalik</string>
     <string name="delete_button">I-delete</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d mga item</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d item · %2$s</item>
+        <item quantity="other">%1$d mga item · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">I-delete ang %d Larawan?</item>
+        <item quantity="other">I-delete ang %d Larawan?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d duplicate</item>
+        <item quantity="other">%d mga duplicate</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d magkakahawig na larawan</item>
+        <item quantity="other">%d magkakahawig na larawan</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d screenshot</item>
+        <item quantity="other">%d mga screenshot</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d hindi kumpleto</item>
+        <item quantity="other">%d hindi kumpleto</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d malalaking video</item>
+        <item quantity="other">%d malalaking video</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">I-delete ang %d Video?</item>
+        <item quantity="other">I-delete ang %d Video?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">I-compress ang %d Video</item>
+        <item quantity="other">I-compress ang %d Video</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">I-delete ang %d file</item>
+        <item quantity="other">I-delete ang %d file</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">I-delete ang %d APK</item>
+        <item quantity="other">I-delete ang %d APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d app na may notification</item>
+        <item quantity="other">%d app na may notification</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d item ang na-archive</item>
+        <item quantity="other">%d item ang na-archive</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d item ang na-archive sa cloud.</item>
+        <item quantity="other">%d item ang na-archive sa cloud.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d duplicate sa %2$d grupo</item>
+        <item quantity="other">%1$d duplicate sa %2$d grupo</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d magkakahawig sa %2$d grupo</item>
+        <item quantity="other">%1$d magkakahawig sa %2$d grupo</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d file (%2$s)</item>
+        <item quantity="other">%1$d file (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d duplicate</item>
+        <item quantity="other">%d mga duplicate</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">Naka-install na</string>
+    <string name="apk_status_outdated">Lumang bersyon</string>
+    <string name="apk_status_not_installed">Hindi pa naka-install</string>
+    <string name="apk_status_unknown">Hindi alam</string>
+    <string name="archive_filter_all">Lahat</string>
+    <string name="downloads_tab_all">Lahat</string>
+    <string name="downloads_tab_large">Malaki</string>
+    <string name="downloads_tab_old">Luma</string>
+    <string name="videos_quality_high">Mataas na Kalidad</string>
+    <string name="videos_quality_medium">Katamtamang Kalidad</string>
+    <string name="videos_quality_low">Mababang Kalidad</string>
+    <string name="videos_quality_detail">%1$dp - ~%2$d%% mas maliit</string>
+    <string name="contacts_match_name">Parehong pangalan</string>
+    <string name="contacts_match_phone">Parehong telepono</string>
+    <string name="contacts_match_email">Parehong email</string>
+    <string name="vault_pin_incorrect">Maling PIN. Pakisubukan muli.</string>
+    <string name="billing_error_no_offer">Walang alok para sa produktong ito</string>
+    <string name="billing_error_purchase_failed">Nabigo ang pagbili: %s</string>
+    <string name="billing_error_acknowledge">Hindi makumpirma ang pagbili</string>
+    <string name="archive_failed_message">Nabigo ang pag-archive: %s</string>
+    <string name="archive_signin_failed_message">Nabigo ang pag-sign in: %s</string>
+    <string name="paywall_ctx_generic_title">I-unlock ang Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Walang limitasyong paglilinis at pagtanggal ng duplicate</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Kasama ang walang limitasyong paglilinis ng larawan</string>
+    <string name="paywall_ctx_screenshots_subtitle">Mag-delete ng mga screenshot nang sabay-sabay anumang oras</string>
+    <string name="paywall_ctx_videos_subtitle">I-compress at i-delete ang malalaking video</string>
+    <string name="paywall_ctx_compress_title">Makatipid ng %s GB sa compression</string>
+    <string name="paywall_ctx_contacts_subtitle">Panatilihing maayos ang iyong mga contact</string>
+    <string name="paywall_ctx_archive_subtitle">Itago nang ligtas sa cloud ang mga file sa halip na i-delete</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Alisin ang %d duplicate sa isang tap</item>
+        <item quantity="other">Alisin ang %d mga duplicate sa isang tap</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Linisin ang %d magkahawig na larawan</item>
+        <item quantity="other">Linisin ang %d magkakahawig na larawan</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">I-delete agad ang %d screenshot</item>
+        <item quantity="other">I-delete agad ang %d mga screenshot</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Magbakante ng %2$s GB mula sa %1$d video</item>
+        <item quantity="other">Magbakante ng %2$s GB mula sa %1$d video</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">I-merge ang %d duplicate na contact</item>
+        <item quantity="other">I-merge ang %d mga duplicate na contact</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">I-archive ang %1$d item (%2$s GB)</item>
+        <item quantity="other">I-archive ang %1$d mga item (%2$s GB)</item>
+    </plurals>
 </resources>

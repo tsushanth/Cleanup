@@ -17,6 +17,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.kreativekoala.cleanup.R
+import com.kreativekoala.cleanup.util.pluralStringRes
 import com.kreativekoala.cleanup.domain.service.ApkCleanupService
 import com.kreativekoala.cleanup.util.ByteFormatter
 
@@ -65,7 +66,7 @@ fun ApkCleanupScreen(
                         } else {
                             Icon(Icons.Default.Delete, contentDescription = null)
                             Spacer(modifier = Modifier.width(8.dp))
-                            Text(stringResource(R.string.apk_delete_n, uiState.selectedFiles.size))
+                            Text(pluralStringRes(R.plurals.apk_delete_n, uiState.selectedFiles.size, uiState.selectedFiles.size))
                         }
                     }
                 }
@@ -112,7 +113,7 @@ fun ApkCleanupScreen(
                                     FilterChip(
                                         selected = uiState.filterStatus == status,
                                         onClick = { viewModel.setFilter(status) },
-                                        label = { Text("${status.displayName} ($count)") }
+                                        label = { Text("${stringResource(status.labelRes)} ($count)") }
                                     )
                                 }
                             }
@@ -122,7 +123,7 @@ fun ApkCleanupScreen(
                     // Total size
                     val totalSize = viewModel.filteredFiles.sumOf { it.size }
                     Text(
-                        stringResource(R.string.downloads_summary, viewModel.filteredFiles.size, ByteFormatter.format(totalSize)),
+                        pluralStringRes(R.plurals.downloads_summary, viewModel.filteredFiles.size, viewModel.filteredFiles.size, ByteFormatter.format(totalSize)),
                         style = MaterialTheme.typography.titleSmall,
                         color = MaterialTheme.colorScheme.primary,
                         modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)
@@ -161,7 +162,7 @@ private fun ApkFileItem(
                     style = MaterialTheme.typography.bodySmall
                 )
                 Text(
-                    apk.status.displayName,
+                    stringResource(apk.status.labelRes),
                     style = MaterialTheme.typography.labelSmall,
                     color = when (apk.status) {
                         ApkCleanupService.ApkStatus.ALREADY_INSTALLED -> Color(0xFF4CAF50)

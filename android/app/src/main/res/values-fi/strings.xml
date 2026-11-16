@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <string name="home_title">Siivous yhdellä napautuksella</string>
+    <string name="home_vault_cd">Holvi</string>
+    <string name="home_scanning">Skannataan…</string>
+    <string name="home_one_tap_scan">Skannaa yhdellä napautuksella</string>
+    <string name="home_grant_access_scan">Myönnä käyttöoikeus ja skannaa</string>
+    <string name="home_scanning_device">Skannataan laitettasi…</string>
+    <string name="home_quick_actions">Pikatoiminnot</string>
+    <string name="home_chip_duplicates">Kaksoiskappaleet</string>
+    <string name="home_chip_screenshots">Näyttökuvat</string>
+    <string name="home_chip_large_videos">Suuret videot</string>
+    <string name="home_chip_compress">Pakkaa</string>
+    <string name="home_chip_archive">Arkisto</string>
+    <string name="home_chip_downloads">Lataukset</string>
+    <string name="home_chip_apk_files">APK-tiedostot</string>
+    <string name="home_smart_scan_results">Älykkään skannauksen tulokset</string>
+    <string name="home_category_duplicate_photos">Kaksoiskappalekuvat</string>
+    <string name="home_category_similar_photos">Samankaltaiset kuvat</string>
+    <string name="home_category_screenshots">Näyttökuvat</string>
+    <string name="home_category_large_videos">Suuret videot</string>
+    <string name="home_category_duplicate_contacts">Kaksoiskappaleyhteystiedot</string>
+    <string name="home_file_management">Tiedostonhallinta</string>
+    <string name="home_category_downloads">Lataukset</string>
+    <string name="home_category_apk_files">APK-tiedostot</string>
+    <string name="home_category_notification_manager">Ilmoitusten hallinta</string>
+    <string name="home_storage_used">%s käytössä</string>
+    <string name="home_storage_total">%s yhteensä</string>
+    <string name="home_storage_full">Tallennustilasi on %d %% täynnä</string>
+    <string name="home_tap_to_scan">Skannaa napauttamalla</string>
+
+    <string name="onboarding_welcome_title">Puhelimesi on täynnä turhaa tavaraa</string>
+    <string name="onboarding_welcome_subtitle">Kaksoiskappalekuvat, vanhat näyttökuvat, suuret videot — ne syövät tallennustilaasi. Korjataan se.</string>
+    <string name="onboarding_welcome_button">Aloitetaan siivous</string>
+    <string name="onboarding_media_granted_title">Mediakäyttöoikeus myönnetty!</string>
+    <string name="onboarding_media_request_title">Salli pääsy kuviin ja videoihin</string>
+    <string name="onboarding_media_granted_subtitle">Skannaamme kaikki kuvasi ja videosi kaksoiskappaleiden, samankaltaisten otosten ja tilaa vievien tiedostojen varalta.</string>
+    <string name="onboarding_media_request_subtitle">Tarvitsemme pääsyn kuviisi ja videoihisi löytääksemme kaksoiskappaleet ja vapauttaaksemme tilaa.</string>
+    <string name="onboarding_feature_private_title" formatted="false">100 % yksityinen</string>
+    <string name="onboarding_feature_private_subtitle">Kaikki skannaus tapahtuu laitteella</string>
+    <string name="onboarding_feature_fast_title">Nopea skannaus</string>
+    <string name="onboarding_feature_fast_subtitle">Kestää alle 30 sekuntia</string>
+    <string name="onboarding_feature_you_choose_title">Sinä päätät</string>
+    <string name="onboarding_feature_you_choose_subtitle">Mitään ei poisteta ilman hyväksyntääsi</string>
+    <string name="onboarding_continue">Jatka</string>
+    <string name="onboarding_allow_photo_video">Salli pääsy kuviin ja videoihin</string>
+    <string name="onboarding_skip">Ohita toistaiseksi</string>
+    <string name="onboarding_contact_granted_title">Yhteystietojen käyttöoikeus myönnetty!</string>
+    <string name="onboarding_contact_request_title">Siivoa yhteystietosi</string>
+    <string name="onboarding_contact_granted_subtitle">Löydämme kaksoiskappale- ja puutteelliset yhteystiedot, jotta voit yhdistää tai poistaa ne.</string>
+    <string name="onboarding_contact_request_subtitle">Löydä ja yhdistä kaksoiskappaleyhteystiedot pitääksesi osoitekirjasi siistinä.</string>
+    <string name="onboarding_feature_find_dupes_title">Etsi kaksoiskappaleet</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Tunnista samannimiset tai samanumeroiset yhteystiedot</string>
+    <string name="onboarding_feature_smart_merge_title">Älykäs yhdistäminen</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Yhdistä kaksoiskappaleet yhdeksi yhteystiedoksi</string>
+    <string name="onboarding_feature_safe_title">Turvallinen</string>
+    <string name="onboarding_feature_safe_subtitle">Tarkista ennen kuin mitään muutetaan</string>
+    <string name="onboarding_allow_contact">Salli pääsy yhteystietoihin</string>
+    <string name="onboarding_ready_title">Kaikki valmista!</string>
+    <string name="onboarding_ready_subtitle">Napauta alla olevaa painiketta skannataksesi kaiken ja aloittaaksesi siivouksen.</string>
+    <string name="onboarding_photos_videos">Kuvat ja videot</string>
+    <string name="onboarding_contact_access">Yhteystietojen käyttö</string>
+    <string name="onboarding_free_duplicates">5 ilmaista kaksoiskappaleiden poistoa</string>
+    <string name="onboarding_free_similar">5 ilmaista samankaltaisten kuvien siivousta</string>
+    <string name="onboarding_free_screenshots">5 ilmaista näyttökuvien poistoa</string>
+    <string name="onboarding_free_videos">5 ilmaista videoiden siivousta</string>
+    <string name="onboarding_free_contacts">5 ilmaista yhteystietojen yhdistämistä</string>
+    <string name="onboarding_free_label">ILMAINEN</string>
+    <string name="onboarding_get_started">Skannaa ja aloita</string>
+
+    <string name="paywall_close_cd">Sulje</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">vuodessa</string>
+    <string name="paywall_per_month">kuukaudessa</string>
+    <string name="paywall_feature_unlimited_title">Rajattomat siivoukset</string>
+    <string name="paywall_feature_unlimited_subtitle">Siivoa laitteesi niin usein kuin haluat</string>
+    <string name="paywall_feature_duplicates_title">Poista kaksoiskappaleet ja samankaltaiset</string>
+    <string name="paywall_feature_duplicates_subtitle">Etsi ja poista kaksoiskappalekuvat hetkessä</string>
+    <string name="paywall_feature_videos_title">Suurten videoiden hallinta</string>
+    <string name="paywall_feature_videos_subtitle">Pakkaa tai poista tilaa vievät videot</string>
+    <string name="paywall_feature_private_title">Yksityinen ja turvallinen</string>
+    <string name="paywall_feature_private_subtitle">Kaikki skannaus tapahtuu laitteellasi</string>
+    <string name="paywall_best_value">PARAS ARVO</string>
+    <string name="paywall_save_75" formatted="false">Säästä 75 % kuukausihintaan verrattuna</string>
+    <string name="paywall_continue">Jatka</string>
+    <string name="paywall_restore">Palauta ostokset</string>
+    <string name="paywall_terms">Tilaukset uusiutuvat automaattisesti. Voit peruuttaa milloin tahansa Google Playn asetuksissa.</string>
+
+    <string name="photos_title">Kuvien siivous</string>
+    <string name="photos_back_cd">Takaisin</string>
+    <string name="photos_change_folder_cd">Vaihda kansio</string>
+    <string name="photos_delete_count">Poista %d</string>
+    <string name="photos_select_title">Valitse analysoitavat kuvat</string>
+    <string name="photos_select_subtitle">Valitse, miten haluat antaa kuvat kaksoiskappaleiden ja näyttökuvien tunnistusta varten.</string>
+    <string name="photos_select_all_folder">Valitse kaikki (kansion käyttö)</string>
+    <string name="photos_select_all_hint">Myönnä pääsy DCIM- tai Kuvat-kansioon skannataksesi kaikki kuvat</string>
+    <string name="photos_choose">Valitse kuvat</string>
+    <string name="photos_choose_hint">Valitse analysoitavat kuvat</string>
+    <string name="photos_selected_count">%d valittu</string>
+    <string name="photos_save_amount">Säästä %s</string>
+    <string name="photos_tab_duplicates">Kaksoiskappaleet</string>
+    <string name="photos_tab_similar">Samankaltaiset</string>
+    <string name="photos_tab_screenshots">Näyttökuvat</string>
+    <string name="photos_no_duplicates_title">Kaksoiskappaleita ei löytynyt</string>
+    <string name="photos_no_duplicates_subtitle">Kuvakirjastosi on siisti!</string>
+    <string name="photos_select_all">Valitse kaikki</string>
+    <string name="photos_deselect_all">Poista kaikki valinnat</string>
+    <string name="photos_keep_best">Säilytä paras</string>
+    <string name="photos_no_similar_title">Ei samankaltaisia kuvia</string>
+    <string name="photos_no_similar_subtitle">Samankaltaisten kuvien ryhmiä ei löytynyt</string>
+    <string name="photos_percent_similar">%d %% samankaltainen</string>
+    <string name="photos_keep_best_select_others">Säilytä paras, valitse muut</string>
+    <string name="photos_no_screenshots_title">Ei näyttökuvia</string>
+    <string name="photos_no_screenshots_subtitle">Kirjastostasi ei löytynyt näyttökuvia</string>
+    <string name="photos_selected_cd">Valittu</string>
+    <string name="photos_best_badge">PARAS</string>
+    <string name="photos_scanning">Skannataan kuvia…</string>
+    <string name="photos_delete_message">Tämä poistaa valitut kuvat laitteeltasi pysyvästi. Toimintoa ei voi peruuttaa.</string>
+    <string name="photos_delete_permanently">Poista pysyvästi</string>
+    <string name="cancel">Peruuta</string>
+
+    <string name="upgrade_title">Päivitä Pro-versioon</string>
+    <string name="upgrade_message">Olet käyttänyt kaikki tämän kategorian ilmaiset siivouksesi. Päivitä Pro-versioon rajattoman käytön saamiseksi.</string>
+    <string name="upgrade_button">Päivitä</string>
+    <string name="upgrade_not_now">Ei nyt</string>
+
+    <string name="vault_title">Holvi</string>
+    <string name="vault_lock_cd">Lukitse</string>
+    <string name="vault_add_cd">Lisää kohteita</string>
+    <string name="vault_secret_space">Salainen tila</string>
+    <string name="vault_enter_pin">Anna PIN-koodisi päästäksesi sisään</string>
+    <string name="vault_use_biometrics">Käytä biometriikkaa</string>
+    <string name="vault_biometric_title">Avaa salainen tila</string>
+    <string name="vault_biometric_subtitle">Avaa sormenjäljellä tai kasvoilla</string>
+    <string name="vault_biometric_negative">Käytä PIN-koodia</string>
+    <string name="vault_backspace_cd">Poista</string>
+    <string name="vault_create_pin">Luo PIN-koodi</string>
+    <string name="vault_confirm_pin">Vahvista PIN-koodi</string>
+    <string name="vault_create_pin_subtitle">Valitse nelinumeroinen PIN-koodi holvisi suojaamiseksi</string>
+    <string name="vault_confirm_pin_subtitle">Anna sama PIN-koodi uudelleen</string>
+    <string name="vault_pin_mismatch">PIN-koodit eivät täsmää. Yritä uudelleen.</string>
+    <string name="vault_empty_title">Holvisi on tyhjä</string>
+    <string name="vault_empty_subtitle">Lisää kuvia ja videoita pitääksesi ne yksityisinä</string>
+    <string name="vault_add_items">Lisää kohteita</string>
+    <string name="vault_adding">Lisätään holviin…</string>
+    <string name="vault_add_to_vault">Lisää holviin</string>
+    <string name="vault_select_items_subtitle">Valitse holviisi lisättävät kohteet</string>
+    <string name="vault_select_from_photos">Valitse kuvista</string>
+    <string name="vault_select_from_files">Valitse tiedostoista</string>
+    <string name="vault_delete_title">Poista kohde</string>
+    <string name="vault_delete_message">Tämä poistaa kohteen holvistasi pysyvästi.</string>
+    <string name="vault_delete_button">Poista</string>
+    <string name="vault_restore_title">Palauta kohde</string>
+    <string name="vault_restore_message">Tämä palauttaa kohteen kuvakirjastoosi.</string>
+    <string name="vault_restore_button">Palauta</string>
+    <string name="vault_added_date">Lisätty: %s</string>
+    <string name="vault_item_size">Koko: %s</string>
+
+    <string name="contacts_title">Yhteystietojen siivous</string>
+    <string name="contacts_tab_duplicates">Kaksoiskappaleet</string>
+    <string name="contacts_tab_incomplete">Puutteelliset</string>
+    <string name="contacts_access_required">Yhteystietojen käyttöoikeus vaaditaan</string>
+    <string name="contacts_access_message">Siivous tarvitsee pääsyn yhteystietoihisi löytääkseen kaksoiskappaleet ja puutteelliset tiedot.</string>
+    <string name="contacts_grant_access">Myönnä käyttöoikeus</string>
+    <string name="contacts_no_duplicates_title">Ei kaksoiskappaleita</string>
+    <string name="contacts_no_duplicates_subtitle">Yhteystietosi ovat siistit!</string>
+    <string name="contacts_merge_all">Yhdistä kaikki</string>
+    <string name="contacts_delete_dupes">Poista kopiot</string>
+    <string name="contacts_no_name">Ei nimeä</string>
+    <string name="contacts_no_incomplete_title">Ei puutteellisia yhteystietoja</string>
+    <string name="contacts_no_incomplete_subtitle">Kaikissa yhteystiedoissa on täydelliset tiedot</string>
+    <string name="contacts_delete_selected">Poista valitut (%d)</string>
+    <string name="contacts_merge_title">Yhdistä yhteystiedot</string>
+    <string name="contacts_merge_subtitle">Valitse säilytettävä pääyhteystieto. Muiden yhteystietojen tiedot yhdistetään siihen.</string>
+    <string name="contacts_merge_button">Yhdistä yhteystiedot</string>
+    <string name="contacts_scanning">Skannataan yhteystietoja…</string>
+
+    <string name="videos_title">Videoiden siivous</string>
+    <string name="videos_delete_count">Poista %d</string>
+    <string name="videos_select_title">Valitse analysoitavat videot</string>
+    <string name="videos_select_subtitle">Valitse, miten haluat antaa videot suurten tiedostojen tunnistusta ja pakkaamista varten.</string>
+    <string name="videos_select_all_folder">Valitse kaikki (kansion käyttö)</string>
+    <string name="videos_select_all_hint">Myönnä pääsy DCIM- tai mediakansioon skannataksesi kaikki videot</string>
+    <string name="videos_choose">Valitse videot</string>
+    <string name="videos_choose_hint">Valitse analysoitavat videot</string>
+    <string name="videos_tab_large">Suuret videot</string>
+    <string name="videos_tab_compress">Pakkaa</string>
+    <string name="videos_no_large_title">Ei suuria videoita</string>
+    <string name="videos_no_large_subtitle">Yli 50 MB:n videoita ei löytynyt</string>
+    <string name="videos_delete_message">Tämä poistaa valitut videot pysyvästi. Toimintoa ei voi peruuttaa.</string>
+    <string name="videos_no_compress_title">Ei videoita</string>
+    <string name="videos_no_compress_subtitle">Pakattavia videoita ei löytynyt</string>
+    <string name="videos_compression_quality">Pakkauksen laatu</string>
+    <string name="videos_select_videos">Valitse videot</string>
+    <string name="videos_n_selected">%d valittu</string>
+    <string name="videos_scanning">Skannataan videoita…</string>
+    <string name="videos_compressing_title">Pakataan videota</string>
+
+    <string name="downloads_title">Lataukset</string>
+    <string name="downloads_deselect">Poista valinta</string>
+    <string name="downloads_scanning">Skannataan latauskansiota…</string>
+    <string name="downloads_clean">Latauskansio on siisti!</string>
+
+    <string name="apk_title">APK-tiedostot</string>
+    <string name="apk_deselect">Poista valinta</string>
+    <string name="apk_scanning">Etsitään APK-tiedostoja…</string>
+    <string name="apk_none_found">APK-tiedostoja ei löytynyt!</string>
+    <string name="apk_all_filter">Kaikki (%d)</string>
+
+    <string name="notifications_title">Ilmoitukset</string>
+    <string name="notifications_analyzing">Analysoidaan ilmoituksia…</string>
+    <string name="notifications_no_apps">Sovelluksia ei löytynyt</string>
+    <string name="notifications_manage_hint">Napauta hallitaksesi kunkin sovelluksen ilmoitusasetuksia</string>
+    <string name="notifications_enabled">Ilmoitukset käytössä</string>
+    <string name="notifications_disabled">Ilmoitukset pois käytöstä</string>
+    <string name="notifications_manage_button">Hallitse</string>
+
+    <string name="archive_title">Pilviarkisto</string>
+    <string name="archive_sync_cd">Synkronoi</string>
+    <string name="archive_storage_used">Käytetty tila</string>
+    <string name="archive_empty_title">Ei arkistoituja kohteita</string>
+    <string name="archive_empty_subtitle">Arkistoi kuvia ja videoita siivousnäkymistä vapauttaaksesi laitteen tilaa</string>
+    <string name="archive_detail_archived">Arkistoitu: %s</string>
+    <string name="archive_detail_size">Koko: %s</string>
+    <string name="archive_detail_tier">Taso: %s</string>
+    <string name="archive_retrieve_button">Hae</string>
+    <string name="archive_delete_title">Poista arkistoitu kohde</string>
+    <string name="archive_delete_message">Tämä poistaa kohteen arkistostasi pysyvästi. Toimintoa ei voi peruuttaa.</string>
+    <string name="archive_success_title">Arkistointi onnistui</string>
+    <string name="archive_restore_success_title">Palautus onnistui</string>
+    <string name="archive_restore_success_message">Kohde on palautettu laitteellesi.</string>
+    <string name="archive_error_title">Virhe</string>
+    <string name="ok">OK</string>
+
+    <string name="archive_signin_title">Kirjaudu pilviarkistoa varten</string>
+    <string name="archive_signin_subtitle">Arkistoi kuvasi ja videosi pilveen ennen niiden poistamista laitteeltasi</string>
+    <string name="archive_signin_encrypted_title">Salattu tallennus</string>
+    <string name="archive_signin_encrypted_subtitle">Tiedostosi salataan siirron aikana ja levossa AWS:ssä</string>
+    <string name="archive_signin_retrieve_title">Haettavissa milloin vain</string>
+    <string name="archive_signin_retrieve_subtitle">Lataa arkistoidut tiedostosi aina kun tarvitset niitä</string>
+    <string name="archive_signin_private_title">Yksityinen ja turvallinen</string>
+    <string name="archive_signin_private_subtitle">Ei muistettavia salasanoja — kirjaudu Googlella</string>
+    <string name="archive_signin_google">Kirjaudu Googlella</string>
+    <string name="archive_signin_privacy">Tietojasi käytetään vain pilviarkiston tallennukseen. Emme koskaan jaa tai myy tietojasi.</string>
+
+    <string name="archive_paywall_title">Poista luottavaisin mielin</string>
+    <string name="archive_paywall_subtitle">Arkistoi tiedostot pilveen ennen poistamista. Hae ne takaisin milloin vain.</string>
+    <string name="archive_paywall_safety_title">Turvaverkko</string>
+    <string name="archive_paywall_safety_subtitle">Älä enää koskaan menetä tärkeitä tiedostoja</string>
+    <string name="archive_paywall_retrieve_title">Haettavissa milloin vain</string>
+    <string name="archive_paywall_retrieve_subtitle">Lataa arkistoidut tiedostot aina kun tarvitset</string>
+    <string name="archive_paywall_encrypted_title">Salattu tallennus</string>
+    <string name="archive_paywall_encrypted_subtitle">Tietosi ovat aina salattuja ja yksityisiä</string>
+    <string name="archive_paywall_choose_plan">Valitse tilauksesi</string>
+    <string name="archive_paywall_current">NYKYINEN</string>
+    <string name="archive_paywall_subscribe">Tilaa</string>
+
+    <string name="settings_title">Asetukset</string>
+    <string name="settings_account">Tili</string>
+    <string name="settings_sign_in">Kirjaudu sisään</string>
+    <string name="settings_subscription">Tilaus</string>
+    <string name="settings_upgrade_pro">Päivitä Pro-versioon</string>
+    <string name="settings_features">Ominaisuudet</string>
+    <string name="settings_secret_space">Salainen tila</string>
+    <string name="settings_email_cleanup">Sähköpostin siivous</string>
+    <string name="settings_widgets">Widgetit</string>
+    <string name="settings_about">Tietoja</string>
+    <string name="settings_privacy_policy">Tietosuojakäytäntö</string>
+    <string name="settings_terms">Käyttöehdot</string>
+    <string name="settings_rate_us">Arvioi meidät</string>
+    <string name="settings_version">Versio 1.1 (2)</string>
+
+    <string name="nav_home">Koti</string>
+    <string name="nav_photos">Kuvat</string>
+    <string name="nav_videos">Videot</string>
+    <string name="nav_contacts">Yhteystiedot</string>
+    <string name="nav_settings">Asetukset</string>
+    <string name="login_title">Kirjaudu sisään</string>
+    <string name="login_coming_soon">Tulossa pian</string>
+    <string name="login_coming_soon_subtitle">Tilillä kirjautuminen tulee saataville tulevassa päivityksessä.</string>
+    <string name="login_email">Sähköposti</string>
+    <string name="login_password">Salasana</string>
+    <string name="login_button">Kirjaudu sisään</string>
+    <string name="placeholder_coming_soon">%s - tulossa pian</string>
+    <string name="email_cleanup_title">Sähköpostin siivous</string>
+    <string name="widgets_title">Widgetit</string>
+
+    <string name="back_cd">Takaisin</string>
+    <string name="delete_button">Poista</string>
+
+    <plurals name="home_items_count">
+        <item quantity="one">%d kohde</item>
+        <item quantity="other">%d kohdetta</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d kohde · %2$s</item>
+        <item quantity="other">%1$d kohdetta · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">Poistetaanko %d kuva?</item>
+        <item quantity="other">Poistetaanko %d kuvaa?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d kaksoiskappale</item>
+        <item quantity="other">%d kaksoiskappaletta</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d samankaltainen kuva</item>
+        <item quantity="other">%d samankaltaista kuvaa</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d näyttökuva</item>
+        <item quantity="other">%d näyttökuvaa</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d puutteellinen</item>
+        <item quantity="other">%d puutteellista</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d suuri video</item>
+        <item quantity="other">%d suurta videota</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">Poistetaanko %d video?</item>
+        <item quantity="other">Poistetaanko %d videota?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">Pakkaa %d video</item>
+        <item quantity="other">Pakkaa %d videota</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">Poista %d tiedosto</item>
+        <item quantity="other">Poista %d tiedostoa</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">Poista %d APK</item>
+        <item quantity="other">Poista %d APK:ta</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d sovellus, jolla on ilmoituksia</item>
+        <item quantity="other">%d sovellusta, joilla on ilmoituksia</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d kohde arkistoitu</item>
+        <item quantity="other">%d kohdetta arkistoitu</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d kohde on arkistoitu pilveen.</item>
+        <item quantity="other">%d kohdetta on arkistoitu pilveen.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d kaksoiskappale %2$d ryhmässä</item>
+        <item quantity="other">%1$d kaksoiskappaletta %2$d ryhmässä</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d samankaltainen %2$d ryhmässä</item>
+        <item quantity="other">%1$d samankaltaista %2$d ryhmässä</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d tiedosto (%2$s)</item>
+        <item quantity="other">%1$d tiedostoa (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d kaksoiskappale</item>
+        <item quantity="other">%d kaksoiskappaletta</item>
+    </plurals>
+
+    <string name="apk_status_already_installed">Jo asennettu</string>
+    <string name="apk_status_outdated">Vanhentunut versio</string>
+    <string name="apk_status_not_installed">Ei asennettu</string>
+    <string name="apk_status_unknown">Tuntematon</string>
+    <string name="archive_filter_all">Kaikki</string>
+    <string name="downloads_tab_all">Kaikki</string>
+    <string name="downloads_tab_large">Suuret</string>
+    <string name="downloads_tab_old">Vanhat</string>
+    <string name="videos_quality_high">Korkea laatu</string>
+    <string name="videos_quality_medium">Keskilaatu</string>
+    <string name="videos_quality_low">Matala laatu</string>
+    <string name="videos_quality_detail">%1$dp - ~%2$d %% pienempi</string>
+    <string name="contacts_match_name">Sama nimi</string>
+    <string name="contacts_match_phone">Sama puhelinnumero</string>
+    <string name="contacts_match_email">Sama sähköposti</string>
+    <string name="vault_pin_incorrect">Väärä PIN-koodi. Yritä uudelleen.</string>
+    <string name="billing_error_no_offer">Tälle tuotteelle ei ole saatavilla tarjousta</string>
+    <string name="billing_error_purchase_failed">Osto epäonnistui: %s</string>
+    <string name="billing_error_acknowledge">Oston vahvistaminen epäonnistui</string>
+    <string name="archive_failed_message">Arkistointi epäonnistui: %s</string>
+    <string name="archive_signin_failed_message">Kirjautuminen epäonnistui: %s</string>
+    <string name="paywall_ctx_generic_title">Avaa Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Rajattomat siivoukset ja kaksoiskappaleiden poisto</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Rajattomat kuvien siivoukset mukana</string>
+    <string name="paywall_ctx_screenshots_subtitle">Poista näyttökuvat kerralla milloin vain</string>
+    <string name="paywall_ctx_videos_subtitle">Pakkaa ja poista suuria videoita</string>
+    <string name="paywall_ctx_compress_title">Säästä %s GB pakkaamalla</string>
+    <string name="paywall_ctx_contacts_subtitle">Pidä yhteystietosi järjestyksessä</string>
+    <string name="paywall_ctx_archive_subtitle">Säilytä tiedostot turvassa pilvessä poistamisen sijaan</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Poista %d kaksoiskappale yhdellä napautuksella</item>
+        <item quantity="other">Poista %d kaksoiskappaletta yhdellä napautuksella</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Siivoa %d samankaltainen kuva</item>
+        <item quantity="other">Siivoa %d samankaltaista kuvaa</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">Poista %d näyttökuva heti</item>
+        <item quantity="other">Poista %d näyttökuvaa heti</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Vapauta %2$s GB %1$d videosta</item>
+        <item quantity="other">Vapauta %2$s GB %1$d videosta</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">Yhdistä %d kaksoiskappaleyhteystieto</item>
+        <item quantity="other">Yhdistä %d kaksoiskappaleyhteystietoa</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">Arkistoi %1$d kohde (%2$s GB)</item>
+        <item quantity="other">Arkistoi %1$d kohdetta (%2$s GB)</item>
+    </plurals>
+</resources>

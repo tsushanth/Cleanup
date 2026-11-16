@@ -28,8 +28,6 @@
     <string name="home_storage_used">%s \u0909\u092a\u092f\u094b\u0917 \u0915\u093f\u092f\u093e</string>
     <string name="home_storage_total">\u0915\u0941\u0932 %s</string>
     <string name="home_storage_full">\u0906\u092a\u0915\u093e \u0938\u094d\u091f\u094b\u0930\u0947\u091c %d%% \u092d\u0930\u093e \u0939\u0941\u0906 \u0939\u0948</string>
-    <string name="home_items_count">%d \u0906\u0907\u091f\u092e</string>
-    <string name="home_items_count_savings">%1$d \u0906\u0907\u091f\u092e \u00B7 %2$s</string>
     <string name="home_tap_to_scan">\u0938\u094d\u0915\u0948\u0928 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u091f\u0948\u092a \u0915\u0930\u0947\u0902</string>
     <string name="onboarding_welcome_title">\u0906\u092a\u0915\u093e \u092b\u094b\u0928 \u0905\u0928\u093e\u0935\u0936\u094d\u092f\u0915 \u092b\u093e\u0907\u0932\u094b\u0902 \u0938\u0947 \u092d\u0930\u093e \u0939\u0941\u0906 \u0939\u0948</string>
     <string name="onboarding_welcome_subtitle">\u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f \u092b\u094b\u091f\u094b, \u092a\u0941\u0930\u093e\u0928\u0947 \u0938\u094d\u0915\u094d\u0930\u0940\u0928\u0936\u0949\u091f, \u092c\u0921\u093c\u0947 \u0935\u0940\u0921\u093f\u092f\u094b \u2014 \u092f\u0947 \u0906\u092a\u0915\u093e \u0938\u094d\u091f\u094b\u0930\u0947\u091c \u0916\u093e \u0930\u0939\u0947 \u0939\u0948\u0902\u0964 \u0907\u0938\u0947 \u0920\u0940\u0915 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902\u0964</string>
@@ -38,7 +36,7 @@
     <string name="onboarding_media_request_title">\u0905\u092a\u0928\u0940 \u092b\u094b\u091f\u094b \u0914\u0930 \u0935\u0940\u0921\u093f\u092f\u094b \u090f\u0915\u094d\u0938\u0947\u0938 \u0915\u0930\u0947\u0902</string>
     <string name="onboarding_media_granted_subtitle">\u0939\u092e \u0906\u092a\u0915\u0940 \u0938\u092d\u0940 \u092b\u094b\u091f\u094b \u0914\u0930 \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u094b \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f, \u0938\u092e\u093e\u0928 \u0936\u0949\u091f\u094d\u0938 \u0914\u0930 \u092c\u0921\u093c\u0940 \u092b\u093e\u0907\u0932\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0938\u094d\u0915\u0948\u0928 \u0915\u0930\u0947\u0902\u0917\u0947\u0964</string>
     <string name="onboarding_media_request_subtitle">\u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f \u0916\u094b\u091c\u0928\u0947 \u0914\u0930 \u0938\u094d\u092a\u0947\u0938 \u0916\u093e\u0932\u0940 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f, \u0939\u092e\u0947\u0902 \u0906\u092a\u0915\u0940 \u092b\u094b\u091f\u094b \u0914\u0930 \u0935\u0940\u0921\u093f\u092f\u094b \u0924\u0915 \u092a\u0939\u0941\u0901\u091a \u091a\u093e\u0939\u093f\u090f\u0964</string>
-    <string name="onboarding_feature_private_title">100%% \u0928\u093f\u091c\u0940</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% \u0928\u093f\u091c\u0940</string>
     <string name="onboarding_feature_private_subtitle">\u0938\u092d\u0940 \u0938\u094d\u0915\u0948\u0928\u093f\u0902\u0917 \u0921\u093f\u0935\u093e\u0907\u0938 \u092a\u0930 \u0939\u094b\u0924\u0940 \u0939\u0948</string>
     <string name="onboarding_feature_fast_title">\u0924\u0947\u091c\u093c \u0938\u094d\u0915\u0948\u0928</string>
     <string name="onboarding_feature_fast_subtitle">30 \u0938\u0947\u0915\u0902\u0921 \u0938\u0947 \u0915\u092e \u092e\u0947\u0902</string>
@@ -82,7 +80,7 @@
     <string name="paywall_feature_private_title">\u0928\u093f\u091c\u0940 \u0914\u0930 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924</string>
     <string name="paywall_feature_private_subtitle">\u0938\u092d\u0940 \u0938\u094d\u0915\u0948\u0928\u093f\u0902\u0917 \u0906\u092a\u0915\u0947 \u0921\u093f\u0935\u093e\u0907\u0938 \u092a\u0930 \u0939\u094b\u0924\u0940 \u0939\u0948</string>
     <string name="paywall_best_value">\u0938\u0930\u094d\u0935\u094b\u0924\u094d\u0924\u092e \u092e\u0942\u0932\u094d\u092f</string>
-    <string name="paywall_save_75">\u092e\u093e\u0938\u093f\u0915 \u0915\u0940 \u0924\u0941\u0932\u0928\u093e \u092e\u0947\u0902 75%% \u092c\u091a\u093e\u090f\u0902</string>
+    <string name="paywall_save_75" formatted="false">\u092e\u093e\u0938\u093f\u0915 \u0915\u0940 \u0924\u0941\u0932\u0928\u093e \u092e\u0947\u0902 75% \u092c\u091a\u093e\u090f\u0902</string>
     <string name="paywall_continue">\u091c\u093e\u0930\u0940 \u0930\u0916\u0947\u0902</string>
     <string name="paywall_restore">\u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u092a\u0941\u0928\u0930\u094d\u0938\u094d\u0925\u093e\u092a\u093f\u0924 \u0915\u0930\u0947\u0902</string>
     <string name="paywall_terms">\u0938\u0926\u0938\u094d\u092f\u0924\u093e \u0938\u094d\u0935\u091a\u093e\u0932\u093f\u0924 \u0930\u0942\u092a \u0938\u0947 \u0928\u0935\u0940\u0928\u0940\u0915\u0943\u0924 \u0939\u094b\u0924\u0940 \u0939\u0948\u0964 Google Play \u0938\u0947\u091f\u093f\u0902\u0917\u094d\u0938 \u092e\u0947\u0902 \u0915\u092d\u0940 \u092d\u0940 \u0930\u0926\u094d\u0926 \u0915\u0930\u0947\u0902\u0964</string>
@@ -103,24 +101,18 @@
     <string name="photos_tab_screenshots">\u0938\u094d\u0915\u094d\u0930\u0940\u0928\u0936\u0949\u091f</string>
     <string name="photos_no_duplicates_title">\u0915\u094b\u0908 \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f \u0928\u0939\u0940\u0902 \u092e\u093f\u0932\u0947</string>
     <string name="photos_no_duplicates_subtitle">\u0906\u092a\u0915\u0940 \u092b\u094b\u091f\u094b \u0932\u093e\u0907\u092c\u094d\u0930\u0947\u0930\u0940 \u0938\u093e\u092b\u093c \u0939\u0948!</string>
-    <string name="photos_duplicates_summary">%2$d \u0917\u094d\u0930\u0941\u092a \u092e\u0947\u0902 %1$d \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f</string>
     <string name="photos_select_all">\u0938\u092c \u091a\u0941\u0928\u0947\u0902</string>
     <string name="photos_deselect_all">\u0938\u092c \u0939\u091f\u093e\u090f\u0902</string>
-    <string name="photos_n_duplicates">%d \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f</string>
     <string name="photos_keep_best">\u0938\u092c\u0938\u0947 \u0905\u091a\u094d\u091b\u093e \u0930\u0916\u0947\u0902</string>
     <string name="photos_no_similar_title">\u0915\u094b\u0908 \u0938\u092e\u093e\u0928 \u092b\u094b\u091f\u094b \u0928\u0939\u0940\u0902</string>
     <string name="photos_no_similar_subtitle">\u0938\u092e\u093e\u0928 \u092b\u094b\u091f\u094b \u0915\u0947 \u0917\u094d\u0930\u0941\u092a \u0928\u0939\u0940\u0902 \u092e\u093f\u0932\u0947</string>
-    <string name="photos_similar_summary">%2$d \u0917\u094d\u0930\u0941\u092a \u092e\u0947\u0902 %1$d \u0938\u092e\u093e\u0928</string>
-    <string name="photos_n_similar">%d \u0938\u092e\u093e\u0928 \u092b\u094b\u091f\u094b</string>
     <string name="photos_percent_similar">%d%% \u0938\u092e\u093e\u0928</string>
     <string name="photos_keep_best_select_others">\u0938\u092c\u0938\u0947 \u0905\u091a\u094d\u091b\u093e \u0930\u0916\u0947\u0902, \u092c\u093e\u0915\u0940 \u091a\u0941\u0928\u0947\u0902</string>
     <string name="photos_no_screenshots_title">\u0915\u094b\u0908 \u0938\u094d\u0915\u094d\u0930\u0940\u0928\u0936\u0949\u091f \u0928\u0939\u0940\u0902</string>
     <string name="photos_no_screenshots_subtitle">\u0906\u092a\u0915\u0940 \u0932\u093e\u0907\u092c\u094d\u0930\u0947\u0930\u0940 \u092e\u0947\u0902 \u0915\u094b\u0908 \u0938\u094d\u0915\u094d\u0930\u0940\u0928\u0936\u0949\u091f \u0928\u0939\u0940\u0902 \u092e\u093f\u0932\u0947</string>
-    <string name="photos_n_screenshots">%d \u0938\u094d\u0915\u094d\u0930\u0940\u0928\u0936\u0949\u091f</string>
     <string name="photos_selected_cd">\u091a\u0941\u0928\u093e \u0917\u092f\u093e</string>
     <string name="photos_best_badge">\u0938\u0930\u094d\u0935\u094b\u0924\u094d\u0924\u092e</string>
     <string name="photos_scanning">\u092b\u094b\u091f\u094b \u0938\u094d\u0915\u0948\u0928 \u0939\u094b \u0930\u0939\u0947 \u0939\u0948\u0902\u2026</string>
-    <string name="photos_delete_title">%d \u092b\u094b\u091f\u094b \u0939\u091f\u093e\u090f\u0902?</string>
     <string name="photos_delete_message">\u092f\u0939 \u091a\u0941\u0928\u0940 \u0917\u0908 \u092b\u094b\u091f\u094b \u0915\u094b \u0906\u092a\u0915\u0947 \u0921\u093f\u0935\u093e\u0907\u0938 \u0938\u0947 \u0938\u094d\u0925\u093e\u092f\u0940 \u0930\u0942\u092a \u0938\u0947 \u0939\u091f\u093e \u0926\u0947\u0917\u093e\u0964 \u092f\u0939 \u0935\u093e\u092a\u0938 \u0928\u0939\u0940\u0902 \u0939\u094b \u0938\u0915\u0924\u093e\u0964</string>
     <string name="photos_delete_permanently">\u0938\u094d\u0925\u093e\u092f\u0940 \u0930\u0942\u092a \u0938\u0947 \u0939\u091f\u093e\u090f\u0902</string>
     <string name="cancel">\u0930\u0926\u094d\u0926 \u0915\u0930\u0947\u0902</string>
@@ -167,13 +159,11 @@
     <string name="contacts_grant_access">\u090f\u0915\u094d\u0938\u0947\u0938 \u0926\u0947\u0902</string>
     <string name="contacts_no_duplicates_title">\u0915\u094b\u0908 \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f \u0928\u0939\u0940\u0902</string>
     <string name="contacts_no_duplicates_subtitle">\u0906\u092a\u0915\u0947 \u0938\u0902\u092a\u0930\u094d\u0915 \u0938\u093e\u092b\u093c \u0939\u0948\u0902!</string>
-    <string name="contacts_n_duplicates">%d \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f</string>
     <string name="contacts_merge_all">\u0938\u092c \u092e\u0930\u094d\u091c \u0915\u0930\u0947\u0902</string>
     <string name="contacts_delete_dupes">\u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f \u0939\u091f\u093e\u090f\u0902</string>
     <string name="contacts_no_name">\u0928\u093e\u092e \u0928\u0939\u0940\u0902</string>
     <string name="contacts_no_incomplete_title">\u0915\u094b\u0908 \u0905\u0927\u0942\u0930\u093e \u0938\u0902\u092a\u0930\u094d\u0915 \u0928\u0939\u0940\u0902</string>
     <string name="contacts_no_incomplete_subtitle">\u0938\u092d\u0940 \u0938\u0902\u092a\u0930\u094d\u0915\u094b\u0902 \u0915\u0940 \u091c\u093e\u0928\u0915\u093e\u0930\u0940 \u092a\u0942\u0930\u094d\u0923 \u0939\u0948</string>
-    <string name="contacts_n_incomplete">%d \u0905\u0927\u0942\u0930\u0947</string>
     <string name="contacts_delete_selected">\u091a\u0941\u0928\u0947 \u0939\u0941\u090f \u0939\u091f\u093e\u090f\u0902 (%d)</string>
     <string name="contacts_merge_title">\u0938\u0902\u092a\u0930\u094d\u0915 \u092e\u0930\u094d\u091c \u0915\u0930\u0947\u0902</string>
     <string name="contacts_merge_subtitle">\u0930\u0916\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u092e\u0941\u0916\u094d\u092f \u0938\u0902\u092a\u0930\u094d\u0915 \u091a\u0941\u0928\u0947\u0902\u0964 \u0905\u0928\u094d\u092f \u0938\u0902\u092a\u0930\u094d\u0915\u094b\u0902 \u0915\u0940 \u091c\u093e\u0928\u0915\u093e\u0930\u0940 \u0907\u0938\u092e\u0947\u0902 \u092e\u0930\u094d\u091c \u0939\u094b \u091c\u093e\u090f\u0917\u0940\u0964</string>
@@ -191,33 +181,26 @@
     <string name="videos_tab_compress">\u0915\u0902\u092a\u094d\u0930\u0947\u0938</string>
     <string name="videos_no_large_title">\u0915\u094b\u0908 \u092c\u0921\u093c\u0947 \u0935\u0940\u0921\u093f\u092f\u094b \u0928\u0939\u0940\u0902</string>
     <string name="videos_no_large_subtitle">50MB \u0938\u0947 \u0905\u0927\u093f\u0915 \u0915\u093e \u0915\u094b\u0908 \u0935\u0940\u0921\u093f\u092f\u094b \u0928\u0939\u0940\u0902 \u092e\u093f\u0932\u093e</string>
-    <string name="videos_n_large">%d \u092c\u0921\u093c\u0947 \u0935\u0940\u0921\u093f\u092f\u094b</string>
-    <string name="videos_delete_title">%d \u0935\u0940\u0921\u093f\u092f\u094b \u0939\u091f\u093e\u090f\u0902?</string>
     <string name="videos_delete_message">\u092f\u0939 \u091a\u0941\u0928\u0947 \u0917\u090f \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u094b \u0938\u094d\u0925\u093e\u092f\u0940 \u0930\u0942\u092a \u0938\u0947 \u0939\u091f\u093e \u0926\u0947\u0917\u093e\u0964 \u092f\u0939 \u0935\u093e\u092a\u0938 \u0928\u0939\u0940\u0902 \u0939\u094b \u0938\u0915\u0924\u093e\u0964</string>
     <string name="videos_no_compress_title">\u0915\u094b\u0908 \u0935\u0940\u0921\u093f\u092f\u094b \u0928\u0939\u0940\u0902</string>
     <string name="videos_no_compress_subtitle">\u0915\u094b\u0908 \u0915\u0902\u092a\u094d\u0930\u0947\u0938 \u092f\u094b\u0917\u094d\u092f \u0935\u0940\u0921\u093f\u092f\u094b \u0928\u0939\u0940\u0902 \u092e\u093f\u0932\u0947</string>
     <string name="videos_compression_quality">\u0915\u0902\u092a\u094d\u0930\u0947\u0936\u0928 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e</string>
     <string name="videos_select_videos">\u0935\u0940\u0921\u093f\u092f\u094b \u091a\u0941\u0928\u0947\u0902</string>
     <string name="videos_n_selected">%d \u091a\u0941\u0928\u0947 \u0917\u090f</string>
-    <string name="videos_compress_n">%d \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0902\u092a\u094d\u0930\u0947\u0938 \u0915\u0930\u0947\u0902</string>
     <string name="videos_scanning">\u0935\u0940\u0921\u093f\u092f\u094b \u0938\u094d\u0915\u0948\u0928 \u0939\u094b \u0930\u0939\u0947 \u0939\u0948\u0902\u2026</string>
     <string name="videos_compressing_title">\u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0902\u092a\u094d\u0930\u0947\u0938 \u0939\u094b \u0930\u0939\u093e \u0939\u0948</string>
     <string name="downloads_title">\u0921\u093e\u0909\u0928\u0932\u094b\u0921</string>
     <string name="downloads_deselect">\u0905\u091a\u092f\u0928\u093f\u0924 \u0915\u0930\u0947\u0902</string>
-    <string name="downloads_delete_n_files">%d \u092b\u093e\u0907\u0932\u0947\u0902 \u0939\u091f\u093e\u090f\u0902</string>
     <string name="downloads_scanning">\u0921\u093e\u0909\u0928\u0932\u094b\u0921 \u092b\u094b\u0932\u094d\u0921\u0930 \u0938\u094d\u0915\u0948\u0928 \u0939\u094b \u0930\u0939\u093e \u0939\u0948\u2026</string>
     <string name="downloads_clean">\u0921\u093e\u0909\u0928\u0932\u094b\u0921 \u092b\u094b\u0932\u094d\u0921\u0930 \u0938\u093e\u092b\u093c \u0939\u0948!</string>
-    <string name="downloads_summary">%1$d \u092b\u093e\u0907\u0932\u0947\u0902 (%2$s)</string>
     <string name="apk_title">APK \u092b\u093e\u0907\u0932\u0947\u0902</string>
     <string name="apk_deselect">\u0905\u091a\u092f\u0928\u093f\u0924 \u0915\u0930\u0947\u0902</string>
-    <string name="apk_delete_n">%d APK \u0939\u091f\u093e\u090f\u0902</string>
     <string name="apk_scanning">APK \u092b\u093e\u0907\u0932\u0947\u0902 \u0916\u094b\u091c \u0930\u0939\u0947 \u0939\u0948\u0902\u2026</string>
     <string name="apk_none_found">\u0915\u094b\u0908 APK \u092b\u093e\u0907\u0932 \u0928\u0939\u0940\u0902 \u092e\u093f\u0932\u0940!</string>
     <string name="apk_all_filter">\u0938\u092d\u0940 (%d)</string>
     <string name="notifications_title">\u0928\u094b\u091f\u093f\u092b\u093f\u0915\u0947\u0936\u0928</string>
     <string name="notifications_analyzing">\u0928\u094b\u091f\u093f\u092b\u093f\u0915\u0947\u0936\u0928 \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923 \u0939\u094b \u0930\u0939\u093e \u0939\u0948\u2026</string>
     <string name="notifications_no_apps">\u0915\u094b\u0908 \u0910\u092a \u0928\u0939\u0940\u0902 \u092e\u093f\u0932\u093e</string>
-    <string name="notifications_apps_count">\u0928\u094b\u091f\u093f\u092b\u093f\u0915\u0947\u0936\u0928 \u0935\u093e\u0932\u0947 %d \u0910\u092a</string>
     <string name="notifications_manage_hint">\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915 \u0910\u092a \u0915\u0940 \u0928\u094b\u091f\u093f\u092b\u093f\u0915\u0947\u0936\u0928 \u0938\u0947\u091f\u093f\u0902\u0917\u094d\u0938 \u092a\u094d\u0930\u092c\u0902\u0927\u093f\u0924 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u091f\u0948\u092a \u0915\u0930\u0947\u0902</string>
     <string name="notifications_enabled">\u0928\u094b\u091f\u093f\u092b\u093f\u0915\u0947\u0936\u0928 \u0938\u0915\u094d\u0937\u092e</string>
     <string name="notifications_disabled">\u0928\u094b\u091f\u093f\u092b\u093f\u0915\u0947\u0936\u0928 \u0905\u0915\u094d\u0937\u092e</string>
@@ -227,7 +210,6 @@
     <string name="archive_storage_used">\u0909\u092a\u092f\u094b\u0917 \u0915\u093f\u092f\u093e \u0917\u092f\u093e \u0938\u094d\u091f\u094b\u0930\u0947\u091c</string>
     <string name="archive_empty_title">\u0915\u094b\u0908 \u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0906\u0907\u091f\u092e \u0928\u0939\u0940\u0902</string>
     <string name="archive_empty_subtitle">\u0921\u093f\u0935\u093e\u0907\u0938 \u092e\u0947\u0902 \u091c\u0917\u0939 \u0916\u093e\u0932\u0940 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0938\u092b\u093e\u0908 \u0938\u094d\u0915\u094d\u0930\u0940\u0928 \u0938\u0947 \u092b\u094b\u091f\u094b \u0914\u0930 \u0935\u0940\u0921\u093f\u092f\u094b \u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0915\u0930\u0947\u0902</string>
-    <string name="archive_items_count">%d \u0906\u0907\u091f\u092e \u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0915\u093f\u090f \u0917\u090f</string>
     <string name="archive_detail_archived">\u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0924\u093f\u0925\u093f: %s</string>
     <string name="archive_detail_size">\u0906\u0915\u093e\u0930: %s</string>
     <string name="archive_detail_tier">\u0938\u094d\u0924\u0930: %s</string>
@@ -235,7 +217,6 @@
     <string name="archive_delete_title">\u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0906\u0907\u091f\u092e \u0939\u091f\u093e\u090f\u0902</string>
     <string name="archive_delete_message">\u092f\u0939 \u0906\u092a\u0915\u0947 \u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0938\u0947 \u0907\u0938 \u0906\u0907\u091f\u092e \u0915\u094b \u0938\u094d\u0925\u093e\u092f\u0940 \u0930\u0942\u092a \u0938\u0947 \u0939\u091f\u093e \u0926\u0947\u0917\u093e\u0964 \u092f\u0939 \u0935\u093e\u092a\u0938 \u0928\u0939\u0940\u0902 \u0939\u094b \u0938\u0915\u0924\u093e\u0964</string>
     <string name="archive_success_title">\u0938\u092b\u0932\u0924\u093e\u092a\u0942\u0930\u094d\u0935\u0915 \u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0939\u0941\u0906</string>
-    <string name="archive_success_message">%d \u0906\u0907\u091f\u092e \u0915\u094d\u0932\u093e\u0909\u0921 \u092e\u0947\u0902 \u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0915\u093f\u090f \u0917\u090f\u0964</string>
     <string name="archive_restore_success_title">\u0938\u092b\u0932\u0924\u093e\u092a\u0942\u0930\u094d\u0935\u0915 \u092a\u0941\u0928\u0930\u094d\u0938\u094d\u0925\u093e\u092a\u093f\u0924</string>
     <string name="archive_restore_success_message">\u0906\u0907\u091f\u092e \u0906\u092a\u0915\u0947 \u0921\u093f\u0935\u093e\u0907\u0938 \u092e\u0947\u0902 \u092a\u0941\u0928\u0930\u094d\u0938\u094d\u0925\u093e\u092a\u093f\u0924 \u0939\u094b \u0917\u092f\u093e\u0964</string>
     <string name="archive_error_title">\u0924\u094d\u0930\u0941\u091f\u093f</string>
@@ -291,4 +272,137 @@
     <string name="widgets_title">\u0935\u093f\u091c\u0947\u091f</string>
     <string name="back_cd">\u0935\u093e\u092a\u0938</string>
     <string name="delete_button">\u0939\u091f\u093e\u090f\u0902</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="one">%d \u0906\u0907\u091f\u092e</item>
+        <item quantity="other">%d \u0906\u0907\u091f\u092e</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d \u0906\u0907\u091f\u092e · %2$s</item>
+        <item quantity="other">%1$d \u0906\u0907\u091f\u092e · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">%d \u092b\u094b\u091f\u094b \u0939\u091f\u093e\u090f\u0902?</item>
+        <item quantity="other">%d \u092b\u094b\u091f\u094b \u0939\u091f\u093e\u090f\u0902?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f</item>
+        <item quantity="other">%d \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d \u0938\u092e\u093e\u0928 \u092b\u094b\u091f\u094b</item>
+        <item quantity="other">%d \u0938\u092e\u093e\u0928 \u092b\u094b\u091f\u094b</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d \u0938\u094d\u0915\u094d\u0930\u0940\u0928\u0936\u0949\u091f</item>
+        <item quantity="other">%d \u0938\u094d\u0915\u094d\u0930\u0940\u0928\u0936\u0949\u091f</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d \u0905\u0927\u0942\u0930\u0947</item>
+        <item quantity="other">%d \u0905\u0927\u0942\u0930\u0947</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d \u092c\u0921\u093c\u0947 \u0935\u0940\u0921\u093f\u092f\u094b</item>
+        <item quantity="other">%d \u092c\u0921\u093c\u0947 \u0935\u0940\u0921\u093f\u092f\u094b</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">%d \u0935\u0940\u0921\u093f\u092f\u094b \u0939\u091f\u093e\u090f\u0902?</item>
+        <item quantity="other">%d \u0935\u0940\u0921\u093f\u092f\u094b \u0939\u091f\u093e\u090f\u0902?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">%d \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0902\u092a\u094d\u0930\u0947\u0938 \u0915\u0930\u0947\u0902</item>
+        <item quantity="other">%d \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0902\u092a\u094d\u0930\u0947\u0938 \u0915\u0930\u0947\u0902</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">%d फाइल हटाएं</item>
+        <item quantity="other">%d \u092b\u093e\u0907\u0932\u0947\u0902 \u0939\u091f\u093e\u090f\u0902</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">%d APK \u0939\u091f\u093e\u090f\u0902</item>
+        <item quantity="other">%d APK \u0939\u091f\u093e\u090f\u0902</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">\u0928\u094b\u091f\u093f\u092b\u093f\u0915\u0947\u0936\u0928 \u0935\u093e\u0932\u0947 %d \u0910\u092a</item>
+        <item quantity="other">\u0928\u094b\u091f\u093f\u092b\u093f\u0915\u0947\u0936\u0928 \u0935\u093e\u0932\u0947 %d \u0910\u092a</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d \u0906\u0907\u091f\u092e \u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0915\u093f\u090f \u0917\u090f</item>
+        <item quantity="other">%d \u0906\u0907\u091f\u092e \u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0915\u093f\u090f \u0917\u090f</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d \u0906\u0907\u091f\u092e \u0915\u094d\u0932\u093e\u0909\u0921 \u092e\u0947\u0902 \u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0915\u093f\u090f \u0917\u090f\u0964</item>
+        <item quantity="other">%d \u0906\u0907\u091f\u092e \u0915\u094d\u0932\u093e\u0909\u0921 \u092e\u0947\u0902 \u0906\u0930\u094d\u0915\u093e\u0907\u0935 \u0915\u093f\u090f \u0917\u090f\u0964</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%2$d \u0917\u094d\u0930\u0941\u092a \u092e\u0947\u0902 %1$d \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f</item>
+        <item quantity="other">%2$d \u0917\u094d\u0930\u0941\u092a \u092e\u0947\u0902 %1$d \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%2$d \u0917\u094d\u0930\u0941\u092a \u092e\u0947\u0902 %1$d \u0938\u092e\u093e\u0928</item>
+        <item quantity="other">%2$d \u0917\u094d\u0930\u0941\u092a \u092e\u0947\u0902 %1$d \u0938\u092e\u093e\u0928</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d फाइल (%2$s)</item>
+        <item quantity="other">%1$d \u092b\u093e\u0907\u0932\u0947\u0902 (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f</item>
+        <item quantity="other">%d \u0921\u0941\u092a\u094d\u0932\u093f\u0915\u0947\u091f</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">पहले से इंस्टॉल</string>
+    <string name="apk_status_outdated">पुराना वर्शन</string>
+    <string name="apk_status_not_installed">इंस्टॉल नहीं</string>
+    <string name="apk_status_unknown">अज्ञात</string>
+    <string name="archive_filter_all">सभी</string>
+    <string name="downloads_tab_all">सभी</string>
+    <string name="downloads_tab_large">बड़े</string>
+    <string name="downloads_tab_old">पुराने</string>
+    <string name="videos_quality_high">उच्च गुणवत्ता</string>
+    <string name="videos_quality_medium">मध्यम गुणवत्ता</string>
+    <string name="videos_quality_low">कम गुणवत्ता</string>
+    <string name="videos_quality_detail">%1$dp - लगभग %2$d%% छोटा</string>
+    <string name="contacts_match_name">समान नाम</string>
+    <string name="contacts_match_phone">समान फ़ोन</string>
+    <string name="contacts_match_email">समान ईमेल</string>
+    <string name="vault_pin_incorrect">गलत PIN। कृपया फिर से प्रयास करें।</string>
+    <string name="billing_error_no_offer">इस प्रोडक्ट के लिए कोई ऑफ़र उपलब्ध नहीं है</string>
+    <string name="billing_error_purchase_failed">खरीदारी विफल: %s</string>
+    <string name="billing_error_acknowledge">खरीदारी की पुष्टि नहीं हो सकी</string>
+    <string name="archive_failed_message">आर्काइव विफल: %s</string>
+    <string name="archive_signin_failed_message">साइन इन विफल: %s</string>
+    <string name="paywall_ctx_generic_title">Cleanup Pro अनलॉक करें</string>
+    <string name="paywall_ctx_generic_subtitle">असीमित क्लीनअप और डुप्लिकेट हटाना</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">असीमित फोटो क्लीनअप शामिल</string>
+    <string name="paywall_ctx_screenshots_subtitle">स्क्रीनशॉट कभी भी एक साथ हटाएं</string>
+    <string name="paywall_ctx_videos_subtitle">बड़े वीडियो कंप्रेस करें और हटाएं</string>
+    <string name="paywall_ctx_compress_title">कंप्रेशन से %s GB बचाएं</string>
+    <string name="paywall_ctx_contacts_subtitle">अपने कॉन्टैक्ट व्यवस्थित रखें</string>
+    <string name="paywall_ctx_archive_subtitle">फ़ाइलों को हटाने के बजाय क्लाउड में सुरक्षित रखें</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">%d डुप्लिकेट एक टैप में हटाएं</item>
+        <item quantity="other">%d डुप्लिकेट एक टैप में हटाएं</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">%d समान फोटो साफ़ करें</item>
+        <item quantity="other">%d समान फोटो साफ़ करें</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">%d स्क्रीनशॉट तुरंत हटाएं</item>
+        <item quantity="other">%d स्क्रीनशॉट तुरंत हटाएं</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">%1$d वीडियो से %2$s GB खाली करें</item>
+        <item quantity="other">%1$d वीडियो से %2$s GB खाली करें</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">%d डुप्लिकेट कॉन्टैक्ट मर्ज करें</item>
+        <item quantity="other">%d डुप्लिकेट कॉन्टैक्ट मर्ज करें</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">%1$d आइटम आर्काइव करें (%2$s GB)</item>
+        <item quantity="other">%1$d आइटम आर्काइव करें (%2$s GB)</item>
+    </plurals>
 </resources>

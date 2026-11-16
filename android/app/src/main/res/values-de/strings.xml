@@ -30,8 +30,6 @@
     <string name="home_storage_used">%s belegt</string>
     <string name="home_storage_total">%s gesamt</string>
     <string name="home_storage_full">Ihr Speicher ist zu %d%% voll</string>
-    <string name="home_items_count">%d Elemente</string>
-    <string name="home_items_count_savings">%1$d Elemente \u00B7 %2$s</string>
     <string name="home_tap_to_scan">Tippen zum Scannen</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -42,7 +40,7 @@
     <string name="onboarding_media_request_title">Auf Fotos &amp; Videos zugreifen</string>
     <string name="onboarding_media_granted_subtitle">Wir scannen alle Ihre Fotos und Videos nach Duplikaten, \u00e4hnlichen Aufnahmen und Speicherfressern.</string>
     <string name="onboarding_media_request_subtitle">Um Duplikate zu finden und Speicher freizugeben, ben\u00f6tigen wir Zugriff auf Ihre Fotos und Videos.</string>
-    <string name="onboarding_feature_private_title">100%% Privat</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% Privat</string>
     <string name="onboarding_feature_private_subtitle">Alle Scans erfolgen auf dem Ger\u00e4t</string>
     <string name="onboarding_feature_fast_title">Schneller Scan</string>
     <string name="onboarding_feature_fast_subtitle">Dauert weniger als 30 Sekunden</string>
@@ -88,7 +86,7 @@
     <string name="paywall_feature_private_title">Privat &amp; Sicher</string>
     <string name="paywall_feature_private_subtitle">Alle Scans erfolgen auf Ihrem Ger\u00e4t</string>
     <string name="paywall_best_value">BESTES ANGEBOT</string>
-    <string name="paywall_save_75">75%% sparen vs. monatlich</string>
+    <string name="paywall_save_75" formatted="false">75% sparen vs. monatlich</string>
     <string name="paywall_continue">Weiter</string>
     <string name="paywall_restore">K\u00e4ufe wiederherstellen</string>
     <string name="paywall_terms">Abonnements verl\u00e4ngern sich automatisch. Jederzeit in den Google Play-Einstellungen k\u00fcndbar.</string>
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">Screenshots</string>
     <string name="photos_no_duplicates_title">Keine Duplikate gefunden</string>
     <string name="photos_no_duplicates_subtitle">Ihre Fotobibliothek ist sauber!</string>
-    <string name="photos_duplicates_summary">%1$d Duplikate in %2$d Gruppen</string>
     <string name="photos_select_all">Alle ausw\u00e4hlen</string>
     <string name="photos_deselect_all">Alle abw\u00e4hlen</string>
-    <string name="photos_n_duplicates">%d Duplikate</string>
     <string name="photos_keep_best">Bestes behalten</string>
     <string name="photos_no_similar_title">Keine \u00e4hnlichen Fotos</string>
     <string name="photos_no_similar_subtitle">Keine Gruppen \u00e4hnlicher Fotos gefunden</string>
-    <string name="photos_similar_summary">%1$d \u00e4hnliche in %2$d Gruppen</string>
-    <string name="photos_n_similar">%d \u00e4hnliche Fotos</string>
     <string name="photos_percent_similar">%d%% \u00e4hnlich</string>
     <string name="photos_keep_best_select_others">Bestes behalten, andere ausw\u00e4hlen</string>
     <string name="photos_no_screenshots_title">Keine Screenshots</string>
     <string name="photos_no_screenshots_subtitle">Keine Screenshots in Ihrer Bibliothek gefunden</string>
-    <string name="photos_n_screenshots">%d Screenshots</string>
     <string name="photos_selected_cd">Ausgew\u00e4hlt</string>
     <string name="photos_best_badge">BESTES</string>
     <string name="photos_scanning">Fotos werden gescannt\u2026</string>
-    <string name="photos_delete_title">%d Fotos l\u00f6schen?</string>
     <string name="photos_delete_message">Dies l\u00f6scht die ausgew\u00e4hlten Fotos dauerhaft von Ihrem Ger\u00e4t. Diese Aktion kann nicht r\u00fcckg\u00e4ngig gemacht werden.</string>
     <string name="photos_delete_permanently">Dauerhaft l\u00f6schen</string>
     <string name="cancel">Abbrechen</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">Zugriff gew\u00e4hren</string>
     <string name="contacts_no_duplicates_title">Keine Duplikate</string>
     <string name="contacts_no_duplicates_subtitle">Ihre Kontakte sind sauber!</string>
-    <string name="contacts_n_duplicates">%d Duplikate</string>
     <string name="contacts_merge_all">Alle zusammenf\u00fchren</string>
     <string name="contacts_delete_dupes">Duplikate l\u00f6schen</string>
     <string name="contacts_no_name">Kein Name</string>
     <string name="contacts_no_incomplete_title">Keine unvollst\u00e4ndigen Kontakte</string>
     <string name="contacts_no_incomplete_subtitle">Alle Kontakte haben vollst\u00e4ndige Informationen</string>
-    <string name="contacts_n_incomplete">%d unvollst\u00e4ndig</string>
     <string name="contacts_delete_selected">Ausgew\u00e4hlte l\u00f6schen (%d)</string>
     <string name="contacts_merge_title">Kontakte zusammenf\u00fchren</string>
     <string name="contacts_merge_subtitle">W\u00e4hlen Sie den Hauptkontakt aus. Informationen anderer Kontakte werden darin zusammengef\u00fchrt.</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">Komprimieren</string>
     <string name="videos_no_large_title">Keine gro\u00dfen Videos</string>
     <string name="videos_no_large_subtitle">Keine Videos \u00fcber 50 MB gefunden</string>
-    <string name="videos_n_large">%d gro\u00dfe Videos</string>
-    <string name="videos_delete_title">%d Videos l\u00f6schen?</string>
     <string name="videos_delete_message">Dies l\u00f6scht die ausgew\u00e4hlten Videos dauerhaft. Diese Aktion kann nicht r\u00fcckg\u00e4ngig gemacht werden.</string>
     <string name="videos_no_compress_title">Keine Videos</string>
     <string name="videos_no_compress_subtitle">Keine komprimierbaren Videos gefunden</string>
     <string name="videos_compression_quality">Komprimierungsqualit\u00e4t</string>
     <string name="videos_select_videos">Videos ausw\u00e4hlen</string>
     <string name="videos_n_selected">%d ausgew\u00e4hlt</string>
-    <string name="videos_compress_n">%d Videos komprimieren</string>
     <string name="videos_scanning">Videos werden gescannt\u2026</string>
     <string name="videos_compressing_title">Video wird komprimiert</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">Downloads</string>
     <string name="downloads_deselect">Abw\u00e4hlen</string>
-    <string name="downloads_delete_n_files">%d Dateien l\u00f6schen</string>
     <string name="downloads_scanning">Download-Ordner wird gescannt\u2026</string>
     <string name="downloads_clean">Download-Ordner ist sauber!</string>
-    <string name="downloads_summary">%1$d Dateien (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">APK-Dateien</string>
     <string name="apk_deselect">Abw\u00e4hlen</string>
-    <string name="apk_delete_n">%d APKs l\u00f6schen</string>
     <string name="apk_scanning">Suche nach APK-Dateien\u2026</string>
     <string name="apk_none_found">Keine APK-Dateien gefunden!</string>
     <string name="apk_all_filter">Alle (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">Benachrichtigungen</string>
     <string name="notifications_analyzing">Benachrichtigungen werden analysiert\u2026</string>
     <string name="notifications_no_apps">Keine Apps gefunden</string>
-    <string name="notifications_apps_count">%d Apps mit Benachrichtigungen</string>
     <string name="notifications_manage_hint">Tippen Sie, um die Benachrichtigungseinstellungen f\u00fcr jede App zu verwalten</string>
     <string name="notifications_enabled">Benachrichtigungen aktiviert</string>
     <string name="notifications_disabled">Benachrichtigungen deaktiviert</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">Genutzter Speicher</string>
     <string name="archive_empty_title">Keine archivierten Elemente</string>
     <string name="archive_empty_subtitle">Archivieren Sie Fotos und Videos aus den Bereinigungs-Bildschirmen, um Ger\u00e4tespeicher freizugeben</string>
-    <string name="archive_items_count">%d Elemente archiviert</string>
     <string name="archive_detail_archived">Archiviert: %s</string>
     <string name="archive_detail_size">Gr\u00f6\u00dfe: %s</string>
     <string name="archive_detail_tier">Stufe: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">Archiviertes Element l\u00f6schen</string>
     <string name="archive_delete_message">Dies entfernt dieses Element dauerhaft aus Ihrem Archiv. Dies kann nicht r\u00fcckg\u00e4ngig gemacht werden.</string>
     <string name="archive_success_title">Erfolgreich archiviert</string>
-    <string name="archive_success_message">%d Element(e) wurden in der Cloud archiviert.</string>
     <string name="archive_restore_success_title">Erfolgreich wiederhergestellt</string>
     <string name="archive_restore_success_message">Das Element wurde auf Ihrem Ger\u00e4t wiederhergestellt.</string>
     <string name="archive_error_title">Fehler</string>
@@ -325,4 +306,137 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">Zur\u00fcck</string>
     <string name="delete_button">L\u00f6schen</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="one">%d Element</item>
+        <item quantity="other">%d Elemente</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d Element · %2$s</item>
+        <item quantity="other">%1$d Elemente · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">%d Foto löschen?</item>
+        <item quantity="other">%d Fotos l\u00f6schen?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d Duplikat</item>
+        <item quantity="other">%d Duplikate</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d ähnliches Foto</item>
+        <item quantity="other">%d \u00e4hnliche Fotos</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d Screenshot</item>
+        <item quantity="other">%d Screenshots</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d unvollst\u00e4ndig</item>
+        <item quantity="other">%d unvollst\u00e4ndig</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d großes Video</item>
+        <item quantity="other">%d gro\u00dfe Videos</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">%d Video löschen?</item>
+        <item quantity="other">%d Videos l\u00f6schen?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">%d Video komprimieren</item>
+        <item quantity="other">%d Videos komprimieren</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">%d Datei löschen</item>
+        <item quantity="other">%d Dateien l\u00f6schen</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">%d APK löschen</item>
+        <item quantity="other">%d APKs l\u00f6schen</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d App mit Benachrichtigungen</item>
+        <item quantity="other">%d Apps mit Benachrichtigungen</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d Element archiviert</item>
+        <item quantity="other">%d Elemente archiviert</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d Element wurde in der Cloud archiviert.</item>
+        <item quantity="other">%d Elemente wurden in der Cloud archiviert.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d Duplikat in %2$d Gruppen</item>
+        <item quantity="other">%1$d Duplikate in %2$d Gruppen</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d ähnliches in %2$d Gruppen</item>
+        <item quantity="other">%1$d \u00e4hnliche in %2$d Gruppen</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d Datei (%2$s)</item>
+        <item quantity="other">%1$d Dateien (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d Duplikat</item>
+        <item quantity="other">%d Duplikate</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">Bereits installiert</string>
+    <string name="apk_status_outdated">Veraltete Version</string>
+    <string name="apk_status_not_installed">Nicht installiert</string>
+    <string name="apk_status_unknown">Unbekannt</string>
+    <string name="archive_filter_all">Alle</string>
+    <string name="downloads_tab_all">Alle</string>
+    <string name="downloads_tab_large">Groß</string>
+    <string name="downloads_tab_old">Alt</string>
+    <string name="videos_quality_high">Hohe Qualität</string>
+    <string name="videos_quality_medium">Mittlere Qualität</string>
+    <string name="videos_quality_low">Niedrige Qualität</string>
+    <string name="videos_quality_detail">%1$dp - ca. %2$d%% kleiner</string>
+    <string name="contacts_match_name">Gleicher Name</string>
+    <string name="contacts_match_phone">Gleiche Telefonnummer</string>
+    <string name="contacts_match_email">Gleiche E-Mail</string>
+    <string name="vault_pin_incorrect">Falsche PIN. Bitte versuchen Sie es erneut.</string>
+    <string name="billing_error_no_offer">Für dieses Produkt ist kein Angebot verfügbar</string>
+    <string name="billing_error_purchase_failed">Kauf fehlgeschlagen: %s</string>
+    <string name="billing_error_acknowledge">Kauf konnte nicht bestätigt werden</string>
+    <string name="archive_failed_message">Archivierung fehlgeschlagen: %s</string>
+    <string name="archive_signin_failed_message">Anmeldung fehlgeschlagen: %s</string>
+    <string name="paywall_ctx_generic_title">Cleanup Pro freischalten</string>
+    <string name="paywall_ctx_generic_subtitle">Unbegrenzte Bereinigungen &amp; Duplikate entfernen</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Unbegrenzte Foto-Bereinigungen inklusive</string>
+    <string name="paywall_ctx_screenshots_subtitle">Screenshots jederzeit gesammelt löschen</string>
+    <string name="paywall_ctx_videos_subtitle">Große Videos komprimieren &amp; löschen</string>
+    <string name="paywall_ctx_compress_title">Sparen Sie %s GB durch Komprimierung</string>
+    <string name="paywall_ctx_contacts_subtitle">Halten Sie Ihre Kontakte in Ordnung</string>
+    <string name="paywall_ctx_archive_subtitle">Bewahren Sie Dateien sicher in der Cloud auf, statt sie zu löschen</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">%d Duplikat mit einem Tipp entfernen</item>
+        <item quantity="other">%d Duplikate mit einem Tipp entfernen</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">%d ähnliches Foto bereinigen</item>
+        <item quantity="other">%d ähnliche Fotos bereinigen</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">%d Screenshot sofort löschen</item>
+        <item quantity="other">%d Screenshots sofort löschen</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">%2$s GB durch %1$d Video freigeben</item>
+        <item quantity="other">%2$s GB durch %1$d Videos freigeben</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">%d doppelten Kontakt zusammenführen</item>
+        <item quantity="other">%d doppelte Kontakte zusammenführen</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">%1$d Element archivieren (%2$s GB)</item>
+        <item quantity="other">%1$d Elemente archivieren (%2$s GB)</item>
+    </plurals>
 </resources>

@@ -30,8 +30,6 @@
     <string name="home_storage_used">%s kullanılıyor</string>
     <string name="home_storage_total">%s toplam</string>
     <string name="home_storage_full">Depolama alanınız %d%% dolu</string>
-    <string name="home_items_count">%d öğe</string>
-    <string name="home_items_count_savings">%1$d öğe \u00B7 %2$s</string>
     <string name="home_tap_to_scan">Taramak için dokunun</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -42,7 +40,7 @@
     <string name="onboarding_media_request_title">Fotoğraf ve videolarınıza erişin</string>
     <string name="onboarding_media_granted_subtitle">Tüm fotoğraf ve videolarınızı yinelenenler, benzer çekimler ve büyük dosyalar için tarayacağız.</string>
     <string name="onboarding_media_request_subtitle">Yinelenenleri bulmak ve alan açmak için fotoğraf ve videolarınıza erişmemiz gerekiyor.</string>
-    <string name="onboarding_feature_private_title">%100 Gizli</string>
+    <string name="onboarding_feature_private_title" formatted="false">%100 Gizli</string>
     <string name="onboarding_feature_private_subtitle">Tüm tarama cihazda gerçekleşir</string>
     <string name="onboarding_feature_fast_title">Hızlı Tarama</string>
     <string name="onboarding_feature_fast_subtitle">30 saniyeden kısa sürer</string>
@@ -88,7 +86,7 @@
     <string name="paywall_feature_private_title">Gizli ve Güvenli</string>
     <string name="paywall_feature_private_subtitle">Tüm tarama cihazınızda gerçekleşir</string>
     <string name="paywall_best_value">EN İYİ DEĞER</string>
-    <string name="paywall_save_75">Aylığa göre %%75 tasarruf edin</string>
+    <string name="paywall_save_75" formatted="false">Aylığa göre %75 tasarruf edin</string>
     <string name="paywall_continue">Devam</string>
     <string name="paywall_restore">Satın Alımları Geri Yükle</string>
     <string name="paywall_terms">Abonelikler otomatik olarak yenilenir. İstediğiniz zaman Google Play ayarlarından iptal edebilirsiniz.</string>
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">Ekran Görüntüleri</string>
     <string name="photos_no_duplicates_title">Yinelenen Bulunamadı</string>
     <string name="photos_no_duplicates_subtitle">Fotoğraf kitaplığınız temiz!</string>
-    <string name="photos_duplicates_summary">%2$d grupta %1$d yinelenen</string>
     <string name="photos_select_all">Tümünü Seç</string>
     <string name="photos_deselect_all">Seçimi Kaldır</string>
-    <string name="photos_n_duplicates">%d yinelenen</string>
     <string name="photos_keep_best">En İyisini Koru</string>
     <string name="photos_no_similar_title">Benzer Fotoğraf Yok</string>
     <string name="photos_no_similar_subtitle">Benzer fotoğraf grubu bulunamadı</string>
-    <string name="photos_similar_summary">%2$d grupta %1$d benzer</string>
-    <string name="photos_n_similar">%d benzer fotoğraf</string>
     <string name="photos_percent_similar">%d%% benzer</string>
     <string name="photos_keep_best_select_others">En İyisini Koru, Diğerlerini Seç</string>
     <string name="photos_no_screenshots_title">Ekran Görüntüsü Yok</string>
     <string name="photos_no_screenshots_subtitle">Kitaplığınızda ekran görüntüsü bulunamadı</string>
-    <string name="photos_n_screenshots">%d ekran görüntüsü</string>
     <string name="photos_selected_cd">Seçildi</string>
     <string name="photos_best_badge">EN İYİ</string>
     <string name="photos_scanning">Fotoğraflar taranıyor…</string>
-    <string name="photos_delete_title">%d Fotoğraf Silinsin mi?</string>
     <string name="photos_delete_message">Seçilen fotoğraflar cihazınızdan kalıcı olarak silinecektir. Bu işlem geri alınamaz.</string>
     <string name="photos_delete_permanently">Kalıcı Olarak Sil</string>
     <string name="cancel">İptal</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">Erişim Ver</string>
     <string name="contacts_no_duplicates_title">Yinelenen Yok</string>
     <string name="contacts_no_duplicates_subtitle">Kişileriniz temiz!</string>
-    <string name="contacts_n_duplicates">%d yinelenen</string>
     <string name="contacts_merge_all">Tümünü Birleştir</string>
     <string name="contacts_delete_dupes">Yinelenenleri Sil</string>
     <string name="contacts_no_name">İsimsiz</string>
     <string name="contacts_no_incomplete_title">Eksik Kişi Yok</string>
     <string name="contacts_no_incomplete_subtitle">Tüm kişiler eksiksiz bilgiye sahip</string>
-    <string name="contacts_n_incomplete">%d eksik</string>
     <string name="contacts_delete_selected">Seçilenleri Sil (%d)</string>
     <string name="contacts_merge_title">Kişileri Birleştir</string>
     <string name="contacts_merge_subtitle">Saklamak için birincil kişiyi seçin. Diğer kişilerdeki bilgiler buna birleştirilecektir.</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">Sıkıştır</string>
     <string name="videos_no_large_title">Büyük Video Yok</string>
     <string name="videos_no_large_subtitle">50MB üzeri video bulunamadı</string>
-    <string name="videos_n_large">%d büyük video</string>
-    <string name="videos_delete_title">%d Video Silinsin mi?</string>
     <string name="videos_delete_message">Seçilen videolar kalıcı olarak silinecektir. Bu işlem geri alınamaz.</string>
     <string name="videos_no_compress_title">Video Yok</string>
     <string name="videos_no_compress_subtitle">Sıkıştırılabilir video bulunamadı</string>
     <string name="videos_compression_quality">Sıkıştırma Kalitesi</string>
     <string name="videos_select_videos">Video Seç</string>
     <string name="videos_n_selected">%d seçildi</string>
-    <string name="videos_compress_n">%d Video Sıkıştır</string>
     <string name="videos_scanning">Videolar taranıyor…</string>
     <string name="videos_compressing_title">Video Sıkıştırılıyor</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">İndirilenler</string>
     <string name="downloads_deselect">Seçimi Kaldır</string>
-    <string name="downloads_delete_n_files">%d dosyayı sil</string>
     <string name="downloads_scanning">İndirilenler klasörü taranıyor…</string>
     <string name="downloads_clean">İndirilenler klasörü temiz!</string>
-    <string name="downloads_summary">%1$d dosya (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">APK Dosyaları</string>
     <string name="apk_deselect">Seçimi Kaldır</string>
-    <string name="apk_delete_n">%d APK Sil</string>
     <string name="apk_scanning">APK dosyaları aranıyor…</string>
     <string name="apk_none_found">APK dosyası bulunamadı!</string>
     <string name="apk_all_filter">Tümü (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">Bildirimler</string>
     <string name="notifications_analyzing">Bildirimler analiz ediliyor…</string>
     <string name="notifications_no_apps">Uygulama bulunamadı</string>
-    <string name="notifications_apps_count">%d bildirimli uygulama</string>
     <string name="notifications_manage_hint">Her uygulama için bildirim ayarlarını yönetmek için dokunun</string>
     <string name="notifications_enabled">Bildirimler açık</string>
     <string name="notifications_disabled">Bildirimler kapalı</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">Kullanılan Depolama</string>
     <string name="archive_empty_title">Arşivlenmiş öğe yok</string>
     <string name="archive_empty_subtitle">Cihaz alanı açmak için temizlik ekranlarından fotoğraf ve videoları arşivleyin</string>
-    <string name="archive_items_count">%d öğe arşivlendi</string>
     <string name="archive_detail_archived">Arşivlenme: %s</string>
     <string name="archive_detail_size">Boyut: %s</string>
     <string name="archive_detail_tier">Katman: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">Arşivlenmiş Öğeyi Sil</string>
     <string name="archive_delete_message">Bu öğe arşivinizden kalıcı olarak kaldırılacaktır. Bu işlem geri alınamaz.</string>
     <string name="archive_success_title">Başarıyla Arşivlendi</string>
-    <string name="archive_success_message">%d öğe buluta arşivlendi.</string>
     <string name="archive_restore_success_title">Başarıyla Geri Yüklendi</string>
     <string name="archive_restore_success_message">Öğe cihazınıza geri yüklendi.</string>
     <string name="archive_error_title">Hata</string>
@@ -325,4 +306,137 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">Geri</string>
     <string name="delete_button">Sil</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="one">%d öğe</item>
+        <item quantity="other">%d öğe</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d öğe · %2$s</item>
+        <item quantity="other">%1$d öğe · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">%d Fotoğraf Silinsin mi?</item>
+        <item quantity="other">%d Fotoğraf Silinsin mi?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d yinelenen</item>
+        <item quantity="other">%d yinelenen</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d benzer fotoğraf</item>
+        <item quantity="other">%d benzer fotoğraf</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d ekran görüntüsü</item>
+        <item quantity="other">%d ekran görüntüsü</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d eksik</item>
+        <item quantity="other">%d eksik</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d büyük video</item>
+        <item quantity="other">%d büyük video</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">%d Video Silinsin mi?</item>
+        <item quantity="other">%d Video Silinsin mi?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">%d Video Sıkıştır</item>
+        <item quantity="other">%d Video Sıkıştır</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">%d dosyayı sil</item>
+        <item quantity="other">%d dosyayı sil</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">%d APK Sil</item>
+        <item quantity="other">%d APK Sil</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d bildirimli uygulama</item>
+        <item quantity="other">%d bildirimli uygulama</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d öğe arşivlendi</item>
+        <item quantity="other">%d öğe arşivlendi</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d öğe buluta arşivlendi.</item>
+        <item quantity="other">%d öğe buluta arşivlendi.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%2$d grupta %1$d yinelenen</item>
+        <item quantity="other">%2$d grupta %1$d yinelenen</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%2$d grupta %1$d benzer</item>
+        <item quantity="other">%2$d grupta %1$d benzer</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d dosya (%2$s)</item>
+        <item quantity="other">%1$d dosya (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d yinelenen</item>
+        <item quantity="other">%d yinelenen</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">Zaten yüklü</string>
+    <string name="apk_status_outdated">Eski sürüm</string>
+    <string name="apk_status_not_installed">Yüklü değil</string>
+    <string name="apk_status_unknown">Bilinmiyor</string>
+    <string name="archive_filter_all">Tümü</string>
+    <string name="downloads_tab_all">Tümü</string>
+    <string name="downloads_tab_large">Büyük</string>
+    <string name="downloads_tab_old">Eski</string>
+    <string name="videos_quality_high">Yüksek Kalite</string>
+    <string name="videos_quality_medium">Orta Kalite</string>
+    <string name="videos_quality_low">Düşük Kalite</string>
+    <string name="videos_quality_detail">%1$dp - yaklaşık %%%2$d daha küçük</string>
+    <string name="contacts_match_name">Aynı ad</string>
+    <string name="contacts_match_phone">Aynı telefon</string>
+    <string name="contacts_match_email">Aynı e-posta</string>
+    <string name="vault_pin_incorrect">Yanlış PIN. Lütfen tekrar deneyin.</string>
+    <string name="billing_error_no_offer">Bu ürün için teklif bulunmuyor</string>
+    <string name="billing_error_purchase_failed">Satın alma başarısız: %s</string>
+    <string name="billing_error_acknowledge">Satın alma onaylanamadı</string>
+    <string name="archive_failed_message">Arşivleme başarısız: %s</string>
+    <string name="archive_signin_failed_message">Giriş başarısız: %s</string>
+    <string name="paywall_ctx_generic_title">Cleanup Pro\'nun kilidini açın</string>
+    <string name="paywall_ctx_generic_subtitle">Sınırsız temizlik ve yinelenenleri kaldırma</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Sınırsız fotoğraf temizliği dahil</string>
+    <string name="paywall_ctx_screenshots_subtitle">Ekran görüntülerini istediğiniz zaman toplu silin</string>
+    <string name="paywall_ctx_videos_subtitle">Büyük videoları sıkıştırın ve silin</string>
+    <string name="paywall_ctx_compress_title">Sıkıştırarak %s GB tasarruf edin</string>
+    <string name="paywall_ctx_contacts_subtitle">Kişilerinizi düzenli tutun</string>
+    <string name="paywall_ctx_archive_subtitle">Dosyaları silmek yerine bulutta güvende tutun</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">%d yinelenen öğeyi tek dokunuşla kaldırın</item>
+        <item quantity="other">%d yinelenen öğeyi tek dokunuşla kaldırın</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">%d benzer fotoğrafı temizleyin</item>
+        <item quantity="other">%d benzer fotoğrafı temizleyin</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">%d ekran görüntüsünü anında silin</item>
+        <item quantity="other">%d ekran görüntüsünü anında silin</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">%1$d videodan %2$s GB yer açın</item>
+        <item quantity="other">%1$d videodan %2$s GB yer açın</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">%d yinelenen kişiyi birleştirin</item>
+        <item quantity="other">%d yinelenen kişiyi birleştirin</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">%1$d öğeyi arşivleyin (%2$s GB)</item>
+        <item quantity="other">%1$d öğeyi arşivleyin (%2$s GB)</item>
+    </plurals>
 </resources>

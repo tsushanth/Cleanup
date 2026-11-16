@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <string name="home_title">Очищення одним дотиком</string>
+    <string name="home_vault_cd">Сховище</string>
+    <string name="home_scanning">Сканування…</string>
+    <string name="home_one_tap_scan">Сканування одним дотиком</string>
+    <string name="home_grant_access_scan">Надати доступ і сканувати</string>
+    <string name="home_scanning_device">Сканування вашого пристрою…</string>
+    <string name="home_quick_actions">Швидкі дії</string>
+    <string name="home_chip_duplicates">Дублікати</string>
+    <string name="home_chip_screenshots">Знімки екрана</string>
+    <string name="home_chip_large_videos">Великі відео</string>
+    <string name="home_chip_compress">Стиснення</string>
+    <string name="home_chip_archive">Архів</string>
+    <string name="home_chip_downloads">Завантаження</string>
+    <string name="home_chip_apk_files">Файли APK</string>
+    <string name="home_smart_scan_results">Результати розумного сканування</string>
+    <string name="home_category_duplicate_photos">Дублікати фото</string>
+    <string name="home_category_similar_photos">Схожі фото</string>
+    <string name="home_category_screenshots">Знімки екрана</string>
+    <string name="home_category_large_videos">Великі відео</string>
+    <string name="home_category_duplicate_contacts">Дублікати контактів</string>
+    <string name="home_file_management">Керування файлами</string>
+    <string name="home_category_downloads">Завантаження</string>
+    <string name="home_category_apk_files">Файли APK</string>
+    <string name="home_category_notification_manager">Керування сповіщеннями</string>
+    <string name="home_storage_used">Використано: %s</string>
+    <string name="home_storage_total">Усього: %s</string>
+    <string name="home_storage_full">Сховище заповнене на %d%%</string>
+    <string name="home_tap_to_scan">Торкніться, щоб сканувати</string>
+
+    <string name="onboarding_welcome_title">Ваш телефон завалений зайвим</string>
+    <string name="onboarding_welcome_subtitle">Дублікати фото, старі знімки екрана, великі відео — вони з\'їдають вашу пам\'ять. Давайте це виправимо.</string>
+    <string name="onboarding_welcome_button">Почнімо очищення</string>
+    <string name="onboarding_media_granted_title">Доступ до медіа надано!</string>
+    <string name="onboarding_media_request_title">Доступ до ваших фото та відео</string>
+    <string name="onboarding_media_granted_subtitle">Ми проскануємо всі ваші фото й відео, щоб знайти дублікати, схожі кадри та файли, що займають найбільше місця.</string>
+    <string name="onboarding_media_request_subtitle">Щоб знаходити дублікати й звільняти місце, нам потрібен доступ до ваших фото та відео.</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% приватно</string>
+    <string name="onboarding_feature_private_subtitle">Усе сканування відбувається на пристрої</string>
+    <string name="onboarding_feature_fast_title">Швидке сканування</string>
+    <string name="onboarding_feature_fast_subtitle">Займає менше 30 секунд</string>
+    <string name="onboarding_feature_you_choose_title">Вибираєте ви</string>
+    <string name="onboarding_feature_you_choose_subtitle">Нічого не видаляється без вашого схвалення</string>
+    <string name="onboarding_continue">Продовжити</string>
+    <string name="onboarding_allow_photo_video">Дозволити доступ до фото та відео</string>
+    <string name="onboarding_skip">Пропустити</string>
+    <string name="onboarding_contact_granted_title">Доступ до контактів надано!</string>
+    <string name="onboarding_contact_request_title">Наведіть лад у контактах</string>
+    <string name="onboarding_contact_granted_subtitle">Ми знайдемо дубльовані й неповні контакти, щоб ви могли їх об\'єднати або видалити.</string>
+    <string name="onboarding_contact_request_subtitle">Знаходьте й об\'єднуйте дубльовані контакти, щоб підтримувати порядок у телефонній книзі.</string>
+    <string name="onboarding_feature_find_dupes_title">Пошук дублікатів</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Виявлення контактів з однаковим іменем або номером</string>
+    <string name="onboarding_feature_smart_merge_title">Розумне об\'єднання</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Об\'єднання дублікатів в один контакт</string>
+    <string name="onboarding_feature_safe_title">Безпечно</string>
+    <string name="onboarding_feature_safe_subtitle">Перегляд перед будь-якими змінами</string>
+    <string name="onboarding_allow_contact">Дозволити доступ до контактів</string>
+    <string name="onboarding_ready_title">Усе готово!</string>
+    <string name="onboarding_ready_subtitle">Торкніться кнопки нижче, щоб просканувати все та почати очищення.</string>
+    <string name="onboarding_photos_videos">Фото та відео</string>
+    <string name="onboarding_contact_access">Доступ до контактів</string>
+    <string name="onboarding_free_duplicates">5 безкоштовних видалень дублікатів</string>
+    <string name="onboarding_free_similar">5 безкоштовних очищень схожих фото</string>
+    <string name="onboarding_free_screenshots">5 безкоштовних видалень знімків екрана</string>
+    <string name="onboarding_free_videos">5 безкоштовних очищень відео</string>
+    <string name="onboarding_free_contacts">5 безкоштовних об\'єднань контактів</string>
+    <string name="onboarding_free_label">БЕЗКОШТОВНО</string>
+    <string name="onboarding_get_started">Сканувати й почати</string>
+
+    <string name="paywall_close_cd">Закрити</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">на рік</string>
+    <string name="paywall_per_month">на місяць</string>
+    <string name="paywall_feature_unlimited_title">Необмежені очищення</string>
+    <string name="paywall_feature_unlimited_subtitle">Очищайте пристрій так часто, як захочете</string>
+    <string name="paywall_feature_duplicates_title">Видалення дублікатів і схожих</string>
+    <string name="paywall_feature_duplicates_subtitle">Миттєво знаходьте й видаляйте дублікати фото</string>
+    <string name="paywall_feature_videos_title">Керування великими відео</string>
+    <string name="paywall_feature_videos_subtitle">Стискайте або видаляйте відео, що займають багато місця</string>
+    <string name="paywall_feature_private_title">Приватно й безпечно</string>
+    <string name="paywall_feature_private_subtitle">Усе сканування відбувається на вашому пристрої</string>
+    <string name="paywall_best_value">НАЙВИГІДНІШЕ</string>
+    <string name="paywall_save_75" formatted="false">Економія 75% порівняно з щомісячною оплатою</string>
+    <string name="paywall_continue">Продовжити</string>
+    <string name="paywall_restore">Відновити покупки</string>
+    <string name="paywall_terms">Підписки поновлюються автоматично. Скасувати можна будь-коли в налаштуваннях Google Play.</string>
+
+    <string name="photos_title">Очищення фото</string>
+    <string name="photos_back_cd">Назад</string>
+    <string name="photos_change_folder_cd">Змінити папку</string>
+    <string name="photos_delete_count">Видалити: %d</string>
+    <string name="photos_select_title">Виберіть фото для аналізу</string>
+    <string name="photos_select_subtitle">Виберіть, як надати фото для пошуку дублікатів і знімків екрана.</string>
+    <string name="photos_select_all_folder">Вибрати все (доступ до папки)</string>
+    <string name="photos_select_all_hint">Надайте доступ до папки DCIM або Pictures, щоб просканувати всі фото</string>
+    <string name="photos_choose">Вибрати фото</string>
+    <string name="photos_choose_hint">Виберіть окремі фото для аналізу</string>
+    <string name="photos_selected_count">Вибрано: %d</string>
+    <string name="photos_save_amount">Заощадити %s</string>
+    <string name="photos_tab_duplicates">Дублікати</string>
+    <string name="photos_tab_similar">Схожі</string>
+    <string name="photos_tab_screenshots">Знімки екрана</string>
+    <string name="photos_no_duplicates_title">Дублікатів не знайдено</string>
+    <string name="photos_no_duplicates_subtitle">Ваша фотогалерея чиста!</string>
+    <string name="photos_select_all">Вибрати все</string>
+    <string name="photos_deselect_all">Зняти вибір</string>
+    <string name="photos_keep_best">Залишити найкраще</string>
+    <string name="photos_no_similar_title">Схожих фото немає</string>
+    <string name="photos_no_similar_subtitle">Груп схожих фото не знайдено</string>
+    <string name="photos_percent_similar">Схожість: %d%%</string>
+    <string name="photos_keep_best_select_others">Залишити найкраще, вибрати решту</string>
+    <string name="photos_no_screenshots_title">Знімків екрана немає</string>
+    <string name="photos_no_screenshots_subtitle">У вашій галереї знімків екрана не знайдено</string>
+    <string name="photos_selected_cd">Вибрано</string>
+    <string name="photos_best_badge">НАЙКРАЩЕ</string>
+    <string name="photos_scanning">Сканування фото…</string>
+    <string name="photos_delete_message">Вибрані фото буде остаточно видалено з вашого пристрою. Цю дію не можна скасувати.</string>
+    <string name="photos_delete_permanently">Видалити остаточно</string>
+    <string name="cancel">Скасувати</string>
+
+    <string name="upgrade_title">Оновити до Pro</string>
+    <string name="upgrade_message">Ви використали всі безкоштовні очищення в цій категорії. Оновіть до Pro для необмеженого доступу.</string>
+    <string name="upgrade_button">Оновити</string>
+    <string name="upgrade_not_now">Не зараз</string>
+
+    <string name="vault_title">Сховище</string>
+    <string name="vault_lock_cd">Заблокувати</string>
+    <string name="vault_add_cd">Додати елементи</string>
+    <string name="vault_secret_space">Таємний простір</string>
+    <string name="vault_enter_pin">Введіть PIN-код для доступу</string>
+    <string name="vault_use_biometrics">Використати біометрію</string>
+    <string name="vault_biometric_title">Доступ до таємного простору</string>
+    <string name="vault_biometric_subtitle">Розблокуйте відбитком пальця або обличчям</string>
+    <string name="vault_biometric_negative">Ввести PIN-код</string>
+    <string name="vault_backspace_cd">Видалити</string>
+    <string name="vault_create_pin">Створіть PIN-код</string>
+    <string name="vault_confirm_pin">Підтвердьте PIN-код</string>
+    <string name="vault_create_pin_subtitle">Виберіть 4-значний PIN-код для захисту сховища</string>
+    <string name="vault_confirm_pin_subtitle">Введіть той самий PIN-код ще раз</string>
+    <string name="vault_pin_mismatch">PIN-коди не збігаються. Спробуйте ще раз.</string>
+    <string name="vault_empty_title">Ваше сховище порожнє</string>
+    <string name="vault_empty_subtitle">Додайте фото та відео, щоб вони залишалися приватними</string>
+    <string name="vault_add_items">Додати елементи</string>
+    <string name="vault_adding">Додавання до сховища…</string>
+    <string name="vault_add_to_vault">Додати до сховища</string>
+    <string name="vault_select_items_subtitle">Виберіть елементи для додавання до сховища</string>
+    <string name="vault_select_from_photos">Вибрати з фото</string>
+    <string name="vault_select_from_files">Вибрати з файлів</string>
+    <string name="vault_delete_title">Видалити елемент</string>
+    <string name="vault_delete_message">Елемент буде остаточно видалено з вашого сховища.</string>
+    <string name="vault_delete_button">Видалити</string>
+    <string name="vault_restore_title">Відновити елемент</string>
+    <string name="vault_restore_message">Елемент буде повернуто до вашої галереї фото.</string>
+    <string name="vault_restore_button">Відновити</string>
+    <string name="vault_added_date">Додано: %s</string>
+    <string name="vault_item_size">Розмір: %s</string>
+
+    <string name="contacts_title">Очищення контактів</string>
+    <string name="contacts_tab_duplicates">Дублікати</string>
+    <string name="contacts_tab_incomplete">Неповні</string>
+    <string name="contacts_access_required">Потрібен доступ до контактів</string>
+    <string name="contacts_access_message">Для пошуку дублікатів і неповних записів потрібен доступ до ваших контактів.</string>
+    <string name="contacts_grant_access">Надати доступ</string>
+    <string name="contacts_no_duplicates_title">Дублікатів немає</string>
+    <string name="contacts_no_duplicates_subtitle">Ваші контакти в порядку!</string>
+    <string name="contacts_merge_all">Об\'єднати все</string>
+    <string name="contacts_delete_dupes">Видалити дублі</string>
+    <string name="contacts_no_name">Без імені</string>
+    <string name="contacts_no_incomplete_title">Неповних контактів немає</string>
+    <string name="contacts_no_incomplete_subtitle">Усі контакти містять повну інформацію</string>
+    <string name="contacts_delete_selected">Видалити вибрані (%d)</string>
+    <string name="contacts_merge_title">Об\'єднання контактів</string>
+    <string name="contacts_merge_subtitle">Виберіть основний контакт, який потрібно залишити. Дані з інших контактів буде додано до нього.</string>
+    <string name="contacts_merge_button">Об\'єднати контакти</string>
+    <string name="contacts_scanning">Сканування контактів…</string>
+
+    <string name="videos_title">Очищення відео</string>
+    <string name="videos_delete_count">Видалити: %d</string>
+    <string name="videos_select_title">Виберіть відео для аналізу</string>
+    <string name="videos_select_subtitle">Виберіть, як надати відео для пошуку великих файлів і стиснення.</string>
+    <string name="videos_select_all_folder">Вибрати все (доступ до папки)</string>
+    <string name="videos_select_all_hint">Надайте доступ до папки DCIM або медіа, щоб просканувати всі відео</string>
+    <string name="videos_choose">Вибрати відео</string>
+    <string name="videos_choose_hint">Виберіть окремі відео для аналізу</string>
+    <string name="videos_tab_large">Великі відео</string>
+    <string name="videos_tab_compress">Стиснення</string>
+    <string name="videos_no_large_title">Великих відео немає</string>
+    <string name="videos_no_large_subtitle">Відео понад 50 MB не знайдено</string>
+    <string name="videos_delete_message">Вибрані відео буде остаточно видалено. Цю дію не можна скасувати.</string>
+    <string name="videos_no_compress_title">Відео немає</string>
+    <string name="videos_no_compress_subtitle">Відео для стиснення не знайдено</string>
+    <string name="videos_compression_quality">Якість стиснення</string>
+    <string name="videos_select_videos">Вибрати відео</string>
+    <string name="videos_n_selected">Вибрано: %d</string>
+    <string name="videos_scanning">Сканування відео…</string>
+    <string name="videos_compressing_title">Стиснення відео</string>
+
+    <string name="downloads_title">Завантаження</string>
+    <string name="downloads_deselect">Зняти вибір</string>
+    <string name="downloads_scanning">Сканування папки завантажень…</string>
+    <string name="downloads_clean">Папка завантажень чиста!</string>
+
+    <string name="apk_title">Файли APK</string>
+    <string name="apk_deselect">Зняти вибір</string>
+    <string name="apk_scanning">Пошук файлів APK…</string>
+    <string name="apk_none_found">Файлів APK не знайдено!</string>
+    <string name="apk_all_filter">Усі (%d)</string>
+
+    <string name="notifications_title">Сповіщення</string>
+    <string name="notifications_analyzing">Аналіз сповіщень…</string>
+    <string name="notifications_no_apps">Застосунків не знайдено</string>
+    <string name="notifications_manage_hint">Торкніться, щоб керувати налаштуваннями сповіщень кожного застосунку</string>
+    <string name="notifications_enabled">Сповіщення увімкнено</string>
+    <string name="notifications_disabled">Сповіщення вимкнено</string>
+    <string name="notifications_manage_button">Керувати</string>
+
+    <string name="archive_title">Хмарний архів</string>
+    <string name="archive_sync_cd">Синхронізувати</string>
+    <string name="archive_storage_used">Використано місця</string>
+    <string name="archive_empty_title">Заархівованих елементів немає</string>
+    <string name="archive_empty_subtitle">Архівуйте фото та відео на екранах очищення, щоб звільнити місце на пристрої</string>
+    <string name="archive_detail_archived">Заархівовано: %s</string>
+    <string name="archive_detail_size">Розмір: %s</string>
+    <string name="archive_detail_tier">Рівень: %s</string>
+    <string name="archive_retrieve_button">Отримати</string>
+    <string name="archive_delete_title">Видалити заархівований елемент</string>
+    <string name="archive_delete_message">Цей елемент буде остаточно видалено з вашого архіву. Цю дію не можна скасувати.</string>
+    <string name="archive_success_title">Успішно заархівовано</string>
+    <string name="archive_restore_success_title">Успішно відновлено</string>
+    <string name="archive_restore_success_message">Елемент відновлено на вашому пристрої.</string>
+    <string name="archive_error_title">Помилка</string>
+    <string name="ok">OK</string>
+
+    <string name="archive_signin_title">Увійдіть для хмарного архіву</string>
+    <string name="archive_signin_subtitle">Архівуйте фото та відео в хмару, перш ніж видаляти їх з пристрою</string>
+    <string name="archive_signin_encrypted_title">Зашифроване сховище</string>
+    <string name="archive_signin_encrypted_subtitle">Ваші файли зашифровано під час передавання та зберігання на AWS</string>
+    <string name="archive_signin_retrieve_title">Отримуйте будь-коли</string>
+    <string name="archive_signin_retrieve_subtitle">Завантажуйте свої заархівовані файли, коли вони знадобляться</string>
+    <string name="archive_signin_private_title">Приватно й безпечно</string>
+    <string name="archive_signin_private_subtitle">Не потрібно пам\'ятати паролі — входьте через Google</string>
+    <string name="archive_signin_google">Увійти через Google</string>
+    <string name="archive_signin_privacy">Ваші дані використовуються лише для зберігання в хмарному архіві. Ми ніколи не передаємо й не продаємо вашу інформацію.</string>
+
+    <string name="archive_paywall_title">Видаляйте впевнено</string>
+    <string name="archive_paywall_subtitle">Архівуйте файли в хмару перед видаленням. Отримуйте їх будь-коли.</string>
+    <string name="archive_paywall_safety_title">Страховка</string>
+    <string name="archive_paywall_safety_subtitle">Більше ніколи не втрачайте важливі файли</string>
+    <string name="archive_paywall_retrieve_title">Отримуйте будь-коли</string>
+    <string name="archive_paywall_retrieve_subtitle">Завантажуйте заархівовані файли, коли потрібно</string>
+    <string name="archive_paywall_encrypted_title">Зашифроване сховище</string>
+    <string name="archive_paywall_encrypted_subtitle">Ваші дані завжди зашифровані та приватні</string>
+    <string name="archive_paywall_choose_plan">Виберіть свій план</string>
+    <string name="archive_paywall_current">ПОТОЧНИЙ</string>
+    <string name="archive_paywall_subscribe">Підписатися</string>
+
+    <string name="settings_title">Налаштування</string>
+    <string name="settings_account">Акаунт</string>
+    <string name="settings_sign_in">Увійти</string>
+    <string name="settings_subscription">Підписка</string>
+    <string name="settings_upgrade_pro">Оновити до Pro</string>
+    <string name="settings_features">Функції</string>
+    <string name="settings_secret_space">Таємний простір</string>
+    <string name="settings_email_cleanup">Очищення пошти</string>
+    <string name="settings_widgets">Віджети</string>
+    <string name="settings_about">Про застосунок</string>
+    <string name="settings_privacy_policy">Політика конфіденційності</string>
+    <string name="settings_terms">Умови користування</string>
+    <string name="settings_rate_us">Оцініть нас</string>
+    <string name="settings_version">Версія 1.1 (2)</string>
+
+    <string name="nav_home">Головна</string>
+    <string name="nav_photos">Фото</string>
+    <string name="nav_videos">Відео</string>
+    <string name="nav_contacts">Контакти</string>
+    <string name="nav_settings">Налаштування</string>
+    <string name="login_title">Вхід</string>
+    <string name="login_coming_soon">Незабаром</string>
+    <string name="login_coming_soon_subtitle">Вхід в акаунт буде доступний в одному з наступних оновлень.</string>
+    <string name="login_email">Електронна пошта</string>
+    <string name="login_password">Пароль</string>
+    <string name="login_button">Увійти</string>
+    <string name="placeholder_coming_soon">%s - незабаром</string>
+    <string name="email_cleanup_title">Очищення пошти</string>
+    <string name="widgets_title">Віджети</string>
+
+    <string name="back_cd">Назад</string>
+    <string name="delete_button">Видалити</string>
+
+    <plurals name="home_items_count">
+        <item quantity="one">%d елемент</item>
+        <item quantity="few">%d елементи</item>
+        <item quantity="many">%d елементів</item>
+        <item quantity="other">%d елемента</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d елемент · %2$s</item>
+        <item quantity="few">%1$d елементи · %2$s</item>
+        <item quantity="many">%1$d елементів · %2$s</item>
+        <item quantity="other">%1$d елемента · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">Видалити %d фото?</item>
+        <item quantity="few">Видалити %d фото?</item>
+        <item quantity="many">Видалити %d фото?</item>
+        <item quantity="other">Видалити %d фото?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d дублікат</item>
+        <item quantity="few">%d дублікати</item>
+        <item quantity="many">%d дублікатів</item>
+        <item quantity="other">%d дубліката</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d схоже фото</item>
+        <item quantity="few">%d схожі фото</item>
+        <item quantity="many">%d схожих фото</item>
+        <item quantity="other">%d схожого фото</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d знімок екрана</item>
+        <item quantity="few">%d знімки екрана</item>
+        <item quantity="many">%d знімків екрана</item>
+        <item quantity="other">%d знімка екрана</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d неповний контакт</item>
+        <item quantity="few">%d неповні контакти</item>
+        <item quantity="many">%d неповних контактів</item>
+        <item quantity="other">%d неповного контакту</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d велике відео</item>
+        <item quantity="few">%d великі відео</item>
+        <item quantity="many">%d великих відео</item>
+        <item quantity="other">%d великого відео</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">Видалити %d відео?</item>
+        <item quantity="few">Видалити %d відео?</item>
+        <item quantity="many">Видалити %d відео?</item>
+        <item quantity="other">Видалити %d відео?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">Стиснути %d відео</item>
+        <item quantity="few">Стиснути %d відео</item>
+        <item quantity="many">Стиснути %d відео</item>
+        <item quantity="other">Стиснути %d відео</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">Видалити %d файл</item>
+        <item quantity="few">Видалити %d файли</item>
+        <item quantity="many">Видалити %d файлів</item>
+        <item quantity="other">Видалити %d файлу</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">Видалити %d APK</item>
+        <item quantity="few">Видалити %d APK</item>
+        <item quantity="many">Видалити %d APK</item>
+        <item quantity="other">Видалити %d APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d застосунок зі сповіщеннями</item>
+        <item quantity="few">%d застосунки зі сповіщеннями</item>
+        <item quantity="many">%d застосунків зі сповіщеннями</item>
+        <item quantity="other">%d застосунку зі сповіщеннями</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d елемент в архіві</item>
+        <item quantity="few">%d елементи в архіві</item>
+        <item quantity="many">%d елементів в архіві</item>
+        <item quantity="other">%d елемента в архіві</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d елемент заархівовано в хмару.</item>
+        <item quantity="few">%d елементи заархівовано в хмару.</item>
+        <item quantity="many">%d елементів заархівовано в хмару.</item>
+        <item quantity="other">%d елемента заархівовано в хмару.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d дублікат (груп: %2$d)</item>
+        <item quantity="few">%1$d дублікати (груп: %2$d)</item>
+        <item quantity="many">%1$d дублікатів (груп: %2$d)</item>
+        <item quantity="other">%1$d дубліката (груп: %2$d)</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d схоже (груп: %2$d)</item>
+        <item quantity="few">%1$d схожі (груп: %2$d)</item>
+        <item quantity="many">%1$d схожих (груп: %2$d)</item>
+        <item quantity="other">%1$d схожого (груп: %2$d)</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d файл (%2$s)</item>
+        <item quantity="few">%1$d файли (%2$s)</item>
+        <item quantity="many">%1$d файлів (%2$s)</item>
+        <item quantity="other">%1$d файлу (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d дублікат</item>
+        <item quantity="few">%d дублікати</item>
+        <item quantity="many">%d дублікатів</item>
+        <item quantity="other">%d дубліката</item>
+    </plurals>
+
+    <string name="apk_status_already_installed">Уже встановлено</string>
+    <string name="apk_status_outdated">Застаріла версія</string>
+    <string name="apk_status_not_installed">Не встановлено</string>
+    <string name="apk_status_unknown">Невідомо</string>
+    <string name="archive_filter_all">Усі</string>
+    <string name="downloads_tab_all">Усі</string>
+    <string name="downloads_tab_large">Великі</string>
+    <string name="downloads_tab_old">Старі</string>
+    <string name="videos_quality_high">Висока якість</string>
+    <string name="videos_quality_medium">Середня якість</string>
+    <string name="videos_quality_low">Низька якість</string>
+    <string name="videos_quality_detail">%1$dp - менше приблизно на %2$d%%</string>
+    <string name="contacts_match_name">Те саме ім\'я</string>
+    <string name="contacts_match_phone">Той самий телефон</string>
+    <string name="contacts_match_email">Та сама пошта</string>
+    <string name="vault_pin_incorrect">Неправильний PIN-код. Спробуйте ще раз.</string>
+    <string name="billing_error_no_offer">Для цього продукту немає пропозицій</string>
+    <string name="billing_error_purchase_failed">Не вдалося здійснити покупку: %s</string>
+    <string name="billing_error_acknowledge">Не вдалося підтвердити покупку</string>
+    <string name="archive_failed_message">Не вдалося заархівувати: %s</string>
+    <string name="archive_signin_failed_message">Не вдалося увійти: %s</string>
+    <string name="paywall_ctx_generic_title">Розблокуйте Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Необмежені очищення та видалення дублікатів</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Необмежені очищення фото включено</string>
+    <string name="paywall_ctx_screenshots_subtitle">Масово видаляйте знімки екрана будь-коли</string>
+    <string name="paywall_ctx_videos_subtitle">Стискайте та видаляйте великі відео</string>
+    <string name="paywall_ctx_compress_title">Заощаджуйте %s GB завдяки стисненню</string>
+    <string name="paywall_ctx_contacts_subtitle">Підтримуйте порядок у контактах</string>
+    <string name="paywall_ctx_archive_subtitle">Зберігайте файли в хмарі замість видалення</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Видаліть %d дублікат одним дотиком</item>
+        <item quantity="few">Видаліть %d дублікати одним дотиком</item>
+        <item quantity="many">Видаліть %d дублікатів одним дотиком</item>
+        <item quantity="other">Видаліть %d дубліката одним дотиком</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Очистьте %d схоже фото</item>
+        <item quantity="few">Очистьте %d схожі фото</item>
+        <item quantity="many">Очистьте %d схожих фото</item>
+        <item quantity="other">Очистьте %d схожого фото</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">Миттєво видаліть %d знімок екрана</item>
+        <item quantity="few">Миттєво видаліть %d знімки екрана</item>
+        <item quantity="many">Миттєво видаліть %d знімків екрана</item>
+        <item quantity="other">Миттєво видаліть %d знімка екрана</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Звільніть %2$s GB із %1$d відео</item>
+        <item quantity="few">Звільніть %2$s GB із %1$d відео</item>
+        <item quantity="many">Звільніть %2$s GB із %1$d відео</item>
+        <item quantity="other">Звільніть %2$s GB із %1$d відео</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">Об\'єднайте %d дубльований контакт</item>
+        <item quantity="few">Об\'єднайте %d дубльовані контакти</item>
+        <item quantity="many">Об\'єднайте %d дубльованих контактів</item>
+        <item quantity="other">Об\'єднайте %d дубльованого контакту</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">Заархівуйте %1$d елемент (%2$s GB)</item>
+        <item quantity="few">Заархівуйте %1$d елементи (%2$s GB)</item>
+        <item quantity="many">Заархівуйте %1$d елементів (%2$s GB)</item>
+        <item quantity="other">Заархівуйте %1$d елемента (%2$s GB)</item>
+    </plurals>
+</resources>

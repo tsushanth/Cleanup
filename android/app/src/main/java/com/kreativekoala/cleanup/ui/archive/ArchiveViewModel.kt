@@ -1,5 +1,9 @@
 package com.kreativekoala.cleanup.ui.archive
 
+import dagger.hilt.android.qualifiers.ApplicationContext
+import android.content.Context
+import androidx.annotation.StringRes
+import com.kreativekoala.cleanup.R
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -25,7 +29,8 @@ import javax.inject.Inject
 class ArchiveViewModel @Inject constructor(
     private val archiveService: ArchiveService,
     private val authService: ArchiveAuthService,
-    private val entitlementManager: EntitlementManager
+    private val entitlementManager: EntitlementManager,
+    @ApplicationContext private val appContext: Context
 ) : ViewModel() {
 
     data class UiState(
@@ -42,11 +47,11 @@ class ArchiveViewModel @Inject constructor(
         val showDeleteConfirmation: Boolean = false
     )
 
-    enum class ArchiveFilter(val displayName: String) {
-        ALL("All"),
-        PHOTOS("Photos"),
-        VIDEOS("Videos"),
-        CONTACTS("Contacts")
+    enum class ArchiveFilter(@StringRes val labelRes: Int) {
+        ALL(R.string.archive_filter_all),
+        PHOTOS(R.string.nav_photos),
+        VIDEOS(R.string.nav_videos),
+        CONTACTS(R.string.nav_contacts)
     }
 
     private val _uiState = MutableStateFlow(UiState())
@@ -133,7 +138,7 @@ class ArchiveViewModel @Inject constructor(
                 refreshQuota()
             } catch (e: Exception) {
                 _uiState.update {
-                    it.copy(isLoading = false, errorMessage = "Archive failed: ${e.localizedMessage}")
+                    it.copy(isLoading = false, errorMessage = appContext.getString(R.string.archive_failed_message, e.localizedMessage ?: ""))
                 }
             }
         }
@@ -151,7 +156,7 @@ class ArchiveViewModel @Inject constructor(
                 _uiState.update { it.copy(isLoading = false, showSignIn = false) }
             } catch (e: Exception) {
                 _uiState.update {
-                    it.copy(isLoading = false, errorMessage = "Sign in failed: ${e.localizedMessage}")
+                    it.copy(isLoading = false, errorMessage = appContext.getString(R.string.archive_signin_failed_message, e.localizedMessage ?: ""))
                 }
             }
         }

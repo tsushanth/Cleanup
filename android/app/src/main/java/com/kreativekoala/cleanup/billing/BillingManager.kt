@@ -1,5 +1,6 @@
 package com.kreativekoala.cleanup.billing
 
+import com.kreativekoala.cleanup.R
 import android.app.Activity
 import android.content.Context
 import com.android.billingclient.api.*
@@ -115,7 +116,7 @@ class BillingManager @Inject constructor(
         val offerToken = productDetails.subscriptionOfferDetails?.firstOrNull()?.offerToken
         if (offerToken == null) {
             _purchaseInProgress.value = false
-            _lastError.value = "No offer available for this product"
+            _lastError.value = context.getString(R.string.billing_error_no_offer)
             onResult(false)
             return
         }
@@ -148,7 +149,7 @@ class BillingManager @Inject constructor(
                 purchaseCallback?.invoke(false)
             }
             else -> {
-                _lastError.value = "Purchase failed: ${result.debugMessage}"
+                _lastError.value = context.getString(R.string.billing_error_purchase_failed, result.debugMessage)
                 purchaseCallback?.invoke(false)
             }
         }
@@ -164,7 +165,7 @@ class BillingManager @Inject constructor(
 
         billingClient.acknowledgePurchase(params) { result ->
             if (result.responseCode != BillingClient.BillingResponseCode.OK) {
-                _lastError.value = "Failed to acknowledge purchase"
+                _lastError.value = context.getString(R.string.billing_error_acknowledge)
             }
         }
     }

@@ -30,8 +30,6 @@
     <string name="home_storage_used">Đã dùng %s</string>
     <string name="home_storage_total">Tổng %s</string>
     <string name="home_storage_full">Bộ nhớ đã đầy %d%%</string>
-    <string name="home_items_count">%d mục</string>
-    <string name="home_items_count_savings">%1$d mục \u00B7 %2$s</string>
     <string name="home_tap_to_scan">Chạm để quét</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -42,7 +40,7 @@
     <string name="onboarding_media_request_title">Truy cập ảnh &amp; video của bạn</string>
     <string name="onboarding_media_granted_subtitle">Chúng tôi sẽ quét tất cả ảnh và video của bạn để tìm trùng lặp, ảnh tương tự và tệp lớn.</string>
     <string name="onboarding_media_request_subtitle">Để tìm trùng lặp và giải phóng dung lượng, chúng tôi cần truy cập ảnh và video của bạn.</string>
-    <string name="onboarding_feature_private_title">Riêng tư 100%</string>
+    <string name="onboarding_feature_private_title" formatted="false">Riêng tư 100%</string>
     <string name="onboarding_feature_private_subtitle">Tất cả quét diễn ra trên thiết bị</string>
     <string name="onboarding_feature_fast_title">Quét Nhanh</string>
     <string name="onboarding_feature_fast_subtitle">Mất chưa đến 30 giây</string>
@@ -88,7 +86,7 @@
     <string name="paywall_feature_private_title">Riêng Tư &amp; An Toàn</string>
     <string name="paywall_feature_private_subtitle">Tất cả quét diễn ra trên thiết bị của bạn</string>
     <string name="paywall_best_value">GIÁ TRỊ TỐT NHẤT</string>
-    <string name="paywall_save_75">Tiết kiệm 75%% so với hàng tháng</string>
+    <string name="paywall_save_75" formatted="false">Tiết kiệm 75% so với hàng tháng</string>
     <string name="paywall_continue">Tiếp tục</string>
     <string name="paywall_restore">Khôi Phục Mua Hàng</string>
     <string name="paywall_terms">Đăng ký tự động gia hạn. Hủy bất cứ lúc nào trong cài đặt Google Play.</string>
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">Ảnh chụp màn hình</string>
     <string name="photos_no_duplicates_title">Không Tìm Thấy Trùng Lặp</string>
     <string name="photos_no_duplicates_subtitle">Thư viện ảnh của bạn sạch sẽ!</string>
-    <string name="photos_duplicates_summary">%1$d trùng lặp trong %2$d nhóm</string>
     <string name="photos_select_all">Chọn Tất Cả</string>
     <string name="photos_deselect_all">Bỏ Chọn Tất Cả</string>
-    <string name="photos_n_duplicates">%d trùng lặp</string>
     <string name="photos_keep_best">Giữ Tốt Nhất</string>
     <string name="photos_no_similar_title">Không Có Ảnh Tương Tự</string>
     <string name="photos_no_similar_subtitle">Không tìm thấy nhóm ảnh tương tự</string>
-    <string name="photos_similar_summary">%1$d tương tự trong %2$d nhóm</string>
-    <string name="photos_n_similar">%d ảnh tương tự</string>
     <string name="photos_percent_similar">%d%% tương tự</string>
     <string name="photos_keep_best_select_others">Giữ Tốt Nhất, Chọn Còn Lại</string>
     <string name="photos_no_screenshots_title">Không Có Ảnh Chụp Màn Hình</string>
     <string name="photos_no_screenshots_subtitle">Không tìm thấy ảnh chụp màn hình trong thư viện của bạn</string>
-    <string name="photos_n_screenshots">%d ảnh chụp màn hình</string>
     <string name="photos_selected_cd">Đã chọn</string>
     <string name="photos_best_badge">TỐT NHẤT</string>
     <string name="photos_scanning">Đang quét ảnh…</string>
-    <string name="photos_delete_title">Xóa %d Ảnh?</string>
     <string name="photos_delete_message">Thao tác này sẽ xóa vĩnh viễn các ảnh đã chọn khỏi thiết bị của bạn. Không thể hoàn tác.</string>
     <string name="photos_delete_permanently">Xóa Vĩnh Viễn</string>
     <string name="cancel">Hủy</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">Cấp Quyền</string>
     <string name="contacts_no_duplicates_title">Không Có Trùng Lặp</string>
     <string name="contacts_no_duplicates_subtitle">Danh bạ của bạn sạch sẽ!</string>
-    <string name="contacts_n_duplicates">%d trùng lặp</string>
     <string name="contacts_merge_all">Gộp Tất Cả</string>
     <string name="contacts_delete_dupes">Xóa Trùng Lặp</string>
     <string name="contacts_no_name">Không có tên</string>
     <string name="contacts_no_incomplete_title">Không Có Danh Bạ Không Đầy Đủ</string>
     <string name="contacts_no_incomplete_subtitle">Tất cả danh bạ có đầy đủ thông tin</string>
-    <string name="contacts_n_incomplete">%d không đầy đủ</string>
     <string name="contacts_delete_selected">Xóa Đã Chọn (%d)</string>
     <string name="contacts_merge_title">Gộp Danh Bạ</string>
     <string name="contacts_merge_subtitle">Chọn danh bạ chính để giữ lại. Thông tin từ các danh bạ khác sẽ được gộp vào.</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">Nén</string>
     <string name="videos_no_large_title">Không Có Video Lớn</string>
     <string name="videos_no_large_subtitle">Không tìm thấy video trên 50MB</string>
-    <string name="videos_n_large">%d video lớn</string>
-    <string name="videos_delete_title">Xóa %d Video?</string>
     <string name="videos_delete_message">Thao tác này sẽ xóa vĩnh viễn các video đã chọn. Không thể hoàn tác.</string>
     <string name="videos_no_compress_title">Không Có Video</string>
     <string name="videos_no_compress_subtitle">Không tìm thấy video có thể nén</string>
     <string name="videos_compression_quality">Chất Lượng Nén</string>
     <string name="videos_select_videos">Chọn Video</string>
     <string name="videos_n_selected">Đã chọn %d</string>
-    <string name="videos_compress_n">Nén %d Video</string>
     <string name="videos_scanning">Đang quét video…</string>
     <string name="videos_compressing_title">Đang Nén Video</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">Tải Xuống</string>
     <string name="downloads_deselect">Bỏ Chọn</string>
-    <string name="downloads_delete_n_files">Xóa %d tệp</string>
     <string name="downloads_scanning">Đang quét thư mục tải xuống…</string>
     <string name="downloads_clean">Thư mục tải xuống sạch sẽ!</string>
-    <string name="downloads_summary">%1$d tệp (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">Tệp APK</string>
     <string name="apk_deselect">Bỏ Chọn</string>
-    <string name="apk_delete_n">Xóa %d APK</string>
     <string name="apk_scanning">Đang tìm tệp APK…</string>
     <string name="apk_none_found">Không tìm thấy tệp APK!</string>
     <string name="apk_all_filter">Tất cả (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">Thông Báo</string>
     <string name="notifications_analyzing">Đang phân tích thông báo…</string>
     <string name="notifications_no_apps">Không tìm thấy ứng dụng</string>
-    <string name="notifications_apps_count">%d ứng dụng có thông báo</string>
     <string name="notifications_manage_hint">Chạm để quản lý cài đặt thông báo cho từng ứng dụng</string>
     <string name="notifications_enabled">Đã bật thông báo</string>
     <string name="notifications_disabled">Đã tắt thông báo</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">Dung Lượng Đã Dùng</string>
     <string name="archive_empty_title">Không có mục lưu trữ</string>
     <string name="archive_empty_subtitle">Lưu trữ ảnh và video từ màn hình dọn dẹp để giải phóng dung lượng thiết bị</string>
-    <string name="archive_items_count">%d mục đã lưu trữ</string>
     <string name="archive_detail_archived">Đã lưu trữ: %s</string>
     <string name="archive_detail_size">Kích thước: %s</string>
     <string name="archive_detail_tier">Cấp: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">Xóa Mục Lưu Trữ</string>
     <string name="archive_delete_message">Thao tác này sẽ xóa vĩnh viễn mục này khỏi kho lưu trữ. Không thể hoàn tác.</string>
     <string name="archive_success_title">Lưu Trữ Thành Công</string>
-    <string name="archive_success_message">%d mục đã được lưu trữ lên đám mây.</string>
     <string name="archive_restore_success_title">Khôi Phục Thành Công</string>
     <string name="archive_restore_success_message">Mục đã được khôi phục về thiết bị của bạn.</string>
     <string name="archive_error_title">Lỗi</string>
@@ -325,4 +306,112 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">Quay lại</string>
     <string name="delete_button">Xóa</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="other">%d mục</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="other">%1$d mục · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="other">Xóa %d Ảnh?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="other">%d trùng lặp</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="other">%d ảnh tương tự</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="other">%d ảnh chụp màn hình</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="other">%d không đầy đủ</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="other">%d video lớn</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="other">Xóa %d Video?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="other">Nén %d Video</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="other">Xóa %d tệp</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="other">Xóa %d APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="other">%d ứng dụng có thông báo</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="other">%d mục đã lưu trữ</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="other">%d mục đã được lưu trữ lên đám mây.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="other">%1$d trùng lặp trong %2$d nhóm</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="other">%1$d tương tự trong %2$d nhóm</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="other">%1$d tệp (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="other">%d trùng lặp</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">Đã cài đặt</string>
+    <string name="apk_status_outdated">Phiên bản cũ</string>
+    <string name="apk_status_not_installed">Chưa cài đặt</string>
+    <string name="apk_status_unknown">Không xác định</string>
+    <string name="archive_filter_all">Tất cả</string>
+    <string name="downloads_tab_all">Tất cả</string>
+    <string name="downloads_tab_large">Lớn</string>
+    <string name="downloads_tab_old">Cũ</string>
+    <string name="videos_quality_high">Chất lượng cao</string>
+    <string name="videos_quality_medium">Chất lượng trung bình</string>
+    <string name="videos_quality_low">Chất lượng thấp</string>
+    <string name="videos_quality_detail">%1$dp - nhỏ hơn khoảng %2$d%%</string>
+    <string name="contacts_match_name">Cùng tên</string>
+    <string name="contacts_match_phone">Cùng số điện thoại</string>
+    <string name="contacts_match_email">Cùng email</string>
+    <string name="vault_pin_incorrect">Mã PIN không đúng. Vui lòng thử lại.</string>
+    <string name="billing_error_no_offer">Không có ưu đãi cho sản phẩm này</string>
+    <string name="billing_error_purchase_failed">Mua thất bại: %s</string>
+    <string name="billing_error_acknowledge">Không thể xác nhận giao dịch mua</string>
+    <string name="archive_failed_message">Lưu trữ thất bại: %s</string>
+    <string name="archive_signin_failed_message">Đăng nhập thất bại: %s</string>
+    <string name="paywall_ctx_generic_title">Mở khóa Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Dọn dẹp không giới hạn và xóa mục trùng lặp</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Bao gồm dọn dẹp ảnh không giới hạn</string>
+    <string name="paywall_ctx_screenshots_subtitle">Xóa hàng loạt ảnh chụp màn hình bất cứ lúc nào</string>
+    <string name="paywall_ctx_videos_subtitle">Nén và xóa video lớn</string>
+    <string name="paywall_ctx_compress_title">Tiết kiệm %s GB nhờ nén</string>
+    <string name="paywall_ctx_contacts_subtitle">Giữ danh bạ gọn gàng</string>
+    <string name="paywall_ctx_archive_subtitle">Giữ tệp an toàn trên đám mây thay vì xóa</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="other">Xóa %d mục trùng lặp chỉ với một chạm</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="other">Dọn %d ảnh tương tự</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="other">Xóa ngay %d ảnh chụp màn hình</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="other">Giải phóng %2$s GB từ %1$d video</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="other">Gộp %d liên hệ trùng lặp</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="other">Lưu trữ %1$d mục (%2$s GB)</item>
+    </plurals>
 </resources>

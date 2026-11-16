@@ -1,5 +1,7 @@
 package com.kreativekoala.cleanup.billing
 
+import androidx.annotation.StringRes
+import com.kreativekoala.cleanup.R
 import android.content.Context
 import android.content.SharedPreferences
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -11,45 +13,62 @@ import javax.inject.Singleton
 
 // MARK: - Paywall Context
 
-sealed class PaywallContext(val title: String, val subtitle: String) {
+/**
+ * What the paywall should say. Texts are resource ids (resolved in the UI in the user's
+ * language), never English literals. [titleQuantity] is set when the title is a plurals
+ * resource; [titleArgs] are its format arguments (numbers first, then pre-formatted text).
+ */
+sealed class PaywallContext(
+    val titleRes: Int, // string or plurals resource, see titleQuantity
+    @StringRes val subtitleRes: Int,
+    val titleQuantity: Int? = null,
+    val titleArgs: List<Any> = emptyList()
+) {
     data object Generic : PaywallContext(
-        "Unlock Cleanup Pro",
-        "Unlimited cleanups & duplicate removal"
+        R.string.paywall_ctx_generic_title,
+        R.string.paywall_ctx_generic_subtitle
     )
 
     data class AttemptDeleteDuplicates(val count: Int, val savedGB: Double) : PaywallContext(
-        "Remove $count duplicates in one tap",
-        "Unlimited photo cleanups included"
+        R.plurals.paywall_ctx_duplicates_title,
+        R.string.paywall_ctx_unlimited_photos_subtitle,
+        count, listOf(count)
     )
 
     data class AttemptDeleteSimilar(val count: Int, val savedGB: Double) : PaywallContext(
-        "Clean up $count similar photos",
-        "Unlimited photo cleanups included"
+        R.plurals.paywall_ctx_similar_title,
+        R.string.paywall_ctx_unlimited_photos_subtitle,
+        count, listOf(count)
     )
 
     data class AttemptDeleteScreenshots(val count: Int, val savedGB: Double) : PaywallContext(
-        "Delete $count screenshots instantly",
-        "Bulk delete screenshots anytime"
+        R.plurals.paywall_ctx_screenshots_title,
+        R.string.paywall_ctx_screenshots_subtitle,
+        count, listOf(count)
     )
 
     data class AttemptDeleteVideos(val count: Int, val savedGB: Double) : PaywallContext(
-        "Free up ${"%.1f".format(savedGB)} GB from $count videos",
-        "Compress & delete large videos"
+        R.plurals.paywall_ctx_videos_title,
+        R.string.paywall_ctx_videos_subtitle,
+        count, listOf(count, "%.1f".format(savedGB))
     )
 
     data class AttemptCompressVideo(val savedGB: Double) : PaywallContext(
-        "Save ${"%.1f".format(savedGB)} GB with compression",
-        "Compress & delete large videos"
+        R.string.paywall_ctx_compress_title,
+        R.string.paywall_ctx_videos_subtitle,
+        null, listOf("%.1f".format(savedGB))
     )
 
     data class AttemptMergeContacts(val count: Int) : PaywallContext(
-        "Merge $count duplicate contacts",
-        "Keep your contacts organized"
+        R.plurals.paywall_ctx_contacts_title,
+        R.string.paywall_ctx_contacts_subtitle,
+        count, listOf(count)
     )
 
     data class AttemptArchive(val count: Int, val totalGB: Double) : PaywallContext(
-        "Archive $count items (${"%.1f".format(totalGB)} GB)",
-        "Keep files safe in the cloud instead of deleting"
+        R.plurals.paywall_ctx_archive_title,
+        R.string.paywall_ctx_archive_subtitle,
+        count, listOf(count, "%.1f".format(totalGB))
     )
 }
 

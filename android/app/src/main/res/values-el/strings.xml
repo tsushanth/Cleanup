@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <string name="home_title">Εκκαθάριση με ένα πάτημα</string>
+    <string name="home_vault_cd">Θησαυροφυλάκιο</string>
+    <string name="home_scanning">Σάρωση…</string>
+    <string name="home_one_tap_scan">Σάρωση με ένα πάτημα</string>
+    <string name="home_grant_access_scan">Παραχώρηση πρόσβασης και σάρωση</string>
+    <string name="home_scanning_device">Σάρωση της συσκευής σας…</string>
+    <string name="home_quick_actions">Γρήγορες ενέργειες</string>
+    <string name="home_chip_duplicates">Διπλότυπα</string>
+    <string name="home_chip_screenshots">Στιγμιότυπα</string>
+    <string name="home_chip_large_videos">Μεγάλα βίντεο</string>
+    <string name="home_chip_compress">Συμπίεση</string>
+    <string name="home_chip_archive">Αρχειοθέτηση</string>
+    <string name="home_chip_downloads">Λήψεις</string>
+    <string name="home_chip_apk_files">Αρχεία APK</string>
+    <string name="home_smart_scan_results">Αποτελέσματα έξυπνης σάρωσης</string>
+    <string name="home_category_duplicate_photos">Διπλότυπες φωτογραφίες</string>
+    <string name="home_category_similar_photos">Παρόμοιες φωτογραφίες</string>
+    <string name="home_category_screenshots">Στιγμιότυπα οθόνης</string>
+    <string name="home_category_large_videos">Μεγάλα βίντεο</string>
+    <string name="home_category_duplicate_contacts">Διπλότυπες επαφές</string>
+    <string name="home_file_management">Διαχείριση αρχείων</string>
+    <string name="home_category_downloads">Λήψεις</string>
+    <string name="home_category_apk_files">Αρχεία APK</string>
+    <string name="home_category_notification_manager">Διαχείριση ειδοποιήσεων</string>
+    <string name="home_storage_used">%s σε χρήση</string>
+    <string name="home_storage_total">%s συνολικά</string>
+    <string name="home_storage_full">Ο αποθηκευτικός σας χώρος είναι γεμάτος κατά %d%%</string>
+    <string name="home_tap_to_scan">Πατήστε για σάρωση</string>
+
+    <string name="onboarding_welcome_title">Το κινητό σας είναι γεμάτο άχρηστα αρχεία</string>
+    <string name="onboarding_welcome_subtitle">Διπλότυπες φωτογραφίες, παλιά στιγμιότυπα, μεγάλα βίντεο — καταλαμβάνουν τον χώρο σας. Ας το διορθώσουμε.</string>
+    <string name="onboarding_welcome_button">Ας καθαρίσουμε</string>
+    <string name="onboarding_media_granted_title">Η πρόσβαση στα πολυμέσα παραχωρήθηκε!</string>
+    <string name="onboarding_media_request_title">Πρόσβαση στις φωτογραφίες και τα βίντεό σας</string>
+    <string name="onboarding_media_granted_subtitle">Θα σαρώσουμε όλες τις φωτογραφίες και τα βίντεό σας για διπλότυπα, παρόμοιες λήψεις και αρχεία που καταλαμβάνουν πολύ χώρο.</string>
+    <string name="onboarding_media_request_subtitle">Για να βρούμε διπλότυπα και να ελευθερώσουμε χώρο, χρειαζόμαστε πρόσβαση στις φωτογραφίες και τα βίντεό σας.</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% ιδιωτικό</string>
+    <string name="onboarding_feature_private_subtitle">Όλη η σάρωση γίνεται στη συσκευή</string>
+    <string name="onboarding_feature_fast_title">Γρήγορη σάρωση</string>
+    <string name="onboarding_feature_fast_subtitle">Διαρκεί λιγότερο από 30 δευτερόλεπτα</string>
+    <string name="onboarding_feature_you_choose_title">Εσείς αποφασίζετε</string>
+    <string name="onboarding_feature_you_choose_subtitle">Τίποτα δεν διαγράφεται χωρίς την έγκρισή σας</string>
+    <string name="onboarding_continue">Συνέχεια</string>
+    <string name="onboarding_allow_photo_video">Να επιτρέπεται η πρόσβαση σε φωτογραφίες και βίντεο</string>
+    <string name="onboarding_skip">Παράλειψη προς το παρόν</string>
+    <string name="onboarding_contact_granted_title">Η πρόσβαση στις επαφές παραχωρήθηκε!</string>
+    <string name="onboarding_contact_request_title">Καθαρίστε τις επαφές σας</string>
+    <string name="onboarding_contact_granted_subtitle">Θα βρούμε διπλότυπες και ελλιπείς επαφές, ώστε να τις συγχωνεύσετε ή να τις αφαιρέσετε.</string>
+    <string name="onboarding_contact_request_subtitle">Βρείτε και συγχωνεύστε διπλότυπες επαφές για να διατηρείτε τον κατάλογό σας τακτοποιημένο.</string>
+    <string name="onboarding_feature_find_dupes_title">Εύρεση διπλοτύπων</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Εντοπισμός επαφών με το ίδιο όνομα ή αριθμό</string>
+    <string name="onboarding_feature_smart_merge_title">Έξυπνη συγχώνευση</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Συνδυασμός διπλοτύπων σε μία επαφή</string>
+    <string name="onboarding_feature_safe_title">Ασφαλές</string>
+    <string name="onboarding_feature_safe_subtitle">Έλεγχος πριν από οποιαδήποτε αλλαγή</string>
+    <string name="onboarding_allow_contact">Να επιτρέπεται η πρόσβαση στις επαφές</string>
+    <string name="onboarding_ready_title">Όλα έτοιμα!</string>
+    <string name="onboarding_ready_subtitle">Πατήστε το κουμπί παρακάτω για να σαρώσετε τα πάντα και να ξεκινήσετε τον καθαρισμό.</string>
+    <string name="onboarding_photos_videos">Φωτογραφίες και βίντεο</string>
+    <string name="onboarding_contact_access">Πρόσβαση στις επαφές</string>
+    <string name="onboarding_free_duplicates">5 δωρεάν αφαιρέσεις διπλοτύπων</string>
+    <string name="onboarding_free_similar">5 δωρεάν καθαρισμοί παρόμοιων φωτογραφιών</string>
+    <string name="onboarding_free_screenshots">5 δωρεάν διαγραφές στιγμιοτύπων</string>
+    <string name="onboarding_free_videos">5 δωρεάν καθαρισμοί βίντεο</string>
+    <string name="onboarding_free_contacts">5 δωρεάν συγχωνεύσεις επαφών</string>
+    <string name="onboarding_free_label">ΔΩΡΕΑΝ</string>
+    <string name="onboarding_get_started">Σάρωση και έναρξη</string>
+
+    <string name="paywall_close_cd">Κλείσιμο</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">ανά έτος</string>
+    <string name="paywall_per_month">ανά μήνα</string>
+    <string name="paywall_feature_unlimited_title">Απεριόριστοι καθαρισμοί</string>
+    <string name="paywall_feature_unlimited_subtitle">Καθαρίστε τη συσκευή σας όσο συχνά θέλετε</string>
+    <string name="paywall_feature_duplicates_title">Διαγραφή διπλοτύπων και παρόμοιων</string>
+    <string name="paywall_feature_duplicates_subtitle">Βρείτε και αφαιρέστε διπλότυπες φωτογραφίες άμεσα</string>
+    <string name="paywall_feature_videos_title">Διαχείριση μεγάλων βίντεο</string>
+    <string name="paywall_feature_videos_subtitle">Συμπιέστε ή διαγράψτε βίντεο που καταλαμβάνουν πολύ χώρο</string>
+    <string name="paywall_feature_private_title">Ιδιωτικό και ασφαλές</string>
+    <string name="paywall_feature_private_subtitle">Όλη η σάρωση γίνεται στη συσκευή σας</string>
+    <string name="paywall_best_value">ΚΑΛΥΤΕΡΗ ΑΞΙΑ</string>
+    <string name="paywall_save_75" formatted="false">Εξοικονόμηση 75% σε σχέση με τη μηνιαία χρέωση</string>
+    <string name="paywall_continue">Συνέχεια</string>
+    <string name="paywall_restore">Επαναφορά αγορών</string>
+    <string name="paywall_terms">Οι συνδρομές ανανεώνονται αυτόματα. Ακυρώστε οποιαδήποτε στιγμή από τις ρυθμίσεις του Google Play.</string>
+
+    <string name="photos_title">Καθαρισμός φωτογραφιών</string>
+    <string name="photos_back_cd">Πίσω</string>
+    <string name="photos_change_folder_cd">Αλλαγή φακέλου</string>
+    <string name="photos_delete_count">Διαγραφή %d</string>
+    <string name="photos_select_title">Επιλογή φωτογραφιών για ανάλυση</string>
+    <string name="photos_select_subtitle">Επιλέξτε πώς θέλετε να δώσετε φωτογραφίες για τον εντοπισμό διπλοτύπων και στιγμιοτύπων οθόνης.</string>
+    <string name="photos_select_all_folder">Επιλογή όλων (πρόσβαση σε φάκελο)</string>
+    <string name="photos_select_all_hint">Παραχωρήστε πρόσβαση στον φάκελο DCIM ή Pictures για σάρωση όλων των φωτογραφιών</string>
+    <string name="photos_choose">Επιλογή φωτογραφιών</string>
+    <string name="photos_choose_hint">Διαλέξτε συγκεκριμένες φωτογραφίες για ανάλυση</string>
+    <string name="photos_selected_count">%d επιλεγμένα</string>
+    <string name="photos_save_amount">Εξοικονόμηση %s</string>
+    <string name="photos_tab_duplicates">Διπλότυπα</string>
+    <string name="photos_tab_similar">Παρόμοια</string>
+    <string name="photos_tab_screenshots">Στιγμιότυπα</string>
+    <string name="photos_no_duplicates_title">Δεν βρέθηκαν διπλότυπα</string>
+    <string name="photos_no_duplicates_subtitle">Η βιβλιοθήκη φωτογραφιών σας είναι καθαρή!</string>
+    <string name="photos_select_all">Επιλογή όλων</string>
+    <string name="photos_deselect_all">Αποεπιλογή όλων</string>
+    <string name="photos_keep_best">Διατήρηση καλύτερης</string>
+    <string name="photos_no_similar_title">Δεν υπάρχουν παρόμοιες φωτογραφίες</string>
+    <string name="photos_no_similar_subtitle">Δεν βρέθηκαν ομάδες παρόμοιων φωτογραφιών</string>
+    <string name="photos_percent_similar">%d%% ομοιότητα</string>
+    <string name="photos_keep_best_select_others">Διατήρηση καλύτερης, επιλογή των υπολοίπων</string>
+    <string name="photos_no_screenshots_title">Δεν υπάρχουν στιγμιότυπα</string>
+    <string name="photos_no_screenshots_subtitle">Δεν βρέθηκαν στιγμιότυπα οθόνης στη βιβλιοθήκη σας</string>
+    <string name="photos_selected_cd">Επιλεγμένο</string>
+    <string name="photos_best_badge">ΚΑΛΥΤΕΡΗ</string>
+    <string name="photos_scanning">Σάρωση φωτογραφιών…</string>
+    <string name="photos_delete_message">Οι επιλεγμένες φωτογραφίες θα διαγραφούν οριστικά από τη συσκευή σας. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
+    <string name="photos_delete_permanently">Οριστική διαγραφή</string>
+    <string name="cancel">Ακύρωση</string>
+
+    <string name="upgrade_title">Αναβάθμιση σε Pro</string>
+    <string name="upgrade_message">Χρησιμοποιήσατε όλους τους δωρεάν καθαρισμούς για αυτή την κατηγορία. Αναβαθμίστε σε Pro για απεριόριστη πρόσβαση.</string>
+    <string name="upgrade_button">Αναβάθμιση</string>
+    <string name="upgrade_not_now">Όχι τώρα</string>
+
+    <string name="vault_title">Θησαυροφυλάκιο</string>
+    <string name="vault_lock_cd">Κλείδωμα</string>
+    <string name="vault_add_cd">Προσθήκη στοιχείων</string>
+    <string name="vault_secret_space">Μυστικός χώρος</string>
+    <string name="vault_enter_pin">Εισαγάγετε το PIN σας για πρόσβαση</string>
+    <string name="vault_use_biometrics">Χρήση βιομετρικών</string>
+    <string name="vault_biometric_title">Πρόσβαση στον Μυστικό χώρο</string>
+    <string name="vault_biometric_subtitle">Χρησιμοποιήστε το δακτυλικό σας αποτύπωμα ή το πρόσωπό σας για ξεκλείδωμα</string>
+    <string name="vault_biometric_negative">Χρήση PIN</string>
+    <string name="vault_backspace_cd">Διαγραφή</string>
+    <string name="vault_create_pin">Δημιουργία PIN</string>
+    <string name="vault_confirm_pin">Επιβεβαίωση PIN</string>
+    <string name="vault_create_pin_subtitle">Επιλέξτε ένα PIN 4 ψηφίων για την προστασία του θησαυροφυλακίου σας</string>
+    <string name="vault_confirm_pin_subtitle">Εισαγάγετε ξανά το ίδιο PIN</string>
+    <string name="vault_pin_mismatch">Τα PIN δεν ταιριάζουν. Δοκιμάστε ξανά.</string>
+    <string name="vault_empty_title">Το θησαυροφυλάκιό σας είναι άδειο</string>
+    <string name="vault_empty_subtitle">Προσθέστε φωτογραφίες και βίντεο για να παραμένουν ιδιωτικά</string>
+    <string name="vault_add_items">Προσθήκη στοιχείων</string>
+    <string name="vault_adding">Προσθήκη στο θησαυροφυλάκιο…</string>
+    <string name="vault_add_to_vault">Προσθήκη στο θησαυροφυλάκιο</string>
+    <string name="vault_select_items_subtitle">Επιλέξτε στοιχεία για προσθήκη στο θησαυροφυλάκιό σας</string>
+    <string name="vault_select_from_photos">Επιλογή από Φωτογραφίες</string>
+    <string name="vault_select_from_files">Επιλογή από Αρχεία</string>
+    <string name="vault_delete_title">Διαγραφή στοιχείου</string>
+    <string name="vault_delete_message">Το στοιχείο θα διαγραφεί οριστικά από το θησαυροφυλάκιό σας.</string>
+    <string name="vault_delete_button">Διαγραφή</string>
+    <string name="vault_restore_title">Επαναφορά στοιχείου</string>
+    <string name="vault_restore_message">Το στοιχείο θα επαναφερθεί στη βιβλιοθήκη Φωτογραφιών σας.</string>
+    <string name="vault_restore_button">Επαναφορά</string>
+    <string name="vault_added_date">Προστέθηκε: %s</string>
+    <string name="vault_item_size">Μέγεθος: %s</string>
+
+    <string name="contacts_title">Καθαρισμός επαφών</string>
+    <string name="contacts_tab_duplicates">Διπλότυπα</string>
+    <string name="contacts_tab_incomplete">Ελλιπείς</string>
+    <string name="contacts_access_required">Απαιτείται πρόσβαση στις επαφές</string>
+    <string name="contacts_access_message">Ο καθαρισμός χρειάζεται πρόσβαση στις επαφές σας για να βρει διπλότυπες και ελλιπείς καταχωρίσεις.</string>
+    <string name="contacts_grant_access">Παραχώρηση πρόσβασης</string>
+    <string name="contacts_no_duplicates_title">Κανένα διπλότυπο</string>
+    <string name="contacts_no_duplicates_subtitle">Οι επαφές σας είναι καθαρές!</string>
+    <string name="contacts_merge_all">Συγχώνευση όλων</string>
+    <string name="contacts_delete_dupes">Διαγραφή διπλοτύπων</string>
+    <string name="contacts_no_name">Χωρίς όνομα</string>
+    <string name="contacts_no_incomplete_title">Δεν υπάρχουν ελλιπείς επαφές</string>
+    <string name="contacts_no_incomplete_subtitle">Όλες οι επαφές έχουν πλήρη στοιχεία</string>
+    <string name="contacts_delete_selected">Διαγραφή επιλεγμένων (%d)</string>
+    <string name="contacts_merge_title">Συγχώνευση επαφών</string>
+    <string name="contacts_merge_subtitle">Επιλέξτε την κύρια επαφή που θα διατηρηθεί. Τα στοιχεία των άλλων επαφών θα συγχωνευθούν σε αυτήν.</string>
+    <string name="contacts_merge_button">Συγχώνευση επαφών</string>
+    <string name="contacts_scanning">Σάρωση επαφών…</string>
+
+    <string name="videos_title">Καθαρισμός βίντεο</string>
+    <string name="videos_delete_count">Διαγραφή %d</string>
+    <string name="videos_select_title">Επιλογή βίντεο για ανάλυση</string>
+    <string name="videos_select_subtitle">Επιλέξτε πώς θέλετε να δώσετε βίντεο για τον εντοπισμό μεγάλων αρχείων και τη συμπίεση.</string>
+    <string name="videos_select_all_folder">Επιλογή όλων (πρόσβαση σε φάκελο)</string>
+    <string name="videos_select_all_hint">Παραχωρήστε πρόσβαση στον φάκελο DCIM ή πολυμέσων για σάρωση όλων των βίντεο</string>
+    <string name="videos_choose">Επιλογή βίντεο</string>
+    <string name="videos_choose_hint">Διαλέξτε συγκεκριμένα βίντεο για ανάλυση</string>
+    <string name="videos_tab_large">Μεγάλα βίντεο</string>
+    <string name="videos_tab_compress">Συμπίεση</string>
+    <string name="videos_no_large_title">Δεν υπάρχουν μεγάλα βίντεο</string>
+    <string name="videos_no_large_subtitle">Δεν βρέθηκαν βίντεο άνω των 50MB</string>
+    <string name="videos_delete_message">Τα επιλεγμένα βίντεο θα διαγραφούν οριστικά. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
+    <string name="videos_no_compress_title">Δεν υπάρχουν βίντεο</string>
+    <string name="videos_no_compress_subtitle">Δεν βρέθηκαν βίντεο που μπορούν να συμπιεστούν</string>
+    <string name="videos_compression_quality">Ποιότητα συμπίεσης</string>
+    <string name="videos_select_videos">Επιλογή βίντεο</string>
+    <string name="videos_n_selected">%d επιλεγμένα</string>
+    <string name="videos_scanning">Σάρωση βίντεο…</string>
+    <string name="videos_compressing_title">Συμπίεση βίντεο</string>
+
+    <string name="downloads_title">Λήψεις</string>
+    <string name="downloads_deselect">Αποεπιλογή</string>
+    <string name="downloads_scanning">Σάρωση φακέλου λήψεων…</string>
+    <string name="downloads_clean">Ο φάκελος λήψεων είναι καθαρός!</string>
+
+    <string name="apk_title">Αρχεία APK</string>
+    <string name="apk_deselect">Αποεπιλογή</string>
+    <string name="apk_scanning">Αναζήτηση αρχείων APK…</string>
+    <string name="apk_none_found">Δεν βρέθηκαν αρχεία APK!</string>
+    <string name="apk_all_filter">Όλα (%d)</string>
+
+    <string name="notifications_title">Ειδοποιήσεις</string>
+    <string name="notifications_analyzing">Ανάλυση ειδοποιήσεων…</string>
+    <string name="notifications_no_apps">Δεν βρέθηκαν εφαρμογές</string>
+    <string name="notifications_manage_hint">Πατήστε για διαχείριση των ρυθμίσεων ειδοποιήσεων κάθε εφαρμογής</string>
+    <string name="notifications_enabled">Οι ειδοποιήσεις είναι ενεργές</string>
+    <string name="notifications_disabled">Οι ειδοποιήσεις είναι απενεργοποιημένες</string>
+    <string name="notifications_manage_button">Διαχείριση</string>
+
+    <string name="archive_title">Αρχείο στο cloud</string>
+    <string name="archive_sync_cd">Συγχρονισμός</string>
+    <string name="archive_storage_used">Χρησιμοποιούμενος χώρος</string>
+    <string name="archive_empty_title">Δεν υπάρχουν αρχειοθετημένα στοιχεία</string>
+    <string name="archive_empty_subtitle">Αρχειοθετήστε φωτογραφίες και βίντεο από τις οθόνες καθαρισμού για να ελευθερώσετε χώρο στη συσκευή</string>
+    <string name="archive_detail_archived">Αρχειοθετήθηκε: %s</string>
+    <string name="archive_detail_size">Μέγεθος: %s</string>
+    <string name="archive_detail_tier">Επίπεδο: %s</string>
+    <string name="archive_retrieve_button">Ανάκτηση</string>
+    <string name="archive_delete_title">Διαγραφή αρχειοθετημένου στοιχείου</string>
+    <string name="archive_delete_message">Το στοιχείο θα αφαιρεθεί οριστικά από το αρχείο σας. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
+    <string name="archive_success_title">Η αρχειοθέτηση ολοκληρώθηκε</string>
+    <string name="archive_restore_success_title">Η επαναφορά ολοκληρώθηκε</string>
+    <string name="archive_restore_success_message">Το στοιχείο επαναφέρθηκε στη συσκευή σας.</string>
+    <string name="archive_error_title">Σφάλμα</string>
+    <string name="ok">OK</string>
+
+    <string name="archive_signin_title">Συνδεθείτε για το αρχείο στο cloud</string>
+    <string name="archive_signin_subtitle">Αρχειοθετήστε τις φωτογραφίες και τα βίντεό σας στο cloud πριν τα διαγράψετε από τη συσκευή σας</string>
+    <string name="archive_signin_encrypted_title">Κρυπτογραφημένος χώρος αποθήκευσης</string>
+    <string name="archive_signin_encrypted_subtitle">Τα αρχεία σας κρυπτογραφούνται κατά τη μεταφορά και κατά την αποθήκευση στο AWS</string>
+    <string name="archive_signin_retrieve_title">Ανάκτηση ανά πάσα στιγμή</string>
+    <string name="archive_signin_retrieve_subtitle">Κατεβάστε τα αρχειοθετημένα αρχεία σας όποτε τα χρειάζεστε</string>
+    <string name="archive_signin_private_title">Ιδιωτικό και ασφαλές</string>
+    <string name="archive_signin_private_subtitle">Χωρίς κωδικούς πρόσβασης — συνδεθείτε με Google</string>
+    <string name="archive_signin_google">Είσοδος με Google</string>
+    <string name="archive_signin_privacy">Τα δεδομένα σας χρησιμοποιούνται μόνο για την αποθήκευση στο αρχείο cloud. Δεν μοιραζόμαστε ούτε πουλάμε ποτέ τα στοιχεία σας.</string>
+
+    <string name="archive_paywall_title">Διαγράψτε με σιγουριά</string>
+    <string name="archive_paywall_subtitle">Αρχειοθετήστε αρχεία στο cloud πριν τα διαγράψετε. Ανακτήστε τα ανά πάσα στιγμή.</string>
+    <string name="archive_paywall_safety_title">Δίχτυ ασφαλείας</string>
+    <string name="archive_paywall_safety_subtitle">Μην χάσετε ξανά σημαντικά αρχεία</string>
+    <string name="archive_paywall_retrieve_title">Ανάκτηση ανά πάσα στιγμή</string>
+    <string name="archive_paywall_retrieve_subtitle">Κατεβάστε τα αρχειοθετημένα αρχεία όποτε τα χρειάζεστε</string>
+    <string name="archive_paywall_encrypted_title">Κρυπτογραφημένος χώρος αποθήκευσης</string>
+    <string name="archive_paywall_encrypted_subtitle">Τα δεδομένα σας είναι πάντα κρυπτογραφημένα και ιδιωτικά</string>
+    <string name="archive_paywall_choose_plan">Επιλέξτε πλάνο</string>
+    <string name="archive_paywall_current">ΤΡΕΧΟΝ</string>
+    <string name="archive_paywall_subscribe">Συνδρομή</string>
+
+    <string name="settings_title">Ρυθμίσεις</string>
+    <string name="settings_account">Λογαριασμός</string>
+    <string name="settings_sign_in">Σύνδεση</string>
+    <string name="settings_subscription">Συνδρομή</string>
+    <string name="settings_upgrade_pro">Αναβάθμιση σε Pro</string>
+    <string name="settings_features">Λειτουργίες</string>
+    <string name="settings_secret_space">Μυστικός χώρος</string>
+    <string name="settings_email_cleanup">Καθαρισμός email</string>
+    <string name="settings_widgets">Γραφικά στοιχεία</string>
+    <string name="settings_about">Σχετικά</string>
+    <string name="settings_privacy_policy">Πολιτική απορρήτου</string>
+    <string name="settings_terms">Όροι χρήσης</string>
+    <string name="settings_rate_us">Βαθμολογήστε μας</string>
+    <string name="settings_version">Έκδοση 1.1 (2)</string>
+
+    <string name="nav_home">Αρχική</string>
+    <string name="nav_photos">Φωτογραφίες</string>
+    <string name="nav_videos">Βίντεο</string>
+    <string name="nav_contacts">Επαφές</string>
+    <string name="nav_settings">Ρυθμίσεις</string>
+    <string name="login_title">Σύνδεση</string>
+    <string name="login_coming_soon">Σύντομα</string>
+    <string name="login_coming_soon_subtitle">Η σύνδεση λογαριασμού θα είναι διαθέσιμη σε μελλοντική ενημέρωση.</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Κωδικός πρόσβασης</string>
+    <string name="login_button">Σύνδεση</string>
+    <string name="placeholder_coming_soon">%s - Σύντομα</string>
+    <string name="email_cleanup_title">Καθαρισμός email</string>
+    <string name="widgets_title">Γραφικά στοιχεία</string>
+
+    <string name="back_cd">Πίσω</string>
+    <string name="delete_button">Διαγραφή</string>
+
+    <plurals name="home_items_count">
+        <item quantity="one">%d στοιχείο</item>
+        <item quantity="other">%d στοιχεία</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d στοιχείο · %2$s</item>
+        <item quantity="other">%1$d στοιχεία · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">Διαγραφή %d φωτογραφίας;</item>
+        <item quantity="other">Διαγραφή %d φωτογραφιών;</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d διπλότυπο</item>
+        <item quantity="other">%d διπλότυπα</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d παρόμοια φωτογραφία</item>
+        <item quantity="other">%d παρόμοιες φωτογραφίες</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d στιγμιότυπο</item>
+        <item quantity="other">%d στιγμιότυπα</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d ελλιπής</item>
+        <item quantity="other">%d ελλιπείς</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d μεγάλο βίντεο</item>
+        <item quantity="other">%d μεγάλα βίντεο</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">Διαγραφή %d βίντεο;</item>
+        <item quantity="other">Διαγραφή %d βίντεο;</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">Συμπίεση %d βίντεο</item>
+        <item quantity="other">Συμπίεση %d βίντεο</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">Διαγραφή %d αρχείου</item>
+        <item quantity="other">Διαγραφή %d αρχείων</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">Διαγραφή %d APK</item>
+        <item quantity="other">Διαγραφή %d APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d εφαρμογή με ειδοποιήσεις</item>
+        <item quantity="other">%d εφαρμογές με ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d στοιχείο αρχειοθετήθηκε</item>
+        <item quantity="other">%d στοιχεία αρχειοθετήθηκαν</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d στοιχείο αρχειοθετήθηκε στο cloud.</item>
+        <item quantity="other">%d στοιχεία αρχειοθετήθηκαν στο cloud.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d διπλότυπο σε %2$d ομάδες</item>
+        <item quantity="other">%1$d διπλότυπα σε %2$d ομάδες</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d παρόμοιο σε %2$d ομάδες</item>
+        <item quantity="other">%1$d παρόμοια σε %2$d ομάδες</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d αρχείο (%2$s)</item>
+        <item quantity="other">%1$d αρχεία (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d διπλότυπο</item>
+        <item quantity="other">%d διπλότυπα</item>
+    </plurals>
+
+    <string name="apk_status_already_installed">Ήδη εγκατεστημένο</string>
+    <string name="apk_status_outdated">Παλιά έκδοση</string>
+    <string name="apk_status_not_installed">Δεν είναι εγκατεστημένο</string>
+    <string name="apk_status_unknown">Άγνωστο</string>
+    <string name="archive_filter_all">Όλα</string>
+    <string name="downloads_tab_all">Όλα</string>
+    <string name="downloads_tab_large">Μεγάλα</string>
+    <string name="downloads_tab_old">Παλιά</string>
+    <string name="videos_quality_high">Υψηλή ποιότητα</string>
+    <string name="videos_quality_medium">Μεσαία ποιότητα</string>
+    <string name="videos_quality_low">Χαμηλή ποιότητα</string>
+    <string name="videos_quality_detail">%1$dp - ~%2$d%% μικρότερο</string>
+    <string name="contacts_match_name">Ίδιο όνομα</string>
+    <string name="contacts_match_phone">Ίδιο τηλέφωνο</string>
+    <string name="contacts_match_email">Ίδιο email</string>
+    <string name="vault_pin_incorrect">Λανθασμένο PIN. Δοκιμάστε ξανά.</string>
+    <string name="billing_error_no_offer">Δεν υπάρχει διαθέσιμη προσφορά για αυτό το προϊόν</string>
+    <string name="billing_error_purchase_failed">Η αγορά απέτυχε: %s</string>
+    <string name="billing_error_acknowledge">Αποτυχία επιβεβαίωσης της αγοράς</string>
+    <string name="archive_failed_message">Η αρχειοθέτηση απέτυχε: %s</string>
+    <string name="archive_signin_failed_message">Η σύνδεση απέτυχε: %s</string>
+    <string name="paywall_ctx_generic_title">Ξεκλειδώστε το Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Απεριόριστοι καθαρισμοί και αφαίρεση διπλοτύπων</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Περιλαμβάνονται απεριόριστοι καθαρισμοί φωτογραφιών</string>
+    <string name="paywall_ctx_screenshots_subtitle">Μαζική διαγραφή στιγμιοτύπων οποιαδήποτε στιγμή</string>
+    <string name="paywall_ctx_videos_subtitle">Συμπίεση και διαγραφή μεγάλων βίντεο</string>
+    <string name="paywall_ctx_compress_title">Εξοικονομήστε %s GB με συμπίεση</string>
+    <string name="paywall_ctx_contacts_subtitle">Διατηρήστε τις επαφές σας οργανωμένες</string>
+    <string name="paywall_ctx_archive_subtitle">Κρατήστε τα αρχεία ασφαλή στο cloud αντί να τα διαγράφετε</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Αφαιρέστε %d διπλότυπο με ένα πάτημα</item>
+        <item quantity="other">Αφαιρέστε %d διπλότυπα με ένα πάτημα</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Καθαρίστε %d παρόμοια φωτογραφία</item>
+        <item quantity="other">Καθαρίστε %d παρόμοιες φωτογραφίες</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">Διαγράψτε %d στιγμιότυπο άμεσα</item>
+        <item quantity="other">Διαγράψτε %d στιγμιότυπα άμεσα</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Ελευθερώστε %2$s GB από %1$d βίντεο</item>
+        <item quantity="other">Ελευθερώστε %2$s GB από %1$d βίντεο</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">Συγχωνεύστε %d διπλότυπη επαφή</item>
+        <item quantity="other">Συγχωνεύστε %d διπλότυπες επαφές</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">Αρχειοθετήστε %1$d στοιχείο (%2$s GB)</item>
+        <item quantity="other">Αρχειοθετήστε %1$d στοιχεία (%2$s GB)</item>
+    </plurals>
+</resources>

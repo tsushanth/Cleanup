@@ -1,5 +1,7 @@
 package com.kreativekoala.cleanup.data.model
 
+import androidx.annotation.StringRes
+import com.kreativekoala.cleanup.R
 import java.util.UUID
 
 data class ContactItem(
@@ -26,10 +28,10 @@ data class DuplicateContactGroup(
     val primaryContact: ContactItem get() = contacts.first()
 }
 
-enum class MatchReason(val label: String) {
-    SAME_NAME("Same Name"),
-    SAME_PHONE("Same Phone"),
-    SAME_EMAIL("Same Email")
+enum class MatchReason(@StringRes val labelRes: Int) {
+    SAME_NAME(R.string.contacts_match_name),
+    SAME_PHONE(R.string.contacts_match_phone),
+    SAME_EMAIL(R.string.contacts_match_email)
 }
 
 data class ContactScanResult(

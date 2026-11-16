@@ -30,8 +30,6 @@
     <string name="home_storage_used">%s digunakan</string>
     <string name="home_storage_total">%s total</string>
     <string name="home_storage_full">Penyimpanan Anda %d%% penuh</string>
-    <string name="home_items_count">%d item</string>
-    <string name="home_items_count_savings">%1$d item \u00B7 %2$s</string>
     <string name="home_tap_to_scan">Ketuk untuk memindai</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -42,7 +40,7 @@
     <string name="onboarding_media_request_title">Akses foto &amp; video Anda</string>
     <string name="onboarding_media_granted_subtitle">Kami akan memindai semua foto dan video Anda untuk menemukan duplikat, foto mirip, dan file besar.</string>
     <string name="onboarding_media_request_subtitle">Untuk menemukan duplikat dan membebaskan ruang, kami perlu akses ke foto dan video Anda.</string>
-    <string name="onboarding_feature_private_title">100% Privat</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% Privat</string>
     <string name="onboarding_feature_private_subtitle">Semua pemindaian dilakukan di perangkat</string>
     <string name="onboarding_feature_fast_title">Pindai Cepat</string>
     <string name="onboarding_feature_fast_subtitle">Kurang dari 30 detik</string>
@@ -88,7 +86,7 @@
     <string name="paywall_feature_private_title">Privat &amp; Aman</string>
     <string name="paywall_feature_private_subtitle">Semua pemindaian dilakukan di perangkat Anda</string>
     <string name="paywall_best_value">NILAI TERBAIK</string>
-    <string name="paywall_save_75">Hemat 75%% dibanding bulanan</string>
+    <string name="paywall_save_75" formatted="false">Hemat 75% dibanding bulanan</string>
     <string name="paywall_continue">Lanjutkan</string>
     <string name="paywall_restore">Pulihkan Pembelian</string>
     <string name="paywall_terms">Langganan diperpanjang otomatis. Batalkan kapan saja di pengaturan Google Play.</string>
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">Tangkapan Layar</string>
     <string name="photos_no_duplicates_title">Tidak Ada Duplikat</string>
     <string name="photos_no_duplicates_subtitle">Pustaka foto Anda bersih!</string>
-    <string name="photos_duplicates_summary">%1$d duplikat dalam %2$d grup</string>
     <string name="photos_select_all">Pilih Semua</string>
     <string name="photos_deselect_all">Batal Pilih Semua</string>
-    <string name="photos_n_duplicates">%d duplikat</string>
     <string name="photos_keep_best">Simpan Terbaik</string>
     <string name="photos_no_similar_title">Tidak Ada Foto Mirip</string>
     <string name="photos_no_similar_subtitle">Tidak ditemukan grup foto mirip</string>
-    <string name="photos_similar_summary">%1$d mirip dalam %2$d grup</string>
-    <string name="photos_n_similar">%d foto mirip</string>
     <string name="photos_percent_similar">%d%% mirip</string>
     <string name="photos_keep_best_select_others">Simpan Terbaik, Pilih Lainnya</string>
     <string name="photos_no_screenshots_title">Tidak Ada Tangkapan Layar</string>
     <string name="photos_no_screenshots_subtitle">Tidak ditemukan tangkapan layar di pustaka Anda</string>
-    <string name="photos_n_screenshots">%d tangkapan layar</string>
     <string name="photos_selected_cd">Dipilih</string>
     <string name="photos_best_badge">TERBAIK</string>
     <string name="photos_scanning">Memindai foto…</string>
-    <string name="photos_delete_title">Hapus %d Foto?</string>
     <string name="photos_delete_message">Ini akan menghapus foto yang dipilih secara permanen dari perangkat Anda. Tindakan ini tidak dapat dibatalkan.</string>
     <string name="photos_delete_permanently">Hapus Permanen</string>
     <string name="cancel">Batal</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">Beri Akses</string>
     <string name="contacts_no_duplicates_title">Tidak Ada Duplikat</string>
     <string name="contacts_no_duplicates_subtitle">Kontak Anda bersih!</string>
-    <string name="contacts_n_duplicates">%d duplikat</string>
     <string name="contacts_merge_all">Gabungkan Semua</string>
     <string name="contacts_delete_dupes">Hapus Duplikat</string>
     <string name="contacts_no_name">Tanpa Nama</string>
     <string name="contacts_no_incomplete_title">Tidak Ada Kontak Tidak Lengkap</string>
     <string name="contacts_no_incomplete_subtitle">Semua kontak memiliki informasi lengkap</string>
-    <string name="contacts_n_incomplete">%d tidak lengkap</string>
     <string name="contacts_delete_selected">Hapus Terpilih (%d)</string>
     <string name="contacts_merge_title">Gabungkan Kontak</string>
     <string name="contacts_merge_subtitle">Pilih kontak utama untuk disimpan. Informasi dari kontak lain akan digabungkan ke dalamnya.</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">Kompres</string>
     <string name="videos_no_large_title">Tidak Ada Video Besar</string>
     <string name="videos_no_large_subtitle">Tidak ditemukan video lebih dari 50MB</string>
-    <string name="videos_n_large">%d video besar</string>
-    <string name="videos_delete_title">Hapus %d Video?</string>
     <string name="videos_delete_message">Ini akan menghapus video yang dipilih secara permanen. Tindakan ini tidak dapat dibatalkan.</string>
     <string name="videos_no_compress_title">Tidak Ada Video</string>
     <string name="videos_no_compress_subtitle">Tidak ditemukan video yang dapat dikompres</string>
     <string name="videos_compression_quality">Kualitas Kompresi</string>
     <string name="videos_select_videos">Pilih Video</string>
     <string name="videos_n_selected">%d dipilih</string>
-    <string name="videos_compress_n">Kompres %d Video</string>
     <string name="videos_scanning">Memindai video…</string>
     <string name="videos_compressing_title">Mengompres Video</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">Unduhan</string>
     <string name="downloads_deselect">Batal Pilih</string>
-    <string name="downloads_delete_n_files">Hapus %d file</string>
     <string name="downloads_scanning">Memindai folder unduhan…</string>
     <string name="downloads_clean">Folder unduhan bersih!</string>
-    <string name="downloads_summary">%1$d file (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">File APK</string>
     <string name="apk_deselect">Batal Pilih</string>
-    <string name="apk_delete_n">Hapus %d APK</string>
     <string name="apk_scanning">Mencari file APK…</string>
     <string name="apk_none_found">Tidak ditemukan file APK!</string>
     <string name="apk_all_filter">Semua (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">Notifikasi</string>
     <string name="notifications_analyzing">Menganalisis notifikasi…</string>
     <string name="notifications_no_apps">Tidak ditemukan aplikasi</string>
-    <string name="notifications_apps_count">%d aplikasi dengan notifikasi</string>
     <string name="notifications_manage_hint">Ketuk untuk mengelola pengaturan notifikasi untuk setiap aplikasi</string>
     <string name="notifications_enabled">Notifikasi diaktifkan</string>
     <string name="notifications_disabled">Notifikasi dinonaktifkan</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">Penyimpanan Terpakai</string>
     <string name="archive_empty_title">Tidak ada item yang diarsipkan</string>
     <string name="archive_empty_subtitle">Arsipkan foto dan video dari layar pembersihan untuk membebaskan ruang perangkat</string>
-    <string name="archive_items_count">%d item diarsipkan</string>
     <string name="archive_detail_archived">Diarsipkan: %s</string>
     <string name="archive_detail_size">Ukuran: %s</string>
     <string name="archive_detail_tier">Tingkat: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">Hapus Item Arsip</string>
     <string name="archive_delete_message">Ini akan menghapus item ini secara permanen dari arsip Anda. Ini tidak dapat dibatalkan.</string>
     <string name="archive_success_title">Berhasil Diarsipkan</string>
-    <string name="archive_success_message">%d item telah diarsipkan ke cloud.</string>
     <string name="archive_restore_success_title">Berhasil Dipulihkan</string>
     <string name="archive_restore_success_message">Item telah dipulihkan ke perangkat Anda.</string>
     <string name="archive_error_title">Kesalahan</string>
@@ -325,4 +306,112 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">Kembali</string>
     <string name="delete_button">Hapus</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="other">%d item</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="other">%1$d item · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="other">Hapus %d Foto?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="other">%d duplikat</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="other">%d foto mirip</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="other">%d tangkapan layar</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="other">%d tidak lengkap</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="other">%d video besar</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="other">Hapus %d Video?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="other">Kompres %d Video</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="other">Hapus %d file</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="other">Hapus %d APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="other">%d aplikasi dengan notifikasi</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="other">%d item diarsipkan</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="other">%d item telah diarsipkan ke cloud.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="other">%1$d duplikat dalam %2$d grup</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="other">%1$d mirip dalam %2$d grup</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="other">%1$d file (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="other">%d duplikat</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">Sudah terpasang</string>
+    <string name="apk_status_outdated">Versi usang</string>
+    <string name="apk_status_not_installed">Belum terpasang</string>
+    <string name="apk_status_unknown">Tidak diketahui</string>
+    <string name="archive_filter_all">Semua</string>
+    <string name="downloads_tab_all">Semua</string>
+    <string name="downloads_tab_large">Besar</string>
+    <string name="downloads_tab_old">Lama</string>
+    <string name="videos_quality_high">Kualitas Tinggi</string>
+    <string name="videos_quality_medium">Kualitas Sedang</string>
+    <string name="videos_quality_low">Kualitas Rendah</string>
+    <string name="videos_quality_detail">%1$dp - ~%2$d%% lebih kecil</string>
+    <string name="contacts_match_name">Nama sama</string>
+    <string name="contacts_match_phone">Telepon sama</string>
+    <string name="contacts_match_email">Email sama</string>
+    <string name="vault_pin_incorrect">PIN salah. Silakan coba lagi.</string>
+    <string name="billing_error_no_offer">Tidak ada penawaran untuk produk ini</string>
+    <string name="billing_error_purchase_failed">Pembelian gagal: %s</string>
+    <string name="billing_error_acknowledge">Gagal mengonfirmasi pembelian</string>
+    <string name="archive_failed_message">Pengarsipan gagal: %s</string>
+    <string name="archive_signin_failed_message">Gagal masuk: %s</string>
+    <string name="paywall_ctx_generic_title">Buka Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Pembersihan tanpa batas &amp; penghapusan duplikat</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Pembersihan foto tanpa batas termasuk</string>
+    <string name="paywall_ctx_screenshots_subtitle">Hapus tangkapan layar sekaligus kapan saja</string>
+    <string name="paywall_ctx_videos_subtitle">Kompres &amp; hapus video besar</string>
+    <string name="paywall_ctx_compress_title">Hemat %s GB dengan kompresi</string>
+    <string name="paywall_ctx_contacts_subtitle">Jaga kontak tetap rapi</string>
+    <string name="paywall_ctx_archive_subtitle">Simpan file dengan aman di cloud, bukan menghapusnya</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="other">Hapus %d duplikat dengan sekali ketuk</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="other">Bersihkan %d foto mirip</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="other">Hapus %d tangkapan layar seketika</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="other">Bebaskan %2$s GB dari %1$d video</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="other">Gabungkan %d kontak duplikat</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="other">Arsipkan %1$d item (%2$s GB)</item>
+    </plurals>
 </resources>
