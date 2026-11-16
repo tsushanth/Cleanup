@@ -1,0 +1,1 @@
+More languages: SmartSpace now also speaks Czech, Greek, Finnish, Hungarian, Romanian, Swedish and Ukrainian, and you can pick the language for this app in Android settings. Fixed a double percent sign on the upgrade screen and wording of counts such as '1 duplicate' versus '5 duplicates'.
