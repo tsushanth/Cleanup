@@ -1,24 +1,24 @@
-SmartSpace ajuda você a recuperar espaço de armazenamento no seu dispositivo Android, identificando e removendo de forma inteligente fotos duplicadas, vídeos grandes, contatos não utilizados, arquivos APK antigos e muito mais.
+SmartSpace ajuda você a recuperar espaço de armazenamento no seu dispositivo Android, identificando e removendo de forma inteligente fotos duplicadas, vídeos grandes, contatos duplicados, arquivos APK antigos e muito mais.
 
 PRINCIPAIS RECURSOS
 
 Limpeza de Fotos
-Analise sua biblioteca de fotos em busca de duplicatas, fotos desfocadas e capturas de tela que você não precisa mais. Revise as sugestões lado a lado e libere gigabytes de espaço com um único toque.
+Analise sua biblioteca de fotos em busca de duplicatas, fotos parecidas e capturas de tela que você não precisa mais. Revise as sugestões lado a lado e libere gigabytes de espaço com um único toque.
 
 Limpeza de Vídeos
 Encontre arquivos de vídeo grandes e duplicados que estão consumindo seu armazenamento. Visualize cada vídeo antes de decidir manter ou remover.
 
 Limpeza de Contatos
-Detecte contatos duplicados, incompletos ou desatualizados. Mescle duplicatas e remova contatos com informações ausentes para manter sua agenda organizada.
+Detecte contatos duplicados ou incompletos. Mescle duplicatas e remova contatos com informações ausentes para manter sua agenda organizada.
 
 Limpeza de APK e Downloads
 Remova arquivos APK de instalação restantes e downloads antigos que estão desperdicando espaço valioso no seu dispositivo.
 
 Gerenciador de Notificações
-Assuma o controle das notificações dos aplicativos. Veja quais apps são os mais barulhentos e silencie os que você não precisa.
+Assuma o controle das notificações dos aplicativos. Veja quais apps enviam notificações e abra as configurações de notificação de cada app para silenciar os que você não precisa.
 
 Arquivo na Nuvem
-Faça backup de arquivos importantes na nuvem antes de excluí-los localmente. Recupere itens arquivados a qualquer momento.
+Arquive fotos e vídeos na nuvem antes de excluí-los localmente. É preciso entrar na conta para arquivar. Recupere itens arquivados a qualquer momento.
 
 Cofre Seguro
 Proteja suas fotos e vídeos privados com autenticação biométrica. Mantenha arquivos sensíveis ocultos e seguros.
@@ -32,5 +32,8 @@ POR QUE SMARTSPACE?
 - Privacidade em Primeiro Lugar: Toda a análise acontece no seu dispositivo. Seus arquivos nunca são enviados sem sua permissão.
 - Fácil de Usar: Interface limpa e moderna projetada para todos.
 - Visualizações Detalhadas: Sempre veja o que você está prestes a excluir antes de confirmar.
+
+COMECE DE GRAÇA
+Algumas limpezas em cada categoria são gratuitas. O Pro, uma assinatura, libera limpezas ilimitadas.
 
 Baixe SmartSpace hoje e aproveite um celular mais rápido e limpo.

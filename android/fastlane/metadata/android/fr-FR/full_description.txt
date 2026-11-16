@@ -1,24 +1,24 @@
-SmartSpace vous aide à récupérer de l'espace de stockage sur votre appareil Android en identifiant et supprimant intelligemment les photos en double, les grandes vidéos, les contacts inutilisés, les anciens fichiers APK et bien plus encore.
+SmartSpace vous aide à récupérer de l'espace de stockage sur votre appareil Android en identifiant et supprimant intelligemment les photos en double, les grandes vidéos, les contacts en double, les anciens fichiers APK et bien plus encore.
 
 FONCTIONNALITÉS PRINCIPALES
 
 Nettoyage de Photos
-Analysez votre bibliothèque de photos pour trouver les doublons, les photos floues et les captures d'écran dont vous n'avez plus besoin. Examinez les suggestions côte à côte et libérez des gigaoctets d'espace en un seul appui.
+Analysez votre bibliothèque de photos pour trouver les doublons, les photos similaires et les captures d'écran dont vous n'avez plus besoin. Examinez les suggestions côte à côte et libérez des gigaoctets d'espace en un seul appui.
 
 Nettoyage de Vidéos
 Trouvez les fichiers vidéo volumineux et en double qui encombrent votre stockage. Prévisualisez chaque vidéo avant de décider de la garder ou de la supprimer.
 
 Nettoyage de Contacts
-Détectez les contacts en double, incomplets ou obsolètes. Fusionnez les doublons et supprimez les contacts avec des informations manquantes pour garder votre carnet d'adresses en ordre.
+Détectez les contacts en double ou incomplets. Fusionnez les doublons et supprimez les contacts avec des informations manquantes pour garder votre carnet d'adresses en ordre.
 
 Nettoyage d'APK et Téléchargements
 Supprimez les fichiers APK d'installation restants et les anciens téléchargements qui gaspillent de l'espace précieux sur votre appareil.
 
 Gestionnaire de Notifications
-Prenez le contrôle des notifications de vos applications. Voyez quelles applications sont les plus bruyantes et mettez en sourdine celles dont vous n'avez pas besoin.
+Prenez le contrôle des notifications de vos applications. Voyez quelles applications envoient des notifications et ouvrez les réglages de notification de chacune pour mettre en sourdine celles dont vous n'avez pas besoin.
 
 Archive Cloud
-Sauvegardez les fichiers importants dans le cloud avant de les supprimer localement. Récupérez les éléments archivés à tout moment.
+Archivez vos photos et vidéos dans le cloud avant de les supprimer localement. Une connexion à un compte est nécessaire pour archiver. Récupérez les éléments archivés à tout moment.
 
 Coffre-fort Sécurisé
 Protégez vos photos et vidéos privées avec l'authentification biométrique. Gardez vos fichiers sensibles cachés et sécurisés.
@@ -32,5 +32,8 @@ POURQUOI SMARTSPACE ?
 - Confidentialité d'Abord : Toute l'analyse se fait sur votre appareil. Vos fichiers ne sont jamais téléchargés sans votre permission.
 - Facile à Utiliser : Interface propre et moderne conçue pour tous.
 - Aperçu Détaillé : Voyez toujours ce que vous êtes sur le point de supprimer avant de confirmer.
+
+COMMENCEZ GRATUITEMENT
+Quelques nettoyages par catégorie sont gratuits. Pro, un abonnement, débloque des nettoyages illimités.
 
 Téléchargez SmartSpace aujourd'hui et profitez d'un téléphone plus rapide et plus propre.
