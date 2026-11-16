@@ -30,8 +30,6 @@
     <string name="home_storage_used">%s مستخدم</string>
     <string name="home_storage_total">%s إجمالي</string>
     <string name="home_storage_full">التخزين ممتلئ بنسبة %d%%</string>
-    <string name="home_items_count">%d عنصر</string>
-    <string name="home_items_count_savings">%1$d عنصر \u00B7 %2$s</string>
     <string name="home_tap_to_scan">انقر للفحص</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">لقطات الشاشة</string>
     <string name="photos_no_duplicates_title">لا توجد مكررات</string>
     <string name="photos_no_duplicates_subtitle">مكتبة صورك نظيفة!</string>
-    <string name="photos_duplicates_summary">%1$d مكرر في %2$d مجموعة</string>
     <string name="photos_select_all">تحديد الكل</string>
     <string name="photos_deselect_all">إلغاء تحديد الكل</string>
-    <string name="photos_n_duplicates">%d مكرر</string>
     <string name="photos_keep_best">الاحتفاظ بالأفضل</string>
     <string name="photos_no_similar_title">لا توجد صور متشابهة</string>
     <string name="photos_no_similar_subtitle">لم يتم العثور على مجموعات صور متشابهة</string>
-    <string name="photos_similar_summary">%1$d متشابه في %2$d مجموعة</string>
-    <string name="photos_n_similar">%d صورة متشابهة</string>
     <string name="photos_percent_similar">%d%% متشابه</string>
     <string name="photos_keep_best_select_others">الاحتفاظ بالأفضل وتحديد البقية</string>
     <string name="photos_no_screenshots_title">لا توجد لقطات شاشة</string>
     <string name="photos_no_screenshots_subtitle">لم يتم العثور على لقطات شاشة في مكتبتك</string>
-    <string name="photos_n_screenshots">%d لقطة شاشة</string>
     <string name="photos_selected_cd">محدد</string>
     <string name="photos_best_badge">الأفضل</string>
     <string name="photos_scanning">جارٍ فحص الصور…</string>
-    <string name="photos_delete_title">حذف %d صورة؟</string>
     <string name="photos_delete_message">سيتم حذف الصور المحددة نهائيًا من جهازك. لا يمكن التراجع عن هذا الإجراء.</string>
     <string name="photos_delete_permanently">حذف نهائيًا</string>
     <string name="cancel">إلغاء</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">منح الإذن</string>
     <string name="contacts_no_duplicates_title">لا توجد مكررات</string>
     <string name="contacts_no_duplicates_subtitle">جهات اتصالك نظيفة!</string>
-    <string name="contacts_n_duplicates">%d مكرر</string>
     <string name="contacts_merge_all">دمج الكل</string>
     <string name="contacts_delete_dupes">حذف المكررات</string>
     <string name="contacts_no_name">بدون اسم</string>
     <string name="contacts_no_incomplete_title">لا توجد جهات اتصال غير مكتملة</string>
     <string name="contacts_no_incomplete_subtitle">جميع جهات الاتصال تحتوي على معلومات كاملة</string>
-    <string name="contacts_n_incomplete">%d غير مكتمل</string>
     <string name="contacts_delete_selected">حذف المحدد (%d)</string>
     <string name="contacts_merge_title">دمج جهات الاتصال</string>
     <string name="contacts_merge_subtitle">اختر جهة الاتصال الرئيسية للاحتفاظ بها. سيتم دمج المعلومات من جهات الاتصال الأخرى فيها.</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">ضغط</string>
     <string name="videos_no_large_title">لا توجد فيديوهات كبيرة</string>
     <string name="videos_no_large_subtitle">لم يتم العثور على فيديوهات أكبر من 50 ميجابايت</string>
-    <string name="videos_n_large">%d فيديو كبير</string>
-    <string name="videos_delete_title">حذف %d فيديو؟</string>
     <string name="videos_delete_message">سيتم حذف الفيديوهات المحددة نهائيًا. لا يمكن التراجع عن هذا الإجراء.</string>
     <string name="videos_no_compress_title">لا توجد فيديوهات</string>
     <string name="videos_no_compress_subtitle">لم يتم العثور على فيديوهات قابلة للضغط</string>
     <string name="videos_compression_quality">جودة الضغط</string>
     <string name="videos_select_videos">اختيار الفيديوهات</string>
     <string name="videos_n_selected">%d محدد</string>
-    <string name="videos_compress_n">ضغط %d فيديو</string>
     <string name="videos_scanning">جارٍ فحص الفيديوهات…</string>
     <string name="videos_compressing_title">جارٍ ضغط الفيديو</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">التنزيلات</string>
     <string name="downloads_deselect">إلغاء التحديد</string>
-    <string name="downloads_delete_n_files">حذف %d ملف</string>
     <string name="downloads_scanning">جارٍ فحص مجلد التنزيلات…</string>
     <string name="downloads_clean">مجلد التنزيلات نظيف!</string>
-    <string name="downloads_summary">%1$d ملف (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">ملفات APK</string>
     <string name="apk_deselect">إلغاء التحديد</string>
-    <string name="apk_delete_n">حذف %d ملف APK</string>
     <string name="apk_scanning">جارٍ البحث عن ملفات APK…</string>
     <string name="apk_none_found">لم يتم العثور على ملفات APK!</string>
     <string name="apk_all_filter">الكل (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">الإشعارات</string>
     <string name="notifications_analyzing">جارٍ تحليل الإشعارات…</string>
     <string name="notifications_no_apps">لم يتم العثور على تطبيقات</string>
-    <string name="notifications_apps_count">%d تطبيق لديه إشعارات</string>
     <string name="notifications_manage_hint">انقر لإدارة إعدادات الإشعارات لكل تطبيق</string>
     <string name="notifications_enabled">الإشعارات مفعلة</string>
     <string name="notifications_disabled">الإشعارات معطلة</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">المساحة المستخدمة</string>
     <string name="archive_empty_title">لا توجد عناصر مؤرشفة</string>
     <string name="archive_empty_subtitle">أرشف الصور والفيديوهات من شاشات التنظيف لتحرير مساحة الجهاز</string>
-    <string name="archive_items_count">%d عنصر مؤرشف</string>
     <string name="archive_detail_archived">تمت الأرشفة: %s</string>
     <string name="archive_detail_size">الحجم: %s</string>
     <string name="archive_detail_tier">المستوى: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">حذف العنصر المؤرشف</string>
     <string name="archive_delete_message">سيتم حذف هذا العنصر نهائيًا من الأرشيف. لا يمكن التراجع عن هذا الإجراء.</string>
     <string name="archive_success_title">تمت الأرشفة بنجاح</string>
-    <string name="archive_success_message">تمت أرشفة %d عنصر إلى السحابة.</string>
     <string name="archive_restore_success_title">تمت الاستعادة بنجاح</string>
     <string name="archive_restore_success_message">تمت استعادة العنصر إلى جهازك.</string>
     <string name="archive_error_title">خطأ</string>
@@ -325,4 +306,237 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">رجوع</string>
     <string name="delete_button">حذف</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="zero">%d عنصر</item>
+        <item quantity="one">%d عنصر</item>
+        <item quantity="two">%d عنصران</item>
+        <item quantity="few">%d عناصر</item>
+        <item quantity="many">%d عنصر</item>
+        <item quantity="other">%d عنصر</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="zero">%1$d عنصر · %2$s</item>
+        <item quantity="one">%1$d عنصر · %2$s</item>
+        <item quantity="two">%1$d عنصران · %2$s</item>
+        <item quantity="few">%1$d عناصر · %2$s</item>
+        <item quantity="many">%1$d عنصر · %2$s</item>
+        <item quantity="other">%1$d عنصر · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="zero">حذف %d صورة؟</item>
+        <item quantity="one">حذف %d صورة؟</item>
+        <item quantity="two">حذف %d صورتين؟</item>
+        <item quantity="few">حذف %d صور؟</item>
+        <item quantity="many">حذف %d صورة؟</item>
+        <item quantity="other">حذف %d صورة؟</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="zero">%d مكرر</item>
+        <item quantity="one">%d مكرر</item>
+        <item quantity="two">%d مكرران</item>
+        <item quantity="few">%d مكررات</item>
+        <item quantity="many">%d مكرر</item>
+        <item quantity="other">%d مكرر</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="zero">%d صورة متشابهة</item>
+        <item quantity="one">%d صورة متشابهة</item>
+        <item quantity="two">%d صورتان متشابهتان</item>
+        <item quantity="few">%d صور متشابهة</item>
+        <item quantity="many">%d صورة متشابهة</item>
+        <item quantity="other">%d صورة متشابهة</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="zero">%d لقطة شاشة</item>
+        <item quantity="one">%d لقطة شاشة</item>
+        <item quantity="two">%d لقطتا شاشة</item>
+        <item quantity="few">%d لقطات شاشة</item>
+        <item quantity="many">%d لقطة شاشة</item>
+        <item quantity="other">%d لقطة شاشة</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="zero">%d غير مكتمل</item>
+        <item quantity="one">%d غير مكتمل</item>
+        <item quantity="two">%d غير مكتمل</item>
+        <item quantity="few">%d غير مكتمل</item>
+        <item quantity="many">%d غير مكتمل</item>
+        <item quantity="other">%d غير مكتمل</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="zero">%d فيديو كبير</item>
+        <item quantity="one">%d فيديو كبير</item>
+        <item quantity="two">%d فيديوهان كبيران</item>
+        <item quantity="few">%d فيديوهات كبيرة</item>
+        <item quantity="many">%d فيديو كبير</item>
+        <item quantity="other">%d فيديو كبير</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="zero">حذف %d فيديو؟</item>
+        <item quantity="one">حذف %d فيديو؟</item>
+        <item quantity="two">حذف %d فيديوهين؟</item>
+        <item quantity="few">حذف %d فيديوهات؟</item>
+        <item quantity="many">حذف %d فيديو؟</item>
+        <item quantity="other">حذف %d فيديو؟</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="zero">ضغط %d فيديو</item>
+        <item quantity="one">ضغط %d فيديو</item>
+        <item quantity="two">ضغط %d فيديوهين</item>
+        <item quantity="few">ضغط %d فيديوهات</item>
+        <item quantity="many">ضغط %d فيديو</item>
+        <item quantity="other">ضغط %d فيديو</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="zero">حذف %d ملف</item>
+        <item quantity="one">حذف %d ملف</item>
+        <item quantity="two">حذف %d ملفين</item>
+        <item quantity="few">حذف %d ملفات</item>
+        <item quantity="many">حذف %d ملف</item>
+        <item quantity="other">حذف %d ملف</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="zero">حذف %d ملف APK</item>
+        <item quantity="one">حذف %d ملف APK</item>
+        <item quantity="two">حذف %d ملفي APK</item>
+        <item quantity="few">حذف %d ملفات APK</item>
+        <item quantity="many">حذف %d ملف APK</item>
+        <item quantity="other">حذف %d ملف APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="zero">%d تطبيق لديه إشعارات</item>
+        <item quantity="one">%d تطبيق لديه إشعارات</item>
+        <item quantity="two">%d تطبيقان لديهما إشعارات</item>
+        <item quantity="few">%d تطبيقات لديها إشعارات</item>
+        <item quantity="many">%d تطبيق لديه إشعارات</item>
+        <item quantity="other">%d تطبيق لديه إشعارات</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="zero">%d عنصر مؤرشف</item>
+        <item quantity="one">%d عنصر مؤرشف</item>
+        <item quantity="two">%d عنصران مؤرشفان</item>
+        <item quantity="few">%d عناصر مؤرشفة</item>
+        <item quantity="many">%d عنصر مؤرشف</item>
+        <item quantity="other">%d عنصر مؤرشف</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="zero">تمت أرشفة %d عنصر إلى السحابة.</item>
+        <item quantity="one">تمت أرشفة %d عنصر إلى السحابة.</item>
+        <item quantity="two">تمت أرشفة %d عنصرين إلى السحابة.</item>
+        <item quantity="few">تمت أرشفة %d عناصر إلى السحابة.</item>
+        <item quantity="many">تمت أرشفة %d عنصر إلى السحابة.</item>
+        <item quantity="other">تمت أرشفة %d عنصر إلى السحابة.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="zero">%1$d مكرر في %2$d مجموعة</item>
+        <item quantity="one">%1$d مكرر في %2$d مجموعة</item>
+        <item quantity="two">%1$d مكرران في %2$d مجموعة</item>
+        <item quantity="few">%1$d مكررات في %2$d مجموعة</item>
+        <item quantity="many">%1$d مكرر في %2$d مجموعة</item>
+        <item quantity="other">%1$d مكرر في %2$d مجموعة</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="zero">%1$d متشابه في %2$d مجموعة</item>
+        <item quantity="one">%1$d متشابه في %2$d مجموعة</item>
+        <item quantity="two">%1$d متشابهان في %2$d مجموعة</item>
+        <item quantity="few">%1$d متشابهة في %2$d مجموعة</item>
+        <item quantity="many">%1$d متشابه في %2$d مجموعة</item>
+        <item quantity="other">%1$d متشابه في %2$d مجموعة</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="zero">%1$d ملف (%2$s)</item>
+        <item quantity="one">%1$d ملف (%2$s)</item>
+        <item quantity="two">%1$d ملفان (%2$s)</item>
+        <item quantity="few">%1$d ملفات (%2$s)</item>
+        <item quantity="many">%1$d ملف (%2$s)</item>
+        <item quantity="other">%1$d ملف (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="zero">%d مكرر</item>
+        <item quantity="one">%d مكرر</item>
+        <item quantity="two">%d مكرران</item>
+        <item quantity="few">%d مكررات</item>
+        <item quantity="many">%d مكرر</item>
+        <item quantity="other">%d مكرر</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">مثبّت بالفعل</string>
+    <string name="apk_status_outdated">إصدار قديم</string>
+    <string name="apk_status_not_installed">غير مثبّت</string>
+    <string name="apk_status_unknown">غير معروف</string>
+    <string name="archive_filter_all">الكل</string>
+    <string name="downloads_tab_all">الكل</string>
+    <string name="downloads_tab_large">كبيرة</string>
+    <string name="downloads_tab_old">قديمة</string>
+    <string name="videos_quality_high">جودة عالية</string>
+    <string name="videos_quality_medium">جودة متوسطة</string>
+    <string name="videos_quality_low">جودة منخفضة</string>
+    <string name="videos_quality_detail">%1$dp - أصغر بحوالي %2$d%%</string>
+    <string name="contacts_match_name">نفس الاسم</string>
+    <string name="contacts_match_phone">نفس الهاتف</string>
+    <string name="contacts_match_email">نفس البريد الإلكتروني</string>
+    <string name="vault_pin_incorrect">رمز PIN غير صحيح. يرجى المحاولة مرة أخرى.</string>
+    <string name="billing_error_no_offer">لا يوجد عرض متاح لهذا المنتج</string>
+    <string name="billing_error_purchase_failed">فشلت عملية الشراء: %s</string>
+    <string name="billing_error_acknowledge">تعذّر تأكيد عملية الشراء</string>
+    <string name="archive_failed_message">فشلت الأرشفة: %s</string>
+    <string name="archive_signin_failed_message">فشل تسجيل الدخول: %s</string>
+    <string name="paywall_ctx_generic_title">افتح Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">تنظيف غير محدود وإزالة المكررات</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">تنظيف الصور غير المحدود مُضمَّن</string>
+    <string name="paywall_ctx_screenshots_subtitle">احذف لقطات الشاشة دفعة واحدة في أي وقت</string>
+    <string name="paywall_ctx_videos_subtitle">اضغط مقاطع الفيديو الكبيرة واحذفها</string>
+    <string name="paywall_ctx_compress_title">وفّر %s غيغابايت بالضغط</string>
+    <string name="paywall_ctx_contacts_subtitle">حافظ على تنظيم جهات الاتصال</string>
+    <string name="paywall_ctx_archive_subtitle">احتفظ بملفاتك آمنة في السحابة بدلاً من حذفها</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="zero">أزل %d مكررًا بنقرة واحدة</item>
+        <item quantity="many">أزل %d مكررًا بنقرة واحدة</item>
+        <item quantity="other">أزل %d مكررًا بنقرة واحدة</item>
+        <item quantity="one">أزل %d مكررًا بنقرة واحدة</item>
+        <item quantity="two">أزل %d مكررين بنقرة واحدة</item>
+        <item quantity="few">أزل %d مكررات بنقرة واحدة</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="zero">نظّف %d صورة متشابهة</item>
+        <item quantity="many">نظّف %d صورة متشابهة</item>
+        <item quantity="other">نظّف %d صورة متشابهة</item>
+        <item quantity="one">نظّف %d صورة متشابهة</item>
+        <item quantity="two">نظّف %d صورتين متشابهتين</item>
+        <item quantity="few">نظّف %d صور متشابهة</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="zero">احذف %d لقطة شاشة فورًا</item>
+        <item quantity="many">احذف %d لقطة شاشة فورًا</item>
+        <item quantity="other">احذف %d لقطة شاشة فورًا</item>
+        <item quantity="one">احذف %d لقطة شاشة فورًا</item>
+        <item quantity="two">احذف %d لقطتي شاشة فورًا</item>
+        <item quantity="few">احذف %d لقطات شاشة فورًا</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="zero">وفّر %2$s غيغابايت من %1$d فيديو</item>
+        <item quantity="many">وفّر %2$s غيغابايت من %1$d فيديو</item>
+        <item quantity="other">وفّر %2$s غيغابايت من %1$d فيديو</item>
+        <item quantity="one">وفّر %2$s غيغابايت من %1$d فيديو</item>
+        <item quantity="two">وفّر %2$s غيغابايت من %1$d فيديوهين</item>
+        <item quantity="few">وفّر %2$s غيغابايت من %1$d فيديوهات</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="zero">ادمج %d جهة اتصال مكررة</item>
+        <item quantity="many">ادمج %d جهة اتصال مكررة</item>
+        <item quantity="other">ادمج %d جهة اتصال مكررة</item>
+        <item quantity="one">ادمج %d جهة اتصال مكررة</item>
+        <item quantity="two">ادمج %d جهتي اتصال مكررتين</item>
+        <item quantity="few">ادمج %d جهات اتصال مكررة</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="zero">أرشف %1$d عنصرًا (%2$s غيغابايت)</item>
+        <item quantity="many">أرشف %1$d عنصرًا (%2$s غيغابايت)</item>
+        <item quantity="other">أرشف %1$d عنصرًا (%2$s غيغابايت)</item>
+        <item quantity="one">أرشف %1$d عنصرًا (%2$s غيغابايت)</item>
+        <item quantity="two">أرشف %1$d عنصرين (%2$s غيغابايت)</item>
+        <item quantity="few">أرشف %1$d عناصر (%2$s غيغابايت)</item>
+    </plurals>
 </resources>

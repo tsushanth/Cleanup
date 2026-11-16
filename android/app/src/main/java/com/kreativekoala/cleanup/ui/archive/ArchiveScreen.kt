@@ -26,6 +26,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import com.kreativekoala.cleanup.R
+import com.kreativekoala.cleanup.util.pluralStringRes
 import com.kreativekoala.cleanup.data.model.ArchiveQuota
 import com.kreativekoala.cleanup.data.model.ArchivedItem
 import com.kreativekoala.cleanup.util.ByteFormatter
@@ -102,7 +103,7 @@ fun ArchiveScreen(
                             count = ArchiveViewModel.ArchiveFilter.entries.size
                         )
                     ) {
-                        Text(filter.displayName)
+                        Text(stringResource(filter.labelRes))
                     }
                 }
             }
@@ -209,7 +210,7 @@ fun ArchiveScreen(
         AlertDialog(
             onDismissRequest = { viewModel.dismissSuccess() },
             title = { Text(stringResource(R.string.archive_success_title)) },
-            text = { Text(stringResource(R.string.archive_success_message, uiState.archiveSuccessCount)) },
+            text = { Text(pluralStringRes(R.plurals.archive_success_message, uiState.archiveSuccessCount, uiState.archiveSuccessCount)) },
             confirmButton = {
                 TextButton(onClick = { viewModel.dismissSuccess() }) { Text(stringResource(R.string.ok)) }
             }
@@ -283,7 +284,7 @@ private fun ArchiveQuotaBar(quota: ArchiveQuota, modifier: Modifier = Modifier) 
             Spacer(modifier = Modifier.height(4.dp))
 
             Text(
-                stringResource(R.string.archive_items_count, quota.itemCount),
+                pluralStringRes(R.plurals.archive_items_count, quota.itemCount, quota.itemCount),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )

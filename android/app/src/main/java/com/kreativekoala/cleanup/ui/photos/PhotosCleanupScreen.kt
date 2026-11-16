@@ -44,6 +44,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.kreativekoala.cleanup.R
+import com.kreativekoala.cleanup.util.pluralStringRes
 import com.kreativekoala.cleanup.data.model.DuplicateGroup
 import com.kreativekoala.cleanup.data.model.PhotoAsset
 import com.kreativekoala.cleanup.data.model.SimilarPhotoGroup
@@ -289,7 +290,7 @@ fun PhotosCleanupScreen(
     if (uiState.showDeleteConfirmation) {
         AlertDialog(
             onDismissRequest = { viewModel.dismissDeleteConfirmation() },
-            title = { Text(stringResource(R.string.photos_delete_title, viewModel.selectedCount)) },
+            title = { Text(pluralStringRes(R.plurals.photos_delete_title, viewModel.selectedCount, viewModel.selectedCount)) },
             text = {
                 Text(stringResource(R.string.photos_delete_message))
             },
@@ -369,7 +370,7 @@ private fun DuplicatesTab(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        stringResource(R.string.photos_duplicates_summary, groups.sumOf { it.duplicateCount }, groups.size),
+                        pluralStringRes(R.plurals.photos_duplicates_summary, groups.sumOf { it.duplicateCount }, groups.sumOf { it.duplicateCount }, groups.size),
                         style = MaterialTheme.typography.titleSmall,
                         fontWeight = FontWeight.Bold
                     )
@@ -413,7 +414,7 @@ private fun DuplicateGroupCard(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    stringResource(R.string.photos_n_duplicates, group.photos.size),
+                    pluralStringRes(R.plurals.photos_n_duplicates, group.photos.size, group.photos.size),
                     style = MaterialTheme.typography.titleSmall,
                     fontWeight = FontWeight.Bold
                 )
@@ -488,7 +489,7 @@ private fun SimilarPhotosTab(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        stringResource(R.string.photos_similar_summary, groups.sumOf { it.similarCount }, groups.size),
+                        pluralStringRes(R.plurals.photos_similar_summary, groups.sumOf { it.similarCount }, groups.sumOf { it.similarCount }, groups.size),
                         style = MaterialTheme.typography.titleSmall,
                         fontWeight = FontWeight.Bold
                     )
@@ -532,7 +533,7 @@ private fun SimilarGroupCard(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    stringResource(R.string.photos_n_similar, group.photos.size),
+                    pluralStringRes(R.plurals.photos_n_similar, group.photos.size, group.photos.size),
                     style = MaterialTheme.typography.titleSmall,
                     fontWeight = FontWeight.Bold
                 )
@@ -600,7 +601,7 @@ private fun ScreenshotsTab(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    stringResource(R.string.photos_n_screenshots, screenshots.size),
+                    pluralStringRes(R.plurals.photos_n_screenshots, screenshots.size, screenshots.size),
                     style = MaterialTheme.typography.titleSmall,
                     fontWeight = FontWeight.Bold
                 )

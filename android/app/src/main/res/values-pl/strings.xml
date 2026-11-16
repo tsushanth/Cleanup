@@ -30,8 +30,6 @@
     <string name="home_storage_used">%s wykorzystane</string>
     <string name="home_storage_total">%s łącznie</string>
     <string name="home_storage_full">Pamięć jest zapełniona w %d%%</string>
-    <string name="home_items_count">%d elementów</string>
-    <string name="home_items_count_savings">%1$d elementów \u00B7 %2$s</string>
     <string name="home_tap_to_scan">Dotknij, aby skanować</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">Zrzuty ekranu</string>
     <string name="photos_no_duplicates_title">Brak duplikatów</string>
     <string name="photos_no_duplicates_subtitle">Twoja biblioteka zdjęć jest czysta!</string>
-    <string name="photos_duplicates_summary">%1$d duplikatów w %2$d grupach</string>
     <string name="photos_select_all">Zaznacz wszystko</string>
     <string name="photos_deselect_all">Odznacz wszystko</string>
-    <string name="photos_n_duplicates">%d duplikatów</string>
     <string name="photos_keep_best">Zachowaj najlepsze</string>
     <string name="photos_no_similar_title">Brak podobnych zdjęć</string>
     <string name="photos_no_similar_subtitle">Nie znaleziono grup podobnych zdjęć</string>
-    <string name="photos_similar_summary">%1$d podobnych w %2$d grupach</string>
-    <string name="photos_n_similar">%d podobnych zdjęć</string>
     <string name="photos_percent_similar">%d%% podobnych</string>
     <string name="photos_keep_best_select_others">Zachowaj najlepsze, wybierz pozostałe</string>
     <string name="photos_no_screenshots_title">Brak zrzutów ekranu</string>
     <string name="photos_no_screenshots_subtitle">Nie znaleziono zrzutów ekranu w twojej bibliotece</string>
-    <string name="photos_n_screenshots">%d zrzutów ekranu</string>
     <string name="photos_selected_cd">Wybrane</string>
     <string name="photos_best_badge">NAJLEPSZE</string>
     <string name="photos_scanning">Skanowanie zdjęć…</string>
-    <string name="photos_delete_title">Usunąć %d zdjęć?</string>
     <string name="photos_delete_message">Spowoduje to trwałe usunięcie wybranych zdjęć z urządzenia. Tej operacji nie można cofnąć.</string>
     <string name="photos_delete_permanently">Usuń na stałe</string>
     <string name="cancel">Anuluj</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">Przyznaj dostęp</string>
     <string name="contacts_no_duplicates_title">Brak duplikatów</string>
     <string name="contacts_no_duplicates_subtitle">Twoje kontakty są czyste!</string>
-    <string name="contacts_n_duplicates">%d duplikatów</string>
     <string name="contacts_merge_all">Scal wszystkie</string>
     <string name="contacts_delete_dupes">Usuń duplikaty</string>
     <string name="contacts_no_name">Brak nazwy</string>
     <string name="contacts_no_incomplete_title">Brak niekompletnych kontaktów</string>
     <string name="contacts_no_incomplete_subtitle">Wszystkie kontakty mają pełne informacje</string>
-    <string name="contacts_n_incomplete">%d niekompletnych</string>
     <string name="contacts_delete_selected">Usuń wybrane (%d)</string>
     <string name="contacts_merge_title">Scal kontakty</string>
     <string name="contacts_merge_subtitle">Wybierz główny kontakt do zachowania. Informacje z innych kontaktów zostaną do niego scalone.</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">Kompresja</string>
     <string name="videos_no_large_title">Brak dużych filmów</string>
     <string name="videos_no_large_subtitle">Nie znaleziono filmów powyżej 50MB</string>
-    <string name="videos_n_large">%d dużych filmów</string>
-    <string name="videos_delete_title">Usunąć %d filmów?</string>
     <string name="videos_delete_message">Spowoduje to trwałe usunięcie wybranych filmów. Tej operacji nie można cofnąć.</string>
     <string name="videos_no_compress_title">Brak filmów</string>
     <string name="videos_no_compress_subtitle">Nie znaleziono filmów do kompresji</string>
     <string name="videos_compression_quality">Jakość kompresji</string>
     <string name="videos_select_videos">Wybierz filmy</string>
     <string name="videos_n_selected">%d wybranych</string>
-    <string name="videos_compress_n">Kompresuj %d filmów</string>
     <string name="videos_scanning">Skanowanie filmów…</string>
     <string name="videos_compressing_title">Kompresowanie filmu</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">Pobrane</string>
     <string name="downloads_deselect">Odznacz</string>
-    <string name="downloads_delete_n_files">Usuń %d plików</string>
     <string name="downloads_scanning">Skanowanie folderu pobranych…</string>
     <string name="downloads_clean">Folder pobranych jest czysty!</string>
-    <string name="downloads_summary">%1$d plików (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">Pliki APK</string>
     <string name="apk_deselect">Odznacz</string>
-    <string name="apk_delete_n">Usuń %d APK</string>
     <string name="apk_scanning">Szukanie plików APK…</string>
     <string name="apk_none_found">Nie znaleziono plików APK!</string>
     <string name="apk_all_filter">Wszystkie (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">Powiadomienia</string>
     <string name="notifications_analyzing">Analiza powiadomień…</string>
     <string name="notifications_no_apps">Nie znaleziono aplikacji</string>
-    <string name="notifications_apps_count">%d aplikacji z powiadomieniami</string>
     <string name="notifications_manage_hint">Dotknij, aby zarządzać ustawieniami powiadomień dla każdej aplikacji</string>
     <string name="notifications_enabled">Powiadomienia włączone</string>
     <string name="notifications_disabled">Powiadomienia wyłączone</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">Wykorzystana pamięć</string>
     <string name="archive_empty_title">Brak zarchiwizowanych elementów</string>
     <string name="archive_empty_subtitle">Archiwizuj zdjęcia i filmy z ekranów czyszczenia, aby zwolnić miejsce na urządzeniu</string>
-    <string name="archive_items_count">%d elementów zarchiwizowanych</string>
     <string name="archive_detail_archived">Zarchiwizowano: %s</string>
     <string name="archive_detail_size">Rozmiar: %s</string>
     <string name="archive_detail_tier">Poziom: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">Usuń zarchiwizowany element</string>
     <string name="archive_delete_message">Element zostanie trwale usunięty z archiwum. Tej operacji nie można cofnąć.</string>
     <string name="archive_success_title">Pomyślnie zarchiwizowano</string>
-    <string name="archive_success_message">%d element(ów) zostało zarchiwizowanych w chmurze.</string>
     <string name="archive_restore_success_title">Pomyślnie przywrócono</string>
     <string name="archive_restore_success_message">Element został przywrócony na urządzenie.</string>
     <string name="archive_error_title">Błąd</string>
@@ -325,4 +306,187 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">Wstecz</string>
     <string name="delete_button">Usuń</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="one">%d element</item>
+        <item quantity="few">%d elementy</item>
+        <item quantity="many">%d elementów</item>
+        <item quantity="other">%d elementu</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d element · %2$s</item>
+        <item quantity="few">%1$d elementy · %2$s</item>
+        <item quantity="many">%1$d elementów · %2$s</item>
+        <item quantity="other">%1$d elementu · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">Usunąć %d zdjęcie?</item>
+        <item quantity="few">Usunąć %d zdjęcia?</item>
+        <item quantity="many">Usunąć %d zdjęć?</item>
+        <item quantity="other">Usunąć %d zdjęcia?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d duplikat</item>
+        <item quantity="few">%d duplikaty</item>
+        <item quantity="many">%d duplikatów</item>
+        <item quantity="other">%d duplikatu</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d podobne zdjęcie</item>
+        <item quantity="few">%d podobne zdjęcia</item>
+        <item quantity="many">%d podobnych zdjęć</item>
+        <item quantity="other">%d podobnego zdjęcia</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d zrzut ekranu</item>
+        <item quantity="few">%d zrzuty ekranu</item>
+        <item quantity="many">%d zrzutów ekranu</item>
+        <item quantity="other">%d zrzutu ekranu</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d niekompletny</item>
+        <item quantity="few">%d niekompletne</item>
+        <item quantity="many">%d niekompletnych</item>
+        <item quantity="other">%d niekompletnego</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d duży film</item>
+        <item quantity="few">%d duże filmy</item>
+        <item quantity="many">%d dużych filmów</item>
+        <item quantity="other">%d dużego filmu</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">Usunąć %d film?</item>
+        <item quantity="few">Usunąć %d filmy?</item>
+        <item quantity="many">Usunąć %d filmów?</item>
+        <item quantity="other">Usunąć %d filmu?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">Kompresuj %d film</item>
+        <item quantity="few">Kompresuj %d filmy</item>
+        <item quantity="many">Kompresuj %d filmów</item>
+        <item quantity="other">Kompresuj %d filmu</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">Usuń %d plik</item>
+        <item quantity="few">Usuń %d pliki</item>
+        <item quantity="many">Usuń %d plików</item>
+        <item quantity="other">Usuń %d pliku</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">Usuń %d APK</item>
+        <item quantity="few">Usuń %d APK</item>
+        <item quantity="many">Usuń %d APK</item>
+        <item quantity="other">Usuń %d APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d aplikacja z powiadomieniami</item>
+        <item quantity="few">%d aplikacje z powiadomieniami</item>
+        <item quantity="many">%d aplikacji z powiadomieniami</item>
+        <item quantity="other">%d aplikacji z powiadomieniami</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d element zarchiwizowany</item>
+        <item quantity="few">%d elementy zarchiwizowane</item>
+        <item quantity="many">%d elementów zarchiwizowanych</item>
+        <item quantity="other">%d elementu zarchiwizowanego</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d element został zarchiwizowany w chmurze.</item>
+        <item quantity="few">%d elementy zostały zarchiwizowane w chmurze.</item>
+        <item quantity="many">%d elementów zostało zarchiwizowanych w chmurze.</item>
+        <item quantity="other">%d elementu zostało zarchiwizowane w chmurze.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d duplikat w %2$d grupach</item>
+        <item quantity="few">%1$d duplikaty w %2$d grupach</item>
+        <item quantity="many">%1$d duplikatów w %2$d grupach</item>
+        <item quantity="other">%1$d duplikatu w %2$d grupach</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d podobny w %2$d grupach</item>
+        <item quantity="few">%1$d podobne w %2$d grupach</item>
+        <item quantity="many">%1$d podobnych w %2$d grupach</item>
+        <item quantity="other">%1$d podobnego w %2$d grupach</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d plik (%2$s)</item>
+        <item quantity="few">%1$d pliki (%2$s)</item>
+        <item quantity="many">%1$d plików (%2$s)</item>
+        <item quantity="other">%1$d pliku (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d duplikat</item>
+        <item quantity="few">%d duplikaty</item>
+        <item quantity="many">%d duplikatów</item>
+        <item quantity="other">%d duplikatu</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">Już zainstalowany</string>
+    <string name="apk_status_outdated">Nieaktualna wersja</string>
+    <string name="apk_status_not_installed">Niezainstalowany</string>
+    <string name="apk_status_unknown">Nieznany</string>
+    <string name="archive_filter_all">Wszystkie</string>
+    <string name="downloads_tab_all">Wszystkie</string>
+    <string name="downloads_tab_large">Duże</string>
+    <string name="downloads_tab_old">Stare</string>
+    <string name="videos_quality_high">Wysoka jakość</string>
+    <string name="videos_quality_medium">Średnia jakość</string>
+    <string name="videos_quality_low">Niska jakość</string>
+    <string name="videos_quality_detail">%1$dp - ok. %2$d%% mniejszy</string>
+    <string name="contacts_match_name">Ta sama nazwa</string>
+    <string name="contacts_match_phone">Ten sam telefon</string>
+    <string name="contacts_match_email">Ten sam e-mail</string>
+    <string name="vault_pin_incorrect">Nieprawidłowy PIN. Spróbuj ponownie.</string>
+    <string name="billing_error_no_offer">Brak oferty dla tego produktu</string>
+    <string name="billing_error_purchase_failed">Zakup nie powiódł się: %s</string>
+    <string name="billing_error_acknowledge">Nie udało się potwierdzić zakupu</string>
+    <string name="archive_failed_message">Archiwizacja nie powiodła się: %s</string>
+    <string name="archive_signin_failed_message">Logowanie nie powiodło się: %s</string>
+    <string name="paywall_ctx_generic_title">Odblokuj Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Nieograniczone czyszczenie i usuwanie duplikatów</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Nieograniczone czyszczenie zdjęć w zestawie</string>
+    <string name="paywall_ctx_screenshots_subtitle">Usuwaj zrzuty ekranu hurtowo w dowolnym momencie</string>
+    <string name="paywall_ctx_videos_subtitle">Kompresuj i usuwaj duże filmy</string>
+    <string name="paywall_ctx_compress_title">Oszczędź %s GB dzięki kompresji</string>
+    <string name="paywall_ctx_contacts_subtitle">Utrzymaj porządek w kontaktach</string>
+    <string name="paywall_ctx_archive_subtitle">Przechowuj pliki bezpiecznie w chmurze zamiast je usuwać</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Usuń %d duplikat jednym dotknięciem</item>
+        <item quantity="few">Usuń %d duplikaty jednym dotknięciem</item>
+        <item quantity="many">Usuń %d duplikatów jednym dotknięciem</item>
+        <item quantity="other">Usuń %d duplikatu jednym dotknięciem</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Wyczyść %d podobne zdjęcie</item>
+        <item quantity="few">Wyczyść %d podobne zdjęcia</item>
+        <item quantity="many">Wyczyść %d podobnych zdjęć</item>
+        <item quantity="other">Wyczyść %d podobnego zdjęcia</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">Usuń %d zrzut ekranu od razu</item>
+        <item quantity="few">Usuń %d zrzuty ekranu od razu</item>
+        <item quantity="many">Usuń %d zrzutów ekranu od razu</item>
+        <item quantity="other">Usuń %d zrzutu ekranu od razu</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Zwolnij %2$s GB z %1$d filmu</item>
+        <item quantity="few">Zwolnij %2$s GB z %1$d filmów</item>
+        <item quantity="many">Zwolnij %2$s GB z %1$d filmów</item>
+        <item quantity="other">Zwolnij %2$s GB z %1$d filmu</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">Połącz %d zduplikowany kontakt</item>
+        <item quantity="few">Połącz %d zduplikowane kontakty</item>
+        <item quantity="many">Połącz %d zduplikowanych kontaktów</item>
+        <item quantity="other">Połącz %d zduplikowanego kontaktu</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">Zarchiwizuj %1$d element (%2$s GB)</item>
+        <item quantity="few">Zarchiwizuj %1$d elementy (%2$s GB)</item>
+        <item quantity="many">Zarchiwizuj %1$d elementów (%2$s GB)</item>
+        <item quantity="other">Zarchiwizuj %1$d elementu (%2$s GB)</item>
+    </plurals>
 </resources>

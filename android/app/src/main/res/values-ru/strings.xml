@@ -30,8 +30,6 @@
     <string name="home_storage_used">%s использовано</string>
     <string name="home_storage_total">%s всего</string>
     <string name="home_storage_full">Хранилище заполнено на %d%%</string>
-    <string name="home_items_count">%d элементов</string>
-    <string name="home_items_count_savings">%1$d элементов \u00B7 %2$s</string>
     <string name="home_tap_to_scan">Нажмите для сканирования</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">Скриншоты</string>
     <string name="photos_no_duplicates_title">Дубликатов не найдено</string>
     <string name="photos_no_duplicates_subtitle">Ваша фотобиблиотека чиста!</string>
-    <string name="photos_duplicates_summary">%1$d дубликатов в %2$d группах</string>
     <string name="photos_select_all">Выбрать все</string>
     <string name="photos_deselect_all">Снять выбор</string>
-    <string name="photos_n_duplicates">%d дубликатов</string>
     <string name="photos_keep_best">Оставить лучшее</string>
     <string name="photos_no_similar_title">Нет похожих фото</string>
     <string name="photos_no_similar_subtitle">Группы похожих фото не найдены</string>
-    <string name="photos_similar_summary">%1$d похожих в %2$d группах</string>
-    <string name="photos_n_similar">%d похожих фото</string>
     <string name="photos_percent_similar">%d%% похожих</string>
     <string name="photos_keep_best_select_others">Оставить лучшее, выбрать остальные</string>
     <string name="photos_no_screenshots_title">Нет скриншотов</string>
     <string name="photos_no_screenshots_subtitle">В вашей библиотеке не найдено скриншотов</string>
-    <string name="photos_n_screenshots">%d скриншотов</string>
     <string name="photos_selected_cd">Выбрано</string>
     <string name="photos_best_badge">ЛУЧШЕЕ</string>
     <string name="photos_scanning">Сканирование фото…</string>
-    <string name="photos_delete_title">Удалить %d фото?</string>
     <string name="photos_delete_message">Выбранные фото будут безвозвратно удалены с устройства. Это действие нельзя отменить.</string>
     <string name="photos_delete_permanently">Удалить навсегда</string>
     <string name="cancel">Отмена</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">Предоставить доступ</string>
     <string name="contacts_no_duplicates_title">Нет дубликатов</string>
     <string name="contacts_no_duplicates_subtitle">Ваши контакты в порядке!</string>
-    <string name="contacts_n_duplicates">%d дубликатов</string>
     <string name="contacts_merge_all">Объединить все</string>
     <string name="contacts_delete_dupes">Удалить дубликаты</string>
     <string name="contacts_no_name">Без имени</string>
     <string name="contacts_no_incomplete_title">Нет неполных контактов</string>
     <string name="contacts_no_incomplete_subtitle">Все контакты содержат полную информацию</string>
-    <string name="contacts_n_incomplete">%d неполных</string>
     <string name="contacts_delete_selected">Удалить выбранные (%d)</string>
     <string name="contacts_merge_title">Объединить контакты</string>
     <string name="contacts_merge_subtitle">Выберите основной контакт для сохранения. Информация из других контактов будет объединена с ним.</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">Сжатие</string>
     <string name="videos_no_large_title">Нет больших видео</string>
     <string name="videos_no_large_subtitle">Видео больше 50 МБ не найдены</string>
-    <string name="videos_n_large">%d больших видео</string>
-    <string name="videos_delete_title">Удалить %d видео?</string>
     <string name="videos_delete_message">Выбранные видео будут безвозвратно удалены. Это действие нельзя отменить.</string>
     <string name="videos_no_compress_title">Нет видео</string>
     <string name="videos_no_compress_subtitle">Видео для сжатия не найдены</string>
     <string name="videos_compression_quality">Качество сжатия</string>
     <string name="videos_select_videos">Выбрать видео</string>
     <string name="videos_n_selected">%d выбрано</string>
-    <string name="videos_compress_n">Сжать %d видео</string>
     <string name="videos_scanning">Сканирование видео…</string>
     <string name="videos_compressing_title">Сжатие видео</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">Загрузки</string>
     <string name="downloads_deselect">Снять выбор</string>
-    <string name="downloads_delete_n_files">Удалить %d файлов</string>
     <string name="downloads_scanning">Сканирование папки загрузок…</string>
     <string name="downloads_clean">Папка загрузок чиста!</string>
-    <string name="downloads_summary">%1$d файлов (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">Файлы APK</string>
     <string name="apk_deselect">Снять выбор</string>
-    <string name="apk_delete_n">Удалить %d APK</string>
     <string name="apk_scanning">Поиск файлов APK…</string>
     <string name="apk_none_found">Файлы APK не найдены!</string>
     <string name="apk_all_filter">Все (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">Уведомления</string>
     <string name="notifications_analyzing">Анализ уведомлений…</string>
     <string name="notifications_no_apps">Приложения не найдены</string>
-    <string name="notifications_apps_count">%d приложений с уведомлениями</string>
     <string name="notifications_manage_hint">Нажмите для управления настройками уведомлений для каждого приложения</string>
     <string name="notifications_enabled">Уведомления включены</string>
     <string name="notifications_disabled">Уведомления отключены</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">Использовано хранилища</string>
     <string name="archive_empty_title">Нет архивированных элементов</string>
     <string name="archive_empty_subtitle">Архивируйте фото и видео со страниц очистки, чтобы освободить место на устройстве</string>
-    <string name="archive_items_count">%d элементов в архиве</string>
     <string name="archive_detail_archived">Архивировано: %s</string>
     <string name="archive_detail_size">Размер: %s</string>
     <string name="archive_detail_tier">Уровень: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">Удалить архивированный элемент</string>
     <string name="archive_delete_message">Этот элемент будет безвозвратно удалён из архива. Это действие нельзя отменить.</string>
     <string name="archive_success_title">Успешно архивировано</string>
-    <string name="archive_success_message">%d элемент(ов) архивировано в облако.</string>
     <string name="archive_restore_success_title">Успешно восстановлено</string>
     <string name="archive_restore_success_message">Элемент восстановлен на вашем устройстве.</string>
     <string name="archive_error_title">Ошибка</string>
@@ -325,4 +306,187 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">Назад</string>
     <string name="delete_button">Удалить</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="one">%d элемент</item>
+        <item quantity="few">%d элемента</item>
+        <item quantity="many">%d элементов</item>
+        <item quantity="other">%d элемента</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d элемент · %2$s</item>
+        <item quantity="few">%1$d элемента · %2$s</item>
+        <item quantity="many">%1$d элементов · %2$s</item>
+        <item quantity="other">%1$d элемента · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">Удалить %d фото?</item>
+        <item quantity="few">Удалить %d фото?</item>
+        <item quantity="many">Удалить %d фото?</item>
+        <item quantity="other">Удалить %d фото?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d дубликат</item>
+        <item quantity="few">%d дубликата</item>
+        <item quantity="many">%d дубликатов</item>
+        <item quantity="other">%d дубликата</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d похожее фото</item>
+        <item quantity="few">%d похожих фото</item>
+        <item quantity="many">%d похожих фото</item>
+        <item quantity="other">%d похожих фото</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d скриншот</item>
+        <item quantity="few">%d скриншота</item>
+        <item quantity="many">%d скриншотов</item>
+        <item quantity="other">%d скриншота</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d неполный</item>
+        <item quantity="few">%d неполных</item>
+        <item quantity="many">%d неполных</item>
+        <item quantity="other">%d неполных</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d большое видео</item>
+        <item quantity="few">%d больших видео</item>
+        <item quantity="many">%d больших видео</item>
+        <item quantity="other">%d больших видео</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">Удалить %d видео?</item>
+        <item quantity="few">Удалить %d видео?</item>
+        <item quantity="many">Удалить %d видео?</item>
+        <item quantity="other">Удалить %d видео?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">Сжать %d видео</item>
+        <item quantity="few">Сжать %d видео</item>
+        <item quantity="many">Сжать %d видео</item>
+        <item quantity="other">Сжать %d видео</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">Удалить %d файл</item>
+        <item quantity="few">Удалить %d файла</item>
+        <item quantity="many">Удалить %d файлов</item>
+        <item quantity="other">Удалить %d файла</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">Удалить %d APK</item>
+        <item quantity="few">Удалить %d APK</item>
+        <item quantity="many">Удалить %d APK</item>
+        <item quantity="other">Удалить %d APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d приложение с уведомлениями</item>
+        <item quantity="few">%d приложения с уведомлениями</item>
+        <item quantity="many">%d приложений с уведомлениями</item>
+        <item quantity="other">%d приложения с уведомлениями</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d элемент в архиве</item>
+        <item quantity="few">%d элемента в архиве</item>
+        <item quantity="many">%d элементов в архиве</item>
+        <item quantity="other">%d элемента в архиве</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d элемент архивирован в облако.</item>
+        <item quantity="few">%d элемента архивировано в облако.</item>
+        <item quantity="many">%d элемент(ов) архивировано в облако.</item>
+        <item quantity="other">%d элемента архивировано в облако.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d дубликат в %2$d группах</item>
+        <item quantity="few">%1$d дубликата в %2$d группах</item>
+        <item quantity="many">%1$d дубликатов в %2$d группах</item>
+        <item quantity="other">%1$d дубликата в %2$d группах</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d похожее в %2$d группах</item>
+        <item quantity="few">%1$d похожих в %2$d группах</item>
+        <item quantity="many">%1$d похожих в %2$d группах</item>
+        <item quantity="other">%1$d похожих в %2$d группах</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d файл (%2$s)</item>
+        <item quantity="few">%1$d файла (%2$s)</item>
+        <item quantity="many">%1$d файлов (%2$s)</item>
+        <item quantity="other">%1$d файла (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d дубликат</item>
+        <item quantity="few">%d дубликата</item>
+        <item quantity="many">%d дубликатов</item>
+        <item quantity="other">%d дубликата</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">Уже установлен</string>
+    <string name="apk_status_outdated">Устаревшая версия</string>
+    <string name="apk_status_not_installed">Не установлен</string>
+    <string name="apk_status_unknown">Неизвестно</string>
+    <string name="archive_filter_all">Все</string>
+    <string name="downloads_tab_all">Все</string>
+    <string name="downloads_tab_large">Большие</string>
+    <string name="downloads_tab_old">Старые</string>
+    <string name="videos_quality_high">Высокое качество</string>
+    <string name="videos_quality_medium">Среднее качество</string>
+    <string name="videos_quality_low">Низкое качество</string>
+    <string name="videos_quality_detail">%1$dp - примерно на %2$d%% меньше</string>
+    <string name="contacts_match_name">Одинаковое имя</string>
+    <string name="contacts_match_phone">Одинаковый телефон</string>
+    <string name="contacts_match_email">Одинаковый e-mail</string>
+    <string name="vault_pin_incorrect">Неверный PIN-код. Попробуйте ещё раз.</string>
+    <string name="billing_error_no_offer">Для этого товара нет доступных предложений</string>
+    <string name="billing_error_purchase_failed">Не удалось совершить покупку: %s</string>
+    <string name="billing_error_acknowledge">Не удалось подтвердить покупку</string>
+    <string name="archive_failed_message">Не удалось архивировать: %s</string>
+    <string name="archive_signin_failed_message">Не удалось войти: %s</string>
+    <string name="paywall_ctx_generic_title">Разблокируйте Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Безлимитная очистка и удаление дубликатов</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Безлимитная очистка фото включена</string>
+    <string name="paywall_ctx_screenshots_subtitle">Удаляйте скриншоты массово в любой момент</string>
+    <string name="paywall_ctx_videos_subtitle">Сжимайте и удаляйте большие видео</string>
+    <string name="paywall_ctx_compress_title">Сэкономьте %s ГБ благодаря сжатию</string>
+    <string name="paywall_ctx_contacts_subtitle">Держите контакты в порядке</string>
+    <string name="paywall_ctx_archive_subtitle">Храните файлы в облаке вместо удаления</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Удалите %d дубликат одним касанием</item>
+        <item quantity="few">Удалите %d дубликата одним касанием</item>
+        <item quantity="many">Удалите %d дубликатов одним касанием</item>
+        <item quantity="other">Удалите %d дубликата одним касанием</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Очистите %d похожее фото</item>
+        <item quantity="few">Очистите %d похожих фото</item>
+        <item quantity="many">Очистите %d похожих фото</item>
+        <item quantity="other">Очистите %d похожего фото</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">Удалите %d скриншот мгновенно</item>
+        <item quantity="few">Удалите %d скриншота мгновенно</item>
+        <item quantity="many">Удалите %d скриншотов мгновенно</item>
+        <item quantity="other">Удалите %d скриншота мгновенно</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Освободите %2$s ГБ из %1$d видео</item>
+        <item quantity="few">Освободите %2$s ГБ из %1$d видео</item>
+        <item quantity="many">Освободите %2$s ГБ из %1$d видео</item>
+        <item quantity="other">Освободите %2$s ГБ из %1$d видео</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">Объедините %d дублирующийся контакт</item>
+        <item quantity="few">Объедините %d дублирующихся контакта</item>
+        <item quantity="many">Объедините %d дублирующихся контактов</item>
+        <item quantity="other">Объедините %d дублирующегося контакта</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">Архивируйте %1$d элемент (%2$s ГБ)</item>
+        <item quantity="few">Архивируйте %1$d элемента (%2$s ГБ)</item>
+        <item quantity="many">Архивируйте %1$d элементов (%2$s ГБ)</item>
+        <item quantity="other">Архивируйте %1$d элемента (%2$s ГБ)</item>
+    </plurals>
 </resources>

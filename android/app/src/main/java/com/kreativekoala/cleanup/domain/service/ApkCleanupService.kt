@@ -1,5 +1,7 @@
 package com.kreativekoala.cleanup.domain.service
 
+import androidx.annotation.StringRes
+import com.kreativekoala.cleanup.R
 import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Environment
@@ -30,11 +32,11 @@ class ApkCleanupService @Inject constructor(
         val status: ApkStatus
     )
 
-    enum class ApkStatus(val displayName: String) {
-        ALREADY_INSTALLED("Already Installed"),
-        OUTDATED("Outdated Version"),
-        NOT_INSTALLED("Not Installed"),
-        UNKNOWN("Unknown")
+    enum class ApkStatus(@StringRes val labelRes: Int) {
+        ALREADY_INSTALLED(R.string.apk_status_already_installed),
+        OUTDATED(R.string.apk_status_outdated),
+        NOT_INSTALLED(R.string.apk_status_not_installed),
+        UNKNOWN(R.string.apk_status_unknown)
     }
 
     suspend fun scan(): List<ApkFile> = withContext(Dispatchers.IO) {

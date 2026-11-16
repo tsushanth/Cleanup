@@ -30,8 +30,6 @@
     <string name="home_storage_used">%s used</string>
     <string name="home_storage_total">%s total</string>
     <string name="home_storage_full">Your storage is %d%% full</string>
-    <string name="home_items_count">%d items</string>
-    <string name="home_items_count_savings">%1$d items \u00B7 %2$s</string>
     <string name="home_tap_to_scan">Tap to scan</string>
 
     <!-- ==================== ONBOARDING SCREEN ==================== -->
@@ -111,24 +109,18 @@
     <string name="photos_tab_screenshots">Screenshots</string>
     <string name="photos_no_duplicates_title">No Duplicates Found</string>
     <string name="photos_no_duplicates_subtitle">Your photo library is clean!</string>
-    <string name="photos_duplicates_summary">%1$d duplicates in %2$d groups</string>
     <string name="photos_select_all">Select All</string>
     <string name="photos_deselect_all">Deselect All</string>
-    <string name="photos_n_duplicates">%d duplicates</string>
     <string name="photos_keep_best">Keep Best</string>
     <string name="photos_no_similar_title">No Similar Photos</string>
     <string name="photos_no_similar_subtitle">No groups of similar photos found</string>
-    <string name="photos_similar_summary">%1$d similar in %2$d groups</string>
-    <string name="photos_n_similar">%d similar photos</string>
     <string name="photos_percent_similar">%d%% similar</string>
     <string name="photos_keep_best_select_others">Keep Best, Select Others</string>
     <string name="photos_no_screenshots_title">No Screenshots</string>
     <string name="photos_no_screenshots_subtitle">No screenshots found in your library</string>
-    <string name="photos_n_screenshots">%d screenshots</string>
     <string name="photos_selected_cd">Selected</string>
     <string name="photos_best_badge">BEST</string>
     <string name="photos_scanning">Scanning photos…</string>
-    <string name="photos_delete_title">Delete %d Photos?</string>
     <string name="photos_delete_message">This will permanently delete the selected photos from your device. This action cannot be undone.</string>
     <string name="photos_delete_permanently">Delete Permanently</string>
     <string name="cancel">Cancel</string>
@@ -181,13 +173,11 @@
     <string name="contacts_grant_access">Grant Access</string>
     <string name="contacts_no_duplicates_title">No Duplicates</string>
     <string name="contacts_no_duplicates_subtitle">Your contacts are clean!</string>
-    <string name="contacts_n_duplicates">%d duplicates</string>
     <string name="contacts_merge_all">Merge All</string>
     <string name="contacts_delete_dupes">Delete Dupes</string>
     <string name="contacts_no_name">No Name</string>
     <string name="contacts_no_incomplete_title">No Incomplete Contacts</string>
     <string name="contacts_no_incomplete_subtitle">All contacts have complete information</string>
-    <string name="contacts_n_incomplete">%d incomplete</string>
     <string name="contacts_delete_selected">Delete Selected (%d)</string>
     <string name="contacts_merge_title">Merge Contacts</string>
     <string name="contacts_merge_subtitle">Select the primary contact to keep. Information from other contacts will be merged into it.</string>
@@ -207,30 +197,24 @@
     <string name="videos_tab_compress">Compress</string>
     <string name="videos_no_large_title">No Large Videos</string>
     <string name="videos_no_large_subtitle">No videos over 50MB found</string>
-    <string name="videos_n_large">%d large videos</string>
-    <string name="videos_delete_title">Delete %d Videos?</string>
     <string name="videos_delete_message">This will permanently delete the selected videos. This action cannot be undone.</string>
     <string name="videos_no_compress_title">No Videos</string>
     <string name="videos_no_compress_subtitle">No compressible videos found</string>
     <string name="videos_compression_quality">Compression Quality</string>
     <string name="videos_select_videos">Select Videos</string>
     <string name="videos_n_selected">%d selected</string>
-    <string name="videos_compress_n">Compress %d Videos</string>
     <string name="videos_scanning">Scanning videos…</string>
     <string name="videos_compressing_title">Compressing Video</string>
 
     <!-- ==================== DOWNLOADS SCREEN ==================== -->
     <string name="downloads_title">Downloads</string>
     <string name="downloads_deselect">Deselect</string>
-    <string name="downloads_delete_n_files">Delete %d files</string>
     <string name="downloads_scanning">Scanning downloads folder…</string>
     <string name="downloads_clean">Downloads folder is clean!</string>
-    <string name="downloads_summary">%1$d files (%2$s)</string>
 
     <!-- ==================== APK SCREEN ==================== -->
     <string name="apk_title">APK Files</string>
     <string name="apk_deselect">Deselect</string>
-    <string name="apk_delete_n">Delete %d APKs</string>
     <string name="apk_scanning">Scanning for APK files…</string>
     <string name="apk_none_found">No APK files found!</string>
     <string name="apk_all_filter">All (%d)</string>
@@ -239,7 +223,6 @@
     <string name="notifications_title">Notifications</string>
     <string name="notifications_analyzing">Analyzing notifications…</string>
     <string name="notifications_no_apps">No apps found</string>
-    <string name="notifications_apps_count">%d apps with notifications</string>
     <string name="notifications_manage_hint">Tap to manage notification settings for each app</string>
     <string name="notifications_enabled">Notifications enabled</string>
     <string name="notifications_disabled">Notifications disabled</string>
@@ -251,7 +234,6 @@
     <string name="archive_storage_used">Storage Used</string>
     <string name="archive_empty_title">No archived items</string>
     <string name="archive_empty_subtitle">Archive photos and videos from the cleanup screens to free up device space</string>
-    <string name="archive_items_count">%d items archived</string>
     <string name="archive_detail_archived">Archived: %s</string>
     <string name="archive_detail_size">Size: %s</string>
     <string name="archive_detail_tier">Tier: %s</string>
@@ -259,7 +241,6 @@
     <string name="archive_delete_title">Delete Archived Item</string>
     <string name="archive_delete_message">This will permanently remove this item from your archive. This cannot be undone.</string>
     <string name="archive_success_title">Archived Successfully</string>
-    <string name="archive_success_message">%d item(s) have been archived to the cloud.</string>
     <string name="archive_restore_success_title">Restored Successfully</string>
     <string name="archive_restore_success_message">Item has been restored to your device.</string>
     <string name="archive_error_title">Error</string>
@@ -325,4 +306,137 @@
     <!-- ==================== COMMON ==================== -->
     <string name="back_cd">Back</string>
     <string name="delete_button">Delete</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d item · %2$s</item>
+        <item quantity="other">%1$d items · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">Delete %d Photo?</item>
+        <item quantity="other">Delete %d Photos?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d duplicate</item>
+        <item quantity="other">%d duplicates</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d similar photo</item>
+        <item quantity="other">%d similar photos</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d screenshot</item>
+        <item quantity="other">%d screenshots</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d incomplete</item>
+        <item quantity="other">%d incomplete</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d large video</item>
+        <item quantity="other">%d large videos</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">Delete %d Video?</item>
+        <item quantity="other">Delete %d Videos?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">Compress %d Video</item>
+        <item quantity="other">Compress %d Videos</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">Delete %d file</item>
+        <item quantity="other">Delete %d files</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">Delete %d APK</item>
+        <item quantity="other">Delete %d APKs</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d app with notifications</item>
+        <item quantity="other">%d apps with notifications</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d item archived</item>
+        <item quantity="other">%d items archived</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d item has been archived to the cloud.</item>
+        <item quantity="other">%d items have been archived to the cloud.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d duplicate in %2$d groups</item>
+        <item quantity="other">%1$d duplicates in %2$d groups</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d similar in %2$d groups</item>
+        <item quantity="other">%1$d similar in %2$d groups</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d file (%2$s)</item>
+        <item quantity="other">%1$d files (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d duplicate</item>
+        <item quantity="other">%d duplicates</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">Already Installed</string>
+    <string name="apk_status_outdated">Outdated Version</string>
+    <string name="apk_status_not_installed">Not Installed</string>
+    <string name="apk_status_unknown">Unknown</string>
+    <string name="archive_filter_all">All</string>
+    <string name="downloads_tab_all">All</string>
+    <string name="downloads_tab_large">Large</string>
+    <string name="downloads_tab_old">Old</string>
+    <string name="videos_quality_high">High Quality</string>
+    <string name="videos_quality_medium">Medium Quality</string>
+    <string name="videos_quality_low">Low Quality</string>
+    <string name="videos_quality_detail">%1$dp - ~%2$d%% smaller</string>
+    <string name="contacts_match_name">Same Name</string>
+    <string name="contacts_match_phone">Same Phone</string>
+    <string name="contacts_match_email">Same Email</string>
+    <string name="vault_pin_incorrect">Incorrect PIN. Please try again.</string>
+    <string name="billing_error_no_offer">No offer available for this product</string>
+    <string name="billing_error_purchase_failed">Purchase failed: %s</string>
+    <string name="billing_error_acknowledge">Failed to acknowledge purchase</string>
+    <string name="archive_failed_message">Archive failed: %s</string>
+    <string name="archive_signin_failed_message">Sign in failed: %s</string>
+    <string name="paywall_ctx_generic_title">Unlock Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Unlimited cleanups &amp; duplicate removal</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Unlimited photo cleanups included</string>
+    <string name="paywall_ctx_screenshots_subtitle">Bulk delete screenshots anytime</string>
+    <string name="paywall_ctx_videos_subtitle">Compress &amp; delete large videos</string>
+    <string name="paywall_ctx_compress_title">Save %s GB with compression</string>
+    <string name="paywall_ctx_contacts_subtitle">Keep your contacts organized</string>
+    <string name="paywall_ctx_archive_subtitle">Keep files safe in the cloud instead of deleting</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Remove %d duplicate in one tap</item>
+        <item quantity="other">Remove %d duplicates in one tap</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Clean up %d similar photo</item>
+        <item quantity="other">Clean up %d similar photos</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">Delete %d screenshot instantly</item>
+        <item quantity="other">Delete %d screenshots instantly</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Free up %2$s GB from %1$d video</item>
+        <item quantity="other">Free up %2$s GB from %1$d videos</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">Merge %d duplicate contact</item>
+        <item quantity="other">Merge %d duplicate contacts</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">Archive %1$d item (%2$s GB)</item>
+        <item quantity="other">Archive %1$d items (%2$s GB)</item>
+    </plurals>
 </resources>

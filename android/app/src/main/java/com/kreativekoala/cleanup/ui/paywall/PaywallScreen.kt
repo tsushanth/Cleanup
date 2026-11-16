@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.android.billingclient.api.ProductDetails
 import com.kreativekoala.cleanup.R
+import com.kreativekoala.cleanup.util.pluralStringRes
 import com.kreativekoala.cleanup.billing.BillingManager
 import com.kreativekoala.cleanup.billing.PaywallContext
 
@@ -92,7 +93,11 @@ fun PaywallScreen(
 
             // Context-aware title
             Text(
-                context.title,
+                if (context.titleQuantity != null) {
+                    pluralStringRes(context.titleRes, context.titleQuantity, *context.titleArgs.toTypedArray())
+                } else {
+                    stringResource(context.titleRes, *context.titleArgs.toTypedArray())
+                },
                 style = MaterialTheme.typography.headlineSmall,
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center
@@ -101,7 +106,7 @@ fun PaywallScreen(
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                context.subtitle,
+                stringResource(context.subtitleRes),
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 textAlign = TextAlign.Center

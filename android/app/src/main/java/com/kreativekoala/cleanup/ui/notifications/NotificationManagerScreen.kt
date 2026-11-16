@@ -20,6 +20,7 @@ import androidx.compose.ui.unit.dp
 import androidx.core.graphics.drawable.toBitmap
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.kreativekoala.cleanup.R
+import com.kreativekoala.cleanup.util.pluralStringRes
 import com.kreativekoala.cleanup.domain.service.NotificationManagementService
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -85,7 +86,7 @@ fun NotificationManagerScreen(
                                 Spacer(modifier = Modifier.width(12.dp))
                                 Column {
                                     Text(
-                                        stringResource(R.string.notifications_apps_count, uiState.apps.size),
+                                        pluralStringRes(R.plurals.notifications_apps_count, uiState.apps.size, uiState.apps.size),
                                         style = MaterialTheme.typography.titleMedium,
                                         fontWeight = FontWeight.Bold,
                                         color = MaterialTheme.colorScheme.onSecondaryContainer

@@ -34,6 +34,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.kreativekoala.cleanup.R
+import com.kreativekoala.cleanup.util.pluralStringRes
 import com.kreativekoala.cleanup.data.model.CompressionQuality
 import com.kreativekoala.cleanup.data.model.PhotoAsset
 import com.kreativekoala.cleanup.data.model.VideoAsset
@@ -260,7 +261,7 @@ fun VideosCleanupScreen(
     if (uiState.showDeleteConfirmation) {
         AlertDialog(
             onDismissRequest = { viewModel.dismissDeleteConfirmation() },
-            title = { Text(stringResource(R.string.videos_delete_title, viewModel.selectedCount)) },
+            title = { Text(pluralStringRes(R.plurals.videos_delete_title, viewModel.selectedCount, viewModel.selectedCount)) },
             text = { Text(stringResource(R.string.videos_delete_message)) },
             confirmButton = {
                 TextButton(
@@ -328,7 +329,7 @@ private fun LargeVideosTab(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        stringResource(R.string.videos_n_large, videos.size),
+                        pluralStringRes(R.plurals.videos_n_large, videos.size, videos.size),
                         style = MaterialTheme.typography.titleSmall,
                         fontWeight = FontWeight.Bold
                     )
@@ -518,7 +519,7 @@ private fun CompressTab(
                 ) {
                     Icon(Icons.Default.Compress, contentDescription = null)
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text(stringResource(R.string.videos_compress_n, selectedCount))
+                    Text(pluralStringRes(R.plurals.videos_compress_n, selectedCount, selectedCount))
                 }
             }
         }
@@ -547,9 +548,9 @@ private fun QualityOption(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Column(modifier = Modifier.weight(1f)) {
-                Text(quality.label, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+                Text(stringResource(quality.labelRes), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
                 Text(
-                    "${quality.resolution}p - ${quality.estimatedReduction}",
+                    stringResource(R.string.videos_quality_detail, quality.resolution, quality.estimatedReductionPercent),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )

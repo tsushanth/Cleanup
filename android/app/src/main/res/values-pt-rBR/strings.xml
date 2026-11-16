@@ -28,8 +28,6 @@
     <string name="home_storage_used">%s usado</string>
     <string name="home_storage_total">%s total</string>
     <string name="home_storage_full">Seu armazenamento est\u00e1 %d%% cheio</string>
-    <string name="home_items_count">%d itens</string>
-    <string name="home_items_count_savings">%1$d itens \u00B7 %2$s</string>
     <string name="home_tap_to_scan">Toque para escanear</string>
     <string name="onboarding_welcome_title">Seu celular est\u00e1 cheio de desordem</string>
     <string name="onboarding_welcome_subtitle">Fotos duplicadas, capturas antigas, v\u00eddeos grandes \u2014 est\u00e3o consumindo seu armazenamento. Vamos resolver isso.</string>
@@ -103,24 +101,18 @@
     <string name="photos_tab_screenshots">Capturas</string>
     <string name="photos_no_duplicates_title">Nenhum duplicado encontrado</string>
     <string name="photos_no_duplicates_subtitle">Sua biblioteca de fotos est\u00e1 limpa!</string>
-    <string name="photos_duplicates_summary">%1$d duplicados em %2$d grupos</string>
     <string name="photos_select_all">Selecionar tudo</string>
     <string name="photos_deselect_all">Desmarcar tudo</string>
-    <string name="photos_n_duplicates">%d duplicados</string>
     <string name="photos_keep_best">Manter a melhor</string>
     <string name="photos_no_similar_title">Sem fotos semelhantes</string>
     <string name="photos_no_similar_subtitle">Nenhum grupo de fotos semelhantes encontrado</string>
-    <string name="photos_similar_summary">%1$d semelhantes em %2$d grupos</string>
-    <string name="photos_n_similar">%d fotos semelhantes</string>
     <string name="photos_percent_similar">%d%% semelhantes</string>
     <string name="photos_keep_best_select_others">Manter a melhor, selecionar outras</string>
     <string name="photos_no_screenshots_title">Sem capturas</string>
     <string name="photos_no_screenshots_subtitle">Nenhuma captura encontrada na sua biblioteca</string>
-    <string name="photos_n_screenshots">%d capturas de tela</string>
     <string name="photos_selected_cd">Selecionado</string>
     <string name="photos_best_badge">MELHOR</string>
     <string name="photos_scanning">Escaneando fotos\u2026</string>
-    <string name="photos_delete_title">Excluir %d fotos?</string>
     <string name="photos_delete_message">Isso excluir\u00e1 permanentemente as fotos selecionadas do seu dispositivo. Esta a\u00e7\u00e3o n\u00e3o pode ser desfeita.</string>
     <string name="photos_delete_permanently">Excluir permanentemente</string>
     <string name="cancel">Cancelar</string>
@@ -167,13 +159,11 @@
     <string name="contacts_grant_access">Permitir acesso</string>
     <string name="contacts_no_duplicates_title">Sem duplicados</string>
     <string name="contacts_no_duplicates_subtitle">Seus contatos est\u00e3o limpos!</string>
-    <string name="contacts_n_duplicates">%d duplicados</string>
     <string name="contacts_merge_all">Mesclar todos</string>
     <string name="contacts_delete_dupes">Excluir duplicados</string>
     <string name="contacts_no_name">Sem nome</string>
     <string name="contacts_no_incomplete_title">Sem contatos incompletos</string>
     <string name="contacts_no_incomplete_subtitle">Todos os contatos t\u00eam informa\u00e7\u00f5es completas</string>
-    <string name="contacts_n_incomplete">%d incompletos</string>
     <string name="contacts_delete_selected">Excluir selecionados (%d)</string>
     <string name="contacts_merge_title">Mesclar contatos</string>
     <string name="contacts_merge_subtitle">Selecione o contato principal a manter. As informa\u00e7\u00f5es dos outros contatos ser\u00e3o mescladas nele.</string>
@@ -191,33 +181,26 @@
     <string name="videos_tab_compress">Comprimir</string>
     <string name="videos_no_large_title">Sem v\u00eddeos grandes</string>
     <string name="videos_no_large_subtitle">Nenhum v\u00eddeo acima de 50MB encontrado</string>
-    <string name="videos_n_large">%d v\u00eddeos grandes</string>
-    <string name="videos_delete_title">Excluir %d v\u00eddeos?</string>
     <string name="videos_delete_message">Isso excluir\u00e1 permanentemente os v\u00eddeos selecionados. Esta a\u00e7\u00e3o n\u00e3o pode ser desfeita.</string>
     <string name="videos_no_compress_title">Sem v\u00eddeos</string>
     <string name="videos_no_compress_subtitle">Nenhum v\u00eddeo compress\u00edvel encontrado</string>
     <string name="videos_compression_quality">Qualidade de compress\u00e3o</string>
     <string name="videos_select_videos">Selecionar v\u00eddeos</string>
     <string name="videos_n_selected">%d selecionados</string>
-    <string name="videos_compress_n">Comprimir %d v\u00eddeos</string>
     <string name="videos_scanning">Escaneando v\u00eddeos\u2026</string>
     <string name="videos_compressing_title">Comprimindo v\u00eddeo</string>
     <string name="downloads_title">Downloads</string>
     <string name="downloads_deselect">Desmarcar</string>
-    <string name="downloads_delete_n_files">Excluir %d arquivos</string>
     <string name="downloads_scanning">Escaneando pasta de downloads\u2026</string>
     <string name="downloads_clean">A pasta de downloads est\u00e1 limpa!</string>
-    <string name="downloads_summary">%1$d arquivos (%2$s)</string>
     <string name="apk_title">Arquivos APK</string>
     <string name="apk_deselect">Desmarcar</string>
-    <string name="apk_delete_n">Excluir %d APKs</string>
     <string name="apk_scanning">Procurando arquivos APK\u2026</string>
     <string name="apk_none_found">Nenhum arquivo APK encontrado!</string>
     <string name="apk_all_filter">Todos (%d)</string>
     <string name="notifications_title">Notifica\u00e7\u00f5es</string>
     <string name="notifications_analyzing">Analisando notifica\u00e7\u00f5es\u2026</string>
     <string name="notifications_no_apps">Nenhum aplicativo encontrado</string>
-    <string name="notifications_apps_count">%d aplicativos com notifica\u00e7\u00f5es</string>
     <string name="notifications_manage_hint">Toque para gerenciar as configura\u00e7\u00f5es de notifica\u00e7\u00e3o de cada aplicativo</string>
     <string name="notifications_enabled">Notifica\u00e7\u00f5es ativadas</string>
     <string name="notifications_disabled">Notifica\u00e7\u00f5es desativadas</string>
@@ -227,7 +210,6 @@
     <string name="archive_storage_used">Armazenamento usado</string>
     <string name="archive_empty_title">Nenhum item arquivado</string>
     <string name="archive_empty_subtitle">Arquive fotos e v\u00eddeos das telas de limpeza para liberar espa\u00e7o no dispositivo</string>
-    <string name="archive_items_count">%d itens arquivados</string>
     <string name="archive_detail_archived">Arquivado: %s</string>
     <string name="archive_detail_size">Tamanho: %s</string>
     <string name="archive_detail_tier">N\u00edvel: %s</string>
@@ -235,7 +217,6 @@
     <string name="archive_delete_title">Excluir item arquivado</string>
     <string name="archive_delete_message">Isso remover\u00e1 permanentemente este item do seu arquivo. N\u00e3o pode ser desfeito.</string>
     <string name="archive_success_title">Arquivado com sucesso</string>
-    <string name="archive_success_message">%d item(ns) foram arquivados na nuvem.</string>
     <string name="archive_restore_success_title">Restaurado com sucesso</string>
     <string name="archive_restore_success_message">O item foi restaurado para seu dispositivo.</string>
     <string name="archive_error_title">Erro</string>
@@ -291,4 +272,162 @@
     <string name="widgets_title">Widgets</string>
     <string name="back_cd">Voltar</string>
     <string name="delete_button">Excluir</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="one">%d item</item>
+        <item quantity="many">%d itens</item>
+        <item quantity="other">%d itens</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d item · %2$s</item>
+        <item quantity="many">%1$d itens · %2$s</item>
+        <item quantity="other">%1$d itens · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">Excluir %d foto?</item>
+        <item quantity="many">Excluir %d fotos?</item>
+        <item quantity="other">Excluir %d fotos?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d duplicado</item>
+        <item quantity="many">%d duplicados</item>
+        <item quantity="other">%d duplicados</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d foto semelhante</item>
+        <item quantity="many">%d fotos semelhantes</item>
+        <item quantity="other">%d fotos semelhantes</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d captura de tela</item>
+        <item quantity="many">%d capturas de tela</item>
+        <item quantity="other">%d capturas de tela</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d incompleto</item>
+        <item quantity="many">%d incompletos</item>
+        <item quantity="other">%d incompletos</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d vídeo grande</item>
+        <item quantity="many">%d v\u00eddeos grandes</item>
+        <item quantity="other">%d v\u00eddeos grandes</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">Excluir %d vídeo?</item>
+        <item quantity="many">Excluir %d v\u00eddeos?</item>
+        <item quantity="other">Excluir %d v\u00eddeos?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">Comprimir %d vídeo</item>
+        <item quantity="many">Comprimir %d v\u00eddeos</item>
+        <item quantity="other">Comprimir %d v\u00eddeos</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">Excluir %d arquivo</item>
+        <item quantity="many">Excluir %d arquivos</item>
+        <item quantity="other">Excluir %d arquivos</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">Excluir %d APK</item>
+        <item quantity="many">Excluir %d APKs</item>
+        <item quantity="other">Excluir %d APKs</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d aplicativo com notificações</item>
+        <item quantity="many">%d aplicativos com notifica\u00e7\u00f5es</item>
+        <item quantity="other">%d aplicativos com notifica\u00e7\u00f5es</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d item arquivado</item>
+        <item quantity="many">%d itens arquivados</item>
+        <item quantity="other">%d itens arquivados</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d item foi arquivado na nuvem.</item>
+        <item quantity="many">%d itens foram arquivados na nuvem.</item>
+        <item quantity="other">%d itens foram arquivados na nuvem.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d duplicado em %2$d grupos</item>
+        <item quantity="many">%1$d duplicados em %2$d grupos</item>
+        <item quantity="other">%1$d duplicados em %2$d grupos</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d semelhante em %2$d grupos</item>
+        <item quantity="many">%1$d semelhantes em %2$d grupos</item>
+        <item quantity="other">%1$d semelhantes em %2$d grupos</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d arquivo (%2$s)</item>
+        <item quantity="many">%1$d arquivos (%2$s)</item>
+        <item quantity="other">%1$d arquivos (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d duplicado</item>
+        <item quantity="many">%d duplicados</item>
+        <item quantity="other">%d duplicados</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">Já instalado</string>
+    <string name="apk_status_outdated">Versão desatualizada</string>
+    <string name="apk_status_not_installed">Não instalado</string>
+    <string name="apk_status_unknown">Desconhecido</string>
+    <string name="archive_filter_all">Todos</string>
+    <string name="downloads_tab_all">Todos</string>
+    <string name="downloads_tab_large">Grandes</string>
+    <string name="downloads_tab_old">Antigos</string>
+    <string name="videos_quality_high">Alta qualidade</string>
+    <string name="videos_quality_medium">Qualidade média</string>
+    <string name="videos_quality_low">Baixa qualidade</string>
+    <string name="videos_quality_detail">%1$dp - cerca de %2$d%% menor</string>
+    <string name="contacts_match_name">Mesmo nome</string>
+    <string name="contacts_match_phone">Mesmo telefone</string>
+    <string name="contacts_match_email">Mesmo e-mail</string>
+    <string name="vault_pin_incorrect">PIN incorreto. Tente novamente.</string>
+    <string name="billing_error_no_offer">Nenhuma oferta disponível para este produto</string>
+    <string name="billing_error_purchase_failed">Falha na compra: %s</string>
+    <string name="billing_error_acknowledge">Não foi possível confirmar a compra</string>
+    <string name="archive_failed_message">Falha ao arquivar: %s</string>
+    <string name="archive_signin_failed_message">Falha ao entrar: %s</string>
+    <string name="paywall_ctx_generic_title">Desbloqueie o Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Limpezas ilimitadas e remoção de duplicados</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Limpezas de fotos ilimitadas incluídas</string>
+    <string name="paywall_ctx_screenshots_subtitle">Exclua capturas de tela em massa quando quiser</string>
+    <string name="paywall_ctx_videos_subtitle">Comprima e exclua vídeos grandes</string>
+    <string name="paywall_ctx_compress_title">Economize %s GB com a compressão</string>
+    <string name="paywall_ctx_contacts_subtitle">Mantenha seus contatos organizados</string>
+    <string name="paywall_ctx_archive_subtitle">Mantenha os arquivos seguros na nuvem em vez de excluí-los</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Remova %d duplicado com um toque</item>
+        <item quantity="many">Remova %d duplicados com um toque</item>
+        <item quantity="other">Remova %d duplicados com um toque</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Limpe %d foto semelhante</item>
+        <item quantity="many">Limpe %d fotos semelhantes</item>
+        <item quantity="other">Limpe %d fotos semelhantes</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">Exclua %d captura de tela na hora</item>
+        <item quantity="many">Exclua %d capturas de tela na hora</item>
+        <item quantity="other">Exclua %d capturas de tela na hora</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Libere %2$s GB de %1$d vídeo</item>
+        <item quantity="many">Libere %2$s GB de %1$d vídeos</item>
+        <item quantity="other">Libere %2$s GB de %1$d vídeos</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">Una %d contato duplicado</item>
+        <item quantity="many">Una %d contatos duplicados</item>
+        <item quantity="other">Una %d contatos duplicados</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">Arquive %1$d item (%2$s GB)</item>
+        <item quantity="many">Arquive %1$d itens (%2$s GB)</item>
+        <item quantity="other">Arquive %1$d itens (%2$s GB)</item>
+    </plurals>
 </resources>

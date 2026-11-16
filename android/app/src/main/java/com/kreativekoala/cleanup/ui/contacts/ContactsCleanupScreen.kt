@@ -28,6 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.kreativekoala.cleanup.R
+import com.kreativekoala.cleanup.util.pluralStringRes
 import com.kreativekoala.cleanup.data.model.ContactItem
 import com.kreativekoala.cleanup.data.model.DuplicateContactGroup
 
@@ -214,7 +215,7 @@ private fun DuplicateGroupCard(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    stringResource(R.string.contacts_n_duplicates, group.contacts.size),
+                    pluralStringRes(R.plurals.contacts_n_duplicates, group.contacts.size, group.contacts.size),
                     style = MaterialTheme.typography.titleSmall,
                     fontWeight = FontWeight.Bold
                 )
@@ -223,7 +224,7 @@ private fun DuplicateGroupCard(
                     color = Color(0xFFFF9800).copy(alpha = 0.15f)
                 ) {
                     Text(
-                        group.matchReason.label,
+                        stringResource(group.matchReason.labelRes),
                         modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
                         style = MaterialTheme.typography.labelSmall,
                         color = Color(0xFFFF9800)
@@ -340,7 +341,7 @@ private fun IncompleteTab(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    stringResource(R.string.contacts_n_incomplete, contacts.size),
+                    pluralStringRes(R.plurals.contacts_n_incomplete, contacts.size, contacts.size),
                     style = MaterialTheme.typography.titleSmall,
                     fontWeight = FontWeight.Bold
                 )

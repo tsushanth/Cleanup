@@ -22,6 +22,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.kreativekoala.cleanup.R
+import com.kreativekoala.cleanup.util.pluralStringRes
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -333,8 +334,8 @@ private fun CleanupCategoryCard(
                 Text(title, style = MaterialTheme.typography.titleSmall)
                 if (count > 0) {
                     Text(
-                        if (savings.isNotEmpty()) stringResource(R.string.home_items_count_savings, count, savings)
-                        else stringResource(R.string.home_items_count, count),
+                        if (savings.isNotEmpty()) pluralStringRes(R.plurals.home_items_count_savings, count, count, savings)
+                        else pluralStringRes(R.plurals.home_items_count, count, count),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )

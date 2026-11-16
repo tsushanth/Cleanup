@@ -81,7 +81,7 @@ fun VaultScreen(
     } else {
         VaultLockScreen(
             enteredPin = uiState.enteredPin,
-            pinError = uiState.pinError,
+            pinError = uiState.pinErrorRes?.let { stringResource(it) },
             canUseBiometrics = viewModel.canUseBiometrics(),
             onDigitEntered = { viewModel.onPinDigitEntered(it) },
             onBackspace = { viewModel.onPinBackspace() },
@@ -452,7 +452,7 @@ private fun VaultContentScreen(
                 title = { Text(stringResource(R.string.vault_secret_space)) },
                 navigationIcon = {
                     IconButton(onClick = onLock) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.back_cd))
                     }
                 },
                 actions = {
