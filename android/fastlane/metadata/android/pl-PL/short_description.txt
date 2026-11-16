@@ -1,0 +1,1 @@
+Inteligentne czyszczenie telefonu. Znajdź duplikaty zdjęć i duże pliki.
