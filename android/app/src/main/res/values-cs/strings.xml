@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+    <string name="home_title">Úklid jedním klepnutím</string>
+    <string name="home_vault_cd">Trezor</string>
+    <string name="home_scanning">Skenování…</string>
+    <string name="home_one_tap_scan">Sken jedním klepnutím</string>
+    <string name="home_grant_access_scan">Povolit přístup a skenovat</string>
+    <string name="home_scanning_device">Skenování zařízení…</string>
+    <string name="home_quick_actions">Rychlé akce</string>
+    <string name="home_chip_duplicates">Duplikáty</string>
+    <string name="home_chip_screenshots">Snímky obrazovky</string>
+    <string name="home_chip_large_videos">Velká videa</string>
+    <string name="home_chip_compress">Komprimovat</string>
+    <string name="home_chip_archive">Archivovat</string>
+    <string name="home_chip_downloads">Stažené</string>
+    <string name="home_chip_apk_files">Soubory APK</string>
+    <string name="home_smart_scan_results">Výsledky chytrého skenu</string>
+    <string name="home_category_duplicate_photos">Duplicitní fotky</string>
+    <string name="home_category_similar_photos">Podobné fotky</string>
+    <string name="home_category_screenshots">Snímky obrazovky</string>
+    <string name="home_category_large_videos">Velká videa</string>
+    <string name="home_category_duplicate_contacts">Duplicitní kontakty</string>
+    <string name="home_file_management">Správa souborů</string>
+    <string name="home_category_downloads">Stažené</string>
+    <string name="home_category_apk_files">Soubory APK</string>
+    <string name="home_category_notification_manager">Správce oznámení</string>
+    <string name="home_storage_used">Využito: %s</string>
+    <string name="home_storage_total">Celkem: %s</string>
+    <string name="home_storage_full">Úložiště je zaplněno z %d %%</string>
+    <string name="home_tap_to_scan">Klepnutím spusťte sken</string>
+
+    <string name="onboarding_welcome_title">Váš telefon je plný nepořádku</string>
+    <string name="onboarding_welcome_subtitle">Duplicitní fotky, staré snímky obrazovky, velká videa – všechno vám zabírá úložiště. Pojďme to spravit.</string>
+    <string name="onboarding_welcome_button">Začít s úklidem</string>
+    <string name="onboarding_media_granted_title">Přístup k médiím povolen!</string>
+    <string name="onboarding_media_request_title">Přístup k fotkám a videím</string>
+    <string name="onboarding_media_granted_subtitle">Prohledáme všechny vaše fotky a videa a najdeme duplikáty, podobné snímky a velké soubory.</string>
+    <string name="onboarding_media_request_subtitle">Abychom našli duplikáty a uvolnili místo, potřebujeme přístup k vašim fotkám a videím.</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% soukromé</string>
+    <string name="onboarding_feature_private_subtitle">Veškeré skenování probíhá v zařízení</string>
+    <string name="onboarding_feature_fast_title">Rychlý sken</string>
+    <string name="onboarding_feature_fast_subtitle">Trvá méně než 30 sekund</string>
+    <string name="onboarding_feature_you_choose_title">Vy rozhodujete</string>
+    <string name="onboarding_feature_you_choose_subtitle">Nic se nesmaže bez vašeho souhlasu</string>
+    <string name="onboarding_continue">Pokračovat</string>
+    <string name="onboarding_allow_photo_video">Povolit přístup k fotkám a videím</string>
+    <string name="onboarding_skip">Prozatím přeskočit</string>
+    <string name="onboarding_contact_granted_title">Přístup ke kontaktům povolen!</string>
+    <string name="onboarding_contact_request_title">Uklidťte si kontakty</string>
+    <string name="onboarding_contact_granted_subtitle">Najdeme duplicitní a neúplné kontakty, abyste je mohli sloučit nebo odstranit.</string>
+    <string name="onboarding_contact_request_subtitle">Najděte a sloučte duplicitní kontakty a udržujte si adresář přehledný.</string>
+    <string name="onboarding_feature_find_dupes_title">Hledání duplikátů</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Rozpoznáme kontakty se stejným jménem nebo číslem</string>
+    <string name="onboarding_feature_smart_merge_title">Chytré sloučení</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Spojte duplikáty do jednoho kontaktu</string>
+    <string name="onboarding_feature_safe_title">Bezpečné</string>
+    <string name="onboarding_feature_safe_subtitle">Před jakoukoli změnou si vše zkontrolujete</string>
+    <string name="onboarding_allow_contact">Povolit přístup ke kontaktům</string>
+    <string name="onboarding_ready_title">Hotovo!</string>
+    <string name="onboarding_ready_subtitle">Klepněte na tlačítko níže, prohledejte vše a začněte s úklidem.</string>
+    <string name="onboarding_photos_videos">Fotky a videa</string>
+    <string name="onboarding_contact_access">Přístup ke kontaktům</string>
+    <string name="onboarding_free_duplicates">5 odstranění duplikátů zdarma</string>
+    <string name="onboarding_free_similar">5 úklidů podobných fotek zdarma</string>
+    <string name="onboarding_free_screenshots">5 smazání snímků obrazovky zdarma</string>
+    <string name="onboarding_free_videos">5 úklidů videí zdarma</string>
+    <string name="onboarding_free_contacts">5 sloučení kontaktů zdarma</string>
+    <string name="onboarding_free_label">ZDARMA</string>
+    <string name="onboarding_get_started">Skenovat a začít</string>
+
+    <string name="paywall_close_cd">Zavřít</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">za rok</string>
+    <string name="paywall_per_month">za měsíc</string>
+    <string name="paywall_feature_unlimited_title">Neomezené úklidy</string>
+    <string name="paywall_feature_unlimited_subtitle">Uklízejte zařízení, jak často chcete</string>
+    <string name="paywall_feature_duplicates_title">Mazání duplikátů a podobných</string>
+    <string name="paywall_feature_duplicates_subtitle">Najděte a odstraňte duplicitní fotky během okamžiku</string>
+    <string name="paywall_feature_videos_title">Správa velkých videí</string>
+    <string name="paywall_feature_videos_subtitle">Komprimujte nebo smažte videa, která zabírají místo</string>
+    <string name="paywall_feature_private_title">Soukromé a bezpečné</string>
+    <string name="paywall_feature_private_subtitle">Veškeré skenování probíhá ve vašem zařízení</string>
+    <string name="paywall_best_value">NEJVÝHODNĚJŠÍ</string>
+    <string name="paywall_save_75" formatted="false">Ušetřete 75 % oproti měsíčnímu placení</string>
+    <string name="paywall_continue">Pokračovat</string>
+    <string name="paywall_restore">Obnovit nákupy</string>
+    <string name="paywall_terms">Předplatné se automaticky obnovuje. Zrušit můžete kdykoli v nastavení Google Play.</string>
+
+    <string name="photos_title">Úklid fotek</string>
+    <string name="photos_back_cd">Zpět</string>
+    <string name="photos_change_folder_cd">Změnit složku</string>
+    <string name="photos_delete_count">Smazat (%d)</string>
+    <string name="photos_select_title">Vyberte fotky k analýze</string>
+    <string name="photos_select_subtitle">Zvolte, jak chcete poskytnout fotky pro hledání duplikátů a snímků obrazovky.</string>
+    <string name="photos_select_all_folder">Vybrat vše (přístup ke složce)</string>
+    <string name="photos_select_all_hint">Povolte přístup ke složce DCIM nebo Obrázky a prohledejte všechny fotky</string>
+    <string name="photos_choose">Vybrat fotky</string>
+    <string name="photos_choose_hint">Vyberte konkrétní fotky k analýze</string>
+    <string name="photos_selected_count">Vybráno: %d</string>
+    <string name="photos_save_amount">Ušetříte %s</string>
+    <string name="photos_tab_duplicates">Duplikáty</string>
+    <string name="photos_tab_similar">Podobné</string>
+    <string name="photos_tab_screenshots">Snímky obrazovky</string>
+    <string name="photos_no_duplicates_title">Žádné duplikáty</string>
+    <string name="photos_no_duplicates_subtitle">Vaše knihovna fotek je čistá!</string>
+    <string name="photos_select_all">Vybrat vše</string>
+    <string name="photos_deselect_all">Zrušit výběr</string>
+    <string name="photos_keep_best">Ponechat nejlepší</string>
+    <string name="photos_no_similar_title">Žádné podobné fotky</string>
+    <string name="photos_no_similar_subtitle">Nebyly nalezeny žádné skupiny podobných fotek</string>
+    <string name="photos_percent_similar">Shoda: %d %%</string>
+    <string name="photos_keep_best_select_others">Ponechat nejlepší, vybrat ostatní</string>
+    <string name="photos_no_screenshots_title">Žádné snímky obrazovky</string>
+    <string name="photos_no_screenshots_subtitle">V knihovně nebyly nalezeny žádné snímky obrazovky</string>
+    <string name="photos_selected_cd">Vybráno</string>
+    <string name="photos_best_badge">NEJLEPŠÍ</string>
+    <string name="photos_scanning">Skenování fotek…</string>
+    <string name="photos_delete_message">Vybrané fotky budou ze zařízení trvale smazány. Tuto akci nelze vrátit zpět.</string>
+    <string name="photos_delete_permanently">Smazat natrvalo</string>
+    <string name="cancel">Zrušit</string>
+
+    <string name="upgrade_title">Upgrade na Pro</string>
+    <string name="upgrade_message">Využili jste všechny bezplatné úklidy v této kategorii. Přejděte na Pro a získejte neomezený přístup.</string>
+    <string name="upgrade_button">Upgradovat</string>
+    <string name="upgrade_not_now">Teď ne</string>
+
+    <string name="vault_title">Trezor</string>
+    <string name="vault_lock_cd">Zamknout</string>
+    <string name="vault_add_cd">Přidat položky</string>
+    <string name="vault_secret_space">Tajný prostor</string>
+    <string name="vault_enter_pin">Zadejte PIN pro přístup</string>
+    <string name="vault_use_biometrics">Použít biometrii</string>
+    <string name="vault_biometric_title">Přístup do tajného prostoru</string>
+    <string name="vault_biometric_subtitle">Odemkněte otiskem prstu nebo obličejem</string>
+    <string name="vault_biometric_negative">Použít PIN</string>
+    <string name="vault_backspace_cd">Smazat</string>
+    <string name="vault_create_pin">Vytvořte si PIN</string>
+    <string name="vault_confirm_pin">Potvrďte PIN</string>
+    <string name="vault_create_pin_subtitle">Zvolte 4místný PIN k ochraně trezoru</string>
+    <string name="vault_confirm_pin_subtitle">Zadejte stejný PIN znovu</string>
+    <string name="vault_pin_mismatch">PIN se neshodují. Zkuste to prosím znovu.</string>
+    <string name="vault_empty_title">Váš trezor je prázdný</string>
+    <string name="vault_empty_subtitle">Přidejte fotky a videa, aby zůstaly soukromé</string>
+    <string name="vault_add_items">Přidat položky</string>
+    <string name="vault_adding">Přidávání do trezoru…</string>
+    <string name="vault_add_to_vault">Přidat do trezoru</string>
+    <string name="vault_select_items_subtitle">Vyberte položky k přidání do trezoru</string>
+    <string name="vault_select_from_photos">Vybrat z fotek</string>
+    <string name="vault_select_from_files">Vybrat ze souborů</string>
+    <string name="vault_delete_title">Smazat položku</string>
+    <string name="vault_delete_message">Položka bude z trezoru trvale smazána.</string>
+    <string name="vault_delete_button">Smazat</string>
+    <string name="vault_restore_title">Obnovit položku</string>
+    <string name="vault_restore_message">Položka bude obnovena do vaší knihovny fotek.</string>
+    <string name="vault_restore_button">Obnovit</string>
+    <string name="vault_added_date">Přidáno: %s</string>
+    <string name="vault_item_size">Velikost: %s</string>
+
+    <string name="contacts_title">Úklid kontaktů</string>
+    <string name="contacts_tab_duplicates">Duplikáty</string>
+    <string name="contacts_tab_incomplete">Neúplné</string>
+    <string name="contacts_access_required">Vyžadován přístup ke kontaktům</string>
+    <string name="contacts_access_message">Aplikace potřebuje přístup ke kontaktům, aby našla duplikáty a neúplné záznamy.</string>
+    <string name="contacts_grant_access">Povolit přístup</string>
+    <string name="contacts_no_duplicates_title">Žádné duplikáty</string>
+    <string name="contacts_no_duplicates_subtitle">Vaše kontakty jsou čisté!</string>
+    <string name="contacts_merge_all">Sloučit vše</string>
+    <string name="contacts_delete_dupes">Smazat duplikáty</string>
+    <string name="contacts_no_name">Bez jména</string>
+    <string name="contacts_no_incomplete_title">Žádné neúplné kontakty</string>
+    <string name="contacts_no_incomplete_subtitle">Všechny kontakty mají úplné údaje</string>
+    <string name="contacts_delete_selected">Smazat vybrané (%d)</string>
+    <string name="contacts_merge_title">Sloučit kontakty</string>
+    <string name="contacts_merge_subtitle">Vyberte hlavní kontakt, který se ponechá. Údaje z ostatních kontaktů se do něj sloučí.</string>
+    <string name="contacts_merge_button">Sloučit kontakty</string>
+    <string name="contacts_scanning">Skenování kontaktů…</string>
+
+    <string name="videos_title">Úklid videí</string>
+    <string name="videos_delete_count">Smazat (%d)</string>
+    <string name="videos_select_title">Vyberte videa k analýze</string>
+    <string name="videos_select_subtitle">Zvolte, jak chcete poskytnout videa pro vyhledání velkých souborů a komprimaci.</string>
+    <string name="videos_select_all_folder">Vybrat vše (přístup ke složce)</string>
+    <string name="videos_select_all_hint">Povolte přístup ke složce DCIM nebo médií a prohledejte všechna videa</string>
+    <string name="videos_choose">Vybrat videa</string>
+    <string name="videos_choose_hint">Vyberte konkrétní videa k analýze</string>
+    <string name="videos_tab_large">Velká videa</string>
+    <string name="videos_tab_compress">Komprimovat</string>
+    <string name="videos_no_large_title">Žádná velká videa</string>
+    <string name="videos_no_large_subtitle">Nebyla nalezena žádná videa nad 50 MB</string>
+    <string name="videos_delete_message">Vybraná videa budou trvale smazána. Tuto akci nelze vrátit zpět.</string>
+    <string name="videos_no_compress_title">Žádná videa</string>
+    <string name="videos_no_compress_subtitle">Nebyla nalezena žádná videa ke komprimaci</string>
+    <string name="videos_compression_quality">Kvalita komprese</string>
+    <string name="videos_select_videos">Vybrat videa</string>
+    <string name="videos_n_selected">Vybráno: %d</string>
+    <string name="videos_scanning">Skenování videí…</string>
+    <string name="videos_compressing_title">Komprimace videa</string>
+
+    <string name="downloads_title">Stažené</string>
+    <string name="downloads_deselect">Zrušit výběr</string>
+    <string name="downloads_scanning">Skenování složky Stažené…</string>
+    <string name="downloads_clean">Složka Stažené je čistá!</string>
+
+    <string name="apk_title">Soubory APK</string>
+    <string name="apk_deselect">Zrušit výběr</string>
+    <string name="apk_scanning">Hledání souborů APK…</string>
+    <string name="apk_none_found">Žádné soubory APK nenalezeny!</string>
+    <string name="apk_all_filter">Vše (%d)</string>
+
+    <string name="notifications_title">Oznámení</string>
+    <string name="notifications_analyzing">Analýza oznámení…</string>
+    <string name="notifications_no_apps">Žádné aplikace nenalezeny</string>
+    <string name="notifications_manage_hint">Klepnutím spravujte nastavení oznámení jednotlivých aplikací</string>
+    <string name="notifications_enabled">Oznámení zapnuta</string>
+    <string name="notifications_disabled">Oznámení vypnuta</string>
+    <string name="notifications_manage_button">Spravovat</string>
+
+    <string name="archive_title">Cloudový archiv</string>
+    <string name="archive_sync_cd">Synchronizovat</string>
+    <string name="archive_storage_used">Využité úložiště</string>
+    <string name="archive_empty_title">Žádné archivované položky</string>
+    <string name="archive_empty_subtitle">Archivujte fotky a videa z obrazovek úklidu a uvolněte místo v zařízení</string>
+    <string name="archive_detail_archived">Archivováno: %s</string>
+    <string name="archive_detail_size">Velikost: %s</string>
+    <string name="archive_detail_tier">Úroveň: %s</string>
+    <string name="archive_retrieve_button">Stáhnout</string>
+    <string name="archive_delete_title">Smazat archivovanou položku</string>
+    <string name="archive_delete_message">Tato položka bude z archivu trvale odstraněna. Tuto akci nelze vrátit zpět.</string>
+    <string name="archive_success_title">Úspěšně archivováno</string>
+    <string name="archive_restore_success_title">Úspěšně obnoveno</string>
+    <string name="archive_restore_success_message">Položka byla obnovena do vašeho zařízení.</string>
+    <string name="archive_error_title">Chyba</string>
+    <string name="ok">OK</string>
+
+    <string name="archive_signin_title">Přihlášení do cloudového archivu</string>
+    <string name="archive_signin_subtitle">Archivujte své fotky a videa do cloudu dříve, než je smažete ze zařízení</string>
+    <string name="archive_signin_encrypted_title">Šifrované úložiště</string>
+    <string name="archive_signin_encrypted_subtitle">Vaše soubory jsou šifrovány při přenosu i při uložení na AWS</string>
+    <string name="archive_signin_retrieve_title">Stažení kdykoli</string>
+    <string name="archive_signin_retrieve_subtitle">Stáhněte si archivované soubory, kdykoli je potřebujete</string>
+    <string name="archive_signin_private_title">Soukromé a bezpečné</string>
+    <string name="archive_signin_private_subtitle">Žádná hesla k zapamatování – přihlaste se přes Google</string>
+    <string name="archive_signin_google">Přihlásit se přes Google</string>
+    <string name="archive_signin_privacy">Vaše data se používají pouze pro cloudový archiv. Nikdy je nesdílíme ani neprodáváme.</string>
+
+    <string name="archive_paywall_title">Mažte s jistotou</string>
+    <string name="archive_paywall_subtitle">Archivujte soubory do cloudu dříve, než je smažete. Stáhnete je kdykoli.</string>
+    <string name="archive_paywall_safety_title">Záchranná síť</string>
+    <string name="archive_paywall_safety_subtitle">Už nikdy nepřijdete o důležité soubory</string>
+    <string name="archive_paywall_retrieve_title">Stažení kdykoli</string>
+    <string name="archive_paywall_retrieve_subtitle">Stáhněte si archivované soubory, kdykoli potřebujete</string>
+    <string name="archive_paywall_encrypted_title">Šifrované úložiště</string>
+    <string name="archive_paywall_encrypted_subtitle">Vaše data jsou vždy šifrovaná a soukromá</string>
+    <string name="archive_paywall_choose_plan">Vyberte si plán</string>
+    <string name="archive_paywall_current">AKTUÁLNÍ</string>
+    <string name="archive_paywall_subscribe">Předplatit</string>
+
+    <string name="settings_title">Nastavení</string>
+    <string name="settings_account">Účet</string>
+    <string name="settings_sign_in">Přihlásit se</string>
+    <string name="settings_subscription">Předplatné</string>
+    <string name="settings_upgrade_pro">Upgrade na Pro</string>
+    <string name="settings_features">Funkce</string>
+    <string name="settings_secret_space">Tajný prostor</string>
+    <string name="settings_email_cleanup">Úklid e-mailů</string>
+    <string name="settings_widgets">Widgety</string>
+    <string name="settings_about">O aplikaci</string>
+    <string name="settings_privacy_policy">Zásady ochrany osobních údajů</string>
+    <string name="settings_terms">Podmínky služby</string>
+    <string name="settings_rate_us">Ohodnoťte nás</string>
+    <string name="settings_version">Verze 1.1 (2)</string>
+
+    <string name="nav_home">Domů</string>
+    <string name="nav_photos">Fotky</string>
+    <string name="nav_videos">Videa</string>
+    <string name="nav_contacts">Kontakty</string>
+    <string name="nav_settings">Nastavení</string>
+    <string name="login_title">Přihlášení</string>
+    <string name="login_coming_soon">Již brzy</string>
+    <string name="login_coming_soon_subtitle">Přihlášení k účtu bude dostupné v budoucí aktualizaci.</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_password">Heslo</string>
+    <string name="login_button">Přihlásit se</string>
+    <string name="placeholder_coming_soon">%s – již brzy</string>
+    <string name="email_cleanup_title">Úklid e-mailů</string>
+    <string name="widgets_title">Widgety</string>
+
+    <string name="back_cd">Zpět</string>
+    <string name="delete_button">Smazat</string>
+
+    <plurals name="home_items_count">
+        <item quantity="one">%d položka</item>
+        <item quantity="few">%d položky</item>
+        <item quantity="many">%d položky</item>
+        <item quantity="other">%d položek</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d položka · %2$s</item>
+        <item quantity="few">%1$d položky · %2$s</item>
+        <item quantity="many">%1$d položky · %2$s</item>
+        <item quantity="other">%1$d položek · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">Smazat %d fotku?</item>
+        <item quantity="few">Smazat %d fotky?</item>
+        <item quantity="many">Smazat %d fotky?</item>
+        <item quantity="other">Smazat %d fotek?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d duplikát</item>
+        <item quantity="few">%d duplikáty</item>
+        <item quantity="many">%d duplikátu</item>
+        <item quantity="other">%d duplikátů</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d podobná fotka</item>
+        <item quantity="few">%d podobné fotky</item>
+        <item quantity="many">%d podobné fotky</item>
+        <item quantity="other">%d podobných fotek</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d snímek obrazovky</item>
+        <item quantity="few">%d snímky obrazovky</item>
+        <item quantity="many">%d snímku obrazovky</item>
+        <item quantity="other">%d snímků obrazovky</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d neúplný</item>
+        <item quantity="few">%d neúplné</item>
+        <item quantity="many">%d neúplného</item>
+        <item quantity="other">%d neúplných</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d velké video</item>
+        <item quantity="few">%d velká videa</item>
+        <item quantity="many">%d velkého videa</item>
+        <item quantity="other">%d velkých videí</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">Smazat %d video?</item>
+        <item quantity="few">Smazat %d videa?</item>
+        <item quantity="many">Smazat %d videa?</item>
+        <item quantity="other">Smazat %d videí?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">Komprimovat %d video</item>
+        <item quantity="few">Komprimovat %d videa</item>
+        <item quantity="many">Komprimovat %d videa</item>
+        <item quantity="other">Komprimovat %d videí</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">Smazat %d soubor</item>
+        <item quantity="few">Smazat %d soubory</item>
+        <item quantity="many">Smazat %d souboru</item>
+        <item quantity="other">Smazat %d souborů</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">Smazat %d APK</item>
+        <item quantity="few">Smazat %d APK</item>
+        <item quantity="many">Smazat %d APK</item>
+        <item quantity="other">Smazat %d APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d aplikace s oznámeními</item>
+        <item quantity="few">%d aplikace s oznámeními</item>
+        <item quantity="many">%d aplikace s oznámeními</item>
+        <item quantity="other">%d aplikací s oznámeními</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d archivovaná položka</item>
+        <item quantity="few">%d archivované položky</item>
+        <item quantity="many">%d archivované položky</item>
+        <item quantity="other">%d archivovaných položek</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d položka byla archivována do cloudu.</item>
+        <item quantity="few">%d položky byly archivovány do cloudu.</item>
+        <item quantity="many">%d položky bylo archivováno do cloudu.</item>
+        <item quantity="other">%d položek bylo archivováno do cloudu.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d duplikát (skupin: %2$d)</item>
+        <item quantity="few">%1$d duplikáty (skupin: %2$d)</item>
+        <item quantity="many">%1$d duplikátu (skupin: %2$d)</item>
+        <item quantity="other">%1$d duplikátů (skupin: %2$d)</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d podobná (skupin: %2$d)</item>
+        <item quantity="few">%1$d podobné (skupin: %2$d)</item>
+        <item quantity="many">%1$d podobné (skupin: %2$d)</item>
+        <item quantity="other">%1$d podobných (skupin: %2$d)</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d soubor (%2$s)</item>
+        <item quantity="few">%1$d soubory (%2$s)</item>
+        <item quantity="many">%1$d souboru (%2$s)</item>
+        <item quantity="other">%1$d souborů (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d duplikát</item>
+        <item quantity="few">%d duplikáty</item>
+        <item quantity="many">%d duplikátu</item>
+        <item quantity="other">%d duplikátů</item>
+    </plurals>
+
+    <string name="apk_status_already_installed">Již nainstalováno</string>
+    <string name="apk_status_outdated">Zastaralá verze</string>
+    <string name="apk_status_not_installed">Nenainstalováno</string>
+    <string name="apk_status_unknown">Neznámé</string>
+    <string name="archive_filter_all">Vše</string>
+    <string name="downloads_tab_all">Vše</string>
+    <string name="downloads_tab_large">Velké</string>
+    <string name="downloads_tab_old">Staré</string>
+    <string name="videos_quality_high">Vysoká kvalita</string>
+    <string name="videos_quality_medium">Střední kvalita</string>
+    <string name="videos_quality_low">Nízká kvalita</string>
+    <string name="videos_quality_detail">%1$dp – přibližně o %2$d %% menší</string>
+    <string name="contacts_match_name">Stejné jméno</string>
+    <string name="contacts_match_phone">Stejný telefon</string>
+    <string name="contacts_match_email">Stejný e-mail</string>
+    <string name="vault_pin_incorrect">Nesprávný PIN. Zkuste to prosím znovu.</string>
+    <string name="billing_error_no_offer">Pro tento produkt není dostupná žádná nabídka</string>
+    <string name="billing_error_purchase_failed">Nákup se nezdařil: %s</string>
+    <string name="billing_error_acknowledge">Potvrzení nákupu se nezdařilo</string>
+    <string name="archive_failed_message">Archivace se nezdařila: %s</string>
+    <string name="archive_signin_failed_message">Přihlášení se nezdařilo: %s</string>
+    <string name="paywall_ctx_generic_title">Odemkněte Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Neomezené úklidy a odstraňování duplikátů</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Neomezený úklid fotek v ceně</string>
+    <string name="paywall_ctx_screenshots_subtitle">Hromadně mažte snímky obrazovky, kdykoli chcete</string>
+    <string name="paywall_ctx_videos_subtitle">Komprimujte a mažte velká videa</string>
+    <string name="paywall_ctx_compress_title">Ušetřete %s GB díky komprimaci</string>
+    <string name="paywall_ctx_contacts_subtitle">Mějte své kontakty přehledné</string>
+    <string name="paywall_ctx_archive_subtitle">Místo mazání uchovejte soubory v bezpečí v cloudu</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Odstraňte %d duplikát jedním klepnutím</item>
+        <item quantity="few">Odstraňte %d duplikáty jedním klepnutím</item>
+        <item quantity="many">Odstraňte %d duplikátu jedním klepnutím</item>
+        <item quantity="other">Odstraňte %d duplikátů jedním klepnutím</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Uklidťte %d podobnou fotku</item>
+        <item quantity="few">Uklidťte %d podobné fotky</item>
+        <item quantity="many">Uklidťte %d podobné fotky</item>
+        <item quantity="other">Uklidťte %d podobných fotek</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">Okamžitě smažte %d snímek obrazovky</item>
+        <item quantity="few">Okamžitě smažte %d snímky obrazovky</item>
+        <item quantity="many">Okamžitě smažte %d snímku obrazovky</item>
+        <item quantity="other">Okamžitě smažte %d snímků obrazovky</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Uvolněte %2$s GB z %1$d videa</item>
+        <item quantity="few">Uvolněte %2$s GB ze %1$d videí</item>
+        <item quantity="many">Uvolněte %2$s GB ze %1$d videa</item>
+        <item quantity="other">Uvolněte %2$s GB ze %1$d videí</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">Sloučte %d duplicitní kontakt</item>
+        <item quantity="few">Sloučte %d duplicitní kontakty</item>
+        <item quantity="many">Sloučte %d duplicitního kontaktu</item>
+        <item quantity="other">Sloučte %d duplicitních kontaktů</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">Archivujte %1$d položku (%2$s GB)</item>
+        <item quantity="few">Archivujte %1$d položky (%2$s GB)</item>
+        <item quantity="many">Archivujte %1$d položky (%2$s GB)</item>
+        <item quantity="other">Archivujte %1$d položek (%2$s GB)</item>
+    </plurals>
+</resources>

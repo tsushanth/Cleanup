@@ -71,6 +71,11 @@ class StringResourcesTest {
     private val required = mapOf(
         "ar" to setOf("zero", "one", "two", "few", "many", "other"),
         "ru" to setOf("one", "few", "many", "other"),
+        "uk" to setOf("one", "few", "many", "other"),
+        "cs" to setOf("one", "few", "many", "other"),
+        "ro" to setOf("one", "few", "other"),
+        "el" to setOf("one", "other"), "fi" to setOf("one", "other"),
+        "hu" to setOf("one", "other"), "sv" to setOf("one", "other"),
         "pl" to setOf("one", "few", "many", "other"),
         "es" to setOf("one", "many", "other"),
         "fr" to setOf("one", "many", "other"),

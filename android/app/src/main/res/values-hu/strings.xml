@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <string name="home_title">Takarítás egy érintéssel</string>
+    <string name="home_vault_cd">Széf</string>
+    <string name="home_scanning">Vizsgálat…</string>
+    <string name="home_one_tap_scan">Vizsgálat egy érintéssel</string>
+    <string name="home_grant_access_scan">Hozzáférés megadása és vizsgálat</string>
+    <string name="home_scanning_device">Az eszköz vizsgálata…</string>
+    <string name="home_quick_actions">Gyorsműveletek</string>
+    <string name="home_chip_duplicates">Duplikátumok</string>
+    <string name="home_chip_screenshots">Képernyőképek</string>
+    <string name="home_chip_large_videos">Nagy videók</string>
+    <string name="home_chip_compress">Tömörítés</string>
+    <string name="home_chip_archive">Archiválás</string>
+    <string name="home_chip_downloads">Letöltések</string>
+    <string name="home_chip_apk_files">APK-fájlok</string>
+    <string name="home_smart_scan_results">Okos vizsgálat eredménye</string>
+    <string name="home_category_duplicate_photos">Duplikált fotók</string>
+    <string name="home_category_similar_photos">Hasonló fotók</string>
+    <string name="home_category_screenshots">Képernyőképek</string>
+    <string name="home_category_large_videos">Nagy videók</string>
+    <string name="home_category_duplicate_contacts">Duplikált névjegyek</string>
+    <string name="home_file_management">Fájlkezelés</string>
+    <string name="home_category_downloads">Letöltések</string>
+    <string name="home_category_apk_files">APK-fájlok</string>
+    <string name="home_category_notification_manager">Értesítéskezelő</string>
+    <string name="home_storage_used">%s használatban</string>
+    <string name="home_storage_total">Összesen %s</string>
+    <string name="home_storage_full">A tárhely %d%%-a megtelt</string>
+    <string name="home_tap_to_scan">Érintsd meg a vizsgálathoz</string>
+
+    <string name="onboarding_welcome_title">A telefonod tele van felesleggel</string>
+    <string name="onboarding_welcome_subtitle">Duplikált fotók, régi képernyőképek, nagy videók — ezek foglalják a tárhelyed. Tegyünk rendet.</string>
+    <string name="onboarding_welcome_button">Kezdjük a takarítást</string>
+    <string name="onboarding_media_granted_title">Médiahozzáférés megadva!</string>
+    <string name="onboarding_media_request_title">Hozzáférés a fotókhoz és videókhoz</string>
+    <string name="onboarding_media_granted_subtitle">Átvizsgáljuk az összes fotót és videót duplikátumok, hasonló képek és helyfoglalók után.</string>
+    <string name="onboarding_media_request_subtitle">A duplikátumok megkereséséhez és a hely felszabadításához hozzáférés kell a fotóidhoz és videóidhoz.</string>
+    <string name="onboarding_feature_private_title" formatted="false">100%-ban privát</string>
+    <string name="onboarding_feature_private_subtitle">Minden vizsgálat az eszközön történik</string>
+    <string name="onboarding_feature_fast_title">Gyors vizsgálat</string>
+    <string name="onboarding_feature_fast_subtitle">Kevesebb mint 30 másodperc</string>
+    <string name="onboarding_feature_you_choose_title">Te döntesz</string>
+    <string name="onboarding_feature_you_choose_subtitle">A jóváhagyásod nélkül semmi sem törlődik</string>
+    <string name="onboarding_continue">Tovább</string>
+    <string name="onboarding_allow_photo_video">Fotó- és videóhozzáférés engedélyezése</string>
+    <string name="onboarding_skip">Most nem</string>
+    <string name="onboarding_contact_granted_title">Névjegyhozzáférés megadva!</string>
+    <string name="onboarding_contact_request_title">Névjegyek rendezése</string>
+    <string name="onboarding_contact_granted_subtitle">Megkeressük a duplikált és hiányos névjegyeket, hogy egyesíthesd vagy törölhesd őket.</string>
+    <string name="onboarding_contact_request_subtitle">Keresd meg és egyesítsd a duplikált névjegyeket, hogy rendezett maradjon a címjegyzéked.</string>
+    <string name="onboarding_feature_find_dupes_title">Duplikátumok keresése</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Azonos nevű vagy számú névjegyek felismerése</string>
+    <string name="onboarding_feature_smart_merge_title">Okos egyesítés</string>
+    <string name="onboarding_feature_smart_merge_subtitle">A duplikátumok egyesítése egyetlen névjeggyé</string>
+    <string name="onboarding_feature_safe_title">Biztonságos</string>
+    <string name="onboarding_feature_safe_subtitle">Minden módosítás előtt átnézheted</string>
+    <string name="onboarding_allow_contact">Névjegyhozzáférés engedélyezése</string>
+    <string name="onboarding_ready_title">Minden kész!</string>
+    <string name="onboarding_ready_subtitle">Érintsd meg az alábbi gombot, hogy mindent átvizsgálj, és megkezdd a takarítást.</string>
+    <string name="onboarding_photos_videos">Fotók és videók</string>
+    <string name="onboarding_contact_access">Névjegyhozzáférés</string>
+    <string name="onboarding_free_duplicates">5 ingyenes duplikátumtörlés</string>
+    <string name="onboarding_free_similar">5 ingyenes hasonlófotó-takarítás</string>
+    <string name="onboarding_free_screenshots">5 ingyenes képernyőkép-törlés</string>
+    <string name="onboarding_free_videos">5 ingyenes videótakarítás</string>
+    <string name="onboarding_free_contacts">5 ingyenes névjegyegyesítés</string>
+    <string name="onboarding_free_label">INGYENES</string>
+    <string name="onboarding_get_started">Vizsgálat és indulás</string>
+
+    <string name="paywall_close_cd">Bezárás</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">évente</string>
+    <string name="paywall_per_month">havonta</string>
+    <string name="paywall_feature_unlimited_title">Korlátlan takarítás</string>
+    <string name="paywall_feature_unlimited_subtitle">Takaríts az eszközödön, ahányszor csak szeretnél</string>
+    <string name="paywall_feature_duplicates_title">Duplikátumok és hasonlók törlése</string>
+    <string name="paywall_feature_duplicates_subtitle">Duplikált fotók azonnali megkeresése és törlése</string>
+    <string name="paywall_feature_videos_title">Nagy videók kezelése</string>
+    <string name="paywall_feature_videos_subtitle">A sok helyet foglaló videók tömörítése vagy törlése</string>
+    <string name="paywall_feature_private_title">Privát és biztonságos</string>
+    <string name="paywall_feature_private_subtitle">Minden vizsgálat az eszközödön történik</string>
+    <string name="paywall_best_value">LEGJOBB ÁR-ÉRTÉK</string>
+    <string name="paywall_save_75" formatted="false">75% megtakarítás a havi díjhoz képest</string>
+    <string name="paywall_continue">Tovább</string>
+    <string name="paywall_restore">Vásárlások visszaállítása</string>
+    <string name="paywall_terms">Az előfizetések automatikusan megújulnak. A Google Play beállításaiban bármikor lemondhatod.</string>
+
+    <string name="photos_title">Fotótakarítás</string>
+    <string name="photos_back_cd">Vissza</string>
+    <string name="photos_change_folder_cd">Mappa módosítása</string>
+    <string name="photos_delete_count">%d törlése</string>
+    <string name="photos_select_title">Elemzendő fotók kiválasztása</string>
+    <string name="photos_select_subtitle">Válaszd ki, hogyan adod meg a fotókat a duplikátumok és képernyőképek felismeréséhez.</string>
+    <string name="photos_select_all_folder">Összes kijelölése (mappahozzáférés)</string>
+    <string name="photos_select_all_hint">Adj hozzáférést a DCIM vagy a Képek mappához az összes fotó átvizsgálásához</string>
+    <string name="photos_choose">Fotók kiválasztása</string>
+    <string name="photos_choose_hint">Válassz ki egyes fotókat az elemzéshez</string>
+    <string name="photos_selected_count">%d kijelölve</string>
+    <string name="photos_save_amount">%s megtakarítása</string>
+    <string name="photos_tab_duplicates">Duplikátumok</string>
+    <string name="photos_tab_similar">Hasonlók</string>
+    <string name="photos_tab_screenshots">Képernyőképek</string>
+    <string name="photos_no_duplicates_title">Nincs duplikátum</string>
+    <string name="photos_no_duplicates_subtitle">A fotótárad rendben van!</string>
+    <string name="photos_select_all">Összes kijelölése</string>
+    <string name="photos_deselect_all">Kijelölés törlése</string>
+    <string name="photos_keep_best">Legjobb megtartása</string>
+    <string name="photos_no_similar_title">Nincsenek hasonló fotók</string>
+    <string name="photos_no_similar_subtitle">Nem található hasonló fotócsoport</string>
+    <string name="photos_percent_similar">%d%%-ban hasonló</string>
+    <string name="photos_keep_best_select_others">Legjobb megtartása, többi kijelölése</string>
+    <string name="photos_no_screenshots_title">Nincsenek képernyőképek</string>
+    <string name="photos_no_screenshots_subtitle">Nem található képernyőkép a fotótáradban</string>
+    <string name="photos_selected_cd">Kijelölve</string>
+    <string name="photos_best_badge">LEGJOBB</string>
+    <string name="photos_scanning">Fotók vizsgálata…</string>
+    <string name="photos_delete_message">Ez véglegesen törli a kijelölt fotókat az eszközödről. A művelet nem vonható vissza.</string>
+    <string name="photos_delete_permanently">Végleges törlés</string>
+    <string name="cancel">Mégse</string>
+
+    <string name="upgrade_title">Frissítés Pro verzióra</string>
+    <string name="upgrade_message">Ebben a kategóriában felhasználtad az összes ingyenes takarítást. Frissíts Pro verzióra a korlátlan hozzáféréshez.</string>
+    <string name="upgrade_button">Frissítés</string>
+    <string name="upgrade_not_now">Most nem</string>
+
+    <string name="vault_title">Széf</string>
+    <string name="vault_lock_cd">Zárolás</string>
+    <string name="vault_add_cd">Elemek hozzáadása</string>
+    <string name="vault_secret_space">Titkos tér</string>
+    <string name="vault_enter_pin">A belépéshez add meg a PIN-kódot</string>
+    <string name="vault_use_biometrics">Biometrikus azonosítás</string>
+    <string name="vault_biometric_title">Belépés a Titkos térbe</string>
+    <string name="vault_biometric_subtitle">A feloldáshoz használd az ujjlenyomatod vagy az arcod</string>
+    <string name="vault_biometric_negative">PIN-kód használata</string>
+    <string name="vault_backspace_cd">Törlés</string>
+    <string name="vault_create_pin">PIN-kód létrehozása</string>
+    <string name="vault_confirm_pin">PIN-kód megerősítése</string>
+    <string name="vault_create_pin_subtitle">Válassz egy 4 számjegyű PIN-kódot a széf védelméhez</string>
+    <string name="vault_confirm_pin_subtitle">Add meg újra ugyanazt a PIN-kódot</string>
+    <string name="vault_pin_mismatch">A PIN-kódok nem egyeznek. Próbáld újra.</string>
+    <string name="vault_empty_title">A széfed üres</string>
+    <string name="vault_empty_subtitle">Adj hozzá fotókat és videókat, hogy privátok maradjanak</string>
+    <string name="vault_add_items">Elemek hozzáadása</string>
+    <string name="vault_adding">Hozzáadás a széfhez…</string>
+    <string name="vault_add_to_vault">Hozzáadás a széfhez</string>
+    <string name="vault_select_items_subtitle">Válaszd ki a széfhez adandó elemeket</string>
+    <string name="vault_select_from_photos">Választás a fotók közül</string>
+    <string name="vault_select_from_files">Választás a fájlok közül</string>
+    <string name="vault_delete_title">Elem törlése</string>
+    <string name="vault_delete_message">Ez véglegesen törli az elemet a széfedből.</string>
+    <string name="vault_delete_button">Törlés</string>
+    <string name="vault_restore_title">Elem visszaállítása</string>
+    <string name="vault_restore_message">Ez visszaállítja az elemet a fotótáradba.</string>
+    <string name="vault_restore_button">Visszaállítás</string>
+    <string name="vault_added_date">Hozzáadva: %s</string>
+    <string name="vault_item_size">Méret: %s</string>
+
+    <string name="contacts_title">Névjegytakarítás</string>
+    <string name="contacts_tab_duplicates">Duplikátumok</string>
+    <string name="contacts_tab_incomplete">Hiányosak</string>
+    <string name="contacts_access_required">Névjegyhozzáférés szükséges</string>
+    <string name="contacts_access_message">A takarításhoz hozzáférés kell a névjegyeidhez a duplikátumok és hiányos bejegyzések megkereséséhez.</string>
+    <string name="contacts_grant_access">Hozzáférés megadása</string>
+    <string name="contacts_no_duplicates_title">Nincs duplikátum</string>
+    <string name="contacts_no_duplicates_subtitle">A névjegyeid rendben vannak!</string>
+    <string name="contacts_merge_all">Összes egyesítése</string>
+    <string name="contacts_delete_dupes">Duplikátumok törlése</string>
+    <string name="contacts_no_name">Nincs név</string>
+    <string name="contacts_no_incomplete_title">Nincsenek hiányos névjegyek</string>
+    <string name="contacts_no_incomplete_subtitle">Minden névjegy teljes adatokkal rendelkezik</string>
+    <string name="contacts_delete_selected">Kijelöltek törlése (%d)</string>
+    <string name="contacts_merge_title">Névjegyek egyesítése</string>
+    <string name="contacts_merge_subtitle">Válaszd ki a megtartandó fő névjegyet. A többi névjegy adatai egyesülnek vele.</string>
+    <string name="contacts_merge_button">Névjegyek egyesítése</string>
+    <string name="contacts_scanning">Névjegyek vizsgálata…</string>
+
+    <string name="videos_title">Videótakarítás</string>
+    <string name="videos_delete_count">%d törlése</string>
+    <string name="videos_select_title">Elemzendő videók kiválasztása</string>
+    <string name="videos_select_subtitle">Válaszd ki, hogyan adod meg a videókat a nagy fájlok felismeréséhez és tömörítéséhez.</string>
+    <string name="videos_select_all_folder">Összes kijelölése (mappahozzáférés)</string>
+    <string name="videos_select_all_hint">Adj hozzáférést a DCIM vagy a média mappához az összes videó átvizsgálásához</string>
+    <string name="videos_choose">Videók kiválasztása</string>
+    <string name="videos_choose_hint">Válassz ki egyes videókat az elemzéshez</string>
+    <string name="videos_tab_large">Nagy videók</string>
+    <string name="videos_tab_compress">Tömörítés</string>
+    <string name="videos_no_large_title">Nincsenek nagy videók</string>
+    <string name="videos_no_large_subtitle">Nem található 50 MB-nál nagyobb videó</string>
+    <string name="videos_delete_message">Ez véglegesen törli a kijelölt videókat. A művelet nem vonható vissza.</string>
+    <string name="videos_no_compress_title">Nincsenek videók</string>
+    <string name="videos_no_compress_subtitle">Nem található tömöríthető videó</string>
+    <string name="videos_compression_quality">Tömörítési minőség</string>
+    <string name="videos_select_videos">Videók kiválasztása</string>
+    <string name="videos_n_selected">%d kijelölve</string>
+    <string name="videos_scanning">Videók vizsgálata…</string>
+    <string name="videos_compressing_title">Videó tömörítése</string>
+
+    <string name="downloads_title">Letöltések</string>
+    <string name="downloads_deselect">Kijelölés törlése</string>
+    <string name="downloads_scanning">A letöltések mappa vizsgálata…</string>
+    <string name="downloads_clean">A letöltések mappa rendben van!</string>
+
+    <string name="apk_title">APK-fájlok</string>
+    <string name="apk_deselect">Kijelölés törlése</string>
+    <string name="apk_scanning">APK-fájlok keresése…</string>
+    <string name="apk_none_found">Nem található APK-fájl!</string>
+    <string name="apk_all_filter">Összes (%d)</string>
+
+    <string name="notifications_title">Értesítések</string>
+    <string name="notifications_analyzing">Értesítések elemzése…</string>
+    <string name="notifications_no_apps">Nem található alkalmazás</string>
+    <string name="notifications_manage_hint">Érintsd meg az egyes alkalmazások értesítési beállításainak kezeléséhez</string>
+    <string name="notifications_enabled">Értesítések engedélyezve</string>
+    <string name="notifications_disabled">Értesítések letiltva</string>
+    <string name="notifications_manage_button">Kezelés</string>
+
+    <string name="archive_title">Felhőarchívum</string>
+    <string name="archive_sync_cd">Szinkronizálás</string>
+    <string name="archive_storage_used">Felhasznált tárhely</string>
+    <string name="archive_empty_title">Nincsenek archivált elemek</string>
+    <string name="archive_empty_subtitle">Archiválj fotókat és videókat a takarítóképernyőkről, hogy helyet szabadíts fel az eszközön</string>
+    <string name="archive_detail_archived">Archiválva: %s</string>
+    <string name="archive_detail_size">Méret: %s</string>
+    <string name="archive_detail_tier">Szint: %s</string>
+    <string name="archive_retrieve_button">Visszaszerzés</string>
+    <string name="archive_delete_title">Archivált elem törlése</string>
+    <string name="archive_delete_message">Ez véglegesen eltávolítja az elemet az archívumból. A művelet nem vonható vissza.</string>
+    <string name="archive_success_title">Sikeresen archiválva</string>
+    <string name="archive_restore_success_title">Sikeresen visszaállítva</string>
+    <string name="archive_restore_success_message">Az elem vissza lett állítva az eszközödre.</string>
+    <string name="archive_error_title">Hiba</string>
+    <string name="ok">OK</string>
+
+    <string name="archive_signin_title">Bejelentkezés a felhőarchívumhoz</string>
+    <string name="archive_signin_subtitle">Archiváld a fotóidat és videóidat a felhőbe, mielőtt törölnéd őket az eszközödről</string>
+    <string name="archive_signin_encrypted_title">Titkosított tárhely</string>
+    <string name="archive_signin_encrypted_subtitle">A fájlaid átvitel közben és tároláskor is titkosítva vannak az AWS-en</string>
+    <string name="archive_signin_retrieve_title">Bármikor visszaszerezhető</string>
+    <string name="archive_signin_retrieve_subtitle">Töltsd le az archivált fájlokat, amikor csak szükséged van rájuk</string>
+    <string name="archive_signin_private_title">Privát és biztonságos</string>
+    <string name="archive_signin_private_subtitle">Nincs megjegyzendő jelszó — jelentkezz be Google-fiókkal</string>
+    <string name="archive_signin_google">Bejelentkezés Google-fiókkal</string>
+    <string name="archive_signin_privacy">Az adataidat kizárólag a felhőarchívum tárolásához használjuk. Soha nem osztjuk meg és nem adjuk el az adataidat.</string>
+
+    <string name="archive_paywall_title">Törölj magabiztosan</string>
+    <string name="archive_paywall_subtitle">Archiváld a fájlokat a felhőbe törlés előtt. Bármikor visszaszerezheted őket.</string>
+    <string name="archive_paywall_safety_title">Biztonsági háló</string>
+    <string name="archive_paywall_safety_subtitle">Soha többé ne veszítsd el a fontos fájlokat</string>
+    <string name="archive_paywall_retrieve_title">Bármikor visszaszerezhető</string>
+    <string name="archive_paywall_retrieve_subtitle">Töltsd le az archivált fájlokat, amikor szükséged van rájuk</string>
+    <string name="archive_paywall_encrypted_title">Titkosított tárhely</string>
+    <string name="archive_paywall_encrypted_subtitle">Az adataid mindig titkosítottak és privátak</string>
+    <string name="archive_paywall_choose_plan">Válaszd ki a csomagod</string>
+    <string name="archive_paywall_current">AKTUÁLIS</string>
+    <string name="archive_paywall_subscribe">Előfizetés</string>
+
+    <string name="settings_title">Beállítások</string>
+    <string name="settings_account">Fiók</string>
+    <string name="settings_sign_in">Bejelentkezés</string>
+    <string name="settings_subscription">Előfizetés</string>
+    <string name="settings_upgrade_pro">Frissítés Pro verzióra</string>
+    <string name="settings_features">Funkciók</string>
+    <string name="settings_secret_space">Titkos tér</string>
+    <string name="settings_email_cleanup">E-mail-takarítás</string>
+    <string name="settings_widgets">Widgetek</string>
+    <string name="settings_about">Névjegy</string>
+    <string name="settings_privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="settings_terms">Felhasználási feltételek</string>
+    <string name="settings_rate_us">Értékelés</string>
+    <string name="settings_version">1.1 (2) verzió</string>
+
+    <string name="nav_home">Kezdőlap</string>
+    <string name="nav_photos">Fotók</string>
+    <string name="nav_videos">Videók</string>
+    <string name="nav_contacts">Névjegyek</string>
+    <string name="nav_settings">Beállítások</string>
+    <string name="login_title">Bejelentkezés</string>
+    <string name="login_coming_soon">Hamarosan</string>
+    <string name="login_coming_soon_subtitle">A fiókbejelentkezés egy későbbi frissítésben lesz elérhető.</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_password">Jelszó</string>
+    <string name="login_button">Bejelentkezés</string>
+    <string name="placeholder_coming_soon">%s – hamarosan</string>
+    <string name="email_cleanup_title">E-mail-takarítás</string>
+    <string name="widgets_title">Widgetek</string>
+
+    <string name="back_cd">Vissza</string>
+    <string name="delete_button">Törlés</string>
+
+    <plurals name="home_items_count">
+        <item quantity="one">%d elem</item>
+        <item quantity="other">%d elem</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d elem · %2$s</item>
+        <item quantity="other">%1$d elem · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">Törölsz %d fotót?</item>
+        <item quantity="other">Törölsz %d fotót?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d duplikátum</item>
+        <item quantity="other">%d duplikátum</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d hasonló fotó</item>
+        <item quantity="other">%d hasonló fotó</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d képernyőkép</item>
+        <item quantity="other">%d képernyőkép</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d hiányos</item>
+        <item quantity="other">%d hiányos</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d nagy videó</item>
+        <item quantity="other">%d nagy videó</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">Törölsz %d videót?</item>
+        <item quantity="other">Törölsz %d videót?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">%d videó tömörítése</item>
+        <item quantity="other">%d videó tömörítése</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">%d fájl törlése</item>
+        <item quantity="other">%d fájl törlése</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">%d APK törlése</item>
+        <item quantity="other">%d APK törlése</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d alkalmazás értesítésekkel</item>
+        <item quantity="other">%d alkalmazás értesítésekkel</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d elem archiválva</item>
+        <item quantity="other">%d elem archiválva</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d elem archiválva lett a felhőbe.</item>
+        <item quantity="other">%d elem archiválva lett a felhőbe.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d duplikátum %2$d csoportban</item>
+        <item quantity="other">%1$d duplikátum %2$d csoportban</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d hasonló %2$d csoportban</item>
+        <item quantity="other">%1$d hasonló %2$d csoportban</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d fájl (%2$s)</item>
+        <item quantity="other">%1$d fájl (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d duplikátum</item>
+        <item quantity="other">%d duplikátum</item>
+    </plurals>
+
+    <string name="apk_status_already_installed">Már telepítve</string>
+    <string name="apk_status_outdated">Elavult verzió</string>
+    <string name="apk_status_not_installed">Nincs telepítve</string>
+    <string name="apk_status_unknown">Ismeretlen</string>
+    <string name="archive_filter_all">Összes</string>
+    <string name="downloads_tab_all">Összes</string>
+    <string name="downloads_tab_large">Nagy</string>
+    <string name="downloads_tab_old">Régi</string>
+    <string name="videos_quality_high">Magas minőség</string>
+    <string name="videos_quality_medium">Közepes minőség</string>
+    <string name="videos_quality_low">Alacsony minőség</string>
+    <string name="videos_quality_detail">%1$dp – ~%2$d%%-kal kisebb</string>
+    <string name="contacts_match_name">Azonos név</string>
+    <string name="contacts_match_phone">Azonos telefonszám</string>
+    <string name="contacts_match_email">Azonos e-mail-cím</string>
+    <string name="vault_pin_incorrect">Helytelen PIN-kód. Próbáld újra.</string>
+    <string name="billing_error_no_offer">Ehhez a termékhez nincs elérhető ajánlat</string>
+    <string name="billing_error_purchase_failed">A vásárlás sikertelen: %s</string>
+    <string name="billing_error_acknowledge">A vásárlás visszaigazolása sikertelen</string>
+    <string name="archive_failed_message">Az archiválás sikertelen: %s</string>
+    <string name="archive_signin_failed_message">A bejelentkezés sikertelen: %s</string>
+    <string name="paywall_ctx_generic_title">Cleanup Pro feloldása</string>
+    <string name="paywall_ctx_generic_subtitle">Korlátlan takarítás és duplikátumtörlés</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">A korlátlan fotótakarítás is benne van</string>
+    <string name="paywall_ctx_screenshots_subtitle">Képernyőképek tömeges törlése bármikor</string>
+    <string name="paywall_ctx_videos_subtitle">Nagy videók tömörítése és törlése</string>
+    <string name="paywall_ctx_compress_title">%s GB megtakarítása tömörítéssel</string>
+    <string name="paywall_ctx_contacts_subtitle">Tartsd rendben a névjegyeidet</string>
+    <string name="paywall_ctx_archive_subtitle">Tartsd biztonságban a fájlokat a felhőben a törlés helyett</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">%d duplikátum törlése egy érintéssel</item>
+        <item quantity="other">%d duplikátum törlése egy érintéssel</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">%d hasonló fotó rendezése</item>
+        <item quantity="other">%d hasonló fotó rendezése</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">%d képernyőkép azonnali törlése</item>
+        <item quantity="other">%d képernyőkép azonnali törlése</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">%2$s GB felszabadítása %1$d videóból</item>
+        <item quantity="other">%2$s GB felszabadítása %1$d videóból</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">%d duplikált névjegy egyesítése</item>
+        <item quantity="other">%d duplikált névjegy egyesítése</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">%1$d elem archiválása (%2$s GB)</item>
+        <item quantity="other">%1$d elem archiválása (%2$s GB)</item>
+    </plurals>
+</resources>

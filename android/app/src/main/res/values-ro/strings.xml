@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <string name="home_title">Curățare dintr-o atingere</string>
+    <string name="home_vault_cd">Seif</string>
+    <string name="home_scanning">Se scanează…</string>
+    <string name="home_one_tap_scan">Scanare rapidă</string>
+    <string name="home_grant_access_scan">Permite accesul și scanează</string>
+    <string name="home_scanning_device">Se scanează dispozitivul…</string>
+    <string name="home_quick_actions">Acțiuni rapide</string>
+    <string name="home_chip_duplicates">Duplicate</string>
+    <string name="home_chip_screenshots">Capturi de ecran</string>
+    <string name="home_chip_large_videos">Videoclipuri mari</string>
+    <string name="home_chip_compress">Comprimă</string>
+    <string name="home_chip_archive">Arhivă</string>
+    <string name="home_chip_downloads">Descărcări</string>
+    <string name="home_chip_apk_files">Fișiere APK</string>
+    <string name="home_smart_scan_results">Rezultatele scanării</string>
+    <string name="home_category_duplicate_photos">Fotografii duplicate</string>
+    <string name="home_category_similar_photos">Fotografii similare</string>
+    <string name="home_category_screenshots">Capturi de ecran</string>
+    <string name="home_category_large_videos">Videoclipuri mari</string>
+    <string name="home_category_duplicate_contacts">Contacte duplicate</string>
+    <string name="home_file_management">Gestionarea fișierelor</string>
+    <string name="home_category_downloads">Descărcări</string>
+    <string name="home_category_apk_files">Fișiere APK</string>
+    <string name="home_category_notification_manager">Manager de notificări</string>
+    <string name="home_storage_used">%s utilizați</string>
+    <string name="home_storage_total">%s în total</string>
+    <string name="home_storage_full">Spațiul de stocare este ocupat în proporție de %d%%</string>
+    <string name="home_tap_to_scan">Atinge pentru a scana</string>
+
+    <string name="onboarding_welcome_title">Telefonul tău e plin de dezordine</string>
+    <string name="onboarding_welcome_subtitle">Fotografii duplicate, capturi de ecran vechi, videoclipuri mari — îți ocupă spațiul de stocare. Hai să rezolvăm asta.</string>
+    <string name="onboarding_welcome_button">Hai la curățenie</string>
+    <string name="onboarding_media_granted_title">Acces la fișiere media acordat!</string>
+    <string name="onboarding_media_request_title">Acces la fotografii și videoclipuri</string>
+    <string name="onboarding_media_granted_subtitle">Vom scana toate fotografiile și videoclipurile pentru a găsi duplicate, imagini similare și fișiere care ocupă mult spațiu.</string>
+    <string name="onboarding_media_request_subtitle">Pentru a găsi duplicate și a elibera spațiu, avem nevoie de acces la fotografiile și videoclipurile tale.</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% privat</string>
+    <string name="onboarding_feature_private_subtitle">Toată scanarea se face pe dispozitiv</string>
+    <string name="onboarding_feature_fast_title">Scanare rapidă</string>
+    <string name="onboarding_feature_fast_subtitle">Durează mai puțin de 30 de secunde</string>
+    <string name="onboarding_feature_you_choose_title">Tu alegi</string>
+    <string name="onboarding_feature_you_choose_subtitle">Nimic nu se șterge fără aprobarea ta</string>
+    <string name="onboarding_continue">Continuă</string>
+    <string name="onboarding_allow_photo_video">Permite accesul la fotografii și videoclipuri</string>
+    <string name="onboarding_skip">Omite deocamdată</string>
+    <string name="onboarding_contact_granted_title">Acces la contacte acordat!</string>
+    <string name="onboarding_contact_request_title">Curăță-ți contactele</string>
+    <string name="onboarding_contact_granted_subtitle">Vom găsi contactele duplicate și incomplete pentru a le putea îmbina sau elimina.</string>
+    <string name="onboarding_contact_request_subtitle">Găsește și îmbină contactele duplicate pentru a-ți păstra agenda ordonată.</string>
+    <string name="onboarding_feature_find_dupes_title">Găsește duplicate</string>
+    <string name="onboarding_feature_find_dupes_subtitle">Detectează contactele cu același nume sau număr</string>
+    <string name="onboarding_feature_smart_merge_title">Îmbinare inteligentă</string>
+    <string name="onboarding_feature_smart_merge_subtitle">Combină duplicatele într-un singur contact</string>
+    <string name="onboarding_feature_safe_title">Sigur</string>
+    <string name="onboarding_feature_safe_subtitle">Verifici totul înainte de orice modificare</string>
+    <string name="onboarding_allow_contact">Permite accesul la contacte</string>
+    <string name="onboarding_ready_title">Totul e gata!</string>
+    <string name="onboarding_ready_subtitle">Atinge butonul de mai jos pentru a scana totul și a începe curățarea.</string>
+    <string name="onboarding_photos_videos">Fotografii și videoclipuri</string>
+    <string name="onboarding_contact_access">Acces la contacte</string>
+    <string name="onboarding_free_duplicates">5 eliminări de duplicate gratuite</string>
+    <string name="onboarding_free_similar">5 curățări de fotografii similare gratuite</string>
+    <string name="onboarding_free_screenshots">5 ștergeri de capturi de ecran gratuite</string>
+    <string name="onboarding_free_videos">5 curățări de videoclipuri gratuite</string>
+    <string name="onboarding_free_contacts">5 îmbinări de contacte gratuite</string>
+    <string name="onboarding_free_label">GRATUIT</string>
+    <string name="onboarding_get_started">Scanează și începe</string>
+
+    <string name="paywall_close_cd">Închide</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">pe an</string>
+    <string name="paywall_per_month">pe lună</string>
+    <string name="paywall_feature_unlimited_title">Curățări nelimitate</string>
+    <string name="paywall_feature_unlimited_subtitle">Curăță-ți dispozitivul ori de câte ori vrei</string>
+    <string name="paywall_feature_duplicates_title">Șterge duplicate și similare</string>
+    <string name="paywall_feature_duplicates_subtitle">Găsește și elimină instantaneu fotografiile duplicate</string>
+    <string name="paywall_feature_videos_title">Gestionarea videoclipurilor mari</string>
+    <string name="paywall_feature_videos_subtitle">Comprimă sau șterge videoclipurile care ocupă mult spațiu</string>
+    <string name="paywall_feature_private_title">Privat și securizat</string>
+    <string name="paywall_feature_private_subtitle">Toată scanarea se face pe dispozitivul tău</string>
+    <string name="paywall_best_value">CEA MAI BUNĂ OFERTĂ</string>
+    <string name="paywall_save_75" formatted="false">Economisești 75% față de abonamentul lunar</string>
+    <string name="paywall_continue">Continuă</string>
+    <string name="paywall_restore">Restaurează achizițiile</string>
+    <string name="paywall_terms">Abonamentele se reînnoiesc automat. Poți anula oricând din setările Google Play.</string>
+
+    <string name="photos_title">Curățare fotografii</string>
+    <string name="photos_back_cd">Înapoi</string>
+    <string name="photos_change_folder_cd">Schimbă folderul</string>
+    <string name="photos_delete_count">Șterge %d</string>
+    <string name="photos_select_title">Selectează fotografiile de analizat</string>
+    <string name="photos_select_subtitle">Alege cum vrei să furnizezi fotografiile pentru detectarea duplicatelor și a capturilor de ecran.</string>
+    <string name="photos_select_all_folder">Selectează tot (acces la folder)</string>
+    <string name="photos_select_all_hint">Acordă acces la folderul DCIM sau Pictures pentru a scana toate fotografiile</string>
+    <string name="photos_choose">Alege fotografii</string>
+    <string name="photos_choose_hint">Alege anumite fotografii de analizat</string>
+    <string name="photos_selected_count">%d selectate</string>
+    <string name="photos_save_amount">Economisești %s</string>
+    <string name="photos_tab_duplicates">Duplicate</string>
+    <string name="photos_tab_similar">Similare</string>
+    <string name="photos_tab_screenshots">Capturi de ecran</string>
+    <string name="photos_no_duplicates_title">Nu s-au găsit duplicate</string>
+    <string name="photos_no_duplicates_subtitle">Biblioteca ta foto este curată!</string>
+    <string name="photos_select_all">Selectează tot</string>
+    <string name="photos_deselect_all">Deselectează tot</string>
+    <string name="photos_keep_best">Păstrează-o pe cea mai bună</string>
+    <string name="photos_no_similar_title">Nicio fotografie similară</string>
+    <string name="photos_no_similar_subtitle">Nu s-au găsit grupuri de fotografii similare</string>
+    <string name="photos_percent_similar">%d%% similare</string>
+    <string name="photos_keep_best_select_others">Păstrează-o pe cea mai bună, selectează restul</string>
+    <string name="photos_no_screenshots_title">Nicio captură de ecran</string>
+    <string name="photos_no_screenshots_subtitle">Nu s-au găsit capturi de ecran în bibliotecă</string>
+    <string name="photos_selected_cd">Selectat</string>
+    <string name="photos_best_badge">CEA MAI BUNĂ</string>
+    <string name="photos_scanning">Se scanează fotografiile…</string>
+    <string name="photos_delete_message">Fotografiile selectate vor fi șterse definitiv de pe dispozitiv. Această acțiune nu poate fi anulată.</string>
+    <string name="photos_delete_permanently">Șterge definitiv</string>
+    <string name="cancel">Anulează</string>
+
+    <string name="upgrade_title">Treci la Pro</string>
+    <string name="upgrade_message">Ai folosit toate curățările gratuite pentru această categorie. Treci la Pro pentru acces nelimitat.</string>
+    <string name="upgrade_button">Treci la Pro</string>
+    <string name="upgrade_not_now">Nu acum</string>
+
+    <string name="vault_title">Seif</string>
+    <string name="vault_lock_cd">Blochează</string>
+    <string name="vault_add_cd">Adaugă elemente</string>
+    <string name="vault_secret_space">Spațiu secret</string>
+    <string name="vault_enter_pin">Introdu codul PIN pentru acces</string>
+    <string name="vault_use_biometrics">Folosește biometria</string>
+    <string name="vault_biometric_title">Accesează Spațiul secret</string>
+    <string name="vault_biometric_subtitle">Folosește amprenta sau fața pentru a debloca</string>
+    <string name="vault_biometric_negative">Folosește PIN</string>
+    <string name="vault_backspace_cd">Șterge</string>
+    <string name="vault_create_pin">Creează-ți codul PIN</string>
+    <string name="vault_confirm_pin">Confirmă codul PIN</string>
+    <string name="vault_create_pin_subtitle">Alege un cod PIN din 4 cifre pentru a-ți proteja seiful</string>
+    <string name="vault_confirm_pin_subtitle">Introdu din nou același cod PIN</string>
+    <string name="vault_pin_mismatch">Codurile PIN nu se potrivesc. Încearcă din nou.</string>
+    <string name="vault_empty_title">Seiful tău este gol</string>
+    <string name="vault_empty_subtitle">Adaugă fotografii și videoclipuri pentru a le păstra private</string>
+    <string name="vault_add_items">Adaugă elemente</string>
+    <string name="vault_adding">Se adaugă în seif…</string>
+    <string name="vault_add_to_vault">Adaugă în seif</string>
+    <string name="vault_select_items_subtitle">Selectează elementele de adăugat în seif</string>
+    <string name="vault_select_from_photos">Selectează din Fotografii</string>
+    <string name="vault_select_from_files">Selectează din Fișiere</string>
+    <string name="vault_delete_title">Șterge elementul</string>
+    <string name="vault_delete_message">Elementul va fi șters definitiv din seif.</string>
+    <string name="vault_delete_button">Șterge</string>
+    <string name="vault_restore_title">Restaurează elementul</string>
+    <string name="vault_restore_message">Elementul va fi restaurat în biblioteca ta foto.</string>
+    <string name="vault_restore_button">Restaurează</string>
+    <string name="vault_added_date">Adăugat: %s</string>
+    <string name="vault_item_size">Dimensiune: %s</string>
+
+    <string name="contacts_title">Curățare contacte</string>
+    <string name="contacts_tab_duplicates">Duplicate</string>
+    <string name="contacts_tab_incomplete">Incomplete</string>
+    <string name="contacts_access_required">Este necesar accesul la contacte</string>
+    <string name="contacts_access_message">Curățarea are nevoie de acces la contacte pentru a găsi duplicate și înregistrări incomplete.</string>
+    <string name="contacts_grant_access">Permite accesul</string>
+    <string name="contacts_no_duplicates_title">Niciun duplicat</string>
+    <string name="contacts_no_duplicates_subtitle">Contactele tale sunt curate!</string>
+    <string name="contacts_merge_all">Îmbină tot</string>
+    <string name="contacts_delete_dupes">Șterge duplicatele</string>
+    <string name="contacts_no_name">Fără nume</string>
+    <string name="contacts_no_incomplete_title">Niciun contact incomplet</string>
+    <string name="contacts_no_incomplete_subtitle">Toate contactele au informații complete</string>
+    <string name="contacts_delete_selected">Șterge selecția (%d)</string>
+    <string name="contacts_merge_title">Îmbină contactele</string>
+    <string name="contacts_merge_subtitle">Selectează contactul principal pe care îl păstrezi. Informațiile din celelalte contacte vor fi îmbinate în el.</string>
+    <string name="contacts_merge_button">Îmbină contactele</string>
+    <string name="contacts_scanning">Se scanează contactele…</string>
+
+    <string name="videos_title">Curățare videoclipuri</string>
+    <string name="videos_delete_count">Șterge %d</string>
+    <string name="videos_select_title">Selectează videoclipurile de analizat</string>
+    <string name="videos_select_subtitle">Alege cum vrei să furnizezi videoclipurile pentru detectarea fișierelor mari și comprimare.</string>
+    <string name="videos_select_all_folder">Selectează tot (acces la folder)</string>
+    <string name="videos_select_all_hint">Acordă acces la folderul DCIM sau la cel media pentru a scana toate videoclipurile</string>
+    <string name="videos_choose">Alege videoclipuri</string>
+    <string name="videos_choose_hint">Alege anumite videoclipuri de analizat</string>
+    <string name="videos_tab_large">Videoclipuri mari</string>
+    <string name="videos_tab_compress">Comprimă</string>
+    <string name="videos_no_large_title">Niciun videoclip mare</string>
+    <string name="videos_no_large_subtitle">Nu s-au găsit videoclipuri de peste 50 MB</string>
+    <string name="videos_delete_message">Videoclipurile selectate vor fi șterse definitiv. Această acțiune nu poate fi anulată.</string>
+    <string name="videos_no_compress_title">Niciun videoclip</string>
+    <string name="videos_no_compress_subtitle">Nu s-au găsit videoclipuri care pot fi comprimate</string>
+    <string name="videos_compression_quality">Calitatea comprimării</string>
+    <string name="videos_select_videos">Selectează videoclipuri</string>
+    <string name="videos_n_selected">%d selectate</string>
+    <string name="videos_scanning">Se scanează videoclipurile…</string>
+    <string name="videos_compressing_title">Se comprimă videoclipul</string>
+
+    <string name="downloads_title">Descărcări</string>
+    <string name="downloads_deselect">Deselectează</string>
+    <string name="downloads_scanning">Se scanează folderul Descărcări…</string>
+    <string name="downloads_clean">Folderul Descărcări este curat!</string>
+
+    <string name="apk_title">Fișiere APK</string>
+    <string name="apk_deselect">Deselectează</string>
+    <string name="apk_scanning">Se caută fișiere APK…</string>
+    <string name="apk_none_found">Nu s-au găsit fișiere APK!</string>
+    <string name="apk_all_filter">Toate (%d)</string>
+
+    <string name="notifications_title">Notificări</string>
+    <string name="notifications_analyzing">Se analizează notificările…</string>
+    <string name="notifications_no_apps">Nu s-au găsit aplicații</string>
+    <string name="notifications_manage_hint">Atinge pentru a gestiona setările de notificări ale fiecărei aplicații</string>
+    <string name="notifications_enabled">Notificări activate</string>
+    <string name="notifications_disabled">Notificări dezactivate</string>
+    <string name="notifications_manage_button">Gestionează</string>
+
+    <string name="archive_title">Arhivă în cloud</string>
+    <string name="archive_sync_cd">Sincronizează</string>
+    <string name="archive_storage_used">Spațiu utilizat</string>
+    <string name="archive_empty_title">Niciun element arhivat</string>
+    <string name="archive_empty_subtitle">Arhivează fotografii și videoclipuri din ecranele de curățare pentru a elibera spațiu pe dispozitiv</string>
+    <string name="archive_detail_archived">Arhivat: %s</string>
+    <string name="archive_detail_size">Dimensiune: %s</string>
+    <string name="archive_detail_tier">Nivel: %s</string>
+    <string name="archive_retrieve_button">Recuperează</string>
+    <string name="archive_delete_title">Șterge elementul arhivat</string>
+    <string name="archive_delete_message">Elementul va fi eliminat definitiv din arhivă. Această acțiune nu poate fi anulată.</string>
+    <string name="archive_success_title">Arhivat cu succes</string>
+    <string name="archive_restore_success_title">Restaurat cu succes</string>
+    <string name="archive_restore_success_message">Elementul a fost restaurat pe dispozitiv.</string>
+    <string name="archive_error_title">Eroare</string>
+    <string name="ok">OK</string>
+
+    <string name="archive_signin_title">Conectează-te pentru arhiva în cloud</string>
+    <string name="archive_signin_subtitle">Arhivează-ți fotografiile și videoclipurile în cloud înainte de a le șterge de pe dispozitiv</string>
+    <string name="archive_signin_encrypted_title">Stocare criptată</string>
+    <string name="archive_signin_encrypted_subtitle">Fișierele tale sunt criptate în tranzit și în repaus pe AWS</string>
+    <string name="archive_signin_retrieve_title">Recuperează oricând</string>
+    <string name="archive_signin_retrieve_subtitle">Descarcă fișierele arhivate oricând ai nevoie de ele</string>
+    <string name="archive_signin_private_title">Privat și securizat</string>
+    <string name="archive_signin_private_subtitle">Nicio parolă de ținut minte — conectează-te cu Google</string>
+    <string name="archive_signin_google">Conectează-te cu Google</string>
+    <string name="archive_signin_privacy">Datele tale sunt folosite doar pentru stocarea în arhiva cloud. Nu îți partajăm și nu îți vindem niciodată informațiile.</string>
+
+    <string name="archive_paywall_title">Șterge fără griji</string>
+    <string name="archive_paywall_subtitle">Arhivează fișierele în cloud înainte de a le șterge. Recuperează-le oricând.</string>
+    <string name="archive_paywall_safety_title">Plasă de siguranță</string>
+    <string name="archive_paywall_safety_subtitle">Nu mai pierde niciodată fișiere importante</string>
+    <string name="archive_paywall_retrieve_title">Recuperează oricând</string>
+    <string name="archive_paywall_retrieve_subtitle">Descarcă fișierele arhivate oricând ai nevoie</string>
+    <string name="archive_paywall_encrypted_title">Stocare criptată</string>
+    <string name="archive_paywall_encrypted_subtitle">Datele tale sunt mereu criptate și private</string>
+    <string name="archive_paywall_choose_plan">Alege-ți planul</string>
+    <string name="archive_paywall_current">CURENT</string>
+    <string name="archive_paywall_subscribe">Abonează-te</string>
+
+    <string name="settings_title">Setări</string>
+    <string name="settings_account">Cont</string>
+    <string name="settings_sign_in">Conectează-te</string>
+    <string name="settings_subscription">Abonament</string>
+    <string name="settings_upgrade_pro">Treci la Pro</string>
+    <string name="settings_features">Funcții</string>
+    <string name="settings_secret_space">Spațiu secret</string>
+    <string name="settings_email_cleanup">Curățare e-mailuri</string>
+    <string name="settings_widgets">Widgeturi</string>
+    <string name="settings_about">Despre</string>
+    <string name="settings_privacy_policy">Politica de confidențialitate</string>
+    <string name="settings_terms">Termeni și condiții</string>
+    <string name="settings_rate_us">Evaluează-ne</string>
+    <string name="settings_version">Versiunea 1.1 (2)</string>
+
+    <string name="nav_home">Acasă</string>
+    <string name="nav_photos">Fotografii</string>
+    <string name="nav_videos">Videoclipuri</string>
+    <string name="nav_contacts">Contacte</string>
+    <string name="nav_settings">Setări</string>
+    <string name="login_title">Conectare</string>
+    <string name="login_coming_soon">În curând</string>
+    <string name="login_coming_soon_subtitle">Conectarea la cont va fi disponibilă într-o actualizare viitoare.</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_password">Parolă</string>
+    <string name="login_button">Conectează-te</string>
+    <string name="placeholder_coming_soon">%s - în curând</string>
+    <string name="email_cleanup_title">Curățare e-mailuri</string>
+    <string name="widgets_title">Widgeturi</string>
+
+    <string name="back_cd">Înapoi</string>
+    <string name="delete_button">Șterge</string>
+
+    <plurals name="home_items_count">
+        <item quantity="one">%d element</item>
+        <item quantity="few">%d elemente</item>
+        <item quantity="other">%d de elemente</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="one">%1$d element · %2$s</item>
+        <item quantity="few">%1$d elemente · %2$s</item>
+        <item quantity="other">%1$d de elemente · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="one">Ștergi %d fotografie?</item>
+        <item quantity="few">Ștergi %d fotografii?</item>
+        <item quantity="other">Ștergi %d de fotografii?</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="one">%d duplicat</item>
+        <item quantity="few">%d duplicate</item>
+        <item quantity="other">%d de duplicate</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="one">%d fotografie similară</item>
+        <item quantity="few">%d fotografii similare</item>
+        <item quantity="other">%d de fotografii similare</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="one">%d captură de ecran</item>
+        <item quantity="few">%d capturi de ecran</item>
+        <item quantity="other">%d de capturi de ecran</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="one">%d incomplet</item>
+        <item quantity="few">%d incomplete</item>
+        <item quantity="other">%d de incomplete</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="one">%d videoclip mare</item>
+        <item quantity="few">%d videoclipuri mari</item>
+        <item quantity="other">%d de videoclipuri mari</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="one">Ștergi %d videoclip?</item>
+        <item quantity="few">Ștergi %d videoclipuri?</item>
+        <item quantity="other">Ștergi %d de videoclipuri?</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="one">Comprimă %d videoclip</item>
+        <item quantity="few">Comprimă %d videoclipuri</item>
+        <item quantity="other">Comprimă %d de videoclipuri</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="one">Șterge %d fișier</item>
+        <item quantity="few">Șterge %d fișiere</item>
+        <item quantity="other">Șterge %d de fișiere</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="one">Șterge %d APK</item>
+        <item quantity="few">Șterge %d APK-uri</item>
+        <item quantity="other">Șterge %d de APK-uri</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="one">%d aplicație cu notificări</item>
+        <item quantity="few">%d aplicații cu notificări</item>
+        <item quantity="other">%d de aplicații cu notificări</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="one">%d element arhivat</item>
+        <item quantity="few">%d elemente arhivate</item>
+        <item quantity="other">%d de elemente arhivate</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="one">%d element a fost arhivat în cloud.</item>
+        <item quantity="few">%d elemente au fost arhivate în cloud.</item>
+        <item quantity="other">%d de elemente au fost arhivate în cloud.</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="one">%1$d duplicat (grupuri: %2$d)</item>
+        <item quantity="few">%1$d duplicate (grupuri: %2$d)</item>
+        <item quantity="other">%1$d de duplicate (grupuri: %2$d)</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="one">%1$d similar (grupuri: %2$d)</item>
+        <item quantity="few">%1$d similare (grupuri: %2$d)</item>
+        <item quantity="other">%1$d de similare (grupuri: %2$d)</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="one">%1$d fișier (%2$s)</item>
+        <item quantity="few">%1$d fișiere (%2$s)</item>
+        <item quantity="other">%1$d de fișiere (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="one">%d duplicat</item>
+        <item quantity="few">%d duplicate</item>
+        <item quantity="other">%d de duplicate</item>
+    </plurals>
+
+    <string name="apk_status_already_installed">Deja instalat</string>
+    <string name="apk_status_outdated">Versiune veche</string>
+    <string name="apk_status_not_installed">Neinstalat</string>
+    <string name="apk_status_unknown">Necunoscut</string>
+    <string name="archive_filter_all">Toate</string>
+    <string name="downloads_tab_all">Toate</string>
+    <string name="downloads_tab_large">Mari</string>
+    <string name="downloads_tab_old">Vechi</string>
+    <string name="videos_quality_high">Calitate ridicată</string>
+    <string name="videos_quality_medium">Calitate medie</string>
+    <string name="videos_quality_low">Calitate scăzută</string>
+    <string name="videos_quality_detail">%1$dp - cu ~%2$d%% mai mic</string>
+    <string name="contacts_match_name">Același nume</string>
+    <string name="contacts_match_phone">Același telefon</string>
+    <string name="contacts_match_email">Același e-mail</string>
+    <string name="vault_pin_incorrect">Cod PIN incorect. Încearcă din nou.</string>
+    <string name="billing_error_no_offer">Nu există nicio ofertă disponibilă pentru acest produs</string>
+    <string name="billing_error_purchase_failed">Achiziția a eșuat: %s</string>
+    <string name="billing_error_acknowledge">Confirmarea achiziției a eșuat</string>
+    <string name="archive_failed_message">Arhivarea a eșuat: %s</string>
+    <string name="archive_signin_failed_message">Conectarea a eșuat: %s</string>
+    <string name="paywall_ctx_generic_title">Deblochează Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">Curățări nelimitate și eliminarea duplicatelor</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">Curățări nelimitate de fotografii incluse</string>
+    <string name="paywall_ctx_screenshots_subtitle">Șterge capturile de ecran în masă oricând</string>
+    <string name="paywall_ctx_videos_subtitle">Comprimă și șterge videoclipurile mari</string>
+    <string name="paywall_ctx_compress_title">Economisești %s GB prin comprimare</string>
+    <string name="paywall_ctx_contacts_subtitle">Păstrează-ți contactele organizate</string>
+    <string name="paywall_ctx_archive_subtitle">Păstrează fișierele în siguranță în cloud, în loc să le ștergi</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="one">Elimină %d duplicat dintr-o atingere</item>
+        <item quantity="few">Elimină %d duplicate dintr-o atingere</item>
+        <item quantity="other">Elimină %d de duplicate dintr-o atingere</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="one">Curăță %d fotografie similară</item>
+        <item quantity="few">Curăță %d fotografii similare</item>
+        <item quantity="other">Curăță %d de fotografii similare</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="one">Șterge instantaneu %d captură de ecran</item>
+        <item quantity="few">Șterge instantaneu %d capturi de ecran</item>
+        <item quantity="other">Șterge instantaneu %d de capturi de ecran</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="one">Eliberează %2$s GB dintr-un videoclip (%1$d)</item>
+        <item quantity="few">Eliberează %2$s GB din %1$d videoclipuri</item>
+        <item quantity="other">Eliberează %2$s GB din %1$d de videoclipuri</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="one">Îmbină %d contact duplicat</item>
+        <item quantity="few">Îmbină %d contacte duplicate</item>
+        <item quantity="other">Îmbină %d de contacte duplicate</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="one">Arhivează %1$d element (%2$s GB)</item>
+        <item quantity="few">Arhivează %1$d elemente (%2$s GB)</item>
+        <item quantity="other">Arhivează %1$d de elemente (%2$s GB)</item>
+    </plurals>
+</resources>
