@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">الوصول إلى صورك وفيديوهاتك</string>
     <string name="onboarding_media_granted_subtitle">سنفحص جميع صورك وفيديوهاتك بحثًا عن المكررات والصور المتشابهة والملفات الكبيرة.</string>
     <string name="onboarding_media_request_subtitle">للعثور على المكررات وتحرير المساحة، نحتاج إلى الوصول إلى صورك وفيديوهاتك.</string>
-    <string name="onboarding_feature_private_title">خصوصية 100%</string>
+    <string name="onboarding_feature_private_title" formatted="false">خصوصية 100%</string>
     <string name="onboarding_feature_private_subtitle">يتم الفحص بالكامل على الجهاز</string>
     <string name="onboarding_feature_fast_title">فحص سريع</string>
     <string name="onboarding_feature_fast_subtitle">يستغرق أقل من 30 ثانية</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">خاص وآمن</string>
     <string name="paywall_feature_private_subtitle">يتم الفحص بالكامل على جهازك</string>
     <string name="paywall_best_value">أفضل قيمة</string>
-    <string name="paywall_save_75">وفّر 75%% مقارنة بالشهري</string>
+    <string name="paywall_save_75" formatted="false">وفّر 75% مقارنة بالشهري</string>
     <string name="paywall_continue">متابعة</string>
     <string name="paywall_restore">استعادة المشتريات</string>
     <string name="paywall_terms">يتم تجديد الاشتراكات تلقائيًا. يمكنك الإلغاء في أي وقت من إعدادات Google Play.</string>

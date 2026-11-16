@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">เข้าถึงภาพถ่ายและวิดีโอของคุณ</string>
     <string name="onboarding_media_granted_subtitle">เราจะสแกนภาพถ่ายและวิดีโอทั้งหมดของคุณเพื่อหารายการซ้ำ ภาพคล้ายกัน และไฟล์ขนาดใหญ่</string>
     <string name="onboarding_media_request_subtitle">เพื่อค้นหารายการซ้ำและเพิ่มพื้นที่ว่าง เราต้องการเข้าถึงภาพถ่ายและวิดีโอของคุณ</string>
-    <string name="onboarding_feature_private_title">เป็นส่วนตัว 100%</string>
+    <string name="onboarding_feature_private_title" formatted="false">เป็นส่วนตัว 100%</string>
     <string name="onboarding_feature_private_subtitle">การสแกนทั้งหมดทำบนอุปกรณ์</string>
     <string name="onboarding_feature_fast_title">สแกนเร็ว</string>
     <string name="onboarding_feature_fast_subtitle">ใช้เวลาน้อยกว่า 30 วินาที</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">เป็นส่วนตัว &amp; ปลอดภัย</string>
     <string name="paywall_feature_private_subtitle">การสแกนทั้งหมดทำบนอุปกรณ์ของคุณ</string>
     <string name="paywall_best_value">คุ้มค่าที่สุด</string>
-    <string name="paywall_save_75">ประหยัด 75%% เทียบกับรายเดือน</string>
+    <string name="paywall_save_75" formatted="false">ประหยัด 75% เทียบกับรายเดือน</string>
     <string name="paywall_continue">ดำเนินการต่อ</string>
     <string name="paywall_restore">กู้คืนการซื้อ</string>
     <string name="paywall_terms">การสมัครสมาชิกต่ออายุอัตโนมัติ ยกเลิกได้ทุกเมื่อในการตั้งค่า Google Play</string>

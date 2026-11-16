@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">Доступ к фото и видео</string>
     <string name="onboarding_media_granted_subtitle">Мы просканируем все ваши фото и видео на наличие дубликатов, похожих снимков и больших файлов.</string>
     <string name="onboarding_media_request_subtitle">Для поиска дубликатов и освобождения места нам нужен доступ к вашим фото и видео.</string>
-    <string name="onboarding_feature_private_title">100% конфиденциально</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% конфиденциально</string>
     <string name="onboarding_feature_private_subtitle">Сканирование происходит на устройстве</string>
     <string name="onboarding_feature_fast_title">Быстрое сканирование</string>
     <string name="onboarding_feature_fast_subtitle">Занимает менее 30 секунд</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">Конфиденциально и безопасно</string>
     <string name="paywall_feature_private_subtitle">Сканирование происходит на вашем устройстве</string>
     <string name="paywall_best_value">ЛУЧШЕЕ ПРЕДЛОЖЕНИЕ</string>
-    <string name="paywall_save_75">Экономия 75%% по сравнению с ежемесячной</string>
+    <string name="paywall_save_75" formatted="false">Экономия 75% по сравнению с ежемесячной</string>
     <string name="paywall_continue">Продолжить</string>
     <string name="paywall_restore">Восстановить покупки</string>
     <string name="paywall_terms">Подписки продлеваются автоматически. Отмена в любое время в настройках Google Play.</string>

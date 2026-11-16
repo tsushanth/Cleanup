@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">Auf Fotos &amp; Videos zugreifen</string>
     <string name="onboarding_media_granted_subtitle">Wir scannen alle Ihre Fotos und Videos nach Duplikaten, \u00e4hnlichen Aufnahmen und Speicherfressern.</string>
     <string name="onboarding_media_request_subtitle">Um Duplikate zu finden und Speicher freizugeben, ben\u00f6tigen wir Zugriff auf Ihre Fotos und Videos.</string>
-    <string name="onboarding_feature_private_title">100%% Privat</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% Privat</string>
     <string name="onboarding_feature_private_subtitle">Alle Scans erfolgen auf dem Ger\u00e4t</string>
     <string name="onboarding_feature_fast_title">Schneller Scan</string>
     <string name="onboarding_feature_fast_subtitle">Dauert weniger als 30 Sekunden</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">Privat &amp; Sicher</string>
     <string name="paywall_feature_private_subtitle">Alle Scans erfolgen auf Ihrem Ger\u00e4t</string>
     <string name="paywall_best_value">BESTES ANGEBOT</string>
-    <string name="paywall_save_75">75%% sparen vs. monatlich</string>
+    <string name="paywall_save_75" formatted="false">75% sparen vs. monatlich</string>
     <string name="paywall_continue">Weiter</string>
     <string name="paywall_restore">K\u00e4ufe wiederherstellen</string>
     <string name="paywall_terms">Abonnements verl\u00e4ngern sich automatisch. Jederzeit in den Google Play-Einstellungen k\u00fcndbar.</string>

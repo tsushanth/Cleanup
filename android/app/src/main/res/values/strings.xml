@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">Access your photos &amp; videos</string>
     <string name="onboarding_media_granted_subtitle">We\'ll scan all your photos and videos for duplicates, similar shots, and space hogs.</string>
     <string name="onboarding_media_request_subtitle">To find duplicates and free up space, we need access to your photos and videos.</string>
-    <string name="onboarding_feature_private_title">100% Private</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% Private</string>
     <string name="onboarding_feature_private_subtitle">All scanning happens on-device</string>
     <string name="onboarding_feature_fast_title">Fast Scan</string>
     <string name="onboarding_feature_fast_subtitle">Takes less than 30 seconds</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">Private &amp; Secure</string>
     <string name="paywall_feature_private_subtitle">All scanning happens on your device</string>
     <string name="paywall_best_value">BEST VALUE</string>
-    <string name="paywall_save_75">Save 75%% vs monthly</string>
+    <string name="paywall_save_75" formatted="false">Save 75% vs monthly</string>
     <string name="paywall_continue">Continue</string>
     <string name="paywall_restore">Restore Purchases</string>
     <string name="paywall_terms">Subscriptions auto-renew. Cancel anytime in Google Play settings.</string>

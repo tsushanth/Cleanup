@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">I-access ang iyong mga larawan at video</string>
     <string name="onboarding_media_granted_subtitle">I-scan namin ang lahat ng iyong larawan at video para sa mga duplicate, magkakahawig na shot, at malalaking file.</string>
     <string name="onboarding_media_request_subtitle">Para makahanap ng mga duplicate at makapagpalaya ng espasyo, kailangan namin ng access sa iyong mga larawan at video.</string>
-    <string name="onboarding_feature_private_title">100% Pribado</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% Pribado</string>
     <string name="onboarding_feature_private_subtitle">Lahat ng pag-scan ay nangyayari sa device</string>
     <string name="onboarding_feature_fast_title">Mabilis na Scan</string>
     <string name="onboarding_feature_fast_subtitle">Wala pang 30 segundo</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">Pribado at Ligtas</string>
     <string name="paywall_feature_private_subtitle">Lahat ng pag-scan ay nangyayari sa iyong device</string>
     <string name="paywall_best_value">PINAKAMAHUSAY NA HALAGA</string>
-    <string name="paywall_save_75">Makatipid ng 75%% kumpara sa buwanan</string>
+    <string name="paywall_save_75" formatted="false">Makatipid ng 75% kumpara sa buwanan</string>
     <string name="paywall_continue">Magpatuloy</string>
     <string name="paywall_restore">Ibalik ang mga Binili</string>
     <string name="paywall_terms">Awtomatikong nagre-renew ang mga subscription. Kanselahin anumang oras sa mga setting ng Google Play.</string>

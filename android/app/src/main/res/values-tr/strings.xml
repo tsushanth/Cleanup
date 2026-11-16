@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">Fotoğraf ve videolarınıza erişin</string>
     <string name="onboarding_media_granted_subtitle">Tüm fotoğraf ve videolarınızı yinelenenler, benzer çekimler ve büyük dosyalar için tarayacağız.</string>
     <string name="onboarding_media_request_subtitle">Yinelenenleri bulmak ve alan açmak için fotoğraf ve videolarınıza erişmemiz gerekiyor.</string>
-    <string name="onboarding_feature_private_title">%100 Gizli</string>
+    <string name="onboarding_feature_private_title" formatted="false">%100 Gizli</string>
     <string name="onboarding_feature_private_subtitle">Tüm tarama cihazda gerçekleşir</string>
     <string name="onboarding_feature_fast_title">Hızlı Tarama</string>
     <string name="onboarding_feature_fast_subtitle">30 saniyeden kısa sürer</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">Gizli ve Güvenli</string>
     <string name="paywall_feature_private_subtitle">Tüm tarama cihazınızda gerçekleşir</string>
     <string name="paywall_best_value">EN İYİ DEĞER</string>
-    <string name="paywall_save_75">Aylığa göre %%75 tasarruf edin</string>
+    <string name="paywall_save_75" formatted="false">Aylığa göre %75 tasarruf edin</string>
     <string name="paywall_continue">Devam</string>
     <string name="paywall_restore">Satın Alımları Geri Yükle</string>
     <string name="paywall_terms">Abonelikler otomatik olarak yenilenir. İstediğiniz zaman Google Play ayarlarından iptal edebilirsiniz.</string>

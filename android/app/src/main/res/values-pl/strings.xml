@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">Dostęp do twoich zdjęć i filmów</string>
     <string name="onboarding_media_granted_subtitle">Przeskanujemy wszystkie twoje zdjęcia i filmy w poszukiwaniu duplikatów, podobnych ujęć i dużych plików.</string>
     <string name="onboarding_media_request_subtitle">Aby znaleźć duplikaty i zwolnić miejsce, potrzebujemy dostępu do twoich zdjęć i filmów.</string>
-    <string name="onboarding_feature_private_title">100% prywatne</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% prywatne</string>
     <string name="onboarding_feature_private_subtitle">Skanowanie odbywa się na urządzeniu</string>
     <string name="onboarding_feature_fast_title">Szybkie skanowanie</string>
     <string name="onboarding_feature_fast_subtitle">Trwa mniej niż 30 sekund</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">Prywatne i bezpieczne</string>
     <string name="paywall_feature_private_subtitle">Skanowanie odbywa się na twoim urządzeniu</string>
     <string name="paywall_best_value">NAJLEPSZA WARTOŚĆ</string>
-    <string name="paywall_save_75">Oszczędź 75%% w porównaniu z miesięcznym</string>
+    <string name="paywall_save_75" formatted="false">Oszczędź 75% w porównaniu z miesięcznym</string>
     <string name="paywall_continue">Kontynuuj</string>
     <string name="paywall_restore">Przywróć zakupy</string>
     <string name="paywall_terms">Subskrypcje odnawiają się automatycznie. Anuluj w dowolnym momencie w ustawieniach Google Play.</string>

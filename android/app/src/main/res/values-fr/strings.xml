@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">Acc\u00e9dez \u00e0 vos photos et vid\u00e9os</string>
     <string name="onboarding_media_granted_subtitle">Nous analyserons toutes vos photos et vid\u00e9os pour trouver les doublons, les clich\u00e9s similaires et les fichiers volumineux.</string>
     <string name="onboarding_media_request_subtitle">Pour trouver les doublons et lib\u00e9rer de l\'espace, nous avons besoin d\'acc\u00e9der \u00e0 vos photos et vid\u00e9os.</string>
-    <string name="onboarding_feature_private_title">100%% Priv\u00e9</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% Priv\u00e9</string>
     <string name="onboarding_feature_private_subtitle">Toute l\'analyse se fait sur l\'appareil</string>
     <string name="onboarding_feature_fast_title">Analyse rapide</string>
     <string name="onboarding_feature_fast_subtitle">Prend moins de 30 secondes</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">Priv\u00e9 et s\u00e9curis\u00e9</string>
     <string name="paywall_feature_private_subtitle">Toute l\'analyse se fait sur votre appareil</string>
     <string name="paywall_best_value">MEILLEURE OFFRE</string>
-    <string name="paywall_save_75">\u00c9conomisez 75%% vs mensuel</string>
+    <string name="paywall_save_75" formatted="false">\u00c9conomisez 75% vs mensuel</string>
     <string name="paywall_continue">Continuer</string>
     <string name="paywall_restore">Restaurer les achats</string>
     <string name="paywall_terms">Les abonnements se renouvellent automatiquement. Annulez \u00e0 tout moment dans les param\u00e8tres Google Play.</string>

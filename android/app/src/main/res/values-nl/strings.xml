@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">Toegang tot je foto\'s &amp; video\'s</string>
     <string name="onboarding_media_granted_subtitle">We scannen al je foto\'s en video\'s op duplicaten, vergelijkbare opnames en grote bestanden.</string>
     <string name="onboarding_media_request_subtitle">Om duplicaten te vinden en ruimte vrij te maken, hebben we toegang tot je foto\'s en video\'s nodig.</string>
-    <string name="onboarding_feature_private_title">100% Privé</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% Privé</string>
     <string name="onboarding_feature_private_subtitle">Alle scans gebeuren op het apparaat</string>
     <string name="onboarding_feature_fast_title">Snelle scan</string>
     <string name="onboarding_feature_fast_subtitle">Duurt minder dan 30 seconden</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">Privé &amp; veilig</string>
     <string name="paywall_feature_private_subtitle">Alle scans gebeuren op je apparaat</string>
     <string name="paywall_best_value">BESTE WAARDE</string>
-    <string name="paywall_save_75">Bespaar 75%% t.o.v. maandelijks</string>
+    <string name="paywall_save_75" formatted="false">Bespaar 75% t.o.v. maandelijks</string>
     <string name="paywall_continue">Doorgaan</string>
     <string name="paywall_restore">Aankopen herstellen</string>
     <string name="paywall_terms">Abonnementen worden automatisch verlengd. Annuleer op elk moment in de Google Play-instellingen.</string>

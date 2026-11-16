@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">Akses foto &amp; video anda</string>
     <string name="onboarding_media_granted_subtitle">Kami akan mengimbas semua foto dan video anda untuk mencari pendua, gambar serupa, dan fail besar.</string>
     <string name="onboarding_media_request_subtitle">Untuk mencari pendua dan membebaskan ruang, kami perlu akses ke foto dan video anda.</string>
-    <string name="onboarding_feature_private_title">100% Peribadi</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% Peribadi</string>
     <string name="onboarding_feature_private_subtitle">Semua imbasan berlaku pada peranti</string>
     <string name="onboarding_feature_fast_title">Imbasan Pantas</string>
     <string name="onboarding_feature_fast_subtitle">Mengambil masa kurang dari 30 saat</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">Peribadi &amp; Selamat</string>
     <string name="paywall_feature_private_subtitle">Semua imbasan berlaku pada peranti anda</string>
     <string name="paywall_best_value">NILAI TERBAIK</string>
-    <string name="paywall_save_75">Jimat 75%% berbanding bulanan</string>
+    <string name="paywall_save_75" formatted="false">Jimat 75% berbanding bulanan</string>
     <string name="paywall_continue">Teruskan</string>
     <string name="paywall_restore">Pulihkan Pembelian</string>
     <string name="paywall_terms">Langganan diperbaharui secara automatik. Batalkan bila-bila masa dalam tetapan Google Play.</string>

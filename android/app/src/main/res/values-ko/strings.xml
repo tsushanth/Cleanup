@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">\uc0ac\uc9c4 \ubc0f \ub3d9\uc601\uc0c1 \uc561\uc138\uc2a4</string>
     <string name="onboarding_media_granted_subtitle">\ubaa8\ub4e0 \uc0ac\uc9c4\uacfc \ub3d9\uc601\uc0c1\uc744 \uc2a4\uccea\ud558\uc5ec \uc911\ubcf5, \uc720\uc0ac\ud55c \uc0f7, \uacf5\uac04\uc744 \ucc28\uc9c0\ud558\ub294 \ud30c\uc77c\uc744 \ucc3e\uc2b5\ub2c8\ub2e4.</string>
     <string name="onboarding_media_request_subtitle">\uc911\ubcf5\uc744 \ucc3e\uace0 \uacf5\uac04\uc744 \ud655\ubcf4\ud558\ub824\uba74 \uc0ac\uc9c4\uacfc \ub3d9\uc601\uc0c1\uc5d0 \ub300\ud55c \uc561\uc138\uc2a4\uac00 \ud544\uc694\ud569\ub2c8\ub2e4.</string>
-    <string name="onboarding_feature_private_title">100%% \ube44\uacf5\uac1c</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% \ube44\uacf5\uac1c</string>
     <string name="onboarding_feature_private_subtitle">\ubaa8\ub4e0 \uc2a4\uccea\uc740 \uae30\uae30\uc5d0\uc11c \uc218\ud589\ub429\ub2c8\ub2e4</string>
     <string name="onboarding_feature_fast_title">\ube60\ub978 \uc2a4\uccea</string>
     <string name="onboarding_feature_fast_subtitle">30\ucd08 \uc774\ub0b4 \uc644\ub8cc</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">\ube44\uacf5\uac1c \ubc0f \uc548\uc804</string>
     <string name="paywall_feature_private_subtitle">\ubaa8\ub4e0 \uc2a4\uccea\uc740 \uae30\uae30\uc5d0\uc11c \uc218\ud589\ub429\ub2c8\ub2e4</string>
     <string name="paywall_best_value">\ucd5c\uace0 \uac00\uce58</string>
-    <string name="paywall_save_75">\uc6d4\uac04 \ub300\ube44 75%% \uc808\uc57d</string>
+    <string name="paywall_save_75" formatted="false">\uc6d4\uac04 \ub300\ube44 75% \uc808\uc57d</string>
     <string name="paywall_continue">\uacc4\uc18d</string>
     <string name="paywall_restore">\uad6c\ub9e4 \ubcf5\uc6d0</string>
     <string name="paywall_terms">\uad6c\ub3c5\uc740 \uc790\ub3d9 \uac31\uc2e0\ub429\ub2c8\ub2e4. Google Play \uc124\uc815\uc5d0\uc11c \uc5b8\uc81c\ub4e0\uc9c0 \ucde8\uc18c\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.</string>

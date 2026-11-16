@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">Truy cập ảnh &amp; video của bạn</string>
     <string name="onboarding_media_granted_subtitle">Chúng tôi sẽ quét tất cả ảnh và video của bạn để tìm trùng lặp, ảnh tương tự và tệp lớn.</string>
     <string name="onboarding_media_request_subtitle">Để tìm trùng lặp và giải phóng dung lượng, chúng tôi cần truy cập ảnh và video của bạn.</string>
-    <string name="onboarding_feature_private_title">Riêng tư 100%</string>
+    <string name="onboarding_feature_private_title" formatted="false">Riêng tư 100%</string>
     <string name="onboarding_feature_private_subtitle">Tất cả quét diễn ra trên thiết bị</string>
     <string name="onboarding_feature_fast_title">Quét Nhanh</string>
     <string name="onboarding_feature_fast_subtitle">Mất chưa đến 30 giây</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">Riêng Tư &amp; An Toàn</string>
     <string name="paywall_feature_private_subtitle">Tất cả quét diễn ra trên thiết bị của bạn</string>
     <string name="paywall_best_value">GIÁ TRỊ TỐT NHẤT</string>
-    <string name="paywall_save_75">Tiết kiệm 75%% so với hàng tháng</string>
+    <string name="paywall_save_75" formatted="false">Tiết kiệm 75% so với hàng tháng</string>
     <string name="paywall_continue">Tiếp tục</string>
     <string name="paywall_restore">Khôi Phục Mua Hàng</string>
     <string name="paywall_terms">Đăng ký tự động gia hạn. Hủy bất cứ lúc nào trong cài đặt Google Play.</string>

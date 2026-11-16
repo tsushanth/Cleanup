@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">Akses foto &amp; video Anda</string>
     <string name="onboarding_media_granted_subtitle">Kami akan memindai semua foto dan video Anda untuk menemukan duplikat, foto mirip, dan file besar.</string>
     <string name="onboarding_media_request_subtitle">Untuk menemukan duplikat dan membebaskan ruang, kami perlu akses ke foto dan video Anda.</string>
-    <string name="onboarding_feature_private_title">100% Privat</string>
+    <string name="onboarding_feature_private_title" formatted="false">100% Privat</string>
     <string name="onboarding_feature_private_subtitle">Semua pemindaian dilakukan di perangkat</string>
     <string name="onboarding_feature_fast_title">Pindai Cepat</string>
     <string name="onboarding_feature_fast_subtitle">Kurang dari 30 detik</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">Privat &amp; Aman</string>
     <string name="paywall_feature_private_subtitle">Semua pemindaian dilakukan di perangkat Anda</string>
     <string name="paywall_best_value">NILAI TERBAIK</string>
-    <string name="paywall_save_75">Hemat 75%% dibanding bulanan</string>
+    <string name="paywall_save_75" formatted="false">Hemat 75% dibanding bulanan</string>
     <string name="paywall_continue">Lanjutkan</string>
     <string name="paywall_restore">Pulihkan Pembelian</string>
     <string name="paywall_terms">Langganan diperpanjang otomatis. Batalkan kapan saja di pengaturan Google Play.</string>

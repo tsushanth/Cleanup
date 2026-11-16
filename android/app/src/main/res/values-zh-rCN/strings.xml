@@ -42,7 +42,7 @@
     <string name="onboarding_media_request_title">\u8bbf\u95ee\u60a8\u7684\u7167\u7247\u548c\u89c6\u9891</string>
     <string name="onboarding_media_granted_subtitle">\u6211\u4eec\u5c06\u626b\u63cf\u60a8\u6240\u6709\u7684\u7167\u7247\u548c\u89c6\u9891\uff0c\u67e5\u627e\u91cd\u590d\u3001\u76f8\u4f3c\u7167\u7247\u548c\u5360\u7528\u7a7a\u95f4\u7684\u6587\u4ef6\u3002</string>
     <string name="onboarding_media_request_subtitle">\u8981\u67e5\u627e\u91cd\u590d\u6587\u4ef6\u5e76\u91ca\u653e\u7a7a\u95f4\uff0c\u6211\u4eec\u9700\u8981\u8bbf\u95ee\u60a8\u7684\u7167\u7247\u548c\u89c6\u9891\u3002</string>
-    <string name="onboarding_feature_private_title">100%%\u79c1\u5bc6</string>
+    <string name="onboarding_feature_private_title" formatted="false">100%\u79c1\u5bc6</string>
     <string name="onboarding_feature_private_subtitle">\u6240\u6709\u626b\u63cf\u5747\u5728\u8bbe\u5907\u4e0a\u8fdb\u884c</string>
     <string name="onboarding_feature_fast_title">\u5feb\u901f\u626b\u63cf</string>
     <string name="onboarding_feature_fast_subtitle">\u4e0d\u523030\u79d2</string>
@@ -88,7 +88,7 @@
     <string name="paywall_feature_private_title">\u79c1\u5bc6\u4e14\u5b89\u5168</string>
     <string name="paywall_feature_private_subtitle">\u6240\u6709\u626b\u63cf\u5747\u5728\u8bbe\u5907\u4e0a\u8fdb\u884c</string>
     <string name="paywall_best_value">\u6700\u4f73\u4ef7\u503c</string>
-    <string name="paywall_save_75">\u6bd4\u6708\u4ed8\u8282\u7701 75%%</string>
+    <string name="paywall_save_75" formatted="false">\u6bd4\u6708\u4ed8\u8282\u7701 75%</string>
     <string name="paywall_continue">\u7ee7\u7eed</string>
     <string name="paywall_restore">\u6062\u590d\u8d2d\u4e70</string>
     <string name="paywall_terms">\u8ba2\u9605\u81ea\u52a8\u7eed\u8d39\u3002\u53ef\u968f\u65f6\u5728 Google Play \u8bbe\u7f6e\u4e2d\u53d6\u6d88\u3002</string>
