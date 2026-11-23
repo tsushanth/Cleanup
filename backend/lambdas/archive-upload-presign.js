@@ -27,25 +27,25 @@ function getUserId(event) {
 exports.handler = async (event) => {
   try {
     const userId = getUserId(event);
-    if (!userId) { return response(400, { error: 'Missing user identity' }); }
+    if (!userId) { return response(400, { error: 'Missing user identity', code: 'MISSING_IDENTITY' }); }
     const body = JSON.parse(event.body);
     const { itemId, filename, fileSize, mimeType, storageTier } = body;
 
     if (!itemId || !filename || !fileSize || !storageTier) {
-      return response(400, { error: 'Missing required fields' });
+      return response(400, { error: 'Missing required fields', code: 'MISSING_FIELDS' });
     }
 
     // Check user quota
     const user = await getUser(userId);
     if (!user) {
-      return response(404, { error: 'User not found' });
+      return response(404, { error: 'User not found', code: 'USER_NOT_FOUND' });
     }
 
     const quotaBytes = parseInt(user.storageQuotaBytes?.N || '0');
     const usedBytes = parseInt(user.storageUsedBytes?.N || '0');
 
     if (usedBytes + fileSize > quotaBytes) {
-      return response(413, { error: 'Storage quota exceeded' });
+      return response(413, { error: 'Storage quota exceeded', code: 'QUOTA_EXCEEDED' });
     }
 
     // Generate presigned URL
@@ -68,7 +68,7 @@ exports.handler = async (event) => {
     });
   } catch (error) {
     console.error('Error:', error);
-    return response(500, { error: 'Internal server error' });
+    return response(500, { error: 'Internal server error', code: 'INTERNAL_ERROR' });
   }
 };
 

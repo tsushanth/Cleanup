@@ -414,4 +414,40 @@
     <plurals name="paywall_ctx_archive_title">
         <item quantity="other">เก็บถาวร %1$d รายการ (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">เข้าถึงทันที</string>
+    <string name="archive_tier_flexible">เรียกคืนแบบยืดหยุ่น</string>
+    <string name="archive_tier_deep">คลังข้อมูลระยะยาว</string>
+    <string name="archive_retrieval_instant">ทันที</string>
+    <string name="archive_retrieval_flexible">3-5 ชั่วโมง</string>
+    <string name="archive_retrieval_deep">สูงสุด 12 ชั่วโมง</string>
+    <string name="archive_status_pending">รอดำเนินการ</string>
+    <string name="archive_status_uploading">กำลังอัปโหลด %1$d%%</string>
+    <string name="archive_status_uploaded">อัปโหลดแล้ว</string>
+    <string name="archive_status_archived">เก็บถาวรแล้ว</string>
+    <string name="archive_status_retrieving">กำลังเรียกคืน...</string>
+    <string name="archive_status_ready">พร้อมดาวน์โหลด</string>
+    <string name="archive_status_failed">ล้มเหลว: %1$s</string>
+    <string name="archive_file_photo">รูปภาพ</string>
+    <string name="archive_file_video">วิดีโอ</string>
+    <string name="archive_file_contact">รายชื่อติดต่อ</string>
+    <string name="archive_file_vault">รายการในห้องนิรภัย</string>
+    <string name="archive_price_per_month">%1$s/เดือน</string>
+    <string name="subscription_status_pro">สมาชิก Pro</string>
+    <string name="subscription_status_free">ฟรี</string>
+    <string name="archive_error_not_authenticated">โปรดลงชื่อเข้าใช้เพื่อใช้คลังข้อมูลบนคลาวด์</string>
+    <string name="archive_error_invalid_request">คำขอไม่ถูกต้อง โปรดลองอีกครั้ง</string>
+    <string name="archive_error_item_not_found">ไม่พบรายการนี้ในคลังข้อมูลของคุณ</string>
+    <string name="archive_error_user_not_found">ไม่พบบัญชีคลังข้อมูลของคุณ โปรดลงชื่อเข้าใช้อีกครั้ง</string>
+    <string name="archive_error_quota_exceeded">พื้นที่คลังข้อมูลไม่เพียงพอ อัปเกรดแพ็กเกจหรือลบรายการ</string>
+    <string name="archive_error_server">บริการคลังข้อมูลมีปัญหา โปรดลองอีกครั้งภายหลัง</string>
+    <string name="archive_error_network">เครือข่ายมีปัญหา ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง</string>
+    <string name="archive_error_generic">เกิดข้อผิดพลาดบางอย่าง โปรดลองอีกครั้ง</string>
+    <string name="archive_error_upload_failed">อัปโหลดไม่สำเร็จ โปรดลองอีกครั้ง</string>
 </resources>

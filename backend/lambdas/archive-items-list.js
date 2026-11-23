@@ -16,7 +16,7 @@ function getUserId(event) {
 exports.handler = async (event) => {
   try {
     const userId = getUserId(event);
-    if (!userId) { return response(400, { error: 'Missing user identity' }); }
+    if (!userId) { return response(400, { error: 'Missing user identity', code: 'MISSING_IDENTITY' }); }
     const limit = parseInt(event.queryStringParameters?.limit || '50');
     const cursor = event.queryStringParameters?.cursor;
 
@@ -66,7 +66,7 @@ exports.handler = async (event) => {
     });
   } catch (error) {
     console.error('Error:', error);
-    return response(500, { error: 'Internal server error' });
+    return response(500, { error: 'Internal server error', code: 'INTERNAL_ERROR' });
   }
 };
 

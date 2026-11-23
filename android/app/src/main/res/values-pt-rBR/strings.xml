@@ -430,4 +430,40 @@
         <item quantity="many">Arquive %1$d itens (%2$s GB)</item>
         <item quantity="other">Arquive %1$d itens (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Acesso instantâneo</string>
+    <string name="archive_tier_flexible">Recuperação flexível</string>
+    <string name="archive_tier_deep">Arquivo profundo</string>
+    <string name="archive_retrieval_instant">Instantâneo</string>
+    <string name="archive_retrieval_flexible">3 a 5 horas</string>
+    <string name="archive_retrieval_deep">Até 12 horas</string>
+    <string name="archive_status_pending">Pendente</string>
+    <string name="archive_status_uploading">Enviando %1$d%%</string>
+    <string name="archive_status_uploaded">Enviado</string>
+    <string name="archive_status_archived">Arquivado</string>
+    <string name="archive_status_retrieving">Recuperando...</string>
+    <string name="archive_status_ready">Pronto para baixar</string>
+    <string name="archive_status_failed">Falhou: %1$s</string>
+    <string name="archive_file_photo">Foto</string>
+    <string name="archive_file_video">Vídeo</string>
+    <string name="archive_file_contact">Contato</string>
+    <string name="archive_file_vault">Item do cofre</string>
+    <string name="archive_price_per_month">%1$s/mês</string>
+    <string name="subscription_status_pro">Membro Pro</string>
+    <string name="subscription_status_free">Grátis</string>
+    <string name="archive_error_not_authenticated">Faça login para usar o Arquivo na nuvem.</string>
+    <string name="archive_error_invalid_request">A solicitação era inválida. Tente novamente.</string>
+    <string name="archive_error_item_not_found">Este item não foi encontrado no seu arquivo.</string>
+    <string name="archive_error_user_not_found">Sua conta de arquivo não foi encontrada. Faça login novamente.</string>
+    <string name="archive_error_quota_exceeded">Não há espaço de arquivo suficiente. Faça upgrade do plano ou remova itens.</string>
+    <string name="archive_error_server">O serviço de arquivo está com problemas. Tente novamente mais tarde.</string>
+    <string name="archive_error_network">Problema de rede. Verifique sua conexão e tente novamente.</string>
+    <string name="archive_error_generic">Algo deu errado. Tente novamente.</string>
+    <string name="archive_error_upload_failed">Falha no envio. Tente novamente.</string>
 </resources>

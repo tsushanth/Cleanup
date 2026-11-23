@@ -1,5 +1,7 @@
 package com.kreativekoala.cleanup.billing
 
+import androidx.annotation.StringRes
+import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.data.model.ArchiveSubscriptionTier
 import com.kreativekoala.cleanup.data.model.ProductIds
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -28,8 +30,10 @@ class EntitlementManager @Inject constructor(
     private val _currentArchiveTier = MutableStateFlow<ArchiveSubscriptionTier?>(null)
     val currentArchiveTier: StateFlow<ArchiveSubscriptionTier?> = _currentArchiveTier.asStateFlow()
 
-    val subscriptionStatusText: String
-        get() = if (_isPro.value) "Pro Member" else "Free"
+    /** Status label as a string resource id (resolve in the UI in the user's language). */
+    @get:StringRes
+    val subscriptionStatusRes: Int
+        get() = if (_isPro.value) R.string.subscription_status_pro else R.string.subscription_status_free
 
     init {
         billingManager.setOnPurchasesProcessed { activeProductIds ->

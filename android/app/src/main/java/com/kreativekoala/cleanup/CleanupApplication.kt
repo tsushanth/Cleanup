@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.hilt.work.HiltWorkerFactory
 import androidx.work.Configuration
 import com.kreativekoala.cleanup.billing.BillingManager
+import com.kreativekoala.cleanup.util.ByteFormatter
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
 
@@ -23,6 +24,7 @@ class CleanupApplication : Application(), Configuration.Provider {
 
     override fun onCreate() {
         super.onCreate()
+        ByteFormatter.init(this)
         billingManager.initialize()
     }
 }

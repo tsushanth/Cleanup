@@ -464,4 +464,40 @@
         <item quantity="many">Archiva %1$d elementos (%2$s GB)</item>
         <item quantity="other">Archiva %1$d elementos (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Acceso instantáneo</string>
+    <string name="archive_tier_flexible">Recuperación flexible</string>
+    <string name="archive_tier_deep">Archivo profundo</string>
+    <string name="archive_retrieval_instant">Instantáneo</string>
+    <string name="archive_retrieval_flexible">3-5 horas</string>
+    <string name="archive_retrieval_deep">Hasta 12 horas</string>
+    <string name="archive_status_pending">Pendiente</string>
+    <string name="archive_status_uploading">Subiendo %1$d%%</string>
+    <string name="archive_status_uploaded">Subido</string>
+    <string name="archive_status_archived">Archivado</string>
+    <string name="archive_status_retrieving">Recuperando...</string>
+    <string name="archive_status_ready">Listo para descargar</string>
+    <string name="archive_status_failed">Error: %1$s</string>
+    <string name="archive_file_photo">Foto</string>
+    <string name="archive_file_video">Vídeo</string>
+    <string name="archive_file_contact">Contacto</string>
+    <string name="archive_file_vault">Elemento de la caja fuerte</string>
+    <string name="archive_price_per_month">%1$s/mes</string>
+    <string name="subscription_status_pro">Miembro Pro</string>
+    <string name="subscription_status_free">Gratis</string>
+    <string name="archive_error_not_authenticated">Inicia sesión para usar el archivo en la nube.</string>
+    <string name="archive_error_invalid_request">La solicitud no era válida. Inténtalo de nuevo.</string>
+    <string name="archive_error_item_not_found">No se encontró este elemento en tu archivo.</string>
+    <string name="archive_error_user_not_found">No se encontró tu cuenta de archivo. Inicia sesión de nuevo.</string>
+    <string name="archive_error_quota_exceeded">No queda suficiente espacio de archivo. Mejora tu plan o elimina elementos.</string>
+    <string name="archive_error_server">El servicio de archivo tiene problemas. Inténtalo de nuevo más tarde.</string>
+    <string name="archive_error_network">Problema de red. Comprueba tu conexión e inténtalo de nuevo.</string>
+    <string name="archive_error_generic">Algo salió mal. Inténtalo de nuevo.</string>
+    <string name="archive_error_upload_failed">Error al subir. Inténtalo de nuevo.</string>
 </resources>

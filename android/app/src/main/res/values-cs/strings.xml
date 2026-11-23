@@ -469,4 +469,40 @@
         <item quantity="many">Archivujte %1$d položky (%2$s GB)</item>
         <item quantity="other">Archivujte %1$d položek (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Okamžitý přístup</string>
+    <string name="archive_tier_flexible">Flexibilní obnovení</string>
+    <string name="archive_tier_deep">Hluboký archiv</string>
+    <string name="archive_retrieval_instant">Okamžitě</string>
+    <string name="archive_retrieval_flexible">3–5 hodin</string>
+    <string name="archive_retrieval_deep">Až 12 hodin</string>
+    <string name="archive_status_pending">Čeká</string>
+    <string name="archive_status_uploading">Nahrávání %1$d%%</string>
+    <string name="archive_status_uploaded">Nahráno</string>
+    <string name="archive_status_archived">Archivováno</string>
+    <string name="archive_status_retrieving">Obnovování...</string>
+    <string name="archive_status_ready">Připraveno ke stažení</string>
+    <string name="archive_status_failed">Selhalo: %1$s</string>
+    <string name="archive_file_photo">Fotka</string>
+    <string name="archive_file_video">Video</string>
+    <string name="archive_file_contact">Kontakt</string>
+    <string name="archive_file_vault">Položka trezoru</string>
+    <string name="archive_price_per_month">%1$s/měsíc</string>
+    <string name="subscription_status_pro">Člen Pro</string>
+    <string name="subscription_status_free">Zdarma</string>
+    <string name="archive_error_not_authenticated">Pro používání cloudového archivu se přihlaste.</string>
+    <string name="archive_error_invalid_request">Požadavek byl neplatný. Zkuste to prosím znovu.</string>
+    <string name="archive_error_item_not_found">Tato položka nebyla ve vašem archivu nalezena.</string>
+    <string name="archive_error_user_not_found">Váš archivní účet nebyl nalezen. Přihlaste se prosím znovu.</string>
+    <string name="archive_error_quota_exceeded">V archivu není dost místa. Upgradujte tarif nebo odstraňte položky.</string>
+    <string name="archive_error_server">Archivní služba má potíže. Zkuste to prosím později.</string>
+    <string name="archive_error_network">Problém se sítí. Zkontrolujte připojení a zkuste to znovu.</string>
+    <string name="archive_error_generic">Něco se pokazilo. Zkuste to prosím znovu.</string>
+    <string name="archive_error_upload_failed">Nahrání selhalo. Zkuste to prosím znovu.</string>
 </resources>

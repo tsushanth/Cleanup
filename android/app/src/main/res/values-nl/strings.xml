@@ -439,4 +439,40 @@
         <item quantity="one">Archiveer %1$d item (%2$s GB)</item>
         <item quantity="other">Archiveer %1$d items (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Directe toegang</string>
+    <string name="archive_tier_flexible">Flexibel ophalen</string>
+    <string name="archive_tier_deep">Diep archief</string>
+    <string name="archive_retrieval_instant">Direct</string>
+    <string name="archive_retrieval_flexible">3-5 uur</string>
+    <string name="archive_retrieval_deep">Tot 12 uur</string>
+    <string name="archive_status_pending">In afwachting</string>
+    <string name="archive_status_uploading">Uploaden %1$d%%</string>
+    <string name="archive_status_uploaded">Geüpload</string>
+    <string name="archive_status_archived">Gearchiveerd</string>
+    <string name="archive_status_retrieving">Ophalen...</string>
+    <string name="archive_status_ready">Klaar om te downloaden</string>
+    <string name="archive_status_failed">Mislukt: %1$s</string>
+    <string name="archive_file_photo">Foto</string>
+    <string name="archive_file_video">Video</string>
+    <string name="archive_file_contact">Contact</string>
+    <string name="archive_file_vault">Kluisitem</string>
+    <string name="archive_price_per_month">%1$s/maand</string>
+    <string name="subscription_status_pro">Pro-lid</string>
+    <string name="subscription_status_free">Gratis</string>
+    <string name="archive_error_not_authenticated">Log in om het cloudarchief te gebruiken.</string>
+    <string name="archive_error_invalid_request">Het verzoek was ongeldig. Probeer het opnieuw.</string>
+    <string name="archive_error_item_not_found">Dit item is niet gevonden in je archief.</string>
+    <string name="archive_error_user_not_found">Je archiefaccount is niet gevonden. Log opnieuw in.</string>
+    <string name="archive_error_quota_exceeded">Onvoldoende archiefopslag. Upgrade je abonnement of verwijder items.</string>
+    <string name="archive_error_server">De archiefdienst heeft problemen. Probeer het later opnieuw.</string>
+    <string name="archive_error_network">Netwerkprobleem. Controleer je verbinding en probeer het opnieuw.</string>
+    <string name="archive_error_generic">Er is iets misgegaan. Probeer het opnieuw.</string>
+    <string name="archive_error_upload_failed">Uploaden mislukt. Probeer het opnieuw.</string>
 </resources>

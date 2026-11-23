@@ -24,7 +24,7 @@ exports.handler = async (event) => {
   try {
     const userId = getUserId(event);
     if (!userId) {
-      return response(400, { error: 'Missing user identity' });
+      return response(400, { error: 'Missing user identity', code: 'MISSING_IDENTITY' });
     }
 
     // Parse subscription info from body
@@ -78,7 +78,7 @@ exports.handler = async (event) => {
     return response(201, { message: 'User registered', userId });
   } catch (error) {
     console.error('Error:', error);
-    return response(500, { error: 'Internal server error' });
+    return response(500, { error: 'Internal server error', code: 'INTERNAL_ERROR' });
   }
 };
 

@@ -17,7 +17,7 @@ function getUserId(event) {
 exports.handler = async (event) => {
   try {
     const userId = getUserId(event);
-    if (!userId) { return response(400, { error: 'Missing user identity' }); }
+    if (!userId) { return response(400, { error: 'Missing user identity', code: 'MISSING_IDENTITY' }); }
 
     const result = await dynamodb.send(new GetItemCommand({
       TableName: USERS_TABLE,
@@ -25,7 +25,7 @@ exports.handler = async (event) => {
     }));
 
     if (!result.Item) {
-      return response(404, { error: 'User not found' });
+      return response(404, { error: 'User not found', code: 'USER_NOT_FOUND' });
     }
 
     const user = result.Item;
@@ -50,7 +50,7 @@ exports.handler = async (event) => {
     });
   } catch (error) {
     console.error('Error:', error);
-    return response(500, { error: 'Internal server error' });
+    return response(500, { error: 'Internal server error', code: 'INTERNAL_ERROR' });
   }
 };
 

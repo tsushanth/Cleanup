@@ -539,4 +539,40 @@
         <item quantity="two">أرشف %1$d عنصرين (%2$s غيغابايت)</item>
         <item quantity="few">أرشف %1$d عناصر (%2$s غيغابايت)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s بايت</string>
+    <string name="size_unit_kb">%1$s ك.ب</string>
+    <string name="size_unit_mb">%1$s م.ب</string>
+    <string name="size_unit_gb">%1$s ج.ب</string>
+    <string name="size_unit_tb">%1$s ت.ب</string>
+    <string name="archive_tier_instant">وصول فوري</string>
+    <string name="archive_tier_flexible">استرجاع مرن</string>
+    <string name="archive_tier_deep">أرشيف عميق</string>
+    <string name="archive_retrieval_instant">فوري</string>
+    <string name="archive_retrieval_flexible">3-5 ساعات</string>
+    <string name="archive_retrieval_deep">حتى 12 ساعة</string>
+    <string name="archive_status_pending">قيد الانتظار</string>
+    <string name="archive_status_uploading">جارٍ الرفع %1$d%%</string>
+    <string name="archive_status_uploaded">تم الرفع</string>
+    <string name="archive_status_archived">مؤرشف</string>
+    <string name="archive_status_retrieving">جارٍ الاسترجاع...</string>
+    <string name="archive_status_ready">جاهز للتنزيل</string>
+    <string name="archive_status_failed">فشل: %1$s</string>
+    <string name="archive_file_photo">صورة</string>
+    <string name="archive_file_video">فيديو</string>
+    <string name="archive_file_contact">جهة اتصال</string>
+    <string name="archive_file_vault">عنصر الخزنة</string>
+    <string name="archive_price_per_month">%1$s/شهر</string>
+    <string name="subscription_status_pro">عضو Pro</string>
+    <string name="subscription_status_free">مجاني</string>
+    <string name="archive_error_not_authenticated">يُرجى تسجيل الدخول لاستخدام الأرشيف السحابي.</string>
+    <string name="archive_error_invalid_request">الطلب غير صالح. يُرجى المحاولة مرة أخرى.</string>
+    <string name="archive_error_item_not_found">لم يتم العثور على هذا العنصر في أرشيفك.</string>
+    <string name="archive_error_user_not_found">لم يتم العثور على حساب الأرشيف الخاص بك. يُرجى تسجيل الدخول مرة أخرى.</string>
+    <string name="archive_error_quota_exceeded">لا توجد مساحة أرشيف كافية. قم بترقية خطتك أو احذف بعض العناصر.</string>
+    <string name="archive_error_server">خدمة الأرشيف تواجه مشكلة. يُرجى المحاولة لاحقًا.</string>
+    <string name="archive_error_network">مشكلة في الشبكة. تحقق من اتصالك وحاول مرة أخرى.</string>
+    <string name="archive_error_generic">حدث خطأ ما. يُرجى المحاولة مرة أخرى.</string>
+    <string name="archive_error_upload_failed">فشل الرفع. يُرجى المحاولة مرة أخرى.</string>
 </resources>

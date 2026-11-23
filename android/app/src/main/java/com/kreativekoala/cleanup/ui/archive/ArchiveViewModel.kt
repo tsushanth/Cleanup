@@ -97,7 +97,7 @@ class ArchiveViewModel @Inject constructor(
                 val quota = archiveService.getQuota()
                 _uiState.update { it.copy(quota = quota) }
             } catch (e: Exception) {
-                _uiState.update { it.copy(errorMessage = e.localizedMessage) }
+                _uiState.update { it.copy(errorMessage = describe(e)) }
             }
         }
     }
@@ -138,7 +138,7 @@ class ArchiveViewModel @Inject constructor(
                 refreshQuota()
             } catch (e: Exception) {
                 _uiState.update {
-                    it.copy(isLoading = false, errorMessage = appContext.getString(R.string.archive_failed_message, e.localizedMessage ?: ""))
+                    it.copy(isLoading = false, errorMessage = appContext.getString(R.string.archive_failed_message, describe(e)))
                 }
             }
         }
@@ -156,7 +156,7 @@ class ArchiveViewModel @Inject constructor(
                 _uiState.update { it.copy(isLoading = false, showSignIn = false) }
             } catch (e: Exception) {
                 _uiState.update {
-                    it.copy(isLoading = false, errorMessage = appContext.getString(R.string.archive_signin_failed_message, e.localizedMessage ?: ""))
+                    it.copy(isLoading = false, errorMessage = appContext.getString(R.string.archive_signin_failed_message, describe(e)))
                 }
             }
         }
@@ -181,7 +181,7 @@ class ArchiveViewModel @Inject constructor(
                 }
                 refreshQuota()
             } catch (e: Exception) {
-                _uiState.update { it.copy(errorMessage = e.localizedMessage) }
+                _uiState.update { it.copy(errorMessage = describe(e)) }
             }
         }
     }
@@ -214,7 +214,7 @@ class ArchiveViewModel @Inject constructor(
                 }
                 refreshQuota()
             } catch (e: Exception) {
-                _uiState.update { it.copy(errorMessage = e.localizedMessage) }
+                _uiState.update { it.copy(errorMessage = describe(e)) }
             }
         }
     }
@@ -242,6 +242,9 @@ class ArchiveViewModel @Inject constructor(
     fun dismissUpgradePaywall() {
         _uiState.update { it.copy(showUpgradePaywall = false) }
     }
+
+    /** User-facing reason in the current language; never the backend's English text. */
+    private fun describe(e: Throwable): String = appContext.getString(ArchiveErrorMapper.resFor(e))
 
     private fun refreshQuota() {
         viewModelScope.launch {

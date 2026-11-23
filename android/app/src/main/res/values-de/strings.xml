@@ -439,4 +439,40 @@
         <item quantity="one">%1$d Element archivieren (%2$s GB)</item>
         <item quantity="other">%1$d Elemente archivieren (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Sofortiger Zugriff</string>
+    <string name="archive_tier_flexible">Flexibler Abruf</string>
+    <string name="archive_tier_deep">Tiefenarchiv</string>
+    <string name="archive_retrieval_instant">Sofort</string>
+    <string name="archive_retrieval_flexible">3–5 Stunden</string>
+    <string name="archive_retrieval_deep">Bis zu 12 Stunden</string>
+    <string name="archive_status_pending">Ausstehend</string>
+    <string name="archive_status_uploading">Wird hochgeladen %1$d%%</string>
+    <string name="archive_status_uploaded">Hochgeladen</string>
+    <string name="archive_status_archived">Archiviert</string>
+    <string name="archive_status_retrieving">Wird abgerufen...</string>
+    <string name="archive_status_ready">Bereit zum Herunterladen</string>
+    <string name="archive_status_failed">Fehlgeschlagen: %1$s</string>
+    <string name="archive_file_photo">Foto</string>
+    <string name="archive_file_video">Video</string>
+    <string name="archive_file_contact">Kontakt</string>
+    <string name="archive_file_vault">Tresor-Element</string>
+    <string name="archive_price_per_month">%1$s/Monat</string>
+    <string name="subscription_status_pro">Pro-Mitglied</string>
+    <string name="subscription_status_free">Kostenlos</string>
+    <string name="archive_error_not_authenticated">Bitte melden Sie sich an, um das Cloud-Archiv zu nutzen.</string>
+    <string name="archive_error_invalid_request">Die Anfrage war ungültig. Bitte versuchen Sie es erneut.</string>
+    <string name="archive_error_item_not_found">Dieses Element wurde in Ihrem Archiv nicht gefunden.</string>
+    <string name="archive_error_user_not_found">Ihr Archivkonto wurde nicht gefunden. Bitte melden Sie sich erneut an.</string>
+    <string name="archive_error_quota_exceeded">Nicht genug Archivspeicher. Upgraden Sie Ihren Tarif oder entfernen Sie Elemente.</string>
+    <string name="archive_error_server">Der Archivdienst hat Probleme. Bitte versuchen Sie es später erneut.</string>
+    <string name="archive_error_network">Netzwerkproblem. Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.</string>
+    <string name="archive_error_generic">Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.</string>
+    <string name="archive_error_upload_failed">Upload fehlgeschlagen. Bitte versuchen Sie es erneut.</string>
 </resources>

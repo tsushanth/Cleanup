@@ -420,4 +420,40 @@
         <item quantity="one">Arkistoi %1$d kohde (%2$s GB)</item>
         <item quantity="other">Arkistoi %1$d kohdetta (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Välitön käyttö</string>
+    <string name="archive_tier_flexible">Joustava palautus</string>
+    <string name="archive_tier_deep">Syväarkisto</string>
+    <string name="archive_retrieval_instant">Välitön</string>
+    <string name="archive_retrieval_flexible">3–5 tuntia</string>
+    <string name="archive_retrieval_deep">Enintään 12 tuntia</string>
+    <string name="archive_status_pending">Odottaa</string>
+    <string name="archive_status_uploading">Lähetetään %1$d%%</string>
+    <string name="archive_status_uploaded">Lähetetty</string>
+    <string name="archive_status_archived">Arkistoitu</string>
+    <string name="archive_status_retrieving">Palautetaan...</string>
+    <string name="archive_status_ready">Valmis ladattavaksi</string>
+    <string name="archive_status_failed">Epäonnistui: %1$s</string>
+    <string name="archive_file_photo">Kuva</string>
+    <string name="archive_file_video">Video</string>
+    <string name="archive_file_contact">Yhteystieto</string>
+    <string name="archive_file_vault">Holvin kohde</string>
+    <string name="archive_price_per_month">%1$s/kk</string>
+    <string name="subscription_status_pro">Pro-jäsen</string>
+    <string name="subscription_status_free">Ilmainen</string>
+    <string name="archive_error_not_authenticated">Kirjaudu sisään käyttääksesi pilviarkistoa.</string>
+    <string name="archive_error_invalid_request">Pyyntö oli virheellinen. Yritä uudelleen.</string>
+    <string name="archive_error_item_not_found">Kohdetta ei löytynyt arkistostasi.</string>
+    <string name="archive_error_user_not_found">Arkistotiliäsi ei löytynyt. Kirjaudu sisään uudelleen.</string>
+    <string name="archive_error_quota_exceeded">Arkistotilaa ei ole tarpeeksi. Päivitä tilauksesi tai poista kohteita.</string>
+    <string name="archive_error_server">Arkistopalvelussa on ongelma. Yritä myöhemmin uudelleen.</string>
+    <string name="archive_error_network">Verkko-ongelma. Tarkista yhteytesi ja yritä uudelleen.</string>
+    <string name="archive_error_generic">Jokin meni pieleen. Yritä uudelleen.</string>
+    <string name="archive_error_upload_failed">Lähetys epäonnistui. Yritä uudelleen.</string>
 </resources>

@@ -489,4 +489,40 @@
         <item quantity="many">Zarchiwizuj %1$d elementów (%2$s GB)</item>
         <item quantity="other">Zarchiwizuj %1$d elementu (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Natychmiastowy dostęp</string>
+    <string name="archive_tier_flexible">Elastyczne odzyskiwanie</string>
+    <string name="archive_tier_deep">Archiwum głębokie</string>
+    <string name="archive_retrieval_instant">Natychmiast</string>
+    <string name="archive_retrieval_flexible">3–5 godzin</string>
+    <string name="archive_retrieval_deep">Do 12 godzin</string>
+    <string name="archive_status_pending">Oczekuje</string>
+    <string name="archive_status_uploading">Przesyłanie %1$d%%</string>
+    <string name="archive_status_uploaded">Przesłano</string>
+    <string name="archive_status_archived">Zarchiwizowano</string>
+    <string name="archive_status_retrieving">Odzyskiwanie...</string>
+    <string name="archive_status_ready">Gotowe do pobrania</string>
+    <string name="archive_status_failed">Niepowodzenie: %1$s</string>
+    <string name="archive_file_photo">Zdjęcie</string>
+    <string name="archive_file_video">Wideo</string>
+    <string name="archive_file_contact">Kontakt</string>
+    <string name="archive_file_vault">Element sejfu</string>
+    <string name="archive_price_per_month">%1$s/mies.</string>
+    <string name="subscription_status_pro">Użytkownik Pro</string>
+    <string name="subscription_status_free">Bezpłatny</string>
+    <string name="archive_error_not_authenticated">Zaloguj się, aby korzystać z archiwum w chmurze.</string>
+    <string name="archive_error_invalid_request">Żądanie było nieprawidłowe. Spróbuj ponownie.</string>
+    <string name="archive_error_item_not_found">Nie znaleziono tego elementu w Twoim archiwum.</string>
+    <string name="archive_error_user_not_found">Nie znaleziono Twojego konta archiwum. Zaloguj się ponownie.</string>
+    <string name="archive_error_quota_exceeded">Za mało miejsca w archiwum. Zmień plan na wyższy lub usuń elementy.</string>
+    <string name="archive_error_server">Usługa archiwum ma problemy. Spróbuj ponownie później.</string>
+    <string name="archive_error_network">Problem z siecią. Sprawdź połączenie i spróbuj ponownie.</string>
+    <string name="archive_error_generic">Coś poszło nie tak. Spróbuj ponownie.</string>
+    <string name="archive_error_upload_failed">Przesyłanie nie powiodło się. Spróbuj ponownie.</string>
 </resources>

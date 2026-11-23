@@ -1,8 +1,7 @@
 {
   "_note": "Per-file count of hard-coded user-visible English literals in src/main. NoHardcodedUiStringsTest fails if a count rises or a new file adds any. Lower counts are fine. Regenerate deliberately with scripts/update-hardcoded-baseline.sh; see docs/hardcoded-ui-strings-guard.md.",
-  "total": 26,
+  "total": 16,
   "files": {
-    "src/main/java/com/kreativekoala/cleanup/data/model/ArchiveModels.kt": {"count": 10, "h": ["12da8190", "399180c3", "3a892177", "3b1bb98e", "61130280", "66c3d03e", "96d5b5b5", "9803591f", "9d8d9c02", "e57740a6"]},
     "src/main/java/com/kreativekoala/cleanup/data/model/SubscriptionModels.kt": {"count": 5, "h": ["0e892176", "117f6496", "61eccfad", "98b76778", "e207c473"]},
     "src/main/java/com/kreativekoala/cleanup/domain/service/ArchiveAuthService.kt": {"count": 1, "h": ["2613d823"]},
     "src/main/java/com/kreativekoala/cleanup/domain/service/ArchiveService.kt": {"count": 1, "h": ["b1335eb9"]},

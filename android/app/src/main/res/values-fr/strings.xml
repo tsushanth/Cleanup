@@ -464,4 +464,40 @@
         <item quantity="many">Archivez %1$d éléments (%2$s Go)</item>
         <item quantity="other">Archivez %1$d éléments (%2$s Go)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s o</string>
+    <string name="size_unit_kb">%1$s Ko</string>
+    <string name="size_unit_mb">%1$s Mo</string>
+    <string name="size_unit_gb">%1$s Go</string>
+    <string name="size_unit_tb">%1$s To</string>
+    <string name="archive_tier_instant">Accès instantané</string>
+    <string name="archive_tier_flexible">Récupération flexible</string>
+    <string name="archive_tier_deep">Archive profonde</string>
+    <string name="archive_retrieval_instant">Instantané</string>
+    <string name="archive_retrieval_flexible">3 à 5 heures</string>
+    <string name="archive_retrieval_deep">Jusqu’à 12 heures</string>
+    <string name="archive_status_pending">En attente</string>
+    <string name="archive_status_uploading">Envoi en cours %1$d%%</string>
+    <string name="archive_status_uploaded">Envoyé</string>
+    <string name="archive_status_archived">Archivé</string>
+    <string name="archive_status_retrieving">Récupération...</string>
+    <string name="archive_status_ready">Prêt à télécharger</string>
+    <string name="archive_status_failed">Échec : %1$s</string>
+    <string name="archive_file_photo">Photo</string>
+    <string name="archive_file_video">Vidéo</string>
+    <string name="archive_file_contact">Contact</string>
+    <string name="archive_file_vault">Élément du coffre</string>
+    <string name="archive_price_per_month">%1$s/mois</string>
+    <string name="subscription_status_pro">Membre Pro</string>
+    <string name="subscription_status_free">Gratuit</string>
+    <string name="archive_error_not_authenticated">Connectez-vous pour utiliser l’archive cloud.</string>
+    <string name="archive_error_invalid_request">La requête était invalide. Veuillez réessayer.</string>
+    <string name="archive_error_item_not_found">Cet élément est introuvable dans votre archive.</string>
+    <string name="archive_error_user_not_found">Votre compte d’archive est introuvable. Veuillez vous reconnecter.</string>
+    <string name="archive_error_quota_exceeded">Espace d’archive insuffisant. Passez à une offre supérieure ou supprimez des éléments.</string>
+    <string name="archive_error_server">Le service d’archive rencontre un problème. Veuillez réessayer plus tard.</string>
+    <string name="archive_error_network">Problème réseau. Vérifiez votre connexion et réessayez.</string>
+    <string name="archive_error_generic">Une erreur s’est produite. Veuillez réessayer.</string>
+    <string name="archive_error_upload_failed">Échec de l’envoi. Veuillez réessayer.</string>
 </resources>

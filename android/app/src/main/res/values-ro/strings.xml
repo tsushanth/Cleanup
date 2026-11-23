@@ -445,4 +445,40 @@
         <item quantity="few">Arhivează %1$d elemente (%2$s GB)</item>
         <item quantity="other">Arhivează %1$d de elemente (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Acces instantaneu</string>
+    <string name="archive_tier_flexible">Recuperare flexibilă</string>
+    <string name="archive_tier_deep">Arhivă profundă</string>
+    <string name="archive_retrieval_instant">Instantaneu</string>
+    <string name="archive_retrieval_flexible">3-5 ore</string>
+    <string name="archive_retrieval_deep">Până la 12 ore</string>
+    <string name="archive_status_pending">În așteptare</string>
+    <string name="archive_status_uploading">Se încarcă %1$d%%</string>
+    <string name="archive_status_uploaded">Încărcat</string>
+    <string name="archive_status_archived">Arhivat</string>
+    <string name="archive_status_retrieving">Se recuperează...</string>
+    <string name="archive_status_ready">Gata de descărcat</string>
+    <string name="archive_status_failed">Eșuat: %1$s</string>
+    <string name="archive_file_photo">Fotografie</string>
+    <string name="archive_file_video">Videoclip</string>
+    <string name="archive_file_contact">Contact</string>
+    <string name="archive_file_vault">Element din seif</string>
+    <string name="archive_price_per_month">%1$s/lună</string>
+    <string name="subscription_status_pro">Membru Pro</string>
+    <string name="subscription_status_free">Gratuit</string>
+    <string name="archive_error_not_authenticated">Conectează-te pentru a folosi Arhiva cloud.</string>
+    <string name="archive_error_invalid_request">Cererea nu a fost validă. Încearcă din nou.</string>
+    <string name="archive_error_item_not_found">Acest element nu a fost găsit în arhiva ta.</string>
+    <string name="archive_error_user_not_found">Contul tău de arhivă nu a fost găsit. Conectează-te din nou.</string>
+    <string name="archive_error_quota_exceeded">Spațiu de arhivă insuficient. Treci la un plan superior sau elimină elemente.</string>
+    <string name="archive_error_server">Serviciul de arhivă are probleme. Încearcă din nou mai târziu.</string>
+    <string name="archive_error_network">Problemă de rețea. Verifică conexiunea și încearcă din nou.</string>
+    <string name="archive_error_generic">Ceva nu a mers bine. Încearcă din nou.</string>
+    <string name="archive_error_upload_failed">Încărcarea a eșuat. Încearcă din nou.</string>
 </resources>

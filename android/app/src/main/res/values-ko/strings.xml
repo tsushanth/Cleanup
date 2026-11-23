@@ -414,4 +414,40 @@
     <plurals name="paywall_ctx_archive_title">
         <item quantity="other">항목 %1$d개 보관 (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">즉시 액세스</string>
+    <string name="archive_tier_flexible">유연한 복원</string>
+    <string name="archive_tier_deep">딥 아카이브</string>
+    <string name="archive_retrieval_instant">즉시</string>
+    <string name="archive_retrieval_flexible">3~5시간</string>
+    <string name="archive_retrieval_deep">최대 12시간</string>
+    <string name="archive_status_pending">대기 중</string>
+    <string name="archive_status_uploading">업로드 중 %1$d%%</string>
+    <string name="archive_status_uploaded">업로드됨</string>
+    <string name="archive_status_archived">보관됨</string>
+    <string name="archive_status_retrieving">복원 중...</string>
+    <string name="archive_status_ready">다운로드 준비 완료</string>
+    <string name="archive_status_failed">실패: %1$s</string>
+    <string name="archive_file_photo">사진</string>
+    <string name="archive_file_video">동영상</string>
+    <string name="archive_file_contact">연락처</string>
+    <string name="archive_file_vault">보관함 항목</string>
+    <string name="archive_price_per_month">%1$s/월</string>
+    <string name="subscription_status_pro">Pro 회원</string>
+    <string name="subscription_status_free">무료</string>
+    <string name="archive_error_not_authenticated">클라우드 보관함을 사용하려면 로그인하세요.</string>
+    <string name="archive_error_invalid_request">잘못된 요청입니다. 다시 시도해 주세요.</string>
+    <string name="archive_error_item_not_found">보관함에서 이 항목을 찾을 수 없습니다.</string>
+    <string name="archive_error_user_not_found">보관함 계정을 찾을 수 없습니다. 다시 로그인해 주세요.</string>
+    <string name="archive_error_quota_exceeded">보관함 저장 공간이 부족합니다. 요금제를 업그레이드하거나 항목을 삭제하세요.</string>
+    <string name="archive_error_server">보관함 서비스에 문제가 있습니다. 나중에 다시 시도해 주세요.</string>
+    <string name="archive_error_network">네트워크 문제입니다. 연결을 확인하고 다시 시도해 주세요.</string>
+    <string name="archive_error_generic">문제가 발생했습니다. 다시 시도해 주세요.</string>
+    <string name="archive_error_upload_failed">업로드에 실패했습니다. 다시 시도해 주세요.</string>
 </resources>

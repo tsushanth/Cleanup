@@ -405,4 +405,40 @@
         <item quantity="one">%1$d आइटम आर्काइव करें (%2$s GB)</item>
         <item quantity="other">%1$d आइटम आर्काइव करें (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">तुरंत एक्सेस</string>
+    <string name="archive_tier_flexible">लचीली पुनर्प्राप्ति</string>
+    <string name="archive_tier_deep">डीप आर्काइव</string>
+    <string name="archive_retrieval_instant">तुरंत</string>
+    <string name="archive_retrieval_flexible">3-5 घंटे</string>
+    <string name="archive_retrieval_deep">12 घंटे तक</string>
+    <string name="archive_status_pending">लंबित</string>
+    <string name="archive_status_uploading">अपलोड हो रहा है %1$d%%</string>
+    <string name="archive_status_uploaded">अपलोड हो गया</string>
+    <string name="archive_status_archived">आर्काइव किया गया</string>
+    <string name="archive_status_retrieving">पुनर्प्राप्त हो रहा है...</string>
+    <string name="archive_status_ready">डाउनलोड के लिए तैयार</string>
+    <string name="archive_status_failed">विफल: %1$s</string>
+    <string name="archive_file_photo">फ़ोटो</string>
+    <string name="archive_file_video">वीडियो</string>
+    <string name="archive_file_contact">संपर्क</string>
+    <string name="archive_file_vault">वॉल्ट आइटम</string>
+    <string name="archive_price_per_month">%1$s/माह</string>
+    <string name="subscription_status_pro">Pro सदस्य</string>
+    <string name="subscription_status_free">निःशुल्क</string>
+    <string name="archive_error_not_authenticated">क्लाउड आर्काइव उपयोग करने के लिए साइन इन करें।</string>
+    <string name="archive_error_invalid_request">अनुरोध अमान्य था। कृपया फिर से कोशिश करें।</string>
+    <string name="archive_error_item_not_found">यह आइटम आपके आर्काइव में नहीं मिला।</string>
+    <string name="archive_error_user_not_found">आपका आर्काइव खाता नहीं मिला। कृपया फिर से साइन इन करें।</string>
+    <string name="archive_error_quota_exceeded">आर्काइव में पर्याप्त स्टोरेज नहीं है। अपना प्लान अपग्रेड करें या आइटम हटाएँ।</string>
+    <string name="archive_error_server">आर्काइव सेवा में समस्या है। कृपया बाद में फिर से कोशिश करें।</string>
+    <string name="archive_error_network">नेटवर्क समस्या। अपना कनेक्शन जाँचें और फिर से कोशिश करें।</string>
+    <string name="archive_error_generic">कुछ गड़बड़ हो गई। कृपया फिर से कोशिश करें।</string>
+    <string name="archive_error_upload_failed">अपलोड विफल रहा। कृपया फिर से कोशिश करें।</string>
 </resources>

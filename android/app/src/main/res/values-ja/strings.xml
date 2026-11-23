@@ -414,4 +414,40 @@
     <plurals name="paywall_ctx_archive_title">
         <item quantity="other">%1$d件のアイテムをアーカイブ (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">即時アクセス</string>
+    <string name="archive_tier_flexible">柔軟な取り出し</string>
+    <string name="archive_tier_deep">ディープアーカイブ</string>
+    <string name="archive_retrieval_instant">即時</string>
+    <string name="archive_retrieval_flexible">3〜5時間</string>
+    <string name="archive_retrieval_deep">最大12時間</string>
+    <string name="archive_status_pending">保留中</string>
+    <string name="archive_status_uploading">アップロード中 %1$d%%</string>
+    <string name="archive_status_uploaded">アップロード済み</string>
+    <string name="archive_status_archived">アーカイブ済み</string>
+    <string name="archive_status_retrieving">取り出し中...</string>
+    <string name="archive_status_ready">ダウンロード可能</string>
+    <string name="archive_status_failed">失敗: %1$s</string>
+    <string name="archive_file_photo">写真</string>
+    <string name="archive_file_video">動画</string>
+    <string name="archive_file_contact">連絡先</string>
+    <string name="archive_file_vault">保管庫のアイテム</string>
+    <string name="archive_price_per_month">%1$s/月</string>
+    <string name="subscription_status_pro">Proメンバー</string>
+    <string name="subscription_status_free">無料</string>
+    <string name="archive_error_not_authenticated">クラウドアーカイブを使うにはサインインしてください。</string>
+    <string name="archive_error_invalid_request">リクエストが無効です。もう一度お試しください。</string>
+    <string name="archive_error_item_not_found">このアイテムはアーカイブに見つかりませんでした。</string>
+    <string name="archive_error_user_not_found">アーカイブのアカウントが見つかりません。もう一度サインインしてください。</string>
+    <string name="archive_error_quota_exceeded">アーカイブの容量が足りません。プランをアップグレードするか、アイテムを削除してください。</string>
+    <string name="archive_error_server">アーカイブサービスで問題が発生しています。しばらくしてからもう一度お試しください。</string>
+    <string name="archive_error_network">ネットワークの問題です。接続を確認してもう一度お試しください。</string>
+    <string name="archive_error_generic">問題が発生しました。もう一度お試しください。</string>
+    <string name="archive_error_upload_failed">アップロードに失敗しました。もう一度お試しください。</string>
 </resources>

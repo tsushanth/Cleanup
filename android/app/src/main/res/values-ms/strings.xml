@@ -414,4 +414,40 @@
     <plurals name="paywall_ctx_archive_title">
         <item quantity="other">Arkibkan %1$d item (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Akses Segera</string>
+    <string name="archive_tier_flexible">Perolehan Fleksibel</string>
+    <string name="archive_tier_deep">Arkib Dalam</string>
+    <string name="archive_retrieval_instant">Segera</string>
+    <string name="archive_retrieval_flexible">3-5 jam</string>
+    <string name="archive_retrieval_deep">Sehingga 12 jam</string>
+    <string name="archive_status_pending">Belum selesai</string>
+    <string name="archive_status_uploading">Memuat naik %1$d%%</string>
+    <string name="archive_status_uploaded">Dimuat naik</string>
+    <string name="archive_status_archived">Diarkibkan</string>
+    <string name="archive_status_retrieving">Memperoleh semula...</string>
+    <string name="archive_status_ready">Sedia untuk Dimuat Turun</string>
+    <string name="archive_status_failed">Gagal: %1$s</string>
+    <string name="archive_file_photo">Foto</string>
+    <string name="archive_file_video">Video</string>
+    <string name="archive_file_contact">Kenalan</string>
+    <string name="archive_file_vault">Item Peti Besi</string>
+    <string name="archive_price_per_month">%1$s/bulan</string>
+    <string name="subscription_status_pro">Ahli Pro</string>
+    <string name="subscription_status_free">Percuma</string>
+    <string name="archive_error_not_authenticated">Sila log masuk untuk menggunakan Arkib Awan.</string>
+    <string name="archive_error_invalid_request">Permintaan tidak sah. Sila cuba lagi.</string>
+    <string name="archive_error_item_not_found">Item ini tidak ditemui dalam arkib anda.</string>
+    <string name="archive_error_user_not_found">Akaun arkib anda tidak ditemui. Sila log masuk semula.</string>
+    <string name="archive_error_quota_exceeded">Storan arkib tidak mencukupi. Naik taraf pelan anda atau alih keluar item.</string>
+    <string name="archive_error_server">Perkhidmatan arkib menghadapi masalah. Sila cuba lagi nanti.</string>
+    <string name="archive_error_network">Masalah rangkaian. Semak sambungan anda dan cuba lagi.</string>
+    <string name="archive_error_generic">Sesuatu telah berlaku. Sila cuba lagi.</string>
+    <string name="archive_error_upload_failed">Muat naik gagal. Sila cuba lagi.</string>
 </resources>

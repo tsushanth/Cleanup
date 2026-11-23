@@ -21,11 +21,11 @@ function getUserId(event) {
 exports.handler = async (event) => {
   try {
     const userId = getUserId(event);
-    if (!userId) { return response(400, { error: 'Missing user identity' }); }
+    if (!userId) { return response(400, { error: 'Missing user identity', code: 'MISSING_IDENTITY' }); }
     const itemId = event.pathParameters.itemId;
 
     if (!itemId) {
-      return response(400, { error: 'Missing itemId' });
+      return response(400, { error: 'Missing itemId', code: 'MISSING_ITEM_ID' });
     }
 
     // Get item metadata
@@ -38,7 +38,7 @@ exports.handler = async (event) => {
     }));
 
     if (!itemResult.Item) {
-      return response(404, { error: 'Item not found' });
+      return response(404, { error: 'Item not found', code: 'ITEM_NOT_FOUND' });
     }
 
     const s3Key = itemResult.Item.s3Key.S;
@@ -72,7 +72,7 @@ exports.handler = async (event) => {
     return response(200, { success: true });
   } catch (error) {
     console.error('Error:', error);
-    return response(500, { error: 'Internal server error' });
+    return response(500, { error: 'Internal server error', code: 'INTERNAL_ERROR' });
   }
 };
 
