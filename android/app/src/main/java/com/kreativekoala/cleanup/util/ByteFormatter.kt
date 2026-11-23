@@ -3,6 +3,7 @@ package com.kreativekoala.cleanup.util
 import android.content.Context
 import android.content.res.Configuration
 import androidx.annotation.StringRes
+import androidx.appcompat.app.AppCompatDelegate
 import com.kreativekoala.cleanup.R
 import java.text.NumberFormat
 import java.util.Locale
@@ -35,8 +36,22 @@ object ByteFormatter {
     }
 
     fun format(bytes: Long): String {
-        val locale = Locale.getDefault()
+        val locale = currentLocale()
         return format(bytes, locale, templatesFor(locale))
+    }
+
+    /**
+     * The language the user sees: the per-app language when one is set (Locale.getDefault() can still
+     * be the system locale then), otherwise the default locale.
+     */
+    private fun currentLocale(): Locale {
+        if (appContext == null) return Locale.getDefault()
+        return try {
+            val perApp = AppCompatDelegate.getApplicationLocales()
+            if (!perApp.isEmpty) perApp[0] ?: Locale.getDefault() else Locale.getDefault()
+        } catch (_: Exception) {
+            Locale.getDefault()
+        }
     }
 
     /** Pure core, unit-tested: [templates] are five "%1$s UNIT" strings from B to TB. */
