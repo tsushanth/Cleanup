@@ -414,4 +414,40 @@
     <plurals name="paywall_ctx_archive_title">
         <item quantity="other">Arsipkan %1$d item (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Akses Instan</string>
+    <string name="archive_tier_flexible">Pengambilan Fleksibel</string>
+    <string name="archive_tier_deep">Arsip Dalam</string>
+    <string name="archive_retrieval_instant">Instan</string>
+    <string name="archive_retrieval_flexible">3-5 jam</string>
+    <string name="archive_retrieval_deep">Hingga 12 jam</string>
+    <string name="archive_status_pending">Tertunda</string>
+    <string name="archive_status_uploading">Mengunggah %1$d%%</string>
+    <string name="archive_status_uploaded">Terunggah</string>
+    <string name="archive_status_archived">Diarsipkan</string>
+    <string name="archive_status_retrieving">Mengambil...</string>
+    <string name="archive_status_ready">Siap Diunduh</string>
+    <string name="archive_status_failed">Gagal: %1$s</string>
+    <string name="archive_file_photo">Foto</string>
+    <string name="archive_file_video">Video</string>
+    <string name="archive_file_contact">Kontak</string>
+    <string name="archive_file_vault">Item Brankas</string>
+    <string name="archive_price_per_month">%1$s/bulan</string>
+    <string name="subscription_status_pro">Anggota Pro</string>
+    <string name="subscription_status_free">Gratis</string>
+    <string name="archive_error_not_authenticated">Silakan masuk untuk menggunakan Arsip Cloud.</string>
+    <string name="archive_error_invalid_request">Permintaan tidak valid. Silakan coba lagi.</string>
+    <string name="archive_error_item_not_found">Item ini tidak ditemukan di arsip Anda.</string>
+    <string name="archive_error_user_not_found">Akun arsip Anda tidak ditemukan. Silakan masuk lagi.</string>
+    <string name="archive_error_quota_exceeded">Penyimpanan arsip tidak cukup. Tingkatkan paket Anda atau hapus item.</string>
+    <string name="archive_error_server">Layanan arsip sedang bermasalah. Silakan coba lagi nanti.</string>
+    <string name="archive_error_network">Masalah jaringan. Periksa koneksi Anda dan coba lagi.</string>
+    <string name="archive_error_generic">Terjadi kesalahan. Silakan coba lagi.</string>
+    <string name="archive_error_upload_failed">Unggahan gagal. Silakan coba lagi.</string>
 </resources>

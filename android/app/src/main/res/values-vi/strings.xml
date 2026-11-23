@@ -414,4 +414,40 @@
     <plurals name="paywall_ctx_archive_title">
         <item quantity="other">Lưu trữ %1$d mục (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Truy cập tức thì</string>
+    <string name="archive_tier_flexible">Truy xuất linh hoạt</string>
+    <string name="archive_tier_deep">Lưu trữ sâu</string>
+    <string name="archive_retrieval_instant">Tức thì</string>
+    <string name="archive_retrieval_flexible">3-5 giờ</string>
+    <string name="archive_retrieval_deep">Tối đa 12 giờ</string>
+    <string name="archive_status_pending">Đang chờ</string>
+    <string name="archive_status_uploading">Đang tải lên %1$d%%</string>
+    <string name="archive_status_uploaded">Đã tải lên</string>
+    <string name="archive_status_archived">Đã lưu trữ</string>
+    <string name="archive_status_retrieving">Đang truy xuất...</string>
+    <string name="archive_status_ready">Sẵn sàng để tải xuống</string>
+    <string name="archive_status_failed">Thất bại: %1$s</string>
+    <string name="archive_file_photo">Ảnh</string>
+    <string name="archive_file_video">Video</string>
+    <string name="archive_file_contact">Liên hệ</string>
+    <string name="archive_file_vault">Mục trong kho bảo mật</string>
+    <string name="archive_price_per_month">%1$s/tháng</string>
+    <string name="subscription_status_pro">Thành viên Pro</string>
+    <string name="subscription_status_free">Miễn phí</string>
+    <string name="archive_error_not_authenticated">Vui lòng đăng nhập để dùng Kho lưu trữ đám mây.</string>
+    <string name="archive_error_invalid_request">Yêu cầu không hợp lệ. Vui lòng thử lại.</string>
+    <string name="archive_error_item_not_found">Không tìm thấy mục này trong kho lưu trữ của bạn.</string>
+    <string name="archive_error_user_not_found">Không tìm thấy tài khoản kho lưu trữ của bạn. Vui lòng đăng nhập lại.</string>
+    <string name="archive_error_quota_exceeded">Không đủ dung lượng lưu trữ. Hãy nâng cấp gói hoặc xóa bớt mục.</string>
+    <string name="archive_error_server">Dịch vụ lưu trữ đang gặp sự cố. Vui lòng thử lại sau.</string>
+    <string name="archive_error_network">Sự cố mạng. Hãy kiểm tra kết nối và thử lại.</string>
+    <string name="archive_error_generic">Đã xảy ra lỗi. Vui lòng thử lại.</string>
+    <string name="archive_error_upload_failed">Tải lên thất bại. Vui lòng thử lại.</string>
 </resources>

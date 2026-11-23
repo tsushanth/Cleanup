@@ -439,4 +439,40 @@
         <item quantity="one">%1$d öğeyi arşivleyin (%2$s GB)</item>
         <item quantity="other">%1$d öğeyi arşivleyin (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Anında Erişim</string>
+    <string name="archive_tier_flexible">Esnek Geri Alma</string>
+    <string name="archive_tier_deep">Derin Arşiv</string>
+    <string name="archive_retrieval_instant">Anında</string>
+    <string name="archive_retrieval_flexible">3-5 saat</string>
+    <string name="archive_retrieval_deep">12 saate kadar</string>
+    <string name="archive_status_pending">Beklemede</string>
+    <string name="archive_status_uploading">Yükleniyor %%%1$d</string>
+    <string name="archive_status_uploaded">Yüklendi</string>
+    <string name="archive_status_archived">Arşivlendi</string>
+    <string name="archive_status_retrieving">Geri alınıyor...</string>
+    <string name="archive_status_ready">İndirmeye hazır</string>
+    <string name="archive_status_failed">Başarısız: %1$s</string>
+    <string name="archive_file_photo">Fotoğraf</string>
+    <string name="archive_file_video">Video</string>
+    <string name="archive_file_contact">Kişi</string>
+    <string name="archive_file_vault">Kasa öğesi</string>
+    <string name="archive_price_per_month">%1$s/ay</string>
+    <string name="subscription_status_pro">Pro Üyesi</string>
+    <string name="subscription_status_free">Ücretsiz</string>
+    <string name="archive_error_not_authenticated">Bulut Arşivi’ni kullanmak için lütfen oturum açın.</string>
+    <string name="archive_error_invalid_request">İstek geçersizdi. Lütfen tekrar deneyin.</string>
+    <string name="archive_error_item_not_found">Bu öğe arşivinizde bulunamadı.</string>
+    <string name="archive_error_user_not_found">Arşiv hesabınız bulunamadı. Lütfen tekrar oturum açın.</string>
+    <string name="archive_error_quota_exceeded">Yeterli arşiv alanı yok. Planınızı yükseltin veya öğeleri kaldırın.</string>
+    <string name="archive_error_server">Arşiv hizmetinde bir sorun var. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="archive_error_network">Ağ sorunu. Bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="archive_error_generic">Bir şeyler ters gitti. Lütfen tekrar deneyin.</string>
+    <string name="archive_error_upload_failed">Yükleme başarısız oldu. Lütfen tekrar deneyin.</string>
 </resources>

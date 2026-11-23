@@ -1,15 +1,70 @@
 package com.kreativekoala.cleanup.util
 
+import android.content.Context
+import android.content.res.Configuration
+import androidx.annotation.StringRes
+import com.kreativekoala.cleanup.R
+import java.text.NumberFormat
+import java.util.Locale
+import java.util.concurrent.ConcurrentHashMap
+
+/**
+ * Formats byte counts for display. The number uses the user's locale (decimal separator, digits)
+ * and the unit comes from string resources (size_unit_*), so it follows the app language.
+ * Call [init] once from Application.onCreate so units can be resolved without a Context at the
+ * call site; until then (or in JVM tests) English units are used.
+ */
 object ByteFormatter {
+    private val ENGLISH = listOf("%1\$s B", "%1\$s KB", "%1\$s MB", "%1\$s GB", "%1\$s TB")
+
+    @StringRes
+    private val UNIT_RES = listOf(
+        R.string.size_unit_b,
+        R.string.size_unit_kb,
+        R.string.size_unit_mb,
+        R.string.size_unit_gb,
+        R.string.size_unit_tb
+    )
+
+    @Volatile
+    private var appContext: Context? = null
+    private val cache = ConcurrentHashMap<Locale, List<String>>()
+
+    fun init(context: Context) {
+        appContext = context.applicationContext
+    }
+
     fun format(bytes: Long): String {
-        if (bytes < 1024) return "$bytes B"
-        val kb = bytes / 1024.0
-        if (kb < 1024) return "%.1f KB".format(kb)
-        val mb = kb / 1024.0
-        if (mb < 1024) return "%.1f MB".format(mb)
-        val gb = mb / 1024.0
-        if (gb < 1024) return "%.1f GB".format(gb)
-        val tb = gb / 1024.0
-        return "%.1f TB".format(tb)
+        val locale = Locale.getDefault()
+        return format(bytes, locale, templatesFor(locale))
+    }
+
+    /** Pure core, unit-tested: [templates] are five "%1$s UNIT" strings from B to TB. */
+    internal fun format(bytes: Long, locale: Locale, templates: List<String>): String {
+        var value = bytes.toDouble()
+        var unit = 0
+        while (value >= 1024 && unit < templates.lastIndex) {
+            value /= 1024
+            unit++
+        }
+        val digits = if (unit == 0) 0 else 1
+        val number = NumberFormat.getNumberInstance(locale).apply {
+            minimumFractionDigits = digits
+            maximumFractionDigits = digits
+        }.format(value)
+        return String.format(locale, templates[unit], number)
+    }
+
+    private fun templatesFor(locale: Locale): List<String> {
+        val ctx = appContext ?: return ENGLISH
+        return cache.getOrPut(locale) {
+            try {
+                val config = Configuration(ctx.resources.configuration).apply { setLocale(locale) }
+                val res = ctx.createConfigurationContext(config).resources
+                UNIT_RES.map { res.getString(it) }
+            } catch (_: Exception) {
+                ENGLISH
+            }
+        }
     }
 }

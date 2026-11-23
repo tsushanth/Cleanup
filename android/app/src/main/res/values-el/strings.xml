@@ -420,4 +420,40 @@
         <item quantity="one">Αρχειοθετήστε %1$d στοιχείο (%2$s GB)</item>
         <item quantity="other">Αρχειοθετήστε %1$d στοιχεία (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Άμεση πρόσβαση</string>
+    <string name="archive_tier_flexible">Ευέλικτη ανάκτηση</string>
+    <string name="archive_tier_deep">Βαθύ αρχείο</string>
+    <string name="archive_retrieval_instant">Άμεσα</string>
+    <string name="archive_retrieval_flexible">3-5 ώρες</string>
+    <string name="archive_retrieval_deep">Έως 12 ώρες</string>
+    <string name="archive_status_pending">Σε αναμονή</string>
+    <string name="archive_status_uploading">Μεταφόρτωση %1$d%%</string>
+    <string name="archive_status_uploaded">Μεταφορτώθηκε</string>
+    <string name="archive_status_archived">Αρχειοθετήθηκε</string>
+    <string name="archive_status_retrieving">Ανάκτηση...</string>
+    <string name="archive_status_ready">Έτοιμο για λήψη</string>
+    <string name="archive_status_failed">Απέτυχε: %1$s</string>
+    <string name="archive_file_photo">Φωτογραφία</string>
+    <string name="archive_file_video">Βίντεο</string>
+    <string name="archive_file_contact">Επαφή</string>
+    <string name="archive_file_vault">Στοιχείο θησαυροφυλακίου</string>
+    <string name="archive_price_per_month">%1$s/μήνα</string>
+    <string name="subscription_status_pro">Μέλος Pro</string>
+    <string name="subscription_status_free">Δωρεάν</string>
+    <string name="archive_error_not_authenticated">Συνδεθείτε για να χρησιμοποιήσετε το Cloud Archive.</string>
+    <string name="archive_error_invalid_request">Το αίτημα ήταν μη έγκυρο. Δοκιμάστε ξανά.</string>
+    <string name="archive_error_item_not_found">Το στοιχείο δεν βρέθηκε στο αρχείο σας.</string>
+    <string name="archive_error_user_not_found">Ο λογαριασμός αρχείου σας δεν βρέθηκε. Συνδεθείτε ξανά.</string>
+    <string name="archive_error_quota_exceeded">Δεν υπάρχει αρκετός χώρος αρχείου. Αναβαθμίστε το πλάνο σας ή αφαιρέστε στοιχεία.</string>
+    <string name="archive_error_server">Η υπηρεσία αρχείου αντιμετωπίζει πρόβλημα. Δοκιμάστε ξανά αργότερα.</string>
+    <string name="archive_error_network">Πρόβλημα δικτύου. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.</string>
+    <string name="archive_error_generic">Κάτι πήγε στραβά. Δοκιμάστε ξανά.</string>
+    <string name="archive_error_upload_failed">Η μεταφόρτωση απέτυχε. Δοκιμάστε ξανά.</string>
 </resources>

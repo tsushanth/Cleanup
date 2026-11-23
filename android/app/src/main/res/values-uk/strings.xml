@@ -470,4 +470,40 @@
         <item quantity="many">Заархівуйте %1$d елементів (%2$s GB)</item>
         <item quantity="other">Заархівуйте %1$d елемента (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s Б</string>
+    <string name="size_unit_kb">%1$s КБ</string>
+    <string name="size_unit_mb">%1$s МБ</string>
+    <string name="size_unit_gb">%1$s ГБ</string>
+    <string name="size_unit_tb">%1$s ТБ</string>
+    <string name="archive_tier_instant">Миттєвий доступ</string>
+    <string name="archive_tier_flexible">Гнучке відновлення</string>
+    <string name="archive_tier_deep">Глибокий архів</string>
+    <string name="archive_retrieval_instant">Миттєво</string>
+    <string name="archive_retrieval_flexible">3–5 годин</string>
+    <string name="archive_retrieval_deep">До 12 годин</string>
+    <string name="archive_status_pending">Очікує</string>
+    <string name="archive_status_uploading">Завантаження %1$d%%</string>
+    <string name="archive_status_uploaded">Завантажено</string>
+    <string name="archive_status_archived">В архіві</string>
+    <string name="archive_status_retrieving">Відновлення...</string>
+    <string name="archive_status_ready">Готово до завантаження</string>
+    <string name="archive_status_failed">Помилка: %1$s</string>
+    <string name="archive_file_photo">Фото</string>
+    <string name="archive_file_video">Відео</string>
+    <string name="archive_file_contact">Контакт</string>
+    <string name="archive_file_vault">Елемент сховища</string>
+    <string name="archive_price_per_month">%1$s/міс.</string>
+    <string name="subscription_status_pro">Учасник Pro</string>
+    <string name="subscription_status_free">Безкоштовно</string>
+    <string name="archive_error_not_authenticated">Увійдіть, щоб користуватися хмарним архівом.</string>
+    <string name="archive_error_invalid_request">Недійсний запит. Спробуйте ще раз.</string>
+    <string name="archive_error_item_not_found">Цей елемент не знайдено у вашому архіві.</string>
+    <string name="archive_error_user_not_found">Ваш обліковий запис архіву не знайдено. Увійдіть знову.</string>
+    <string name="archive_error_quota_exceeded">Недостатньо місця в архіві. Перейдіть на інший тариф або видаліть елементи.</string>
+    <string name="archive_error_server">Сервіс архіву має проблеми. Спробуйте пізніше.</string>
+    <string name="archive_error_network">Проблема з мережею. Перевірте з’єднання та спробуйте ще раз.</string>
+    <string name="archive_error_generic">Щось пішло не так. Спробуйте ще раз.</string>
+    <string name="archive_error_upload_failed">Не вдалося завантажити. Спробуйте ще раз.</string>
 </resources>

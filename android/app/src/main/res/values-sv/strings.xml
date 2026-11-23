@@ -420,4 +420,40 @@
         <item quantity="one">Arkivera %1$d objekt (%2$s GB)</item>
         <item quantity="other">Arkivera %1$d objekt (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Omedelbar åtkomst</string>
+    <string name="archive_tier_flexible">Flexibel återhämtning</string>
+    <string name="archive_tier_deep">Djuparkiv</string>
+    <string name="archive_retrieval_instant">Omedelbart</string>
+    <string name="archive_retrieval_flexible">3–5 timmar</string>
+    <string name="archive_retrieval_deep">Upp till 12 timmar</string>
+    <string name="archive_status_pending">Väntar</string>
+    <string name="archive_status_uploading">Laddar upp %1$d%%</string>
+    <string name="archive_status_uploaded">Uppladdad</string>
+    <string name="archive_status_archived">Arkiverad</string>
+    <string name="archive_status_retrieving">Hämtar...</string>
+    <string name="archive_status_ready">Redo att ladda ned</string>
+    <string name="archive_status_failed">Misslyckades: %1$s</string>
+    <string name="archive_file_photo">Foto</string>
+    <string name="archive_file_video">Video</string>
+    <string name="archive_file_contact">Kontakt</string>
+    <string name="archive_file_vault">Valvobjekt</string>
+    <string name="archive_price_per_month">%1$s/månad</string>
+    <string name="subscription_status_pro">Pro-medlem</string>
+    <string name="subscription_status_free">Gratis</string>
+    <string name="archive_error_not_authenticated">Logga in för att använda molnarkivet.</string>
+    <string name="archive_error_invalid_request">Begäran var ogiltig. Försök igen.</string>
+    <string name="archive_error_item_not_found">Objektet hittades inte i ditt arkiv.</string>
+    <string name="archive_error_user_not_found">Ditt arkivkonto hittades inte. Logga in igen.</string>
+    <string name="archive_error_quota_exceeded">Inte tillräckligt med arkivutrymme. Uppgradera ditt abonnemang eller ta bort objekt.</string>
+    <string name="archive_error_server">Arkivtjänsten har problem. Försök igen senare.</string>
+    <string name="archive_error_network">Nätverksproblem. Kontrollera anslutningen och försök igen.</string>
+    <string name="archive_error_generic">Något gick fel. Försök igen.</string>
+    <string name="archive_error_upload_failed">Uppladdningen misslyckades. Försök igen.</string>
 </resources>

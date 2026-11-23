@@ -430,4 +430,40 @@
         <item quantity="many">Archivia %1$d elementi (%2$s GB)</item>
         <item quantity="other">Archivia %1$d elementi (%2$s GB)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">Accesso immediato</string>
+    <string name="archive_tier_flexible">Recupero flessibile</string>
+    <string name="archive_tier_deep">Archivio profondo</string>
+    <string name="archive_retrieval_instant">Immediato</string>
+    <string name="archive_retrieval_flexible">3-5 ore</string>
+    <string name="archive_retrieval_deep">Fino a 12 ore</string>
+    <string name="archive_status_pending">In attesa</string>
+    <string name="archive_status_uploading">Caricamento %1$d%%</string>
+    <string name="archive_status_uploaded">Caricato</string>
+    <string name="archive_status_archived">Archiviato</string>
+    <string name="archive_status_retrieving">Recupero in corso...</string>
+    <string name="archive_status_ready">Pronto per il download</string>
+    <string name="archive_status_failed">Non riuscito: %1$s</string>
+    <string name="archive_file_photo">Foto</string>
+    <string name="archive_file_video">Video</string>
+    <string name="archive_file_contact">Contatto</string>
+    <string name="archive_file_vault">Elemento della cassaforte</string>
+    <string name="archive_price_per_month">%1$s/mese</string>
+    <string name="subscription_status_pro">Membro Pro</string>
+    <string name="subscription_status_free">Gratis</string>
+    <string name="archive_error_not_authenticated">Accedi per usare l’archivio cloud.</string>
+    <string name="archive_error_invalid_request">La richiesta non era valida. Riprova.</string>
+    <string name="archive_error_item_not_found">Questo elemento non è stato trovato nel tuo archivio.</string>
+    <string name="archive_error_user_not_found">Il tuo account archivio non è stato trovato. Accedi di nuovo.</string>
+    <string name="archive_error_quota_exceeded">Spazio d’archivio insufficiente. Passa a un piano superiore o rimuovi degli elementi.</string>
+    <string name="archive_error_server">Il servizio di archivio ha un problema. Riprova più tardi.</string>
+    <string name="archive_error_network">Problema di rete. Controlla la connessione e riprova.</string>
+    <string name="archive_error_generic">Qualcosa è andato storto. Riprova.</string>
+    <string name="archive_error_upload_failed">Caricamento non riuscito. Riprova.</string>
 </resources>

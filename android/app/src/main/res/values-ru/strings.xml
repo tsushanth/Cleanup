@@ -489,4 +489,40 @@
         <item quantity="many">Архивируйте %1$d элементов (%2$s ГБ)</item>
         <item quantity="other">Архивируйте %1$d элемента (%2$s ГБ)</item>
     </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s Б</string>
+    <string name="size_unit_kb">%1$s КБ</string>
+    <string name="size_unit_mb">%1$s МБ</string>
+    <string name="size_unit_gb">%1$s ГБ</string>
+    <string name="size_unit_tb">%1$s ТБ</string>
+    <string name="archive_tier_instant">Мгновенный доступ</string>
+    <string name="archive_tier_flexible">Гибкое извлечение</string>
+    <string name="archive_tier_deep">Глубокий архив</string>
+    <string name="archive_retrieval_instant">Мгновенно</string>
+    <string name="archive_retrieval_flexible">3–5 часов</string>
+    <string name="archive_retrieval_deep">До 12 часов</string>
+    <string name="archive_status_pending">В ожидании</string>
+    <string name="archive_status_uploading">Загрузка %1$d%%</string>
+    <string name="archive_status_uploaded">Загружено</string>
+    <string name="archive_status_archived">В архиве</string>
+    <string name="archive_status_retrieving">Извлечение...</string>
+    <string name="archive_status_ready">Готово к скачиванию</string>
+    <string name="archive_status_failed">Ошибка: %1$s</string>
+    <string name="archive_file_photo">Фото</string>
+    <string name="archive_file_video">Видео</string>
+    <string name="archive_file_contact">Контакт</string>
+    <string name="archive_file_vault">Элемент хранилища</string>
+    <string name="archive_price_per_month">%1$s/мес.</string>
+    <string name="subscription_status_pro">Участник Pro</string>
+    <string name="subscription_status_free">Бесплатно</string>
+    <string name="archive_error_not_authenticated">Войдите, чтобы пользоваться облачным архивом.</string>
+    <string name="archive_error_invalid_request">Некорректный запрос. Повторите попытку.</string>
+    <string name="archive_error_item_not_found">Этот элемент не найден в вашем архиве.</string>
+    <string name="archive_error_user_not_found">Ваша учётная запись архива не найдена. Войдите снова.</string>
+    <string name="archive_error_quota_exceeded">Недостаточно места в архиве. Перейдите на другой тариф или удалите элементы.</string>
+    <string name="archive_error_server">Сервис архива испытывает проблемы. Повторите попытку позже.</string>
+    <string name="archive_error_network">Проблема с сетью. Проверьте подключение и повторите попытку.</string>
+    <string name="archive_error_generic">Что-то пошло не так. Повторите попытку.</string>
+    <string name="archive_error_upload_failed">Не удалось загрузить. Повторите попытку.</string>
 </resources>

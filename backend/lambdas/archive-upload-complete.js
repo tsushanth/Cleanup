@@ -17,12 +17,12 @@ function getUserId(event) {
 exports.handler = async (event) => {
   try {
     const userId = getUserId(event);
-    if (!userId) { return response(400, { error: 'Missing user identity' }); }
+    if (!userId) { return response(400, { error: 'Missing user identity', code: 'MISSING_IDENTITY' }); }
     const body = JSON.parse(event.body);
     const { itemId, fileName, fileType, fileSize, storageTier, thumbnailBase64, creationDate, pixelWidth, pixelHeight, duration, contactNames, contactCount } = body;
 
     if (!itemId || !fileName || !fileType || !fileSize || !storageTier) {
-      return response(400, { error: 'Missing required fields' });
+      return response(400, { error: 'Missing required fields', code: 'MISSING_FIELDS' });
     }
 
     // Check quota before accepting upload
@@ -37,6 +37,7 @@ exports.handler = async (event) => {
       if (quotaBytes > 0 && (usedBytes + fileSize) > quotaBytes) {
         return response(413, {
           error: 'Storage quota exceeded',
+          code: 'QUOTA_EXCEEDED',
           usedBytes,
           quotaBytes,
           requiredBytes: fileSize,
@@ -83,7 +84,7 @@ exports.handler = async (event) => {
     return response(200, { success: true });
   } catch (error) {
     console.error('Error:', error);
-    return response(500, { error: 'Internal server error' });
+    return response(500, { error: 'Internal server error', code: 'INTERNAL_ERROR' });
   }
 };
 

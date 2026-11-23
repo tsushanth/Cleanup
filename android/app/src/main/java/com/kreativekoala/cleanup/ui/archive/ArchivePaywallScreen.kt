@@ -1,5 +1,6 @@
 package com.kreativekoala.cleanup.ui.archive
 
+import java.text.NumberFormat
 import android.app.Activity
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -123,8 +124,8 @@ fun ArchivePaywallScreen(
                 val isSelected = selectedTierIndex == index
 
                 StoragePlanCard(
-                    displayName = tier.displayName,
-                    price = "$price/month",
+                    displayName = stringResource(R.string.size_unit_gb, NumberFormat.getIntegerInstance().format(tier.storageGb)),
+                    price = stringResource(R.string.archive_price_per_month, price),
                     isCurrentPlan = isCurrentPlan,
                     isBestValue = tier == ArchiveSubscriptionTier.TIER_25GB,
                     isSelected = isSelected,
