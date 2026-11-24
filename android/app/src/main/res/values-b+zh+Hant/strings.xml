@@ -52,7 +52,7 @@
     <string name="onboarding_contact_granted_title">聯絡人訪問已授權！</string>
     <string name="onboarding_contact_request_title">清理您的聯絡人</string>
     <string name="onboarding_contact_granted_subtitle">我們將查詢重複和不完整的聯絡人，以便您合併或刪除。</string>
-    <string name="onboarding_contact_request_subtitle">查詢併合並重復聯絡人，保持通訊錄整潔。</string>
+    <string name="onboarding_contact_request_subtitle">查詢並合併重複聯絡人，保持通訊錄整潔。</string>
     <string name="onboarding_feature_find_dupes_title">查詢重複</string>
     <string name="onboarding_feature_find_dupes_subtitle">檢測同名或同號的聯絡人</string>
     <string name="onboarding_feature_smart_merge_title">智慧合併</string>
@@ -168,7 +168,7 @@
     <string name="contacts_title">聯絡人清理</string>
     <string name="contacts_tab_duplicates">重複</string>
     <string name="contacts_tab_incomplete">不完整</string>
-    <string name="contacts_access_required">需要聯絡人訪問許可權</string>
+    <string name="contacts_access_required">需要聯絡人訪問權限</string>
     <string name="contacts_access_message">需要訪問您的聯絡人以查詢重複和不完整的條目。</string>
     <string name="contacts_grant_access">授權訪問</string>
     <string name="contacts_no_duplicates_title">無重複</string>

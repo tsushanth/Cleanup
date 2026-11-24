@@ -52,7 +52,7 @@
     <string name="onboarding_contact_granted_title">聯繫人訪問已授權！</string>
     <string name="onboarding_contact_request_title">清理您的聯繫人</string>
     <string name="onboarding_contact_granted_subtitle">我們將查找重複和不完整的聯繫人，以便您合併或刪除。</string>
-    <string name="onboarding_contact_request_subtitle">查找併合並重復聯繫人，保持通訊錄整潔。</string>
+    <string name="onboarding_contact_request_subtitle">查找並合併重複聯繫人，保持通訊錄整潔。</string>
     <string name="onboarding_feature_find_dupes_title">查找重複</string>
     <string name="onboarding_feature_find_dupes_subtitle">檢測同名或同號的聯繫人</string>
     <string name="onboarding_feature_smart_merge_title">智能合併</string>
