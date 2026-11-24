@@ -56,6 +56,12 @@ class StringResourcesTest {
     private val localeDirs = resDir.listFiles { f -> f.isDirectory && f.name.startsWith("values-") && File(f, "strings.xml").exists() }!!
         .sortedBy { it.name }
 
+    /** Language code of a values-* folder; handles BCP 47 folders like values-b+zh+Hant. */
+    private fun langOf(dir: File): String {
+        val name = dir.name.removePrefix("values-")
+        return if (name.startsWith("b+")) name.split("+")[1] else name.substringBefore("-r")
+    }
+
     private val spec = Regex("%(\\d+\\$)?[-#+ 0,(]*\\d*(\\.\\d+)?([a-zA-Z])")
 
     /** Placeholders as "position:conversion", sequential when no explicit position. */
@@ -128,7 +134,7 @@ class StringResourcesTest {
     @Test
     fun pluralCategoriesMatchTheLanguage() {
         for (dir in localeDirs) {
-            val lang = dir.name.removePrefix("values-").substringBefore("-r")
+            val lang = langOf(dir)
             val want = required[lang] ?: error("add plural categories for $lang")
             for ((k, items) in load(dir).plurals) assertEquals("${dir.name}:$k", want, items.keys)
         }
@@ -145,12 +151,26 @@ class StringResourcesTest {
     }
 
     @Test
+    fun traditionalChineseIsShippedAndListed() {
+        for (f in listOf("values-zh-rTW", "values-zh-rHK", "values-b+zh+Hant")) {
+            assertTrue("$f missing", File(resDir, "$f/strings.xml").exists())
+        }
+        val doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(File(resDir, "xml/locales_config.xml"))
+        val names = doc.getElementsByTagName("locale").let { l ->
+            (0 until l.length).map { (l.item(it) as Element).getAttribute("android:name") }
+        }
+        assertTrue("zh-TW not listed", "zh-TW" in names)
+        assertTrue("zh-HK not listed", "zh-HK" in names)
+        assertTrue("Simplified not listed", "zh-Hans" in names)
+    }
+
+    @Test
     fun localeConfigListsTheShippedLanguages() {
         val doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(File(resDir, "xml/locales_config.xml"))
         val listed = doc.getElementsByTagName("locale").let { l ->
             (0 until l.length).map { (l.item(it) as Element).getAttribute("android:name") }
         }.map { it.substringBefore("-").lowercase() }.toSet()
-        val shipped = localeDirs.map { it.name.removePrefix("values-").substringBefore("-r") }
+        val shipped = localeDirs.map { langOf(it) }
             .map { if (it == "in") "id" else it }.toSet() + "en"
         assertEquals(shipped, listed)
     }

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpace</string>
+
+    <!-- ==================== HOME SCREEN ==================== -->
+    <string name="home_title">一鍵清理</string>
+    <string name="home_vault_cd">保險箱</string>
+    <string name="home_scanning">掃描中…</string>
+    <string name="home_one_tap_scan">一鍵掃描</string>
+    <string name="home_grant_access_scan">授權並掃描</string>
+    <string name="home_scanning_device">正在掃描您的裝置…</string>
+    <string name="home_quick_actions">快捷操作</string>
+    <string name="home_chip_duplicates">重複</string>
+    <string name="home_chip_screenshots">截圖</string>
+    <string name="home_chip_large_videos">大影片</string>
+    <string name="home_chip_compress">壓縮</string>
+    <string name="home_chip_archive">歸檔</string>
+    <string name="home_chip_downloads">下載</string>
+    <string name="home_chip_apk_files">APK檔案</string>
+    <string name="home_smart_scan_results">智慧掃描結果</string>
+    <string name="home_category_duplicate_photos">重複照片</string>
+    <string name="home_category_similar_photos">相似照片</string>
+    <string name="home_category_screenshots">截圖</string>
+    <string name="home_category_large_videos">大影片</string>
+    <string name="home_category_duplicate_contacts">重複聯絡人</string>
+    <string name="home_file_management">檔案管理</string>
+    <string name="home_category_downloads">下載</string>
+    <string name="home_category_apk_files">APK檔案</string>
+    <string name="home_category_notification_manager">通知管理</string>
+    <string name="home_storage_used">已用 %s</string>
+    <string name="home_storage_total">共 %s</string>
+    <string name="home_storage_full">儲存空間已使用 %d%%</string>
+    <string name="home_tap_to_scan">點選掃描</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_welcome_title">您的手機充滿了垃圾檔案</string>
+    <string name="onboarding_welcome_subtitle">重複照片、舊截圖、大影片 — 它們正在佔用您的儲存空間。讓我們解決這個問題。</string>
+    <string name="onboarding_welcome_button">開始清理</string>
+    <string name="onboarding_media_granted_title">媒體訪問已授權！</string>
+    <string name="onboarding_media_request_title">訪問您的照片和影片</string>
+    <string name="onboarding_media_granted_subtitle">我們將掃描您所有的照片和影片，查詢重複、相似照片和佔用空間的檔案。</string>
+    <string name="onboarding_media_request_subtitle">要查詢重複檔案並釋放空間，我們需要訪問您的照片和影片。</string>
+    <string name="onboarding_feature_private_title" formatted="false">100%私密</string>
+    <string name="onboarding_feature_private_subtitle">所有掃描均在裝置上進行</string>
+    <string name="onboarding_feature_fast_title">快速掃描</string>
+    <string name="onboarding_feature_fast_subtitle">不到30秒</string>
+    <string name="onboarding_feature_you_choose_title">您來選擇</string>
+    <string name="onboarding_feature_you_choose_subtitle">未經您批准不會刪除任何內容</string>
+    <string name="onboarding_continue">繼續</string>
+    <string name="onboarding_allow_photo_video">允許訪問照片和影片</string>
+    <string name="onboarding_skip">暫時跳過</string>
+    <string name="onboarding_contact_granted_title">聯絡人訪問已授權！</string>
+    <string name="onboarding_contact_request_title">清理您的聯絡人</string>
+    <string name="onboarding_contact_granted_subtitle">我們將查詢重複和不完整的聯絡人，以便您合併或刪除。</string>
+    <string name="onboarding_contact_request_subtitle">查詢併合並重復聯絡人，保持通訊錄整潔。</string>
+    <string name="onboarding_feature_find_dupes_title">查詢重複</string>
+    <string name="onboarding_feature_find_dupes_subtitle">檢測同名或同號的聯絡人</string>
+    <string name="onboarding_feature_smart_merge_title">智慧合併</string>
+    <string name="onboarding_feature_smart_merge_subtitle">將重複合併為一個聯絡人</string>
+    <string name="onboarding_feature_safe_title">安全</string>
+    <string name="onboarding_feature_safe_subtitle">更改前先審查</string>
+    <string name="onboarding_allow_contact">允許訪問聯絡人</string>
+    <string name="onboarding_ready_title">全部就緒！</string>
+    <string name="onboarding_ready_subtitle">點選下方按鈕掃描所有內容並開始清理。</string>
+    <string name="onboarding_photos_videos">照片和影片</string>
+    <string name="onboarding_contact_access">聯絡人訪問</string>
+    <string name="onboarding_free_duplicates">5次免費重複刪除</string>
+    <string name="onboarding_free_similar">5次免費相似照片清理</string>
+    <string name="onboarding_free_screenshots">5次免費截圖刪除</string>
+    <string name="onboarding_free_videos">5次免費影片清理</string>
+    <string name="onboarding_free_contacts">5次免費聯絡人合併</string>
+    <string name="onboarding_free_label">免費</string>
+    <string name="onboarding_get_started">掃描並開始</string>
+
+    <!-- ==================== PAYWALL SCREEN ==================== -->
+    <string name="paywall_close_cd">關閉</string>
+    <string name="paywall_pro_badge">PRO</string>
+    <string name="paywall_per_year">每年</string>
+    <string name="paywall_per_month">每月</string>
+    <string name="paywall_feature_unlimited_title">無限清理</string>
+    <string name="paywall_feature_unlimited_subtitle">隨時清理您的裝置</string>
+    <string name="paywall_feature_duplicates_title">刪除重複和相似檔案</string>
+    <string name="paywall_feature_duplicates_subtitle">即時查詢並刪除重複照片</string>
+    <string name="paywall_feature_videos_title">大影片管理</string>
+    <string name="paywall_feature_videos_subtitle">壓縮或刪除佔用空間的影片</string>
+    <string name="paywall_feature_private_title">私密且安全</string>
+    <string name="paywall_feature_private_subtitle">所有掃描均在裝置上進行</string>
+    <string name="paywall_best_value">最佳價值</string>
+    <string name="paywall_save_75" formatted="false">比月付節省 75%</string>
+    <string name="paywall_continue">繼續</string>
+    <string name="paywall_restore">恢復購買</string>
+    <string name="paywall_terms">訂閱自動續費。可隨時在 Google Play 設定中取消。</string>
+
+    <!-- ==================== PHOTOS CLEANUP SCREEN ==================== -->
+    <string name="photos_title">照片清理</string>
+    <string name="photos_back_cd">返回</string>
+    <string name="photos_change_folder_cd">更改資料夾</string>
+    <string name="photos_delete_count">刪除 %d</string>
+    <string name="photos_select_title">選擇要分析的照片</string>
+    <string name="photos_select_subtitle">選擇如何提供照片用於重複和截圖檢測。</string>
+    <string name="photos_select_all_folder">全選（資料夾訪問）</string>
+    <string name="photos_select_all_hint">授權訪問 DCIM 或圖片資料夾以掃描所有照片</string>
+    <string name="photos_choose">選擇照片</string>
+    <string name="photos_choose_hint">選擇特定照片進行分析</string>
+    <string name="photos_selected_count">已選擇 %d</string>
+    <string name="photos_save_amount">節省 %s</string>
+    <string name="photos_tab_duplicates">重複</string>
+    <string name="photos_tab_similar">相似</string>
+    <string name="photos_tab_screenshots">截圖</string>
+    <string name="photos_no_duplicates_title">未找到重複</string>
+    <string name="photos_no_duplicates_subtitle">您的照片庫很乾淨！</string>
+    <string name="photos_select_all">全選</string>
+    <string name="photos_deselect_all">全部取消</string>
+    <string name="photos_keep_best">保留最佳</string>
+    <string name="photos_no_similar_title">無相似照片</string>
+    <string name="photos_no_similar_subtitle">未找到相似照片組</string>
+    <string name="photos_percent_similar">%d%%相似</string>
+    <string name="photos_keep_best_select_others">保留最佳，選擇其他</string>
+    <string name="photos_no_screenshots_title">無截圖</string>
+    <string name="photos_no_screenshots_subtitle">庫中未找到截圖</string>
+    <string name="photos_selected_cd">已選擇</string>
+    <string name="photos_best_badge">最佳</string>
+    <string name="photos_scanning">掃描照片中…</string>
+    <string name="photos_delete_message">這將永久刪除裝置上選定的照片。此操作無法撤銷。</string>
+    <string name="photos_delete_permanently">永久刪除</string>
+    <string name="cancel">取消</string>
+
+    <!-- ==================== UPGRADE / PAYWALL DIALOG ==================== -->
+    <string name="upgrade_title">升級到 Pro</string>
+    <string name="upgrade_message">您已用完此類別的所有免費清理次數。升級到 Pro 可獲得無限訪問。</string>
+    <string name="upgrade_button">升級</string>
+    <string name="upgrade_not_now">以後再說</string>
+
+    <!-- ==================== VAULT SCREEN ==================== -->
+    <string name="vault_title">保險箱</string>
+    <string name="vault_lock_cd">鎖定</string>
+    <string name="vault_add_cd">新增專案</string>
+    <string name="vault_secret_space">私密空間</string>
+    <string name="vault_enter_pin">輸入 PIN 訪問</string>
+    <string name="vault_use_biometrics">使用生物識別</string>
+    <string name="vault_biometric_title">訪問私密空間</string>
+    <string name="vault_biometric_subtitle">使用指紋或面部解鎖</string>
+    <string name="vault_biometric_negative">使用 PIN</string>
+    <string name="vault_backspace_cd">刪除</string>
+    <string name="vault_create_pin">建立 PIN</string>
+    <string name="vault_confirm_pin">確認 PIN</string>
+    <string name="vault_create_pin_subtitle">選擇一個 4 位 PIN 來保護您的保險箱</string>
+    <string name="vault_confirm_pin_subtitle">再次輸入相同的 PIN</string>
+    <string name="vault_pin_mismatch">PIN 不匹配。請重試。</string>
+    <string name="vault_empty_title">您的保險箱是空的</string>
+    <string name="vault_empty_subtitle">新增照片和影片以保持私密</string>
+    <string name="vault_add_items">新增專案</string>
+    <string name="vault_adding">正在新增到保險箱…</string>
+    <string name="vault_add_to_vault">新增到保險箱</string>
+    <string name="vault_select_items_subtitle">選擇要新增到保險箱的專案</string>
+    <string name="vault_select_from_photos">從照片中選擇</string>
+    <string name="vault_select_from_files">從檔案中選擇</string>
+    <string name="vault_delete_title">刪除專案</string>
+    <string name="vault_delete_message">這將永久刪除保險箱中的此專案。</string>
+    <string name="vault_delete_button">刪除</string>
+    <string name="vault_restore_title">恢復專案</string>
+    <string name="vault_restore_message">這將將專案恢復到您的照片庫。</string>
+    <string name="vault_restore_button">恢復</string>
+    <string name="vault_added_date">新增日期：%s</string>
+    <string name="vault_item_size">大小：%s</string>
+
+    <!-- ==================== CONTACTS CLEANUP SCREEN ==================== -->
+    <string name="contacts_title">聯絡人清理</string>
+    <string name="contacts_tab_duplicates">重複</string>
+    <string name="contacts_tab_incomplete">不完整</string>
+    <string name="contacts_access_required">需要聯絡人訪問許可權</string>
+    <string name="contacts_access_message">需要訪問您的聯絡人以查詢重複和不完整的條目。</string>
+    <string name="contacts_grant_access">授權訪問</string>
+    <string name="contacts_no_duplicates_title">無重複</string>
+    <string name="contacts_no_duplicates_subtitle">您的聯絡人很乾淨！</string>
+    <string name="contacts_merge_all">全部合併</string>
+    <string name="contacts_delete_dupes">刪除重複</string>
+    <string name="contacts_no_name">無名稱</string>
+    <string name="contacts_no_incomplete_title">無不完整的聯絡人</string>
+    <string name="contacts_no_incomplete_subtitle">所有聯絡人資訊完整</string>
+    <string name="contacts_delete_selected">刪除已選 (%d)</string>
+    <string name="contacts_merge_title">合併聯絡人</string>
+    <string name="contacts_merge_subtitle">選擇要保留的主聯絡人。其他聯絡人的資訊將合併到其中。</string>
+    <string name="contacts_merge_button">合併聯絡人</string>
+    <string name="contacts_scanning">掃描聯絡人中…</string>
+
+    <!-- ==================== VIDEOS CLEANUP SCREEN ==================== -->
+    <string name="videos_title">影片清理</string>
+    <string name="videos_delete_count">刪除 %d</string>
+    <string name="videos_select_title">選擇要分析的影片</string>
+    <string name="videos_select_subtitle">選擇如何提供影片用於大檔案檢測和壓縮。</string>
+    <string name="videos_select_all_folder">全選（資料夾訪問）</string>
+    <string name="videos_select_all_hint">授權訪問 DCIM 或媒體資料夾以掃描所有影片</string>
+    <string name="videos_choose">選擇影片</string>
+    <string name="videos_choose_hint">選擇特定影片進行分析</string>
+    <string name="videos_tab_large">大影片</string>
+    <string name="videos_tab_compress">壓縮</string>
+    <string name="videos_no_large_title">無大影片</string>
+    <string name="videos_no_large_subtitle">未找到超過 50MB 的影片</string>
+    <string name="videos_delete_message">這將永久刪除選定的影片。此操作無法撤銷。</string>
+    <string name="videos_no_compress_title">無影片</string>
+    <string name="videos_no_compress_subtitle">未找到可壓縮的影片</string>
+    <string name="videos_compression_quality">壓縮質量</string>
+    <string name="videos_select_videos">選擇影片</string>
+    <string name="videos_n_selected">已選擇 %d</string>
+    <string name="videos_scanning">掃描影片中…</string>
+    <string name="videos_compressing_title">正在壓縮影片</string>
+
+    <!-- ==================== DOWNLOADS SCREEN ==================== -->
+    <string name="downloads_title">下載</string>
+    <string name="downloads_deselect">取消選擇</string>
+    <string name="downloads_scanning">掃描下載資料夾中…</string>
+    <string name="downloads_clean">下載資料夾很乾淨！</string>
+
+    <!-- ==================== APK SCREEN ==================== -->
+    <string name="apk_title">APK 檔案</string>
+    <string name="apk_deselect">取消選擇</string>
+    <string name="apk_scanning">掃描 APK 檔案中…</string>
+    <string name="apk_none_found">未找到 APK 檔案！</string>
+    <string name="apk_all_filter">全部 (%d)</string>
+
+    <!-- ==================== NOTIFICATIONS SCREEN ==================== -->
+    <string name="notifications_title">通知</string>
+    <string name="notifications_analyzing">分析通知中…</string>
+    <string name="notifications_no_apps">未找到應用</string>
+    <string name="notifications_manage_hint">點選管理每個應用的通知設定</string>
+    <string name="notifications_enabled">通知已啟用</string>
+    <string name="notifications_disabled">通知已禁用</string>
+    <string name="notifications_manage_button">管理</string>
+
+    <!-- ==================== ARCHIVE SCREEN ==================== -->
+    <string name="archive_title">雲歸檔</string>
+    <string name="archive_sync_cd">同步</string>
+    <string name="archive_storage_used">已用儲存</string>
+    <string name="archive_empty_title">無歸檔專案</string>
+    <string name="archive_empty_subtitle">從清理頁面歸檔照片和影片以釋放裝置空間</string>
+    <string name="archive_detail_archived">歸檔日期：%s</string>
+    <string name="archive_detail_size">大小：%s</string>
+    <string name="archive_detail_tier">層級：%s</string>
+    <string name="archive_retrieve_button">檢索</string>
+    <string name="archive_delete_title">刪除歸檔專案</string>
+    <string name="archive_delete_message">這將永久刪除歸檔中的此專案。無法撤銷。</string>
+    <string name="archive_success_title">歸檔成功</string>
+    <string name="archive_restore_success_title">恢復成功</string>
+    <string name="archive_restore_success_message">專案已恢復到您的裝置。</string>
+    <string name="archive_error_title">錯誤</string>
+    <string name="ok">確定</string>
+
+    <!-- ==================== ARCHIVE SIGN-IN SCREEN ==================== -->
+    <string name="archive_signin_title">登入雲歸檔</string>
+    <string name="archive_signin_subtitle">在從裝置刪除之前，將照片和影片歸檔到雲端</string>
+    <string name="archive_signin_encrypted_title">加密儲存</string>
+    <string name="archive_signin_encrypted_subtitle">檔案在傳輸過程中和儲存在 AWS 時均會加密</string>
+    <string name="archive_signin_retrieve_title">隨時檢索</string>
+    <string name="archive_signin_retrieve_subtitle">在需要時下載歸檔檔案</string>
+    <string name="archive_signin_private_title">私密且安全</string>
+    <string name="archive_signin_private_subtitle">無需記住密碼 — 使用 Google 登入</string>
+    <string name="archive_signin_google">使用 Google 登入</string>
+    <string name="archive_signin_privacy">您的資料僅用於雲歸檔儲存。我們絕不分享或出售您的資訊。</string>
+
+    <!-- ==================== ARCHIVE PAYWALL SCREEN ==================== -->
+    <string name="archive_paywall_title">放心刪除</string>
+    <string name="archive_paywall_subtitle">刪除前將檔案歸檔到雲端。隨時可檢索。</string>
+    <string name="archive_paywall_safety_title">安全網</string>
+    <string name="archive_paywall_safety_subtitle">再也不會丟失重要檔案</string>
+    <string name="archive_paywall_retrieve_title">隨時檢索</string>
+    <string name="archive_paywall_retrieve_subtitle">需要時下載歸檔檔案</string>
+    <string name="archive_paywall_encrypted_title">加密儲存</string>
+    <string name="archive_paywall_encrypted_subtitle">您的資料始終加密且私密</string>
+    <string name="archive_paywall_choose_plan">選擇您的計劃</string>
+    <string name="archive_paywall_current">當前</string>
+    <string name="archive_paywall_subscribe">訂閱</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">設定</string>
+    <string name="settings_account">帳戶</string>
+    <string name="settings_sign_in">登入</string>
+    <string name="settings_subscription">訂閱</string>
+    <string name="settings_upgrade_pro">升級到 Pro</string>
+    <string name="settings_features">功能</string>
+    <string name="settings_secret_space">私密空間</string>
+    <string name="settings_email_cleanup">郵件清理</string>
+    <string name="settings_widgets">小元件</string>
+    <string name="settings_about">關於</string>
+    <string name="settings_privacy_policy">隱私政策</string>
+    <string name="settings_terms">服務條款</string>
+    <string name="settings_rate_us">評分</string>
+    <string name="settings_version">版本 1.1 (2)</string>
+
+    <!-- ==================== NAV / LOGIN / PLACEHOLDER ==================== -->
+    <string name="nav_home">首頁</string>
+    <string name="nav_photos">照片</string>
+    <string name="nav_videos">影片</string>
+    <string name="nav_contacts">聯絡人</string>
+    <string name="nav_settings">設定</string>
+    <string name="login_title">登入</string>
+    <string name="login_coming_soon">即將推出</string>
+    <string name="login_coming_soon_subtitle">帳戶登入將在未來的更新中提供。</string>
+    <string name="login_email">電子郵件</string>
+    <string name="login_password">密碼</string>
+    <string name="login_button">登入</string>
+    <string name="placeholder_coming_soon">%s - 即將推出</string>
+    <string name="email_cleanup_title">郵件清理</string>
+    <string name="widgets_title">小元件</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="back_cd">返回</string>
+    <string name="delete_button">刪除</string>
+
+    <!-- Counted strings: plural forms per CLDR for this language -->
+    <plurals name="home_items_count">
+        <item quantity="other">%d 個專案</item>
+    </plurals>
+    <plurals name="home_items_count_savings">
+        <item quantity="other">%1$d 個專案 · %2$s</item>
+    </plurals>
+    <plurals name="photos_delete_title">
+        <item quantity="other">刪除 %d 張照片？</item>
+    </plurals>
+    <plurals name="photos_n_duplicates">
+        <item quantity="other">%d 個重複</item>
+    </plurals>
+    <plurals name="photos_n_similar">
+        <item quantity="other">%d 張相似照片</item>
+    </plurals>
+    <plurals name="photos_n_screenshots">
+        <item quantity="other">%d 張截圖</item>
+    </plurals>
+    <plurals name="contacts_n_incomplete">
+        <item quantity="other">%d 個不完整</item>
+    </plurals>
+    <plurals name="videos_n_large">
+        <item quantity="other">%d 個大影片</item>
+    </plurals>
+    <plurals name="videos_delete_title">
+        <item quantity="other">刪除 %d 個影片？</item>
+    </plurals>
+    <plurals name="videos_compress_n">
+        <item quantity="other">壓縮 %d 個影片</item>
+    </plurals>
+    <plurals name="downloads_delete_n_files">
+        <item quantity="other">刪除 %d 個檔案</item>
+    </plurals>
+    <plurals name="apk_delete_n">
+        <item quantity="other">刪除 %d 個 APK</item>
+    </plurals>
+    <plurals name="notifications_apps_count">
+        <item quantity="other">%d 個應用有通知</item>
+    </plurals>
+    <plurals name="archive_items_count">
+        <item quantity="other">已歸檔 %d 個專案</item>
+    </plurals>
+    <plurals name="archive_success_message">
+        <item quantity="other">%d 個專案已歸檔到雲端。</item>
+    </plurals>
+    <plurals name="photos_duplicates_summary">
+        <item quantity="other">%2$d 組中有 %1$d 個重複</item>
+    </plurals>
+    <plurals name="photos_similar_summary">
+        <item quantity="other">%2$d 組中有 %1$d 個相似</item>
+    </plurals>
+    <plurals name="downloads_summary">
+        <item quantity="other">%1$d 個檔案 (%2$s)</item>
+    </plurals>
+    <plurals name="contacts_n_duplicates">
+        <item quantity="other">%d 個重複</item>
+    </plurals>
+
+    <!-- Previously hard-coded English: statuses, filters, tabs, quality, paywall context, errors -->
+    <string name="apk_status_already_installed">已安裝</string>
+    <string name="apk_status_outdated">舊版本</string>
+    <string name="apk_status_not_installed">未安裝</string>
+    <string name="apk_status_unknown">未知</string>
+    <string name="archive_filter_all">全部</string>
+    <string name="downloads_tab_all">全部</string>
+    <string name="downloads_tab_large">大檔案</string>
+    <string name="downloads_tab_old">舊檔案</string>
+    <string name="videos_quality_high">高質量</string>
+    <string name="videos_quality_medium">中等質量</string>
+    <string name="videos_quality_low">低質量</string>
+    <string name="videos_quality_detail">%1$dp - 約縮小 %2$d%%</string>
+    <string name="contacts_match_name">相同姓名</string>
+    <string name="contacts_match_phone">相同電話</string>
+    <string name="contacts_match_email">相同郵箱</string>
+    <string name="vault_pin_incorrect">PIN 碼錯誤，請重試。</string>
+    <string name="billing_error_no_offer">此商品暫無可用優惠</string>
+    <string name="billing_error_purchase_failed">購買失敗：%s</string>
+    <string name="billing_error_acknowledge">無法確認購買</string>
+    <string name="archive_failed_message">歸檔失敗：%s</string>
+    <string name="archive_signin_failed_message">登入失敗：%s</string>
+    <string name="paywall_ctx_generic_title">解鎖 Cleanup Pro</string>
+    <string name="paywall_ctx_generic_subtitle">無限清理與重複項刪除</string>
+    <string name="paywall_ctx_unlimited_photos_subtitle">包含無限次照片清理</string>
+    <string name="paywall_ctx_screenshots_subtitle">隨時批次刪除截圖</string>
+    <string name="paywall_ctx_videos_subtitle">壓縮並刪除大影片</string>
+    <string name="paywall_ctx_compress_title">壓縮可節省 %s GB</string>
+    <string name="paywall_ctx_contacts_subtitle">讓聯絡人井井有條</string>
+    <string name="paywall_ctx_archive_subtitle">將檔案安全儲存在雲端，而不是刪除</string>
+    <plurals name="paywall_ctx_duplicates_title">
+        <item quantity="other">一鍵刪除 %d 個重複項</item>
+    </plurals>
+    <plurals name="paywall_ctx_similar_title">
+        <item quantity="other">清理 %d 張相似照片</item>
+    </plurals>
+    <plurals name="paywall_ctx_screenshots_title">
+        <item quantity="other">立即刪除 %d 張截圖</item>
+    </plurals>
+    <plurals name="paywall_ctx_videos_title">
+        <item quantity="other">從 %1$d 個影片中釋放 %2$s GB</item>
+    </plurals>
+    <plurals name="paywall_ctx_contacts_title">
+        <item quantity="other">合併 %d 個重複聯絡人</item>
+    </plurals>
+    <plurals name="paywall_ctx_archive_title">
+        <item quantity="other">歸檔 %1$d 個專案 (%2$s GB)</item>
+    </plurals>
+
+    <!-- Localized units, archive labels and archive error messages -->
+    <string name="size_unit_b">%1$s B</string>
+    <string name="size_unit_kb">%1$s KB</string>
+    <string name="size_unit_mb">%1$s MB</string>
+    <string name="size_unit_gb">%1$s GB</string>
+    <string name="size_unit_tb">%1$s TB</string>
+    <string name="archive_tier_instant">即時訪問</string>
+    <string name="archive_tier_flexible">靈活取回</string>
+    <string name="archive_tier_deep">深度歸檔</string>
+    <string name="archive_retrieval_instant">即時</string>
+    <string name="archive_retrieval_flexible">3-5 小時</string>
+    <string name="archive_retrieval_deep">最長 12 小時</string>
+    <string name="archive_status_pending">待處理</string>
+    <string name="archive_status_uploading">正在上傳 %1$d%%</string>
+    <string name="archive_status_uploaded">已上傳</string>
+    <string name="archive_status_archived">已歸檔</string>
+    <string name="archive_status_retrieving">正在取回...</string>
+    <string name="archive_status_ready">可下載</string>
+    <string name="archive_status_failed">失敗：%1$s</string>
+    <string name="archive_file_photo">照片</string>
+    <string name="archive_file_video">影片</string>
+    <string name="archive_file_contact">聯絡人</string>
+    <string name="archive_file_vault">保險庫專案</string>
+    <string name="archive_price_per_month">%1$s/月</string>
+    <string name="subscription_status_pro">Pro 會員</string>
+    <string name="subscription_status_free">免費</string>
+    <string name="archive_error_not_authenticated">請登入以使用雲歸檔。</string>
+    <string name="archive_error_invalid_request">請求無效，請重試。</string>
+    <string name="archive_error_item_not_found">在您的歸檔中找不到此專案。</string>
+    <string name="archive_error_user_not_found">找不到您的歸檔帳戶，請重新登入。</string>
+    <string name="archive_error_quota_exceeded">歸檔儲存空間不足。請升級套餐或刪除專案。</string>
+    <string name="archive_error_server">歸檔服務出現問題，請稍後重試。</string>
+    <string name="archive_error_network">網路問題。請檢查連線後重試。</string>
+    <string name="archive_error_generic">出了點問題，請重試。</string>
+    <string name="archive_error_upload_failed">上傳失敗，請重試。</string>
+</resources>
