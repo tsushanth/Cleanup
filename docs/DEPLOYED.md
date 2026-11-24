@@ -1,5 +1,14 @@
 # SmartSpace (com.kreativekoala.smartspace) Play releases
 
+## 1.1.2 (11), 2026-11-23, production at 20%
+- Built from origin/main 090112b0b47f29f6646b87860851cd1105ee70ee (tag play/1.1.2-11), `android/`, `:app:bundleRelease`, unminified, jarsigner verified.
+- AAB sha256 f6da817fdba7794e6a128e05df7d596647d867bf9a9289dea7a617f6dabea8d7
+- Unit tests: 19 pass (StringResourcesTest, NoHardcodedUiStringsTest, ByteFormatterTest, ArchiveErrorMapperTest).
+- Device test (Pixel 9 Pro, debug build of the same tree with a side-by-side applicationIdSuffix, per-app language zh-TW, zh-HK, zh-CN, es, en): onboarding, home, settings and paywall render in the right script and wording (zh-TW Traditional/Taiwan terms, zh-HK Hong Kong terms such as 設置/視頻/聯繫人, zh-CN still Simplified), storage sizes show correct units ("105.4 GB"), no FATAL/ANR. No clean/delete/archive action was run; permission prompts were skipped.
+- Track after commit: production 1.1.2 [11] inProgress 0.2; 1.1.1 [10] completed.
+- Content: Traditional Chinese for Taiwan (zh-TW, script fallback b+zh+Hant) and Hong Kong (zh-HK), per-app language entries (PRs #15, #16). No server changes.
+- Rollback: halt the rollout, or re-upload versionCode 10 as the completed release via the Play API.
+
 ## 1.1.1 (10), 2026-11-23, production at 20%
 - Built from origin/main 82b788093f560c522b7d9219c6479582ed9c4853 (tag play/1.1.1-10), `android/`, `:app:bundleRelease`, unminified.
 - AAB sha256 9d15cb127ddf8d04e751f15d2bf0e3646eb8e683f8f14940f45e730353774bc2
