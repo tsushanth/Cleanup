@@ -2,6 +2,7 @@ package com.kreativekoala.cleanup.util
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
+import java.io.File
 import java.util.Locale
 
 class ByteFormatterTest {
@@ -44,5 +45,29 @@ class ByteFormatterTest {
     fun fallsBackToEnglishBeforeInit() {
         Locale.setDefault(Locale.US)
         assertEquals("1.0 KB", ByteFormatter.format(1024))
+    }
+
+    private fun shippedTemplates(folder: String): List<String> {
+        val res = listOf(File("src/main/res"), File("app/src/main/res")).first { it.isDirectory }
+        val xml = File(res, "$folder/strings.xml").readText()
+        return listOf("b", "kb", "mb", "gb", "tb").map { u ->
+            Regex("<string name=\"size_unit_$u\">([^<]*)</string>").find(xml)!!.groupValues[1]
+        }
+    }
+
+    @Test
+    fun traditionalChineseLocalesFormatWithShippedUnits() {
+        val cases = mapOf(
+            "values-zh-rTW" to Locale.TAIWAN,
+            "values-zh-rHK" to Locale("zh", "HK"),
+            "values-b+zh+Hant" to Locale.forLanguageTag("zh-Hant-MO")
+        )
+        for ((folder, locale) in cases) {
+            val t = shippedTemplates(folder)
+            assertEquals("$folder B", "512 B", ByteFormatter.format(512, locale, t))
+            assertEquals("$folder KB", "1.5 KB", ByteFormatter.format(1536, locale, t))
+            assertEquals("$folder GB", "2.5 GB", ByteFormatter.format((2.5 * 1024 * 1024 * 1024).toLong(), locale, t))
+            assertEquals("$folder grouping", "1,023 B", ByteFormatter.format(1023, locale, t))
+        }
     }
 }
