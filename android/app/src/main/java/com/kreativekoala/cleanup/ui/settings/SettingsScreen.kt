@@ -17,6 +17,7 @@ import com.kreativekoala.cleanup.R
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsScreen(
+    showUpgrade: Boolean = false,
     onNavigateToVault: () -> Unit = {},
     onNavigateToPaywall: () -> Unit = {},
     onNavigateToEmailCleanup: () -> Unit = {},
@@ -42,14 +43,16 @@ fun SettingsScreen(
                 SettingsRow(stringResource(R.string.settings_sign_in), Icons.Default.AccountCircle, onClick = onNavigateToLogin)
             }
 
-            item {
-                Spacer(modifier = Modifier.height(8.dp))
-                Text(stringResource(R.string.settings_subscription), style = MaterialTheme.typography.titleSmall,
-                    color = MaterialTheme.colorScheme.primary,
-                    modifier = Modifier.padding(vertical = 8.dp))
-            }
-            item {
-                SettingsRow(stringResource(R.string.settings_upgrade_pro), Icons.Default.Star, onClick = onNavigateToPaywall)
+            if (showUpgrade) {
+                item {
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(stringResource(R.string.settings_subscription), style = MaterialTheme.typography.titleSmall,
+                        color = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.padding(vertical = 8.dp))
+                }
+                item {
+                    SettingsRow(stringResource(R.string.settings_upgrade_pro), Icons.Default.Star, onClick = onNavigateToPaywall)
+                }
             }
 
             item {

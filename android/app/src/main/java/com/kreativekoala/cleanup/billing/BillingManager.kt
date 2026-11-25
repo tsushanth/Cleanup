@@ -29,6 +29,10 @@ class BillingManager @Inject constructor(
     private val _products = MutableStateFlow<List<ProductDetails>>(emptyList())
     val products: StateFlow<List<ProductDetails>> = _products.asStateFlow()
 
+    private val _proOnSale = MutableStateFlow(false)
+    /** True once Play has returned a Pro subscription with an offer. Stays false when no product exists. */
+    val proOnSale: StateFlow<Boolean> = _proOnSale.asStateFlow()
+
     private val _isConnected = MutableStateFlow(false)
     val isConnected: StateFlow<Boolean> = _isConnected.asStateFlow()
 
@@ -83,7 +87,11 @@ class BillingManager @Inject constructor(
 
         billingClient.queryProductDetailsAsync(params) { result, productDetailsResult ->
             if (result.responseCode == BillingClient.BillingResponseCode.OK) {
-                _products.value = productDetailsResult.productDetailsList.orEmpty()
+                val found = productDetailsResult.productDetailsList.orEmpty()
+                _products.value = found
+                _proOnSale.value = AccessPolicy.canSellPro(
+                    found.filter { !it.subscriptionOfferDetails.isNullOrEmpty() }.map { it.productId }
+                )
             }
         }
     }
