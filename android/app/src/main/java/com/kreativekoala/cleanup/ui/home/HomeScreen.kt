@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.kreativekoala.cleanup.R
 import com.kreativekoala.cleanup.util.pluralStringRes
+import com.kreativekoala.cleanup.billing.FeatureAvailability
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -149,7 +150,9 @@ fun HomeScreen(
                     QuickActionChip(stringResource(R.string.home_chip_screenshots), Icons.Default.Screenshot) { onNavigateToPhotos(2) }
                     QuickActionChip(stringResource(R.string.home_chip_large_videos), Icons.Default.VideoLibrary) { onNavigateToVideos(0) }
                     QuickActionChip(stringResource(R.string.home_chip_compress), Icons.Default.Compress) { onNavigateToVideos(1) }
-                    QuickActionChip(stringResource(R.string.home_chip_archive), Icons.Default.Cloud, onNavigateToArchive)
+                    if (FeatureAvailability.CLOUD_ARCHIVE) {
+                        QuickActionChip(stringResource(R.string.home_chip_archive), Icons.Default.Cloud, onNavigateToArchive)
+                    }
                     QuickActionChip(stringResource(R.string.home_chip_downloads), Icons.Default.Download, onNavigateToDownloads)
                     QuickActionChip(stringResource(R.string.home_chip_apk_files), Icons.Default.Android, onNavigateToApkCleanup)
                 }

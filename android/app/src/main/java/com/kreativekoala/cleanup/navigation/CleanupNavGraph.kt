@@ -23,6 +23,8 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -38,6 +40,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.kreativekoala.cleanup.billing.FeatureAvailability
 import com.kreativekoala.cleanup.billing.PaywallContext
 import com.kreativekoala.cleanup.ui.home.HomeScreen
 import com.kreativekoala.cleanup.ui.photos.PhotosCleanupScreen
@@ -115,7 +118,10 @@ fun CleanupNavGraph(
         }
 
         composable(Screen.Settings.route) {
+            val store: PaywallViewModel = hiltViewModel()
+            val proOnSale by store.billingManager.proOnSale.collectAsState()
             SettingsScreen(
+                showUpgrade = proOnSale,
                 onNavigateToVault = { navController.navigate(Screen.Vault.route) },
                 onNavigateToPaywall = { navController.navigate(Screen.Paywall.route) },
                 onNavigateToEmailCleanup = { navController.navigate(Screen.EmailCleanup.route) },
@@ -129,7 +135,11 @@ fun CleanupNavGraph(
         }
 
         composable(Screen.Archive.route) {
-            ArchiveScreen(onNavigateBack = { navController.popBackStack() })
+            if (FeatureAvailability.CLOUD_ARCHIVE) {
+                ArchiveScreen(onNavigateBack = { navController.popBackStack() })
+            } else {
+                LaunchedEffect(Unit) { navController.popBackStack() }
+            }
         }
 
         composable(Screen.ApkCleanup.route) {
@@ -146,12 +156,17 @@ fun CleanupNavGraph(
 
         composable(Screen.Paywall.route) {
             val viewModel: PaywallViewModel = hiltViewModel()
-            PaywallScreen(
-                context = PaywallContext.Generic,
-                billingManager = viewModel.billingManager,
-                onDismiss = { navController.popBackStack() },
-                onPurchaseComplete = { navController.popBackStack() }
-            )
+            val proOnSale by viewModel.billingManager.proOnSale.collectAsState()
+            if (proOnSale) {
+                PaywallScreen(
+                    context = PaywallContext.Generic,
+                    billingManager = viewModel.billingManager,
+                    onDismiss = { navController.popBackStack() },
+                    onPurchaseComplete = { navController.popBackStack() }
+                )
+            } else {
+                LaunchedEffect(Unit) { navController.popBackStack() }
+            }
         }
 
         composable(Screen.Login.route) {

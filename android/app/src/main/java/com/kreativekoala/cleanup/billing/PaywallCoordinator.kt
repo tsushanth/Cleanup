@@ -96,7 +96,8 @@ sealed class PendingCleanupAction {
 class PaywallCoordinator @Inject constructor(
     @ApplicationContext context: Context,
     private val entitlementManager: EntitlementManager,
-    private val freeUsageManager: FreeUsageManager
+    private val freeUsageManager: FreeUsageManager,
+    private val billingManager: BillingManager
 ) {
     companion object {
         private const val PREFS_NAME = "paywall_prefs"
@@ -168,13 +169,13 @@ class PaywallCoordinator @Inject constructor(
         context: PaywallContext,
         pendingAction: PendingCleanupAction? = null
     ): AccessResult {
-        if (entitlementManager.isPro.value) return AccessResult.PRO
-
-        val remaining = freeUsageManager.remainingFreeActions()
-        if (remaining > 0) return AccessResult.FREE_TIER
-
-        showPaywall(context, pendingAction)
-        return AccessResult.PAYWALL
+        val result = AccessPolicy.decide(
+            isPro = entitlementManager.isPro.value,
+            remainingFreeActions = freeUsageManager.remainingFreeActions(),
+            proOnSale = billingManager.proOnSale.value
+        )
+        if (result == AccessResult.PAYWALL) showPaywall(context, pendingAction)
+        return result
     }
 
     fun recordUsage(count: Int) {
@@ -185,7 +186,7 @@ class PaywallCoordinator @Inject constructor(
         context: PaywallContext,
         pendingAction: PendingCleanupAction? = null
     ): Boolean {
-        if (entitlementManager.isPro.value) return true
+        if (entitlementManager.isPro.value || !billingManager.proOnSale.value) return true
         showPaywall(context, pendingAction)
         return false
     }
@@ -219,7 +220,7 @@ class PaywallCoordinator @Inject constructor(
     // MARK: - Winback Logic
 
     fun checkWinbackEligibility() {
-        if (entitlementManager.isPro.value) {
+        if (entitlementManager.isPro.value || !billingManager.proOnSale.value) {
             _showWinbackOffer.value = false
             return
         }
