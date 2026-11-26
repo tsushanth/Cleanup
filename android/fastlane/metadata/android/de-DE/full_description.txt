@@ -17,23 +17,16 @@ Entfernen Sie übrig gebliebene APK-Installationsdateien und alte Downloads, die
 Benachrichtigungsmanager
 Übernehmen Sie die Kontrolle über App-Benachrichtigungen. Sehen Sie, welche Apps Benachrichtigungen senden, und öffnen Sie die Benachrichtigungseinstellungen jeder App, um unnötige stummzuschalten.
 
-Cloud-Archiv
-Archivieren Sie Fotos und Videos in der Cloud, bevor Sie sie lokal löschen. Zum Archivieren ist eine Anmeldung nötig. Rufen Sie archivierte Elemente jederzeit ab.
-
 Sicherer Tresor
-Schützen Sie Ihre privaten Fotos und Videos mit biometrischer Authentifizierung. Halten Sie sensible Dateien verborgen und sicher.
+Schützen Sie Ihre privaten Fotos und Videos mit Fingerabdruck, Gesichtserkennung oder PIN. Halten Sie sensible Dateien verborgen und sicher.
 
 Intelligentes Speicher-Dashboard
 Erhalten Sie einen klaren Überblick darüber, was Ihren Speicher nutzt. Der Startbildschirm zeigt Ihre Speicheraufschlüsselung und gibt personalisierte Bereinigungsempfehlungen.
 
 WARUM SMARTSPACE?
 
-- Schnell und Leicht: Scans werden schnell abgeschlossen, ohne Ihren Akku zu belasten.
 - Privatsphäre Zuerst: Die gesamte Analyse findet auf Ihrem Gerät statt. Ihre Dateien werden nie ohne Ihre Erlaubnis hochgeladen.
 - Einfach zu Bedienen: Saubere, moderne Oberfläche, die für jeden konzipiert ist.
 - Detaillierte Vorschauen: Sehen Sie immer, was Sie löschen werden, bevor Sie bestätigen.
-
-KOSTENLOS STARTEN
-In jeder Kategorie sind einige Bereinigungen kostenlos. Pro, ein Abo, schaltet unbegrenzte Bereinigungen frei.
 
 Laden Sie SmartSpace noch heute herunter und genießen Sie ein schnelleres, saubereres Handy.
