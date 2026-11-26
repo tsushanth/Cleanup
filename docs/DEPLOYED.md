@@ -1,5 +1,16 @@
 # SmartSpace (com.kreativekoala.smartspace) Play releases
 
+## 1.1.3 (12), 2026-11-25, production at 20%
+- Built from origin/main 0e2e3478b95ae00222e6a241f5c913b9c11d22c3 (#20, version bump only on top of #19; tag play/1.1.3-12), `android/`, `:app:bundleRelease`, unminified, jarsigner verified.
+- AAB sha256 606402ef82d937a5d7df4d14c75fabaeefcfd9fa94e27664a4926b754cde7527. targetSdk 36, Play Billing 8.0.0, no permission added compared with the Play-generated APK of 11.
+- Unit tests: 24 pass. `lintDebug` FAILS with 19 errors, all in files unchanged since 1.1.2: 18 `UnsafeOptInUsageError` in `VideoCompressionService.kt` and 1 `NewApi` in `DownloadCleanupService.kt` line 64 (`MediaStore.Downloads` needs API 29, minSdk is 26: that path would fail on Android 8 and 9). Not fixed.
+- NOT verified: any device run, including the post-limit cleanup and the hidden entry points.
+- Track after commit: production 1.1.3 [12] inProgress 0.2; 1.1.2 [11] completed; beta, alpha and internal moved to 12.
+- Release note (en-US): "Cleanup is no longer blocked after the free actions. The cloud archive and upgrade options, which did not work, are no longer shown."
+- Content: #19.
+- Store listing, same day: in all 29 Play listing locales the "Cloud Archive" block and the "Free to start / Pro unlocks unlimited cleanups" section were removed (full description only; titles, short descriptions and video unchanged; read back). The text before the change is in `docs/play-listing-2026-11-25/before.json`. The 13 locales mirrored under `android/fastlane/metadata` now equal the live text (the mirror was slightly stale before).
+- Rollback: halt the rollout, or re-upload versionCode 11 as the completed release via the Play API; restore the listing from the saved file.
+
 ## 1.1.2 (11), 2026-11-23, production at 20%
 - Built from origin/main 090112b0b47f29f6646b87860851cd1105ee70ee (tag play/1.1.2-11), `android/`, `:app:bundleRelease`, unminified, jarsigner verified.
 - AAB sha256 f6da817fdba7794e6a128e05df7d596647d867bf9a9289dea7a617f6dabea8d7

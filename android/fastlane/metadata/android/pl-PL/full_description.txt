@@ -17,23 +17,16 @@ Usuń pozostałe pliki instalacyjne APK i stare pobrane pliki, które niepotrzeb
 Menedżer powiadomień
 Przejmij kontrolę nad powiadomieniami aplikacji. Sprawdź, które aplikacje wysyłają powiadomienia, i otwórz ustawienia powiadomień każdej z nich, aby wyciszyć te, których nie potrzebujesz.
 
-Archiwum w chmurze
-Archiwizuj zdjęcia i filmy w chmurze przed usunięciem ich z urządzenia. Archiwizacja wymaga zalogowania. Zarchiwizowane elementy możesz odzyskać w dowolnej chwili.
-
 Bezpieczny sejf
-Chroń prywatne zdjęcia i filmy uwierzytelnianiem biometrycznym. Ukryj wrażliwe pliki i trzymaj je w bezpiecznym miejscu.
+Chroń prywatne zdjęcia i filmy odciskiem palca, twarzą lub kodem PIN. Ukryj wrażliwe pliki i trzymaj je w bezpiecznym miejscu.
 
 Panel pamięci
 Zobacz wyraźnie, co zajmuje pamięć. Ekran główny pokazuje podział pamięci i podpowiada spersonalizowane sposoby czyszczenia.
 
 DLACZEGO SMARTSPACE?
 
-- Szybko i lekko: skanowanie kończy się szybko i nie rozładowuje baterii.
 - Prywatność przede wszystkim: całe skanowanie odbywa się na Twoim urządzeniu. Twoje pliki nie są przesyłane bez Twojej zgody.
 - Prosta obsługa: czysty, nowoczesny interfejs dla każdego.
 - Szczegółowe podglądy: przed potwierdzeniem zawsze widzisz, co zostanie usunięte.
-
-ZACZNIJ ZA DARMO
-W każdej kategorii kilka czyszczeń jest bezpłatnych. Pro (subskrypcja) odblokowuje nieograniczone czyszczenie.
 
 Pobierz SmartSpace już dziś i ciesz się szybszym, czystszym telefonem.

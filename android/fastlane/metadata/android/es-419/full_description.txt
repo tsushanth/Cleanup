@@ -17,23 +17,16 @@ Elimina archivos APK de instalación sobrantes y descargas antiguas que desperdi
 Gestor de Notificaciones
 Toma el control de las notificaciones de tus aplicaciones. Ve qué aplicaciones envían notificaciones y abre los ajustes de notificaciones de cada una para silenciar las que no necesitas.
 
-Archivo en la Nube
-Archiva fotos y videos en la nube antes de eliminarlos localmente. Para archivar hay que iniciar sesión. Recupera los elementos archivados en cualquier momento.
-
 Bóveda Segura
-Protege tus fotos y videos privados con autenticación biométrica. Mantén tus archivos sensibles ocultos y seguros.
+Protege tus fotos y videos privados con huella digital, rostro o PIN. Mantén tus archivos sensibles ocultos y seguros.
 
 Panel de Almacenamiento Inteligente
 Obtén una vista clara de lo que está usando tu almacenamiento. La pantalla de inicio muestra el desglose de tu almacenamiento y te da recomendaciones de limpieza personalizadas.
 
 ¿POR QUÉ SMARTSPACE?
 
-- Rápido y Ligero: Los escaneos se completan rápidamente sin agotar tu batería.
 - Privacidad Primero: Todo el escaneo ocurre en tu dispositivo. Tus archivos nunca se suben sin tu permiso.
 - Fácil de Usar: Interfaz limpia y moderna diseñada para todos.
 - Previsualizaciones Detalladas: Siempre ve lo que estás a punto de eliminar antes de confirmar.
-
-EMPIEZA GRATIS
-Algunas limpiezas en cada categoría son gratuitas. Pro, una suscripción, desbloquea limpiezas ilimitadas.
 
 Descarga SmartSpace hoy y disfruta de un teléfono más rápido y limpio.
