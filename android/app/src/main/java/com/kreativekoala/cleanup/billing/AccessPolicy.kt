@@ -1,5 +1,6 @@
 package com.kreativekoala.cleanup.billing
 
+import android.os.Build
 import com.kreativekoala.cleanup.data.model.ProductIds
 
 /** Entry points for features that cannot work in the current build are hidden with these. */
@@ -9,6 +10,9 @@ object FeatureAvailability {
      * accept Google logins). Turn on only after a signed-in upload and retrieval have been verified end to end.
      */
     const val CLOUD_ARCHIVE = false
+
+    /** Downloads cleanup reads the system Downloads collection, which exists from Android 10. */
+    val DOWNLOADS_CLEANUP: Boolean get() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q
 }
 
 /** The rules for the free cleanup limit, kept free of Android classes so they can be unit tested. */

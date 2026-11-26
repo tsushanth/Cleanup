@@ -3,6 +3,7 @@ package com.kreativekoala.cleanup.domain.service
 import android.content.ContentResolver
 import android.content.Context
 import android.net.Uri
+import android.os.Build
 import android.provider.MediaStore
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
@@ -49,6 +50,9 @@ class DownloadCleanupService @Inject constructor(
     }
 
     suspend fun scan(): DownloadScanResult = withContext(Dispatchers.IO) {
+        // MediaStore.Downloads exists from Android 10; using it earlier crashes. The entry points are hidden there too.
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q) return@withContext DownloadScanResult()
+
         val allFiles = mutableListOf<DownloadFile>()
         val thirtyDaysAgo = (System.currentTimeMillis() / 1000) - (30 * 24 * 60 * 60)
         val fiftyMB = 50L * 1024 * 1024
