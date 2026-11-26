@@ -153,7 +153,9 @@ fun HomeScreen(
                     if (FeatureAvailability.CLOUD_ARCHIVE) {
                         QuickActionChip(stringResource(R.string.home_chip_archive), Icons.Default.Cloud, onNavigateToArchive)
                     }
-                    QuickActionChip(stringResource(R.string.home_chip_downloads), Icons.Default.Download, onNavigateToDownloads)
+                    if (FeatureAvailability.DOWNLOADS_CLEANUP) {
+                        QuickActionChip(stringResource(R.string.home_chip_downloads), Icons.Default.Download, onNavigateToDownloads)
+                    }
                     QuickActionChip(stringResource(R.string.home_chip_apk_files), Icons.Default.Android, onNavigateToApkCleanup)
                 }
             }
@@ -218,14 +220,16 @@ fun HomeScreen(
                 Text(stringResource(R.string.home_file_management), style = MaterialTheme.typography.titleMedium)
             }
 
-            item {
-                CleanupCategoryCard(
-                    title = stringResource(R.string.home_category_downloads),
-                    count = 0,
-                    savings = "",
-                    icon = Icons.Default.Download,
-                    onClick = onNavigateToDownloads
-                )
+            if (FeatureAvailability.DOWNLOADS_CLEANUP) {
+                item {
+                    CleanupCategoryCard(
+                        title = stringResource(R.string.home_category_downloads),
+                        count = 0,
+                        savings = "",
+                        icon = Icons.Default.Download,
+                        onClick = onNavigateToDownloads
+                    )
+                }
             }
 
             item {
